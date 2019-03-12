@@ -1,21 +1,43 @@
 # Documentation-SNDS
-Documentation SNDS mise à jour par l'INDS (Institut National des Données de Santé) produit soit par la Cnam, soit par l'INDS, soit par la DREES. 
 
-# Liste des documents
-- Description des Données du SNDS [DRESS - INDS CC BY SA]
-- [Catalogue des données du SNIIRAM](https://github.com/indsante/Documentation-SNDS/raw/master/2015Cnam%20Catalogue%20Donn%C3%A9es%20SNIIRAM.xlsm) datant de 2015 [Cnam - CC BY SA] 
-- [Guide d'accès à la document sur le portail SNDS](https://github.com/indsante/Documentation-SNDS/raw/master/2019INDS%20Trouver%20la%20doc%20sur%20le%20portail%20SNDS.pptx) (ce document est disponible en fichier .md et le fichier source au format /pptx est disponible dans le dossier src) [INDS - CC BY SA]. Documentation visible uniquement sur le portail SNDS nécessitant un accès. Pour une information publique, veuillez vous rendre sur le wiki du [SNIIRAM](http://open-data-assurance-maladie.ameli.fr/wiki-sniiram/index.php). 
+Documentation collaborative du Système National des Données de Santé.
 
-# Utiliser GitHub
-## Récupérer les documents 
-Pour récupérer le dossier ou les documents, cliquer sur le bouton de téléchargement
+# Contributeurs 
 
-![](img/downloadfile.png)
+Les informations de cette documentation sont basées sur des documents et travaux produits par
+- la CNAM
+- l'INDS
+- la DREES
 
-En utilsiant les fonctionnalités de GitHub, le fork ou le clone, vous pouvez obtenir la documentation et proposer des évoutions via une pull request. 
+# Contribuer à la documentation
 
-## Proposer des ressources 
-Pour proposer des ressources, merci de bien vouloir : 
+## Méthodes
+Vous pouvez éditer et contribuer à cette documentation via plusieurs voies. 
+
+### Via le site internet
+
+Après création d'un compte et authentification, il est possible d'éditer le contenu directement depuis le site internet. 
+
+### Via GitHub
+
+L'interface web de GitHub permet également d'éditer le contenu sans quitter votre navigateur.
+
+- Faire un fork du projet
+- Editer des documents dans le dossier `docs/documentation`.
+- Ou ajouter des ressources dans le dossier `.vuepres/public/assets`.
+- Enregistrez vos modifications avec un commit
+- Proposer vos évolutions via une pull-request. 
+
+### Via un développement local
+
+- Cloner le répertoire sur votre poste
+- Installer les modules npm  `yarn install`
+- Démarrer le serveur de développement `yarn docs:dev`
+- Éditer les fichiers du dossier `docs`
+
+## Ajout de ressources
+ 
+Lorsque vous ajoutez des ressources, merci de bien vouloir : 
+- Vérifier que vous avez les droits pour publier cette ressource et y ajouter la licence CC BY SA. 
 - Nommer les fichiers : ANNEE AUTEUR NOM DU FICHIER
 - Ajouter la référence dans le liste du README en mentionnant la licence CC BY SA 
-- Vérifier que vous avez les droits pour publier cette ressource et y ajouter la licence CC BY SA. 
