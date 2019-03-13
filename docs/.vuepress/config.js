@@ -20,7 +20,7 @@ module.exports = {
         nav: [
             {text: 'Documentation', link: '/documentation/'},
             {text: 'Tables', link: '/tables/'},
-            {text: 'Editer', link: '/admin/'},
+            {text: 'Editer', link: '/admin/#/'},
         ],
         sidebar: sidebar,
         sidebarDepth: 0,
