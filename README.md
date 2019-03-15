@@ -1,43 +1,18 @@
-# Documentation-SNDS
+# Documentation du SNDS
 
-Documentation collaborative du Système National des Données de Santé.
+Bienvenue sur le répertoire hébergeant la documentation collaborative du Système National des Données de Santé.
+
+Ce travail est en phase de prototypage. Il est visible à [cette adresse](https://kind-saha-76d463.netlify.com). 
 
 # Contributeurs 
 
-Les informations de cette documentation sont basées sur des documents et travaux produits par
-- la CNAM
-- l'INDS
-- la DREES
+Cette documentation est le fruit d'une mise en commun de documents et travaux par différentes organisations.
 
-# Contribuer à la documentation
+Les contributeurs actuels sont les institutions suivantes :
+- la Caisse nationale d'assurance maladie - [Cnam](https://www.ameli.fr/)
+- l'Institut National des Données de Santé - [INDS](https://www.indsante.fr/)
+- la Direction de la Recherche, des études, de l’évaluation et des statistiques - 
+[DREES](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/la-drees/)
 
-## Méthodes
-Vous pouvez éditer et contribuer à cette documentation via plusieurs voies. 
-
-### Via le site internet
-
-Après création d'un compte et authentification, il est possible d'éditer le contenu directement depuis le site internet. 
-
-### Via GitHub
-
-L'interface web de GitHub permet également d'éditer le contenu sans quitter votre navigateur.
-
-- Faire un fork du projet
-- Editer des documents dans le dossier `docs/documentation`.
-- Ou ajouter des ressources dans le dossier `.vuepres/public/assets`.
-- Enregistrez vos modifications avec un commit
-- Proposer vos évolutions via une pull-request. 
-
-### Via un développement local
-
-- Cloner le répertoire sur votre poste
-- Installer les modules npm  `yarn install`
-- Démarrer le serveur de développement `yarn docs:dev`
-- Éditer les fichiers du dossier `docs`
-
-## Ajout de ressources
- 
-Lorsque vous ajoutez des ressources, merci de bien vouloir : 
-- Vérifier que vous avez les droits pour publier cette ressource et y ajouter la licence CC BY SA. 
-- Nommer les fichiers : ANNEE AUTEUR NOM DU FICHIER
-- Ajouter la référence dans le liste du README en mentionnant la licence CC BY SA 
+Toute nouvelle contribution est bienvenue. 
+Se référer au [guide](https://kind-saha-76d463.netlify.com/documentation/contribuer.html). 

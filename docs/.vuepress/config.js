@@ -8,6 +8,7 @@ const sidebar = {
         '/documentation/portail_sniiram',
         '/documentation/ressources',
         '/documentation/bibliographie',
+        '/documentation/contribuer'
     ],
 };
 
@@ -20,10 +21,10 @@ module.exports = {
         nav: [
             {text: 'Documentation', link: '/documentation/'},
             {text: 'Tables', link: '/tables/'},
-            {text: 'Editer', link: '/admin/#/'},
+            {text: 'Editer', link: '/admin/'},
         ],
         sidebar: sidebar,
-        sidebarDepth: 0,
+        sidebarDepth: 2,
         lastUpdated: 'Last Updated'
     }
 }
