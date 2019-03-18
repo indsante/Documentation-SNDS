@@ -54,23 +54,36 @@ L'enchaînement des commits représente l'[historique](https://github.com/indsan
 Le site web de la documentation publie la branche principale, appelée `master`. 
 Les branches de travail sont nommées selon l'objet des modifications apportées. 
 
-Par défaut, une branche est réservée à son auteur initial pour éviter les conflits d'édition. Se mettre sinon d'accord, par exemple lors de relectures.
-
-- `pull-request` : Les pull-request permettent d'intégrer une branche de travail dans la branche principale.
+- `pull-request` : Les pull-request (PR) permettent d'intégrer une branche de travail dans la branche principale.
  
-Les modifications seront discutées et validées avant d'être publiées.
+Les modifications seront discutées et validées avant d'être publiées.  
+Pour cela, les relecteurs commenteront directement chaque ligne dans l'onglet *Files changed*, ou la PR dans son ensemble dans l'onglet *Conversation*. 
 
-D'éventuels conflits d'éditions sont gérés par les mainteneurs. Pour limiter ces conflits, le principe est d'intégrer rapidement les modifications. Proposez plutôt plusieurs petites contributions, simples à valider, que des grosses contributions qui demanderont plus de travail.
+Par défaut, seul l'auteur initial enregistre de nouveaux commits sur sa branche. Si un relecteur souhaite ajouter des commits plutôt que des commentaires, il en demande d'abord le droit à l'auteur afin d'éviter des conflits d'édition.
+
+Lors de l'intégration d'une PR à la branche master, d'éventuels conflits d'éditions sont gérés par les mainteneurs. Pour limiter ces conflits, le principe est d'éviter la divergence des branches de travail, en les intégrant rapidement à la branche master. On découpera donc plutôt sur les contributions en petit morceaux cohérents, rapides à valider et intégrer.
 
 ### Édition avec github.com
 
 La solution la plus simple pour éditer la documentation est d'utiliser le site web github.com.
 
-Les fichiers se trouvent dans le dossier [docs/documentation](https://github.com/indsante/Documentation-SNDS/tree/master/docs/documentation). Pour éditer un fichier, ouvrir l'interface d'édition symbolisée par un crayon.
+**1- Ouvrir le fichier en édition**
+
+En  bas de chaque page de la documentation se trouve un lien, vous invitant à éditer le fichier sur github.
+
+<p style="text-align:center;">
+<img src="/assets/img/tutoriel_github/editer_sur_github.png" alt="Éditer sur GitHub" width="200"/>
+</p>
+
+
+Vous pouvez aussi naviguer dans les fichiers du dossier [docs/documentation](https://github.com/indsante/Documentation-SNDS/tree/master/docs/documentation), et  ouvrir l'interface d'édition symbolisée par un crayon.
 
 <p style="text-align:center;">
 <img src="/assets/img/tutoriel_github/edition.png" alt="interface edition" width="300"/>
 </p>
+
+
+**2- Enregistrer les modifications**
 
 Un formulaire en bas de page permet d'enregistrez vos modifications dans un commit. Remplissez une description concise des modifications, et choississez le nom de la branche de travail.
 
@@ -79,13 +92,16 @@ Un formulaire en bas de page permet d'enregistrez vos modifications dans un comm
 </p>
 
 
-GitHub vous propose alors directement d'ouvrir une pull-request. Indiquer des détails complémentaire nécessaires à la relecture.
+**3- Ouverture d'une pull-request**
+GitHub vous propose alors directement d'ouvrir une pull-request. Indiquer des détails complémentaires nécessaires à la relecture.
 
 <p style="text-align:center;">
 <img src="/assets/img/tutoriel_github/pull_request.png" alt="pull-request" width="600"/>
 </p>
 
-Tant qu'elle n'a pas été fusionnée dans la branche principale, il est possible d'ajouter des commit à une une pull-request. Il faut pour cela sélectionner la branche correspondante.
+**4- Ajouter des commits sur une branche existante**
+
+Il est possible d'ajouter des commit à une pull-request ouverte. Il suffit pour cela de sélectionner la branche correspondante et d'enregistrer de nouveaux commits.
 
 <p style="text-align:center;">
 <img src="/assets/img/tutoriel_github/switch_branch.png" alt="changer branche" width="400"/>
@@ -96,11 +112,11 @@ Tant qu'elle n'a pas été fusionnée dans la branche principale, il est possibl
 Vous pouvez aussi modifier les fichiers sur vos ordinateurs, avec votre éditeur de texte préféré, puis envoyer vos modifications à GitHub. 
 
 Les développeurs font cela en routine lorsqu'ils développent du code informatique. 
-Le programme [GitHub Desktop](https://desktop.github.com/) simplifie la gestion des commits, branches et pull-request, sans nécessiter d'écrire des commandes dans une console.
+En installant [GitHub Desktop](https://desktop.github.com/), vous pourrez créer vos commits, branches et pull-request directement depuis votre ordinateur et sans ligne de commande.
 
 ### Markdown
 
-La documentation est rédigé en texte brut, avec des balises de mise en forme selon le standard **Markdown**. Voici un mémo sur les balises les plus courantes ([exemples supplémentaires](https://fr.wikipedia.org/wiki/Markdown#Quelques_exemples)).
+La documentation est rédigéd en texte brut, avec des balises **Markdown** pour la mise en forme. Voici les balises les plus courantes de ce standard, des exemples supplémentaires sur [wikipedia](https://fr.wikipedia.org/wiki/Markdown#Quelques_exemples).
 
 #### Titres
  

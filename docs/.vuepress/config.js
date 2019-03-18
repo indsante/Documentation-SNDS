@@ -16,15 +16,16 @@ module.exports = {
     title: 'Documentation du SNDS',
     description: "Projet collaboratif pour documenter et faciliter l'utilisation du SNDS",
     themeConfig: {
-        docsDir: 'docs',
         repo: 'indsante/Documentation-SNDS',
+        docsDir: 'docs',
+        editLinks: true,
+        editLinkText: 'Éditer sur GitHub',
         nav: [
             {text: 'Documentation', link: '/documentation/'},
             {text: 'Tables', link: '/tables/'},
-            {text: 'Editer', link: '/admin/'},
         ],
         sidebar: sidebar,
         sidebarDepth: 2,
-        lastUpdated: 'Last Updated'
+        lastUpdated: 'Dernière mise à jour'
     }
 }
