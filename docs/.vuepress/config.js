@@ -8,6 +8,7 @@ const sidebar = {
         '/documentation/portail_sniiram',
         '/documentation/ressources',
         '/documentation/bibliographie',
+        '/documentation/contribuer'
     ],
 };
 
@@ -15,15 +16,16 @@ module.exports = {
     title: 'Documentation du SNDS',
     description: "Projet collaboratif pour documenter et faciliter l'utilisation du SNDS",
     themeConfig: {
-        docsDir: 'docs',
         repo: 'indsante/Documentation-SNDS',
+        docsDir: 'docs',
+        editLinks: true,
+        editLinkText: 'Éditer sur GitHub',
         nav: [
             {text: 'Documentation', link: '/documentation/'},
             {text: 'Tables', link: '/tables/'},
-            {text: 'Editer', link: '/admin/#/'},
         ],
         sidebar: sidebar,
-        sidebarDepth: 0,
-        lastUpdated: 'Last Updated'
+        sidebarDepth: 2,
+        lastUpdated: 'Dernière mise à jour'
     }
 }
