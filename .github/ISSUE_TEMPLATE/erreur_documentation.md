@@ -1,7 +1,7 @@
 ---
-name: Signalement d'une erreur
-about: Signaler une errreur dans la documentation pour la faire corriger
-title: Erreur : <titre de l'erreur>
+name: "Signaler une erreur"
+about: "Signaler une errreur dans la documentation pour la faire corriger"
+title: "Erreur : <titre de l'erreur>"
 labels: ''
 assignees: ''
 
