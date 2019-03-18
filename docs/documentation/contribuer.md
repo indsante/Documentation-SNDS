@@ -6,7 +6,8 @@ La documentation du SNDS est hébergée sur [GitHub](https://github.com/indsante
 
 GitHub est une plateforme très riche, d'abord conçue pour collaborer sur du code informatique. 
 
-Son premier abord peut être effrayant, d'autant plus que l'interface n'est disponible qu'en anglais. Cette page vous guidera pour contribuer au projet, des aspects les plus simples aux plus avancés.
+Son premier abord peut être effrayant, d'autant plus que l'interface n'est disponible qu'en anglais. Cette page vous guidera pour contribuer au projet, des aspects les plus simples aux plus avancés.    
+Un cours plus large sur GitHub est disponible dans [cette formation en ligne sur le site OpenClassrooms](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github).
 
 ## Canaux de contributions
 ### Email
@@ -116,7 +117,10 @@ En installant [GitHub Desktop](https://desktop.github.com/), vous pourrez créer
 
 ### Markdown
 
-La documentation est rédigéd en texte brut, avec des balises **Markdown** pour la mise en forme. Voici les balises les plus courantes de ce standard, des exemples supplémentaires sur [wikipedia](https://fr.wikipedia.org/wiki/Markdown#Quelques_exemples).
+La documentation est rédigée en texte brut. 
+La mise en forme est indiquée par des balises **Markdown**. 
+Nous présentons ici les balises les plus courantes de ce standard. 
+Voir aussi la page [wikipedia](https://fr.wikipedia.org/wiki/Markdown#Quelques_exemples) ou ce [mémo complet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 #### Titres
  
