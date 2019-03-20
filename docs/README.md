@@ -10,7 +10,7 @@ features:
 - title: Découverte
   details: Ce site contient des tutoriels sur différents sujets
 
-- title: Approffondissement
+- title: Approfondissement
   details: Le dictionnaire des produits, tables et variables permet d'aller chercher des informations détaillées
  
 footer: XXX Licenced | Copyright © 2019-present YYY
