@@ -16,3 +16,8 @@ Les contributeurs actuels sont les institutions suivantes :
 
 Toute nouvelle contribution est bienvenue. 
 Se référer au [guide](https://kind-saha-76d463.netlify.com/documentation/contribuer.html). 
+
+# Licence
+
+Ce dépôt est publié par l'Institut National des Données de Santé sous
+licence Mozilla Public License 2.0.  Voir le fichier `LICENSE`.
