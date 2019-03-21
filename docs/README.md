@@ -13,6 +13,6 @@ features:
 - title: Approfondissement
   details: Le dictionnaire des produits, tables et variables permet d'aller chercher des informations détaillées
  
-footer: XXX Licenced | Copyright © 2019-present YYY
+footer: MPL-2.0 Licensed | 2019-present Institut National des Données de Santé
 title: Page d'accueil
 ---

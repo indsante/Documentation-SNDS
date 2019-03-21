@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+
 # Données du SNDS
 
 Le Système National des Données de Santé (SNDS) géré par la Caisse Nationale d’Assurance Maladie (CNAM) a été instauré par l’article 193 de la loi de modernisation de notre système de santé en 2016. Il contient, actuellement :

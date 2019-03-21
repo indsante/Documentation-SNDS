@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+
 # Guide documentation portail SNIIRAM
 
 Cette documentation est visible sur le [portail SNIIRAM](portail.sniiram.amelie.fr), qui nécessite un accès. 
