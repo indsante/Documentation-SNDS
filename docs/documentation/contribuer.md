@@ -1,6 +1,5 @@
-<!-- SPDX-License-Identifier: MPL-2.0 -->
-
 # Contribuer
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Bienvenue sur le guide de contribution !
 

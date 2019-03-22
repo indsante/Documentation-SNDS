@@ -1,6 +1,5 @@
-<!-- SPDX-License-Identifier: MPL-2.0 -->
-
 # Ressources
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Ressources mises à disposition
 

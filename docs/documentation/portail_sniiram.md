@@ -1,6 +1,5 @@
-<!-- SPDX-License-Identifier: MPL-2.0 -->
-
 # Guide documentation portail SNIIRAM
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 
 > [Télécharger le fichier d'origine](/assets/src/2019INDS_Trouver_la_doc_sur_le_portail_SNDS.pptx) [INDS - CC BY SA].
@@ -20,5 +19,3 @@ Pour une information publique, veuillez vous rendre sur le [wiki SNIIRAM](http:/
 
 ## Autre source d'information : les forums
 ![](/assets/img/2019INDS_Trouver_la_doc_sur_le_portail_SNDS/Diapositive4.jpeg)
-
-**2019 - INDS [CC BY SA]**
