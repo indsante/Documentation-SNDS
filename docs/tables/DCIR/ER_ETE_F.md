@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## ER_ETE_F
 
 - Valeurs manquantes : `""`

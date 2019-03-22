@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## ER_TRS_F
 
 - Valeurs manquantes : `""`

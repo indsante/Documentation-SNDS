@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## ER_BIO_F
 
 - Valeurs manquantes : `""`

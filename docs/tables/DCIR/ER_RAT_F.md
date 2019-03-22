@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## ER_RAT_F
 
 - Valeurs manquantes : `""`

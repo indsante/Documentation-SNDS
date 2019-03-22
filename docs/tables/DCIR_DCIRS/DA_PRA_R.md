@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## DA_PRA_R
 
 - Valeurs manquantes : `""`

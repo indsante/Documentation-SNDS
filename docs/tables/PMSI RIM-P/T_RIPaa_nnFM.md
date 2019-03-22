@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## T_RIPaa_nnFM
 
 - Valeurs manquantes : `""`

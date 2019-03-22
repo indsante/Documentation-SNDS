@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## NS_RAT_F
 
 - Valeurs manquantes : `""`

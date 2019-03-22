@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## NS_UCD_F
 
 - Valeurs manquantes : `""`

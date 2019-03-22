@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## KI_ECD_R
 
 - Valeurs manquantes : `""`

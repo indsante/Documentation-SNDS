@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## IR_IMB_R
 
 - Valeurs manquantes : `""`

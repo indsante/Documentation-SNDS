@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## ER_ANO_F
 
 - Valeurs manquantes : `""`

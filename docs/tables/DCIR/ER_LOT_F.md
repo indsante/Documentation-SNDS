@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## ER_LOT_F
 
 - Valeurs manquantes : `""`

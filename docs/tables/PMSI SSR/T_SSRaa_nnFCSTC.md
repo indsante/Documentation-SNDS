@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## T_SSRaa_nnFCSTC
 
 - Valeurs manquantes : `""`

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## T_MCOaa_nnFH
 
 - Valeurs manquantes : `""`

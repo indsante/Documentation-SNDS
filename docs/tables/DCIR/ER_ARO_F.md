@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## ER_ARO_F
 
 - Valeurs manquantes : `""`

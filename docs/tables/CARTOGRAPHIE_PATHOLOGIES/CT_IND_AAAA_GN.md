@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## CT_IND_AAAA_GN
 
 - Valeurs manquantes : `""`

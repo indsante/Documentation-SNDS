@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 ## NS_BIO_F
 
 - Valeurs manquantes : `""`
