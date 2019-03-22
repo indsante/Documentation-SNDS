@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+
 # Bibliography
 
 - P. Tuppin, J. Rudant, P. Constantinou, C. Gastaldi-Ménager, A. Rachas, L. de Roquefeuil, G. Maura, H. Caillol, A. Tajahmady, J. Coste, C. Gissot, A. Weill, A. Fagot-Campagna, Value of a national administrative database to guide public decisions: From the système national d’information interrégimes de l’Assurance Maladie (SNIIRAM) to the système national des données de santé (SNDS) in France, Revue d'Épidémiologie et de Santé Publique, Volume 65, Supplement 4, 2017, Pages S149-S167, ISSN 0398-7620, [url](https://doi.org/10.1016/j.respe.2017.05.004)
