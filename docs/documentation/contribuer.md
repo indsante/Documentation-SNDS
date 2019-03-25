@@ -184,8 +184,8 @@ Les développeurs peuvent lancer une version locale du site internet avec les co
 Voici les principaux emplacements à éditer
 
 - `docs/documentation` : fichiers de documentation
-- `.vuepres/public/assets` : ressources fichiers ou images
-- `.vuepress/config.js` : configuration du site, notamment des barres de navigation 
+- `docs/.vuepress/public/assets` : ressources fichiers ou images
+- `docs/.vuepress/config.js` : configuration du site, notamment des barres de navigation 
 
 ## Ajout de nouveaux fichiers
 
