@@ -1,8 +1,21 @@
 # Documentation du SNDS
 
-Bienvenue sur ce dépôt hébergeant la documentation collaborative du Système National des Données de Santé.
+Bienvenue sur ce dépôt hébergeant une documentation collaborative du Système National des Données de Santé.
 
 Ce travail est en phase de prototypage. Il est visible à l'adresse [documentation-snds.health-data-hub.fr](https://documentation-snds.health-data-hub.fr). 
+
+## Contributeurs 
+
+Cette documentation est maintenue par l'INDS, avec l'aide de la DREES.
+
+Elle résulte d'une mise en commun de documents et travaux par plusieurs organisations :
+- la Caisse nationale d'assurance maladie - [Cnam](https://www.ameli.fr/)
+- l'Institut National des Données de Santé - [INDS](https://www.indsante.fr/)
+- la Direction de la Recherche, des études, de l’évaluation et des statistiques - 
+[DREES](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/la-drees/)
+
+Toute nouvelle contribution est bienvenue, 
+se référer pour cela au [guide en ligne](https://documentation-snds.health-data-hub.fr/documentation/contribuer.html). 
 
 ## Organisation du dépôt
 
@@ -19,20 +32,7 @@ contient les images et documents partagés, respectivement dans les sous-dossier
 permet de configurer VuePress, notamment la navigation.
 - Le dossier [docs/table](https://github.com/indsante/Documentation-SNDS/tree/master/docs/tables/) 
 contient la description des tables et variables. 
-Ces données sont générées automatiquement depuis le [schema-snds](https://github.com/indsante/schema-snds/) 
-
-## Contributeurs 
-
-Cette documentation est le fruit d'une mise en commun de documents et de travaux par différentes organisations.
-
-Les contributeurs actuels sont les institutions suivantes :
-- la Caisse nationale d'assurance maladie - [Cnam](https://www.ameli.fr/)
-- l'Institut National des Données de Santé - [INDS](https://www.indsante.fr/)
-- la Direction de la Recherche, des études, de l’évaluation et des statistiques - 
-[DREES](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/la-drees/)
-
-Toute nouvelle contribution est bienvenue, 
-se référer pour cela au [guide en ligne](https://documentation-snds.health-data-hub.fr/documentation/contribuer.html). 
+Ces données sont générées automatiquement depuis le [schema-snds](https://github.com/indsante/schema-snds/)
 
 ## Licence
 
