@@ -2,7 +2,7 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 
-> [Télécharger le fichier d'origine](/assets/src/2019INDS_Trouver_la_doc_sur_le_portail_SNDS.pptx) [INDS - CC BY SA].
+> [Télécharger le fichier d'origine](/assets/src/2019_INDS_Trouver-la-doc-sur-le-portail-SNDS_MPL-2.0.pptx) [INDS - MPL-2.0].
 
 Cette documentation est visible sur le [portail SNIIRAM](portail.sniiram.amelie.fr), qui nécessite un accès. 
 

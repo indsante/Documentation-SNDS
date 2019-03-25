@@ -30,5 +30,3 @@ Les principales informations du SNDS sont :
 	- Séjours hospitaliers
 	- Indemnités journalières (maladie, ATMP, maternité) et invalidité
 - Causes médicales de décès
-
-**2019 - DREES / INDS [CC BY SA]**
