@@ -7,29 +7,30 @@ La documentation du SNDS est hébergée sur [GitHub](https://github.com/indsante
 
 GitHub est une plateforme très riche, d'abord conçue pour collaborer sur du code informatique. 
 
-Son premier abord peut être effrayant, d'autant plus que l'interface n'est disponible qu'en anglais. Cette page vous guidera pour contribuer au projet, des aspects les plus simples aux plus avancés.    
-Un cours plus large sur GitHub est disponible dans [cette formation en ligne sur le site OpenClassrooms](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github).
+Son premier abord peut être effrayant, d'autant plus que l'interface n'est disponible qu'en anglais. Cette page vous guidera pour contribuer au projet, des aspects les plus simples aux plus avancés.
+
+Une formation générale sur GitHub est disponible [sur le site OpenClassrooms](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github).
 
 ## Canaux de contributions
 ### Email
 
 Le canal le plus simple pour contribuer est d'écrire un email aux mainteneurs du projet
-([lien](mailto:olivier.defresnoye@indsante.fr,pierre-alain.jachiet@sante.gouv.fr?subject=[documentation-snds]%20Titre)). 
+([lien](mailto:olivier.defresnoye@indsante.fr,ld-lab-github@sante.gouv.fr?subject=[documentation-snds]%20Titre)). 
 
 Ils se chargeront d'intégrer votre contribution, via une "issue" ou une "pull-request".  
 Merci de structurer votre proposition en commençant par une description succinte.
 
 Les mainteneurs actuels sont :
-- Pierre-Alain Jachiet - DREES <<pierre-alain.jachiet@sante.gouv.fr>>
+- Lab santé - DREES <<ld-lab-github@sante.gouv.fr>>
 - Olivier de Fresnoye - INDS <<olivier.defresnoye@indsante.fr>>
 
 ### Issues
 
-En créant un compte sur github.com, vous pourrez utiliser le système de tickets appelés **issues**, accessible dans cet 
+En créant un compte sur github.com, vous pourrez utiliser le système de tickets appelés **issues**, dans cet 
 [onglet](https://github.com/indsante/Documentation-SNDS/issues). 
 
 Les issues sont le canal à privilégier pour remonter une erreur ou proposer une idée.  
-Chaque issue est l'occasion d'une discussion ouverte pour résoudre le "problème" évoqué.
+Chaque issue est l'occasion d'une discussion ouverte pour résoudre le problème évoqué.
 
 ### Pull-Request
 
@@ -37,7 +38,7 @@ GitHub permet à chacun de proposer des modifications via des **pull-request**, 
 [onglet](https://github.com/indsante/Documentation-SNDS/pulls). 
 
 Une formation est préférable pour manipuler facilement les pull-request. 
-Contacter nous pour organiser une rapide formation à distance ou lors d'une réunion physique. N'hésitez pas ! 
+Contacter nous pour organiser une formation, à distance ou lors d'une réunion physique. N'hésitez pas ! 
 
 Nous proposons ci-dessous un bagage technique minimal pour les autodidactes.
 
@@ -157,7 +158,7 @@ Pour ajouter un lien, mettre son texte entre crochets, suivi du lien entre paren
 [texte du lien](http://www.monlien.fr)
 ```
 
-Pour un lien vers un fichier interne au projet, indiquer le chemin relatif depuis le dossier 
+Pour un lien vers un fichier interne au projet, indiquer le chemin relatif depuis le dossier _caché_
 [docs/.vuepress/public](https://github.com/indsante/Documentation-SNDS/tree/master/docs/.vuepress/public).
 
 ```
@@ -186,9 +187,55 @@ Voici les principaux emplacements à éditer
 - `.vuepres/public/assets` : ressources fichiers ou images
 - `.vuepress/config.js` : configuration du site, notamment des barres de navigation 
 
-### Ajout de ressources
+## Ajout de nouveaux fichiers
 
-Lorsque vous ajoutez des ressources, merci de bien vouloir : 
-- Vérifier que vous avez les droits pour publier cette ressource et y ajouter la licence CC BY SA. 
-- Nommer les fichiers : ANNEE AUTEUR NOM DU FICHIER
-- Ajouter la référence dans le liste du README en mentionnant la licence CC BY SA 
+Ne pas hésiter à demander de l'aide pour ces opérations. 
+
+### Nouvelle page de documentation - texte
+
+Les fichiers de documentation textuels sont stockés dans le dossier [docs/documentation](https://github.com/indsante/Documentation-SNDS/tree/master/docs/documentation).
+
+Pour créer une nouvelle page de documentation, copier le contenu du modèle présent dans le fichier `modele_markdown.md`.
+
+Pour que votre nouvelle page apparaisse dans le menu de navigation, 
+il faut l'ajouter dans la variable `sidebar` du fichier de configuration 
+[docs/.vuepress/config.js](https://github.com/indsante/Documentation-SNDS/tree/master/docs/.vuepress/config.js). 
+
+### Nouveau fichier non textuel
+
+Des fichiers dans un format non textuel peuvent être partagés dans la documentation collaborative. 
+Ils seront mis à disposition via un lien de téléchargement.
+
+Note : Préférer tant que possible des pages de documentation textuelles. 
+Elle permettent de collaborer efficacement via GitHub pour les améliorer. 
+De plus, elles sont directement lisible dans le navigateur, sans téléchargement qui est un frein à la consultation.
+
+Pour ajoutez un nouveau fichier, merci de bien vouloir : 
+- Vérifier que vous avez les droits pour le publier 
+- Ajouter l'identifiant de licence `MLP-2.0` _dans_ le document, au début
+- Le nommer selon le format `date`_`auteur`_`nom-du-fichier`_MPL-2.0.`extension`
+    - `date` : a minima l'année, éventuellement le mois et le jour, au format AAAA-MM-JJ 
+    - `auteur` : nom court de l'organisation détentrice des droits sur le document
+    - `nom-du-fichier` : de préférence sans espace
+    - `extension` : par exemple `.csv`, `.pdf`, `.odp`. Préférer des formats interopérables ouverts.
+- L'ajouter dans le dossier _caché_ [docs/.vuepress/public/assets/src](https://github.com/indsante/Documentation-SNDS/tree/master/docs/.vuepress/public/assets/src).
+- Ajouter un lien dans la page `docs/documentation/ressources.md`, en mentionnant la licence MPL-2.0
+
+### Nouvelle image
+
+Les images sont stockées dans le dossier _caché_ [docs/.vuepress/public/assets/img](https://github.com/indsante/Documentation-SNDS/tree/master/docs/.vuepress/public/assets/img). 
+
+Vous pouvez afficher une image dans une page de documentation via un lien hypertexte (cf section [Markdown](#markdown)).
+
+Si une image provient d'un document tierce, par exemple une présentation powerpoint :
+- Enregistrer ce fichier pour permettre des évolutions de l'image (cf section précédente).
+- Mettre la ou les images issue du document dans un sous-dossier du même nom. 
+Voici un exemple d'arborescence obtenue sous le dossier`docs/.vuepress/public`:
+    - assets
+        - img
+            - **2019_INDS_trouver-la-doc-sur-le-portail-snds_MPL-2.0**
+              - image1.png
+              - image2.png
+        - src
+            - **2019_INDS_trouver-la-doc-sur-le-portail-snds_MPL-2.0**.pptx
+
