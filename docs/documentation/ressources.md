@@ -3,7 +3,7 @@
 
 Ressources mises à disposition
 
-- [Catalogue des données du SNIIRAM](/assets/src/2015Cnam_Catalogue_Données_SNIIRAM_CnamCCBYSA.xlsm) datant de 2015 [Cnam - CC BY SA] 
+- [Catalogue des données du SNIIRAM](/assets/src/2015_Cnam_Catalogue-donnees-SNIIRAM_MPL-2.0.xlsm) datant de 2015 [Cnam - MPL-2.0] 
 
 
 # Autres ressources en ligne

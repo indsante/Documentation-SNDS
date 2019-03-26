@@ -1,6 +1,7 @@
 {
   "name": "documentation-snds",
   "description": "Documentation collaborative du SNDS",
+  "license": "MPL-2.0",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
