@@ -8,7 +8,7 @@ Ce travail est en phase de prototypage, via [ce dépôt GitHub](https://github.c
 
 ## Contributeurs 
 
-Cette documentation est maintenue par l'INDS, avec l'aide du Lab santé à la DREES.
+Cette documentation sous licence ouverte est maintenue par l'INDS, avec l'aide du Lab santé à la DREES.
 
 Elle résulte d'une mise en commun de documents et travaux par plusieurs organisations :
 - la Caisse nationale d'assurance maladie - [Cnam](https://www.ameli.fr/)
@@ -25,7 +25,7 @@ se référer pour cela au [guide de contribution](/documentation/contribuer.html
 Les documents partagés sont listés et téléchargeables dans la page [ressources](/documentation/ressources). 
 Nous collectons actuellement de nouveaux documents produits par différents organismes.
 
-Le contenu de ces documents sera ensuite organisé dans des pages textuelles de documentations. 
+Le contenu de ces documents sera ensuite organisé dans des pages textuelles. 
 
 Nous envisageons 2 formats :
 - des tutoriels sur différentes entrées, qui peuvent se lire linéairement
