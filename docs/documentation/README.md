@@ -27,8 +27,8 @@ Nous collectons actuellement de nouveaux documents produits par différents orga
 
 Le contenu de ces documents sera ensuite organisé dans des pages textuelles de documentations. 
 
-Nous envisageons 2 formes :
-- des guides sur différentes entrées, qui peuvent se lire linéairement
+Nous envisageons 2 formats :
+- des tutoriels sur différentes entrées, qui peuvent se lire linéairement
 - de l'information précise sur des objets, qui s'explore par des liens ou le moteur de recherche 
 
 La partie [table](/tables) a pour vocation de présenter l'ensemble des produits, tables et variables du SNDS. 
