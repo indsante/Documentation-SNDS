@@ -16,19 +16,19 @@ Elle résulte d'une mise en commun de documents et travaux par plusieurs organis
 - la Direction de la Recherche, des études, de l’évaluation et des statistiques - 
 [DREES](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/la-drees/)
 
-Toute nouvelle contribution est bienvenue, 
-se référer pour cela au [guide en ligne](https://documentation-snds.health-data-hub.fr/documentation/contribuer.html). 
+Toute nouvelle contribution est bienvenue,
+se référer pour cela au [guide de contribution](/documentation/contribuer.html). 
 
 
 ## Organisation la documentation
 
-Les documents partagés sont listés et téléchargeable dans la page [ressources](/documentation/ressources). 
+Les documents partagés sont listés et téléchargeables dans la page [ressources](/documentation/ressources). 
 Nous collectons actuellement de nouveaux documents produits par différents organismes.
 
 Le contenu de ces documents sera ensuite organisé dans des pages textuelles de documentations. 
 
 Nous envisageons 2 formes :
-- des guides sur différents entrées, qui peuvent se lire linéairement
+- des guides sur différentes entrées, qui peuvent se lire linéairement
 - de l'information précise sur des objets, qui s'explore par des liens ou le moteur de recherche 
 
 La partie [table](/tables) a pour vocation de présenter l'ensemble des produits, tables et variables du SNDS. 
@@ -39,4 +39,5 @@ Elle est produite a partir du [schema formalisé du SNDS](https://gitlab.com/SND
 ## Licence
 
 Ce dépôt est publié par l'Institut National des Données de Santé sous
-licence Mozilla Public License 2.0.  Voir le fichier `LICENSE`.
+licence Mozilla Public License 2.0.  
+Voir le fichier [LICENSE](https://github.com/indsante/Documentation-SNDS/blob/master/LICENSE).
