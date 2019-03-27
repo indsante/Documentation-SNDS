@@ -4,11 +4,11 @@ heroImage: assets/img/logoSNDS.jpg
 actionText: Aller au contenu →
 actionLink: /documentation/
 features:
-- title: Documentation collaborative 
-  details: Vous pouvez éditer et corriger le contenu de chacune des pages
+- title: Partage de documents
+  details: Dépôt et téléchargement de documents produits par diverses organisations
 
-- title: Découverte
-  details: Ce site contient des tutoriels sur différents sujets
+- title: Documentation collaborative
+  details: Les informations seront réorganisées dans des pages textuelles, facilitant la collabor   ation
 
 - title: Approfondissement
   details: Le dictionnaire des produits, tables et variables permet d'aller chercher des informations détaillées
@@ -18,3 +18,10 @@ title: Page d'accueil
 ---
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
+
+## Dictionnaire du SNDS
+
+Un dictionnaire interactif du SNDS est également accessible à l'adresse 
+[dico-snds.health-data-hub.fr/](http://dico-snds.health-data-hub.fr/)
+
+![dico-snds.health-data-hub.fr/](/assets/img/dico_snds.png)
