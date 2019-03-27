@@ -1,4 +1,4 @@
-# Guide documentation portail SNIIRAM
+# Accèder à la documentation sur le portail SNIIRAM
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 

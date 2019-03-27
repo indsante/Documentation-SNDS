@@ -4,11 +4,11 @@ const sidebar = {
     '/tables/': tables_sidebar,
     '/': [
         '/documentation/',
+        '/documentation/contribuer',
         '/documentation/donnees',
-        '/documentation/portail_sniiram',
         '/documentation/ressources',
+        '/documentation/portail_sniiram',
         '/documentation/bibliographie',
-        '/documentation/contribuer'
     ],
 };
 
