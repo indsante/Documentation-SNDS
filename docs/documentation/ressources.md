@@ -33,14 +33,14 @@ qui alimente le dictionnaire interactif, et la partie [table](/tables) de cette 
 
 [Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/259764548/)
 
-- Documentation ouverte du SNDS sur GitHub 
+- Documentation ouverte du SNDS sur GitHub ([documentation-snds.health-data-hub.fr](https://documentation-snds.health-data-hub.fr/))
     - Présenté par Anne Cuerq de l'INDS et Pierre-Alain Jachiet de la DREES
     - Support de présentation
     [GSlides](https://docs.google.com/presentation/d/1WvC4879Exta3Iv5vT9p-aHdzEjl4vy4ElymcNYWDXCQ/edit#slide=id.g54f4ce99ab_0_5),
     [pdf](/assets/src/presentations/meetup-snds1/2019.03.27_INDS_DREES_Documentation_SNDS_MPL-2.0.pdf),
     [enregistement]()
     
-- Dictionnaire interactif des variables du SNDS 
+- Schéma formel et Dictionnaire interactif du SNDS ([dico-snds.health-data-hub.fr](http://dico-snds.health-data-hub.fr/))
     - Présenté par Matthieu Doutreligne et Vitkor Jarry de la DREES
     - Support de présentation
     [GSlides](https://docs.google.com/presentation/d/1XMGUJKcxy1zqfII-EtQDbmR2tljj6A8NIyEiEKJmz-Q/edit#slide=id.g54533cc6ad_0_0), 
