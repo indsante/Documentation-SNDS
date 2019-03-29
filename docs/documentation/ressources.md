@@ -38,18 +38,18 @@ qui alimente le dictionnaire interactif, et la partie [table](/tables) de cette 
     - Support de présentation
     [GSlides](https://docs.google.com/presentation/d/1WvC4879Exta3Iv5vT9p-aHdzEjl4vy4ElymcNYWDXCQ/edit#slide=id.g54f4ce99ab_0_5),
     [pdf](/assets/src/presentations/meetup-snds1/2019.03.27_INDS_DREES_Documentation_SNDS_MPL-2.0.pdf),
-    [enregistement]()
+    [enregistement (à venir)]()
     
 - Schéma formel et Dictionnaire interactif du SNDS ([dico-snds.health-data-hub.fr](http://dico-snds.health-data-hub.fr/))
     - Présenté par Matthieu Doutreligne et Vitkor Jarry de la DREES
     - Support de présentation
     [GSlides](https://docs.google.com/presentation/d/1XMGUJKcxy1zqfII-EtQDbmR2tljj6A8NIyEiEKJmz-Q/edit#slide=id.g54533cc6ad_0_0), 
     [pdf](/assets/src/presentations/meetup-snds1/2019.03.27_DREES_schema_dico_snds_MPL-2.0.pdf),
-    [enregistement]()
+    [enregistement (à venir)]()
 
 - Appariements entre les cohortes et le SNDS - zoom sur un cas concret
     - Présenté par Mehdi Gabbas et Brice Dufresne de la CNAM
     - Support de présentation
      [pptx](/assets/src/presentations/meetup-snds1/2019.03.27_CNAM_Possibilités_Appariement_SNDS_MPL-2.0.pptx) ,
     [pdf](/assets/src/presentations/meetup-snds1/2019.03.27_CNAM_Possibilités_Appariement_SNDS_MPL-2.0.pdf),
-    [enregistement]()
+    [enregistement (à venir)]()
