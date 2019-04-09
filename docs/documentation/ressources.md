@@ -4,7 +4,7 @@
 ## Documents partagés sur cette documentation
 
 - [Catalogue des données du SNIIRAM](/assets/src/2015_Cnam_Catalogue-donnees-SNIIRAM_MPL-2.0.xlsm) datant de 2015 [Cnam - MPL-2.0] 
-- [Historique des données SNDS](/assets/src/2019_INDS_Historique des données SNDS.pptx) - [INDS - MPL-2.0]
+- [Historique des données SNDS](/assets/src/2019_INDS_Historique-des-données-SNDS.pptx) - [INDS - MPL-2.0]
 
 
 ## Autres ressources disponibles en ligne

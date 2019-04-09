@@ -216,7 +216,7 @@ Pour ajoutez un nouveau fichier, merci de bien vouloir :
 - Le nommer selon le format `date`_`auteur`_`nom-du-fichier`_MPL-2.0.`extension`
     - `date` : a minima l'année, éventuellement le mois et le jour, au format AAAA-MM-JJ 
     - `auteur` : nom court de l'organisation détentrice des droits sur le document
-    - `nom-du-fichier` : de préférence sans espace
+    - `nom-du-fichier` : sans espace, car les liens devront sinon utiliser `%20`
     - `extension` : par exemple `.csv`, `.pdf`, `.odp`. Préférer des formats interopérables ouverts.
 - L'ajouter dans le dossier _caché_ [docs/.vuepress/public/assets/src](https://github.com/indsante/Documentation-SNDS/tree/master/docs/.vuepress/public/assets/src).
 - Ajouter un lien dans la page `docs/documentation/ressources.md`, en mentionnant la licence MPL-2.0
