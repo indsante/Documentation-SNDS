@@ -28,7 +28,7 @@ pour des détails sur la base médicale des causes de décès.
 
 - Un [dictionnaire interactif](http://dico-snds.health-data-hub.fr/) du SNDS, produit par la DREES.
 
-- Un [schema formalisé du SNDS](https://gitlab.com/SNDS/schema-snds), 
+- Un [schema formalisé du SNDS](https://github.com/indsante/schema-snds), 
 qui alimente le dictionnaire interactif, et la partie [table](/tables) de cette documentation.
 
 

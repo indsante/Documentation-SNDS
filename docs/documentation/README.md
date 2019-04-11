@@ -33,7 +33,7 @@ Nous envisageons 2 formats :
 
 La partie [table](/tables) a pour vocation de présenter l'ensemble des produits, tables et variables du SNDS. 
 
-Elle est produite a partir du [schema formalisé du SNDS](https://gitlab.com/SNDS/schema-snds), qui alimente également le [dictionnaire interactif](http://dico-snds.health-data-hub.fr/).
+Elle est produite a partir du [schema formalisé du SNDS](https://github.com/indsante/schema-snds), qui alimente également le [dictionnaire interactif](http://dico-snds.health-data-hub.fr/).
 
 
 ## Licence
