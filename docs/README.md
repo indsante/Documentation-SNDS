@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: assets/img/logoSNDS.jpg
+heroImage: assets/img/logo/logoSNDS.jpg
 actionText: Aller au contenu →
 actionLink: /documentation/
 features:
