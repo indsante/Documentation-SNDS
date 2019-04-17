@@ -19,9 +19,10 @@ pour des informations générales.
 et notamment sa [FAQ](http://open-data-assurance-maladie.ameli.fr/wiki-sniiram/index.php/Questions-R%C3%A9ponses),
 édité par la Cnam.
 
-- Le [site de l'ATIH](https://www.atih.sante.fr), 
-pour des détails sur le PMSI, 
-et notamment la partie [information médicale](https://www.atih.sante.fr/domaines-d-activites/information-medicale).
+- Le [site de l'ATIH](https://www.atih.sante.fr)
+pour des détails sur le PMSI
+    - partie [information médicale](https://www.atih.sante.fr/domaines-d-activites/information-medicale) du site
+    - plateforme de restitution des données des établissements de santé [scansanté](https://www.scansante.fr) 
 
 - Le [site du CépiDc](https://cepidc.inserm.fr/causes-medicales-de-deces/la-base-des-causes-medicales-de-deces)
 pour des détails sur la base médicale des causes de décès.
