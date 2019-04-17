@@ -5,6 +5,7 @@ const sidebar = {
     '/': [
         '/documentation/',
         '/documentation/contribuer',
+        '/documentation/tutoriel_markdown',
         '/documentation/donnees',
         '/documentation/ressources',
         '/documentation/portail_sniiram',

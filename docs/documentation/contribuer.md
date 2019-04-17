@@ -44,6 +44,9 @@ Nous proposons ci-dessous un bagage technique minimal pour les autodidactes.
 
 ## Explications techniques
 
+### Markdown
+La documentation est rédigée en texte brut, avec des balises **Markdown** pour indiquer la mise en forme. Se référer à la page dédiée [Tutoriel Markdown](tutoriel_markdown.md).
+
 ### Concepts clés de GitHub
 
 - `commit` : Un commit est un ensemble de modifications sur un ou plusieurs fichiers
@@ -117,62 +120,6 @@ Vous pouvez aussi modifier les fichiers sur vos ordinateurs, avec votre éditeur
 Les développeurs font cela en routine lorsqu'ils développent du code informatique. 
 En installant [GitHub Desktop](https://desktop.github.com/), vous pourrez créer vos commits, branches et pull-request directement depuis votre ordinateur et sans ligne de commande.
 
-### Markdown
-
-La documentation est rédigée en texte brut. 
-La mise en forme est indiquée par des balises **Markdown**. 
-Nous présentons ici les balises les plus courantes de ce standard. 
-Voir aussi la page [wikipedia](https://fr.wikipedia.org/wiki/Markdown#Quelques_exemples) ou ce [mémo complet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-#### Titres
- 
-Les titres sont balisés par un ou plusieurs dièses `#` en début de ligne.
-
-```
-# Titre de premier niveau
-## titre de second niveau
-```
-
-#### *Italique*, **Gras**
-
-Encadrer du texte par *une étoile* `*` pour le mettre en italique, 
-par *deux étoiles* `**` pour le mettre en gras.
-
-```
-*italique*
-**gras**
-```
-
-#### Retour à la ligne, Changement de paragraphe
-
-*Attention : Les retour à la ligne simples sont ignorés.*
-
-Ajouter 2 espaces en fin de ligne pour un simple retour à la ligne.  
-Sauter une ligne pour changer de paragraphe.
-
-#### Lien hypertexte
-
-Pour ajouter un lien, mettre son texte entre crochets, suivi du lien entre parenthèses.
-
-```
-[texte du lien](http://www.monlien.fr)
-```
-
-Pour un lien vers un fichier interne au projet, indiquer le chemin relatif depuis le dossier _caché_
-[docs/.vuepress/public](https://github.com/indsante/Documentation-SNDS/tree/master/docs/.vuepress/public).
-
-```
-[lien vers docs/.vuepress/public/assets/img/logoSNDS.jpg](/assets/img/logoSNDS.jpg)
-```
-
-Ajouter un point d'exclamation `!` devant le lien pour afficher une image.
-
-```
-![texte alternatif de l'image](/assets/img/logoSNDS.jpg)
-```
-
-Utiliser des balises html si vous souhaitez préciser les dimensions de l'image.
-
 ### Développement local
 
 Les développeurs peuvent lancer une version locale du site internet avec les commandes suivantes
@@ -225,7 +172,7 @@ Pour ajoutez un nouveau fichier, merci de bien vouloir :
 
 Les images sont stockées dans le dossier _caché_ [docs/.vuepress/public/assets/img](https://github.com/indsante/Documentation-SNDS/tree/master/docs/.vuepress/public/assets/img). 
 
-Vous pouvez afficher une image dans une page de documentation via un lien hypertexte (cf section [Markdown](#markdown)).
+Vous pouvez afficher une image dans une page de documentation via un lien hypertexte (cf page [tutoriel Markdown](tutoriel_markdown.md#lien-hypertexte)).
 
 Si une image provient d'un document tierce, par exemple une présentation powerpoint :
 - Enregistrer ce fichier pour permettre des évolutions de l'image (cf section précédente).
