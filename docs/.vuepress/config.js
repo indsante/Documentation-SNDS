@@ -17,10 +17,10 @@ module.exports = {
     title: 'Documentation du SNDS',
     description: "Projet collaboratif pour documenter et faciliter l'utilisation du SNDS",
     themeConfig: {
-        repo: 'indsante/Documentation-SNDS',
+        repo: 'http://gitlab.com/healthdatahub/documentation-snds',
         docsDir: 'docs',
         editLinks: true,
-        editLinkText: 'Éditer sur GitHub',
+        editLinkText: 'Éditer sur GitLab',
         nav: [
             {text: 'Documentation', link: '/documentation/'},
             {text: 'Tables', link: '/tables/'},

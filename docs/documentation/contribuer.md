@@ -3,9 +3,9 @@
 
 Bienvenue sur le guide de contribution !
 
-La documentation du SNDS est hébergée sur [GitHub](https://github.com/indsante/Documentation-SNDS).
+La documentation du SNDS est hébergée sur [GitLab](https://gitlab.com/healthdatahub/documentation-snds).
 
-GitHub est une plateforme très riche, d'abord conçue pour collaborer sur du code informatique. 
+GitLab est une plateforme très riche, d'abord conçue pour collaborer sur du code informatique. 
 
 Son premier abord peut être effrayant, d'autant plus que l'interface n'est disponible qu'en anglais. Cette page vous guidera pour contribuer au projet, des aspects les plus simples aux plus avancés.
 
@@ -26,16 +26,16 @@ Les mainteneurs actuels sont :
 
 ### Issues
 
-En créant un compte sur github.com, vous pourrez utiliser le système de tickets appelés **issues**, dans cet 
-[onglet](https://github.com/indsante/Documentation-SNDS/issues). 
+En créant un compte sur gitlab.com, vous pourrez utiliser le système de tickets appelés **issues**, dans cet 
+[onglet](https://gitlab.com/healthdatahub/documentation-snds/issues). 
 
 Les issues sont le canal à privilégier pour remonter une erreur ou proposer une idée.  
 Chaque issue est l'occasion d'une discussion ouverte pour résoudre le problème évoqué.
 
 ### Pull-Request
 
-GitHub permet à chacun de proposer des modifications via des **pull-request**, listées dans cet 
-[onglet](https://github.com/indsante/Documentation-SNDS/pulls). 
+GitLab permet à chacun de proposer des modifications via des **merge-request**, listées dans cet 
+[onglet](https://gitlab.com/healthdatahub/documentation-snds/merge_requests). 
 
 Une formation est préférable pour manipuler facilement les pull-request. 
 Contacter nous pour organiser une formation, à distance ou lors d'une réunion physique. N'hésitez pas ! 
@@ -47,27 +47,27 @@ Nous proposons ci-dessous un bagage technique minimal pour les autodidactes.
 ### Markdown
 La documentation est rédigée en texte brut, avec des balises **Markdown** pour indiquer la mise en forme. Se référer à la page dédiée [Tutoriel Markdown](tutoriel_markdown.md).
 
-### Concepts clés de GitHub
+### Concepts clés de GitLab
 
 - `commit` : Un commit est un ensemble de modifications sur un ou plusieurs fichiers
-([exemple](https://github.com/indsante/Documentation-SNDS/commit/553cdd3b07bd2853e7f642b077f48e493413c00e)). 
+([exemple](https://gitlab.com/healthdatahub/documentation-snds/commit/553cdd3b07bd2853e7f642b077f48e493413c00e)). 
 
 À chaque commit est associé une description concise. 
-L'enchaînement des commits représente l'[historique](https://github.com/indsante/Documentation-SNDS/commits/master) des modifications.  
+L'enchaînement des commits représente l'[historique](https://gitlab.com/healthdatahub/documentation-snds/commits/master) des modifications.  
 
 - `branche` : Les branches permettent de gérer plusieurs versions parallèles. 
 
 Le site web de la documentation publie la branche principale, appelée `master`. 
 Les branches de travail sont nommées selon l'objet des modifications apportées. 
 
-- `pull-request` : Les pull-request (PR) permettent d'intégrer une branche de travail dans la branche principale.
+- `merge-request` : Les merge-request (MR) permettent d'intégrer une branche de travail dans la branche principale.
  
 Les modifications seront discutées et validées avant d'être publiées.  
 Pour cela, les relecteurs commenteront directement chaque ligne dans l'onglet *Files changed*, ou la PR dans son ensemble dans l'onglet *Conversation*. 
 
 Par défaut, seul l'auteur initial enregistre de nouveaux commits sur sa branche. Si un relecteur souhaite ajouter des commits plutôt que des commentaires, il en demande d'abord le droit à l'auteur afin d'éviter des conflits d'édition.
 
-Lors de l'intégration d'une PR à la branche master, d'éventuels conflits d'éditions sont gérés par les mainteneurs. Pour limiter ces conflits, le principe est d'éviter la divergence des branches de travail, en les intégrant rapidement à la branche master. On découpera donc plutôt sur les contributions en petit morceaux cohérents, rapides à valider et intégrer.
+Lors de l'intégration d'une MR à la branche master, d'éventuels conflits d'éditions sont gérés par les mainteneurs. Pour limiter ces conflits, le principe est d'éviter la divergence des branches de travail, en les intégrant rapidement à la branche master. On découpera donc plutôt sur les contributions en petit morceaux cohérents, rapides à valider et intégrer.
 
 ### Édition avec github.com
 
@@ -82,7 +82,7 @@ En  bas de chaque page de la documentation se trouve un lien, vous invitant à �
 </p>
 
 
-Vous pouvez aussi naviguer dans les fichiers du dossier [docs/documentation](https://github.com/indsante/Documentation-SNDS/tree/master/docs/documentation), et  ouvrir l'interface d'édition symbolisée par un crayon.
+Vous pouvez aussi naviguer dans les fichiers du dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation), et  ouvrir l'interface d'édition symbolisée par un crayon.
 
 <p style="text-align:center;">
 <img src="/assets/img/tutoriel_github/edition.png" alt="interface edition" width="300"/>
@@ -140,13 +140,13 @@ Ne pas hésiter à demander de l'aide pour ces opérations.
 
 ### Nouvelle page de documentation - texte
 
-Les fichiers de documentation textuels sont stockés dans le dossier [docs/documentation](https://github.com/indsante/Documentation-SNDS/tree/master/docs/documentation).
+Les fichiers de documentation textuels sont stockés dans le dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation).
 
 Pour créer une nouvelle page de documentation, copier le contenu du modèle présent dans le fichier `modele_markdown.md`.
 
 Pour que votre nouvelle page apparaisse dans le menu de navigation, 
 il faut l'ajouter dans la variable `sidebar` du fichier de configuration 
-[docs/.vuepress/config.js](https://github.com/indsante/Documentation-SNDS/tree/master/docs/.vuepress/config.js). 
+[docs/.vuepress/config.js](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/.vuepress/config.js). 
 
 ### Nouveau fichier non textuel
 
@@ -154,7 +154,7 @@ Des fichiers dans un format non textuel peuvent être partagés dans la document
 Ils seront mis à disposition via un lien de téléchargement.
 
 Note : Préférer tant que possible des pages de documentation textuelles. 
-Elle permettent de collaborer efficacement via GitHub pour les améliorer. 
+Elle permettent de collaborer efficacement via GitLab pour les améliorer. 
 De plus, elles sont directement lisible dans le navigateur, sans téléchargement qui est un frein à la consultation.
 
 Pour ajoutez un nouveau fichier, merci de bien vouloir : 
@@ -165,12 +165,12 @@ Pour ajoutez un nouveau fichier, merci de bien vouloir :
     - `auteur` : nom court de l'organisation détentrice des droits sur le document
     - `nom-du-fichier` : sans espace, car les liens devront sinon utiliser `%20`
     - `extension` : par exemple `.csv`, `.pdf`, `.odp`. Préférer des formats interopérables ouverts.
-- L'ajouter dans le dossier _caché_ [docs/.vuepress/public/assets/src](https://github.com/indsante/Documentation-SNDS/tree/master/docs/.vuepress/public/assets/src).
+- L'ajouter dans le dossier _caché_ [docs/.vuepress/public/assets/src](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/.vuepress/public/assets/src).
 - Ajouter un lien dans la page `docs/documentation/ressources.md`, en mentionnant la licence MPL-2.0
 
 ### Nouvelle image
 
-Les images sont stockées dans le dossier _caché_ [docs/.vuepress/public/assets/img](https://github.com/indsante/Documentation-SNDS/tree/master/docs/.vuepress/public/assets/img). 
+Les images sont stockées dans le dossier _caché_ [docs/.vuepress/public/assets/img](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/.vuepress/public/assets/img). 
 
 Vous pouvez afficher une image dans une page de documentation via un lien hypertexte (cf page [tutoriel Markdown](tutoriel_markdown.md#lien-hypertexte)).
 

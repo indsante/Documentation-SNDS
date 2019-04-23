@@ -24,15 +24,15 @@ La documentation contient des fichiers textuels, des images, et des documents pa
 Nous utilisons VuePress pour obtenir un site web facilement lisible, 
 ce qui implique une organisation particulière du dépôt : 
 
-- Le dossier [docs/documentation](https://github.com/indsante/Documentation-SNDS/tree/master/docs/documentation/) 
+- Le dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation/) 
 contient les fichiers textuels de documentation. Ce sont les principaux fichiers à éditer.
-- Le dossier _caché_ [docs/.vuepres/public/assets](https://github.com/indsante/Documentation-SNDS/tree/master/docs/.vuepress/public/assets)
+- Le dossier _caché_ [docs/.vuepres/public/assets](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/.vuepress/public/assets)
 contient les images et documents partagés, respectivement dans les sous-dossiers `img` et `src`.
-- Le fichier [docs/.vuepress/config.js](https://github.com/indsante/Documentation-SNDS/tree/master/docs/.vuepress/config.js)
+- Le fichier [docs/.vuepress/config.js](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/.vuepress/config.js)
 permet de configurer VuePress, notamment la navigation.
-- Le dossier [docs/table](https://github.com/indsante/Documentation-SNDS/tree/master/docs/tables/) 
+- Le dossier [docs/table](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/tables/) 
 contient la description des tables et variables. 
-Ces données sont générées automatiquement depuis le [schema-snds](https://github.com/indsante/schema-snds/)
+Ces données sont générées automatiquement depuis le [schema-snds](https://gitlab.com/healthdatahub/schema-snds/)
 
 ## Licence
 
