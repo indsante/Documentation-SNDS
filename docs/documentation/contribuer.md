@@ -3,24 +3,42 @@
 
 Bienvenue sur le guide de contribution !
 
-La documentation du SNDS est hébergée sur [GitLab](https://gitlab.com/healthdatahub/documentation-snds).
+La documentation du SNDS est réalisée collaborativement sur [GitLab](https://gitlab.com/healthdatahub/documentation-snds).
 
-GitLab est une plateforme très riche, d'abord conçue pour collaborer sur du code informatique. 
+Nous présentons d'abord le type de contributions que vous pouvez apporter. Nous expliquons ensuite selon quelles modalités, puis nous entrons dans des considérations techniques plus avancées.
 
-Son premier abord peut être effrayant, d'autant plus que l'interface n'est disponible qu'en anglais. Cette page vous guidera pour contribuer au projet, des aspects les plus simples aux plus avancés.
+## Types de contributions
 
-Une formation générale sur GitHub est disponible [sur le site OpenClassrooms](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github).
+### Partage de documents existants
+
+De nombreux organismes ont documenté le SNDS pour des besoins internes. Ce travail n'est pas accessibles à la communauté plus large des utilisateurs du SNDS. Une première contribution de grande valeur consiste donc à partager publiquement ces documents existants.
+
+Vous pouvez publier des documents sur le site internet de votre organisation. Nous les référencerons via un lien hypertexte dans la section des [ressources externes](ressources#autres-ressources-disponibles-en-ligne). 
+
+Vous pouvez également publier des documents sur ce projet GitLab. Nous ajouterons un lien de téléchargement dans la section des [documents partagés via ce projet](ressources#documents-partages-sur-cette-documentation).
+
+
+::: tip Note
+Une **licence MPL-2.0** est appliquée sur tous les contenus de ce projet : documents, textes, images, etc. 
+
+Cette licence autorise une libre réutilisation des contenus. Elle impose cependant que toute nouvelle version d'un contenu doit citer la source, et doit être publiée sous la même licence afin de garantir les mêmes droits (propriété [copyleft](https://fr.wikipedia.org/wiki/Copyleft)). 
+:::
+
+### Création de nouvelles pages de documentation collaborative
+
+Les documentations existantes sont éclatées dans de multiples formats : pdf, word, excel, powerpoint, etc. Ces formats rendent difficiles la navigation, la mise à jour et la collaboration. La documentation collaborative est rédigée en texte brut, sur lequel il est facile de collaborer via GitLab. 
+
+Une excellente contribution consiste donc à créer de nouvelles pages de documentation textuelles, par exemple à partir du contenu de documents déjà partagés. Nous organiserons progressivement les pages ainsi crées selon des thématiques cohérentes.   
+
+### Amélioration des pages de documentation collaborative 
+
+Les contributions visant à corriger des erreurs ou à compléter des contenus existants sont très précieuses. Toute amélioration, même d'apparence mineure comme la correction de fautes d'orthographe, améliorera pour tous la qualité du contenu.
+
 
 ## Canaux de contributions
 ### Email
 
-Le canal le plus simple pour contribuer est d'écrire un email aux mainteneurs du projet
-([lien](mailto:olivier.defresnoye@indsante.fr,ld-lab-github@sante.gouv.fr?subject=[documentation-snds]%20Titre)). 
-
-Ils se chargeront d'intégrer votre contribution, via une "issue" ou une "pull-request".  
-Merci de structurer votre proposition en commençant par une description succinte.
-
-Les mainteneurs actuels sont :
+Pour contribuer à la documentation, le plus simple est d'écrire un email aux mainteneurs du projets :
 - Lab santé - DREES <<ld-lab-github@sante.gouv.fr>>
 - Olivier de Fresnoye - INDS <<olivier.defresnoye@indsante.fr>>
 
@@ -32,22 +50,24 @@ En créant un compte sur gitlab.com, vous pourrez utiliser le système de ticket
 Les issues sont le canal à privilégier pour remonter une erreur ou proposer une idée.  
 Chaque issue est l'occasion d'une discussion ouverte pour résoudre le problème évoqué.
 
-### Pull-Request
+### Merge-Request
 
 GitLab permet à chacun de proposer des modifications via des **merge-request**, listées dans cet 
 [onglet](https://gitlab.com/healthdatahub/documentation-snds/merge_requests). 
 
-Une formation est préférable pour manipuler facilement les pull-request. 
+Une formation est préférable pour manipuler facilement cette fonctionnalité. 
 Contacter nous pour organiser une formation, à distance ou lors d'une réunion physique. N'hésitez pas ! 
 
-Nous proposons ci-dessous un bagage technique minimal pour les autodidactes.
+Pour les autodidactes, nous proposons ci-dessous un bagage technique minimal.
 
 ## Explications techniques
 
 ### Markdown
-La documentation est rédigée en texte brut, avec des balises **Markdown** pour indiquer la mise en forme. Se référer à la page dédiée [Tutoriel Markdown](tutoriel_markdown.md).
 
-### Concepts clés de GitLab
+La mise en forme du texte brut est indiquée avec des balises **Markdown** (cf [Tutoriel Markdown](tutoriel_markdown.md)). Ce texte est alors automatiquement publié sous la forme d'un site internet statique avec VuePress. 
+
+
+### Concepts clés de git et GitLab
 
 - `commit` : Un commit est un ensemble de modifications sur un ou plusieurs fichiers
 ([exemple](https://gitlab.com/healthdatahub/documentation-snds/commit/553cdd3b07bd2853e7f642b077f48e493413c00e)). 
@@ -55,7 +75,7 @@ La documentation est rédigée en texte brut, avec des balises **Markdown** pour
 À chaque commit est associé une description concise. 
 L'enchaînement des commits représente l'[historique](https://gitlab.com/healthdatahub/documentation-snds/commits/master) des modifications.  
 
-- `branche` : Les branches permettent de gérer plusieurs versions parallèles. 
+- `branche` : Les branches permettent de gérer plusieurs versions de travail parallèles. 
 
 Le site web de la documentation publie la branche principale, appelée `master`. 
 Les branches de travail sont nommées selon l'objet des modifications apportées. 
@@ -63,62 +83,78 @@ Les branches de travail sont nommées selon l'objet des modifications apportées
 - `merge-request` : Les merge-request (MR) permettent d'intégrer une branche de travail dans la branche principale.
  
 Les modifications seront discutées et validées avant d'être publiées.  
-Pour cela, les relecteurs commenteront directement chaque ligne dans l'onglet *Files changed*, ou la PR dans son ensemble dans l'onglet *Conversation*. 
+Pour cela, les relecteurs commenteront la MR dans son ensemble dans l'onglet *Discussion*, ou ligne par ligne dans l'onglet *Changes*. 
 
-Par défaut, seul l'auteur initial enregistre de nouveaux commits sur sa branche. Si un relecteur souhaite ajouter des commits plutôt que des commentaires, il en demande d'abord le droit à l'auteur afin d'éviter des conflits d'édition.
+Par défaut, on considère que seul l'auteur initial d'une branche enregistre de nouveaux commits dessus. Si un relecteur souhaite ajouter des commits plutôt que des commentaires, il en demande d'abord le droit à l'auteur afin d'éviter des conflits d'édition.
 
 Lors de l'intégration d'une MR à la branche master, d'éventuels conflits d'éditions sont gérés par les mainteneurs. Pour limiter ces conflits, le principe est d'éviter la divergence des branches de travail, en les intégrant rapidement à la branche master. On découpera donc plutôt sur les contributions en petit morceaux cohérents, rapides à valider et intégrer.
 
-### Édition avec github.com
+### Édition avec gitlab.com
 
-La solution la plus simple pour éditer la documentation est d'utiliser le site web github.com.
+La solution la plus simple pour éditer la documentation est d'utiliser le site web gitlab.com.
+
+::: tip GitLab Web IDE
+Nous décrivons ici le mode d'édition simple, fichier par fichier.
+Gitlab offre une interface d'édition plus aboutie, appelée `Web IDE`, que nous vous invitons à tester également.
+:::
+
+::: tip Interface en français 
+Il est possible de paramétrer GitLab en français dans l'onglet `Preferences` des `Settings` de votre compte. 
+Ce guide se base sur la version anglaise de l'interface, plus courante.
+:::
 
 **1- Ouvrir le fichier en édition**
 
-En  bas de chaque page de la documentation se trouve un lien, vous invitant à éditer le fichier sur github.
+En  bas de chaque page de la documentation se trouve un lien, vous invitant à éditer le fichier sur gitlab.
 
 <p style="text-align:center;">
-<img src="/assets/img/tutoriel_github/editer_sur_github.png" alt="Éditer sur GitHub" width="200"/>
+<img src="/assets/img/tutoriel_gitlab/editer_sur_gitlab.png" alt="Éditer sur GitLab" width="200"/>
 </p>
 
-
-Vous pouvez aussi naviguer dans les fichiers du dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation), et  ouvrir l'interface d'édition symbolisée par un crayon.
+Vous pouvez aussi naviguer dans les fichiers du dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation), et  ouvrir l'interface d'édition avec le bouton `Edit`.
 
 <p style="text-align:center;">
-<img src="/assets/img/tutoriel_github/edition.png" alt="interface edition" width="300"/>
+<img src="/assets/img/tutoriel_gitlab/edition.png" alt="interface edition" width="600"/>
 </p>
 
 
 **2- Enregistrer les modifications**
 
-Un formulaire en bas de page permet d'enregistrez vos modifications dans un commit. Remplissez une description concise des modifications, et choississez le nom de la branche de travail.
+Un formulaire en bas de page permet d'enregistrez vos modifications dans un commit. 
+- Ecrivez un message décrivant les modifications apportées : une description courte, puis éventuellement une description plus longue séparée par une ligne vide.
+- Choississez le nom d'une nouvelle branche de travail.
 
 <p style="text-align:center;">
-<img src="/assets/img/tutoriel_github/commit.png" alt="commit" width="600"/>
+<img src="/assets/img/tutoriel_gitlab/commit.png" alt="commit" width="600"/>
 </p>
 
+**3- Ouverture d'une merge-request**
 
-**3- Ouverture d'une pull-request**
-GitHub vous propose alors directement d'ouvrir une pull-request. Indiquer des détails complémentaires nécessaires à la relecture.
+Dans l'étape précédente, GitLab coche par défaut l'option de démarrer une nouvelle merge-request. 
+
+Une page s'ouvre alors pour configurer cette merge-request.
+
+- Vous pouvez directement soumettre votre merge request en bas de page.
+- Vous pouvez apporter des précisions, en clarifiant le titre ou en écrivant une description.
+- Vous pouvez attribuer le travail de relecture à une personne ("Assignee"). 
+- Vous pouvez indiquer que cette merge-request est un travail en cours, en débutant le titre par `WIP:`.
 
 <p style="text-align:center;">
-<img src="/assets/img/tutoriel_github/pull_request.png" alt="pull-request" width="600"/>
+<img src="/assets/img/tutoriel_gitlab/wip.png" alt="wip" width="600"/>
 </p>
+
 
 **4- Ajouter des commits sur une branche existante**
 
-Il est possible d'ajouter des commit à une pull-request ouverte. Il suffit pour cela de sélectionner la branche correspondante et d'enregistrer de nouveaux commits.
+Il est possible d'ajouter des commits sur une branche existante. Il apparaîtront alors dans la merge request associée à la branche 
+
+Il faut pour cela sélectionner la branche correspondante dans la vue fichier.
 
 <p style="text-align:center;">
-<img src="/assets/img/tutoriel_github/switch_branch.png" alt="changer branche" width="400"/>
+<img src="/assets/img/tutoriel_gitlab/switch_branch.png" alt="changer branche" width="400"/>
 </p>
 
-### Édition avec GitHub Desktop
-
-Vous pouvez aussi modifier les fichiers sur vos ordinateurs, avec votre éditeur de texte préféré, puis envoyer vos modifications à GitHub. 
-
-Les développeurs font cela en routine lorsqu'ils développent du code informatique. 
-En installant [GitHub Desktop](https://desktop.github.com/), vous pourrez créer vos commits, branches et pull-request directement depuis votre ordinateur et sans ligne de commande.
+On peut alors éditer de nouveaux documents, a priori ceux du dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation), et enregistrer de nouveaux commits. 
 
 ### Développement local
 
@@ -177,7 +213,7 @@ Vous pouvez afficher une image dans une page de documentation via un lien hypert
 Si une image provient d'un document tierce, par exemple une présentation powerpoint :
 - Enregistrer ce fichier pour permettre des évolutions de l'image (cf section précédente).
 - Mettre la ou les images issue du document dans un sous-dossier du même nom. 
-Voici un exemple d'arborescence obtenue sous le dossier`docs/.vuepress/public`:
+Voici un exemple d'arborescence obtenue sous le dossier `docs/.vuepress/public`:
     - assets
         - img
             - **2019_INDS_trouver-la-doc-sur-le-portail-snds_MPL-2.0**
