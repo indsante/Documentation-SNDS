@@ -6,7 +6,7 @@ Ce travail est en phase de prototypage. Il est visible à l'adresse [documentati
 
 ## Contributeurs 
 
-Cette documentation est maintenue par l'INDS, avec l'aide de la DREES.
+Cette documentation est maintenue par l'INDS et le Lab santé à la DREES ([contact](mailto:ld-lab-github@sante.gouv.fr)).
 
 Elle résulte d'une mise en commun de documents et travaux par plusieurs organisations :
 - la Caisse nationale d'assurance maladie - [Cnam](https://www.ameli.fr/)

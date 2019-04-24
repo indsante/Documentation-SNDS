@@ -15,7 +15,7 @@ Nous présentons ici une introduction à GitLab pour les autodidactes.
 La mise en forme du texte brut est indiquée avec des balises **Markdown**. 
 Ce texte est alors automatiquement mis sous la forme d'un site internet statique avec VuePress.
  
-Se référer au [tutoriel Markdown](tutoriel_markdown.md) pour plus d'informations. 
+Se référer au [tutoriel Markdown](tutoriel_markdown.md) pour plus de détails. 
 
  
 ## Concepts clés de git et GitLab
@@ -33,14 +33,17 @@ Les branches de travail sont nommées selon l'objet des modifications apportées
 
 - `merge-request` : Les merge-request (MR) permettent d'intégrer une branche de travail dans la branche principale.
  
-Les modifications seront discutées et validées avant d'être publiées.  
-Pour cela, les relecteurs commenteront la MR dans son ensemble dans l'onglet *Discussion*, ou ligne par ligne dans l'onglet *Changes*. 
+Les modifications proposée dans la branche de travail sont discutées et validées avant d'être publiées. 
+Pour cela, les relecteurs commentent la MR dans l'onglet *Discussion*, ou font des remarques ligne par ligne dans l'onglet *Changes*. 
 
-Par défaut, on considère que seul l'auteur initial d'une branche enregistre de nouveaux commits dessus. Si un relecteur souhaite ajouter des commits plutôt que des commentaires, il en demande d'abord le droit à l'auteur afin d'éviter des conflits d'édition.
+Par défaut, seul l'auteur initial d'une branche en modifie le contenu, afin d'éviter des conflits d'édition. 
+Si un relecteur souhaite ajouter des modifications (=commits) sur une branche, il en fait d'abord la demande. 
 
-Lors de l'intégration d'une MR à la branche master, d'éventuels conflits d'éditions sont gérés par les mainteneurs. Pour limiter ces conflits, le principe est d'éviter la divergence des branches de travail, en les intégrant rapidement à la branche master. On découpera donc plutôt sur les contributions en petit morceaux cohérents, rapides à valider et intégrer.
+Lors de l'intégration d'une MR à la branche master, d'éventuels conflits d'éditions sont gérés par les mainteneurs. 
+Pour limiter ces conflits, il faut limiter la divergence des branches de travail par rapport à la branche master. 
+On découpera donc les contributions en petit morceaux cohérents, rapides à valider et intégrer.
 
-## Édition avec gitlab.com
+## Édition en ligne sur gitlab.com
 
 La solution la plus simple pour éditer la documentation est d'utiliser le site web gitlab.com.
 
@@ -56,7 +59,7 @@ Ce guide se base sur la version anglaise de l'interface, plus courante.
 
 **1- Ouvrir le fichier en édition**
 
-En  bas de chaque page de la documentation se trouve un lien, vous invitant à éditer le fichier sur gitlab.
+En  bas de chaque page de la documentation se trouve un lien, vous invitant à éditer le fichier sur GitLab.
 
 <p style="text-align:center;">
 <img src="/assets/img/tutoriel_gitlab/editer_sur_gitlab.png" alt="Éditer sur GitLab" width="200"/>
@@ -97,12 +100,12 @@ Une page s'ouvre alors pour configurer cette merge-request.
 
 **4- Ajouter des commits sur une branche existante**
 
-Il est possible d'ajouter des commits sur une branche existante. Il apparaîtront alors dans la merge request associée à la branche 
-
-Il faut pour cela sélectionner la branche correspondante dans la vue fichier.
+Il est possible d'ajouter des commits sur une branche de travail existante. 
+Il faut pour cela sélectionner la branche de travail dans la vue fichier. 
 
 <p style="text-align:center;">
 <img src="/assets/img/tutoriel_gitlab/switch_branch.png" alt="changer branche" width="400"/>
 </p>
 
-On peut alors éditer de nouveaux documents, a priori ceux du dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation), et enregistrer de nouveaux commits. 
+On peut alors éditer de nouveaux documents, a priori ceux du dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation). 
+ Les nouveaux commits apparaîtront alors dans la merge request associée à cette branche.

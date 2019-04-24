@@ -1,22 +1,35 @@
 # Développement local
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Page plutôt adressée aux développeurs.
+Cette page est adressée aux personnes maîtrisant un usage basique de la ligne de commande `git`, 
+ou utilisant une interface graphique telle que [GitHub Desktop](https://desktop.github.com/) (qui fonctionne pour GitLab).
+
+Les mainteneurs du projet peuvent organiser une formation à ce sujet (contactez nous !). 
+Nous recommandons également ce [cours en ligne](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github), 
+dans lequel les mots GitHub et GitLab sont interchangeables.   
 
 ## Pourquoi ?
 
-GitLab permet d'éditer la documentation depuis un navigateur web. 
-Cependant `git` est un système de gestion de version **distribué**. Vous pouvez donc - et c'est plus agréable ! - éditer la documentation depuis votre poste de travail avec votre éditeur de texte favori. 
+Nous avons précédemment décrit comment éditer la documentation depuis l'interface web de GitLab.
+Il est cependant plus agréable de travailler en local sur une copie des fichiers avec votre éditeur de texte favori.
 
-Il vous faudra pour cela apprendre l'usage basique de `git`. Les mainteneurs du projet peuvent organiser une formation à ce sujet (contactez nous !). Nous recommandons également ce [cours en ligne](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github), dans lequel les mots GitHub et GitLab sont interchangeables.   
+`git` est en effet un système de gestion de version **distribué**, 
+qui permet de créer des branches et des commits sur votre poste de travail, 
+puis de les partager via une merge-request sur GitLab. 
 
 ## Visualiser le site en local
 
-Les développeurs peuvent lancer une version locale du site internet avec les commandes suivantes
+Les commandes suivantes permettent de lancer une version locale du site internet :
 
 - `yarn install` : installer les modules npm 
 - `yarn docs:dev` : démarrer le serveur de développement 
-- Votre navigateur reproduira alors en temps réel vos modifications sur le texte
+- Votre navigateur reproduira alors en temps réel vos modifications sur le texte, 
+à l'adresse [http://localhost:8080](http://localhost:8080)
+
+::: warning Note
+Ces commandes devraient fonctionner sur Linux et Mac.  
+Il faut peut-être les modifier sur Windows
+:::
 
 ## Organisation du contenu
 
@@ -26,3 +39,4 @@ Voici les principaux dossier avec du contenu à éditer
 - `docs/.vuepress/public/assets` : ressources fichiers ou images
 - `docs/.vuepress/config.js` : configuration du site, notamment des barres de navigation 
 
+Se référer à la page suivante pour l'[ajout de nouveaux fichiers](nouveau_fichier.md).
