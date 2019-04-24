@@ -29,7 +29,7 @@ pour des détails sur la base médicale des causes de décès.
 
 - Un [dictionnaire interactif](http://dico-snds.health-data-hub.fr/) du SNDS, produit par la DREES.
 
-- Un [schema formalisé du SNDS](https://github.com/indsante/schema-snds), 
+- Un [schema formalisé du SNDS](https://gitlab.com/healthdatahub/schema-snds), 
 qui alimente le dictionnaire interactif, et la partie [table](/tables) de cette documentation.
 
 - Le site open data du gouvernement : [data.gouv](https://www.data.gouv.fr) et la [partie dédiée à la santé](https://www.data.gouv.fr/fr/topics/sante-et-social/) avec notamment sur le profil de [l'assurance maladie](https://www.data.gouv.fr/fr/organizations/caisse-nationale-de-l-assurance-maladie-des-travailleurs-salaries/) qui répértorie tous les jeux de données open data de la Cnam.  
@@ -41,7 +41,7 @@ qui alimente le dictionnaire interactif, et la partie [table](/tables) de cette 
 
 [Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/259764548/)
 
-- Documentation ouverte du SNDS sur GitHub ([documentation-snds.health-data-hub.fr](https://documentation-snds.health-data-hub.fr/))
+- Documentation ouverte du SNDS sur GitLab ([documentation-snds.health-data-hub.fr](https://documentation-snds.health-data-hub.fr/))
     - Présenté par Anne Cuerq de l'INDS et Pierre-Alain Jachiet de la DREES
     - Support de présentation
     [GSlides](https://docs.google.com/presentation/d/1WvC4879Exta3Iv5vT9p-aHdzEjl4vy4ElymcNYWDXCQ/edit#slide=id.g54f4ce99ab_0_5),

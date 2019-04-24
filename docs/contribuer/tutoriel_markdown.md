@@ -1,4 +1,5 @@
 # Tutoriel Markdown
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 La documentation est rédigée en texte brut, avec des balises **Markdown** pour indiquer la mise en forme. Cette page présente les balises les plus courantes. 
 
@@ -39,7 +40,7 @@ Pour ajouter un lien, mettre son texte entre crochets, suivi du lien entre paren
 ```
 
 Pour un lien vers un fichier interne au projet, indiquer le chemin relatif depuis le dossier _caché_
-[docs/.vuepress/public](https://github.com/indsante/Documentation-SNDS/tree/master/docs/.vuepress/public).
+[docs/.vuepress/public](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/.vuepress/public).
 
 ```
 [lien vers docs/.vuepress/public/assets/img/logoSNDS.jpg](/assets/img/logoSNDS.jpg)

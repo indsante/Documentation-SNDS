@@ -3,7 +3,7 @@
 
 Bienvenue sur la documentation collaborative du Système National des Données de Santé.
 
-Ce travail est en phase de prototypage, via [ce dépôt GitHub](https://github.com/indsante/Documentation-SNDS).
+Ce travail est en phase de prototypage, via [ce dépôt GitLab](https://gitlab.com/healthdatahub/documentation-snds).
 
 
 ## Contributeurs 
@@ -33,11 +33,11 @@ Nous envisageons 2 formats :
 
 La partie [table](/tables) a pour vocation de présenter l'ensemble des produits, tables et variables du SNDS. 
 
-Elle est produite a partir du [schema formalisé du SNDS](https://github.com/indsante/schema-snds), qui alimente également le [dictionnaire interactif](http://dico-snds.health-data-hub.fr/).
+Elle est produite a partir du [schema formalisé du SNDS](https://gitlab.com/healthdatahub/schema-snds), qui alimente également le [dictionnaire interactif](http://dico-snds.health-data-hub.fr/).
 
 
 ## Licence
 
 Ce dépôt est publié par l'Institut National des Données de Santé sous
 licence Mozilla Public License 2.0.  
-Voir le fichier [LICENSE](https://github.com/indsante/Documentation-SNDS/blob/master/LICENSE).
+Voir le fichier [LICENSE](https://gitlab.com/healthdatahub/documentation-snds/blob/master/LICENSE).

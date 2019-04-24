@@ -4,12 +4,20 @@ const sidebar = {
     '/tables/': tables_sidebar,
     '/': [
         '/documentation/',
-        '/documentation/contribuer',
-        '/documentation/tutoriel_markdown',
         '/documentation/donnees',
         '/documentation/ressources',
         '/documentation/portail_sniiram',
         '/documentation/bibliographie',
+        {
+            title: 'Contribuer',
+            children: [
+                '/contribuer/',
+                '/contribuer/introduction_gitlab',
+                '/contribuer/tutoriel_markdown',
+                '/contribuer/developpement_local',
+                '/contribuer/nouveau_fichier',
+            ]
+        },
     ],
 };
 
@@ -17,10 +25,10 @@ module.exports = {
     title: 'Documentation du SNDS',
     description: "Projet collaboratif pour documenter et faciliter l'utilisation du SNDS",
     themeConfig: {
-        repo: 'indsante/Documentation-SNDS',
+        repo: 'http://gitlab.com/healthdatahub/documentation-snds',
         docsDir: 'docs',
         editLinks: true,
-        editLinkText: 'Éditer sur GitHub',
+        editLinkText: 'Éditer sur GitLab',
         nav: [
             {text: 'Documentation', link: '/documentation/'},
             {text: 'Tables', link: '/tables/'},
