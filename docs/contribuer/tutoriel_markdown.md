@@ -1,4 +1,5 @@
 # Tutoriel Markdown
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 La documentation est rédigée en texte brut, avec des balises **Markdown** pour indiquer la mise en forme. Cette page présente les balises les plus courantes. 
 

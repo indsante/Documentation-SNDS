@@ -4,12 +4,20 @@ const sidebar = {
     '/tables/': tables_sidebar,
     '/': [
         '/documentation/',
-        '/documentation/contribuer',
-        '/documentation/tutoriel_markdown',
         '/documentation/donnees',
         '/documentation/ressources',
         '/documentation/portail_sniiram',
         '/documentation/bibliographie',
+        {
+            title: 'Contribuer',
+            children: [
+                '/contribuer/',
+                '/contribuer/introduction_gitlab',
+                '/contribuer/tutoriel_markdown',
+                '/contribuer/developpement_local',
+                '/contribuer/nouveau_fichier',
+            ]
+        },
     ],
 };
 
