@@ -1,8 +1,9 @@
-## IR_IMB_R
+# IR_IMB_R
 
-- Valeurs manquantes : `""`
+Référentiel médicalisé des bénéficiaires (ALD)
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

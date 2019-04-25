@@ -1,8 +1,9 @@
-## NS_UCD_F
+# NS_UCD_F
 
-- Valeurs manquantes : `""`
+affinage UCD (pharmacie hospitalière)
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

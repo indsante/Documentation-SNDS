@@ -1,8 +1,9 @@
-## IR_MTT_R
+# IR_MTT_R
 
-- Valeurs manquantes : `""`
+Médecin traitant
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

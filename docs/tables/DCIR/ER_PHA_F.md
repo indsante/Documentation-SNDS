@@ -1,8 +1,9 @@
-## ER_PHA_F
+# ER_PHA_F
 
-- Valeurs manquantes : `""`
+affinage des actes de pharmacie (officine de ville)
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

@@ -1,8 +1,9 @@
-## ER_RAT_F
+# ER_RAT_F
 
-- Valeurs manquantes : `""`
+affinage des rentes et accidents du travail
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

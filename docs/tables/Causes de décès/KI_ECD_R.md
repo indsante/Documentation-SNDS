@@ -1,8 +1,9 @@
-## KI_ECD_R
+# KI_ECD_R
 
-- Valeurs manquantes : `""`
+Causes de décès
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

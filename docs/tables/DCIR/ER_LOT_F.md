@@ -1,8 +1,9 @@
-## ER_LOT_F
+# ER_LOT_F
 
-- Valeurs manquantes : `""`
+Lot et numéro de série des prestations affinnées pharmacie
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

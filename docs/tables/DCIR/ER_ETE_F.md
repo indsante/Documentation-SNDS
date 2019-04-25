@@ -1,8 +1,9 @@
-## ER_ETE_F
+# ER_ETE_F
 
-- Valeurs manquantes : `""`
+Informations liées à l'exécution dans un établissement
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

@@ -1,8 +1,9 @@
-## NS_TIP_F
+# NS_TIP_F
 
-- Valeurs manquantes : `""`
+affinage Liste des Produits et Prestations (LPP)
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|
