@@ -18,11 +18,11 @@ Une première contribution de grande valeur consiste à partager publiquement de
 
 - sur le site internet de votre organisation. 
 Nous les référencerons via un lien hypertexte dans la section des 
-[ressources externes](ressources#autres-ressources-disponibles-en-ligne). 
+[ressources externes](/documentation/ressources#autres-ressources-disponibles-en-ligne). 
 
 - sur ce site internet. 
 Nous ajouterons alors un lien de téléchargement dans la section des 
-[documents partagés via ce projet](ressources#documents-partages-sur-cette-documentation).
+[documents partagés via ce projet](/documentation/ressources#documents-partages-sur-cette-documentation).
 
 
 ::: tip Note

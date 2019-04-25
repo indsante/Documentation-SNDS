@@ -17,7 +17,7 @@ Elle résulte d'une mise en commun de documents et travaux par plusieurs organis
 [DREES](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/la-drees/)
 
 Toute nouvelle contribution est bienvenue,
-se référer pour cela au [guide de contribution](/documentation/contribuer.html). 
+se référer pour cela au [guide de contribution](/contribuer/). 
 
 
 ## Organisation la documentation
