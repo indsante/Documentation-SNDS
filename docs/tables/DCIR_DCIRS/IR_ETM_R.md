@@ -1,8 +1,9 @@
-## IR_ETM_R
+# IR_ETM_R
 
-- Valeurs manquantes : `""`
+Exonérations du ticket modérateur liées à la personne 
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

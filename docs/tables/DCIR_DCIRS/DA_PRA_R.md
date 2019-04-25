@@ -1,8 +1,10 @@
-## DA_PRA_R
+# DA_PRA_R
 
-- Valeurs manquantes : `""`
+Référentiel des professionnels de santé
 
-### Modèle de données
+- Clé primaire : `PFS_PFS_NUM`
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

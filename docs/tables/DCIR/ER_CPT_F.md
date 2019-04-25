@@ -1,8 +1,9 @@
-## ER_CPT_F
+# ER_CPT_F
 
-- Valeurs manquantes : `""`
+Données comptables
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

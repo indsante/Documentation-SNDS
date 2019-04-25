@@ -1,8 +1,10 @@
-## IR_IBA_R
+# IR_IBA_R
 
-- Valeurs manquantes : `""`
+Référentiel des bénéficiaires (DCIRS)
 
-### Modèle de données
+- Clé primaire : `BEN_IDT_ANO`
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

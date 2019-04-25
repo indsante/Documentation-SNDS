@@ -1,8 +1,11 @@
-## CT_IND_AAAA_GN
+# CT_IND_AAAA_GN
 
-- Valeurs manquantes : `""`
+Table pathologies de la cartographie des pathologies pour l'année AAAA et l'algorithme N
 
-### Modèle de données
+Champ : Regime general
+
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

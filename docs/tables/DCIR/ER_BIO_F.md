@@ -1,8 +1,9 @@
-## ER_BIO_F
+# ER_BIO_F
 
-- Valeurs manquantes : `""`
+affinage des actes de biologie
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

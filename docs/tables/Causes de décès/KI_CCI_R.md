@@ -1,8 +1,9 @@
-## KI_CCI_R
+# KI_CCI_R
 
-- Valeurs manquantes : `""`
+Certificats de décès
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

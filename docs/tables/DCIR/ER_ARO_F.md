@@ -1,8 +1,9 @@
-## ER_ARO_F
+# ER_ARO_F
 
-- Valeurs manquantes : `""`
+Autre remboursement que régime obligatoire (partie complémentaire CMU-C, Alsace moselle, FNASS,…)
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

@@ -1,8 +1,9 @@
-## ER_CAM_F
+# ER_CAM_F
 
-- Valeurs manquantes : `""`
+affinage des actes médicaux (codage CCAM)
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|

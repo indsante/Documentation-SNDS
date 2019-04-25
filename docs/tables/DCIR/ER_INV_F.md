@@ -1,8 +1,9 @@
-## ER_INV_F
+# ER_INV_F
 
-- Valeurs manquantes : `""`
+affinage des actes invalidité
 
-### Modèle de données
+
+## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|
