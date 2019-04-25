@@ -1,13 +1,16 @@
 const tables_sidebar = require('./tables_sidebar');
 
 const sidebar = {
-    '/tables/': tables_sidebar,
     '/': [
         '/documentation/',
         '/documentation/donnees',
         '/documentation/ressources',
         '/documentation/portail_sniiram',
         '/documentation/bibliographie',
+        {
+            title: 'Tables',
+            children: tables_sidebar
+        },
         {
             title: 'Contribuer',
             children: [
@@ -31,7 +34,6 @@ module.exports = {
         editLinkText: 'Éditer sur GitLab',
         nav: [
             {text: 'Documentation', link: '/documentation/'},
-            {text: 'Tables', link: '/tables/'},
         ],
         sidebar: sidebar,
         sidebarDepth: 2,
