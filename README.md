@@ -34,6 +34,13 @@ permet de configurer VuePress, notamment la navigation.
 contient la description des tables et variables. 
 Ces données sont générées automatiquement depuis le [schema-snds](https://gitlab.com/healthdatahub/schema-snds/)
 
+## Installation en local
+
+- `yarn install` : installer les modules npm 
+- `yarn docs:dev` : démarrer le serveur de développement 
+- Votre navigateur reproduira alors en temps réel vos modifications sur le texte, 
+à l'adresse [http://localhost:8080](http://localhost:8080)
+
 ## Licence
 
 Ce dépôt est publié par l'Institut National des Données de Santé sous
