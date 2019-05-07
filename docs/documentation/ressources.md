@@ -12,6 +12,9 @@ Archive comprenant
   - 33  fichiers xlsx retraçant les évolutions mensuelles de certaines tables de valeurs
 
 ## Autres ressources disponibles en ligne
+
+- Le nouveau [forum d'entraide](https://entraide.health-data-hub.fr) de la communauté des utilisateurs du SNDS.
+
 - Le site [snds.gouv](https://www.snds.gouv.fr/SNDS/Accueil) 
 pour des informations générales.
 
