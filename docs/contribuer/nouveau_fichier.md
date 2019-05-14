@@ -27,7 +27,7 @@ Ils seront mis à disposition via un lien de téléchargement.
 Pour ajoutez un nouveau fichier, merci de bien vouloir : 
 - Vérifier que vous avez les droits pour le publier 
 - Ajouter l'identifiant de licence `MLP-2.0` _dans_ le document, au début
-- Le nommer selon le format `date`_`auteur`_`nom-du-fichier`_MPL-2.0.`extension`
+- Le nommer selon le format date_auteur_nom-du-fichier_MPL-2.0.extension
     - `date` : a minima l'année, éventuellement le mois et le jour, au format AAAA-MM-JJ 
     - `auteur` : nom court de l'organisation détentrice des droits sur le document
     - `nom-du-fichier` : sans espace, car les liens devront sinon utiliser `%20`
