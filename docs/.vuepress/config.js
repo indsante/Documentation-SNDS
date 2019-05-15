@@ -13,6 +13,13 @@ const sidebar = [
     },
     '/documentation/bibliographie',
     {
+        title: 'Fiches thématiques',
+        children: [
+            '/documentation/fiche_thematique/cmu_c',
+        ]
+    },
+
+    {
         title: 'Tables',
         children: tables_sidebar
     },
