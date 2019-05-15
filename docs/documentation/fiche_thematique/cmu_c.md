@@ -82,6 +82,10 @@ En effet, comme évoqué précédemment, lorsque le patient est en ALD, le top C
 
 Néanmoins, pour recenser la population CMU complémentaire de manière exhaustive, la méthode la plus efficace consiste à utiliser la table IR_ORC_R.
 
+::: tip Crédit
+Cette fiche provient de ce document [DREES-ARS MPL-2.0](/assets/src/DREES/2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx)
+:::
+
 [^1] : Les cmucistes bénéficient également d'une dispense d'avance des frais
 
 [^2] : La mutuelle générale LMG, la mutuelle générale de la police MGP, MFP service MFPS, la mutuelle nationale des hospitaliers MNH, Harmonie fonction publique HFP, la mutuelle des étudiants LMDE (depuis janvier 2017), la caisse d'assurance maladie des industries électriques et gazières CAMIEG, la mutuelle du ministère de l'intérieur Intériale, l'établissement national des invalides de la marine ENIM, la caisse nationale de sécurité sociale des mines CANSSM (depuis octobre 2016), la caisse de retraite et de prévoyance des clercs et employés de notaires CRPCEN, la caisse d'assurance vieillesse et maladie des cultes CAVIMAC.
