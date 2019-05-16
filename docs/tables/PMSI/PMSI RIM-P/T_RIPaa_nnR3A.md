@@ -4,6 +4,7 @@ Résumé par acte ambulatoire anonymisé
 
 Champ : Public (et qq privé)
 
+- Clé primaire : `ETA_NUM_EPMSI, ORD_NUM, SEJ_IDT`
 
 ## Modèle de données
 
