@@ -83,7 +83,7 @@ En effet, comme évoqué précédemment, lorsque le patient est en ALD, le top C
 Néanmoins, pour recenser la population CMU complémentaire de manière exhaustive, la méthode la plus efficace consiste à utiliser la table IR_ORC_R.
 
 ::: tip Crédit
-Cette fiche provient de ce document [DREES-ARS MPL-2.0](/assets/src/DREES/2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx)
+Le contenu original de cette fiche provient du document [2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx]((/assets/src/DREES/2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx)) rédigé par Kristel JACQUIER & Céline LEROY.
 :::
 
 [^1] : Les cmucistes bénéficient également d'une dispense d'avance des frais

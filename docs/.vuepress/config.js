@@ -16,6 +16,7 @@ const sidebar = [
         title: 'Fiches thématiques',
         children: [
             '/documentation/fiche_thematique/cmu_c',
+            '/documentation/fiche_thematique/audioprotheses',
         ]
     },
 
