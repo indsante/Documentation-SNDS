@@ -2,8 +2,7 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## Documents partagés sur cette documentation
-
-- [Catalogue des données du SNIIRAM](/assets/src/2015_Cnam_Catalogue-donnees-SNIIRAM_MPL-2.0.xlsm) [Cnam - MPL-2.0]  datant de 2015 
+- [KWIKLY - Katalogue SNIIRAM SNDS](kwikly.md)
 - [Historique des données SNDS](/assets/src/2019_INDS_Historique-des-données-SNDS.pptx) [INDS - MPL-2.0]
 - [Dictionnaire DCIR et PMSI/MCO](/assets/src/2019-04_GIS_EPI-PHARE_DICO_DCIR_4_Vue_MPL-2.0.xlsx) [GIS EPI-PHARE - MPL-2.0] utilisé en interne pour reconstruire des vues SAS. Contient notamment les années de disponibilité des tables et variables.
 - [DCIR-Formats.zip](/assets/src/2019-04_GIS_EPI-PHARE_DCIR-Formats_MPL-2.0.zip) [GIS EPI-PHARE - MPL-2.0]  

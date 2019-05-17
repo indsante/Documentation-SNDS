@@ -3,8 +3,14 @@ const tables_sidebar = require('./tables_sidebar');
 const sidebar = [
     '/documentation/',
     '/documentation/donnees',
-    '/documentation/ressources',
-    '/documentation/portail_sniiram',
+    {
+        title: 'Ressources',
+        path: '/documentation/ressources/',
+        children: [
+            ['/documentation/ressources/kwikly', 'KWIKLY'],
+            '/documentation/ressources/portail_sniiram',
+        ]
+    },
     '/documentation/bibliographie',
     {
         title: 'Tables',
