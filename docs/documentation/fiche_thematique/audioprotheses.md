@@ -9,7 +9,8 @@ Dans le SNDS, les dépenses en audioprothèse sont regroupées sous 2 codes pres
 Ces dépenses comprennent l'achat d'appareil auditif à proprement parler ainsi que l'entretien et la réparation de l'appareil. Le détail est donné par le
 [code LPP](http://www.codage.ext.cnamts.fr/codif/tips//chapitre/index_chap.php?p_ref_menu_code=53&amp;p_site=AMELI)
 
-Ces codes sont donnés par la variable TIP_PRS_IDE dans la table de prestation affinée des dispositifs médicaux : ER_TIP_F. Il faut donc effectuer une jointure entre la table prestation ER_PRS_F et ER_TIP_F pour avoir le détail par codes LPP.
+Ces codes sont donnés par la variable TIP_PRS_IDE dans la table de prestation affinée des dispositifs médicaux : [ER_TIP_F](/tables/DCIR/ER_TIP_F.html). 
+Il faut donc effectuer une jointure entre la table prestation ER_PRS_F et ER_TIP_F pour avoir le détail par codes LPP.
 
 ## Répartition des achats par codes LPP
 
@@ -41,11 +42,12 @@ Pour exclure la partie entretien et réparation, appliquer le filtre TIP_PRS_TYP
 
 TIP_PRS_TYP = Type de Prs Fournie LPP (table de valeur IR_PRF_V).
 
-## Prix d'un appareil auditif (codes 2335791, 2355084 et 2369471)
+## Prix d'un appareil auditif 
 
-|   | **Fréquence** | **%** | **Cumulée** |
-| --- | --- | --- | --- |
-|   |   | **Fréquence** | **%** |
+Codes 2335791, 2355084 et 2369471
+
+|   | **Fréquence** | **%** | **Fréquence cumulée** | **%** |
+| --- | --- | --- | --- | --- |
 | **strictement inférieur à 1000€** | 3819 | 9 | 3819 | 9 |
 | **entre 1000€ et 1999€** | 32974 | 77,9 | 36793 | 86,9 |
 | **entre 2000€ et 2999€** | 3532 | 8,3 | 40325 | 95,3 |
@@ -53,7 +55,7 @@ TIP_PRS_TYP = Type de Prs Fournie LPP (table de valeur IR_PRF_V).
 
 *Source  : DCIR (Base école)*
 
-Prix moyen :
+**Prix moyen**
 
 Si l'on considère l'ensemble du poste audioprothèse, on a un prix moyen de 812€.
 - Achat d'appareil auditif seulement : 2528,3€

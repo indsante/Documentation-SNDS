@@ -1,6 +1,5 @@
 # La CMU Complémentaire
 <!-- SPDX-License-Identifier: MPL-2.0 -->
-
 La [Protection Universelle Maladie (PUMa)](http://www.securite-sociale.fr/-La-mise-en-place-de-la-Protection-Universelle-Maladie-PUMA-au-1er-janvier-2016-) 
 garantit désormais à toute personne qui travaille ou réside en France un droit à la prise en charge des frais de santé (remboursements des frais de santé hors prestations en espèces) sans démarche particulière à accomplir.
 
@@ -17,7 +16,7 @@ Cette population est spécifique en termes d'âge avec une surreprésentation de
 Les cmucistes étant en moyenne très jeunes, on les trouve souvent moins malade,  mais à classe d'âge identique ils le sont souvent plus.
 
 ## Description des tables et variables d'intérêt
-### Variables de la table des prestations ER_PRS_F
+### Variables de la table des prestations ER\_PRS\_F
 
 **BEN_CMU_TOP** : La variable BEN_CMU_TOP permet d'identifier les cmucistesau au moment des soins. 
 
@@ -30,8 +29,8 @@ Lorsque le patient est en ALD, le top CMU-C est forcé à 0 pour les prestations
 **BEN_CMU_ORG** : La CMU-C gérée par le régime général pour le compte de l'état est identifiable par le ben_cmu_top = 1 et le numéro d'organisme complémentaire ben_cmu_org = 075689893. 
 Pour la CMU-C gérée par les organismes privés (mutuelles, assurances, sociétés de prévoyance), l'information est transmise si il y a télétransmission entre la caisse qui gère le régime obligatoire et l'organisme qui gère la CMU-C.
 
-### Table des affiliations IR_ORC_R
-**IR_ORC_R** : table des affiliations à un organisme d'assurance maladie complémentaire IR_ORC_R
+### Table des affiliations IR\_ORC\_R
+**[IR\_ORC\_R](/tables/DCIR_DCIRS/IR_ORC_R)** : Table des affiliations à un organisme d'assurance maladie complémentaire 
 
 Cette table recense les affiliations des bénéficiaires du régime général et des 12 organismes infogérés par ce régime sur la période du SNIIRAM (à partir du 1er janvier 2013 actuellement), que ces bénéficiaires soient consommants ou non.
 
@@ -39,18 +38,18 @@ Elle couvre tous les types de contrats complémentaires, dont la CMU complément
 
 Cette table peut donc être utilisée pour recenser la population CMU complémentaire pendant la période du SNIIRAM (voir code ci-après). Tous les bénéficiaires de cette table figurent également dans le référentiel ir_ben_r, dès qu'un individu est éliminé de la table ir_ben_r, il l'est également de la table ir_orc_r car il n'est plus considéré comme affilié à la sécurité sociale.
 
-## Exemple de code pour recenser les CMU-C en 2017 à l'aide de la table IR_ORC_R
+## Exemple de code pour recenser les CMU-C en 2017 à l'aide de la table IR\_ORC\_R
 
 ### SQL ORACLE
 ```sql
 PROC SQL;
     %connectora;
-    CREATE TABLE orauser.cmuc as select \* from connection to oracle (
+    CREATE TABLE orauser.cmuc as select * from connection to oracle (
         SELECT DISTINCT ben_idt_ano
         FROM ir_orc_r
         WHERE ben_cta_typ=89
-        AND mll_cta_dsd\&lt; to_date ('20180101','YYYYMMDD')
-        AND (mll_cta_dsf \&gt;to_date('20170101','YYYYMMDD') OR mll_cta_dsf is null));
+        AND mll_cta_ds < to_date ('20180101','YYYYMMDD')
+        AND (mll_cta_dsf > to_date('20170101','YYYYMMDD') OR mll_cta_dsf is null));
     disconnect from oracle;
 QUIT;
 ```
@@ -62,8 +61,8 @@ PROC SQL;
     SELECT DISTINCT ben_idt_ano
     FROM oravue.ir_orc_r
     WHERE ben_cta_typ=89
-    AND mll_cta_dsd\&lt; '01Jan2018:0:0:0'dt
-    AND (mll_cta_dsf \&gt;'01Jan2017:0:0:0'dt OR mll_cta_dsf is null)
+    AND mll_cta_dsd < '01Jan2018:0:0:0'dt
+    AND (mll_cta_dsf > '01Jan2017:0:0:0'dt OR mll_cta_dsf is null)
     ;
 QUIT;
 ```
