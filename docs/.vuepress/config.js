@@ -11,15 +11,14 @@ const sidebar = [
             '/documentation/ressources/portail_sniiram',
         ]
     },
-    '/documentation/bibliographie',
     {
         title: 'Fiches thématiques',
         children: [
             '/documentation/fiche_thematique/cmu_c',
             '/documentation/fiche_thematique/audioprotheses',
+            '/documentation/fiche_thematique/beneficiaires_ald',
         ]
     },
-
     {
         title: 'Tables',
         children: tables_sidebar
@@ -34,6 +33,7 @@ const sidebar = [
             '/contribuer/nouveau_fichier',
         ]
     },
+    '/documentation/bibliographie',
 ];
 
 module.exports = {
