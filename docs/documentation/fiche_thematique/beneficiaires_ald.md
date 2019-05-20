@@ -38,9 +38,8 @@ Pour construire une population bénéficiaire d'une ou plusieurs ALD en cours, o
 - Récupérer l'information uniquement lors de la prestation, en retenant les prestations avec exonération du ticket modérateur pour motif d'ALD (EXO_MTF). Attention, cette méthode ne permet pas d'être exhaustif pour les raisons évoquées ci-dessus : les patients en ALD peuvent être exonérés à un autre titre. _Voir Programme 2_
 - Croiser ces deux informations afin de savoir de quelle ALD il s'agit et si celle-ci a donné lieu à des exonérations (ALD « active ») (préconisé par la CNAM, voir Figure 1 et Programme 3) [^3].
 
-**Figure 1 - Méthode préconisée par la CNAM**
-
 ![](/assets/img/DREES/2019-04-08_DREES-ARS_Bénéficiaires-ALD/methode_ald_cnam.png)
+**Figure 1 - Méthode préconisée par la CNAM**
 
 ## Descriptions des tables et variables utiles 
 
