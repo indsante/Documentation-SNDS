@@ -17,6 +17,7 @@ const sidebar = [
             '/documentation/fiche_thematique/cmu_c',
             '/documentation/fiche_thematique/audioprotheses',
             '/documentation/fiche_thematique/beneficiaires_ald',
+            '/documentation/fiche_thematique/optique',
         ]
     },
     {
