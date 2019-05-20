@@ -28,5 +28,8 @@ Cependant, on perd quelques informations que la table affinée aurait pu nous do
 Une dernière méthode est donnée par le programme mis à disposition par Mathis Haradji (DSS):
 https://gitlab.com/DREES_code/public/gu-snds/programmes-sas-gu-snds
 
+## Références
 
-
+::: tip Crédits
+Le contenu original de cette fiche provient du document [2018-11-29_DREES_Optique_MPL-2.0.docx]((/assets/src/DREES/2018-11-29_DREES_Optique_MPL-2.0.docx)) rédigé par Kristel JACQUIER.
+:::
