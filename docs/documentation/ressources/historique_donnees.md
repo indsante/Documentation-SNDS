@@ -10,9 +10,9 @@ Cette présentation illustre l'historique de la disponibilité d'informations re
 Cet historique permet de voir aussi l'ajout des différents régimes dans les bases.
 
 ## Historique de l'information et des régimes dans les bases du SNDS
-![](/assets/img/historique_donnees/historique_donnees_snds.png)
+![Historique données SNDS - P1](/assets/img/historique_donnees/Diapositive1.png)
 
-![](/assets/img/historique_donnees/historique_donnees_snds_P2.png)
+![Historique données SNDS - P2](/assets/img/historique_donnees/Diapositive2.png)
 
 ::: tip Crédits
 [Historique des données du SNDS](/assets/src/2019_INDS_Historique-des-données-SNDS_MPL-2.0.pptx) [INDS - 2019 - MPL-2.0]
