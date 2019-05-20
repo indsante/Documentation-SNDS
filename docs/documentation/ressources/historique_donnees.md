@@ -10,13 +10,11 @@ Cette présentation illustre l'historique de la disponibilité d'informations re
 Cet historique permet de voir aussi l'ajout des différents régimes dans les bases.
 
 <p style="text-align:center;">
-<img src="/assets/img/historique_donnees/historique_donnees_snds.PNG" 
-alt="Representation historique de l'information dans le SNDS" width="400"/>
+<img src="/assets/img/historique_donnees/historique_donnees_snds.png" alt="Historique de l'information dans le SNDS" width="400"/>
 </p>
 
 <p style="text-align:center;">
-<img src="/assets/img/historique_donnees/historique_donnees_snds_P2.PNG" 
-alt="Representation historique de l'information dans le SNDS" width="400"/>
+<img src="/assets/img/historique_donnees/historique_donnees_snds_P2.png" alt="Historique de l'information dans le SNDS" width="400"/>
 </p>
 
 ::: tip Crédits
