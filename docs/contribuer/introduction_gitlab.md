@@ -57,7 +57,7 @@ Il est possible de paramétrer GitLab en français dans l'onglet `Preferences` d
 Ce guide se base sur la version anglaise de l'interface, plus courante.
 :::
 
-**1- Ouvrir le fichier en édition**
+### 1- Ouvrir le fichier en édition
 
 En  bas de chaque page de la documentation se trouve un lien, vous invitant à éditer le fichier sur GitLab.
 
@@ -72,7 +72,7 @@ Vous pouvez aussi naviguer dans les fichiers du dossier [docs/documentation](htt
 </p>
 
 
-**2- Enregistrer les modifications**
+### 2- Enregistrer les modifications
 
 Un formulaire en bas de page permet d'enregistrez vos modifications dans un commit. 
 - Ecrivez un message décrivant les modifications apportées : une description courte, puis éventuellement une description plus longue séparée par une ligne vide.
@@ -82,7 +82,7 @@ Un formulaire en bas de page permet d'enregistrez vos modifications dans un comm
 <img src="/assets/img/tutoriel_gitlab/commit.png" alt="commit" width="600"/>
 </p>
 
-**3- Ouverture d'une merge-request**
+### 3- Ouverture d'une merge-request
 
 Dans l'étape précédente, GitLab coche par défaut l'option de démarrer une nouvelle merge-request. 
 
@@ -97,8 +97,25 @@ Une page s'ouvre alors pour configurer cette merge-request.
 <img src="/assets/img/tutoriel_gitlab/wip.png" alt="wip" width="600"/>
 </p>
 
+### 4- Prévisualisation merge-request
 
-**4- Ajouter des commits sur une branche existante**
+Lorsqu'une merge-request est ouverte, un "`pipeline`" est démarré pour construire une version de prévisualisation.
+
+
+Cliquer sur le numéro du pipeline pour ouvrir la page correspondante.
+
+<p style="text-align:center;">
+<img src="/assets/img/tutoriel_gitlab/pipeline.png" alt="pipeline" width="600"/>
+</p>
+
+Lorsque le pipeline est fini (vert), vous pouvez cliquer dessus pour ouvrir le site de prévisualisation.
+
+<p style="text-align:center;">
+<img src="/assets/img/tutoriel_gitlab/preview.png" alt="preview" width="600"/>
+</p>
+
+
+### 5- Ajouter des commits sur une branche existante
 
 Il est possible d'ajouter des commits sur une branche de travail existante. 
 Il faut pour cela sélectionner la branche de travail dans la vue fichier. 
