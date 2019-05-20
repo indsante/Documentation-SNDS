@@ -15,7 +15,7 @@ Nous présentons ici une introduction à GitLab pour les autodidactes.
 La mise en forme du texte brut est indiquée avec des balises **Markdown**. 
 Ce texte est alors automatiquement mis sous la forme d'un site internet statique avec VuePress.
  
-Se référer au [tutoriel Markdown](tutoriel_markdown.md) pour plus de détails. 
+Se référer au [Tutoriel Markdown](tutoriel_markdown.md) pour plus de détails. 
 
  
 ## Concepts clés de git et GitLab
@@ -33,7 +33,7 @@ Les branches de travail sont nommées selon l'objet des modifications apportées
 
 - `merge-request` : Les merge-request (MR) permettent d'intégrer une branche de travail dans la branche principale.
  
-Les modifications proposée dans la branche de travail sont discutées et validées avant d'être publiées. 
+Les modifications proposées dans la branche de travail sont discutées et validées avant d'être publiées. 
 Pour cela, les relecteurs commentent la MR dans l'onglet *Discussion*, ou font des remarques ligne par ligne dans l'onglet *Changes*. 
 
 Par défaut, seul l'auteur initial d'une branche en modifie le contenu, afin d'éviter des conflits d'édition. 
@@ -97,7 +97,7 @@ Une page s'ouvre alors pour configurer cette merge-request.
 <img src="/assets/img/tutoriel_gitlab/wip.png" alt="wip" width="600"/>
 </p>
 
-### 4- Prévisualisation merge-request
+### 4- Prévisualisation d'une merge-request
 
 Lorsqu'une merge-request est ouverte, un "`pipeline`" est démarré pour construire une version de prévisualisation.
 

@@ -5,7 +5,7 @@ L'ajout de nouveaux fichiers demande un peu d'attention. Ne pas hésiter à dema
 
 ## Nouvelle page du site
 
-Les page du site internet sont des fichiers textuels, stockés dans le dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation).
+Les pageq du site internet sont des fichiers textuels, stockés dans le dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation).
 
 Pour créer une nouvelle page de documentation, copier le contenu du modèle présent dans le fichier [modele_markdown.md](https://gitlab.com/healthdatahub/documentation-snds/raw/master/docs/contribuer/modele_markdown.md).
 

@@ -11,7 +11,7 @@ Des explications pratiques sont disponibles dans les pages suivantes.
 ### Partage de documents existants
 
 De nombreux organismes ont documenté le SNDS pour des besoins internes. 
-Ce travail n'est souvent pas accessibles à la communauté plus large des utilisateurs du SNDS. 
+Ce travail n'est souvent pas accessible à la communauté plus large des utilisateurs du SNDS. 
 Une première contribution de grande valeur consiste à partager publiquement des documents existants.
 
 **Où publier ces documents ?**
@@ -47,11 +47,13 @@ La documentation du SNDS est éclatée dans de multiples fichiers, sous des form
 Cette disparité complexifie l'exploration des informations, 
 et rend surtout impossible une collaboration large sur l'amélioration du contenu. 
 
-Ce site internet est rédigé en texte brut. 
+Ce site internet est rédigé à l'aide de fichiers textes type markdown. Un fichier markdown est balisé à l'aide de caractères spéciaux. 
+Pour en savoir plus se référer au [Tutoriel Markdown](/contribuer/tutoriel_markdown.md)
+
 Une excellente contribution consiste à créer de nouvelles pages de documentation, 
 à partir de vos connaissances ou à partir du contenu de fichiers déjà partagés par ailleurs.
  
-Nous organiserons progressivement les pages ainsi crées selon des thématiques cohérentes.   
+Nous organiserons progressivement les pages ainsi créées selon des thématiques cohérentes.   
 
 ## Comment contribuer ?
 
@@ -70,8 +72,8 @@ Nous nous chargerons alors d'intégrer votre contribution.
 En créant un compte sur gitlab.com, vous pourrez utiliser le système de tickets appelés **issues**, dans cet 
 [onglet](https://gitlab.com/healthdatahub/documentation-snds/issues). 
 
-Les issues sont le canal à privilégier pour remonter une erreur ou proposer une idée.  
-Chaque issue est l'occasion d'une discussion ouverte pour résoudre le problème évoqué.
+Les **issues** sont le canal à privilégier pour remonter une erreur ou proposer une idée.  
+Chaque **issue** représente une opportunité de discussion ouverte pour résoudre le problème évoqué de manière collaborative. Tout le monde est en capacité d'y participer.
 
 ### Merge-Request
 
