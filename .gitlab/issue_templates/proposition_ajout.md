@@ -1,20 +1,11 @@
----
-name: "Proposition"
-about: "Proposer l'ajout d'informations à la documentation"
-title: "Proposition : <titre de l'erreur>"
-labels: ''
-assignees: ''
+# Proposition d'ajout de contenu
 
----
+Description concise de la proposition d'ajout de contenu.
 
-**Proposition**
-
-Description concise de la proposition d'ajout d'information.
-
-**Détails**
+## Détails
 
 Détails et informations complémentaires éventuels.
 
-**Références**
+## Références
 
 Ressources ou références annexes.
