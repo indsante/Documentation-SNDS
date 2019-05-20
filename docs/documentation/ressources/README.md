@@ -51,7 +51,7 @@ qui alimente le dictionnaire interactif, et la partie [table](/tables) de cette 
     [enregistement](https://www.youtube.com/watch?v=JpUbZUWwEt4)
     
 - Schéma formel et Dictionnaire interactif du SNDS ([dico-snds.health-data-hub.fr](http://dico-snds.health-data-hub.fr/))
-    - Présenté par Matthieu Doutreligne et Vitkor Jarry de la DREES
+    - Présenté par Matthieu Doutreligne et Viktor Jarry de la DREES
     - Support de présentation
     [GSlides](https://docs.google.com/presentation/d/1XMGUJKcxy1zqfII-EtQDbmR2tljj6A8NIyEiEKJmz-Q/edit#slide=id.g54533cc6ad_0_0), 
     [pdf](/assets/src/presentations/meetup-snds1/2019.03.27_DREES_schema_dico_snds_MPL-2.0.pdf),
