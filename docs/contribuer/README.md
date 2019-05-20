@@ -48,7 +48,7 @@ Cette disparité complexifie l'exploration des informations,
 et rend surtout impossible une collaboration large sur l'amélioration du contenu. 
 
 Ce site internet est rédigé à l'aide de fichiers textes type markdown. Un fichier markdown est balisé à l'aide de caractères spéciaux. 
-Pour en savoir plus se référer au [Tutoriel Markdown](/contribuer/tutoriel_markdown.md)
+Pour en savoir plus se référer au [Tutoriel Markdown](tutoriel_markdown.md)
 
 Une excellente contribution consiste à créer de nouvelles pages de documentation, 
 à partir de vos connaissances ou à partir du contenu de fichiers déjà partagés par ailleurs.
