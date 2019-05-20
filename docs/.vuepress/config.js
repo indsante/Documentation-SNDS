@@ -13,6 +13,7 @@ const sidebar = [
     },
     {
         title: 'Fiches thématiques',
+        path: '/documentation/fiche_thematique/',
         children: [
             '/documentation/fiche_thematique/cmu_c',
             '/documentation/fiche_thematique/audioprotheses',
