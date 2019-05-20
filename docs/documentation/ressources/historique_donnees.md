@@ -11,8 +11,8 @@ Cette présentation illustre l'historique de la disponibilité d'informations re
 - Aux consommations de soins de ville
 - Aux consommations de soins en établissement de santé
 
-Cet historique se représente comme ceci :  
+Cet historique se présente comme ceci :
 
 <p style="text-align:center;">
-<img src="/assets/img/historique_donnees_snds.PNG" alt="changer branche" width="400"/>
+<img src="/assets/img/historique_donnees_snds.PNG" alt="Representation historique de l'information dans le SNDS" width="400"/>
 </p>
