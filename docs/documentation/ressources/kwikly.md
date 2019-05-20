@@ -1,4 +1,5 @@
 # KWIKLY - Katalogue des données SNIIRAM-SNDS
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ::: tip
 [Télécharger le Kwikly](/assets/src/Cnam/2019-05-09_Cnam_KWIKLY-Katalogue-Sniiram-SNDS-v1.3_MPL-2.0.xlsm) [Cnam - 2019-05-09 - MPL-2.0]
