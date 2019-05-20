@@ -14,12 +14,12 @@ Cet historique permet de voir aussi l'ajout des différents régimes dans les ba
 
 ![Historique données SNDS - P2](/assets/img/historique_donnees/Diapositive2.png)
 
+## Références
+
+- *Tuppin et al., Value of a national administrative database to guide public decisions: From the système national d’information interrégimes de l’Assurance Maladie (SNIIRAM) to the système national des données de santé (SNDS) in France*  
+- *Support de formation PMSI / portail SNDS*
+
 ::: tip Crédits
 [Historique des données du SNDS](/assets/src/2019_INDS_Historique-des-données-SNDS_MPL-2.0.pptx) [INDS - 2019 - MPL-2.0]
 :::
-
-## Sources
-
-1 - *Tuppin et al., Value of a national administrative database to guide public decisions: From the système national d’information interrégimes de l’Assurance Maladie (SNIIRAM) to the système national des données de santé (SNDS) in France*  
-2 - *Support de formation PMSI / portail SNDS*
 
