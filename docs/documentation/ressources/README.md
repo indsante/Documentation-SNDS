@@ -3,7 +3,7 @@
 
 ## Documents partagés sur cette documentation
 - [KWIKLY - Katalogue SNIIRAM SNDS](kwikly.md) [Cnam - MPL-2.0] permet de connaitre la présence des variables dans l’historique des produits depuis 2006.
-- [Historique des données SNDS](/assets/src/2019_INDS_Historique-des-données-SNDS.pptx) [INDS - MPL-2.0]
+- [Historique des données SNDS](/assets/src/2019_INDS_Historique-des-données-SNDS_MPL-2.0.pptx) [INDS - MPL-2.0]
 - [Dictionnaire DCIR et PMSI/MCO](/assets/src/2019-04_GIS_EPI-PHARE_DICO_DCIR_4_Vue_MPL-2.0.xlsx) [GIS EPI-PHARE - MPL-2.0] utilisé en interne pour reconstruire des vues SAS. Contient notamment les années de disponibilité des tables et variables.
 - [DCIR-Formats.zip](/assets/src/2019-04_GIS_EPI-PHARE_DCIR-Formats_MPL-2.0.zip) [GIS EPI-PHARE - MPL-2.0]  
 Archive comprenant
