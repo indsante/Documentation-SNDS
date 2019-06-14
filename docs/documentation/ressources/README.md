@@ -37,29 +37,6 @@ qui alimente le dictionnaire interactif, et la partie [table](/tables) de cette 
 - Le site open data du gouvernement : [data.gouv](https://www.data.gouv.fr) et la [partie dédiée à la santé](https://www.data.gouv.fr/fr/topics/sante-et-social/) avec notamment sur le profil de [l'assurance maladie](https://www.data.gouv.fr/fr/organizations/caisse-nationale-de-l-assurance-maladie-des-travailleurs-salaries/) qui répértorie tous les jeux de données open data de la Cnam.  
 
 
-# Présentations 
-
-## 2019.03.27 Meetup-SNDS1
-
-[Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/259764548/)
-
-- Documentation ouverte du SNDS sur GitLab ([documentation-snds.health-data-hub.fr](https://documentation-snds.health-data-hub.fr/))
-    - Présenté par Anne Cuerq de l'INDS et Pierre-Alain Jachiet de la DREES
-    - Support de présentation
-    [GSlides](https://docs.google.com/presentation/d/1WvC4879Exta3Iv5vT9p-aHdzEjl4vy4ElymcNYWDXCQ/edit#slide=id.g54f4ce99ab_0_5),
-    [pdf](/assets/src/presentations/meetup-snds1/2019.03.27_INDS_DREES_Documentation_SNDS_MPL-2.0.pdf),
-    [enregistement](https://www.youtube.com/watch?v=JpUbZUWwEt4)
-    
-- Schéma formel et Dictionnaire interactif du SNDS ([dico-snds.health-data-hub.fr](http://dico-snds.health-data-hub.fr/))
-    - Présenté par Matthieu Doutreligne et Viktor Jarry de la DREES
-    - Support de présentation
-    [GSlides](https://docs.google.com/presentation/d/1XMGUJKcxy1zqfII-EtQDbmR2tljj6A8NIyEiEKJmz-Q/edit#slide=id.g54533cc6ad_0_0), 
-    [pdf](/assets/src/presentations/meetup-snds1/2019.03.27_DREES_schema_dico_snds_MPL-2.0.pdf),
-    [enregistement](https://www.youtube.com/watch?v=aAeAB301zzM)
-
-- Appariements entre les cohortes et le SNDS - zoom sur un cas concret
-    - Présenté par Mehdi Gabbas et Brice Dufresne de la CNAM
-    - Support de présentation
-     [pptx](/assets/src/presentations/meetup-snds1/2019.03.27_CNAM_Possibilités_Appariement_SNDS_MPL-2.0.pptx) ,
-    [pdf](/assets/src/presentations/meetup-snds1/2019.03.27_CNAM_Possibilités_Appariement_SNDS_MPL-2.0.pdf),
-    [enregistement](https://www.youtube.com/watch?v=8M12owyEst4)
+## Autres
+- [Ressource et présentations](meetup.md) partagés durant les Meetup SNDS.
+  
