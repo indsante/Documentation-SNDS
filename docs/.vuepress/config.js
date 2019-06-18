@@ -10,6 +10,7 @@ const sidebar = [
             '/documentation/ressources/meetup',
             ['/documentation/ressources/kwikly', 'KWIKLY'],
             '/documentation/ressources/portail_sniiram',
+            '/documentation/ressources/historique_donnees'
         ]
     },
     {
