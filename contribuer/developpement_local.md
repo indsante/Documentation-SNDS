@@ -24,7 +24,7 @@ Les commandes suivantes permettent de lancer une version locale du site internet
 - `npm install` : installer les modules npm 
 - `yarn docs:dev` : démarrer le serveur de développement 
 - Votre navigateur reproduira alors en temps réel vos modifications sur le texte, 
-à l'adresse [http://localhost:8080](http://localhost:8080)
+à l'adresse `http://localhost:8080`.
 
 ::: warning Note
 Ces commandes devraient fonctionner sur Linux et Mac.  
