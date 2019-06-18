@@ -1,13 +1,20 @@
 stages:
   - test
 
-test:
+test-internal-link:
   stage: test
   image: node:12
   before_script:
     - npm install
   script:
    - yarn lint-md
+
+test-build:
+  stage: test
+  image: node:12
+  before_script:
+    - npm install
+  script:
    - yarn docs:build
 
 test-external-link:
