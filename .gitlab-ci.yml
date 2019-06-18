@@ -23,5 +23,5 @@ test-external-link:
   before_script:
     - npm install
   script:
-   - yarn extended-lint-md
+   - yarn extended-lint-md --quiet
   allow_failure: true
