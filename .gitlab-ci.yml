@@ -8,5 +8,13 @@ test:
     - npm install
   script:
    - yarn lint-md
-   - yarn extended-lint-md
    - yarn docs:build
+
+test-external-link:
+  stage: test
+  image: node:12
+  before_script:
+    - npm install
+  script:
+   - yarn extended-lint-md
+  allow_failure: true
