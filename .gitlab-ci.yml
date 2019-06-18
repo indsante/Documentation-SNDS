@@ -1,0 +1,12 @@
+stages:
+  - test
+
+test:
+  stage: test
+  image: node:12
+  before_script:
+    - npm install
+  script:
+   - yarn lint-md
+   - yarn extended-lint-md
+   - yarn docs:build
