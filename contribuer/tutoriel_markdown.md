@@ -36,20 +36,19 @@ Sauter une ligne pour changer de paragraphe.
 Pour ajouter un lien, mettre son texte entre crochets, suivi du lien entre parenthèses.
 
 ```
-[texte du lien](http://www.monlien.fr)
+[texte du lien](http://example.com/)
 ```
 
-Pour un lien vers un fichier interne au projet, indiquer le chemin relatif depuis le dossier _caché_
-[docs/.vuepress/public](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/.vuepress/public).
+Pour un lien vers une autre page, un fichier ou une image, utiliser des chemins relatifs.
 
 ```
-[lien vers docs/.vuepress/public/assets/img/logoSNDS.jpg](/assets/img/logoSNDS.jpg)
+[lien vers images/logo/logoSNDS.jpg depuis introduction/snds.md](../images/logo/logoSNDS.jpg)
 ```
 
 Ajouter un point d'exclamation `!` devant le lien pour afficher une image.
 
 ```
-![texte alternatif de l'image](/assets/img/logoSNDS.jpg)
+![texte alternatif de l'image](../images/logo/logoSNDS.jpg)
 ```
 
 Utiliser des balises html si vous souhaitez préciser les dimensions de l'image.

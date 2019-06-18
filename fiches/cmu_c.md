@@ -30,7 +30,7 @@ Lorsque le patient est en ALD, le top CMU-C est forcé à 0 pour les prestations
 Pour la CMU-C gérée par les organismes privés (mutuelles, assurances, sociétés de prévoyance), l'information est transmise si il y a télétransmission entre la caisse qui gère le régime obligatoire et l'organisme qui gère la CMU-C.
 
 ### Table des affiliations IR\_ORC\_R
-**[IR\_ORC\_R](/tables/DCIR_DCIRS/IR_ORC_R)** : Table des affiliations à un organisme d'assurance maladie complémentaire 
+**[IR\_ORC\_R](../tables/DCIR_DCIRS/IR_ORC_R.md)** : Table des affiliations à un organisme d'assurance maladie complémentaire 
 
 Cette table recense les affiliations des bénéficiaires du régime général et des 12 organismes infogérés par ce régime sur la période du SNIIRAM (à partir du 1er janvier 2013 actuellement), que ces bénéficiaires soient consommants ou non.
 
@@ -84,7 +84,7 @@ Néanmoins, pour recenser la population CMU complémentaire de manière exhausti
 ## Références
 
 ::: tip Crédit
-Le contenu original de cette fiche provient du document [2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx]((/assets/src/DREES/2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx)) rédigé par Kristel JACQUIER & Céline LEROY.
+Le contenu original de cette fiche provient du document [2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx](../files/DREES/2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx)) rédigé par Kristel JACQUIER & Céline LEROY.
 :::
 
 [^1] : Les cmucistes bénéficient également d'une dispense d'avance des frais

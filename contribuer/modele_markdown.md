@@ -30,22 +30,22 @@ Liste numerotée
 ### Titre sous-partie - Liens 
 
 Lien vers url externe
-[texte du lien](http://www.monlien.fr)
+[texte du lien](http://example.com/)
 
 Lien vers document interne
 
-[lien vers docs/.vuepress/public/assets/img/logoSNDS.jpg](/assets/img/logoSNDS.jpg)
+[lien vers images/dico_snds.png](../images/dico_snds.png)
 
 
 Image en lien rendue dans la page avec point d'exclamation devant
 
-![texte alternatif de l'image](/assets/img/logoSNDS.jpg)
+![texte alternatif de l'image](../images/dico_snds.png)
 
 
 Balises html, pour une image centrée et de largeur 600px fixée
 
 <p style="text-align:center;">
-<img src="/assets/img/tutoriel_github/commit.png" alt="commit" width="600"/>
+<img src="images/tutoriel_github/commit.png" alt="commit" width="600"/>
 </p>
 
 

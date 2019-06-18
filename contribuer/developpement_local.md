@@ -21,22 +21,17 @@ puis de les partager via une merge-request sur GitLab.
 
 Les commandes suivantes permettent de lancer une version locale du site internet :
 
-- `yarn install` : installer les modules npm 
+- `npm install` : installer les modules npm 
 - `yarn docs:dev` : démarrer le serveur de développement 
 - Votre navigateur reproduira alors en temps réel vos modifications sur le texte, 
 à l'adresse [http://localhost:8080](http://localhost:8080)
 
 ::: warning Note
 Ces commandes devraient fonctionner sur Linux et Mac.  
-Il faut peut-être les modifier sur Windows
+Il faut peut-être les modifier sur Windows.
 :::
 
-## Organisation du contenu
+## Tester les modifications
 
-Voici les principaux dossier avec du contenu à éditer
-
-- `docs/documentation` : fichiers de documentation
-- `docs/.vuepress/public/assets` : ressources fichiers ou images
-- `docs/.vuepress/config.js` : configuration du site, notamment des barres de navigation 
-
-Se référer à la page suivante pour l'[ajout de nouveaux fichiers](nouveau_fichier.md).
+- `yarn lint-md` : teste les liens internes
+- `yarn extended-lint-md` : teste les liens internes et externes

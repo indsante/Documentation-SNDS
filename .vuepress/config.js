@@ -1,26 +1,27 @@
 const tables_sidebar = require('./tables_sidebar');
 
 const sidebar = [
-    '/documentation/',
-    '/documentation/donnees',
+    '/',
+    '/introduction/snds',
     {
         title: 'Ressources',
-        path: '/documentation/ressources/',
+        path: '/ressources/',
         children: [
-            '/documentation/ressources/meetup',
-            ['/documentation/ressources/kwikly', 'KWIKLY'],
-            '/documentation/ressources/portail_sniiram',
-            '/documentation/ressources/historique_donnees'
+            '/ressources/meetup',
+            ['/ressources/kwikly', 'KWIKLY'],
+            '/ressources/portail_sniiram',
+            '/ressources/bibliographie',
         ]
     },
     {
         title: 'Fiches thématiques',
-        path: '/documentation/fiche_thematique/',
+        path: '/fiches/',
         children: [
-            '/documentation/fiche_thematique/cmu_c',
-            '/documentation/fiche_thematique/audioprotheses',
-            '/documentation/fiche_thematique/beneficiaires_ald',
-            '/documentation/fiche_thematique/optique',
+            '/fiches/historique_donnees',
+            '/fiches/cmu_c',
+            '/fiches/audioprotheses',
+            '/fiches/beneficiaires_ald',
+            '/fiches/optique',
         ]
     },
     {
@@ -36,8 +37,7 @@ const sidebar = [
             '/contribuer/developpement_local',
             '/contribuer/nouveau_fichier',
         ]
-    },
-    '/documentation/bibliographie',
+    }
 ];
 
 module.exports = {

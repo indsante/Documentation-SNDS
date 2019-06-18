@@ -17,12 +17,12 @@ c'est-à-dire d'une forme grave d'une maladie ou d'une forme évolutive ou inval
 
 **Comparaison effectifs ALD : estimations CNAM - calculs DREES**
 
-![](/assets/img/DREES/2019-04-08_DREES-ARS_Bénéficiaires-ALD/comparaison_effectifs_ALD.png)
+![](../images/DREES/2019-04-08_DREES-ARS_Bénéficiaires-ALD/comparaison_effectifs_ALD.png)
 
 ## Repérer les ALD
 
 Pour repérer les ALD, il existe deux sources principales : 
-- le **référentiel médicalisé** [IR_IMB_R](/tables/DCIR_DCIRS/IR_IMB_R) qui liste les bénéficiaires du dispositif, la nature de leurs ALD, et les dates de début et de fin de l'ALD, 
+- le **référentiel médicalisé** [IR_IMB_R](../tables/DCIR_DCIRS/IR_IMB_R.md) qui liste les bénéficiaires du dispositif, la nature de leurs ALD, et les dates de début et de fin de l'ALD, 
 - ou la **table des prestations** qui indique pour chaque prestation si le patient a été exonéré au titre d'une ALD.
 
 Les informations dans ces deux tables ne se recoupent pas parfaitement. 
@@ -38,7 +38,7 @@ Pour construire une population bénéficiaire d'une ou plusieurs ALD en cours, o
 - Récupérer l'information uniquement lors de la prestation, en retenant les prestations avec exonération du ticket modérateur pour motif d'ALD (EXO_MTF). Attention, cette méthode ne permet pas d'être exhaustif pour les raisons évoquées ci-dessus : les patients en ALD peuvent être exonérés à un autre titre. _Voir Programme 2_
 - Croiser ces deux informations afin de savoir de quelle ALD il s'agit et si celle-ci a donné lieu à des exonérations (ALD « active ») (préconisé par la CNAM, voir Figure 1 et Programme 3) [^3].
 
-![](/assets/img/DREES/2019-04-08_DREES-ARS_Bénéficiaires-ALD/methode_ald_cnam.png)
+![](../images/DREES/2019-04-08_DREES-ARS_Bénéficiaires-ALD/methode_ald_cnam.png)
 **Figure 1 - Méthode préconisée par la CNAM**
 
 ## Descriptions des tables et variables utiles 
@@ -333,7 +333,7 @@ Quelques exemples d'ALD non exonérantes : Hypertension artérielle, Hypothyroï
 ## Références
 
 ::: tip Crédits
-Le contenu original de cette fiche provient du document [2019-04-08_DREES-ARS_Bénéficiaires-ALD_MPL-2.0.docx]((/assets/src/DREES/2019-04-08_DREES-ARS_Bénéficiaires-ALD_MPL-2.0.docx)) rédigé par Kristel JACQUIER, Claire-Lise DUBOST, Céline LEROY.
+Le contenu original de cette fiche provient du document [2019-04-08_DREES-ARS_Bénéficiaires-ALD_MPL-2.0.docx](../files/DREES/2019-04-08_DREES-ARS_Bénéficiaires-ALD_MPL-2.0.docx)) rédigé par Kristel JACQUIER, Claire-Lise DUBOST, Céline LEROY.
 
 Cette fiche s'appuie fortement sur la présentation partagée par la CNAM lors d'un comité utilisateurs partenaires intitulé « Referentiel_médicalisé_IR_IMB_R_présentationCNAM » et que l'on retrouve sur le portail BO.
 :::

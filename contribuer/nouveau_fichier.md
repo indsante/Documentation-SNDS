@@ -5,9 +5,9 @@ L'ajout de nouveaux fichiers demande un peu d'attention. Ne pas hésiter à dema
 
 ## Nouvelle page du site
 
-Les pages du site internet sont des fichiers textuels, stockés dans le dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation).
+Les pages du site internet sont des fichiers textuels, stockés dans différents dossiers à la racine, principalement `introduction` pour les tutoriels haut niveau, et `fiches` pour les fiches thématiques.
 
-Pour créer une nouvelle page de documentation, copier le contenu du modèle présent dans le fichier [modele_markdown.md](https://gitlab.com/healthdatahub/documentation-snds/raw/master/docs/contribuer/modele_markdown.md).
+Pour créer une nouvelle page de documentation, copier le contenu du modèle présent dans le fichier [modele_markdown.md](https://gitlab.com/healthdatahub/documentation-snds/raw/master/contribuer/modele_markdown.md).
 
 Si vous partez d'une page vierge, pensez à ajouter une ligne contenant l'identifiant de licence MPL-2.0 après le titre.
 ```
@@ -16,7 +16,7 @@ Si vous partez d'une page vierge, pensez à ajouter une ligne contenant l'identi
  
 Pour faire apparaître la nouvelle page dans le menu de navigation du site internet, 
 il faut ajouter un lien dans la variable `sidebar` du fichier de configuration 
-[docs/.vuepress/config.js](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/.vuepress/config.js)
+[.vuepress/config.js](https://gitlab.com/healthdatahub/documentation-snds/tree/master/.vuepress/config.js)
 (`.vuepress` est un dossier caché). 
 
 ## Nouveau fichier à télécharger
@@ -32,25 +32,23 @@ Pour ajoutez un nouveau fichier, merci de bien vouloir :
     - `auteur` : nom court de l'organisation détentrice des droits sur le document
     - `nom-du-fichier` : sans espace, car les liens devront sinon utiliser `%20`
     - `extension` : par exemple `.csv`, `.pdf`, `.odp`. Préférer des formats interopérables ouverts.
-- L'ajouter dans le dossier _caché_ [docs/.vuepress/public/assets/src](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/.vuepress/public/assets/src).
-- Ajouter un lien dans la page `docs/documentation/ressources.md`, 
+- L'ajouter dans le dossier [files](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files/).
+- Ajouter un lien dans la page [ressources/README.md](../ressources/README.md), 
 en mentionnant le nom de l'organisation et la licence MPL-2.0
 
 ## Nouvelle image
 
-Les images sont stockées dans le dossier _caché_ [docs/.vuepress/public/assets/img](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/.vuepress/public/assets/img). 
+Les images sont stockées dans le dossier [images](https://gitlab.com/healthdatahub/documentation-snds/tree/master/images). 
 
 Vous pouvez afficher une image dans une page de documentation via un lien hypertexte (cf page [tutoriel Markdown](tutoriel_markdown.md#lien-hypertexte)).
 
 Si une image provient d'un document tierce, par exemple une présentation powerpoint :
 - Enregistrer ce fichier pour permettre des évolutions de l'image (cf section précédente).
 - Mettre la ou les images issue du document dans un sous-dossier du même nom. 
-Voici un exemple d'arborescence obtenue sous le dossier `docs/.vuepress/public`:
-    - assets
-        - img
-            - **2019_INDS_trouver-la-doc-sur-le-portail-snds_MPL-2.0**
-              - image1.png
-              - image2.png
-        - src
-            - **2019_INDS_trouver-la-doc-sur-le-portail-snds_MPL-2.0**.pptx
-
+Voici un exemple d'arborescence obtenue :
+    - images
+      - **2019_INDS_trouver-la-doc-sur-le-portail-snds_MPL-2.0**
+        - image1.png
+        - image2.png
+    - files
+      - **2019_INDS_trouver-la-doc-sur-le-portail-snds_MPL-2.0**.pptx
