@@ -1,7 +1,7 @@
 {
   "name": "documentation-snds",
   "description": "Documentation collaborative du SNDS",
-  "repository": "gitlab.com:healthdatahub/documentation-snds",
+  "repository": "https://gitlab.com/healthdatahub/documentation-snds.git",
   "license": "MPL-2.0",
   "dependencies": {
     "remark": "^10.0.1",
