@@ -2,10 +2,10 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Cette présentation illustre l'historique de la disponibilité d'informations relatives :
-- Aux bénéficiaires de soins, pour chaque individu
-- A la structure de l'offre de soins
-- Aux consommations de soins de ville
-- Aux consommations de soins en établissement de santé
+- aux bénéficiaires de soins,
+- à la structure de l'offre de soins,
+- aux consommations de soins de ville,
+- aux consommations de soins en établissement de santé.
 
 Cet historique permet de voir aussi l'ajout des différents régimes dans les bases.
 
@@ -20,6 +20,6 @@ Cet historique permet de voir aussi l'ajout des différents régimes dans les ba
 - *Support de formation PMSI / portail SNDS*
 
 ::: tip Crédits
-[Historique des données du SNDS](/assets/src/2019_INDS_Historique-des-données-SNDS_MPL-2.0.pptx) [INDS - 2019 - MPL-2.0]
+Le contenu original de cette fiche provient du document [Historique des données du SNDS](/assets/src/2019_INDS_Historique-des-données-SNDS_MPL-2.0.pptx) [INDS - 2019 - MPL-2.0] rédigé par Anne Cuerq
 :::
 
