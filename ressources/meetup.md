@@ -4,7 +4,7 @@
 Ressource et présentations partagés durant les Meetup SNDS.
 
 - [Chaîne youtube](https://www.youtube.com/channel/UCFmHnLZ31EgSrPhZQTM9weQ) du HealthDataHub
-- [Dossier sur GitLab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files/presentations) contenant l'ensemble des présentations
+- [Dossier sur GitLab](../files/presentations) contenant l'ensemble des présentations
 
 # 2019.03.27 Meetup-SNDS1
 
