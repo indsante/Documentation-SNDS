@@ -52,7 +52,7 @@ module.exports = {
     description: "Projet collaboratif pour documenter et faciliter l'utilisation du SNDS",
     themeConfig: {
         repo: 'http://gitlab.com/healthdatahub/documentation-snds',
-        docsDir: 'docs',
+        docsDir: '.',
         editLinks: true,
         editLinkText: 'Éditer sur GitLab',
         nav: [
