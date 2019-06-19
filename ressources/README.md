@@ -3,9 +3,9 @@
 
 ## Documents partagés sur cette documentation
 - [KWIKLY - Katalogue SNIIRAM SNDS](kwikly.md) [Cnam - MPL-2.0] permet de connaitre la présence des variables dans l’historique des produits depuis 2006.
-- [Historique des données SNDS](/assets/src/2019_INDS_Historique-des-données-SNDS_MPL-2.0.pptx) [INDS - MPL-2.0]
-- [Dictionnaire DCIR et PMSI/MCO](/assets/src/2019-04_GIS_EPI-PHARE_DICO_DCIR_4_Vue_MPL-2.0.xlsx) [GIS EPI-PHARE - MPL-2.0] utilisé en interne pour reconstruire des vues SAS. Contient notamment les années de disponibilité des tables et variables.
-- [DCIR-Formats.zip](/assets/src/2019-04_GIS_EPI-PHARE_DCIR-Formats_MPL-2.0.zip) [GIS EPI-PHARE - MPL-2.0]  
+- [Historique des données SNDS](../files/2019_INDS_Historique-des-données-SNDS_MPL-2.0.pptx) [INDS - MPL-2.0]
+- [Dictionnaire DCIR et PMSI/MCO](../files/2019-04_GIS_EPI-PHARE_DICO_DCIR_4_Vue_MPL-2.0.xlsx) [GIS EPI-PHARE - MPL-2.0] utilisé en interne pour reconstruire des vues SAS. Contient notamment les années de disponibilité des tables et variables.
+- [DCIR-Formats.zip](../files/2019-04_GIS_EPI-PHARE_DCIR-Formats_MPL-2.0.zip) [GIS EPI-PHARE - MPL-2.0]  
 Archive comprenant
   - `PI_DCIR_Formats.docx`, un manuel sur les vues et formats DCIR
   - 33  fichiers xlsx retraçant les évolutions mensuelles de certaines tables de valeurs
@@ -32,7 +32,7 @@ pour des détails sur la base médicale des causes de décès.
 - Un [dictionnaire interactif](http://dico-snds.health-data-hub.fr/) du SNDS, produit par la DREES.
 
 - Un [schema formalisé du SNDS](https://gitlab.com/healthdatahub/schema-snds), 
-qui alimente le dictionnaire interactif, et la partie [table](/tables) de cette documentation.
+qui alimente le dictionnaire interactif, et la partie **Tables** de cette documentation.
 
 - Le site open data du gouvernement : [data.gouv](https://www.data.gouv.fr) et la [partie dédiée à la santé](https://www.data.gouv.fr/fr/topics/sante-et-social/) avec notamment sur le profil de [l'assurance maladie](https://www.data.gouv.fr/fr/organizations/caisse-nationale-de-l-assurance-maladie-des-travailleurs-salaries/) qui répértorie tous les jeux de données open data de la Cnam.  
 

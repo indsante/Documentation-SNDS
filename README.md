@@ -1,12 +1,14 @@
-# Documentation du SNDS
+# Introduction
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Bienvenue sur ce dépôt hébergeant une documentation collaborative du Système National des Données de Santé.
+Bienvenue sur la documentation collaborative du Système National des Données de Santé.
 
-Ce travail est en phase de prototypage. Il est visible à l'adresse [documentation-snds.health-data-hub.fr](https://documentation-snds.health-data-hub.fr). 
+Ce travail est en phase de prototypage, via [ce dépôt GitLab](https://gitlab.com/healthdatahub/documentation-snds).
+
 
 ## Contributeurs 
 
-Cette documentation est maintenue par l'INDS et le Lab santé à la DREES ([contact](mailto:ld-lab-github@sante.gouv.fr)).
+Cette documentation sous licence ouverte est maintenue par l'INDS, avec l'aide du Lab santé à la DREES.
 
 Elle résulte d'une mise en commun de documents et travaux par plusieurs organisations :
 - la Caisse nationale d'assurance maladie - [Cnam](https://www.ameli.fr/)
@@ -14,34 +16,29 @@ Elle résulte d'une mise en commun de documents et travaux par plusieurs organis
 - la Direction de la Recherche, des études, de l’évaluation et des statistiques - 
 [DREES](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/la-drees/)
 
-Toute nouvelle contribution est bienvenue, 
-se référer pour cela au [guide en ligne](https://documentation-snds.health-data-hub.fr/contribuer/). 
+Toute nouvelle contribution est bienvenue,
+se référer pour cela au [guide de contribution](contribuer). 
 
-## Organisation du dépôt
 
-La documentation contient des fichiers textuels, des images, et des documents partagés.
+## Organisation la documentation
 
-Nous utilisons VuePress pour obtenir un site web facilement lisible, 
-ce qui implique une organisation particulière du dépôt : 
+Les documents partagés sont listés et téléchargeables dans la page [ressources](ressources).
 
-- Le dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation/) 
-contient les fichiers textuels de documentation. Ce sont les principaux fichiers à éditer.
-- Le dossier _caché_ [docs/.vuepres/public/assets](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/.vuepress/public/assets)
-contient les images et documents partagés, respectivement dans les sous-dossiers `img` et `src`.
-- Le fichier [docs/.vuepress/config.js](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/.vuepress/config.js)
-permet de configurer VuePress, notamment la navigation.
-- Le dossier [docs/table](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/tables/) 
-contient la description des tables et variables. 
-Ces données sont générées automatiquement depuis le [schema-snds](https://gitlab.com/healthdatahub/schema-snds/)
+Nous collectons actuellement de nouveaux documents produits par différents organismes.
 
-## Installation en local
+Le contenu de ces documents est ensuite organisé dans des pages textuelles. 
 
-- `yarn install` : installer les modules npm 
-- `yarn docs:dev` : démarrer le serveur de développement 
-- Votre navigateur reproduira alors en temps réel vos modifications sur le texte, 
-à l'adresse [http://localhost:8080](http://localhost:8080)
+Nous envisageons 2 formats :
+- des tutoriels d'introduction sur différentes entrées, qui peuvent se lire linéairement
+- des fiches méthodologiques sur des sujets précis
+
+La partie **Tables** présente l'ensemble des produits, tables et variables du SNDS. 
+
+Elle est produite a partir du [schema formalisé du SNDS](https://gitlab.com/healthdatahub/schema-snds), qui alimente également le [dictionnaire interactif](http://dico-snds.health-data-hub.fr/).
 
 ## Licence
 
-Ce dépôt est publié par l'Institut National des Données de Santé sous
-licence Mozilla Public License 2.0.  Voir le fichier `LICENSE`.
+Ce dépôt est publié par la DREES et l'Institut National des Données de Santé sous
+licence Mozilla Public License 2.0.  
+
+Voir le fichier [LICENSE](https://gitlab.com/healthdatahub/documentation-snds/blob/master/LICENSE).

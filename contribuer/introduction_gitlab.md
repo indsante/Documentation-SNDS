@@ -62,13 +62,13 @@ Ce guide se base sur la version anglaise de l'interface, plus courante.
 En  bas de chaque page de la documentation se trouve un lien, vous invitant à éditer le fichier sur GitLab.
 
 <p style="text-align:center;">
-<img src="/assets/img/tutoriel_gitlab/editer_sur_gitlab.png" alt="Éditer sur GitLab" width="200"/>
+<img src="images/tutoriel_gitlab/editer_sur_gitlab.png" alt="Éditer sur GitLab" width="200"/>
 </p>
 
-Vous pouvez aussi naviguer dans les fichiers du dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation), et  ouvrir l'interface d'édition avec le bouton `Edit`.
+Vous pouvez aussi naviguer en ligne dans [le dépôt sur gitlab.com](https://gitlab.com/healthdatahub/documentation-snds/), et  ouvrir l'interface d'édition avec le bouton `Edit`.
 
 <p style="text-align:center;">
-<img src="/assets/img/tutoriel_gitlab/edition.png" alt="interface edition" width="600"/>
+<img src="images/tutoriel_gitlab/edition.png" alt="interface edition" width="600"/>
 </p>
 
 
@@ -79,7 +79,7 @@ Un formulaire en bas de page permet d'enregistrez vos modifications dans un comm
 - Choississez le nom d'une nouvelle branche de travail.
 
 <p style="text-align:center;">
-<img src="/assets/img/tutoriel_gitlab/commit.png" alt="commit" width="600"/>
+<img src="images/tutoriel_gitlab/commit.png" alt="commit" width="600"/>
 </p>
 
 ### 3- Ouverture d'une merge-request
@@ -94,7 +94,7 @@ Une page s'ouvre alors pour configurer cette merge-request.
 - Vous pouvez indiquer que cette merge-request est un travail en cours, en débutant le titre par `WIP:`.
 
 <p style="text-align:center;">
-<img src="/assets/img/tutoriel_gitlab/wip.png" alt="wip" width="600"/>
+<img src="images/tutoriel_gitlab/wip.png" alt="wip" width="600"/>
 </p>
 
 ### 4- Prévisualisation d'une merge-request
@@ -105,13 +105,13 @@ Lorsqu'une merge-request est ouverte, un "`pipeline`" est démarré pour constru
 Cliquer sur le numéro du pipeline pour ouvrir la page correspondante.
 
 <p style="text-align:center;">
-<img src="/assets/img/tutoriel_gitlab/pipeline.png" alt="pipeline" width="600"/>
+<img src="images/tutoriel_gitlab/pipeline.png" alt="pipeline" width="600"/>
 </p>
 
 Lorsque le pipeline est fini (vert), vous pouvez cliquer dessus pour ouvrir le site de prévisualisation.
 
 <p style="text-align:center;">
-<img src="/assets/img/tutoriel_gitlab/preview.png" alt="preview" width="600"/>
+<img src="images/tutoriel_gitlab/preview.png" alt="preview" width="600"/>
 </p>
 
 
@@ -121,8 +121,7 @@ Il est possible d'ajouter des commits sur une branche de travail existante.
 Il faut pour cela sélectionner la branche de travail dans la vue fichier. 
 
 <p style="text-align:center;">
-<img src="/assets/img/tutoriel_gitlab/switch_branch.png" alt="changer branche" width="400"/>
+<img src="images/tutoriel_gitlab/switch_branch.png" alt="changer branche" width="400"/>
 </p>
 
-On peut alors éditer de nouveaux documents, a priori ceux du dossier [docs/documentation](https://gitlab.com/healthdatahub/documentation-snds/tree/master/docs/documentation). 
- Les nouveaux commits apparaîtront alors dans la merge request associée à cette branche.
+On peut alors éditer de nouveaux documents. Les nouveaux commits apparaîtront alors dans la merge request associée à cette branche.
