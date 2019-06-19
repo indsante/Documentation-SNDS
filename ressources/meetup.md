@@ -40,7 +40,7 @@ Ressource et présentations partagés durant les Meetup SNDS.
   - Support de présentation
     [ppt](../files/presentations/meetup-snds2/2019.06.12_Lukacs_SNDS-du-reve-a-la-realite_MPL-2.0.ppt) ,
     [pdf](../files/presentations/meetup-snds2/2019.06.12_Lukacs_SNDS-du-reve-a-la-realite_MPL-2.0.pdf),
-    [enregistement à venir]()
+    [enregistement à venir](https://www.youtube.com/watch?v=xAbyRQW8KlU)
 
 - Application du Big Data sur les données du SNDS 
   - Introduit par Emmanuel Bacry
@@ -51,11 +51,11 @@ Ressource et présentations partagés durant les Meetup SNDS.
   - Support de présentation
     [GSlides](https://docs.google.com/presentation/d/1QhqVp8tJvf4hKPF8zqSz7rE9oGhTzYpuQQwH2iP46co/edit?usp=sharing),
     [pdf](../files/presentations/meetup-snds2/2019.06.12_CMAP-XDataInitiative-CNAM_Application-Big-Data-sur-le-SNDS_MPL-2.0.pdf),
-    [enregistement à venir]()
+    [enregistement à venir](https://www.youtube.com/watch?v=YsGsgD_NEUc)
   
 - Temporalité de la restitution des données dans le SNDS – Synthèse pour les analyses longitudinales 
   - Présenté par Cedric Collin (Pharmacoépidemiologiste chez IQVIA)
   - Support de présentation
     [pptx](../files/presentations/meetup-snds2/2019.06.12_IQVIA_Temporalite-restitution-SNDS_MPL-2.0.pptx) ,
     [pdf](../files/presentations/meetup-snds2/2019.06.12_IQVIA_Temporalite-restitution-SNDS_MPL-2.0.pdf),
-    [enregistement à venir]()
+    [enregistement à venir](https://www.youtube.com/watch?v=-wGL753gCrI)
