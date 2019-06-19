@@ -37,9 +37,10 @@ Pour ajoutez un nouveau fichier, merci de bien vouloir :
 - Ajouter un lien dans la page [ressources/README.md](../ressources/README.md) ([lien gitlab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/ressources/README.md)), 
 en mentionnant le nom de l'organisation et la licence MPL-2.0.
 
-::: Warning Note
-Bien supprimer tous espace dans les noms de fichiers, car ils compliquent les liens hypertexte (espace indiqué par `%20`). 
-Éviter également les accents
+::: warning Note
+Bien **supprimer les espaces** dans les noms de fichiers, car ils compliquent les liens hypertexte (espace indiqué par `%20`). 
+
+**Éviter également les accents**
 :::
 
 ## Nouvelle image
