@@ -1,5 +1,6 @@
 /node_modules
 dist/
+.vuepress/public/files/*
 
 .DS_Store
 .idea/
