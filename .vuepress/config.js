@@ -1,16 +1,11 @@
 const tables_sidebar = require('./tables_sidebar');
 
 const sidebar = [
-    '/',
-    '/introduction/snds',
     {
-        title: 'Ressources',
-        path: '/ressources/',
+        title: 'Introduction',
+        path: '/introduction/',
         children: [
-            '/ressources/meetup',
-            ['/ressources/kwikly', 'KWIKLY'],
-            '/ressources/portail_sniiram',
-            '/ressources/bibliographie',
+            '/introduction/snds',
         ]
     },
     {
@@ -25,11 +20,23 @@ const sidebar = [
         ]
     },
     {
+        title: 'Ressources',
+        path: '/ressources/',
+        children: [
+            '/ressources/',
+            '/ressources/meetup',
+            ['/ressources/kwikly', 'KWIKLY'],
+            '/ressources/portail_sniiram',
+            '/ressources/bibliographie',
+        ]
+    },
+    {
         title: 'Tables',
         children: tables_sidebar
     },
     {
         title: 'Contribuer',
+        path: '/contribuer/',
         children: [
             '/contribuer/',
             '/contribuer/introduction_gitlab',

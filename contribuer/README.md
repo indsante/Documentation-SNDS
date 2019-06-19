@@ -1,10 +1,12 @@
 # Guide de contribution
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Bienvenue sur le guide de contribution à la documentation collaborative !
+Bienvenue sur le guide de contribution à la documentation !
+
+Cette documentation est par nature collaborative, et toute contribution est **bienvenue**.
 
 Cette page présente les grands types de contributions que vous pouvez apporter, et comment procéder. 
-Des explications pratiques sont disponibles dans les pages suivantes.
+Les explications pratiques sont dans les pages suivantes.
 
 ## Quelles contributions ?
 
