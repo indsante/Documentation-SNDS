@@ -44,6 +44,7 @@ QUIT;
 79563 tops reconstruits en 2016   
 99,98% des tops pathos retrouvés sur le régime général
 
+[Lien vers la fiche pathologie](https://www.ameli.fr/fileadmin/user_upload/documents/Syndrome_coronaire_aigu.pdf)
 
 ## Références
 
