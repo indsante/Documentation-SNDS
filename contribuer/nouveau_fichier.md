@@ -33,8 +33,8 @@ Pour ajoutez un nouveau fichier, merci de bien vouloir :
     - `auteur` : nom court de l'organisation détentrice des droits sur le document
     - `nom-du-fichier` : remplacer les tirets par des espaces
     - `extension` : par exemple `.csv`, `.pdf`, `.odp`. Préférer des formats interopérables ouverts.
-- L'ajouter dans le dossier `files/` ([lien gitlab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files/)).
-- Ajouter un lien dans la page [ressources/README.md](../ressources/README.md) ([lien gitlab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/ressources/README.md)), 
+- L'ajouter dans le dossier `files/` ([lien gitlab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files/)) avec un nom de branche `ajout-fichier-nom-simplifie`.
+- Ajouter un lien dans la page [ressources/README.md](../ressources/README.md) ([lien gitlab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/ressources/README.md), puis se placer sur la branche précédente), 
 en mentionnant le nom de l'organisation et la licence MPL-2.0.
 
 ::: warning Note
