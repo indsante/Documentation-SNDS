@@ -84,7 +84,7 @@ Néanmoins, pour recenser la population CMU complémentaire de manière exhausti
 ## Références
 
 ::: tip Crédit
-Le contenu original de cette fiche provient du document [2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx](../files/DREES/2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx)) rédigé par Kristel JACQUIER & Céline LEROY.
+Le contenu original de cette fiche provient du document [2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx](../files/DREES/2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx) rédigé par Kristel JACQUIER & Céline LEROY.
 :::
 
 [^1] : Les cmucistes bénéficient également d'une dispense d'avance des frais
