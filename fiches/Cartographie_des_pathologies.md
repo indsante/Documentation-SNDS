@@ -49,6 +49,7 @@ QUIT;
 ## Références
 
 ::: tip Crédit
-Le contenu original de cette fiche provient du document [Méthode médicale Cartographie ](https://www.ameli.fr/fileadmin/user_upload/documents/Methode_medicale_Cartographie.pdf) disponible sur le site Ameli.
+Le contenu original de cette fiche provient du document [Méthode médicale Cartographie ](https://www.ameli.fr/fileadmin/user_upload/documents/Methode_medicale_Cartographie.pdf) disponible sur le site Ameli.  
+Les codes ont été reconstitués par Claire-Lise Dubost (DREES).
 :::
 
