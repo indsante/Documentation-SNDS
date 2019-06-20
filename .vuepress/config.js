@@ -17,6 +17,7 @@ const sidebar = [
             '/fiches/audioprotheses',
             '/fiches/beneficiaires_ald',
             '/fiches/optique',
+            '/fiches/graph_reperage_sniiram',
         ]
     },
     {
