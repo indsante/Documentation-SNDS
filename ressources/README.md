@@ -9,6 +9,8 @@
 Archive comprenant
   - `PI_DCIR_Formats.docx`, un manuel sur les vues et formats DCIR
   - 33  fichiers xlsx retraçant les évolutions mensuelles de certaines tables de valeurs
+- [Fiche bénéficiaire](../files/Cnam/2019-06_CNAM-INDS_SNDS_Fiches_Thematiques_BENEF_MPL-2.0.pdf) [CNAM - INDS - MPL-2.0] permet de comprendre les identifiants des bénéficiaires dans le SNDS et les exploiter correctement.
+
 
 ## Autres ressources disponibles en ligne
 
