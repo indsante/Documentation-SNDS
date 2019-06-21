@@ -61,7 +61,7 @@ module.exports = {
             {text: 'Dico interactif', link: 'http://dico-snds.health-data-hub.fr/'},
         ],
         sidebar: sidebar,
-        sidebarDepth: 2,
+        sidebarDepth: 1,
         lastUpdated: 'Dernière mise à jour'
     }
 }
