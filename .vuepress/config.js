@@ -57,6 +57,7 @@ module.exports = {
         editLinks: true,
         editLinkText: 'Éditer sur GitLab',
         nav: [
+            {text: 'Forum entraide', link: 'https://entraide.health-data-hub.fr/'},
             {text: 'Dico interactif', link: 'http://dico-snds.health-data-hub.fr/'},
         ],
         sidebar: sidebar,
