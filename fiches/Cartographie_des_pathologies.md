@@ -1,18 +1,42 @@
 # La cartographie des pathologies de la CNAM
 <!-- SPDX-License-Identifier: MPL-2.0 -->
-La cartographie des pathologies et des dépenses s’appuie sur les données issues du SNDS (système national des données de santé), dont le PMSI (programme de médicalisation des systèmes d'Information).  
-Elle concerne environ **57 millions de bénéficiaires du régime général** (sections locales mutualistes comprises) ayant eu recours à des soins remboursés dans l’année. Des algorithmes permettent de repérer les patients ayant une pathologie chronique, un traitement chronique ou un événement de santé, à partir des diagnostics mentionnés dans le **PMSI à la suite d'une hospitalisation**, ou du diagnostic ayant donné lieu à une prise en charge pour **affection de longue durée** [(ALD)](../fiches/beneficiaires_ald.md) , ou d'**actes ou médicaments spécifiques** de pathologies, donc à partir d’un recours à des soins spécifiques et remboursés :
+La cartographie des pathologies et des dépenses est une base produite par la CNAM et consiste à identifier au sein du régime général (SLM comprises) les patients pris en charge pour:
+*  des pathologies chroniques fréquentes, graves, ou coûteuses,
+*  les femmes prises en charge pour le risque maternité, 
+*  les patients qui n’ont pas ces pathologies chroniques repérées ou évènements de santé mais ont eu des hospitalisations ponctuelles 
+*  et ceux qui ne sont dans aucune de ces situations.
 
-![Schema_construction_tops_pathos](../images/DREES/2019-06_DREES_Cartographie-des-pathologies/top_patho_construction.PNG)
+Elle concerne environ **57 millions de bénéficiaires du régime général** ayant eu recours à des soins remboursés dans l’année. Des algorithmes permettent de repérer les patients ayant une pathologie chronique, un traitement chronique ou un événement de santé, à partir des diagnostics mentionnés dans le **PMSI à la suite d'une hospitalisation**, du diagnostic ayant donné lieu à une prise en charge pour **affection de longue durée** [(ALD)](../fiches/beneficiaires_ald.md) , ou d'**actes ou médicaments spécifiques** de pathologies, donc à partir d’un recours à des soins spécifiques et remboursés :
+
+![Schema_construction_tops_pathos](../images/DREES/2019-06_DREES_Cartographie-des-pathologies/top_patho_construction.png)
+
+Il existe 56 tops pathologies (variables binaires), qui se synthétisent en 13 grands groupes de pathologies:
+* Maladies cardioneurovasculaires (dont la maladie coronaire, l’insuffisance cardiaque…), 
+* Facteurs de risque vasculaire traités, 
+* Diabète, 
+* Cancers, 
+* Maladies neurologiques ou dégénératives, 
+* Maladies psychiatriques, 
+* Traitements psychotropes, 
+* Maladies respiratoires chroniques, 
+* Maladies inflammatoires ou rares ou VIH/Sida, 
+* Maladies du foie ou du pancréas, 
+* Insuffisance rénale chronique terminale traitée, 
+* Maternité (avec ou sans pathologies)
+* et autres affections de longue durée. 
+
+Ces indicatrices de repérage d'une pathologie sont calculées **individuellement chaque année** (AAAA) et selon plusieurs versions de la méthode de repérage (en 2017, la version en cours est la version G5).
+Les variables sont ensuite restituées dans les tables **CT_IND_AAAA_GX**. Une table de dépenses **CT_DEP_AAAA_GX** accompagne cette table (par poste de dépenses de soins de ville, d’hôpital, et de prestations en espèces) et permet de calculer rapidement des dépenses par pathologie. Enfin, la table **CT_IDE_AAAA_GX** permet d'obtenir la table de passage entre les identifiants BEN_NIR_PSA et BEN_RNG_GEM du DCIR, et l'identifiant ID_CARTO propre à la cartographie.
+
 
 ## Maladies cardioneurovasculaires (sup_Cv_cat)
-### Syndrome coronaire aigu (SCA) (top_CvIDM_aig)
+### Syndrome coronaire aigu (top_CvIDM_aig)
 
 **Description du top :**
 
 Personnes hospitalisées l’année n pour cardiopathie ischémique aigüe (DP d’un des RUM).   
 
-Codes CIM10 utilisés dans le PMSI :
+*Codes CIM10 utilisés dans le PMSI :*
 * I21 (Infarctus aigu du myocarde) ;
 * I22 (Infarctus du myocarde à répétition) ;
 * I23 (Certaines complications récentes d'un infarctus aigu du myocarde) ;
@@ -43,7 +67,7 @@ QUIT;
 
 **Résultats :** 
 
-79563 tops reconstruits en 2016   
+79 563 tops reconstruits en 2016   
 99,98% des tops pathos retrouvés sur le régime général
 
 [Lien vers la fiche pathologie](https://www.ameli.fr/fileadmin/user_upload/documents/Syndrome_coronaire_aigu.pdf)
