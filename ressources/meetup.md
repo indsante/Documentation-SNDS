@@ -1,12 +1,21 @@
 # Meetup SNDS
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Ressource et présentations partagés durant les Meetup SNDS.
+Les Meetups SNDS sont des séminaires durant lesquels sont présentés des travaux sur le SNDS. 
+
+Ils sont ouverts à toute personne de la communauté scientifique, médicale, professionnelle, associative, ou encore étudiante. 
+
+Pour être informé des nouveaux événements et s'y inscrire, merci de rejoindre le groupe Health Data Hub sur cette page internet [groupe meetup Health Data Hub](https://www.meetup.com/fr-FR/Health-Data-Hub/).
+
+Nous aimerions organiser des Meetup SNDS dans d'autres villes que Paris. 
+Merci de nous contacter si vous souhaiter initier un groupe local.  
+
+# Ressource et présentations partagés durant les Meetup SNDS.
 
 - [Chaîne youtube](https://www.youtube.com/channel/UCFmHnLZ31EgSrPhZQTM9weQ) du HealthDataHub
 - [Dossier sur GitLab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files/presentations) contenant l'ensemble des présentations
 
-# 2019.03.27 Meetup-SNDS1
+## 2019.03.27 Meetup-SNDS1
 
 [Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/259764548/)
 
@@ -31,7 +40,7 @@ Ressource et présentations partagés durant les Meetup SNDS.
     [pdf](../files/presentations/meetup-snds1/2019.03.27_CNAM_Possibilités_Appariement_SNDS_MPL-2.0.pdf),
     [enregistement](https://www.youtube.com/watch?v=8M12owyEst4)
 
-# 2019.06.12 Meetup-SNDS2
+## 2019.06.12 Meetup-SNDS2
 
 [Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/261637008/)
 
