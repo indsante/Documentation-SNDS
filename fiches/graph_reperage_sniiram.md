@@ -1,12 +1,12 @@
 # Graphique pour Parcourir le Sniiram (GPS)
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Cette présentation illustre quelles sources (DCIR ou PMSI) et tables utilisées pour rechercher plusieurs types de soins :
+Cette présentation illustre quelles sources (DCIR ou PMSI) et tables utiliser pour rechercher plusieurs types de soins :
 - les consultations,
 - les actes CCAM,
 - les séjours... .
 
-Les années de disponibilités de chaque table sont indiquées. 
+Les années de disponibilité de chaque table sont indiquées. 
 La présence de doublons entre le PMSI et le DCIR est visible grâce aux zones hachurées. 
 
 
