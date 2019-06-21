@@ -3,7 +3,7 @@
 
 ## Présentation
 
-La cartographie des pathologies et des dépenses est une base produite par la [CNAM](glossaire.md#CNAM) à partir du SNDS.
+La cartographie des pathologies et des dépenses est une base produite par la [CNAM](glossaire.md#cnam) à partir du SNDS.
 
 Elle consiste à identifier :
 * les patients pris en charge pour des pathologies chroniques fréquentes, graves, ou coûteuses ;
@@ -11,7 +11,7 @@ Elle consiste à identifier :
 * les patients qui n’ont pas ces pathologies chroniques repérées ou évènements de santé mais ont eu des hospitalisations ponctuelles ;
 * et ceux qui ne sont dans aucune de ces situations.
 
-La cartographie couvre environ **57 millions de bénéficiaires du régime général** ([SLM](glossaire.md#SLM) comprises) ayant eu recours à des soins remboursés dans l’année. 
+La cartographie couvre environ **57 millions de bénéficiaires du régime général** ([SLM](glossaire.md#slm) comprises) ayant eu recours à des soins remboursés dans l’année. 
 
 Les algorithmes d'identification utilisent les informations suivantes :
 * diagnostics mentionnés dans le **PMSI à la suite d'une hospitalisation** ;
@@ -47,13 +47,13 @@ Les tops pathologies sont restituées dans la table [CT_IND_AAAA_GX](../tables/C
 
 La table [CT_DEP_AAAA_GX](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_DEP_AAAA_GN.md) compile les dépenses par poste de soins de ville, d’hôpital, et de prestations en espèces. Elle permet de rapidement calculer les dépenses par pathologie.
  
-La table [CT_IDE_AAAA_GX](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_IDE_AAAA_GX.md) est une table de passage entre les identifiants BEN_NIR_PSA et BEN_RNG_GEM du DCIR, et l'identifiant ID_CARTO propre à la cartographie.
+La table [CT_IDE_AAAA_GX](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_IDE_AAAA_GN.md) est une table de passage entre les identifiants BEN_NIR_PSA et BEN_RNG_GEM du DCIR, et l'identifiant ID_CARTO propre à la cartographie.
 
 ## Groupe des Maladies cardioneurovasculaires (sup_Cv_cat)
 ### Top Syndrome coronaire aigu (top_CvIDM_aig)
 #### Description
 
-Personnes hospitalisées l’année N pour cardiopathie ischémique aigüe ([DP](glossaire.md#DP) d’un des [RUM](glossaire.md#RUM)).   
+Personnes hospitalisées l’année N pour cardiopathie ischémique aigüe ([DP](glossaire.md#dp) d’un des [RUM](glossaire.md#rum)).   
 
 #### Codes CIM10 utilisés dans le PMSI
 
@@ -98,4 +98,3 @@ QUIT;
 Le contenu original de cette fiche provient du document [Méthode médicale Cartographie ](https://www.ameli.fr/fileadmin/user_upload/documents/Methode_medicale_Cartographie.pdf) disponible sur le site Ameli.  
 Les codes ont été reconstitués par Claire-Lise Dubost (DREES).
 :::
-
