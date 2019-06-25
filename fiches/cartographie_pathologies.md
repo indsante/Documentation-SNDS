@@ -20,6 +20,8 @@ Les algorithmes d'identification utilisent les informations suivantes :
 
 ![Sources de données des top pathologies](../images/DREES/2019-06_DREES_Cartographie-des-pathologies/top_patho_construction.png)
 
+La CNAM précise bien dans la description de sa méthodologie que l'objet de cette cartographie n'est pas d’identifier tous les patients atteints par la pathologie, mais d’identifier ceux ayant recours à des soins du fait de ces pathologies, quand ce recours peut être repéré dans le système national des données de santé (SNDS).
+
 ## Top pathologie
 
 Les tops pathologie sont des variables binaires, qui indiquent le repérage d'une pathologie pour un individu.
@@ -39,11 +41,11 @@ Il existe 56 tops pathologies, regroupés en 13 grands groupes de pathologies :
 * Maternité, avec ou sans pathologies ;  
 * Autres affections de longue durée. 
 
-Les tops pathologie sont calculées **chaque année** (AAAA), et selon plusieurs versions de l'algorithme d'identification. La version en cours en 2017 est la G5.
+Les tops pathologie sont calculés **chaque année** (AAAA), et selon plusieurs versions de l'algorithme d'identification. La version en cours en 2017 est la G5.
 
-## Tables de la carthographie
+## Tables de la cartographie
 
-Les tops pathologies sont restituées dans la table [CT_IND_AAAA_GX](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_IND_AAAA_GN.md). 
+Les tops pathologies sont restitués dans la table [CT_IND_AAAA_GX](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_IND_AAAA_GN.md). 
 
 La table [CT_DEP_AAAA_GX](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_DEP_AAAA_GN.md) compile les dépenses par poste de soins de ville, d’hôpital, et de prestations en espèces. Elle permet de rapidement calculer les dépenses par pathologie.
  
@@ -51,7 +53,7 @@ La table [CT_IDE_AAAA_GX](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_IDE_AAAA_GN.md) 
 
 ## Groupe des Maladies cardioneurovasculaires (sup_Cv_cat)
 ### Top Syndrome coronaire aigu (top_CvIDM_aig)
-#### Description
+#### Description des critères de repérage
 
 Personnes hospitalisées l’année N pour cardiopathie ischémique aigüe ([DP](glossaire.md#dp) d’un des [RUM](glossaire.md#rum)).   
 
@@ -63,7 +65,8 @@ Personnes hospitalisées l’année N pour cardiopathie ischémique aigüe ([DP]
 * I24 (Autres cardiopathies ischémiques aiguës).
  
 
-#### Code SQL SAS
+#### Proposition d'un code SQL SAS pour reconstituer le top Syndrome Coronaire aigu
+Ce code permet de reconstituer le top Syndrome coronaire aigu, et notamment d'élargir le repérage des pathologies au-delà de la population du régime général.
 
 ```sas
 PROC SQL; CREATE TABLE top_coro_aigu 
@@ -79,22 +82,16 @@ PROC SQL; CREATE TABLE top_coro_aigu
                         LEFT JOIN ORAVUE.CT_IND_2016_G5 e
                         ON d.ID_CARTO=e.ID_CARTO
     WHERE a.DGN_PAL LIKE "I21%" OR a.DGN_PAL LIKE "I22%" OR
-    a.DGN_PAL LIKE "I23%" OR
-    a.DGN_PAL LIKE "I24%" ;
+            a.DGN_PAL LIKE "I23%" OR a.DGN_PAL LIKE "I24%" ;
 QUIT;
 
 ```
-
-#### Résultats
-
-79 563 tops reconstruits en 2016   
-99,98% des tops pathos retrouvés sur le régime général
-
-[Lien vers la fiche pathologie](https://www.ameli.fr/fileadmin/user_upload/documents/Syndrome_coronaire_aigu.pdf)
+La CNAM publie chaque année une fiche de résultats statistiques pour chacune des pathologies (effectifs, dépenses, etc.) : 
+[fiche Syndrome coronaire aigu.](https://www.ameli.fr/fileadmin/user_upload/documents/Syndrome_coronaire_aigu.pdf)
 
 ## Références
 
 ::: tip Crédit
-Le contenu original de cette fiche provient du document [Méthode médicale Cartographie ](https://www.ameli.fr/fileadmin/user_upload/documents/Methode_medicale_Cartographie.pdf) disponible sur le site Ameli.  
-Les codes ont été reconstitués par Claire-Lise Dubost (DREES).
+Le contenu original de cette fiche est tiré du document [Méthode médicale Cartographie ](https://www.ameli.fr/fileadmin/user_upload/documents/Methode_medicale_Cartographie.pdf) disponible sur le site Ameli.  
+Les codes SQL SAS ont été reconstitués par Claire-Lise Dubost (DREES).
 :::
