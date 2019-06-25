@@ -7,7 +7,7 @@ test-internal-link:
   before_script:
     - npm install
   script:
-   - yarn lint-md
+   - yarn lint-md --quiet
 
 test-build:
   stage: test

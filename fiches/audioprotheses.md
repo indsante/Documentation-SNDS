@@ -67,7 +67,7 @@ Ce code fonctionne sur les bases école du DCIR
 
 ```sql
 PROC SQL;
-  CREATETABLE audiop AS
+  CREATE TABLE audiop AS
   SELECT  t1.prs_nat_ref,
           t1.prs_pai_mnt,
           t1.pse_spe_cod,
@@ -75,7 +75,7 @@ PROC SQL;
           t1.pse_act_nat,
           t2.tip_prs_ide
   FROM (oravue.ere_prs_f t1 
-    INNERJOIN oravue.ere_tip_f t2
+    INNER JOIN oravue.ere_tip_f t2
     ON   (t1.DCT_ORD_NUM = t2.DCT_ORD_NUM AND 
           t1.FLX_DIS_DTD = t2.FLX_DIS_DTD AND 
           t1.FLX_EMT_NUM = t2.FLX_EMT_NUM AND 

@@ -290,10 +290,6 @@ max(ald_19) as ald_19,
 max(ald_20) as ald_20,
 ```
 
-## Références 
-- Point de repère CNAM :
-[https://www.ameli.fr/fileadmin/user_upload/documents/Points_de_repere_n_46_-_Beneficiaires_du_dispositif_des_ALD_2014.pdf](https://www.ameli.fr/fileadmin/user_upload/documents/Points_de_repere_n_46_-_Beneficiaires_du_dispositif_des_ALD_2014.pdf)
-
 ## Annexe
 
 ### Les ALD non exonérantes
@@ -331,6 +327,9 @@ Quelques exemples d'ALD non exonérantes : Hypertension artérielle, Hypothyroï
 |99|VALEUR INCONNUE|
 
 ## Références
+
+- Point de repère CNAM sur les  
+[bénéficaires du dispositif des ALD](https://www.ameli.fr/fileadmin/user_upload/documents/Points_de_repere_n_46_-_Beneficiaires_du_dispositif_des_ALD_2014.pdf)
 
 ::: tip Crédits
 Le contenu original de cette fiche provient du document [2019-04-08_DREES-ARS_Bénéficiaires-ALD_MPL-2.0.docx](../files/DREES/2019-04-08_DREES-ARS_Bénéficiaires-ALD_MPL-2.0.docx)) rédigé par Kristel JACQUIER, Claire-Lise DUBOST, Céline LEROY.

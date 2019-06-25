@@ -19,6 +19,7 @@ const sidebar = [
             '/fiches/optique',
             ['/fiches/cartographie_pathologies', 'Cartographie des pathologies'],
             '/fiches/glossaire',
+            '/fiches/graph_reperage_sniiram',
         ]
     },
     {
@@ -58,10 +59,11 @@ module.exports = {
         editLinks: true,
         editLinkText: 'Éditer sur GitLab',
         nav: [
+            {text: 'Forum entraide', link: 'https://entraide.health-data-hub.fr/'},
             {text: 'Dico interactif', link: 'http://dico-snds.health-data-hub.fr/'},
         ],
         sidebar: sidebar,
-        sidebarDepth: 2,
+        sidebarDepth: 1,
         lastUpdated: 'Dernière mise à jour'
     }
 }
