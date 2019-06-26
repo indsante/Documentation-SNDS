@@ -1,6 +1,8 @@
 # Ressources
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
+Cette section liste des ressources sur le SNDS.
+
 ## Documents partagés sur cette documentation
 - [KWIKLY - Katalogue SNIIRAM SNDS](kwikly.md) [Cnam - MPL-2.0] permet de connaitre la présence des variables dans l’historique des produits depuis 2006.
 - [Historique des données SNDS](../files/2019_INDS_Historique-des-données-SNDS_MPL-2.0.pptx) [INDS - MPL-2.0]
@@ -41,5 +43,7 @@ qui alimente le dictionnaire interactif, et la partie **Tables** de cette docume
 
 
 ## Autres
-- [Ressource et présentations](meetup.md) partagés durant les Meetup SNDS.
+- [Présentations et vidéos](meetup.md) des Meetup SNDS.
+- [Programmes](programmes.md) dont le code est public.
+- [Bibliographie](bibliographie.md)
   
