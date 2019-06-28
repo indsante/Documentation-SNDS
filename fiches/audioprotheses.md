@@ -14,7 +14,7 @@ Il faut donc effectuer une jointure entre la table prestation ER_PRS_F et ER_TIP
 
 ## Répartition des achats par codes LPP
 
-| **LPP** | **Libellé** | **% des dépenses** | **% des achats** |
+| **LPP** | **Libellé** | **% des dépenses** | **% des prestations** |
 | --- | --- | --- | --- |
 | **2335791** | AUDIOPROTHESE, APPAREIL DE CLASSE D, > OU = 20 ANS | 83,5% | 27,6% |
 | **2340119** | AUDIOPROTHESE, ENTRETIEN & REPARATIONS, ALLOCATION FORFAITAIRE ANNUELLE | 6,8% | 61,8% |
@@ -97,5 +97,5 @@ QUIT;
 [https://www.ameli.fr/fileadmin/user_upload/documents/Points_de_repere_n_47___Le_marche_de_l_audioprothese_en_2015.pdf](https://www.ameli.fr/fileadmin/user_upload/documents/Points_de_repere_n_47___Le_marche_de_l_audioprothese_en_2015.pdf)
 
 ::: tip Crédits
-Le contenu original de cette fiche provient du document [2018-11-29_DREES_Optique_MLP-2.0.docx](../files/DREES/2018-11-29_DREES_Optique_MPL-2.0.docx) rédigé par Kristel JACQUIER.
+Le contenu original de cette fiche provient du document [2018-11-29_DREES_Optique_MLP-2.0.docx](../files/DREES/2019-03-22_DREES_Audioproth%C3%A8ses_MPL-2.0.docx) rédigé par Kristel JACQUIER.
 :::
