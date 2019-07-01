@@ -1,6 +1,6 @@
 # L'optique médicale
 
-Dans le SNDS, les dépenses en optique sont regroupées sous les codes prestations ci-dessous (variable PRS_NAT_REF):
+Dans le SNDS, les dépenses en optique sont regroupées sous les codes prestations ci-dessous (variable `PRS_NAT_REF`):
 3523, 3524, 3525, 3526, 3527, 3528, 3529, 3530, 3531, 3532, 3533, 3534, 3535, 3536, 3537, 3538, 3539, 3553, 3554, 3555, 3556, 3557, 3581, 3582, 3583, 5101, 5102, 5103, 5104, 5105, 5106, 5107
 
 Le détail de ces prestations est donné par le code LPP. 
@@ -10,15 +10,15 @@ Le libellé des codes LPP donne les caractéristiques de verres:
 - Unifocal ou multifocal
 - Sphériques ou sphéro-cylindriques ainsi que l'intensité de cette correction
 
-On trouve les codes LPP dans la variable TIP_PRS_IDE dans la table de prestation affinée des dispositifs médicaux : [ER_TIP_F](../tables/DCIR/ER_TIP_F.md). 
+On trouve les codes LPP dans la variable `TIP_PRS_IDE` de la table de prestation affinée des dispositifs médicaux : [ER_TIP_F](../tables/DCIR/ER_TIP_F.md). 
 
-Il faut donc effectuer une jointure entre la table prestation ER_PRS_F et ER_TIP_F pour avoir le détail par codes LPP
+Il faut donc effectuer une jointure entre la table prestation [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) et `ER_TIP_F` pour avoir le détail par codes LPP.
 
 ## Exemple de code pour extraire les dépenses d'optique médicale
 
 Le programme est conçu pour être utilisé sur le DCIR. Les tables du DCIR se trouvent dans la bibliothèque ORAVUE. 
 
-```
+```sql
 %macro Tables_MENSUELLES (indice, ddmmaaaa_flux, annee);
 
 PROC SQL;
@@ -101,13 +101,19 @@ PROC SQL;
 		;
 QUIT;
 ```
-La variable tip_ord_num donne le nombre de ligne de la table affinée correspondant à une ligne dans la table prestation. Lorsque tip_ord_num est supérieur à 1, cela signifie que pour une ligne de la table prestation, on a n lignes sur la table affinée. 
-Il faut donc être prudent car les infos de la table prestations sont dupliquées sur ces lignes. Notamment le montant de l'acte qui se trouve dans la table prestation. 
-Pour éviter de surestimer le montant de l'acte, on peut diviser le montant agrégé par le nombre de lignes correspondantes dans la table affinée. 
-Ou on peut choisir de poser un filtre sur la variable tip_ord_num. Ainsi, avec le filtre tip_ord_num<2 la jointure ne dédoublonne pas les informations de la table prestation car on s'assure d'avoir le même nombre de lignes sur la table prestation et la table affinée. 
-Cependant, on perd quelques informations que la table affinée aurait pu nous donner.
-Une dernière méthode est donnée par le programme mis à disposition par Mathis Haradji (DSS):
-https://gitlab.com/DREES_code/public/gu-snds/programmes-sas-gu-snds
+La variable `tip_ord_num` donne le nombre de ligne de la table affinée correspondant à une ligne dans la table prestation. Lorsque `tip_ord_num` est supérieur à 1, cela signifie que pour une ligne de la table prestation, on a `n` lignes sur la table affinée. 
+
+Il faut donc être prudent, car les informations de la table prestations sont dupliquées sur ces lignes. Notamment le montant de l'acte qui se trouve dans la table prestation.
+
+Pour éviter de surestimer le montant de l'acte, on peut au choix :
+- Diviser le montant agrégé par le nombre de lignes correspondantes dans la table affinée. 
+- Poser un filtre sur la variable `tip_ord_num`.
+
+  Ainsi, avec le filtre `tip_ord_num<2` la jointure ne dédoublonne pas les informations de la table prestation car on s'assure d'avoir le même nombre de lignes sur la table prestation et la table affinée. 
+
+  Cependant, on perd quelques informations que la table affinée aurait pu nous donner.
+
+- Utiliser la méthode donnée par le [programme mis à disposition par Mathis Haradji (DSS)](https://gitlab.com/DREES_code/public/gu-snds/programmes-sas-gu-snds/blob/master/Optique_-_DCIR_-_DSS.sas)
 
 ## Références
 
