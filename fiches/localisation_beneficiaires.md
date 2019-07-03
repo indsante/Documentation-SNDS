@@ -38,7 +38,11 @@ Si on souhaite travailler *au niveau communal* dans le SNIIRAM, il faut utiliser
 Cette partie détaille comment construire le code commune Insee complet pour un soin et donc une seule ligne du DCIR. Elle ne spécifie pas de critère de décision pour savoir quelle information retenir si un bénéficiaire est associé à deux localisations différentes.
 
 ### Construction du code Insee complet à 5 positions
-La **règle dominante** consiste à extraire les deux derniers caractères du code département et les trois caractères du code commune.
+La **règle dominante** consiste à extraire les deux derniers caractères du code département et les trois caractères du code commune.   
+
+![Schéma de construction du code commune Insee dans le SNIIRAM](../images/DREES/2019-07_DREES_localisation_beneficiaires/code_com_snds.png)
+
+
 Des **exceptions** existent pour : 
 
 *  La Corse : code département 209    
