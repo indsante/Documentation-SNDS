@@ -141,7 +141,7 @@ Une table **PMSI_CORRESP** est mise à disposition par l’[ATIH](glossaire.md#a
 Cette table n’est cependant pas bijective. 
 Elle génère des doublons lorsque les codes géographiques sont associés à plusieurs codes postaux.
 
-## Construction du code région
+## Construction du code région (SNIIRAM et PMSI)
 
 Le programme ci-dessous permet d'associer aux codes départements reconstruits selon les méthodes citées précédemment (SNIIRAM ou PMSI) les codes des nouvelles régions correspondantes :
 
