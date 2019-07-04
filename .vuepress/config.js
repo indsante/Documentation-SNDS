@@ -30,6 +30,7 @@ const sidebar = [
             '/ressources/meetup',
             ['/ressources/kwikly', 'KWIKLY'],
             '/ressources/portail_sniiram',
+            '/ressources/programmes',
             '/ressources/bibliographie',
         ]
     },
