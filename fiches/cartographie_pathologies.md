@@ -41,7 +41,7 @@ Il existe 56 tops pathologies, regroupés en 13 grands groupes de pathologies :
 * Maternité, avec ou sans pathologies ;  
 * Autres affections de longue durée. 
 
-Les tops pathologie sont calculés **chaque année** (AAAA), et selon plusieurs versions de l'algorithme d'identification. La version en cours en 2017 est la G5.
+Les tops pathologie sont calculés **chaque année** (AAAA), et selon plusieurs versions de l'algorithme d'identification. La version en cours en 2017 est la G5. La première année de disponibilité de la cartographie est 2012.
 
 ## Tables de la cartographie
 
