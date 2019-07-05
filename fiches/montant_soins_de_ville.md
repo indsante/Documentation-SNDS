@@ -1,51 +1,58 @@
 # Les montants des soins de ville dans le DCIR
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-
 ## Quels montants sont disponibles ?
-Les soins de ville sont présents dans le DCIR. Différentes informations sur les montants sont indiquées : 
+
+Les soins de ville sont présents dans le DCIR. 
+Différentes informations sur les montants sont indiquées : 
 - le montant payé par l'assuré 
 - le montant de base de remboursement 
 - le montant remboursé
 - le [taux de remboursement](https://www.ameli.fr/rhone/assure/remboursements/rembourse/tableau-recapitulatif-taux-remboursement/tableau-recapitulatif-taux-remboursement)
 - les [participations forfaitaires](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/participation-forfaitaire-1-euro) et [franchises médicales](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/franchise-medicale)
 
+::: warning Attention
+Le reste à charge des assurés n'est pas calculable. En effet, aucune information sur les mutuelles ne remonte dans le SNDS.
+:::
 
-Attention, le reste à charge n'est pas calculable car, actuellement, aucune information sur les mutuelles ne remontent dans le SNDS.
+## Quelques exemples 
 
+1. **Une consultation chez un médecin généraliste le 03/04/2018 - patient "classique"** 
 
-Quelques exemples : 
-1. ++Une consultation chez un médecin généraliste le 03/04/2018 - patient "classique"++ 
 Le patient a payé 27€, le montant de base de remboursement est 25€. 
 Le patient n'a aucune exonération du ticket modérateur, il sera remboursé de 17,5€ (70%) par le régime obligatoire. Le dépassement d'honoraires est de 2€.
 
-2. ++Une consultation chez un médecin généraliste le 05/05/2019 - patient en ALD30++ 
+2. **Une consultation chez un médecin généraliste le 05/05/2019 - patient en ALD30** 
+
 Le patient a payé 25€, le montant de base de remboursement est 25€. 
 Le patient a une ALD30, il sera remboursé de 25€ (100%) par le régime obligatoire. Il n'y a pas de dépassement d'honoraires.
 
-3. ++Une consultation chez un médecin généraliste le 12/06/2017 - patient CMUc++
+3. **Une consultation chez un médecin généraliste le 12/06/2017 - patient CMUc**
+
 Le patient a payé 25€, le montant de base de remboursement est 25€.
 Le patient bénéficie de la CMUc. Il sera remboursé de 25€ (100%) par le régime obligatoire.
 
-4. ++Une consultation chez un médecin généraliste le 04/03/2018 - patient Alsace-Moselle++
-Le patient a payé 30€, le montant de base de remboursement est 25€.
-Il est affilié en Alsace-Moselle, ses taux de remboursement du régime obligatoire sont donc supérieurs à ceux de la population générale. Il sera remboursé par le régime obligatoire de 22,50€ (90% au lieu de 70%). Le dépassement d'honoraires est de 5€.
+4. **Une consultation chez un médecin généraliste le 04/03/2018 - patient Alsace-Moselle**
 
-5. ++Une consultation chez un médecin généraliste le 03/04/2019 - complément et majoration - patient CMUc++ 
+Le patient a payé 30€, le montant de base de remboursement est 25€.
+Il est affilié en Alsace-Moselle, ses taux de remboursement du régime obligatoire sont donc supérieurs à ceux de la population générale. 
+Il sera remboursé par le régime obligatoire de 22,50€ (90% au lieu de 70%). Le dépassement d'honoraires est de 5€.
+
+5. **Une consultation chez un médecin généraliste le 03/04/2019 - complément et majoration - patient CMUc** 
+
 La consultation a eu lieu dans la nuit avec une majoration de coordination des généralistes.
 Le patient a payé 47,06€. Le montant de base de remboursement de la consultation est 25€ auquel il faut ajouter les montants de base de la majoration de coordination et du complément nuit. Le montant de base total est donc 25+19,06+3 soit 47,06€.
 Le patient bénéficie de la CMUc, il est donc remboursé de 47,06€.
 
 
-
-
-
-
 ## Quelles tables et quelles variables pour les récupérer ?
 
-Les montants payés, de base et remboursé du régime obligatoire des soins de ville sont disponibles dans [ER_PRS_F](../tables/DCIR/ER_PRS_F.md)(_XXXX en cas d'extraction). Les montants liés à la couverture étendue de la CMUc et de l'Alsace-Moselle sont dans [ER_ARO_F](../tables/DCIR/ER_ARO_F.md)(_XXXX). En reprenant les mêmes exemples que précédemment :
+Les montants payés, de base et remboursé du régime obligatoire des soins de ville sont disponibles dans la table [ER_PRS_F](../tables/DCIR/ER_PRS_F.md)(_XXXX en cas d'extraction). 
+Les montants liés à la couverture étendue de la CMUc et de l'Alsace-Moselle sont dans la table [ER_ARO_F](../tables/DCIR/ER_ARO_F.md)(_XXXX). 
 
-1. ++Une consultation chez un médecin généraliste le 03/04/2018 - patient "classique"++
+En reprenant les mêmes exemples que précédemment :
+
+1. **Une consultation chez un médecin généraliste le 03/04/2018 - patient "classique"**
 
 | Montant           | Table | Variable                  | Valeur |
 |-------------------|-------|---------------------------|--------|
@@ -55,7 +62,7 @@ Les montants payés, de base et remboursé du régime obligatoire des soins de v
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_BSE | 2€     |
 
 
-2. ++Une consultation chez un médecin généraliste le 05/05/2019 - patient en ALD30++
+2. **Une consultation chez un médecin généraliste le 05/05/2019 - patient en ALD30**
 
 | Montant           | Table | Variable                  | Valeur |
 |-------------------|-------|---------------------------|--------|
@@ -65,7 +72,7 @@ Les montants payés, de base et remboursé du régime obligatoire des soins de v
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_BSE | 0€     |
 
 
-3. ++Une consultation chez un médecin généraliste le 12/06/2017 - patient CMUc++
+3. **Une consultation chez un médecin généraliste le 12/06/2017 - patient CMUc**
 
 | Montant           | Table | Variable                  | Valeur |
 |-------------------|-------|---------------------------|--------|
@@ -76,7 +83,7 @@ Les montants payés, de base et remboursé du régime obligatoire des soins de v
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_BSE | 0€     |
 Le montant total rembousé est donc la somme des montants remboursés dans PRS et ARO.
 
-4. ++Une consultation chez un médecin généraliste le 04/03/2018 - patient Alsace-Moselle++
+4. **Une consultation chez un médecin généraliste le 04/03/2018 - patient Alsace-Moselle**
 
 | Montant           | Table | Variable                  | Valeur |
 |-------------------|-------|---------------------------|--------|
@@ -88,7 +95,7 @@ Le montant total rembousé est donc la somme des montants remboursés dans PRS e
 
 
 
-5. ++Une consultation chez un médecin généraliste le 03/04/2019 - complément et majoration - patient CMUc++ 
+5. **Une consultation chez un médecin généraliste le 03/04/2019 - complément et majoration - patient CMUc** 
 Plusieurs lignes vont être présentes dans ER_PRS_F pour ce soin : 
 
 | Montant           | Table | Variable                  | Valeur |
@@ -100,7 +107,7 @@ Plusieurs lignes vont être présentes dans ER_PRS_F pour ce soin :
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - (BSE_REM_BSE + CPL_REM_BSE) | 0€ |
 
 
-Les participations forfaitaires et franchises médicales sont dans la variable CPL_REM_MNT dans ER_PRS_F (`CPL_MAJ_TOP=2 and CPL_AFF_COD=16`). 
+Les participations forfaitaires et franchises médicales sont dans la variable `CPL_REM_MNT` dans ER_PRS_F (`CPL_MAJ_TOP=2 and CPL_AFF_COD=16`). 
 
 
 ## Requête SQL 
