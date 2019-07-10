@@ -1,8 +1,8 @@
 # Aide Médicale d'Etat
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-## Personnes concernées par l’Aide Médicale de l'État 
-L'Aide Médicale de l'État (AME) est destinée à permettre l'accès aux soins des personnes en situation irrégulière au regard de la réglementation française sur le séjour en France. Elle est attribuée sous conditions de résidence et de ressources. À noter que l'AME n'est pas applicable à Mayotte.
+## Qu'est ce que l'Aide Médical d'Etat (AME)
+L'Aide Médicale de l'État (AME) est destinée à permettre l'accès aux soins des personnes en situation irrégulière en France. Elle est attribuée sous conditions de résidence et de ressources.
 
 Ce dispositif s'inscrit dans le cadre de la lutte contre les exclusions. Cette protection santé s'adresse aux ressortissants étrangers en situation irrégulière et précaire.
 
@@ -12,11 +12,13 @@ Pour plus d'information, vous pouvez consulter le site de l'[Assurance Maladie](
 Dans ER_PRS_F variable  RGM_COD (code petit régime) 
 
 On prends les modalités : 
-95 : aide médicale gratuite 100 % état
-96 : aide médicale hospitalière gratuite 100 % état
+- 95 : aide médicale gratuite 100 % état
+- 96 : aide médicale hospitalière gratuite 100 % état
 
-Seul souci: ne cible que les consommants puisque dans table des prestations, il faut donc que l'individu ait au moins une prestation. Ce qui est toutefois souvent le cas pour les AME 
-il  ya aussi une variable BEN_CMU_CAT (catégorie d’organisme complémentaire) dont la modalité côtée 5 correspond à l’AME.
+Seul souci: on ne considère que les consommants puisque on a l'information uniquement dans la table des prestations. Il faut donc que l'individu ait au moins une prestation (ce qui est souvent le cas pour les AME). 
+On peut aussi utiliser la variable BEN_CMU_CAT (catégorie d’organisme complémentaire) dont la modalité 5 correspond à l’AME.
+
+À noter que l'AME n'est pas applicable à Mayotte.
 
 ## Code SQL 
 ```sql
