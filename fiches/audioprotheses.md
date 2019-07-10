@@ -87,6 +87,7 @@ PROC SQL;
           t1.REM_TYP_AFF = t2.REM_TYP_AFF)
   )
   WHERE t1.prs_nat_ref in ( **3541** , **3547** )
+        AND t1.dpn_qlf <> 71
   ;
 QUIT;
 ```
