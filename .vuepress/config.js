@@ -20,9 +20,10 @@ const sidebar = [
             ['/fiches/cartographie_pathologies', 'Cartographie des pathologies'],
             '/fiches/glossaire',
             '/fiches/graph_reperage_sniiram',
+            'fiches/aide_medicale_etat',
             '/fiches/fiche_beneficiaire',
             '/fiches/localisation_beneficiaires',
-            '/fiches/fiche_beneficiaire',
+
         ]
     },
     {
