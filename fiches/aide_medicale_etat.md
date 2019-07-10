@@ -42,4 +42,8 @@ quit;
 
 ```
 
-HOME Made by Catherine BISQUAY (ARS Ile-de-France) & Céline LEROY (ARS Normandie)
+## Références
+
+::: tip Crédits
+Cette fiche a été rédigée par Catherine BISQUAY (ARS Ile-de-France) & Céline LEROY (ARS Normandie)
+:::
