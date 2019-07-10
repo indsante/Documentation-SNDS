@@ -5,13 +5,12 @@ Cette section liste des ressources sur le SNDS.
 
 ## Documents partagés sur cette documentation
 - [KWIKLY - Katalogue SNIIRAM SNDS](kwikly.md) [Cnam - MPL-2.0] permet de connaitre la présence des variables dans l’historique des produits depuis 2006.
-- [Historique des données SNDS](../files/2019_INDS_Historique-des-données-SNDS_MPL-2.0.pptx) [INDS - MPL-2.0]
 - [Dictionnaire DCIR et PMSI/MCO](../files/2019-04_GIS_EPI-PHARE_DICO_DCIR_4_Vue_MPL-2.0.xlsx) [GIS EPI-PHARE - MPL-2.0] utilisé en interne pour reconstruire des vues SAS. Contient notamment les années de disponibilité des tables et variables.
 - [DCIR-Formats.zip](../files/2019-04_GIS_EPI-PHARE_DCIR-Formats_MPL-2.0.zip) [GIS EPI-PHARE - MPL-2.0]  
 Archive comprenant
   - `PI_DCIR_Formats.docx`, un manuel sur les vues et formats DCIR
   - 33  fichiers xlsx retraçant les évolutions mensuelles de certaines tables de valeurs
-- [Fiche bénéficiaire](../files/Cnam/2019-06_CNAM-INDS_SNDS_Fiches_Thematiques_BENEF_MPL-2.0.pdf) [CNAM - INDS - MPL-2.0] permet de comprendre les identifiants des bénéficiaires dans le SNDS et les exploiter correctement.
+- [Fiche bénéficiaire](../files/Cnam/2019-06_CNAM-INDS_SNDS_Fiches_Thematiques_BENEF_MPL-2.0.pdf) [CNAM - INDS - MPL-2.0] permet de comprendre les identifiants des bénéficiaires dans le SNDS et les exploiter correctement.
 - [FAQ DCIR 03 2018](../files/Cnam/2018-03-CNAM-FAQ_DCIR_MLP-2.0.xlsx) [CNAM - MPL-2.0] résume les différentes questions posées sur DCIR.
 
 
