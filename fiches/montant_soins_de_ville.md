@@ -114,6 +114,7 @@ Plusieurs lignes vont être présentes dans ER_PRS_F pour ce soin :
 | montant remboursé | ER_ARO_F  | ARO_REM_MNT | 7,5+5,64+0,9€  |
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - (BSE_REM_BSE + CPL_REM_BSE) | 0€ |
 
+CPL_REM_MNT contient les montants des compléments et majoration.
 
 Les participations forfaitaires et franchises médicales sont dans la variable CPL_REM_MNT dans ER_PRS_F (`CPL_MAJ_TOP=2 and CPL_AFF_COD=16`). 
 
