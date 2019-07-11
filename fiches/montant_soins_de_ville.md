@@ -11,11 +11,13 @@ Différentes informations sur les montants sont indiquées :
 - le [taux de remboursement](https://www.ameli.fr/rhone/assure/remboursements/rembourse/tableau-recapitulatif-taux-remboursement/tableau-recapitulatif-taux-remboursement)
 - les [participations forfaitaires](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/participation-forfaitaire-1-euro) et [franchises médicales](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/franchise-medicale)
 
-::: warning Attention
+::: warning 
+Attention
 Le reste à charge des assurés n'est pas calculable. En effet, aucune information sur les mutuelles ne remonte dans le SNDS.
 :::
 
 ## Quelques exemples 
+Les exemples ci-dessous illustrent différents cas de patients possibles pour comprendre comment les remboursements fonctionnent.
 
 1. **Une consultation chez un médecin généraliste le 03/04/2018 - patient "classique"** 
 
@@ -50,6 +52,7 @@ Le patient bénéficie de la CMUc, il est donc remboursé de 47,06€.
 Les montants payés, de base et remboursé du régime obligatoire des soins de ville sont disponibles dans la table [ER_PRS_F](../tables/DCIR/ER_PRS_F.md)(_XXXX en cas d'extraction). 
 Les montants liés à la couverture étendue de la CMUc et de l'Alsace-Moselle sont dans la table [ER_ARO_F](../tables/DCIR/ER_ARO_F.md)(_XXXX). 
 
+
 En reprenant les mêmes exemples que précédemment :
 
 1. **Une consultation chez un médecin généraliste le 03/04/2018 - patient "classique"**
@@ -81,7 +84,12 @@ En reprenant les mêmes exemples que précédemment :
 | montant remboursé | ER_PRS_F  | BSE_REM_MNT       | 17,5€  |
 | montant remboursé | ER_ARO_F  | ARO_REM_MNT      | 7,5€  |
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_BSE | 0€     |
+
 Le montant total rembousé est donc la somme des montants remboursés dans PRS et ARO.
+
+::: warning 
+A noter : le professionel de santé n'est pas autorisé à faire de dépassement d'honoraires pour les patients CMUc.
+:::
 
 4. **Une consultation chez un médecin généraliste le 04/03/2018 - patient Alsace-Moselle**
 
@@ -110,10 +118,13 @@ Plusieurs lignes vont être présentes dans ER_PRS_F pour ce soin :
 Les participations forfaitaires et franchises médicales sont dans la variable `CPL_REM_MNT` dans ER_PRS_F (`CPL_MAJ_TOP=2 and CPL_AFF_COD=16`). 
 
 
-## Requête SQL 
+::: warning 
+Attention : pour les médicaments, LPP, biologie et CCAM, seul les montants totaux sont calculés ici. Le détail des montants de base et remboursés sont dans les tables affinées dédiées. Le montant payé des ER_PRS_FER_PRS_F est le montant total. Par exemple, dans le cas d'une prise de sang avec 3 dosages, PRS_PAI_MNT correspond au montant payé pour les 3. La montant payé pour chacun des dosages n'est pas disponible. Idem, les montants de base et remboursé dans ER_PRS_F correspondent aux 3 dosages. Le montant remboursé et de base de chaque dosage est dans ER_BIO_F(_XXXX).
+:::
 
+::: warning 
 Attention, dans ER_ARO_F, si le patient est Alsace-Moselle et CMUc, il aura pour chaque soin, une ligne de remboursement supplémentaire Alsace-Moselle et une pour la CMUc (la variable ARO_REM_TYP permet de différencier les 2 types de remboursement).
-
+:::
 
 ## Références
 ::: tip Crédit
