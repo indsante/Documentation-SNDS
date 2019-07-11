@@ -115,11 +115,11 @@ Plusieurs lignes vont être présentes dans ER_PRS_F pour ce soin :
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - (BSE_REM_BSE + CPL_REM_BSE) | 0€ |
 
 
-Les participations forfaitaires et franchises médicales sont dans la variable `CPL_REM_MNT` dans ER_PRS_F (`CPL_MAJ_TOP=2 and CPL_AFF_COD=16`). 
+Les participations forfaitaires et franchises médicales sont dans la variable CPL_REM_MNT dans ER_PRS_F (`CPL_MAJ_TOP=2 and CPL_AFF_COD=16`). 
 
 
 ::: warning 
-Attention : pour les médicaments, LPP, biologie et CCAM, seul les montants totaux sont calculés ici. Le détail des montants de base et remboursés sont dans les tables affinées dédiées. Le montant payé des ER_PRS_FER_PRS_F est le montant total. Par exemple, dans le cas d'une prise de sang avec 3 dosages, PRS_PAI_MNT correspond au montant payé pour les 3. La montant payé pour chacun des dosages n'est pas disponible. Idem, les montants de base et remboursé dans ER_PRS_F correspondent aux 3 dosages. Le montant remboursé et de base de chaque dosage est dans ER_BIO_F(_XXXX).
+Attention : pour les médicaments, LPP, biologie et CCAM, seuls les montants totaux sont calculés ici. Le détail des montants de base et remboursé sont dans les tables affinées dédiées. Le montant payé des ER_PRS_F est le montant total. Par exemple, dans le cas d'une prise de sang avec 3 dosages, PRS_PAI_MNT correspond au montant payé pour les 3. Le montant payé pour chacun des dosages n'est pas disponible. Idem, les montants de base et remboursé dans ER_PRS_F correspondent aux 3 dosages. Le montant remboursé et de base de chaque dosage est dans ER_BIO_F(_XXXX).
 :::
 
 ::: warning 
