@@ -1,24 +1,31 @@
 # Aide Médicale d'Etat
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-## Qu'est ce que l'Aide Médical d'Etat (AME)
-L'Aide Médicale de l'État (AME) est destinée à permettre l'accès aux soins des personnes en situation irrégulière en France. Elle est attribuée sous conditions de résidence et de ressources.
+L'Aide Médicale de l'État (AME) est destinée à permettre l'accès aux soins des personnes en situation irrégulière en France. 
+Elle est attribuée sous conditions de résidence et de ressources.
 
-Ce dispositif s'inscrit dans le cadre de la lutte contre les exclusions. Cette protection santé s'adresse aux ressortissants étrangers en situation irrégulière et précaire.
+Ce dispositif s'inscrit dans le cadre de la lutte contre les exclusions. 
+Elle s'adresse aux ressortissants étrangers en situation irrégulière et précaire.
 
 Pour plus d'information, vous pouvez consulter le site de l'[Assurance Maladie](https://www.ameli.fr/assure/droits-demarches/situations-particulieres/situation-irreguliere-ame).
 
+## Identification des bénéficiaires de l'AME
 
-Dans ER_PRS_F variable  RGM_COD (code petit régime) 
+Pour identifier les bénéficiaires de l'AME dans la table des prestations du DCIR [ER_PRS_F](../tables/DCIR/ER_PRS_F.md),
+ il faut utiliser la variable `RGM_COD` (code petit régime). 
 
 On prends les modalités : 
 - 95 : aide médicale gratuite 100 % état
 - 96 : aide médicale hospitalière gratuite 100 % état
 
-Seul souci: on ne considère que les consommants puisque on a l'information uniquement dans la table des prestations. Il faut donc que l'individu ait au moins une prestation (ce qui est souvent le cas pour les AME). 
-On peut aussi utiliser la variable BEN_CMU_CAT (catégorie d’organisme complémentaire) dont la modalité 5 correspond à l’AME.
+Seul souci : on ne considère que les consommants puisque on a l'information uniquement dans la table des prestations. 
+Il faut donc que l'individu ait au moins une prestation, ce qui est souvent le cas pour les AME. 
 
-À noter que l'AME n'est pas applicable à Mayotte.
+On peut aussi utiliser la variable `BEN_CMU_CAT` (catégorie d’organisme complémentaire) dont la modalité 5 correspond à l’AME.
+
+::: warning Attention
+L'AME n'est pas applicable à Mayotte.
+:::
 
 ## Code SQL 
 ```sql
