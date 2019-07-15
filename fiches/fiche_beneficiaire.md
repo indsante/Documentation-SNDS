@@ -9,7 +9,7 @@ Comprendre les identifiants des bénéficiaires dans le SNDS et les exploiter 
 - date de naissance du bénéficiaire,
 - code sexe du bénéficiaire.
 
-Ce triplet est crypté (pseudonymisé) et est restitué dans les données brutes dans des variables sur 17 caractères : **BEN_NIR_PSA** dans le DCIR et **NIR_ANO_17** dans le PMSI.
+Ce triplet est crypté (pseudonymisé) et est restitué dans les données brutes dans des variables sur 17 caractères : **BEN_NIR_PSA** dans le DCIR et NIR_ANO_17 dans le PMSI.
 Dans le cadre des demandes d’extractions des données du SNDS (accès sur projet), cette variable est cryptée et est restituée aux utilisateurs dans la variable NUM_ENQ.
 
 Un individu a plusieurs « pseudo-NIR » durant sa vie, en l’occurrence, autant de « pseudos NIR » que d’assurés :
@@ -98,6 +98,6 @@ L’identifiant BEN_ID vous permet directement de regrouper les informations d�
 ## Références
 
 ::: tip Crédit
-Le contenu original de cette fiche provient du document [Fiche bénéficiaires](../files/Cnam/2019-06_CNAM-INDS_SNDS_Fiches_Thematiques_BENEF_MPL-2.0.pdf) rédigé par la [CNAM](https://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/index.php)
+Le contenu original de cette fiche provient du document [Fiche bénéficiaires](../files/Cnam/2019-06_CNAM-INDS_SNDS_Fiches_Thematiques_BENEF_MPL-2.0.pdf) rédigé par la [CNAM](https://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/index.php)  
 MAJ 11/07/2019
 :::
