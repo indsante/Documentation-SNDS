@@ -1,42 +1,48 @@
 # Localisation géographique des bénéficiaires
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-La localisation géographique du bénéficiaires dans le SNDS est possible grâce aux variables indiquant le **département et la commune de résidence**. 
-Il n’existe pas de niveau plus fin de localisation. 
-Ces variables sont mises à disposition dans différentes tables du SNDS, dans des formats différents, avec parfois des informations contradictoires ou à corriger.
+La localisation géographique du bénéficiaire dans le SNDS est possible grâce aux variables indiquant le **département** et la **commune de résidence**. 
+Il n’existe pas de niveau de localisation plus fin.
+Ces variables sont mises à disposition dans plusieurs tables du SNDS, dans des formats différents, avec parfois des informations contradictoires ou à corriger.
 
 L’objet de cette fiche est d’aider à s’y retrouver parmi ces différentes informations pour assurer au mieux la qualité de la localisation du bénéficiaire.  
 
 ## Remarques préliminaires
 
-### Le code commune correspond à des information différentes selon les univers
+### Signification du code commune
 
-Dans le *SNIIRAM* et les *causes de décès*, il s'agit du **code Insee**
-Tandis que dans le *PMSI*, il s’agit du **code géographique**, à savoir le code postal, ou code postal agrégé pour les communes de moins de 1000 habitants. 
+L'information code commune est différente selon l'univers considéré.
 
-Dans le SNIIRAM, le code commune est remonté via la carte vitale au moment du soin; ou via les bases de données des caisses de sécurité sociale. 
-Dans le PMSI il est déclaré par le bénéficiaire lors du séjour. 
-Dans les causes de décès, il s’agit de l’information sur le certificat de décès.
+Dans le **SNIIRAM**, le code commune est le **code Insee**. 
+Il est remonté via la carte vitale au moment du soin, ou via les bases de données des caisses de sécurité sociale. 
+
+Dans le **PMSI**, le code commune est appelé **code géographique**. 
+Il s'agit du code postal pour les commune de plus de 1000 habitants, et d'un code postal agrégé pour les communes de moins de 1000 habitants. 
+Ce code postal est déclaré par le bénéficiaire lors du séjour.
+
+Dans les **causes de décès**, le code commune est le **code Insee**. 
+Il s’agit de l’information sur le certificat de décès.
 
 ### Association d'un bénéficiaire à un lieu de résidence
 
-Il existe différents critères de décision pour associer un bénéficiaire à un lieu de résidence.
+Différents critères permettent d'associer un bénéficiaire à un lieu de résidence.
 
 La CNAM retient souvent le critère du **dernier département de résidence**.
  
 Il est possible d’utiliser d’autres critères d'associations, tels que 
-- le département associé au plus grand nombre de soins sur la période d’étude ;  
+- le département du plus grand nombre de soins sur la période d’étude ;  
 - le département de l’organisme de remboursement du bénéficiaire ;
 - le département du professionnel exerçant le soin.
 
 ### Qualité de l'information
 
-Au niveau département, la plupart des codes sont bons.
-Des problèmes existent pour la Corse, les DOM, et les bénéficiaires de certaines sections locales mutualistes étudiantes (SLM 617).
+La plupart des codes département sont corrects.
+Des problèmes existent cependant pour la Corse, les DOM, et les bénéficiaires de certaines sections locales mutualistes étudiantes (SLM 617).
 
-Au niveau communal, beaucoup de corrections sont à faire, en recourant notamment à des tables de correction *a priori* non exhaustives.
+Beaucoup de corrections sont à faire sur les codes communes. 
+On recourt alors notamment à des tables de correction, qui ne sont *a priori* pas exhaustives.
 
-## Où trouver les variables département et commune 
+## Où trouver les variables département et commune ?
 
 | **UNIVERS**| **TABLE**| **VARIABLE DÉPARTEMENT** (str(3)) | **VARIABLE COMMUNE** (str(3)) | **REMARQUES** |
 |------------|----------|----------|----------|----------|
@@ -46,42 +52,79 @@ Au niveau communal, beaucoup de corrections sont à faire, en recourant notammen
 | | **Table prestations** [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md)| BEN_RES_DPT | BEN_RES_COM | Information remontée au moment de la prestation |
 | | **Tables affinées** [NS_XXX_F](../tables/DCIRS)| BEN_RES_DPT | BEN_RES_COM | Information remontée au moment de la prestation |
 | **PMSI MCO/SSR/HAD** | **Table séjour B** [T_MCOAA_B](../tables/PMSI/PMSI%20MCO/T_MCOaa_nnB.md) | BDI_DEP | BDI_COD (str(5))| |
-| **Carto des pathos** | **Table individus** [CT_IND_AAAA_GN](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_IND_AAAA_GN.md)| dpt| Non disponible | Code reconstitué à partir des informations du DCIR et du PMSI et corrigé si besoin |
+| **Cartographie des pathologies** | **Table individus** [CT_IND_AAAA_GN](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_IND_AAAA_GN.md)| dpt| Non disponible | Code reconstitué à partir des informations du DCIR et du PMSI et corrigé si besoin |
 | **Causes de décès** | **Table cause initiale de décès** [KI_CCI_R](../tables/Causes%20de%20décès/KI_CCI_R.md) | BEN_RES_DPT | BEN_RES_COM | Les codes ont été transformés pour coller aux référentiels du SNIIRAM IR_DPT_V et IR_GEO_V |
 
+## Construction de la localisation dans le PMSI
+
+Pour travailler *à un niveau départemental*, la variable département `BDI_DEP` s’utilise seule.
+
+Différences par rapport au SNIIRAM :
+- Les départements de Corse sont codés `2A` ou `2B`
+- Les DOM sont codés `9A`, `9B`, `9C`, `9D` et `9F`
+
+Pour travailler *à un niveau communal*, la variable commune `BDI_COD` s’utilise également seule dans le PMSI (5 positions). 
+Elle donne le code géographique du lieu de résidence déclaré par le patient. 
+
+Le code géographique correspond au code postal, ou à un regroupement pour les codes postaux de moins de 1000 habitants. 
+La table **PMSI_CORRESP**, mise à disposition par l’[ATIH](glossaire.md#atih), permet de passer des codes géographiques aux codes postaux. 
+
+::: warning Note
+Lorsqu'un code géographique est associé à plusieurs codes postaux, une simple jointure sur `PMSI_CORRESP va générer des lignes en doublons.
+:::
 
 ## Construction de la localisation dans le SNIIRAM
+ 
+### Construction du code département
 
-Si on souhaite travailler *à un niveau départemental*, la variable du département peut généralement s’utiliser seule. 
+La variable du département `BEN_RES_DPT` peut généralement s’utiliser directement.
 
-Dans certains cas, la variable commune est cependant utile pour bien reconstituer le code du département : distinction des DOM entre eux, distinction des deux départements de Corse.
+Il est cependant plus rigoureux de commencer par reconstituer le code Insee `depcom` au niveau comunal (cf ci-dessous), puis d'en extraire le code département. 
+Cette méthode permet notamment de bien distinguer les DOM, et les deux départements de Corse.
 
-Si on souhaite travailler *au niveau communal* dans le SNIIRAM, il faut combiner l’information des **deux** variables département **et** commune.  
+Exemple de code SAS pour construire la variable departement `dept`
+```sas
+IF substr(depcom,1,2) in ("97","20") THEN dept=substr(depcom,1,3);
+ELSE dept=substr(depcom,1,2);
+```
 
-### Construction du code Insee complet à 5 positions
+Pour reconstituer le code département de la Corse (Haute-Corse `201`, et Corse-du-Sud `202`), 
+il est également possible d'utiliser le département de l'organisme d'affiliation du bénéficiaire `(substr(ORG_AFF_BEN,4,3))`.
+Les deux départements de la Corse y sont en effet bien distingués pour le régime général, et pour les SLM.
 
-Cette partie détaille comment construire le code commune Insee complet pour un soin, c'est-à-dire pour une ligne du DCIR. 
+### Construction du code commune Insee complet à 5 positions
+ 
+Pour travailler *au niveau communal* dans le SNIIRAM, il faut reconstituer le code commune Insee complet à 5 positions. 
+ 
+Cette partie détaille la construction du code Insee pour un soin, c'est-à-dire pour une ligne du DCIR. 
+
 Elle ne spécifie pas de critère de décision pour savoir quelle information retenir si un bénéficiaire est associé à deux localisations différentes.
 
-La **règle dominante** consiste à extraire *les deux derniers caractères du code département* et *les trois caractères du code commune*.   
+#### Règles de construction
+
+La construction du code Insee à 5 positions nécessite de combiner les variables département **et** commune. 
+Cette combinaison a une règle générale, et des règles spécifiques pour les cas particuliers.
+
+La **règle générale** consiste à extraire *les deux derniers caractères du code département* et *les trois caractères du code commune*.   
 
 ![Schéma de construction du code commune Insee dans le SNIIRAM](../images/DREES/2019-07_DREES_localisation_beneficiaires/code_com_snds.png)
 
 
-Des **exceptions** existent pour : 
+Des **règles spécifiques** existent pour : 
 
-*  La Corse (code département `209`)
-    * 2 **premiers** caractères du code département    
-    * 3 caractères du code commune
-*  Les DOM
-    * Pour les bénéficiaires du [RG](glossaire.md#rg), le code département est `097` et la règle dominante fonctionne
-    * Pour la [MSA](glossaire.md#msa) et le [RSI](glossaire.md#rsi), le code département est entre `971` et `976`, 
-        * Pour la MSA, on applique la même règle que pour la Corse
-        * Pour le RSI, on conserve les 3 caractères du code département et les 2 derniers caractères du code commune
+-  La Corse (code département `209`)
+    Combinaison des 
+    - 2 **premiers** caractères du code département    
+    - 3 caractères du code commune
+-  Les DOM
+    - Pour les bénéficiaires du [RG](glossaire.md#rg), le code département est `097` et la règle dominante fonctionne
+    - Pour la [MSA](glossaire.md#msa) et le [RSI](glossaire.md#rsi), le code département est entre `971` et `976`, 
+        - Pour la MSA, on applique la même règle que pour la Corse.
+        - Pour le RSI, on conserve les 3 caractères du code département et les 2 derniers caractères du code commune.
 
-#### Code SAS pour reconstruire la variable `depcom`
+#### Code SAS pour construire `depcom`
 
-Voici un exemple de code SAS pour reconstruire la variable *depcom* à 5 positions, à partir des variables `BEN_RES_DPT` et `BEN_RES_COM`
+Voici un exemple de code SAS pour construire la variable code Insee `depcom` à 5 positions, à partir des variables `BEN_RES_DPT` et `BEN_RES_COM`.
 
 ```sas
 /*Cas général*/
@@ -98,48 +141,30 @@ ELSE IF (regime='03A' and substr(ben_res_dpt,1,2)='97')
 	THEN depcom=compress(ben_res_dpt)||substr(ben_res_com,2,2); 
 ```
 
-#### Corrections supplémentaires
+#### Problèmes supplémentaires et corrections
 
-* Un certain nombre de codes communes et de codes départements sont manquants et codés en `000`, `099` ou `999`. 
-Pour améliorer l’information, il est possible d’utiliser le département de l’organisme d’affiliation du bénéficiaire `(substr(org_aff_ben,4,3))`.
+D'autres problèmes existent, pour lesquels nous proposons des corrections, à appliquer dans l'ordre.
 
-* Certains codes communes Insee sont erronés pour différentes raisons et peuvent être corrigés, de préférence dans l’ordre qui suit :
-    * La nomenclature des codes communes évolue régulièrement et les caisses ne répercutent pas nécessairement toutes les évolutions de codage. 
-    Elles utilisent donc parfois des codes Insee qui n’existent plus.  
-→ Mise à disposition d’une table de correction pour réattribuer les bons codes (attention, table non exhaustive): RFCOMMUN.CORRECTIONS_COM2012_NEW
-    * Codes postaux à la place des codes Insee  
-→ Mise à disposition par l’ARS Ile-de-France d’une table de correction pour réattribuer les bons codes: RFCOMMUN.T_FIN_GEO_LOC_FRANCE  
+- Un certain nombre de codes communes et de codes départements sont manquants. 
+Les valeurs manquantes utilisées sont `000`, `099` ou `999`. 
+
+*Correction* : utiliser le département de l’organisme d’affiliation `(substr(ORG_AFF_BEN,4,3))`.
+
+- Les caisses utilisent parfois des codes Insee qui n'existent plus.
+  
+La nomenclature des codes communes évolue en effet régulièrement. 
+Les caisses ont parfois du retard pour répercuter ces évolutions.
+    
+*Correction* : La table `RFCOMMUN.CORRECTIONS_COM2012_NEW` permet de réattribuer les bons codes Insee. 
+Attention, cette table n'est pas exhaustive. 
+    
+- Utilisation des codes postaux à la place des codes Insee  
+    
+*Correction* : La table `RFCOMMUN.T_FIN_GEO_LOC_FRANCE`, mise à disposition par l’ARS Ile-de-France, permet de réattribuer les bons codes.
  
-* Anomalie pour les bénéficiaires d’une SLM étudiante (code 617) : code département tronqué à deux caractères et compris entre 001 et 009  
-→ Correction à effectuer en récupérant via le département de l’organisme (substr(ORG_AFF_BEN,4,3))
+- Anomalies pour les bénéficiaires d’une SLM étudiante (code 617) : code département tronqué à deux caractères et compris entre `001` et `009`
 
-* Pour reconstituer le code département de la Corse (Haute-Corse, 201, et Corse-du-Sud, 202) deux méthodes possibles :
-    * utiliser le département de l'organisme d'affiliation du bénéficiaire *(substr(org_aff_ben,4,3))* qui distingue les deux départements de la Corse pour le régime général et les SLM
-    * reconstituer le code département à partir des codes Insee à 5 positions à l'aide d'un code de passage de la commune au département
-
-### Construction du code département
-
-La méthode la plus rigoureuse pour tenir compte des spécificités du codage de la variable département dans le SNIIRAM (Corse, DOM, etc.) est de repartir de la variable du code commune à 5 positions créée d’après le code ci-dessus, puis d’en extraire le département à l’aide du code suivant :
-
-```sas
-IF substr(depcom,1,2) in ("97","20") THEN dept=substr(depcom,1,3);
-ELSE dept=substr(depcom,1,2);
-```
-
-## Construction de la localisation dans le PMSI
-
-Si on souhaite travailler *à un niveau départemental*, la variable département `BDI_DEP` s’utilise seule.
-
-Si on souhaite travailler *à un niveau communal*, la variable commune `BDI_COD` s’utilise également seule dans le PMSI (5 positions). 
-Elle donne le code géographique du lieu de résidence déclaré par le patient, qui correspond au code postal ou à un regroupement pour les communes de moins de 1000 habitants.
- 
-Différences par rapport au SNIIRAM :
-* La Corse : codée 2A ou 2B
-* Les DOM : codés 9A, 9B, 9C, 9D et 9F
-
-Une table **PMSI_CORRESP** est mise à disposition par l’[ATIH](glossaire.md#atih) pour passer des codes géographiques aux codes postaux. 
-Cette table n’est cependant pas bijective. 
-Elle génère des doublons lorsque les codes géographiques sont associés à plusieurs codes postaux.
+*Correction* : utiliser le département de l’organisme d’affiliation `(substr(ORG_AFF_BEN,4,3))`.
 
 ## Construction du code région (SNIIRAM et PMSI)
 
@@ -260,5 +285,6 @@ IF dept="976" THEN region="06-Mayotte";
 ## Références
 
 ::: tip Crédit
-Le contenu de cette fiche est rédigé par Claire-Lise Dubost (DREES) et s'inspire notamment de la note technique rédigée en 2014 par Pierre-Olivier Blotière (CNAM), ainsi que de codes fournis par les ARS.
+Le contenu de cette fiche est rédigé par Claire-Lise Dubost (DREES).
+Il s'inspire notamment de la note technique rédigée en 2014 par Pierre-Olivier Blotière (CNAM), ainsi que de codes fournis par les ARS.
 :::
