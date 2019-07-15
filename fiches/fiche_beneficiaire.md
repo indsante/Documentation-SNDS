@@ -1,10 +1,6 @@
 # Identifiants des bénéficiaires
 
-**Objectif** :
-Comprendre les identifiants des bénéficiaires dans le SNDS et les exploiter correctement.  
-
-**Public ciblé** :
-Porteurs de projets ayant accès à une extraction des données du SNDS
+Comprendre les identifiants des bénéficiaires dans le SNDS et les exploiter correctement. 
 
 ## Les identifiants bénéficiaires dans le SNDS
 
@@ -13,7 +9,7 @@ Porteurs de projets ayant accès à une extraction des données du SNDS
 - date de naissance du bénéficiaire,
 - code sexe du bénéficiaire.
 
-Ce triplet est crypté (pseudonymisé) et est restitué dans les données brutes dans des variables sur 17 caractères : **BEN_NIR_PSA** dans le DCIR et NIR_ANO_17 dans le PMSI.
+Ce triplet est crypté (pseudonymisé) et est restitué dans les données brutes dans des variables sur 17 caractères : **BEN_NIR_PSA** dans le DCIR et **NIR_ANO_17** dans le PMSI.
 Dans le cadre des demandes d’extractions des données du SNDS (accès sur projet), cette variable est cryptée et est restituée aux utilisateurs dans la variable NUM_ENQ.
 
 Un individu a plusieurs « pseudo-NIR » durant sa vie, en l’occurrence, autant de « pseudos NIR » que d’assurés :
@@ -44,15 +40,15 @@ Where NIR_RET<>'0' and NAI_RET <>'0' and SEX_RET <>'0' and SEJ_RET<>'0' and FHO_
 ```
 **BEN_NIR_ANO est le numéro d’inscription au répertoire (NIR)**, appelé aussi numéro de sécurité sociale ; il est unique pour un individu durant toute sa vie. BEN_NIR_ANO ne dépend pas de l’ouvreur de droit, mais uniquement de l’individu. BEN_NIR_ANO est également un pseudonyme
 
-## 2- Tableau des identifiants des bénéficiaires
+## Tableau des identifiants des bénéficiaires
 
 ![tableau_identifiants_beneficiaires](../images/imgs_benef/tableau_identifiants_beneficiaires.png)
 
-## 3- Schéma des identifiants
+## Schéma des identifiants
 
 ![schema_identifiants_beneficiaires](../images/imgs_benef/schema_identifiants_beneficiaires.png)
 
-## 4- Utilisation des identifiants
+## Utilisation des identifiants
 
 Le NIR est certifié lorsque l’identité de la personne a été validée par l’Insee.
 
@@ -85,7 +81,7 @@ Les modalités prises par BEN_CDI_NIR sont présentes dans la table référe
 |14|NIR PATERNITE PS|
 |15|NIR ADOPTION PS|
 
-## 5- Fabrication des identifiants pour les demandes d’extractions de données
+## Fabrication des identifiants pour les demandes d’extractions
 
 L’extraction des données brutes issues des tables SNDS se fait actuellement sur l’identifiant BEN_NIR_PSA qui n’est pas pérenne, un individu pouvant avoir plusieurs BEN_NIR_PSA.
 
@@ -102,6 +98,6 @@ L’identifiant BEN_ID vous permet directement de regrouper les informations d�
 ## Références
 
 ::: tip Crédit
-Le contenu original de cette fiche provient du document [Fiche bénéficiaires](../files/Cnam/2019-06_CNAM-INDS_SNDS_Fiches_Thematiques_BENEF_MPL-2.0.pdf) rédigé par la [CNAM](https://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/index.php)  
+Le contenu original de cette fiche provient du document [Fiche bénéficiaires](../files/Cnam/2019-06_CNAM-INDS_SNDS_Fiches_Thematiques_BENEF_MPL-2.0.pdf) rédigé par la [CNAM](https://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/index.php)
 MAJ 11/07/2019
 :::
