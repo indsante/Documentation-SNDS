@@ -6,25 +6,26 @@
 Les soins de ville sont présents dans le DCIR. 
 Différentes informations sur les montants sont indiquées : 
 - le montant payé par l'assuré 
-- le montant de base de remboursement 
+- le montant de base de remboursement (BSS)
 - le montant remboursé
 - le [taux de remboursement](https://www.ameli.fr/rhone/assure/remboursements/rembourse/tableau-recapitulatif-taux-remboursement/tableau-recapitulatif-taux-remboursement)
 - les [participations forfaitaires](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/participation-forfaitaire-1-euro) et [franchises médicales](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/franchise-medicale)
 
-Ci-dessous un exemple schématique des différents montants : 
-![ex_montants_sdv](../images/2019-07-16_HEVA_ex_montants_sdv_dcir_PML-2.0.PNG)
+## Exemple schématique des différents montants 
+![ex_montants_sdv](../images/2019-07-16_HEVA_ex_montants_sdv_dcir_MPL-2.0.png)
 
 
+::: warning Attention
+Le reste à charge après Assurance Maladie Complémentaire (AMC) n'est pas calculable. 
 
-::: warning 
-Attention
-Le reste à charge après Assurance Maladie Complémentaire (AMC) n'est pas calculable. Le SNDS ne dispose pas encore de l'échantillon représentatif des données de remboursement par bénéficiaire transmis par les organismes d'assurance maladie complémentaires (mutuelles, institutions de prévoyance et sociétés d'assurances) prévu dans la loi de modernisation du système de santé 2016 (cf. [projet ADAM de la DREES](https://drees.solidarites-sante.gouv.fr/IMG/pdf/programme_travail_2017.pdf)).
+Le SNDS ne dispose pas encore de l'échantillon représentatif des données de remboursement par bénéficiaire transmis par les organismes d'assurance maladie complémentaires (mutuelles, institutions de prévoyance et sociétés d'assurances) prévu dans la loi de modernisation du système de santé 2016 (cf. [projet ADAM de la DREES](https://drees.solidarites-sante.gouv.fr/IMG/pdf/programme_travail_2017.pdf)).
+
 On peut toutefois calculer le reste à charge après Assurance Maladie Obligatoire (AMO).
 :::
 
 ## Les tables et variables  
 
-Les montants payé, de base et remboursé du régime obligatoire des soins de ville sont disponibles dans la table `[ER_PRS_F]`(../tables/DCIR/ER_PRS_F.md)(`_XXXX` en cas d'extraction):
+Les montants payé, de base et remboursé du régime obligatoire des soins de ville sont disponibles dans la table [ER_PRS_F](../tables/DCIR/ER_PRS_F.md)(`_XXXX` en cas d'extraction):
 - montant payé : `PRS_PAI_MNT`
 - montant de base de remboursement : `BSE_REM_BSE`
 - montant remboursé : `BSE_REM_MNT`
@@ -33,15 +34,17 @@ Les montants payé, de base et remboursé du régime obligatoire des soins de vi
 
 Les participations forfaitaires et franchises médicales sont dans la variable `CPL_REM_MNT` dans `ER_PRS_F` (`CPL_MAJ_TOP=2 and CPL_AFF_COD=16`). 
 
-::: warning 
-Attention : pour les médicaments, LPP, biologie et CCAM, seuls les montants totaux sont calculés ici. Le détail des montants de base et remboursé sont dans les tables affinées dédiées. Le montant payé des `ER_PRS_F` est le montant total. Par exemple, dans le cas d'une prise de sang avec 3 dosages, `PRS_PAI_MNT` correspond au montant payé pour les 3. Le montant payé pour chacun des dosages n'est pas disponible. Idem, les montants de base et remboursé dans `ER_PRS_F` correspondent aux 3 dosages. Le montant remboursé et de base de chaque dosage est dans `ER_BIO_F(_XXXX)`.
+::: warning Attention 
+Pour les médicaments, LPP, biologie et CCAM, seuls les montants totaux sont calculés ici. Le détail des montants de base et remboursé sont dans les tables affinées dédiées. Le montant payé des `ER_PRS_F` est le montant total. 
+
+Par exemple, dans le cas d'une prise de sang avec 3 dosages, `PRS_PAI_MNT` correspond au montant payé pour les 3. Le montant payé pour chacun des dosages n'est pas disponible. Idem, les montants de base et remboursé dans `ER_PRS_F` correspondent aux 3 dosages. Le montant remboursé et de base de chaque dosage est dans `ER_BIO_F(_XXXX)`.
 :::
 
 
-Les montants liés à la couverture étendue de la CMUc et de l'Alsace-Moselle sont dans la table `[ER_ARO_F]`(../tables/DCIR/ER_ARO_F.md)(`_XXXX`) via la variable `ARO_REM_MNT`.
+Les montants liés à la couverture étendue de la CMUc et de l'Alsace-Moselle sont dans la table [ER_ARO_F](../tables/DCIR/ER_ARO_F.md)(`_XXXX`) via la variable `ARO_REM_MNT`.
 
-::: warning 
-Attention, dans `ER_ARO_F`, si le patient est Alsace-Moselle et CMUc, il aura pour chaque soin, une ligne de remboursement supplémentaire Alsace-Moselle et une pour la CMUc (la variable `ARO_REM_TYP` permet de différencier les 2 types de remboursement).
+::: warning Attention
+Dans `ER_ARO_F`, si le patient est Alsace-Moselle et CMUc, il aura pour chaque soin, une ligne de remboursement supplémentaire Alsace-Moselle et une pour la CMUc (la variable `ARO_REM_TYP` permet de différencier les 2 types de remboursement).
 :::
 
 
@@ -125,13 +128,9 @@ Plusieurs lignes vont être présentes dans ER_PRS_F pour ce soin :
 | montant remboursé | ER_PRS_F  | BSE_REM_MNT + CPL_REM_MNT| 17,5+13,34+2,1€  |
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - (BSE_REM_BSE + CPL_REM_BSE) | 0€ |
 
-::: warning 
-A noter : l'exemple présente un cas de soin avec complément et majoration mais il est possible que seule une majoration (ou un complément) soit associé au soin.
+::: warning À noter 
+L'exemple présente un cas de soin avec complément et majoration mais il est possible que seule une majoration (ou un complément) soit associé au soin.
 :::
-
-
-
-
 
 ## Références
 ::: tip Crédit
