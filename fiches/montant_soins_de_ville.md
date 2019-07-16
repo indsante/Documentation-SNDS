@@ -11,9 +11,15 @@ Différentes informations sur les montants sont indiquées :
 - le [taux de remboursement](https://www.ameli.fr/rhone/assure/remboursements/rembourse/tableau-recapitulatif-taux-remboursement/tableau-recapitulatif-taux-remboursement)
 - les [participations forfaitaires](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/participation-forfaitaire-1-euro) et [franchises médicales](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/franchise-medicale)
 
+Ci-dessous un exemple schématique des différents montants : 
+![GPS](../images/2019-07-16_HEVA_ex_montants_sdv_dcir_PML-2.0.png)
+
+
+
 ::: warning 
 Attention
-Le reste à charge des assurés n'est pas calculable. En effet, aucune information sur les mutuelles ne remonte dans le SNDS.
+Le reste à charge après Assurance Maladie Complémentaire (AMC) n'est pas calculable. Le SNDS ne dispose pas encore de l'échantillon représentatif des données de remboursement par bénéficiaire transmis par les organismes d'assurance maladie complémentaires (mutuelles, institutions de prévoyance et sociétés d'assurances) prévu dans la loi de modernisation du système de santé 2016 (cf. projet ADAM de la DREES).
+On peut toutefois calculer le reste à charge après Assurance Maladie Obligatoire (AMO).
 :::
 
 ## Quelques exemples 
