@@ -12,7 +12,7 @@ Différentes informations sur les montants sont indiquées :
 - les [participations forfaitaires](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/participation-forfaitaire-1-euro) et [franchises médicales](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/franchise-medicale)
 
 Ci-dessous un exemple schématique des différents montants : 
-![GPS](../images/2019-07-16_HEVA_ex_montants_sdv_dcir_PML-2.0.png)
+![ex_montants_sdv](../images/2019-07-16_HEVA_ex_montants_sdv_dcir_PML-2.0.PNG)
 
 
 
@@ -110,6 +110,7 @@ A noter : le professionel de santé n'est pas autorisé à faire de dépassement
 
 
 5. **Une consultation chez un médecin généraliste le 03/04/2019 - complément et majoration - patient CMUc** 
+
 Plusieurs lignes vont être présentes dans ER_PRS_F pour ce soin : 
 
 | Montant           | Table | Variable                  | Valeur |
