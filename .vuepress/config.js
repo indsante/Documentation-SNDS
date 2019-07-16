@@ -20,10 +20,10 @@ const sidebar = [
             ['/fiches/cartographie_pathologies', 'Cartographie des pathologies'],
             '/fiches/glossaire',
             '/fiches/graph_reperage_sniiram',
+            '/fiches/montant_soins_de_ville',
             'fiches/aide_medicale_etat',
             '/fiches/fiche_beneficiaire',
             '/fiches/localisation_beneficiaires',
-
         ]
     },
     {
@@ -70,9 +70,9 @@ module.exports = {
         sidebar: sidebar,
         sidebarDepth: 1,
         lastUpdated: 'Dernière mise à jour',
-	algolia: {
-	  apiKey: 'b1d88a4e2413821b4ebe7441ecc95a97',
-	  indexName: 'health-data-hub-snds'
-	}
+        algolia: {
+            apiKey: 'b1d88a4e2413821b4ebe7441ecc95a97',
+            indexName: 'health-data-hub-snds'
+        }
     }
 }
