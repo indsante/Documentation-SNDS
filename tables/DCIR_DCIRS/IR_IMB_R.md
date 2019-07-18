@@ -9,8 +9,8 @@ Référentiel médicalisé des bénéficiaires (ALD)
 |-|-|-|-|-|
 |BEN_NIR_PSA|chaîne de caractères|Pseudonyme du bénéficiaire|||
 |BEN_RNG_GEM|nombre réel|Rang gémellaire|||
-|IMB_ALD_DTD|date|Date de début de la pathologie|||
-|IMB_ALD_DTF|date|Date de fin de la pathologie|||
+|IMB_ALD_DTD|date|Date de début du cadre de prestation|||
+|IMB_ALD_DTF|date|Date de fin du cadre de prestation|||
 |IMB_ALD_NUM|nombre réel|Numéro d'ALD sur la liste|||
 |IMB_ETM_NAT|nombre réel|Type de PEC (ALD, Invalidité ou ATMP)|||
 |IMB_MLP_BTR|chaîne de caractères|Numéro de tableau maladies professionnelles|||
