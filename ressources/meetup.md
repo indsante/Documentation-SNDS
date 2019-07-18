@@ -26,7 +26,7 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
     [pdf](../files/presentations/meetup-snds1/2019.03.27_INDS_DREES_Documentation_SNDS_MPL-2.0.pdf),
     [enregistement](https://www.youtube.com/watch?v=JpUbZUWwEt4)
     
-- Schéma formel et Dictionnaire interactif du SNDS ([dico-snds.health-data-hub.fr](http://dico-snds.health-data-hub.fr/))
+- Schéma formel et Dictionnaire interactif du SNDS ([drees.shinyapps.io/dico-snds](https://drees.shinyapps.io/dico-snds/))
     - Présenté par Matthieu Doutreligne et Viktor Jarry de la DREES
     - Support de présentation
     [GSlides](https://docs.google.com/presentation/d/1XMGUJKcxy1zqfII-EtQDbmR2tljj6A8NIyEiEKJmz-Q/edit#slide=id.g54533cc6ad_0_0), 

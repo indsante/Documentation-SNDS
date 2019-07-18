@@ -29,7 +29,7 @@ Chacune de ces sections correspond à un dossier sur [GitLab](https://gitlab.com
 
 
 ::: tip Note
-La section **Tables** est générée automatiquement à partir du [schema formalisé du SNDS](https://gitlab.com/healthdatahub/schema-snds), qui alimente également le [dictionnaire interactif](http://dico-snds.health-data-hub.fr/).
+La section **Tables** est générée automatiquement à partir du [schema formalisé du SNDS](https://gitlab.com/healthdatahub/schema-snds), qui alimente également le [dictionnaire interactif](https://drees.shinyapps.io/dico-snds/).
 :::
 
 ## Licence

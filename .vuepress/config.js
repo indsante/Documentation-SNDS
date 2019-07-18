@@ -59,13 +59,13 @@ module.exports = {
     title: 'Documentation du SNDS',
     description: "Projet collaboratif pour documenter et faciliter l'utilisation du SNDS",
     themeConfig: {
-        repo: 'http://gitlab.com/healthdatahub/documentation-snds',
+        repo: 'https://gitlab.com/healthdatahub/documentation-snds',
         docsDir: '.',
         editLinks: true,
         editLinkText: 'Éditer sur GitLab',
         nav: [
             {text: 'Forum entraide', link: 'https://entraide.health-data-hub.fr/'},
-            {text: 'Dico interactif', link: 'http://dico-snds.health-data-hub.fr/'},
+            {text: 'Dico interactif', link: 'https://drees.shinyapps.io/dico-snds/'},
         ],
         sidebar: sidebar,
         sidebarDepth: 1,
