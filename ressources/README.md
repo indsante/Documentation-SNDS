@@ -32,7 +32,7 @@ pour des détails sur le PMSI
 - Le [site du CépiDc](https://cepidc.inserm.fr/causes-medicales-de-deces/la-base-des-causes-medicales-de-deces)
 pour des détails sur la base médicale des causes de décès.
 
-- Un [dictionnaire interactif](http://dico-snds.health-data-hub.fr/) du SNDS, produit par la DREES.
+- Un [dictionnaire interactif](https://drees.shinyapps.io/dico-snds/) du SNDS, produit par la DREES.
 
 - Un [schema formalisé du SNDS](https://gitlab.com/healthdatahub/schema-snds), 
 qui alimente le dictionnaire interactif, et la partie **Tables** de cette documentation.
