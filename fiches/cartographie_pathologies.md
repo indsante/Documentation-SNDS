@@ -1,4 +1,4 @@
-# La cartographie des pathologies de la CNAM
+# Cartographie des pathologies
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## Présentation
