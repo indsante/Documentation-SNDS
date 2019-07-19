@@ -77,10 +77,6 @@ PROC SQL; CREATE TABLE top_coro_aigu
             ON a.RSA_NUM=b.RSA_NUM AND a.ETA_NUM=b.ETA_NUM
                 LEFT JOIN ORAVUE.IR_BEN_R c
                 ON b.NIR_ANO_17=c.BEN_NIR_PSA
-                    LEFT JOIN ORAVUE.CT_IDE_2016_G5 d
-                    ON c.BEN_NIR_PSA=d.BEN_NIR_PSA and c.BEN_RNG_GEM=d.BEN_RNG_GEM
-                        LEFT JOIN ORAVUE.CT_IND_2016_G5 e
-                        ON d.ID_CARTO=e.ID_CARTO
     WHERE a.DGN_PAL LIKE "I21%" OR a.DGN_PAL LIKE "I22%" OR
             a.DGN_PAL LIKE "I23%" OR a.DGN_PAL LIKE "I24%" ;
 QUIT;
