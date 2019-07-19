@@ -1,42 +1,33 @@
 const tables_sidebar = require('./tables_sidebar');
 
+var fs = require('fs');
+function getFilePaths(folderName){
+    return fs
+        .readdirSync('./' + folderName)
+        .filter(function (value) {
+            return value !==  'README.md';
+        })
+        .map(function (value) {
+            return '/' + folderName + '/' + value.slice(0, -3);
+        });
+}
+
+
 const sidebar = [
     {
         title: 'Introduction',
         path: '/introduction/',
-        children: [
-            '/introduction/snds',
-        ]
+        children: getFilePaths('introduction')
     },
     {
         title: 'Fiches thématiques',
         path: '/fiches/',
-        children: [
-            '/fiches/historique_donnees',
-            '/fiches/cmu_c',
-            '/fiches/audioprotheses',
-            '/fiches/beneficiaires_ald',
-            '/fiches/optique',
-            ['/fiches/cartographie_pathologies', 'Cartographie des pathologies'],
-            '/fiches/glossaire',
-            '/fiches/graph_reperage_sniiram',
-            '/fiches/montant_soins_de_ville',
-            'fiches/aide_medicale_etat',
-            '/fiches/fiche_beneficiaire',
-            '/fiches/localisation_beneficiaires',
-        ]
+        children: getFilePaths('fiches')
     },
     {
         title: 'Ressources',
         path: '/ressources/',
-        children: [
-            '/ressources/',
-            '/ressources/meetup',
-            ['/ressources/kwikly', 'KWIKLY'],
-            '/ressources/portail_sniiram',
-            '/ressources/programmes',
-            '/ressources/bibliographie',
-        ]
+        children: getFilePaths('ressources')
     },
     {
         title: 'Tables',
