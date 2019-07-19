@@ -93,7 +93,7 @@ Le patient bénéficie de la CMUc. Il sera remboursé de 25€ (100%) par le ré
 | montant remboursé | ER_ARO_F  | ARO_REM_MNT      | 7,5€  |
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_BSE | 0€     |
 
-Le montant total rembousé est donc la somme des montants remboursés dans PRS et ARO.
+Le montant total remboursé est donc la somme des montants remboursés dans PRS et ARO.
 
 ::: warning 
 A noter : les professionels de santé ne sont pas autorisés à appliquer de dépassement d'honoraires pour les patients CMUc.
