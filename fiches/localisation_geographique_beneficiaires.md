@@ -67,7 +67,7 @@ Pour travailler *à un niveau communal*, la variable commune `BDI_COD` s’utili
 Elle donne le code géographique du lieu de résidence déclaré par le patient. 
 
 Le code géographique correspond au code postal, ou à un regroupement pour les codes postaux de moins de 1000 habitants. 
-La table **PMSI_CORRESP**, mise à disposition par l’[ATIH](glossaire.md#atih), permet de passer des codes géographiques aux codes postaux. 
+La table **PMSI_CORRESP**, mise à disposition par l’[ATIH](../glossaire/ATIH.md), permet de passer des codes géographiques aux codes postaux. 
 
 ::: warning Note
 Lorsqu'un code géographique est associé à plusieurs codes postaux, une simple jointure sur `PMSI_CORRESP va générer des lignes en doublons.
@@ -117,8 +117,8 @@ Des **règles spécifiques** existent pour :
     - 2 **premiers** caractères du code département    
     - 3 caractères du code commune
 -  Les DOM
-    - Pour les bénéficiaires du [RG](glossaire.md#rg), le code département est `097` et la règle dominante fonctionne
-    - Pour la [MSA](glossaire.md#msa) et le [RSI](glossaire.md#rsi), le code département est entre `971` et `976`, 
+    - Pour les bénéficiaires du [RG](../glossaire/RG.md), le code département est `097` et la règle dominante fonctionne
+    - Pour la [MSA](../glossaire/MSA.md) et le [RSI](../glossaire/RSI.md), le code département est entre `971` et `976`, 
         - Pour la MSA, on applique la même règle que pour la Corse.
         - Pour le RSI, on conserve les 3 caractères du code département et les 2 derniers caractères du code commune.
 

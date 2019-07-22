@@ -1,6 +1,4 @@
-# Les bénéficiaires du dispositif ALD
-
-*Cette fiche présente comment repérer les bénéficiaires du dispositif des ALD dans le SNDS.*
+# Bénéficiaires du dispositif ALD
 
 ## Le dispositif des ALD
 

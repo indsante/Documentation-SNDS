@@ -4,6 +4,7 @@ var fs = require('fs');
 function getFilePaths(folderName){
     return fs
         .readdirSync('./' + folderName)
+        .sort(function (a, b) { return a.toLowerCase().localeCompare(b.toLowerCase()); })
         .filter(function (value) {
             return value !==  'README.md';
         })
@@ -23,6 +24,11 @@ const sidebar = [
         title: 'Fiches thématiques',
         path: '/fiches/',
         children: getFilePaths('fiches')
+    },
+    {
+        title: 'Glossaire',
+        path: '/glossaire/',
+        children: getFilePaths('glossaire')
     },
     {
         title: 'Ressources',

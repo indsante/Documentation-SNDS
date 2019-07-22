@@ -1,4 +1,4 @@
-# Les audioprothèses
+# Audioprothèses
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Dans le SNDS, les dépenses en audioprothèse sont regroupées sous 2 codes prestations (variable PRS_NAT_REF) :
@@ -6,8 +6,8 @@ Dans le SNDS, les dépenses en audioprothèse sont regroupées sous 2 codes pres
 - 3541 : APPAREILS ELECTRONIQUES DE SURDITE  (CHAP 3.)
 - 3547 : APPAREILS ELECTRONIQUES DE SURDITE (CONSOMMABLES Y.C. PILES)
 
-Ces dépenses comprennent l'achat d'appareil auditif à proprement parler ainsi que l'entretien et la réparation de l'appareil. Le détail est donné par le
-[code LPP](http://www.codage.ext.cnamts.fr/codif/tips//chapitre/index_chap.php?p_ref_menu_code=53&amp;p_site=AMELI)
+Ces dépenses comprennent l'achat d'appareil auditif à proprement parler ainsi que l'entretien et la réparation de l'appareil. 
+Le détail est donné par le code [LPP](../glossaire/LPP.md) des [audioprothèses](http://www.codage.ext.cnamts.fr/codif/tips//chapitre/index_chap.php?p_ref_menu_code=53&amp;p_site=AMELI)
 
 Ces codes sont donnés par la variable TIP_PRS_IDE dans la table de prestation affinée des dispositifs médicaux : [ER_TIP_F](../tables/DCIR/ER_TIP_F.md). 
 Il faut donc effectuer une jointure entre la table prestation ER_PRS_F et ER_TIP_F pour avoir le détail par codes LPP.

@@ -3,7 +3,7 @@
 
 ## Présentation
 
-La cartographie des pathologies et des dépenses est une base produite par la [CNAM](glossaire.md#cnam) à partir du SNDS.
+La cartographie des pathologies et des dépenses est une base produite par la [CNAM](../glossaire/CNAM.md) à partir du SNDS.
 
 Elle consiste à identifier :
 * les patients pris en charge pour des pathologies chroniques fréquentes, graves, ou coûteuses ;
@@ -11,7 +11,7 @@ Elle consiste à identifier :
 * les patients qui n’ont pas ces pathologies chroniques repérées ou évènements de santé mais ont eu des hospitalisations ponctuelles ;
 * et ceux qui ne sont dans aucune de ces situations.
 
-La cartographie couvre environ **57 millions de bénéficiaires du régime général** ([SLM](glossaire.md#slm) comprises) ayant eu recours à des soins remboursés dans l’année. 
+La cartographie couvre environ **57 millions de bénéficiaires du régime général** ([SLM](../glossaire/SLM.md) comprises) ayant eu recours à des soins remboursés dans l’année. 
 
 Les algorithmes d'identification utilisent les informations suivantes :
 * diagnostics mentionnés dans le **PMSI à la suite d'une hospitalisation** ;
@@ -55,7 +55,7 @@ La table [CT_IDE_AAAA_GX](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_IDE_AAAA_GN.md) 
 ### Top Syndrome coronaire aigu (top_CvIDM_aig)
 #### Description des critères de repérage
 
-Personnes hospitalisées l’année N pour cardiopathie ischémique aigüe ([DP](glossaire.md#dp) d’un des [RUM](glossaire.md#rum)).   
+Personnes hospitalisées l’année N pour cardiopathie ischémique aigüe ([DP](../glossaire/DP.md) d’un des [RUM](../glossaire/RUM.md)).   
 
 #### Codes CIM10 utilisés dans le PMSI
 
