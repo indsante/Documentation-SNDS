@@ -14,7 +14,7 @@ Au sein des établissements de santé, des sous objectifs sont fixés pour :
   - de leur activité de médecine, chirurgie, obstétrique (ODMCO : objectif des dépenses de [MCO](MCO.md)), 
   - de leurs missions d’intérêt général et d’aide à la contractualisation ([MIGAC](MIGAC.md))
 - les activités de soins de suite et de réadaptation, de psychiatrie, et de soins de longue durée : 
-  - l’objectif des dépenses d’assurance maladie ([ODAM](ODAM.md)) 
+  - l’objectif des dépenses d’assurance maladie ([ODAM](ONDAM.md)) 
   - l’objectif quantifié national ([OQN](OQN.md))
 
 # Références

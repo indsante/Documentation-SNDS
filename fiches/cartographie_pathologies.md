@@ -3,7 +3,7 @@
 
 ## Présentation
 
-La cartographie des pathologies et des dépenses est une base produite par la [CNAM](../glossaire/CNAM.md) à partir du SNDS.
+La cartographie des pathologies et des dépenses est une base produite par la [CNAM](../glossaire/Cnam.md) à partir du SNDS.
 
 Elle consiste à identifier :
 * les patients pris en charge pour des pathologies chroniques fréquentes, graves, ou coûteuses ;

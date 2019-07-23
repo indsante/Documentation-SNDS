@@ -6,5 +6,5 @@ Son rôle est impulser la stratégie au niveau national, puis coordonner et appu
 
 # Références
 
-- Site internet [assurance-maladie.ameli.fr](https://assurance-maladie.ameli.fr/qui-sommes-nous/fonctionnement/organisation/cnam-tete-reseau) 
+- Présentation sur le site internet de [l'assurance maladie](https://assurance-maladie.ameli.fr/qui-sommes-nous/fonctionnement/organisation/cnam-tete-reseau) 
 - [Page wikipedia](https://fr.wikipedia.org/wiki/Caisse_nationale_de_l%27assurance_maladie)
