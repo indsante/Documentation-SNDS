@@ -7,7 +7,6 @@ Elle est attribuée sous conditions de résidence et de ressources.
 Ce dispositif s'inscrit dans le cadre de la lutte contre les exclusions. 
 Elle s'adresse aux ressortissants étrangers en situation irrégulière et précaire.
 
-Pour plus d'information, vous pouvez consulter le site de l'[Assurance Maladie](https://www.ameli.fr/assure/droits-demarches/situations-particulieres/situation-irreguliere-ame).
 
 ## Identification des bénéficiaires de l'AME
 
@@ -52,6 +51,8 @@ quit;
 ```
 
 ## Références
+
+- Site de l'[Assurance Maladie](https://www.ameli.fr/assure/droits-demarches/situations-particulieres/situation-irreguliere-ame).
 
 ::: tip Crédits
 Cette fiche a été rédigée par Catherine BISQUAY (ARS Ile-de-France) & Céline LEROY (ARS Normandie)

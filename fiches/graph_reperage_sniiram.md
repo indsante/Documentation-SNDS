@@ -1,9 +1,9 @@
-# Graphique pour Parcourir le Sniiram (GPS)
+# Graphique pour Parcourir le Sniiram
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Cette présentation illustre quelles sources (DCIR ou PMSI) et tables utiliser pour rechercher plusieurs types de soins :
 - les consultations,
-- les actes CCAM,
+- les actes [CCAM](../glossaire/CCAM.md),
 - les séjours... .
 
 Les années de disponibilité de chaque table sont indiquées :

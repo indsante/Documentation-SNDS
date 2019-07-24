@@ -1,4 +1,4 @@
-# Les montants des soins de ville dans le DCIR
+# Montants des soins de ville dans le DCIR
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## Quels montants sont disponibles ?
@@ -6,7 +6,7 @@
 Les soins de ville sont présents dans le DCIR. 
 Différentes informations sur les montants sont indiquées : 
 - le montant payé par l'assuré 
-- le montant de base de remboursement (BSS)
+- le montant de base de remboursement ([BRSS](../glossaire/BRSS.md))
 - le montant remboursé
 - le [taux de remboursement](https://www.ameli.fr/rhone/assure/remboursements/rembourse/tableau-recapitulatif-taux-remboursement/tableau-recapitulatif-taux-remboursement)
 - les [participations forfaitaires](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/participation-forfaitaire-1-euro) et [franchises médicales](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/franchise-medicale)

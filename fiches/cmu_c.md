@@ -1,5 +1,6 @@
-# La CMU Complémentaire
+# CMU Complémentaire
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
 La [Protection Universelle Maladie (PUMa)](http://www.securite-sociale.fr/-La-mise-en-place-de-la-Protection-Universelle-Maladie-PUMA-au-1er-janvier-2016-) 
 garantit désormais à toute personne qui travaille ou réside en France un droit à la prise en charge des frais de santé (remboursements des frais de santé hors prestations en espèces) sans démarche particulière à accomplir.
 
