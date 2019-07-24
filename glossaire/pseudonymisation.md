@@ -14,7 +14,7 @@ L'intérêt de la pseudonymisation est que les données produites conservent tou
 
 ## Limite
 
-La principale limite de la pseudonymisation est qu'il reste techniquement possible de réattribuer les identifiants pseudonymes à des personnes physiques ; bien que cette opération soit généralement interdite et lourdement sanctionnée [Référence nécessaire] (cf [RSA](RSA.md)). 
+La principale limite de la pseudonymisation est qu'il reste techniquement possible de réattribuer les identifiants pseudonymes à des personnes physiques ; bien que cette opération soit généralement interdite et lourdement sanctionnée [Référence nécessaire]. 
 
 Ainsi, toute séquence temporelle de positions géographiques constitue rapidement une trace unique, que ce soit une succession de visites dans des établissements de santé ou une série de paiements bancaires. 
 Il est alors facile de réidentifier un individu, du moins en théorie puisque c'est interdit, pour peu que l'on connaisse des informations le concernant. 

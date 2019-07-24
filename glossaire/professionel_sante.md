@@ -7,20 +7,20 @@ Les PS sont identifiés par un [numéro Adeli](ADELI.md), ou un numero [RPPS](RP
 
 ## Catégories de professionnels de santé
 
-Ce terme Professionnel de santé regroupe trois catégories de professions, telles que définies par les code de la santé publique ([CSP](CSP.md)) : 
+Le terme Professionnel de santé regroupe trois catégories de professions, telles que définies par les code de la santé publique ([CSP](CSP.md)) : 
 
-1. Les professions médicales (art. L4111-1 à L4163-10) : 
+1. les professions médicales (art. L4111-1 à L4163-10) : 
   - médecins, 
   - sages-femmes,
   - odontologistes ;
 
-2. Les professions de la pharmacie et de la physique médicale (art. 4211-1 à 4252-3) : 
+2. les professions de la pharmacie et de la physique médicale (art. 4211-1 à 4252-3) : 
   - pharmaciens, 
   - préparateurs en pharmacie, 
   - préparateurs en pharmacie hospitalière, 
   - physiciens médicaux ;
 
-3. Les professions d’auxiliaires médicaux (art. 4311-1 à 4394-3) : 
+3. les professions d’auxiliaires médicaux (art. 4311-1 à 4394-3) : 
   - infirmiers, 
   - masseurs-kinésithérapeutes, 
   - pédicures-podologues, 
@@ -38,13 +38,13 @@ Ce terme Professionnel de santé regroupe trois catégories de professions, tell
 
 Certaines professions disposent d’un décret d’exercice codifié comportant une liste d’actes que les professionnels concernés sont autorisés à effectuer : 
 - infirmiers, 
-- des masseurs-kinésithérapeutes, 
-- des pédicures-podologues, 
-- des ergothérapeutes, 
-- des psychomotriciens, 
-- des orthophonistes, 
-- des orthoptistes, 
-- des manipulateurs d’électroradiologie médicale.
+- masseurs-kinésithérapeutes, 
+- pédicures-podologues, 
+- ergothérapeutes, 
+- psychomotriciens, 
+- orthophonistes, 
+- orthoptistes, 
+- manipulateurs d’électroradiologie médicale.
 
 # Références
 
