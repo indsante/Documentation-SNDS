@@ -16,14 +16,15 @@ Différentes informations sur les montants sont indiquées :
 
 
 ::: warning Attention
-Le reste à charge après Assurance Maladie Complémentaire (AMC) n'est pas calculable. 
+Le reste à charge (RAC) après Assurance Maladie Complémentaire (AMC) n'est pas calculable. 
 
 Le SNDS ne dispose pas encore de l'échantillon représentatif des données de remboursement par bénéficiaire transmis par les organismes d'assurance maladie complémentaires (mutuelles, institutions de prévoyance et sociétés d'assurances) prévu dans la loi de modernisation du système de santé 2016 (cf. [projet ADAM de la DREES](https://drees.solidarites-sante.gouv.fr/IMG/pdf/programme_travail_2017.pdf#page=51)).
 
-On peut toutefois calculer le reste à charge après Assurance Maladie Obligatoire (AMO).
+On peut toutefois calculer le RAC après Assurance Maladie Obligatoire (AMO).
 :::
 
 ## Les tables et variables  
+
 
 Les montants payé, de base et remboursé du régime obligatoire des soins de ville sont disponibles dans la table [ER_PRS_F](../tables/DCIR/ER_PRS_F.md)(`_XXXX` en cas d'extraction):
 - montant payé : `PRS_PAI_MNT`
@@ -34,18 +35,24 @@ Les montants payé, de base et remboursé du régime obligatoire des soins de vi
 
 Les participations forfaitaires et franchises médicales sont dans la variable `CPL_REM_MNT` dans `ER_PRS_F` (`CPL_MAJ_TOP=2 and CPL_AFF_COD=16`). 
 
-::: warning Attention 
-Pour les médicaments, LPP, biologie et CCAM, seuls les montants totaux sont calculés ici. Le détail des montants de base et remboursé sont dans les tables affinées dédiées. Le montant payé des `ER_PRS_F` est le montant total. 
-
-Par exemple, dans le cas d'une prise de sang avec 3 dosages, `PRS_PAI_MNT` correspond au montant payé pour les 3. Le montant payé pour chacun des dosages n'est pas disponible. Idem, les montants de base et remboursé dans `ER_PRS_F` correspondent aux 3 dosages. Le montant remboursé et de base de chaque dosage est dans `ER_BIO_F(_XXXX)`.
-:::
-
-
 Les montants liés à la couverture étendue de la CMUc et de l'Alsace-Moselle sont dans la table [ER_ARO_F](../tables/DCIR/ER_ARO_F.md)(`_XXXX`) via la variable `ARO_REM_MNT`.
 
 ::: warning Attention
 Dans `ER_ARO_F`, si le patient est Alsace-Moselle et CMUc, il aura pour chaque soin, une ligne de remboursement supplémentaire Alsace-Moselle et une pour la CMUc (la variable `ARO_REM_TYP` permet de différencier les 2 types de remboursement).
 :::
+
+**Les montants dans les tables affinées**
+
+Pour les médicaments, LPP,biologie et CCAM, seuls les montants totaux sont calculés ici. Le détail des montants de base et remboursé sont dans les tables affinées dédiées (sauf por la biologie qui est explicitée en dessous). Le montant payé de `ER_PRS_F` est le montant total. 
+
+Par exemple, dans le cas d'une ordonnance pour 3 médicaments (avec un taux de remboursement à 30%), `PRS_PAI_MNT` correspond au montant payé pour les 3. Le montant payé pour chacun des médicaments n'est pas disponible. Idem, les montants de base et remboursé dans `ER_PRS_F` correspondent aux 3 médicaments. Le montant de base etremboursé de chaque médicament est dans `ER_PHA_F(_XXXX)`.
+
+Pour la biologie, les montants payés et remboursés détaillés pour chaque code NABM sont à recalculer :  
+1. récupérer la variable `BTF_TAR_COD` dans la table `IR_BTF_R` dans ORAREF. Cette variable donne le coefficient de l'acte affiné selon les dates d`arrêté au JO (la valeur bouge dans le temps).
+2. mettre en face du code de l'acte affiné (variable `BIO_PRS_IDE`) : la valeur en vigueur du coef pour cet acte au moment où il a été réalisé
+3. calculer le montant remboursé via la formule : coef (`BTF_TAR_COD`) * prix de l'acte (`BSE_REM_PRU`) * quantité affinée de l'acte de bio 
+4.  calculer le montant remboursé via la formule : coef (`BTF_TAR_COD`) * prix de l'acte (`BSE_REM_PRU`) * quantité affinée de l'acte de bio * taux de remboursement (dans `ER_PRS_F`)
+
 
 
 ## Quelques exemples pratiques
@@ -64,7 +71,7 @@ Le patient n'a aucune exonération du ticket modérateur, il sera remboursé de 
 | montant de base   | ER_PRS_F  | BSE_REM_BSE               | 25€    |
 | montant remboursé | ER_PRS_F  | BSE_REM_MNT               | 17,5€  |
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_BSE | 2€     |
-
+| RAC après AMO      | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_MNT | 9,5€     |
 
 2. **Une consultation chez un médecin généraliste le 05/05/2019 - patient en ALD30** 
 
@@ -77,7 +84,7 @@ Le patient a une ALD30, il sera remboursé de 25€ (`RGO_REM_TAU`=100%) par le 
 | montant de base   | ER_PRS_F  | BSE_REM_BSE               | 25€    |
 | montant remboursé | ER_PRS_F  | BSE_REM_MNT               | 25€  |
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_BSE | 0€     |
-
+| RAC après AMO      | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_MNT | 0€     |
 
 3. **Une consultation chez un médecin généraliste le 12/06/2017 - patient CMUc**
 
@@ -92,6 +99,7 @@ Le patient bénéficie de la CMUc. Il sera remboursé de 25€ (100%) par le ré
 | montant remboursé | ER_PRS_F  | BSE_REM_MNT       | 17,5€  |
 | montant remboursé | ER_ARO_F  | ARO_REM_MNT      | 7,5€  |
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_BSE | 0€     |
+| RAC après AMO      | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_MNT | 0€     |
 
 Le montant total remboursé est donc la somme des montants remboursés dans PRS et ARO.
 
@@ -112,6 +120,7 @@ Il sera remboursé par le régime obligatoire de 22,50€ (90% au lieu de 70%). 
 | montant remboursé | ER_PRS_F  | BSE_REM_MNT       | 17,5€  |
 | montant remboursé | ER_ARO_F  | ARO_REM_MNT      | 5€  |
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_BSE | 5€     |
+| RAC après AMO      | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_MNT | 7,5€     |
 
 5. **Une consultation chez un médecin généraliste le 03/04/2019 - complément et majoration - patient "classique"** 
 
@@ -127,6 +136,8 @@ Plusieurs lignes vont être présentes dans ER_PRS_F pour ce soin :
 | montant de base   | ER_PRS_F  | BSE_REM_BSE + CPL_REM_BSE| 25+19,06+3€  |
 | montant remboursé | ER_PRS_F  | BSE_REM_MNT + CPL_REM_MNT| 17,5+13,34+2,1€  |
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - (BSE_REM_BSE + CPL_REM_BSE) | 0€ |
+| RAC après AMO      | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_MNT | 14,12€     |
+
 
 ::: warning À noter 
 L'exemple présente un cas de soin avec complément et majoration mais il est possible que seule une majoration (ou un complément) soit associé au soin.
