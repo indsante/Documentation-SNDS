@@ -4,16 +4,15 @@
 La documentation du SNDS est réalisée collaborativement sur [GitLab](https://gitlab.com/healthdatahub/documentation-snds).
 
 Une formation est préférable pour manipuler facilement cette plateforme.
-Les mainteneurs du projet organisent de telles formations (gratuites). N'hésitez pas à nous solliciter !
+Les mainteneurs du projet organisent régurlièrement des journées de formation (gratuites), via le [groupe Meetup Health-Data-Hub](https://www.meetup.com/fr-FR/Health-Data-Hub/). 
 
-Nous présentons ici une introduction à GitLab pour les autodidactes.  
+N'hésitez pas à nous solliciter pour en organiser d'autres !
+
+Nous présentons ici une introduction à GitLab pour les autodidactes, ou comme mémo après une formations.  
 
 ## Texte Markdown
 
-`git` permet de collaborer facilement sur du contenu textuel _"brut"_.  
-
-La mise en forme du texte brut est indiquée avec des balises **Markdown**. 
-Ce texte est alors automatiquement mis sous la forme d'un site internet statique avec VuePress.
+La documentation est écrit en texte "brute", avec un balisage léger appelé **Markdown**, qui permet d'indiquer la mise en page.
  
 Se référer au [Tutoriel Markdown](tutoriel_markdown.md) pour plus de détails. 
 
@@ -76,7 +75,7 @@ Vous pouvez aussi naviguer en ligne dans [le dépôt sur gitlab.com](https://git
 
 Un formulaire en bas de page permet d'enregistrez vos modifications dans un commit. 
 - Ecrivez un message décrivant les modifications apportées : une description courte, puis éventuellement une description plus longue séparée par une ligne vide.
-- Choississez le nom d'une nouvelle branche de travail.
+- Choississez le nom d'une nouvelle branche de travail, **avec un nom explicite**.
 
 <p style="text-align:center;">
 <img src="../files/images/tutoriel_gitlab/commit.png" alt="commit" width="600"/>
@@ -84,7 +83,7 @@ Un formulaire en bas de page permet d'enregistrez vos modifications dans un comm
 
 ### 3- Ouverture d'une merge-request
 
-Dans l'étape précédente, GitLab coche par défaut l'option de démarrer une nouvelle merge-request. 
+Dans l'étape précédente, GitLab coche par défaut l'option de démarrer une nouvelle merge-request, à conserver
 
 Une page s'ouvre alors pour configurer cette merge-request.
 
