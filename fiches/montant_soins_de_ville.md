@@ -12,7 +12,7 @@ Différentes informations sur les montants sont indiquées :
 - les [participations forfaitaires](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/participation-forfaitaire-1-euro) et [franchises médicales](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/franchise-medicale)
 
 ## Exemple schématique des différents montants 
-![ex_montants_sdv](../images/2019-07-16_HEVA_ex_montants_sdv_dcir_MPL-2.0.png)
+![ex_montants_sdv](../files/HEVA/2019-07-16_HEVA_ex_montants_sdv_dcir_MPL-2.0.png)
 
 
 ::: warning Attention

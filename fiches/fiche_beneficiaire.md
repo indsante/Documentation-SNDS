@@ -42,11 +42,11 @@ Where NIR_RET<>'0' and NAI_RET <>'0' and SEX_RET <>'0' and SEJ_RET<>'0' and FHO_
 
 ## Tableau des identifiants des bénéficiaires
 
-![tableau_identifiants_beneficiaires](../images/imgs_benef/tableau_identifiants_beneficiaires.png)
+![tableau_identifiants_beneficiaires](../files/Cnam/Fiches_Thematiques_BENEF/tableau_identifiants_beneficiaires.png)
 
 ## Schéma des identifiants
 
-![schema_identifiants_beneficiaires](../images/imgs_benef/schema_identifiants_beneficiaires.png)
+![schema_identifiants_beneficiaires](../files/Cnam/Fiches_Thematiques_BENEF/schema_identifiants_beneficiaires.png)
 
 ## Utilisation des identifiants
 

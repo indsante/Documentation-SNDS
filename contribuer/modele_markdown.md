@@ -34,12 +34,12 @@ Lien vers url externe
 
 Lien vers document interne
 
-[lien vers images/dico_snds.png](../images/dico_snds.png)
+[lien vers images/dico_snds.png](../files/images/dico_snds.png)
 
 
 Image en lien rendue dans la page avec point d'exclamation devant
 
-![texte alternatif de l'image](../images/dico_snds.png)
+![texte alternatif de l'image](../files/images/dico_snds.png)
 
 
 Balises html, pour une image centrée et de largeur 600px fixée

@@ -10,9 +10,9 @@ Cette présentation illustre l'historique de la disponibilité d'informations re
 Cet historique permet de voir aussi l'ajout des différents régimes dans les bases.
 
 ## Historique de l'information et des régimes dans les bases du SNDS
-![Historique données SNDS - P1](../images/historique_donnees/Diapositive1.png)
+![Historique données SNDS - P1](../files/INDS/historique_donnees/Diapositive1.png)
 
-![Historique données SNDS - P2](../images/historique_donnees/Diapositive2.png)
+![Historique données SNDS - P2](../files/INDS/historique_donnees/Diapositive2.png)
 
 ## Références
 
@@ -20,6 +20,6 @@ Cet historique permet de voir aussi l'ajout des différents régimes dans les ba
 - *Support de formation PMSI / portail SNDS*
 
 ::: tip Crédits
-Le contenu original de cette fiche provient du document [Historique des données du SNDS](../files/2019_INDS_Historique-des-données-SNDS_MPL-2.0.pptx) [INDS - 2019 - MPL-2.0] rédigé par Anne Cuerq
+Le contenu original de cette fiche provient du document [Historique des données du SNDS](../files/INDS/2019_INDS_Historique-des-données-SNDS_MPL-2.0.pptx) [INDS - 2019 - MPL-2.0] rédigé par Anne Cuerq
 :::
 
