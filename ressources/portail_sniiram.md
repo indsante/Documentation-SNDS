@@ -13,5 +13,5 @@ Cette documentation est visible sur le [portail SNIIRAM](https://portail.sniiram
 ![](../files/INDS/2019INDS_Trouver_la_doc_sur_le_portail_SNDS/Diapositive4.jpeg)
 
 ::: tip Crédits
-[Fichier source](../files/INDS/2019_INDS_Trouver-la-doc-sur-le-portail-SNDS_MPL-2.0.pptx) [INDS - MPL-2.0].
+[Fichier source](../files/INDS/2019INDS_Trouver_la_doc_sur_le_portail_SNDS/2019_INDS_Trouver-la-doc-sur-le-portail-SNDS_MPL-2.0.pptx) [INDS - MPL-2.0].
 :::

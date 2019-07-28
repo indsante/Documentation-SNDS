@@ -98,6 +98,6 @@ L’identifiant BEN_ID vous permet directement de regrouper les informations d�
 ## Références
 
 ::: tip Crédit
-Le contenu original de cette fiche provient du document [Fiche bénéficiaires](../files/Cnam/2019-06_CNAM-INDS_SNDS_Fiches_Thematiques_BENEF_MPL-2.0.pdf) rédigé par la [CNAM](https://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/index.php)  
+Le contenu original de cette fiche provient du document [Fiche bénéficiaires](../files/Cnam/Fiches_Thematiques_BENEF/2019-06_CNAM-INDS_SNDS_Fiches_Thematiques_BENEF_MPL-2.0.pdf) rédigé par la [CNAM](https://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/index.php)  
 MAJ 11/07/2019
 :::
