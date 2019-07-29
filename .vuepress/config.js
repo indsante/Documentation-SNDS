@@ -46,8 +46,8 @@ const sidebar = [
             '/contribuer/',
             '/contribuer/introduction_gitlab',
             '/contribuer/tutoriel_markdown',
-            '/contribuer/developpement_local',
             '/contribuer/nouveau_fichier',
+            '/contribuer/developpement_local',
         ]
     }
 ];

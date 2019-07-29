@@ -107,7 +107,7 @@ Cette combinaison a une règle générale, et des règles spécifiques pour les 
 
 La **règle générale** consiste à extraire *les deux derniers caractères du code département* et *les trois caractères du code commune*.   
 
-![Schéma de construction du code commune Insee dans le SNIIRAM](../images/DREES/2019-07_DREES_localisation_beneficiaires/code_com_snds.png)
+![Schéma de construction du code commune Insee dans le SNIIRAM](../files/DREES/2019-07_DREES_localisation_beneficiaires/code_com_snds.png)
 
 
 Des **règles spécifiques** existent pour : 

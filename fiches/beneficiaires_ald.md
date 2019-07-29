@@ -15,7 +15,7 @@ c'est-à-dire d'une forme grave d'une maladie ou d'une forme évolutive ou inval
 
 **Comparaison effectifs ALD : estimations CNAM - calculs DREES**
 
-![](../images/DREES/2019-04-08_DREES-ARS_Beneficiaires-ALD/comparaison_effectifs_ALD.png)
+![](../files/DREES/2019-04-08_DREES-ARS_Beneficiaires-ALD/comparaison_effectifs_ALD.png)
 
 ## Repérer les ALD
 
@@ -36,7 +36,7 @@ Pour construire une population bénéficiaire d'une ou plusieurs ALD en cours, o
 - Récupérer l'information uniquement lors de la prestation, en retenant les prestations avec exonération du ticket modérateur pour motif d'ALD (EXO_MTF). Attention, cette méthode ne permet pas d'être exhaustif pour les raisons évoquées ci-dessus : les patients en ALD peuvent être exonérés à un autre titre. _Voir Programme 2_
 - Croiser ces deux informations afin de savoir de quelle ALD il s'agit et si celle-ci a donné lieu à des exonérations (ALD « active ») (préconisé par la CNAM, voir Figure 1 et Programme 3) [^3].
 
-![](../images/DREES/2019-04-08_DREES-ARS_Beneficiaires-ALD/methode_ald_cnam.png)
+![](../files/DREES/2019-04-08_DREES-ARS_Beneficiaires-ALD/methode_ald_cnam.png)
 **Figure 1 - Méthode préconisée par la CNAM**
 
 ## Descriptions des tables et variables utiles 
@@ -330,7 +330,7 @@ Quelques exemples d'ALD non exonérantes : Hypertension artérielle, Hypothyroï
 [bénéficaires du dispositif des ALD](https://www.ameli.fr/fileadmin/user_upload/documents/Points_de_repere_n_46_-_Beneficiaires_du_dispositif_des_ALD_2014.pdf)
 
 ::: tip Crédits
-Le contenu original de cette fiche provient du document [2019-04-08_DREES-ARS_Bénéficiaires-ALD_MPL-2.0.docx](../files/DREES/2019-04-08_DREES-ARS_Bénéficiaires-ALD_MPL-2.0.docx)) rédigé par Kristel JACQUIER, Claire-Lise DUBOST, Céline LEROY.
+Le contenu original de cette fiche provient du document [2019-04-08_DREES-ARS_Bénéficiaires-ALD_MPL-2.0.docx](../files/DREES/2019-04-08_DREES-ARS_Beneficiaires-ALD/2019-04-08_DREES-ARS_Bénéficiaires-ALD_MPL-2.0.docx)) rédigé par Kristel JACQUIER, Claire-Lise DUBOST, Céline LEROY.
 
 Cette fiche s'appuie fortement sur la présentation partagée par la CNAM lors d'un comité utilisateurs partenaires intitulé « Referentiel_médicalisé_IR_IMB_R_présentationCNAM » et que l'on retrouve sur le portail BO.
 :::

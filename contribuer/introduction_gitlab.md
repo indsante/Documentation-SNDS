@@ -4,16 +4,15 @@
 La documentation du SNDS est réalisée collaborativement sur [GitLab](https://gitlab.com/healthdatahub/documentation-snds).
 
 Une formation est préférable pour manipuler facilement cette plateforme.
-Les mainteneurs du projet organisent de telles formations (gratuites). N'hésitez pas à nous solliciter !
+Les mainteneurs du projet organisent régurlièrement des journées de formation (gratuites), via le [groupe Meetup Health-Data-Hub](https://www.meetup.com/fr-FR/Health-Data-Hub/). 
 
-Nous présentons ici une introduction à GitLab pour les autodidactes.  
+N'hésitez pas à nous solliciter pour en organiser d'autres !
+
+Nous présentons ici une introduction à GitLab pour les autodidactes, ou comme mémo après une formations.  
 
 ## Texte Markdown
 
-`git` permet de collaborer facilement sur du contenu textuel _"brut"_.  
-
-La mise en forme du texte brut est indiquée avec des balises **Markdown**. 
-Ce texte est alors automatiquement mis sous la forme d'un site internet statique avec VuePress.
+La documentation est écrit en texte "brute", avec un balisage léger appelé **Markdown**, qui permet d'indiquer la mise en page.
  
 Se référer au [Tutoriel Markdown](tutoriel_markdown.md) pour plus de détails. 
 
@@ -62,13 +61,13 @@ Ce guide se base sur la version anglaise de l'interface, plus courante.
 En  bas de chaque page de la documentation se trouve un lien, vous invitant à éditer le fichier sur GitLab.
 
 <p style="text-align:center;">
-<img src="../images/tutoriel_gitlab/editer_sur_gitlab.png" alt="Éditer sur GitLab" width="200"/>
+<img src="../files/images/tutoriel_gitlab/editer_sur_gitlab.png" alt="Éditer sur GitLab" width="200"/>
 </p>
 
 Vous pouvez aussi naviguer en ligne dans [le dépôt sur gitlab.com](https://gitlab.com/healthdatahub/documentation-snds/), et  ouvrir l'interface d'édition avec le bouton `Edit`.
 
 <p style="text-align:center;">
-<img src="../images/tutoriel_gitlab/edition.png" alt="interface edition" width="600"/>
+<img src="../files/images/tutoriel_gitlab/edition.png" alt="interface edition" width="600"/>
 </p>
 
 
@@ -76,15 +75,15 @@ Vous pouvez aussi naviguer en ligne dans [le dépôt sur gitlab.com](https://git
 
 Un formulaire en bas de page permet d'enregistrez vos modifications dans un commit. 
 - Ecrivez un message décrivant les modifications apportées : une description courte, puis éventuellement une description plus longue séparée par une ligne vide.
-- Choississez le nom d'une nouvelle branche de travail.
+- Choississez le nom d'une nouvelle branche de travail, **avec un nom explicite**.
 
 <p style="text-align:center;">
-<img src="../images/tutoriel_gitlab/commit.png" alt="commit" width="600"/>
+<img src="../files/images/tutoriel_gitlab/commit.png" alt="commit" width="600"/>
 </p>
 
 ### 3- Ouverture d'une merge-request
 
-Dans l'étape précédente, GitLab coche par défaut l'option de démarrer une nouvelle merge-request. 
+Dans l'étape précédente, GitLab coche par défaut l'option de démarrer une nouvelle merge-request, à conserver
 
 Une page s'ouvre alors pour configurer cette merge-request.
 
@@ -94,7 +93,7 @@ Une page s'ouvre alors pour configurer cette merge-request.
 - Vous pouvez indiquer que cette merge-request est un travail en cours, en débutant le titre par `WIP:`.
 
 <p style="text-align:center;">
-<img src="../images/tutoriel_gitlab/wip.png" alt="wip" width="600"/>
+<img src="../files/images/tutoriel_gitlab/wip.png" alt="wip" width="600"/>
 </p>
 
 ### 4- Prévisualisation d'une merge-request
@@ -105,13 +104,13 @@ Lorsqu'une merge-request est ouverte, un "`pipeline`" est démarré pour constru
 Cliquer sur le numéro du pipeline pour ouvrir la page correspondante.
 
 <p style="text-align:center;">
-<img src="../images/tutoriel_gitlab/pipeline.png" alt="pipeline" width="600"/>
+<img src="../files/images/tutoriel_gitlab/pipeline.png" alt="pipeline" width="600"/>
 </p>
 
 Lorsque le pipeline est fini (vert), vous pouvez cliquer dessus pour ouvrir le site de prévisualisation.
 
 <p style="text-align:center;">
-<img src="../images/tutoriel_gitlab/preview.png" alt="preview" width="600"/>
+<img src="../files/images/tutoriel_gitlab/preview.png" alt="preview" width="600"/>
 </p>
 
 
@@ -121,7 +120,7 @@ Il est possible d'ajouter des commits sur une branche de travail existante.
 Il faut pour cela sélectionner la branche de travail dans la vue fichier. 
 
 <p style="text-align:center;">
-<img src="../images/tutoriel_gitlab/switch_branch.png" alt="changer branche" width="400"/>
+<img src="../files/images/tutoriel_gitlab/switch_branch.png" alt="changer branche" width="400"/>
 </p>
 
 On peut alors éditer de nouveaux documents. Les nouveaux commits apparaîtront alors dans la merge request associée à cette branche.

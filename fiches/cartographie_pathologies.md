@@ -18,7 +18,7 @@ Les algorithmes d'identification utilisent les informations suivantes :
 * diagnostic ayant donné lieu à une prise en charge pour **affection de longue durée** [(ALD)](../fiches/beneficiaires_ald.md) ;
 * recours à des **actes ou médicaments spécifiques** de pathologies.
 
-![Sources de données des top pathologies](../images/DREES/2019-06_DREES_Cartographie-des-pathologies/top_patho_construction.png)
+![Sources de données des top pathologies](../files/DREES/2019-06_DREES_Cartographie-des-pathologies/top_patho_construction.png)
 
 La CNAM précise bien dans la description de sa méthodologie que l'objet de cette cartographie n'est pas d’identifier tous les patients atteints par la pathologie, mais d’identifier ceux ayant recours à des soins du fait de ces pathologies, quand ce recours peut être repéré dans le système national des données de santé (SNDS).
 
