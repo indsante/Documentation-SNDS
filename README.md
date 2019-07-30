@@ -5,6 +5,12 @@ Bienvenue sur la documentation collaborative du Système National des Données d
 
 Cette documentation est en construction, via [ce dépôt GitLab](https://gitlab.com/healthdatahub/documentation-snds).
 
+::: danger Attention
+Internet Explorer cause des erreurs de navigation sur ce site, et sur GitLab. 
+
+Nous conseillons d'utiliser un autre navigateur, car Microsoft a arrêté le développement d'Internet Explorer depuis quelques années.
+:::
+
 ## Contributeurs 
 
 Cette documentation sous licence ouverte est maintenue par la DREES et l'INDS.
