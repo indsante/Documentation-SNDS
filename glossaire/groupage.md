@@ -1,7 +1,10 @@
 # Groupage
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Processus de classement des informations médico-administratives recueillies par les établissements, dans les groupes homogènes ([GHM](GHM.md), [GHJ](GHJ.md), [GHT](GHT.md)).
+Le groupage est un processus de classement des informations médico-administratives recueillies par les établissements, dans des groupes homogènes :
+- de malades [GHM](GHM.md), 
+- de journées[GHJ](GHJ.md), 
+- de tarifs [GHT](GHT.md)).
 
 # Références
 

@@ -1,4 +1,4 @@
-# CMD - Classification médico-économique
+# CMD - Catégorie majeure de diagnostic
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 La classification médico-économique utilisée pour le [PMSI](PMSI.md) en [MCO](MCO.md) est structurée en 28 catégories majeures de diagnostic ([CMD](CMD.md)). 
