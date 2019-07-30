@@ -1,6 +1,9 @@
 # Statistique mensuelle 
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Dépenses par type de risque 
+Statistiques de dépenses par type de risque, publiées chaque mois par l'assurance maladie. 
 
-https://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/depenses-d-assurance-maladie/depenses-par-type-de-risque/depenses-mensuelles-2017.php
+
+## Références 
+
+- [Page](https://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/depenses-d-assurance-maladie/depenses-par-type-de-risque/depenses-mensuelles-2019.php) de présentation et de publication sur le site de l'assurance maladie.
