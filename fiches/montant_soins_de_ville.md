@@ -43,13 +43,13 @@ Dans `ER_ARO_F`, si le patient est Alsace-Moselle et CMUc, il aura pour chaque s
 
 **Les montants dans les tables affinées**
 
-Pour les médicaments, LPP,biologie et CCAM, seuls les montants totaux sont calculés ici. Le détail des montants de base et remboursé sont dans les tables affinées dédiées (sauf por la biologie qui est explicitée en dessous). Le montant payé de `ER_PRS_F` est le montant total. 
+Pour les médicaments, LPP, biologie et CCAM, seuls les montants totaux sont calculés ici. Le détail des montants de base et remboursé sont dans les tables affinées dédiées (sauf pour la biologie qui est explicitée en dessous). Le montant payé de `ER_PRS_F` est le montant total. 
 
-Par exemple, dans le cas d'une ordonnance pour 3 médicaments (avec un taux de remboursement à 30%), `PRS_PAI_MNT` correspond au montant payé pour les 3. Le montant payé pour chacun des médicaments n'est pas disponible. Idem, les montants de base et remboursé dans `ER_PRS_F` correspondent aux 3 médicaments. Le montant de base etremboursé de chaque médicament est dans `ER_PHA_F(_XXXX)`.
+Par exemple, dans le cas d'une ordonnance pour 3 médicaments (avec un même taux de remboursement), `PRS_PAI_MNT` correspond au montant payé pour les 3 médicaments. Le montant payé pour chacun des médicaments n'est pas disponible. Idem, les montants de base et remboursé dans `ER_PRS_F` correspondent aux 3 médicaments. Le montant de base et remboursé de chaque médicament est dans `ER_PHA_F(_XXXX)`.
 
 Pour la biologie, les montants payés et remboursés détaillés pour chaque code NABM sont à recalculer :  
 1. récupérer la variable `BTF_TAR_COD` dans la table `IR_BTF_R` dans ORAREF. Cette variable donne le coefficient de l'acte affiné selon les dates d`arrêté au JO (la valeur bouge dans le temps).
-2. mettre en face du code de l'acte affiné (variable `BIO_PRS_IDE`) : la valeur en vigueur du coef pour cet acte au moment où il a été réalisé
+2. mettre en face du code de l'acte affiné (variable `BIO_PRS_IDE`) la valeur en vigueur du coef pour cet acte au moment où il a été réalisé
 3. calculer le montant remboursé via la formule : coef (`BTF_TAR_COD`) * prix de l'acte (`BSE_REM_PRU`) * quantité affinée de l'acte de bio 
 4.  calculer le montant remboursé via la formule : coef (`BTF_TAR_COD`) * prix de l'acte (`BSE_REM_PRU`) * quantité affinée de l'acte de bio * taux de remboursement (dans `ER_PRS_F`)
 
