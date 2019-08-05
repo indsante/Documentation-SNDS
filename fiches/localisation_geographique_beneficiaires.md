@@ -68,6 +68,8 @@ Elle donne le code géographique du lieu de résidence déclaré par le patient.
 
 Le code géographique correspond au code postal, ou à un regroupement pour les codes postaux de moins de 1000 habitants. 
 La table **PMSI_CORRESP**, mise à disposition par l’[ATIH](../glossaire/ATIH.md), permet de passer des codes géographiques aux codes postaux. 
+Cette table est disponible sur le portail de la [CNAM](../glossaire/Cnam.md) dans le répertoire **rfcommun**.
+
 
 ::: warning Note
 Lorsqu'un code géographique est associé à plusieurs codes postaux, une simple jointure sur `PMSI_CORRESP va générer des lignes en doublons.
