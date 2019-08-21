@@ -44,7 +44,7 @@ Bien **supprimer les espaces** dans les noms de fichiers, car ils compliquent le
 
 ## Nouvelle image
 
-Les images sont à ajouter dans le dossier `files/images/` ([lien gitlab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/images)). 
+Les images sont à ajouter dans le dossier `files` ([lien gitlab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files)), soit dans le sous-dossier de votre organisation, soit par défaut dans le dossier générique `images`. 
 
 Vous pouvez ensuite intégrer les images dans une page de documentation via un lien hypertexte (cf [tutoriel Markdown](tutoriel_markdown.md#lien-hypertexte)).
 
