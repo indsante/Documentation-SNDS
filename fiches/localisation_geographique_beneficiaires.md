@@ -66,12 +66,8 @@ Différences par rapport au SNIIRAM :
 Pour travailler *à un niveau communal*, la variable commune `BDI_COD` s’utilise également seule dans le PMSI (5 positions). 
 Elle donne le code géographique du lieu de résidence déclaré par le patient. 
 
-Le code géographique correspond au code postal, ou à un regroupement pour les codes postaux de moins de 1000 habitants. 
-La table **PMSI_CORRESP**, mise à disposition par l’[ATIH](../glossaire/ATIH.md), permet de passer des codes géographiques aux codes postaux. 
-
-::: warning Note
-Lorsqu'un code géographique est associé à plusieurs codes postaux, une simple jointure sur `PMSI_CORRESP va générer des lignes en doublons.
-:::
+Le code géographique correspond au code postal, ou à un regroupement pour les codes postaux de moins de 1000 habitants.  
+L'[ATIH](../glossaire/ATIH.md) met à disposition chaque année sur son [site](https://www.atih.sante.fr/nomenclatures-de-recueil-de-linformation/codes-geographiques)  une table qui permet de passer des codes géographiques aux codes postaux.
 
 ## Construction de la localisation dans le SNIIRAM
  
@@ -165,6 +161,17 @@ Attention, cette table n'est pas exhaustive.
 - Anomalies pour les bénéficiaires d’une SLM étudiante (code 617) : code département tronqué à deux caractères et compris entre `001` et `009`
 
 *Correction* : utiliser le département de l’organisme d’affiliation `(substr(ORG_AFF_BEN,4,3))`.
+
+## Lien entre la localisation dans le PMSI et dans le SNIIRAM
+La table **PMSI_CORRESP**, mise à disposition par l’[ATIH](../glossaire/ATIH.md), permet de passer des codes géographiques (PMSI) aux codes Insee (SNIIRAM).  
+Cette table est disponible sur le portail de la [CNAM](../glossaire/Cnam.md) dans le répertoire **rfcommun**.  
+Il est possible de reconstituer cette table en croisant :
+- la table donnant la correspondance entre le code postal et le code géographique du PMSI mise à disposition sur le [site internet de l'ATIH](https://www.atih.sante.fr/nomenclatures-de-recueil-de-linformation/codes-geographiques) 
+- une table donnant la correspondance entre le code postal et le code Insee disponible en open data [à l'adresse suivante](https://public.opendatasoft.com/explore/dataset/correspondance-code-insee-code-postal/table/?flg=fr&refine.insee_com=01001).
+
+::: warning Note
+Lorsqu'un code géographique est associé à plusieurs codes postaux, une simple jointure sur `PMSI_CORRESP va générer des lignes en doublons.
+:::
 
 ## Construction du code région (SNIIRAM et PMSI)
 
