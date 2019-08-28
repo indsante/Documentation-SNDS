@@ -1,7 +1,9 @@
-# Montants des soins de ville dans le DCIR
+# Les indicateurs de dépense dans le DCIR et le DAMIR
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-## Quels montants sont disponibles ?
+## Le DCIR
+
+### Quels indicateurs de dépenses sont disponibles ?
 
 Les soins de ville sont présents dans le DCIR. 
 Différentes informations sur les montants sont indiquées : 
@@ -11,7 +13,7 @@ Différentes informations sur les montants sont indiquées :
 - le [taux de remboursement](https://www.ameli.fr/rhone/assure/remboursements/rembourse/tableau-recapitulatif-taux-remboursement/tableau-recapitulatif-taux-remboursement)
 - les [participations forfaitaires](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/participation-forfaitaire-1-euro) et [franchises médicales](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/franchise-medicale)
 
-## Exemple schématique des différents montants 
+### Exemple schématique des différents montants 
 ![ex_montants_sdv](../files/HEVA/2019-07-16_HEVA_ex_montants_sdv_dcir_MPL-2.0.png)
 
 
@@ -23,7 +25,7 @@ Le SNDS ne dispose pas encore de l'échantillon représentatif des données de r
 On peut toutefois calculer le RAC après Assurance Maladie Obligatoire (AMO).
 :::
 
-## Les tables et variables  
+### Les tables et variables  
 
 
 Les montants payé, de base et remboursé du régime obligatoire des soins de ville sont disponibles dans la table [ER_PRS_F](../tables/DCIR/ER_PRS_F.md)(`_XXXX` en cas d'extraction):
@@ -43,9 +45,13 @@ Dans `ER_ARO_F`, si le patient est Alsace-Moselle et CMUc, il aura pour chaque s
 
 **Les montants dans les tables affinées**
 
-Pour les médicaments, LPP, biologie et CCAM, seuls les montants totaux sont calculés ici. Le détail des montants de base et remboursé sont dans les tables affinées dédiées (sauf pour la biologie qui est explicitée en dessous). Le montant payé de `ER_PRS_F` est le montant total. 
+Pour les médicaments, la LPP, la biologie et la CCAM, seuls les montants totaux sont disponibles dans la table prestation. Le montant payé (`PRS_PAI_MNT`) dans `ER_PRS_F` est le montant total. Le détail des montants de base et remboursé se trouvent dans les tables affinées dédiées (sauf pour la biologie qui est explicitée en dessous). 
 
-Par exemple, dans le cas d'une ordonnance pour 3 médicaments (avec un même taux de remboursement), `PRS_PAI_MNT` correspond au montant payé pour les 3 médicaments. Le montant payé pour chacun des médicaments n'est pas disponible. Idem, les montants de base et remboursé dans `ER_PRS_F` correspondent aux 3 médicaments. Le montant de base et remboursé de chaque médicament est dans `ER_PHA_F(_XXXX)`.
+Par exemple, dans le cas d'une ordonnance pour 3 médicaments (avec un même taux de remboursement), `PRS_PAI_MNT` correspond au montant payé pour les 3 médicaments. Le montant payé pour chacun des médicaments n'est pas disponible. Idem, les montants de base et remboursé dans ER_PRS_F correspondent aux 3 médicaments. Les montants de base et remboursé de chaque médicament peuvent être calculés à l'aide de la table affinée ER_PHA_F(_XXXX).
+
+Pour calculer les indicateurs d’un acte affiné prendre les indicateurs affinés de la table affinée uniquement (quantité affinée, prix unitaire et taux de remboursement) et calculer le montant remboursé affiné et la base de remboursement affinée à l’aide des formules suivantes : 
+Base de remboursement affinée = qté affinée x prix unitaire
+Montant remboursé affiné = qté affinée x prix unitaire x taux de remboursement/100
 
 Pour la biologie, les montants payés et remboursés détaillés pour chaque code NABM sont à recalculer :  
 1. récupérer la variable `BTF_TAR_COD` dans la table `IR_BTF_R` dans ORAREF. Cette variable donne le coefficient de l'acte affiné selon les dates d`arrêté au JO (la valeur bouge dans le temps).
@@ -55,7 +61,7 @@ Pour la biologie, les montants payés et remboursés détaillés pour chaque cod
 
 
 
-## Quelques exemples pratiques
+### Quelques exemples pratiques
 
 
 Les exemples ci-dessous illustrent différents cas de patients possibles pour comprendre comment les remboursements fonctionnent.
@@ -143,7 +149,38 @@ Plusieurs lignes vont être présentes dans ER_PRS_F pour ce soin :
 L'exemple présente un cas de soin avec complément et majoration mais il est possible que seule une majoration (ou un complément) soit associé au soin.
 :::
 
-## Références
+## Le DAMIR
+Toutes les prestations présentées au remboursement sont présentes dans l’univers DAMIR, à l’exclusion de deux prestations : 4381 (actes hors nomenclature) et 4382 (pharmacie non remboursable). 
+
+La variable PRS_REM_TYP correspond au type de remboursement : 
+![type_de_rbmt](../files/DSS/DAMIR_type_de_rbmt MPL-2.0.png)
+
+Le type de remboursement permet de distinguer les prestations légales (0, 1) des prises en charge complémentaires (2 à 7) :
+-	Part de base = part légale payée par l’Assurance Maladie : acte principal (= nature de prestation) et complément d’acte (= nuit, férié, dimanche, urgence)
+-	Parts complémentaires = parts non obligatoires
+
+Deux types d’indicateurs sont disponibles : les indicateurs bruts et les indicateurs préfiltrés. 
+
+![type_de_rbmt](../files/DSS/indicateurs_bruts_DAMIR MPL-2.0.png)
+Pour cette prestation, deux remboursements sont effectués générant deux lignes de remboursement :
+-	Un remboursement part de base (type de remboursement = 0)
+-	Un remboursement part complémentaire : type de remboursement à 4 
+Sans filtre sur le type de remboursement, l’indicateur « Montant de la Dépense » calcule une dépense totale de 70€ pour cet acte. 
+Ainsi, il est possible d’utiliser les mêmes indicateurs que dans le DCIR (PRS_PAI_MNT, PRS_REM_MNT et PRS_ ACT_QTE), à condition de mettre un filtre sur la variable PRS_REM_TYP. 
+
+Ainsi, lorsqu’on effectue une requête sur le DAMIR, il est recommandé d’utiliser les indicateurs de dépense préfiltrés mis à disposition : les variables préfixées en FLT_. 
+-	L’indicateur de dépense « Montant de la Dépense de la Prestation » (FLT_PAI_MNT) correspond à PRS_PAI_MNT avec PRS_REM_TYP=0 (acte de base uniquement). 
+-	L’indicateur de dépense « Montant Versé/Remboursé » (FLT_REM_MNT) correspond à PRS_REM_MNT avec PRS_REM_TYP IN (0,1) (acte de base et complément d’acte). 
+-	L’indicateur de dépense « Quantité de la Prestation » (FLT_ACT_QTE) correspond à PRS_ACT_QTE avec PRS_REM_TYP=0 (acte de base uniquement). 
+![type_de_rbmt](../files/DSS/indicateurs_prefiltres_DAMIR MPL-2.0.png)
+
+L’indicateur « base de remboursement » existe uniquement dans la classe « Indicateurs bruts » (PRS_REM_BSE). De ce fait, lorsqu’on demande la base de remboursement, il faut absolument mettre les conditions : 	
+-	Type de remboursement ≤ 1 (PRS_REM_TYP IN (0,1))
+-	Complément d’actes ≠ 0 quand nature de prestation différente de 2251 (forfait journalier)
+
+
+### Références
 ::: tip Crédit
 Le contenu de cette fiche s'appuie fortement sur les présentations faites par la CNAM lors des formations au DCIR-DCIRS. Elle a été rédigée par [HEVA](https://hevaweb.com/fr/#!/).
+La partie sur le DAMIR s'appuie sur le support de formation DAMIR. Elle a été rédigée par Kristel JACQUIER (DSS)
 :::
