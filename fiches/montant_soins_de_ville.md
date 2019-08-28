@@ -50,8 +50,8 @@ Pour les médicaments, la LPP, la biologie et la CCAM, seuls les montants totaux
 Par exemple, dans le cas d'une ordonnance pour 3 médicaments (avec un même taux de remboursement), `PRS_PAI_MNT` correspond au montant payé pour les 3 médicaments. Le montant payé pour chacun des médicaments n'est pas disponible. Idem, les montants de base et remboursé dans ER_PRS_F correspondent aux 3 médicaments. Les montants de base et remboursé de chaque médicament peuvent être calculés à l'aide de la table affinée ER_PHA_F(_XXXX).
 
 Pour calculer les indicateurs d’un acte affiné prendre les indicateurs affinés de la table affinée uniquement (quantité affinée, prix unitaire et taux de remboursement) et calculer le montant remboursé affiné et la base de remboursement affinée à l’aide des formules suivantes : 
-Base de remboursement affinée = qté affinée x prix unitaire
-Montant remboursé affiné = qté affinée x prix unitaire x taux de remboursement/100
+- Base de remboursement affinée = qté affinée x prix unitaire
+- Montant remboursé affiné = qté affinée x prix unitaire x taux de remboursement/100
 
 Pour la biologie, les montants payés et remboursés détaillés pour chaque code NABM sont à recalculer :  
 1. récupérer la variable `BTF_TAR_COD` dans la table `IR_BTF_R` dans ORAREF. Cette variable donne le coefficient de l'acte affiné selon les dates d`arrêté au JO (la valeur bouge dans le temps).
