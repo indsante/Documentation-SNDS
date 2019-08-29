@@ -153,7 +153,18 @@ L'exemple présente un cas de soin avec complément et majoration mais il est po
 Toutes les prestations présentées au remboursement sont présentes dans l’univers DAMIR, à l’exclusion de deux prestations : 4381 (actes hors nomenclature) et 4382 (pharmacie non remboursable). 
 
 La variable PRS_REM_TYP correspond au type de remboursement : 
-![type_de_rbmt](../files/DSS/DAMIR_type_de_rbmt MPL-2.0.png)
+| Type de remboursement | Libellé du type de remboursement |
+|-----------------------|:--------------------------------:|
+| 0                     |      Prestation de référence     |
+| 1                     |         Complément d'acte        |
+| 2                     |    Ticket modérateur hors CMU    |
+| 3                     | Supplément hors Alsace Moselle   |
+| 4                     | Supplément Alsace Moselle        |
+| 5                     | Ticket modérateur CMU            |
+| 6                     | Forfait CMU                      |
+| 7                     | AME                              |
+| 8                     | Soins urgents                    |
+| 99                    | Valeur inconnue                  |
 
 Le type de remboursement permet de distinguer les prestations légales (0, 1) des prises en charge complémentaires (2 à 7) :
 -	Part de base = part légale payée par l’Assurance Maladie : acte principal (= nature de prestation) et complément d’acte (= nuit, férié, dimanche, urgence)
@@ -161,18 +172,26 @@ Le type de remboursement permet de distinguer les prestations légales (0, 1) de
 
 Deux types d’indicateurs sont disponibles : les indicateurs bruts et les indicateurs préfiltrés. 
 
-![type_de_rbmt](../files/DSS/indicateurs_bruts_DAMIR MPL-2.0.png)
+**Contenu des indicateurs bruts**
+| Nature de Prestation de Référence | Nature de Prestation | Type de Remboursement | Montant de la Dépense | Base de remboursement | Quantité | Montant Versé /Remboursé |
+|-----------------------------------|:--------------------:|-----------------------|-----------------------|-----------------------|----------|--------------------------|
+| 1111                              |         1111         | 0                     | 35                    | 23                    | 1        | 16,10                    |
+| 1111                              |         1111         | 4                     | 35                    | 0                     | 1        | 6,90                     |
 Pour cette prestation, deux remboursements sont effectués générant deux lignes de remboursement :
 -	Un remboursement part de base (type de remboursement = 0)
 -	Un remboursement part complémentaire : type de remboursement à 4 
 Sans filtre sur le type de remboursement, l’indicateur « Montant de la Dépense » calcule une dépense totale de 70€ pour cet acte. 
 Ainsi, il est possible d’utiliser les mêmes indicateurs que dans le DCIR (PRS_PAI_MNT, PRS_REM_MNT et PRS_ ACT_QTE), à condition de mettre un filtre sur la variable PRS_REM_TYP. 
 
-Ainsi, lorsqu’on effectue une requête sur le DAMIR, il est recommandé d’utiliser les indicateurs de dépense préfiltrés mis à disposition : les variables préfixées en FLT_. 
--	L’indicateur de dépense « Montant de la Dépense de la Prestation » (FLT_PAI_MNT) correspond à PRS_PAI_MNT avec PRS_REM_TYP=0 (acte de base uniquement). 
--	L’indicateur de dépense « Montant Versé/Remboursé » (FLT_REM_MNT) correspond à PRS_REM_MNT avec PRS_REM_TYP IN (0,1) (acte de base et complément d’acte). 
--	L’indicateur de dépense « Quantité de la Prestation » (FLT_ACT_QTE) correspond à PRS_ACT_QTE avec PRS_REM_TYP=0 (acte de base uniquement). 
-![type_de_rbmt](../files/DSS/indicateurs_prefiltres_DAMIR MPL-2.0.png)
+Lorsqu’on effectue une requête sur le DAMIR, il est recommandé d’utiliser les indicateurs de dépense préfiltrés mis à disposition : les variables préfixées en FLT_. 
+**Contenu des indicateurs préfiltrés**
+| Nature de Prestation de Référence | Nature de Prestation | Type de Remboursement | Montant de la Dépense de la Prestation | Quantité de la Prestation | Montant Versé /Remboursé (Part de Base uniquement) |
+|-----------------------------------|:--------------------:|-----------------------|----------------------------------------|---------------------------|----------------------------------------------------|
+| 1111                              |         1111         | 0                     | 35                                     | 1                         | 16,10                                              |
+| 1111                              |         1111         | 4                     | 0                                      | 0                         | 0                                                  |
+-	L’indicateur de dépense « Montant de la Dépense de la Prestation » (FLT_PAI_MNT) correspond à PRS_PAI_MNT avec PRS_REM_TYP=0 (acte de base uniquement)
+-	L’indicateur de dépense « Montant Versé/Remboursé » (FLT_REM_MNT) correspond à PRS_REM_MNT avec PRS_REM_TYP IN (0,1) (acte de base et complément d’acte)
+-	L’indicateur de dépense « Quantité de la Prestation » (FLT_ACT_QTE) correspond à PRS_ACT_QTE avec PRS_REM_TYP=0 (acte de base uniquement)
 
 L’indicateur « base de remboursement » existe uniquement dans la classe « Indicateurs bruts » (PRS_REM_BSE). De ce fait, lorsqu’on demande la base de remboursement, il faut absolument mettre les conditions : 	
 -	Type de remboursement ≤ 1 (PRS_REM_TYP IN (0,1))
