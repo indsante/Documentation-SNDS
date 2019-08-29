@@ -52,7 +52,7 @@ Nous les référencerons via un lien hypertexte dans la section des
 
 - sur ce site de documentation
 Nous ajouterons alors un lien de téléchargement dans la section des 
-[documents partagés via ce projet](../ressources/README.md#documents-partagés-sur-cette-documentation), et convertirons ce document en des pages de documentations si approprié. 
+[documents partagés via ce projet](../ressources/README.md), et convertirons ce document en des pages de documentations si approprié. 
 
 
 ::: tip Note
