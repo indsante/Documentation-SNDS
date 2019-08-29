@@ -11,7 +11,7 @@ Cette section liste des ressources sur le SNDS.
 Archive comprenant
   - `PI_DCIR_Formats.docx`, un manuel sur les vues et formats DCIR
   - 33  fichiers xlsx retraçant les évolutions mensuelles de certaines tables de valeurs
-- [FAQ DCIR 03 2018](../files/Cnam/2018-03-CNAM-FAQ_DCIR_MLP-2.0.xlsx) [CNAM - MPL-2.0] résume les différentes questions posées sur DCIR.
+- [FAQ DCIR 09 2019](../files/Cnam/2019-07-CNAM-FAQ_DCIR_MLP-2.0.xlsx) et [FAQ EGB 09 2019](../files/Cnam/2019-06-CNAM-FAQ_EGB_MLP-2.0.xlsx) [CNAM - MPL-2.0] résument les questions fréquemment posées sur DCIR et l'EGB.
 
 
 ## Autres ressources disponibles en ligne
