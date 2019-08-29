@@ -52,3 +52,8 @@ Ajouter un point d'exclamation `!` devant le lien pour afficher une image.
 ```
 
 Utiliser des balises html si vous souhaitez préciser les dimensions de l'image.
+
+## Tableaux
+
+Pour écrire des tableaux, le plus simple est d'utiliser un outil, par exemple 
+[Markdown tables generator](https://www.tablesgenerator.com/markdown_tables#).
