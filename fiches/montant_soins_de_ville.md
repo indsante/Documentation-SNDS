@@ -1,4 +1,4 @@
-# Les indicateurs de dépense dans le DCIR et le DAMIR
+# Les dépenses de soins de ville dans le SNDS
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## Le DCIR
@@ -150,8 +150,12 @@ L'exemple présente un cas de soin avec complément et majoration mais il est po
 :::
 
 ## Le DAMIR
-Toutes les prestations présentées au remboursement sont disponibles dans l’univers DAMIR, à l’exclusion de deux prestations : 4381 (actes hors nomenclature) et 4382 (pharmacie non remboursable). 
 
+Le DAMIR (Dépenses d’Assurance Maladie Inter-Régimes) est un outil pour l'analyse statistique des grands postes de dépenses selon différents axes (Professionnels de santé, Établissements etc.)
+Ainsi, contrairement au DCIR, le DAMIR ne permet pas d'effectuer des analyses individuelles. C'est un outil complémentaire au DCIR dans la mesure où il offre des temps de requêtage nettement inférieurs dans la cas où l'on s'intéresse uniquement à des montants agrégés de dépenses. 
+Sous SAS/Guide, le DAMIR correspond à la table `MA_REM_FT` (bibliothèque `ORAVUE`). Il trouve également le DAMIR sous certains profils BusinessObjects (profil 22 notamment). 
+
+Toutes les prestations présentées au remboursement sont disponibles dans l’univers DAMIR, à l’exclusion de deux prestations : 4381 (actes hors nomenclature) et 4382 (pharmacie non remboursable). 
 On trouve deux types d’indicateurs pour analyser les dépenses à l'aide du DAMIR : 
 - les indicateurs bruts : montant de la dépense, quantité, montant versé/remboursé et base de remboursement
 - les indicateurs préfiltrés: montant de la dépense de la prestation, quantité de la prestation, montant versé/remboursé (part de base uniquement)
