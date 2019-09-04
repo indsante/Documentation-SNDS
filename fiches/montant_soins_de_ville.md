@@ -1,7 +1,7 @@
 # Les dépenses de soins de ville dans le DCIR et le DAMIR
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-## Le DCIR
+## DCIR
 
 ### Quels indicateurs de dépenses sont disponibles ?
 
@@ -149,7 +149,7 @@ Plusieurs lignes vont être présentes dans ER_PRS_F pour ce soin :
 L'exemple présente un cas de soin avec complément et majoration mais il est possible que seule une majoration (ou un complément) soit associé au soin.
 :::
 
-## Le DAMIR
+## DAMIR
 
 Le [DAMIR](../glossaire/DAMIR.md) est un outil pour l'analyse statistique des grands postes de dépenses selon différents axes (Professionnels de santé, Établissements etc.)
 
