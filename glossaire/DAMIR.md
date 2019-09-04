@@ -2,7 +2,9 @@
 
 ## L'univers DAMIR 
 
-Le DAMIR est un outil pour l'analyse statistique macro-économique des grands postes de dépenses. Contrairement au DCIR, le DAMIR ne permet pas d'effectuer des analyses individuelles.
+Le DAMIR est un outil pour l'analyse statistique macro-économique des grands postes de dépenses. 
+Contrairement au DCIR, le DAMIR ne permet pas d'effectuer des analyses individuelles.
+
 Les dépenses sont agrégées selon différents axes :
 - Professionnels de santé exécutants ou prescripteurs
 - Établissements exécutants ou prescripteurs
@@ -14,14 +16,18 @@ Les dépenses sont agrégées selon différents axes :
 
 ## Comment interroger le DAMIR?
 
-Via BO WebI : les profils 22 et 23. 
+On peut interroger le DAMIR:
+- via BO WebI, avec les profils 22 et 23. 
+- via SAS / Guide, table table `MA_REM_FT` dans ORAVUE. 
 
-Via SAS / Guide : table `MA_REM_FT` dans ORAVUE. La table `MA_REM_FT` est accessible: 
+La table `MA_REM_FT` est accessible: 
 - à partir des profils permettant d’accéder à DCIR pour les organismes autorisés à requêter sur DCIR. 
 - à partir d’un profil spécifique (profil bordereau 9B, profil portail 28) pour tout utilisateur du SNDS sachant requêter sous SAS/Guide. 
 
 Selon le profil de connexion utilisé dans le portail SNDS pour interroger l’univers DAMIR, les données restituées peuvent être limitées à une région de liquidation ou à un organisme de liquidation
 
-# Références
+## Références
 
-Support de formation DAMIR de la CNAM (version de mai 2018)
+::: tip Crédits
+Support de formation DAMIR de la [Cnam](Cnam.md) (version de mai 2018).
+:::
