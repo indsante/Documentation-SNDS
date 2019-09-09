@@ -63,6 +63,7 @@ module.exports = {
         nav: [
             {text: 'Forum entraide', link: 'https://entraide.health-data-hub.fr/'},
             {text: 'Dico interactif', link: 'https://drees.shinyapps.io/dico-snds/'},
+            {text: 'Groupe Meetup', link: 'https://www.meetup.com/fr-FR/Health-Data-Hub/'},
         ],
         sidebar: sidebar,
         sidebarDepth: 1,
