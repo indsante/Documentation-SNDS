@@ -49,10 +49,6 @@ WHERE t1.exe_soi_amd LIKE '&annee.%'
 	AND t1.DPN_QLF ne 71 and t1.PRS_DPN_QLP ne 71
 	AND t1.PRS_NAT_REF in (3523,3524,3525,3526,3527,3528,3529,3530,3531,3532,3533,3534,3535,3536,3537,3538,3539,3553,3554,3555,3556,3557,3581,3582,
 							3583,5101,5102,5103,5104,5105,5106,5107)
-	AND t2.TIP_PRS_IDE in (2200393,2261874,2206800,2238941,2242457,2243304,2243540,2245036,2268385,2270413,2283953,2273854,2297441,2248320,2219381,2291088,
-							2203240,2259966,2212976,2226412,2235776,2252668,2254868,2263459,2280660,2282793,2284527,2287916,2288519,2265330,2295896,2299523,2234239,2238792,2240671,2259245,
-							2264045,2282221,2202452,2259660,2290396,2227038,2202239,2245384,2252042,2291183,2295198,2299180,2210546,2223342,2200795,2222408,2227908,2227920,2246716,2247905,
-							2269025,2274109,2287862,2293957,2204066,2278219,2202305,2232855,2238958,2247934,2256790,2266676,2267397,2285136,2289571,2292030,2295815,2297866,2297926,2251545)
 ;
 QUIT;
 %mend;
@@ -108,12 +104,6 @@ Il faut donc être prudent, car les informations de la table prestations sont du
 
 Pour éviter de surestimer le montant de l'acte, on peut au choix :
 - Diviser le montant agrégé par le nombre de lignes correspondantes dans la table affinée. 
-- Poser un filtre sur la variable `tip_ord_num`.
-
-  Ainsi, avec le filtre `tip_ord_num<2` la jointure ne dédoublonne pas les informations de la table prestation car on s'assure d'avoir le même nombre de lignes sur la table prestation et la table affinée. 
-
-  Cependant, on perd quelques informations que la table affinée aurait pu nous donner.
-
 - Utiliser la méthode donnée par le [programme mis à disposition par Mathis Haradji (DSS)](https://gitlab.com/DREES_code/public/gu-snds/programmes-sas-gu-snds/blob/master/Optique_-_DCIR_-_DSS.sas)
 
 ## Références
