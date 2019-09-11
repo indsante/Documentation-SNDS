@@ -1,4 +1,4 @@
-# Accèder à la documentation sur le portail SNIIRAM
+# Accéder à la documentation sur le portail SNIIRAM
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Cette documentation est visible sur le [portail SNIIRAM](https://portail.sniiram.ameli.fr/), qui nécessite un accès. 
