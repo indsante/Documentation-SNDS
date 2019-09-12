@@ -1,7 +1,7 @@
 # Les dépenses de soins de ville dans le DCIR et le DAMIR
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-## Le DCIR
+## DCIR
 
 ### Quels indicateurs de dépenses sont disponibles ?
 
@@ -149,19 +149,24 @@ Plusieurs lignes vont être présentes dans ER_PRS_F pour ce soin :
 L'exemple présente un cas de soin avec complément et majoration mais il est possible que seule une majoration (ou un complément) soit associé au soin.
 :::
 
-## Le DAMIR
+## DAMIR
 
-Le DAMIR (Dépenses d’Assurance Maladie Inter-Régimes) est un outil pour l'analyse statistique des grands postes de dépenses selon différents axes (Professionnels de santé, Établissements etc.)
-Ainsi, contrairement au DCIR, le DAMIR ne permet pas d'effectuer des analyses individuelles. C'est un outil complémentaire au DCIR dans la mesure où il offre des temps de requêtage nettement inférieurs dans la cas où l'on s'intéresse uniquement à des montants agrégés de dépenses. 
-Sous SAS/Guide, le DAMIR correspond à la table `MA_REM_FT` (bibliothèque `ORAVUE`). On trouve également le DAMIR sous certains profils BusinessObjects (profil 22 notamment). 
+Le [DAMIR](../glossaire/DAMIR.md) est un outil pour l'analyse statistique des grands postes de dépenses selon différents axes (Professionnels de santé, Établissements etc.)
+
+Contrairement au DCIR, le DAMIR ne permet pas d'effectuer des analyses individuelles. 
+C'est un outil complémentaire au DCIR dans la mesure où il offre des temps de requêtage nettement inférieurs, dans le cas où l'on s'intéresse uniquement à des montants agrégés de dépenses.
+ 
+Sous SAS/Guide, le DAMIR correspond à la table `MA_REM_FT` (bibliothèque `ORAVUE`). 
+On trouve également le DAMIR sous certains profils BusinessObjects (profil 22 notamment). 
 
 Toutes les prestations présentées au remboursement sont disponibles dans l’univers DAMIR, à l’exclusion de deux prestations : 4381 (actes hors nomenclature) et 4382 (pharmacie non remboursable). 
+
 On trouve deux types d’indicateurs pour analyser les dépenses à l'aide du DAMIR : 
 - les indicateurs bruts : montant de la dépense, quantité, montant versé/remboursé et base de remboursement
 - les indicateurs préfiltrés: montant de la dépense de la prestation, quantité de la prestation, montant versé/remboursé (part de base uniquement)
 
 Les indicateurs bruts correspondent aux variables du DCIR (`PRS_PAI_MNT`, `PRS_ ACT_QTE`, `PRS_REM_MNT` et `BSE_REM_BSE`). 
-Lorsqu'on utilise les indicateurs bruts, il est nécessaire de poser un filtre sur le type de remboursement (la variable `PRS_REM_TYP`). 
+Lorsque l'on utilise les indicateurs bruts, il est nécessaire de poser un filtre sur le type de remboursement (la variable `PRS_REM_TYP`). 
 
 | Type de remboursement | Libellé du type de remboursement |
 |-----------------------|:--------------------------------:|
@@ -180,7 +185,7 @@ Le type de remboursement permet de distinguer les prestations légales (0, 1) de
 -	Part de base = part légale payée par l’Assurance Maladie : acte principal (= nature de prestation) et complément d’acte (= nuit, férié, dimanche, urgence)
 -	Parts complémentaires = parts non obligatoires
 
-**Contenu des indicateurs bruts**
+### Contenu des indicateurs bruts
 
 | Nature de Prestation de Référence | Nature de Prestation | Type de Remboursement | Montant de la Dépense | Base de remboursement | Quantité | Montant Versé /Remboursé |
 |-----------------------------------|:--------------------:|-----------------------|-----------------------|-----------------------|----------|--------------------------|
@@ -196,7 +201,7 @@ Sans filtre sur le type de remboursement, l’indicateur « Montant de la Dépen
 
 Lorsqu’on effectue une requête sur le DAMIR, il est recommandé d’utiliser les indicateurs de dépense préfiltrés mis à disposition : les variables préfixées en FLT_. 
 
-**Contenu des indicateurs préfiltrés**
+### Contenu des indicateurs préfiltrés
 
 | Nature de Prestation de Référence | Nature de Prestation | Type de Remboursement | Montant de la Dépense de la Prestation | Quantité de la Prestation | Montant Versé /Remboursé (Part de Base uniquement) |
 |-----------------------------------|:--------------------:|-----------------------|----------------------------------------|---------------------------|----------------------------------------------------|
@@ -212,9 +217,11 @@ L’indicateur « base de remboursement » existe uniquement dans la classe « I
 -	Complément d’actes ≠ 0 quand nature de prestation différente de 2251 (forfait journalier)
 
 
-### Références
-::: tip Crédit
-Le contenu de cette fiche s'appuie fortement sur les présentations faites par la CNAM lors des formations au DCIR-DCIRS. Elle a été rédigée par [HEVA](https://hevaweb.com/fr/#!/).
+## Références
 
-La partie sur le DAMIR s'appuie sur le support de formation DAMIR. Elle a été rédigée par Kristel JACQUIER (DSS)
+::: tip Crédit
+Le contenu de cette fiche s'appuie fortement sur les présentations faites par la CNAM lors des formations au DCIR-DCIRS. 
+Elle a été rédigée par [HEVA](https://hevaweb.com/fr/#!/).
+
+La partie sur le DAMIR s'appuie sur le support de formation DAMIR. Elle a été rédigée par Kristel JACQUIER (DSS).
 :::
