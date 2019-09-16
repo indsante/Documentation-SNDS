@@ -32,16 +32,16 @@ Champ : Public
 |ENT_NUM_CTL|chaîne de caractères|Code retour contrôle « N° d’entrée »|||
 |ETA_NUM|chaîne de caractères|N° FINESS e-PMSI|||
 |EXO_TM|chaîne de caractères|Code justification d’exonération du ticket modérateur|||
-|EXO_TM_CTL|chaîne de caractères|Code retour contrôle « code justification d’exonération du ticket modérateur » |||
+|EXO_TM_CTL|chaîne de caractères|Code retour contrôle « code justification d’exonération du ticket modérateur »|||
 |FAC_18E|chaîne de caractères|Facturation du 18 euro|||
 |FAC_18E_CTL|chaîne de caractères|Code retour contrôle « facturation du 18 euro »|||
-|FAC_MNT_FJ|nombre réel|Montant à facturer au titre du forfait journalier |||
+|FAC_MNT_FJ|nombre réel|Montant à facturer au titre du forfait journalier|||
 |FAC_MNT_FJ_CTL|chaîne de caractères|Code retour contrôle « montant à facturer au titre du forfait journalier »|||
 |FAC_MNT_TM|nombre réel|Montant à facturer au titre du ticket modérateur|||
 |FAC_MNT_TM_CTL|chaîne de caractères|Code retour contrôle « montant à facturer au titre du ticket modérateur»|||
 |FAC_NBR_VEN|nombre réel|Nombre de venues de la facture|||
 |FAC_SEJ_AM|chaîne de caractères|Séjour facturable à l’assurance maladie|||
-|FJ_COD_PEC|chaîne de caractères|Code de prise en charge du forfait journalier |||
+|FJ_COD_PEC|chaîne de caractères|Code de prise en charge du forfait journalier|||
 |GES_COD|chaîne de caractères|Code gestion|||
 |GES_COD_CTL|chaîne de caractères|Code retour contrôle « code gestion »|||
 |ID_MAM_ENF|chaîne de caractères|N° chaînage mère-enfant|||

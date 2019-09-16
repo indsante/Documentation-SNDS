@@ -1,6 +1,6 @@
 # NS_PRS_F
 
-prestations
+Table des prestations
 
 - Clé primaire : `CLE_DCI_JNT`
 
@@ -37,10 +37,10 @@ prestations
 |BSE_REM_MNT|nombre réel|Montant remboursé pour l'acte de base|||
 |CAI_AFF_COD|chaîne de caractères|Code de la caisse d'affiliation|||
 |CAI_LIQ_COD|chaîne de caractères|Code de la caisse de liquidation|||
-|CLE_DCI_JNT|chaîne de caractères|Clé technique de jointure|||
+|CLE_DCI_JNT|nombre réel|Clé technique de jointure|||
 |CPM_REM_BSE|nombre réel|Base de remboursement des compléments d'actes et majorations (hors participations de l'assuré)|||
 |CPM_REM_MNT|nombre réel|Montant remboursé pour les compléments d'actes et majorations|||
-|DDP_COD|nombre réel|Code de la discipline de prestation (ou discipline médico tarifaire)|||
+|DDP_COD|nombre réel|Code de la discipline de Prestations (ou discipline médico tarifaire)|||
 |DPN_QLF|nombre réel|Qualificatif de la dépense|||
 |DRG_AFF_NAT|chaîne de caractères|Code affiné du destinataire du règlement|||
 |DRG_NAT|nombre réel|Code du destinataire du règlement|||
@@ -55,7 +55,7 @@ prestations
 |ETE_TYP_COD|nombre réel|Code du type de l'établissement exécutant|||
 |ETP_DPT_COD|chaîne de caractères|Departement de l'établissement prescripteur|||
 |EXE_CTX_BEN|chaîne de caractères|Contexte Bénéficiaire|||
-|EXE_CTX_PFS|chaîne de caractères|Contexte Professionnel de Santé|||
+|EXE_CTX_PFS|chaîne de caractères|Contexte Professionnels de santé|||
 |EXE_INS_DPT|chaîne de caractères|Département du professionnel de santé exécutant|||
 |EXE_SOI_AMD|chaîne de caractères|Date (année et mois) de début d'exécution des soins|||
 |EXE_SOI_AMF|chaîne de caractères|Date (année et mois) de fin d'exécution des soins|||
@@ -86,10 +86,10 @@ prestations
 |PRS_HOS_AMD|chaîne de caractères|Date (année et mois) de début d'hospitalisation|||
 |PRS_HOS_DTD|date|Date de début d'hospitalisation|||
 |PRS_MTT_NUM|chaîne de caractères|Numéro du medecin traitant|||
-|PRS_NAT_REF|nombre réel|Code de la prestation de référence|||
+|PRS_NAT_REF|nombre réel|Code de la Prestations de référence|||
 |PRS_PAI_MNT|nombre réel|Montant global de la dépense|||
 |PRS_PDS_QCP|nombre réel|Code qualificatif du parcours de soins|||
-|PRS_PPU_SEC|nombre réel|Code privé / public de la prestation|||
+|PRS_PPU_SEC|nombre réel|Code privé - public de la Prestations|||
 |PRS_PRE_MTT|nombre réel|Code origine de la prescription|||
 |PSE_ACT_NAT|nombre réel|Nature d'activité du professionnel de santé exécutant|||
 |PSE_ACT_SPE|nombre réel|Spécialité ou nature d'activité du professionnel de santé exécutant|||
@@ -107,5 +107,5 @@ prestations
 |RGO_ENV_TYP|nombre réel|Type d'enveloppe (régime obligatoire)|||
 |RGO_REM_TAU|nombre réel|Taux de remboursement (part Régime Obligatoire)|||
 |SLM_AFF_COD|chaîne de caractères|Code de la SLM|||
-|TOT_REM_BSE|nombre réel|Base totale de remboursement de l'acte (base et compléments/majo hors PAF)|||
-|TOT_REM_MNT|nombre réel|Montant total remboursé pour l'acte (base et compléments/majo et participations de l'assuré)|||
+|TOT_REM_BSE|nombre réel|Base totale de remboursement de l'acte (base et compléments-majo hors PAF)|||
+|TOT_REM_MNT|nombre réel|Montant total remboursé pour l'acte (base et compléments-majo et participations de l'assuré)|||

@@ -12,5 +12,5 @@ Champ : Regime general
 |-|-|-|-|-|
 |id_carto|chaîne de caractères|Identifiant bénéficiaire cartographie||Valeur unique|
 |ben_nir_psa|chaîne de caractères|Identifiant anonyme du patient dans le SNIIRAM|||
-|ben_rng_gem|nombre réel|Rang de naissance|||
+|ben_rng_gem|nombre réel|rang de naissance du bénéficiaire|||
 |version|chaîne de caractères|Version de la cartographie|||

@@ -10,7 +10,7 @@ Champ : Regime general
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|
 |id_carto|chaîne de caractères|Identifiant bénéficiaire cartographie|||
-|ben_sex_cod|nombre réel|Sexe du bénéficiaire|||
+|ben_sex_cod|nombre réel|Code sexe du bénéficiaire|||
 |ben_nai_ann|chaîne de caractères|Année de naissance du bénéficiaire|||
 |age|nombre réel|Age du bénéficiaire|||
 |cla_age_ct|chaîne de caractères|Classes d'âge du bénéficiaire (cartographie)|||
@@ -23,7 +23,7 @@ Champ : Regime general
 |cmu|nombre réel|Bénéficiaire de la Couverture Maladie Universelle complémentaire|||
 |ben_dcd_dte|nombre réel|Date de décés du bénéficiaire|||
 |dcd_3112|nombre réel|Bénéficiaire décédé au 31 décembre de l'année N|||
-|ben_acs_top|nombre réel|Bénéficiaire de l'aide à la complémentaire santé|||
+|ben_acs_top|chaîne de caractères|Top contrat ACS Tiers payant Intégral|||
 |ben_aah_top|nombre réel|Bénéficiaire de l'allocation adulte handicapé|||
 |top_CvIDM_aig|nombre réel|Syndrome coronaire aigu|||
 |top_CvCoron_chr|nombre réel|Maladie coronaire chronique|||

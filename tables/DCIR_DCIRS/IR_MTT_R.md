@@ -1,16 +1,16 @@
 # IR_MTT_R
 
-Médecin traitant
+Table historique des médecins traitants
 
 
 ## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|
-|BEN_NIR_PSA|chaîne de caractères|Pseudo NIR du bénéficiaire anonymisé|||
-|BEN_RNG_GEM|nombre réel|Code rang gémellaire du bénéficiaire|||
-|BEN_NIR_ANO|chaîne de caractères|NIR anonymisé du bénéficiaire|||
-|BEN_IDT_ANO|chaîne de caractères|Identifiant synthétique pseudonymisé du bénéficiaire|||
+|BEN_NIR_PSA|chaîne de caractères|Identifiant anonyme du patient dans le SNIIRAM|||
+|BEN_RNG_GEM|nombre réel|rang de naissance du bénéficiaire|||
+|BEN_NIR_ANO|chaîne de caractères|NIR pseudonymisé du bénéficiaire|||
+|BEN_IDT_ANO|chaîne de caractères|Identifiant bénéficiaire anonymisé|||
 |IND_RNM_BEN|chaîne de caractères|Top RNIAM|||
 |MTT_DEP_DTE|date|date de début du contrat avec le médecin traitant|||
 |MTT_FIN_DTE|date|date de fin du contrat avec le médecin traitant|||

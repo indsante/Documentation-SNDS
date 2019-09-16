@@ -10,7 +10,7 @@ Champ : Regime general
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|
 |id_carto|chaîne de caractères|Identifiant bénéficiaire cartographie|||
-|ben_sex_cod|nombre réel|Sexe du bénéficiaire|||
+|ben_sex_cod|nombre réel|Code sexe du bénéficiaire|||
 |ben_nai_ann|chaîne de caractères|Année de naissance du bénéficiaire|||
 |age|nombre réel|Age du bénéficiaire|||
 |cla_age_ct|chaîne de caractères|Classes d'âge du bénéficiaire (cartographie)|||
@@ -21,7 +21,7 @@ Champ : Regime general
 |regime|chaîne de caractères|Régime du bénéficiaire|||
 |source|chaîne de caractères|Source de provenance du bénéficiaire|||
 |cmu|nombre réel|Bénéficiaire de la Couverture Maladie Universelle complémentaire|||
-|ben_acs_top|nombre réel|Bénéficiaire de l'aide à la complémentaire santé|||
+|ben_acs_top|chaîne de caractères|Top contrat ACS Tiers payant Intégral|||
 |ben_aah_top|nombre réel|Bénéficiaire de l'allocation adulte handicapé|||
 |ben_dcd_dte|nombre réel|Date de décès du bénéficiaire|||
 |dcd_3112|nombre réel|Bénéficiaire décédé au 31 décembre de l'année N|||
@@ -75,8 +75,8 @@ Champ : Regime general
 |DEP_OQN_HAD_BSE|nombre réel|Hospitalisations en HAD secteur privé remboursables|||
 |TOT_DEP_HOP_MNT|nombre réel|Total hospitalisations (tous secteurs) remboursées|||
 |TOT_DEP_HOP_BSE|nombre réel|Total hospitalisations (tous secteurs) remboursables|||
-|DEP_IJMALATMP_MNT|nombre réel|Indemnités journalières maladie et AT/MP remboursées|||
-|DEP_IJMALATMP_BSE|nombre réel|Indemnités journalières maladie et AT/MP remboursables|||
+|DEP_IJMALATMP_MNT|nombre réel|Indemnités journalières maladie et AT-MP remboursées|||
+|DEP_IJMALATMP_BSE|nombre réel|Indemnités journalières maladie et AT-MP remboursables|||
 |DEP_IJMATER_MNT|nombre réel|Indemnités journalières maternité et autres prestations remboursées|||
 |DEP_IJMATER_BSE|nombre réel|Indemnités journalières maternité et autres prestations remboursables|||
 |DEP_INVALID_MNT|nombre réel|Prestations d'invalidité remboursées|||

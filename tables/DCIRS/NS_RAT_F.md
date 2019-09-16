@@ -1,13 +1,13 @@
 # NS_RAT_F
 
-affinage des rentes et accidents du travail
+Table simplifiée des données des rentes d'accident du travail
 
 
 ## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|
-|CLE_DCI_JNT|chaîne de caractères|Clé technique de jointure|||
+|CLE_DCI_JNT|nombre réel|Clé technique de jointure|||
 |BEN_IDT_ANO|chaîne de caractères|Identifiant bénéficiaire anonymisé|||
 |BEN_IDT_TOP|nombre réel|Top identifiant bénéficiaire Anonymisé|||
 |EXE_SOI_DTD|date|Date de début d'exécution des soins|||
@@ -16,9 +16,9 @@ affinage des rentes et accidents du travail
 |EXE_SOI_AMF|chaîne de caractères|Date (année et mois) de fin d'exécution des soins|||
 |PFS_EXE_NUM|chaîne de caractères|N° du professionnel de santé exécutant|||
 |PFS_PRE_NUM|chaîne de caractères|N° du professionnel de santé prescripteur|||
-|GRG_LIQ_COD|chaîne de caractères|Code du grand régime de liquidation|||
+|GRG_LIQ_COD|chaîne de caractères|Grand régime de liquidation|||
 |CAI_LIQ_COD|chaîne de caractères|Code de la caisse de liquidation|||
-|PRS_NAT_REF|nombre réel|Code de la prestation de référence|||
+|PRS_NAT_REF|nombre réel|Code de la Prestations de référence|||
 |ETB_PRE_FIN|chaîne de caractères|N° FINESS de l'établissement prescripteur|||
 |ETB_EXE_FIN|chaîne de caractères|N° FINESS de l'établissement exécutant|||
 |RGO_REM_TAU|nombre réel|Taux de remboursement (part Régime Obligatoire)|||
@@ -34,7 +34,7 @@ affinage des rentes et accidents du travail
 |ETP_DPT_COD|chaîne de caractères|Departement de l'établissement prescripteur|||
 |BEN_RES_DPT|chaîne de caractères|Département de résidence du bénéficiaire|||
 |RAT_SEQ_NUM|nombre réel|Numéro séquentiel|||
-|BEN_RAT_ANO|chaîne de caractères|N° anonymisé de rente (accident du travail / maladie professionnelle)|||
+|BEN_RAT_ANO|chaîne de caractères|N° anonymisé de rente (accident du travail - maladie professionnelle)|||
 |ATT_NAT|nombre réel|Nature de l'accident du travail|||
 |RAT_IPP_TAU|nombre réel|Taux de l'incapacité permanente (IPP)|||
 |RAT_IPP_DTE|date|Date d'effet du taux de l'incapacité permanente (IPP)|||
