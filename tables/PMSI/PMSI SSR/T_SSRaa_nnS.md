@@ -13,7 +13,7 @@ Champ : Public et Privé
 |RHA_VER|chaîne de caractères|Version du Format du SRHA|||
 |GEN_VER|chaîne de caractères|Version de GENRHA|||
 |RHA_NUM|chaîne de caractères|N° Séquentiel du séjour|||
-|SUI_TYP|chaîne de caractères|Type de suite |||
+|SUI_TYP|chaîne de caractères|Type de suite|||
 |SEJ_NBJ|nombre réel|Durée du séjour|||
 |PRE_JOU_NBR|nombre réel|Nombre de journées de présence|||
 |ENT_MOD|chaîne de caractères|Mode d’entrée|||

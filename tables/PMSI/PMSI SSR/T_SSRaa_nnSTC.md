@@ -12,7 +12,7 @@ Champ : Public
 |ETA_NUM|chaîne de caractères|N° FINESS de l'établisement|||
 |RHA_NUM|chaîne de caractères|N° Séquentiel du séjour|||
 |NOE_RGM_CTL|chaîne de caractères|Code retour contrôle « code grand régime »|||
-|EXO_TM_CTL|chaîne de caractères|Code retour contrôle « code justification d’exonération du ticket modérateur » |||
+|EXO_TM_CTL|chaîne de caractères|Code retour contrôle « code justification d’exonération du ticket modérateur »|||
 |COD_PEC_CTL|chaîne de caractères|Code retour contrôle « code de prise en charge du forfait journalier »|||
 |NAT_ASS_CTL|chaîne de caractères|Code retour contrôle « nature d’assurance »|||
 |CTR_TYP_CTL|chaîne de caractères|Code retour contrôle « type de contrat souscrit auprès d'un organisme complémentaire »|||
@@ -31,7 +31,7 @@ Champ : Public
 |TOT_MNT_AMC_CTL|chaîne de caractères|Code retour contrôle « Montant total du séjour remboursable pour l'AMC »|||
 |NOE_RGM|chaîne de caractères|Code grand régime|||
 |EXO_TM|chaîne de caractères|Code justification d’exonération du ticket modérateur|||
-|FJ_COD_PEC|chaîne de caractères|Code de prise en charge du forfait journalier |||
+|FJ_COD_PEC|chaîne de caractères|Code de prise en charge du forfait journalier|||
 |NAT_ASS|chaîne de caractères|Nature d'assurance|||
 |CTR_TYP|chaîne de caractères|Type de contrat souscrit auprès d'un organisme complémentaire|||
 |SEJ_FAC_AM|chaîne de caractères|Séjour facturable à l’assurance maladie|||
@@ -39,7 +39,7 @@ Champ : Public
 |FAC_18E|chaîne de caractères|Facturation du 18 euro|||
 |FAC_NBR_VEN|nombre réel|Nombre de venues de la facture|||
 |FAC_MNT_TM|nombre réel|Montant à facturer au titre du ticket modérateur|||
-|FAC_MNT_FJ|nombre réel|Montant à facturer au titre du forfait journalier |||
+|FAC_MNT_FJ|nombre réel|Montant à facturer au titre du forfait journalier|||
 |TOT_MNT_AM|nombre réel|Montant total du séjour remboursé par l’assurance maladie (i.e. hors prestations annexes)|||
 |MAJ_MNT_PS|nombre réel|Montant lié à la majoration au parcours de soins|||
 |REM_BAS_MNT|nombre réel|Montant base remboursement|||

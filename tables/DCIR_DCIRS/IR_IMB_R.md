@@ -7,16 +7,16 @@ Référentiel médicalisé des bénéficiaires (ALD)
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|
-|BEN_NIR_PSA|chaîne de caractères|Pseudonyme du bénéficiaire|||
-|BEN_RNG_GEM|nombre réel|Rang gémellaire|||
-|IMB_ALD_DTD|date|Date de début du cadre de prestation|||
-|IMB_ALD_DTF|date|Date de fin du cadre de prestation|||
-|IMB_ALD_NUM|nombre réel|Numéro d'ALD sur la liste|||
-|IMB_ETM_NAT|nombre réel|Type de PEC (ALD, Invalidité ou ATMP)|||
-|IMB_MLP_BTR|chaîne de caractères|Numéro de tableau maladies professionnelles|||
-|IMB_MLP_TAB|chaîne de caractères|Tableau MP (A, B=bis, T=ter)|||
-|IMB_SDR_LOP|chaîne de caractères|Localisation, paragraphe, syndrome|||
-|INS_DTE|date|Date d'insertion dans le référentiel|||
-|MED_MTF_COD|chaîne de caractères|Motif médical ou pathologie (Code CIM10)|||
-|MED_NCL_IDT|chaîne de caractères|Nomenclature médicale (CIM10)|||
-|UPD_DTE|date|Date de mise à jour|||
+|BEN_NIR_PSA|chaîne de caractères|Identifiant anonyme du patient dans le SNIIRAM|||
+|BEN_RNG_GEM|nombre réel|rang de naissance du bénéficiaire|||
+|IMB_ALD_DTD|date|Date de début d'exonération du ticket modérateur attribuée par les services médicaux (ALD, AT, MP)|||
+|IMB_ALD_DTF|date|Date de fin de l'exonération attribuée par les services médicaux (ALD, AT, MP)|||
+|IMB_ALD_NUM|nombre réel|Numéro d'ALD|||
+|IMB_ETM_NAT|nombre réel|Motif d'exonération du bénéficiaire|||
+|IMB_MLP_BTR|chaîne de caractères|Tableau des maladies professionnelles (bis, ter)|||
+|IMB_MLP_TAB|chaîne de caractères|Numéro de tableau des maladies professionnelles (MP)|||
+|IMB_SDR_LOP|chaîne de caractères|Localisation - paragraphe syndrome|||
+|INS_DTE|date|Date d'insertion|||
+|MED_MTF_COD|chaîne de caractères|Motif médical ou pathologie (code CIM10)|||
+|MED_NCL_IDT|chaîne de caractères|Nomenclature médicale|||
+|UPD_DTE|date|Date de la dernière sélection des bénéficiaires de l'EGB|||
