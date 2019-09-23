@@ -4,7 +4,7 @@ Description du Séjour
 
 Champ : Public et Privé
 
-- Clé primaire : `ETA_NUM, RHA_NUM`
+- Clé primaire : `ETA_NUM, RHA_NUM, RHS_NUM`
 
 ## Modèle de données
 
