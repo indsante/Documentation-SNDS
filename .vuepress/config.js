@@ -1,44 +1,56 @@
-const tables_sidebar = require('./tables_sidebar');
 
-var fs = require('fs');
-function getFilePaths(folderName){
+const fs = require('fs');
+
+function listMarkdownFilesInDirectory(directoryName) {
     return fs
-        .readdirSync('./' + folderName)
-        .sort(function (a, b) { return a.toLowerCase().localeCompare(b.toLowerCase()); })
-        .filter(function (value) {
-            return value !==  'README.md';
+        .readdirSync('./' + directoryName)
+        .sort(function (a, b) {
+            return a.toLowerCase().localeCompare(b.toLowerCase());
         })
-        .map(function (value) {
-            return '/' + folderName + '/' + value.slice(0, -3);
+        .filter(function (filename) {
+            return filename !== 'README.md';
+        })
+        .filter(function (filename) {
+            return filename.slice(-3) === '.md';
+        })
+        .map(function (filename) {
+            return '/' + directoryName + '/' + filename.slice(0, -3);
         });
+}
+
+function listSubDirectories(directoryName) {
+    return fs
+        .readdirSync('./' + directoryName)
+        .filter(function (filename) {
+            return fs.lstatSync('./' + directoryName + '/' + filename).isDirectory();
+        })
+}
+
+
+function getSidebarGroup(directoryPath) {
+    const lastDirectory = directoryPath.split("/").pop();
+    const sidebarGroup = {};
+
+    sidebarGroup["title"] = lastDirectory.charAt(0).toUpperCase() + lastDirectory.slice(1);
+
+    if (fs.existsSync('./' + directoryPath + '/README.md')) {
+        sidebarGroup["path"] = '/' + directoryPath + '/';
+    }
+    const children = [];
+    for (subDirectory of listSubDirectories(directoryPath)) {
+        children.push(getSidebarGroup(directoryPath + '/' + subDirectory));
+    }
+    sidebarGroup["children"] = children.concat(listMarkdownFilesInDirectory(directoryPath));
+    return sidebarGroup
 }
 
 
 const sidebar = [
-    {
-        title: 'Introduction',
-        path: '/introduction/',
-        children: getFilePaths('introduction')
-    },
-    {
-        title: 'Fiches thématiques',
-        path: '/fiches/',
-        children: getFilePaths('fiches')
-    },
-    {
-        title: 'Glossaire',
-        path: '/glossaire/',
-        children: getFilePaths('glossaire')
-    },
-    {
-        title: 'Ressources',
-        path: '/ressources/',
-        children: getFilePaths('ressources')
-    },
-    {
-        title: 'Tables',
-        children: tables_sidebar
-    },
+    getSidebarGroup("introduction"),
+    getSidebarGroup("fiches"),
+    getSidebarGroup("glossaire"),
+    getSidebarGroup("ressources"),
+    getSidebarGroup("tables"),
     {
         title: 'Contribuer',
         path: '/contribuer/',
@@ -73,4 +85,4 @@ module.exports = {
             indexName: 'health-data-hub-snds'
         }
     }
-}
+};
