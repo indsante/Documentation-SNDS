@@ -5,5 +5,5 @@ La feuille de soin regroupe l'ensemble des prestations réalisées par un soigna
 Une feuille de soins peut être au [format papier](https://www.ameli.fr/sites/default/files/formualires/193/s3110_0.pdf) ou électronique. 
 
 
-# Références
+## Références
 - Explication sur les feuilles de soin papier sur [Ameli.fr](https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/feuille-soins-papier)
