@@ -14,7 +14,7 @@ Champ : Public (et qq privé)
 |FOR_NUM|chaîne de caractères|N° format|||
 |FOR_NUM_ORI|chaîne de caractères|N° format RIM d'orgine|||
 |ETA_NUM_TWO|chaîne de caractères|Second n° FINESS|||
-|IPP_IRR_CRY|chaîne de caractères|Cryptage irreversible de l'IPP|||
+|IPP_IRR_CRY|chaîne de caractères|Cryptage irreversible de l'IPP||Valeur unique|
 |SEJ_IDT|chaîne de caractères|Identifiant de séjour|||
 |AGE_ANN|nombre réel|Age du patient en années à la date de réalisation de l'acte|||
 |AGE_JOU|nombre réel|Age du patient en jours pour les enfants de moins d'un an|||
