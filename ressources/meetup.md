@@ -49,7 +49,7 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
   - Support de présentation
     [ppt](../files/presentations/meetup-snds2/2019.06.12_Lukacs_SNDS-du-reve-a-la-realite_MPL-2.0.ppt) ,
     [pdf](../files/presentations/meetup-snds2/2019.06.12_Lukacs_SNDS-du-reve-a-la-realite_MPL-2.0.pdf),
-    [enregistement à venir](https://www.youtube.com/watch?v=xAbyRQW8KlU)
+    [enregistement](https://www.youtube.com/watch?v=xAbyRQW8KlU)
 
 - Application du Big Data sur les données du SNDS 
   - Introduit par Emmanuel Bacry
@@ -60,11 +60,37 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
   - Support de présentation
     [GSlides](https://docs.google.com/presentation/d/1QhqVp8tJvf4hKPF8zqSz7rE9oGhTzYpuQQwH2iP46co/edit?usp=sharing),
     [pdf](../files/presentations/meetup-snds2/2019.06.12_CMAP-XDataInitiative-CNAM_Application-Big-Data-sur-le-SNDS_MPL-2.0.pdf),
-    [enregistement à venir](https://www.youtube.com/watch?v=YsGsgD_NEUc)
+    [enregistement](https://www.youtube.com/watch?v=YsGsgD_NEUc)
   
 - Temporalité de la restitution des données dans le SNDS – Synthèse pour les analyses longitudinales 
   - Présenté par Cedric Collin (Pharmacoépidemiologiste chez IQVIA)
   - Support de présentation
     [pptx](../files/presentations/meetup-snds2/2019.06.12_IQVIA_Temporalite-restitution-SNDS_MPL-2.0.pptx) ,
     [pdf](../files/presentations/meetup-snds2/2019.06.12_IQVIA_Temporalite-restitution-SNDS_MPL-2.0.pdf),
-    [enregistement à venir](https://www.youtube.com/watch?v=-wGL753gCrI)
+    [enregistement](https://www.youtube.com/watch?v=-wGL753gCrI)
+
+
+## 2019.09.19 Meetup-SNDS3
+
+[Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/264156369/)
+
+- Espace ANSM, rubrique à brac et boîte à outils
+  - Présenté par Thien le Tri (ANSM Epi-Phare)
+  - Support de présentation
+    [pptx](../files/presentations/meetup-snds3/2019.09.19_EpiPhare_Espace-ANSM_MPL-2.0.pptx),
+    [pdf](../files/presentations/meetup-snds3/2019.09.19_EpiPhare_Espace-ANSM_MPL-2.0.pdf),
+    [enregistement](https://youtu.be/CmeVbjNtLNQ)
+
+- La boîte à outils du data scientist pour analyser les données du SNDS
+  - Présenté par Martin Prodel (HEVA)
+  - Support de présentation
+    [pptx](../files/presentations/meetup-snds3/2019.09.19_Heva_Boite-a-outil-data-scientist_MPL-2.0.pptx),
+    [pdf](../files/presentations/meetup-snds3/2019.09.19_Heva_Boite-a-outil-data-scientist_MPL-2.0.pdf),
+    [enregistement](https://youtu.be/ytpi4PRXYZc)
+  
+- Présentation du modèle de données commun OMOP, et du travail de conversion réalisé par le groupe interChus, qui mène à l'organisation d'un datathon multi-centre
+  - Présenté par Nicolas Paris (APHP) et Matthieu Doutreligne (DREES)
+  - Support de présentation
+    [pptx](../files/presentations/meetup-snds3/2019.09.19_APHP_DREES_OMOP-datathon_MPL-2.0.pdf),
+    [enregistement](https://youtu.be/ARhlmnBi_to)
+   
