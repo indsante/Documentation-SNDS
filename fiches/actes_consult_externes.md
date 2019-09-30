@@ -278,7 +278,7 @@ RUN;
 [actes et consultations externes à l'hôpital](http://www.securite-sociale.fr/IMG/pdf/3_les_actes_et_consultations_externes_a_l_hopital.pdf)
 
 ::: tip Crédits
-Le contenu original de cette fiche provient du document *Les actes et consultations externes dans le SNDS* rédigé par Claire-Lise DUBOST et Kristel JACQUIER en avril 2019.
+Le contenu original de cette fiche provient du document *Les actes et consultations externes dans le SNDS* rédigé par Claire-Lise DUBOST en avril 2019.
 
 Cette fiche s'appuie fortement sur les slides de la formation proposée par la CNAM sur les données du PMSI dans le SNDS.
 :::
