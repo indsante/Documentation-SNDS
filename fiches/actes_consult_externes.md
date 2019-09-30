@@ -59,8 +59,12 @@ On distingue les *actes et consultations externes au sens strict du terme* et le
    
 La variable **ACT_COD**, présente dans les deux tables, donne donc la nature de la prestation effectuée. Le champ des modalités regroupe donc différentes nomenclatures (voir *Annexe*).
 
-::: tip ATTENTION : dans les tables annuelles du PMSI MCO, il faut retirer une partie des séjours des hôpitaux de Paris, (AP-HP), Marseille (AP-HM), et Lyon (HCL) puisqu’ils sont remontés en doublon, via le FINESS juridique et via le FINESS géographique (on retire donc l’un ou l’autre des codes FINESS). 
-Pour les actes et consultations externes, seuls les séjours de Paris et Marseille sont remontés via les deux FINESS, les séjours des hôpitaux de Lyon ne sont pas remontés via le FINESS géographique.
+::: tip ATTENTION 
+
+Dans les tables annuelles du PMSI MCO du DCIR, il faut retirer une partie des séjours des hôpitaux de Paris, (AP-HP), Marseille (AP-HM), et Lyon (HCL) puisqu’ils sont remontés en doublon, via le FINESS juridique et via le FINESS géographique (on retire donc l’un ou l’autre des codes FINESS). 
+Dans l'EGB, il n'y a pas ce problème de doubles remontées pour les tables annuelles du PMSI MCO.
+
+**Pour les actes et consultations externes, que ce soit dans le DCIR ou l'EGB, les séjours de l'AP-HP et de l'AP-HM sont remontés via les deux FINESS et sont donc en doublons, les séjours des HCL ne sont pas remontés via le FINESS géographique et ne posent pas de problèmes de doublons.**
 :::
 
 ## Exemple de requêtes pour analyse 
