@@ -165,5 +165,5 @@ Dans le portail SNDS, ces tables, dont le nom commence par DENB\_PS ou DNB\_PS, 
 Elles sont disponibles par année et par zone géographique (bassin de vie, commune, zone urbaine sensible (ZUS), zone franche urbaine (ZFU), IRIS et quartier prioritaire de la politique de la ville (QPV).
 
 ::: tip Crédits
-Fiche réalisée par Catherine Bisquay (ARS île de France)
+Fiche réalisée par Catherine Bisquay (ARS île de France) [document source](../files/ARS/IDF/2019_ARSIF_Numero-Professionnel-Sante_MPL-2.0.docx)
 :::
