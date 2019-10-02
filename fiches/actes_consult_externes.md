@@ -279,7 +279,7 @@ RUN;
 ## Références
 
 - Fiche partagée dans la publication *Les comptes de la sécurité sociale* publiée sur le portail de la Sécurité Sociale sur les
-[actes et consultations externes à l'hôpital](http://www.securite-sociale.fr/IMG/pdf/3_les_actes_et_consultations_externes_a_l_hopital.pdf)
+[actes et consultations externes à l'hôpital](https://www.securite-sociale.fr/files/live/sites/SSFR/files/medias/CCSS/2015/FICHE_ECLAIRAGE/CCSS-FICHE_ECLAIRAGE-2015-LES_ACTES_ET_CONSULTATIONS_EXTERNES_A_L-HOPITAK.pdf)
 
 ::: tip Crédits
 Le contenu original de cette fiche provient du document *Les actes et consultations externes dans le SNDS* rédigé par Claire-Lise DUBOST en avril 2019.
