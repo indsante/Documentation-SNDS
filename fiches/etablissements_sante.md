@@ -179,7 +179,7 @@ Une jointure avec `IR_CET_V` (du répertoire ORAVAL) permet d’avoir les libell
 L’information sur ces séjours n’est pas exhaustive. 
 
 
-
+Auteurs: Kristel Jacquier, Raphaële Adjerad
 
 *Sources* 
 -	« Maquette Stat mens Etablissements prives – version du 28 mai 2010 Regles de gestion du Regime General pour constituer la statistique mensuelle pour le suivi des depenses des etablissements prives » disponible sur le portail SNDS (Dossiers publics>SNIIRAM>_Documentation SNIIRAM- SNDS> Documentation>maquettes Stat Mens>ancienne maquette stat mens)
