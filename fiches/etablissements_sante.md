@@ -73,7 +73,9 @@ Un poste particulier est à dégager qui peut concerner l'hôpital public et qui
 à savoir les **rétrocessions**.
 
 Les rétrocessions correspondent à de la pharmacie hospitalière en établissement. Le code prestation `PRS_NAT_REF` est parmi 
-3317, 3318, 3319, 3321, 3352, 3353, 3356, 3330 (table de valeur `IR_NAT_V`).
+3317, 3318, 3319, 3321, 3351, 3352, 3353, 3356,3357, 3330 (table de valeur `IR_NAT_V`).
+
+3321? forfait pharmaceutique en maternité -> à discuter
 
  La variable `PRS_PPU_SEC` nous permet d'avoir de l'information sur la caractéristique privé ou public de la prestation. 
  Pour avoir plus de détail sur la catégorie juridique de l'établissement, on peut se référer à la variable `ETE_TYP_COD` 
@@ -83,13 +85,14 @@ Les rétrocessions correspondent à de la pharmacie hospitalière en établissem
  
 ( 
 L’établissement est public :
+
     - 	si le type d’établissement est public ( `ETE_TYP_COD` vaut 1, 2 ou 3]) et 
     - 	si le numéro  du PS exécutant n’est pas renseigné (`PFS_EXE_NUM` est manquant ou vaut ‘00000000’
 -	sinon l’établissement est privé 
 )
 
 
-Lorsque l’on travaille sur les soins de ville, il est recommandé d’exclure les prestations en établissements publics qui ne sont pas des rétrocessions.
+Lorsque l’on travaille sur les **soins de ville**, il est recommandé d’exclure les prestations en établissements publics qui ne sont pas des rétrocessions.
 On peut donc exclure les prestations pour lesquels `PRS_PPU_SEC` == 1 sauf si la `PRS_NAT_REF` correspond à de la rétrocession.
 
 ### Les catégories juridiques d'établissement dans les PMSI
@@ -98,7 +101,7 @@ Les données du PMSI : donner les tables et les variables concernant les etablis
 
 
  
-## Les établissements privés
+## Les établissements privés dans le DCIR et le DCIRS
 
 Les séjours en cliniques privées sont facturés directement à l’Assurance Maladie ce qui garantit l’exhaustivité des remontées d’information sur ce champ.
 Cela concerne toutes les prestations en établissement privé, que l'établissement soit de nature non lucratif ou lucratif.
@@ -114,7 +117,7 @@ Avant d'analyser ce champ dans le DCIR ou le DCIRS, les filtres à poser sont le
 
 -> RA: pour moi la variable est `RGO_ENV_TYP` et la nomenclature elle a pour variable `CPT_ENV_TYP`,
 on peut être préciser qu'il faut mettre ce filtre pour retrouver les statistiques mensuelles mais
-pas forcément pour étudier les etab privé
+pas forcément pour étudier les etab privés
 
 Type d’enveloppe 0,1,2,3,9 : 9=valeur inconnue, 1 à 3= Prestations légales de l’Assurance Maladie. 
  
@@ -138,7 +141,7 @@ non conventionnés, les OQN non lucratifs conventionnés et non conventionnés.
 
 ETE_CAT_COD NOT IN (125, 130, 132, 133, 134, 142, 223, 224, 228, 230, 268, 269, 289, 297, 347, 413, 414, 433, 438, 439,700) 
 
--> RA ; pourquoi ? On pourrait vouloir garder les csanté dans les étab privés
+-> RA ; pourquoi ? On pourrait vouloir garder les csanté 
 
 ### Ventiler les établissements privés selon la nature juridique
 
@@ -162,7 +165,7 @@ la variable `DDP_GDE_COD` qui nous renseigne sur la discipline de prestations.
 | 3 | obstétrique |
 
 Pour repérer la HAD, il faut considérer les prestations pour lesquelles `ETE_CAT_COD` est égal à 127 ou 422 
-(et voir si cela correspond à `DDP_GDE_COD` égal à 10 – indiqué comme soins à domicile).
+(et voir si cela correspond à `DDP_GDE_COD` égal à 10 – indiqué comme soins à domicile, à discuter).
 
 
 ### Etudier le secteur médico-social et handicap
