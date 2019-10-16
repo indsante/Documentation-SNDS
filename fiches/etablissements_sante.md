@@ -73,9 +73,7 @@ Un poste particulier est à dégager qui peut concerner l'hôpital public et qui
 à savoir les **rétrocessions**.
 
 Les rétrocessions correspondent à de la pharmacie hospitalière en établissement. Le code prestation `PRS_NAT_REF` est parmi 
-3317, 3318, 3319, 3321, 3351, 3352, 3353, 3356,3357, 3330 (table de valeur `IR_NAT_V`).
-
-3321? forfait pharmaceutique en maternité -> à discuter
+3317, 3318, 3319, 3321, 3351, 3352, 3353,3354,3355, 3356,3357, 3330 (table de valeur `IR_NAT_V`).
 
  La variable `PRS_PPU_SEC` nous permet d'avoir de l'information sur la caractéristique privé ou public de la prestation. 
  Pour avoir plus de détail sur la catégorie juridique de l'établissement, on peut se référer à la variable `ETE_TYP_COD` 
