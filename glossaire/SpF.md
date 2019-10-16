@@ -1,7 +1,7 @@
 # SpF - Santé publique France
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Santé publique France est l’agence nationale de santé publique, un établissement public administratif sous tutelle du ministère chargé de la Santé.
+Santé publique France (SpF), de son nom officiel Agence nationale de santé publique (ANSP) est un établissement public administratif sous tutelle du ministère chargé de la Santé.
 
 Sa mission est d'améliorer et protéger la santé des populations. 
 Elle assure notamment une observation et une surveillance épidémiologique 
