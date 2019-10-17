@@ -48,7 +48,7 @@ En outre, l’ACS est accordée à tous les membres du foyer du demandeur.
 
 | Sources | Effectifs | Filtre |
 | ---------| -------- | ----- |
-| Fonds CMU | 1,46 millions| X |
+| Fonds CMU | 1,12 millions| X |
 | IR_ORC_R |    | `BEN_CTA_TYP` in 91 92 93 |
 | NS_PRS_F |    | `BEN_CTA_TYP` in 91 92 93 |
 
