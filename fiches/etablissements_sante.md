@@ -48,7 +48,14 @@ NOT (T2.ETE_IND_TAA= 1
 
 On peut créer une variable qui permet d’obtenir le lieu d’exécution de la prestation et de classer ce lieu en fonction de s’il s’agit
 d’un établissement en public et privé. 
+
 Si la variable `ETB_EXE_FIN` est égal à 0, aucun établissement n’est lié à la prestation, alors il s’agit d’une prestation de ville. 
+La variable `PRS_PPU_SEC` nous permet d'avoir de l'information sur la caractéristique privé ou public de la prestation. 
+La variable `PRS_PPU_SEC` est construite comme suit. L’établissement est public :
+
+    - 	si le type d’établissement est public ( `ETE_TYP_COD` vaut 1, 2 ou 3]) et 
+    - 	si le numéro  du PS exécutant n’est pas renseigné (`PFS_EXE_NUM` est manquant ou vaut ‘00000000’
+    -	sinon l’établissement est privé 
 
 Si la variable de code de regroupement de l’établissement `ETB_CAT_RG1` (plus exactement les deux premiers caractères de cette variable) 
 est égale à 21 ou 22, alors il s’agit de prestations que l'on peut classer en "ville" 
@@ -69,26 +76,15 @@ ELSE :
     lieu_exec = "prive"
 ```
 
+Pour avoir plus de détail sur la catégorie juridique de l'établissement, on peut se référer à la variable `ETE_TYP_COD` 
+qui est le code du type de l'établissement exécutant. 
+Dans le DCIR, il faut aller chercher cette variable dans la table `ER_ETE_F` qui n'est pas la table centrale; dans le DCIRS
+cette information a été rappatriée dans la table centrale `NS_PRS_F` (table de nomenclature `IR_TYE_V`).
+
 Un poste particulier est à dégager qui peut concerner l'hôpital public et qui devrait être retenus avec les soins de ville, 
 à savoir les **rétrocessions**.
-
 Les rétrocessions correspondent à de la pharmacie hospitalière en établissement. Le code prestation `PRS_NAT_REF` est parmi 
 3317, 3318, 3319, 3321, 3351, 3352, 3353,3354,3355, 3356,3357, 3330 (table de valeur `IR_NAT_V`).
-
- La variable `PRS_PPU_SEC` nous permet d'avoir de l'information sur la caractéristique privé ou public de la prestation. 
- Pour avoir plus de détail sur la catégorie juridique de l'établissement, on peut se référer à la variable `ETE_TYP_COD` 
- qui est le code du type de l'établissement exécutant. 
- Dans le DCIR, il faut aller chercher cette variable dans la table `ER_ETE_F` qui n'est pas la table centrale; dans le DCIRS
- cette information a été rappatriée dans la table centrale `NS_PRS_F` (table de nomenclature `IR_TYE_V`). 
- 
-( 
-L’établissement est public :
-
-    - 	si le type d’établissement est public ( `ETE_TYP_COD` vaut 1, 2 ou 3]) et 
-    - 	si le numéro  du PS exécutant n’est pas renseigné (`PFS_EXE_NUM` est manquant ou vaut ‘00000000’
--	sinon l’établissement est privé 
-)
-
 
 Lorsque l’on travaille sur les **soins de ville**, il est recommandé d’exclure les prestations en établissements publics qui ne sont pas des rétrocessions.
 On peut donc exclure les prestations pour lesquels `PRS_PPU_SEC` == 1 sauf si la `PRS_NAT_REF` correspond à de la rétrocession.
@@ -145,7 +141,7 @@ ETE_CAT_COD NOT IN (125, 130, 132, 133, 134, 142, 223, 224, 228, 230, 268, 269, 
 
 Comme précisé ci-dessus, on peut construire cette ventilation avec la variable `ETE_TYP_COD`.
 
-### Ventiler les établissements privés par PSY, SSR, MCO et HAD
+### Ventiler les établissements privés selon la discipline (PSY, SSR, MCO et HAD)
 
 Dans le DCIR et le DCIRS,  il y a les équivalents des discipline de prestation des différents PMSI pour les établissements privés. 
 Pour ce faire, il faut regarder la variable `DDP_COD` de `NS_PRS_F` pour le DCIRS et `DDP_COD` de la table `ER_ETE_F` pour le DCIR.
