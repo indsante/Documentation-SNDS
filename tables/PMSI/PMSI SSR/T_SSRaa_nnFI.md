@@ -2,8 +2,6 @@
 
 OQN Interruption séjour
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -18,3 +16,4 @@ Champ : Privé
 |ACT_DUR|nombre réel|Durée de l'acte|||
 |SEJ_FIN|chaîne de caractères|Nature d'intervention ou de fin de séjour|||
 |ETB_NUM|chaîne de caractères|Etablissement|||
+|ACT_DEL|nombre réel|Délai de l'acte|||

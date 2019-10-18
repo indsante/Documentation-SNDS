@@ -29,3 +29,16 @@ Table des données de codage de la Classification Commune des Actes Médicaux
 |ORG_CLE_NUM|chaîne de caractères|organisme de liquidation des prestations (avant fusion des caisses)|||
 |PRS_ORD_NUM|nombre réel|Numéro d'ordre de la prestation dans le décompte|||
 |REM_TYP_AFF|nombre réel|type de remboursement affiné|||
+|CAM_MI4_MNT|nombre réel|Montant Minoration due à association sur Modificateur4|||
+|CAM_MM4_MNT|nombre réel|Montant Majoration Modificateur4|||
+|CAM_GRI_TAR|chaîne de caractères|Grille tarifaire|||
+|CAM_SUP_MNT|nombre réel|Montant supplément de Charge en Cabinet|||
+|CAM_MI1_MNT|nombre réel|Montant Minoration due à association sur Modificateur1|||
+|CAM_NRM_MNT|nombre réel|Montant Non Rmb du à annulation du tarif pr acte non rmb|||
+|CAM_MI3_MNT|nombre réel|Montant Minoration due à association sur Modificateur3|||
+|CAM_MM2_MNT|nombre réel|Montant Majoration Modificateur2|||
+|CAM_MM3_MNT|nombre réel|Montant Majoration Modificateur3|||
+|CAM_RED_MNT|nombre réel|Montant réduction Tarif due à praticien non conventionné|||
+|CAM_MPU_MNT|nombre réel|Montant Minoration due à association sur PU de l' Acte|||
+|CAM_MM1_MNT|nombre réel|Montant Majoration Modificateur1|||
+|CAM_MI2_MNT|nombre réel|Montant Minoration due à association sur Modificateur2|||

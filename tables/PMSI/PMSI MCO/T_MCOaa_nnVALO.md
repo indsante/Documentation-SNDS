@@ -2,15 +2,13 @@
 
 Valorisation des séjours
 
-Champ : Public
-
 
 ## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|
 |COEFGEO|nombre réel|Coefficient géographique|||
-|COEFPRUD|nombre réel|coefficient prudentiel |||
+|COEFPRUD|nombre réel|coefficient prudentiel|||
 |COEFTRANS|nombre réel|Coefficient de transition|||
 |ETA_NUM|chaîne de caractères|Numéro FINESS de l’établissement|||
 |ETE_GHS_NUM|nombre réel|GHS au format DCIR|||
@@ -39,7 +37,7 @@ Champ : Public
 |MNT_GHS_AM|nombre réel|Valorisation AM GHS|||
 |MNT_GHS50_AM|nombre réel|Valorisation AM des séjours avec réhospitalisation dans le même GHM|||
 |MNT_IVG_AM|nombre réel|Valorisation AM IVG (hors FJS)|||
-|MNT_MAJO|nombre réel|Montant majoration du parcours de soin |||
+|MNT_MAJO|nombre réel|Montant majoration du parcours de soin|||
 |MNT_MED_ATU|nombre réel|Valorisation accordée médicaments ATU/POST ATU|||
 |MNT_MON|nombre réel|Valorisation accordée molécules onéreuses|||
 |MNT_NN1_AM|nombre réel|Valorisation AM suppléments de néonat sans SI|||
@@ -86,18 +84,18 @@ Champ : Public
 |NB_SRC2|nombre réel|Nb suppléments de surveillance continue|||
 |NB_STF2|nombre réel|Nb suppléments de soins intensifs|||
 |NBCAISSON|nombre réel|Nb suppléments caisson hyperbare|||
-|NBEXB|nombre réel|Nb journées EXB |||
-|NBEXH|nombre réel|Nombre de journées EXH |||
+|NBEXB|nombre réel|Nb journées EXB|||
+|NBEXH|nombre réel|Nombre de journées EXH|||
 |NBJREA|nombre réel|Nb suppléments de réanimation|||
 |NBREP|nombre réel|Nb suppléments de réanimation pédiatrique|||
 |PONDER|nombre réel|Nombre de séjours ou nombre de séances|||
 |RSA_NUM|chaîne de caractères|Numéro de séjour RSS|||
-|SEJXINF|chaîne de caractères|Type de séjour inférieur à la borne extrême basse |||
+|SEJXINF|chaîne de caractères|Type de séjour inférieur à la borne extrême basse|||
 |SUPPENT1|nombre réel|Nb suppléments pour entraînements à la dialyse péritonéale automatisée hors séance|||
 |SUPPENT2|nombre réel|Nb suppléments pour entraînements à la dialyse péritonéale continue ambulatoire hors séance|||
 |SUPPENT3|nombre réel|Nb suppléments pour entraînements à l’hémodialyse hors séance|||
 |SUPPHD|nombre réel|Nb suppléments pour hémodialyse hors séance|||
-|TAUX2|nombre réel|Taux de remboursement |||
+|TAUX2|nombre réel|Taux de remboursement|||
 |TYPORG|chaîne de caractères|Type de prestation de prélèvement d’organe (type 1, 2, 3 ou 4)|||
 |TYPORG5|chaîne de caractères|Prélèvement d’organe de type 5|||
 |TYPORG6|chaîne de caractères|Prélèvement d’organe de type 6|||
@@ -157,3 +155,14 @@ Pour les séjours AME et SU, c’est la somme de:
 mnt_mon, mnt_dmi, mnt_med_atu, mnt_ghs, mnt_exinf, mnt_ghs50, mnt_exh, mnt_supphd, mnt_suppent1, mnt_suppent2, mnt_suppent3, mnt_dip, mnt_9610, mnt_9619, mnt_9620,  mnt_9621, mnt_9622, mnt_9623, mnt_9625, mnt_9631, mnt_9632, mnt_9633, mnt_9615, mnt_rap, mnt_ant, mnt_rea, mnt_rep, mnt_si, mnt_sc, mnt_nn1, mnt_nn2, mnt_nn3, mnt_caisson,mnt_tjp20e, mnt_fjse, mnt_sdc
 |||
 |COEFREP|nombre réel|coefficient de reprise|||
+|MNT_TJP20_AME|nombre réel|Valorisation 20% TJP (uniquement pour les séjours AME)|||
+|MNT_IVGFJS_AM|nombre réel|Valorisation Forfait Journalier de Sortie (uniquement pour les séjours AME)|||
+|NB_9611|nombre réel|Nombre d’actes menant dans le GHS 9611|||
+|GHSMIN|nombre réel|Nb séjours avec minoration forfaitaire liste en sus|||
+|MNT_9624_AM|nombre réel|Valorisation AM actes menant dans le GHS 9624|||
+|NB_9624|nombre réel|Nombre d’actes menant dans le GHS 9624|||
+|MNT_FJS_AME|nombre réel|Valorisation Forfait Journalier de Sortie (uniquement pour les séjours AME)|||
+|MNT_9612_AM|nombre réel|Valorisation AM actes menant dans le GHS 9612|||
+|MNT_9611_AM|nombre réel|Valorisation AM actes menant dans le GHS 9611|||
+|NB_9612|nombre réel|Nombre d’actes menant dans le GHS 9612|||
+|MNT_GHSMIN_AM|nombre réel|Valorisation AM des séjours avec minoration forfaitaire liste en sus|||

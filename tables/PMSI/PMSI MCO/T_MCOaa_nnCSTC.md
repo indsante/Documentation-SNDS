@@ -2,8 +2,6 @@
 
 ACE NIR/date
 
-Champ : Public
-
 - Clé primaire : `ETA_NUM, SEQ_NUM`
 
 ## Modèle de données
@@ -16,7 +14,7 @@ Champ : Public
 |EXE_SOI_AMD|chaîne de caractères|Date d'entrée au format année + mois|||
 |EXE_SOI_AMF|chaîne de caractères|Date de sortie au format année + mois|||
 |EXE_SOI_DTD|date|Date d'entrée|||
-|EXE_SOI_DTF|date|Date de sortie |||
+|EXE_SOI_DTF|date|Date de sortie|||
 |IAS_RET|chaîne de caractères|Code retour contrôle « n° d'identification administratif de séjour »|||
 |NAI_RET|chaîne de caractères|Code retour contrôle « date de naissance »|||
 |NIR_ANO_17|chaîne de caractères|N° Anonyme du patient|||
@@ -51,3 +49,5 @@ Champ : Public
 |VALID_FAC_AMC|chaîne de caractères|Statut FT AMC|||
 |VALID_FAC_RAC|chaîne de caractères|Statut FT patient|||
 |PAYS_ASS_PAT|chaîne de caractères|Pays d’assurance social|||
+|ENT_AM|date|Date d'entrée au format année + mois|||
+|SOR_AM|date|Date de sortie au format année + mois|||

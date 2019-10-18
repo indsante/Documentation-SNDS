@@ -14,3 +14,4 @@ Table historique des affiliations à l'aide à la complémentaire santé
 |FAM_DRT_VRU|chaîne de caractères|Code de verrouillage des droits|||
 |FAM_DRT_DSD|date|Date de début de verrouillage des droits|||
 |FAM_DRT_DSF|date|Date de fin de verrouillage des droits|||
+|IND_RNM_BEN|chaîne de caractères|Top RNIAM|||

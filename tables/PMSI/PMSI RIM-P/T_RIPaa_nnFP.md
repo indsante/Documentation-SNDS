@@ -2,8 +2,6 @@
 
 prothese
 
-Champ : Privé
-
 
 ## Modèle de données
 

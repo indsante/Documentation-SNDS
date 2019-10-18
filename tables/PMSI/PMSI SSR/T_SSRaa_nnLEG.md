@@ -2,8 +2,6 @@
 
 Erreurs détectées par la fonction groupage
 
-Champ : Public et Privé
-
 
 ## Modèle de données
 

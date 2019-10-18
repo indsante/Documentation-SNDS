@@ -2,8 +2,6 @@
 
 OQN med en sus
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -17,7 +15,7 @@ Champ : Privé
 |ETA_NUM|chaîne de caractères|N° FINESS|||
 |COD_UCP_CIP|chaîne de caractères|Code UCD|||
 |ACH_PRI|nombre réel|Prix d'achat|||
-|QUA_COD|nombre réel|Quantité |||
+|QUA_COD|nombre réel|Quantité|||
 |FAC_TOT|nombre réel|Montant total facturé|||
 |UCD_UCD_COD|chaîne de caractères|Code UCD (0 à gauche)|||
 |ENT_ANN|chaîne de caractères|Année de début de séjour|||
@@ -25,3 +23,7 @@ Champ : Privé
 |FRACT_COE|nombre réel|Coefficient de fractionnement|||
 |MNT_UNI_ECA|nombre réel|Montant unitaire écart indemnisable|||
 |TOT_MNT_ECA|nombre réel|Montant total de l'écart indémnisable|||
+|COD_TAU|chaîne de caractères|Code Taux|||
+|MNT_IND|nombre réel|Montant écart indemnisable|||
+|PRI_UNI_FAC|nombre réel|Prix unitaire facturé|||
+|ACT_DEL|nombre réel|Délai de l'acte|||

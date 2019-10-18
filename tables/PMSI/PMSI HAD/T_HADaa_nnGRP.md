@@ -2,8 +2,6 @@
 
 Table des GHT et des GHPC (groupage paprica)
 
-Champ : Public et Privé
-
 
 ## Modèle de données
 
@@ -20,3 +18,6 @@ Champ : Public et Privé
 |RHAD_NUM|chaîne de caractères|N° séquentiel de séjour d'HAD|||
 |SEQ_NUM|chaîne de caractères|N° de la séquence dans le séjour|||
 |SSEQ_NUM|chaîne de caractères|N° de la sous-séquence|||
+|SEQ_SEJ|chaîne de caractères|Numéro de la séquence dans le séjour|||
+|ETA_NUM_JUR|chaîne de caractères|N° FINESS de l’établissement (code géographique)|||
+|ETA_NUM_TWO|chaîne de caractères|Numéro FINESS de l’établissement (code géographique)|||

@@ -2,8 +2,6 @@
 
 interruption de sejour
 
-Champ : Privé
-
 
 ## Modèle de données
 

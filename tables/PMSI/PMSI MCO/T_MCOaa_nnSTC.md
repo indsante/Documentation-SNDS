@@ -2,8 +2,6 @@
 
 Prise en charge
 
-Champ : Public
-
 
 ## Modèle de données
 
@@ -14,20 +12,20 @@ Champ : Public
 |CAI_GES|chaîne de caractères|N° caisse gestionnaire|||
 |CAI_GES_CTL|chaîne de caractères|Code retour contrôle « N° caisse gestionnaire »|||
 |CAI_NUM|chaîne de caractères|Délivrée par|||
-|CAI_NUM_CTL|chaîne de caractères|Code retour contrôle «Délivrée par«|||
-|CENT_GES|chaîne de caractères|N° centre gestionnaire |||
+|CAI_NUM_CTL|chaîne de caractères|Code retour contrôle "Délivrée par"|||
+|CENT_GES|chaîne de caractères|N° centre gestionnaire|||
 |CENT_GES_CTL|chaîne de caractères|Code retour contrôle « N° centre gestionnaire »|||
 |COD_PEC_CTL|chaîne de caractères|Code retour contrôle « code de prise en charge du forfait journalier »|||
 |CTR_TYP|chaîne de caractères|Type de contrat souscrit auprès d'un organisme complémentaire|||
 |CTR_TYP_CTL|chaîne de caractères|Code retour contrôle « type de contrat souscrit auprès d'un organisme complémentaire »|||
 |DAT_DEB_FAC|chaîne de caractères|Date d’entrée|||
-|DAT_DEB_FAC_CTL|chaîne de caractères|Code retour contrôle «Date d’entrée«|||
+|DAT_DEB_FAC_CTL|chaîne de caractères|Code retour contrôle "Date d’entrée"|||
 |DAT_FIN_FAC|chaîne de caractères|Date de sortie|||
-|DAT_FIN_FAC_CTL|chaîne de caractères|Code retour contrôle «Date de sortie«|||
+|DAT_FIN_FAC_CTL|chaîne de caractères|Code retour contrôle "Date de sortie"|||
 |DAT_HOS|chaîne de caractères|Identifiant anonyme d'hospitalisation (date hospitalisation crypté)|||
 |DAT_HOS_CTL|chaîne de caractères|Code retour contrôle « Date de l’hospitalisation »|||
 |DAT_PEC|chaîne de caractères|Prise en charge établie le|||
-|DAT_PEC_CTL|chaîne de caractères|Code retour contrôle «Prise en charge établie le«|||
+|DAT_PEC_CTL|chaîne de caractères|Code retour contrôle "Prise en charge établie le"|||
 |ENT_NUM|chaîne de caractères|N° d’entrée|||
 |ENT_NUM_CTL|chaîne de caractères|Code retour contrôle « N° d’entrée »|||
 |ETA_NUM|chaîne de caractères|N° FINESS e-PMSI|||
@@ -50,18 +48,18 @@ Champ : Public
 |NAT_ASS|chaîne de caractères|Nature d'assurance|||
 |NAT_ASS_CTL|chaîne de caractères|Code retour contrôle « nature d’assurance »|||
 |NAT_PJ_DT|chaîne de caractères|Nature de la pièce justificative des droits|||
-|NAT_PJ_DT_CTL|chaîne de caractères|Code retour contrôle «Nature de la pièce justificative des droits«|||
+|NAT_PJ_DT_CTL|chaîne de caractères|Code retour contrôle "Nature de la pièce justificative des droits"|||
 |NBR_VEN_CTL|chaîne de caractères|Code retour contrôle « nombre de venues de la facture »|||
 |NOE_RGM|chaîne de caractères|Code grand régime|||
 |NOE_RGM_CTL|chaîne de caractères|Code retour contrôle « code grand régime »|||
 |NON_FAC_AM|chaîne de caractères|Motif de la non facturation à l'assurance maladie|||
 |NON_FAC_AM_CTL|chaîne de caractères|Code retour contrôle « motif de la non facturation à l'assurance maladie »|||
-|PA_COD|chaîne de caractères|Code participation assuré |||
+|PA_COD|chaîne de caractères|Code participation assuré|||
 |PA_COD_CTL|chaîne de caractères|Code retour contrôle « Code participation assuré »|||
-|PEC_SOI_URG|chaîne de caractères|Confirmation de la prise en charge dans le cadre du dispositif des soins urgents |||
-|PEC_SOI_URG_CTL|chaîne de caractères|Code retour contrôle «Confirmation de la prise en charge dans le cadre du dispositif des soins urgents« |||
+|PEC_SOI_URG|chaîne de caractères|Confirmation de la prise en charge dans le cadre du dispositif des soins urgents|||
+|PEC_SOI_URG_CTL|chaîne de caractères|Code retour contrôle "Confirmation de la prise en charge dans le cadre du dispositif des soins urgents"|||
 |REG_PEC_ASS|chaîne de caractères|Régime de prestation de l’assuré|||
-|REG_PEC_ASS_CTL|chaîne de caractères|Code retour contrôle «Régime de prestation de l’assuré«|||
+|REG_PEC_ASS_CTL|chaîne de caractères|Code retour contrôle "Régime de prestation de l’assuré"|||
 |REM_BAS_CTL|chaîne de caractères|Code retour contrôle « montant base remboursement »|||
 |REM_BAS_MNT|nombre réel|Montant base remboursement|||
 |REM_TAU|nombre réel|Taux de remboursement|||
@@ -69,7 +67,7 @@ Champ : Public
 |RSA_NUM|chaîne de caractères|N° séquentiel dans fichier PMSI|||
 |SEJ_FAC_CTL|chaîne de caractères|Code retour contrôle « séjour facturable à l’assurance maladie »|||
 |TOP_ECL_FLX|chaîne de caractères|Top éclatement des flux par l’établissement|||
-|TOP_ECL_FLX_CTL|chaîne de caractères|Code retour contrôle «Top éclatement des flux par l’établissement«|||
+|TOP_ECL_FLX_CTL|chaîne de caractères|Code retour contrôle "Top éclatement des flux par l’établissement"|||
 |TOT_MNT_AM|nombre réel|Montant total du séjour remboursé par l’assurance maladie (i.e. hors prestations annexes)|||
 |TOT_MNT_AM_CTL|chaîne de caractères|Code retour contrôle « montant total du séjour remboursé par l’assurance maladie (i.e. hors prestations annexes »)|||
 |TOT_MNT_AMC|nombre réel|Montant total du séjour remboursable pour l'AMC|||
@@ -98,3 +96,13 @@ Champ : Public
 |VALID_FAC_AMC|chaîne de caractères|Statut FT AMC|||
 |VALID_FAC_RAC|chaîne de caractères|Statut FT patient|||
 |PAYS_ASS_PAT|chaîne de caractères|Pays d’assurance social|||
+|NIR_ANO_MAM|chaîne de caractères|N° anonyme mère-enfant|||
+|SEJ_MAM_CTL|chaîne de caractères|Code retour contrôle « N° administratif de séjour de la mère »|||
+|HOS_PLO|chaîne de caractères|Hospitalisation pour prélèvement d'organe|||
+|HOS_NN_MAM_CTL|chaîne de caractères|Nombre de litres de lait collecté|||
+|RNG_NAI|chaîne de caractères|Rang de naissance|||
+|RNG_BEN|chaîne de caractères|Rang du bénéficiaire|||
+|HOS_PLO_CTL|chaîne de caractères|Code retour contrôle « Hospitalisation pour prélèvement d'organe »|||
+|RNG_NAI_CTL|chaîne de caractères|Code retour contrôle « Rang de naissance »|||
+|HOS_NN_MAM|chaîne de caractères|Hospitalisation d'un nouveau-né auprès de la mère|||
+|RNG_BEN_CTL|chaîne de caractères|Code retour contrôle « Rang du bénéficiaire »|||

@@ -2,8 +2,6 @@
 
 debut facture
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -21,7 +19,7 @@ Champ : Privé
 |SEJ_DUR|nombre réel|Durée (Date de sortie-date d'entrée)|||
 |COD_SEX|chaîne de caractères|Sexe|||
 |AGE_ANN|nombre réel|Age (en années)|||
-|COD_CIV|chaîne de caractères|Code civilité |||
+|COD_CIV|chaîne de caractères|Code civilité|||
 |RNG_BEN|chaîne de caractères|Rang de bénéficiaire|||
 |OPE_NAT|chaîne de caractères|Nature opération|||
 |NAT_ASS|chaîne de caractères|Nature assurance|||

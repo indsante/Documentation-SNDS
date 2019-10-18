@@ -2,17 +2,15 @@
 
 Valorisation des actes et consultations externes
 
-Champ : Public
-
 
 ## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|
 |ETA_NUM|chaîne de caractères|n°finess de l'établissement|||
-|fides|chaîne de caractères|Variable «valorisé par fides« du RAFAEL-A|||
+|fides|chaîne de caractères|Variable "valorisé par fides" du RAFAEL-A|||
 |fides_ovalide|chaîne de caractères|Indicateur (calculé par OVALIDE) servant à la valorisation FIDES|||
-|mnt_br|nombre réel|Montant Base de remboursement total |||
+|mnt_br|nombre réel|Montant Base de remboursement total|||
 |mnt_br_atu|nombre réel|Montant Base de remboursement ATU|||
 |mnt_br_ccam|nombre réel|Montant Base de remboursement CCAM|||
 |mnt_br_dia|nombre réel|Montant Base de remboursement Alternative à la dialyse en centre|||
@@ -47,8 +45,8 @@ Champ : Public
 |MNT_VAL_PI|nombre réel|Montant AM effectivement valorisé par OVALIDE PI|||
 |mnt_val_se|nombre réel|Montant AM effectivement valorisé par OVALIDE SE|||
 |nbligne|nombre réel|Nb lignes de la facture|||
-|NON_SEJ_FAC_AM|chaîne de caractères|Variable «Motif de non facturation à l'assurance maladie« du RAFAEL-A|||
+|NON_SEJ_FAC_AM|chaîne de caractères|Variable "Motif de non facturation à l'assurance maladie" du RAFAEL-A|||
 |pf18|chaîne de caractères|Participation forfaitaire 18 euros déduite sur la facture|||
-|SEJ_FAC_AM|chaîne de caractères|Variable «Séjour facturable à l'assurance maladie« du RAFAEL-A|||
+|SEJ_FAC_AM|chaîne de caractères|Variable "Séjour facturable à l'assurance maladie" du RAFAEL-A|||
 |SEQ_NUM|chaîne de caractères|n°  de facture séquentiel|||
 |valo|chaîne de caractères|Type de valorisation du séjour|||

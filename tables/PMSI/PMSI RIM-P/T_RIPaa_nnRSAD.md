@@ -2,8 +2,6 @@
 
 Diagnostic associé à la séquence
 
-Champ : Public et Privé
-
 
 ## Modèle de données
 

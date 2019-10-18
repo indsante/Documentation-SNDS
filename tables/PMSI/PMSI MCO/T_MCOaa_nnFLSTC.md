@@ -2,8 +2,6 @@
 
 ACE biologie NABM
 
-Champ : Public
-
 
 ## Modèle de données
 

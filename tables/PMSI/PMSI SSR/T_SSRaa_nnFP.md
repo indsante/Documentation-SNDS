@@ -2,8 +2,6 @@
 
 OQN DMI en sus
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -25,3 +23,12 @@ Champ : Privé
 |MNT_UNI_ECA|nombre réel|Montant unitaire de l'écart indemnisable|||
 |TOT_MNT_ECA|nombre réel|Montant total de l'écart indémnisable|||
 |TIP_PRS_IDE|nombre réel|Code référence LPP (format numérique)|||
+|ACT_DEL|nombre réel|Délai de l'acte|||
+|LPP_QUA1|nombre réel|Quantité 1|||
+|FAC_MNT1|nombre réel|Montant facturé 1|||
+|LPP_COD1|chaîne de caractères|Code LPP 1|||
+|LPP_QUA2|nombre réel|Quantité 2|||
+|FAC_MNT2|nombre réel|Montant facturé 2|||
+|LPP_PRI_UNI1|nombre réel|Tarif référence LPP / Prix Unitaire 1|||
+|LPP_COD2|chaîne de caractères|Code LPP 2|||
+|LPP_PRI_UNI2|nombre réel|Tarif référence LPP / Prix Unitaire 2|||

@@ -2,8 +2,6 @@
 
 ACE actes CCAM
 
-Champ : Public
-
 
 ## Modèle de données
 

@@ -2,8 +2,6 @@
 
 Synthèses des Résumés Anonyme Par Sous-Séquence
 
-Champ : Public et Privé
-
 
 ## Modèle de données
 
@@ -11,7 +9,7 @@ Champ : Public et Privé
 |-|-|-|-|-|
 |ETA_NUM_EPMSI|chaîne de caractères|Numéro FINESS e-PMSI|||
 |RAPSS_NUM|chaîne de caractères|Numéro de version du format de SRAPSS|||
-|ETA_NUM_GEO|chaîne de caractères|Numéro FINESS géographique|||
+|ETA_NUM_GEO|chaîne de caractères|Numéro FINESS de l’établissement (code géographique)|||
 |RHAD_NUM|chaîne de caractères|Numéro séquentiel d'entrée|||
 |COD_SEX|chaîne de caractères|Sexe du patient|||
 |SEJ_NBJ|nombre réel|Nombre de journées dans le séjour = durée sur séjours terminés (date de sortie-date d'entrée)|||
@@ -24,3 +22,4 @@ Champ : Public et Privé
 |ENT_PRV|chaîne de caractères|Provenance|||
 |SOR_MOD|chaîne de caractères|Mode de sortie|||
 |SOR_DES|chaîne de caractères|Destination|||
+|ETA_NUM_TWO|chaîne de caractères|Numéro FINESS de l’établissement (code géographique)|||

@@ -2,8 +2,6 @@
 
 OQN Prestation
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -30,7 +28,7 @@ Champ : Privé
 |PSH_MDT|chaîne de caractères|Mode de traitement|||
 |REM_BAS|nombre réel|Montant Base remboursement|||
 |REM_TAU|nombre réel|Taux applicable à la prestation|||
-|RSA_NUM|chaîne de caractères| N° séquentiel (le même que pour les RSA)|||
+|RSA_NUM|chaîne de caractères|N° séquentiel (le même que pour les RSA)|||
 |RSF_TYP|chaîne de caractères|Type de format RSF (1 : ancien, 2 : nouveau)|||
 |SOR_ANN|chaîne de caractères|Année de fin de séjour|||
 |SOR_MOI|chaîne de caractères|Mois de fin de séjour|||

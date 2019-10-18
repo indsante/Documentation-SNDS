@@ -2,8 +2,6 @@
 
 Résumé par séquence
 
-Champ : Public et Privé
-
 
 ## Modèle de données
 
@@ -52,3 +50,6 @@ Champ : Public et Privé
 |DGN_PAL|chaîne de caractères|Diagnostic principal ou motif de prise en charge principale|||
 |NBR_DGN|nombre réel|Nombre de diagnostics et facteurs associés|||
 |NBR_CCAM|nombre réel|Nombre d'actes CCAM|||
+|SEJ_LEG|chaîne de caractères|Mode légal de séjour|||
+|SCO_DEP_REL|chaîne de caractères|Score pour la dépendance pour la relation (AVQ)|||
+|NAT_PEC|chaîne de caractères|Nature de prise en charge|||

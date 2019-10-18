@@ -1,8 +1,6 @@
-# T_MCOaa_nnGV2018
+# T_MCOaa_nnGVxx
 
-Table de passage en version de GHM à partir de mars de l'année suivante
-
-Champ : Public et Privé
+Table de passage en version de GHM
 
 
 ## Modèle de données
@@ -14,4 +12,4 @@ Champ : Public et Privé
 |GHM_NUM|chaîne de caractères|Regroupage en GHM|||
 |GHS_NUM|chaîne de caractères|Regroupage en GHS (utilisé pour la valorisation)|||
 |GHS_THEO|chaîne de caractères|Regroupage en GHS (GHS correspond au GHM)|||
-|RSA_NUM|chaîne de caractères|N° d'index du RSA |||
+|RSA_NUM|chaîne de caractères|N° d'index du RSA|||

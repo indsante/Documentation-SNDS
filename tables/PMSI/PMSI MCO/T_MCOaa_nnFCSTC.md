@@ -2,8 +2,6 @@
 
 ACE Honoraire
 
-Champ : Public
-
 
 ## Modèle de données
 
@@ -15,7 +13,7 @@ Champ : Public
 |ACT_NBR|nombre réel|Quantité|||
 |AMC_MNR|nombre réel|Montant remboursable par l'organisme complémentaire (AMC)|||
 |AMO_MNR|nombre réel|Montant Remboursable par la caisse (AMO)|||
-|COEF_MCO|nombre réel|Coefficient MCO |||
+|COEF_MCO|nombre réel|Coefficient MCO|||
 |CONSULT_MIG|chaîne de caractères|Type d’unité fonctionnelle de consultations (*)|||
 |DEL_DAT_ENT|nombre réel|Délai par rapport à la date d'entrée|||
 |ETA_NUM|chaîne de caractères|Numéro FINESS e-PMSI|||
@@ -34,3 +32,10 @@ Champ : Public
 |SOR_ANN|chaîne de caractères|Année des soins|||
 |SOR_MOI|chaîne de caractères|Mois des soins|||
 |TYP_ART|chaîne de caractères|Type d'enregistrement|||
+|DAT_RET|chaîne de caractères|Code retour contrôle « date de référence» (date d'entrée)|||
+|NIR_ANO_17|chaîne de caractères|N° anonyme|||
+|NIAS_RET|chaîne de caractères|Code retour contrôle « n° d’identification administratif de séjour »|||
+|SEX_RET|chaîne de caractères|Code retour contrôle « sexe »|||
+|NOE_MNR|nombre réel|Montant remboursé NOEMIE Retour|||
+|NOE_OPE|nombre réel|Nature opération récupération NOEMIE Retour|||
+|NIR_RET|chaîne de caractères|Code retour contrôle « n° sécurité sociale »|||

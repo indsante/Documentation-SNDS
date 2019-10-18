@@ -2,8 +2,6 @@
 
 Fich comp dialyse péritonéale en sus
 
-Champ : Public
-
 
 ## Modèle de données
 
@@ -17,3 +15,4 @@ Champ : Public
 |PRS_COD|chaîne de caractères|Code Prestation|||
 |PRS_TYP|chaîne de caractères|Type de prestation|||
 |RSA_NUM|chaîne de caractères|N° d'index du RSA|||
+|FAC_SEM_NBR|chaîne de caractères|Nombre de semaine facturées|||

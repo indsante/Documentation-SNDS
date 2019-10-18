@@ -2,15 +2,13 @@
 
 OQN Entete facture
 
-Champ : Privé
-
 
 ## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|
 |AGE_ANN|nombre réel|Age (en années)|||
-|COD_CIV|chaîne de caractères|Code civilité |||
+|COD_CIV|chaîne de caractères|Code civilité|||
 |COD_PEC|chaîne de caractères|Code de prise en charge|||
 |COD_SEX|chaîne de caractères|Sexe|||
 |CON_TYP|chaîne de caractères|Type de contrat souscrit auprès d'un organisme complémentaire|||
@@ -36,7 +34,7 @@ Champ : Privé
 |PH_OC_MNR|nombre réel|Total remboursable OC pour les PH|||
 |RNG_BEN|chaîne de caractères|Rang de bénéficiaire|||
 |RNG_NAI|chaîne de caractères|Rang de naissance|||
-|RSA_NUM|chaîne de caractères| N° séquentiel (le même que pour les RSA)|||
+|RSA_NUM|chaîne de caractères|N° séquentiel (le même que pour les RSA)|||
 |RSF_TYP|chaîne de caractères|Type de format RSF (1 : ancien, 2 : nouveau)|||
 |SOR_ANN|chaîne de caractères|Année de sortie|||
 |SOR_MOI|chaîne de caractères|Mois de sortie|||

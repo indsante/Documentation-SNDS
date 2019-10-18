@@ -2,8 +2,6 @@
 
 Table FM : Table des RSFA des actes CCAM des établissements ex-OQN
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -46,3 +44,4 @@ Champ : Privé
 |REM_EXP_ACT|chaîne de caractères|Code remb exceptionnel|||
 |RHAD_NUM|chaîne de caractères|Numéro séquentiel d'entrée (idem RAPSS)|||
 |TYP_ART|chaîne de caractères|Type d'enregistrement|||
+|ETA_NUM_TWO|chaîne de caractères|Numéro FINESS de l’établissement (site géographique)|||

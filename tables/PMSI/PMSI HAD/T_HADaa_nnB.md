@@ -2,8 +2,6 @@
 
 Table des Résumés Anonyme Par Sous-Séquence (RAPSS)
 
-Champ : Public et Privé
-
 - Clé primaire : `ETA_NUM_EPMSI, RHAD_NUM`
 
 ## Modèle de données
@@ -28,7 +26,7 @@ Champ : Public et Privé
 |ENT_PRV|chaîne de caractères|Provenance|||
 |ETA_NUM_ESMS|chaîne de caractères|Numéro FINESS EHPA|||
 |ETA_NUM_EPMSI|chaîne de caractères|N° FINESS e-PMSI|||
-|ETA_NUM_GEO|chaîne de caractères|Numéro FINESS géographique|||
+|ETA_NUM_GEO|chaîne de caractères|Numéro FINESS de l’établissement (code géographique)|||
 |FAC_NUM|chaîne de caractères|N° séquentiel de facture|||
 |FIN_ANN_SEQ|chaîne de caractères|Année de la date de fin de la séquence|||
 |FIN_MOI_SEQ|chaîne de caractères|Mois de la date de fin de la séquence|||
@@ -50,7 +48,7 @@ Champ : Public et Privé
 |SEJ_FACT_AM|chaîne de caractères|Séjour facturable à l'assurance maladie|||
 |SEJ_NBJ|nombre réel|Nombre de journées dans le séjour|||
 |SEQ_DER|chaîne de caractères|Dernière séquence|||
-|SEQ_NBJ|nombre réel|Nombre de journées dans la séquence |||
+|SEQ_NBJ|nombre réel|Nombre de journées dans la séquence|||
 |SEQ_NUM|chaîne de caractères|N° de la séquence dans le séjour|||
 |SEQ_SEJ_NBJ|nombre réel|Nombre de journées entre le début de la séquence et la date d’entrée du séjour|||
 |SOR_ANN|chaîne de caractères|Année de la date de sortie du séjour|||
@@ -64,3 +62,19 @@ Champ : Public et Privé
 |SSEQ_SEJ_DER|chaîne de caractères|Dernière sous séquence du séjour|||
 |SSEQ_SEQ_DER|chaîne de caractères|Dernière sous-séquence de la séquence|||
 |SSEQ_SEQ_NBJ|nombre réel|Nombre de journées entre le début de la sous-séquence et le début de la séquence|||
+|RPSS_VER|chaîne de caractères|N° de version du format du RPSS|||
+|DGN_PAL3|chaîne de caractères|Diagnostic associé 3|||
+|DGN_PAL5|chaîne de caractères|Diagnostic associé 5|||
+|DGN_PAL4|chaîne de caractères|Diagnostic associé 4|||
+|ETA_GRP_VER|chaîne de caractères|Groupage établissement : version de la classification|||
+|SEQ_SEJ|chaîne de caractères|Numéro de la séquence dans le séjour|||
+|DGN_PAL1|chaîne de caractères|Diagnostic associé 1|||
+|ETA_GRP_RET|chaîne de caractères|Groupage établissement : code retour|||
+|ETA_GRP_GHPC|chaîne de caractères|Groupage établissement : n° du GHPC|||
+|ETA_NUM_EHPA|chaîne de caractères|Numéro FINESS EHPA|||
+|DGN_PAL6|chaîne de caractères|Diagnostic associé 6|||
+|ETA_NUM_JUR|chaîne de caractères|N° FINESS de l’établissement (code géographique)|||
+|ETB_TAR_NBR|nombre réel|Groupage établissement : nombre de zones tarifaires établissement (1 à 4)|||
+|DGN_PAL7|chaîne de caractères|Diagnostic associé 7|||
+|DGN_PAL2|chaîne de caractères|Diagnostic associé 2|||
+|ETA_NUM_TWO|chaîne de caractères|Numéro FINESS de l’établissement (code géographique)|||

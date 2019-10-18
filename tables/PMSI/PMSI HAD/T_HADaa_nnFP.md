@@ -2,8 +2,6 @@
 
 Table FP : Table des RSFA des LPP/DMI en sus des établissements ex-OQN
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -25,3 +23,4 @@ Champ : Privé
 |TIP_PRS_IDE|nombre réel|Code LPP (13 c)|||
 |TOT_MNT_ECA|nombre réel|Montant total de l'écart indemnisable|||
 |TYP_ART|chaîne de caractères|Type d'enregistrement|||
+|ETA_NUM_TWO|chaîne de caractères|Numéro FINESS de l’établissement (site géographique)|||

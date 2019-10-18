@@ -2,8 +2,6 @@
 
 Fich comp IVG
 
-Champ : Public
-
 
 ## Modèle de données
 

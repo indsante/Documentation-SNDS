@@ -20,3 +20,4 @@ Table des données de codage de biologie
 |ORG_CLE_NUM|chaîne de caractères|organisme de liquidation des prestations (avant fusion des caisses)|||
 |PRS_ORD_NUM|nombre réel|Numéro d'ordre de la prestation dans le décompte|||
 |REM_TYP_AFF|nombre réel|type de remboursement affiné|||
+|ARO_THE_TAU|nombre réel|Taux théorique de remboursement (autre que régime obligatoire)|||

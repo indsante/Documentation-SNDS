@@ -2,8 +2,6 @@
 
 OQN DMI en sus
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -20,8 +18,16 @@ Champ : Privé
 |LPP_QUA|nombre réel|Quantité|||
 |MNT_UNI_ECA|nombre réel|Montant unitaire de l'écart indemnisable|||
 |NUM_FAC|chaîne de caractères|N° séquentiel de facture|||
-|RSA_NUM|chaîne de caractères| N° séquentiel (le même que pour les RSA)|||
+|RSA_NUM|chaîne de caractères|N° séquentiel (le même que pour les RSA)|||
 |RSF_TYP|chaîne de caractères|Type de format RSF (1 : ancien, 2 : nouveau)|||
 |TIP_PRS_IDE|nombre réel|Code référence LPP (format numérique)|||
 |TOT_MNT_ECA|nombre réel|Montant total de l'écart indemnisable|||
 |TYP_ART|chaîne de caractères|Type d'enregistrement|||
+|LPP_QUA1|nombre réel|Quantité 1|||
+|FAC_MNT1|nombre réel|Montant facturé 1|||
+|LPP_COD1|chaîne de caractères|Code LPP 1|||
+|LPP_QUA2|nombre réel|Quantité 2|||
+|FAC_MNT2|nombre réel|Montant facturé 2|||
+|LPP_PRI_UNI1|nombre réel|Tarif référence LPP/Prix unitaire 1|||
+|LPP_COD2|chaîne de caractères|Code LPP 2|||
+|LPP_PRI_UNI2|nombre réel|Tarif référence LPP/Prix unitaire 2|||

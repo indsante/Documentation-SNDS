@@ -2,8 +2,6 @@
 
 OQN Interruption séjour
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -13,7 +11,7 @@ Champ : Privé
 |ETA_NUM|chaîne de caractères|Numéro FINESS e-PMSI|||
 |ETB_NUM|chaîne de caractères|Etablissement de transfert ou de retour ou lieu d'exécution de l'acte|||
 |NUM_FAC|chaîne de caractères|N° séquentiel de facture|||
-|RSA_NUM|chaîne de caractères| N° séquentiel (le même que pour les RSA)|||
+|RSA_NUM|chaîne de caractères|N° séquentiel (le même que pour les RSA)|||
 |RSF_TYP|chaîne de caractères|Type de format RSF (1 : ancien, 2 : nouveau)|||
 |SEJ_FIN|chaîne de caractères|Nature d'interruption ou de fin de séjour|||
 |SOR_ANN|chaîne de caractères|Année de fin de séjour|||

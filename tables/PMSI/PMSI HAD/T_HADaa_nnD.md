@@ -2,8 +2,6 @@
 
 Table des diagnostics associés
 
-Champ : Public et Privé
-
 
 ## Modèle de données
 
@@ -15,3 +13,4 @@ Champ : Public et Privé
 |RHAD_NUM|chaîne de caractères|N° séquentiel de séjour d'HAD|||
 |SEQ_NUM|chaîne de caractères|N° de la séquence dans le séjour|||
 |SSEQ_NUM|chaîne de caractères|N° de la sous-séquence|||
+|ETA_NUM_TWO|chaîne de caractères|Numéro FINESS de l’établissement (code géographique)|||

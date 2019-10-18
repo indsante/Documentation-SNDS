@@ -2,8 +2,6 @@
 
 OQN Entete facture
 
-Champ : Privé
-
 
 ## Modèle de données
 

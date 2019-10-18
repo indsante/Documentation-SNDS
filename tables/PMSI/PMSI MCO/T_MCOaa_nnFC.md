@@ -2,8 +2,6 @@
 
 OQN Honoraire
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -28,7 +26,7 @@ Champ : Privé
 |PSH_MDT|chaîne de caractères|Mode de traitement|||
 |REM_BAS|nombre réel|Montant Base remboursement|||
 |REM_TAU|nombre réel|Taux Remboursement|||
-|RSA_NUM|chaîne de caractères| N° séquentiel (le même que pour les RSA)|||
+|RSA_NUM|chaîne de caractères|N° séquentiel (le même que pour les RSA)|||
 |RSF_TYP|chaîne de caractères|Type de format RSF (1 : ancien, 2 : nouveau)|||
 |SOR_ANN|chaîne de caractères|Année de l'acte|||
 |SOR_MOI|chaîne de caractères|Mois de l'acte|||

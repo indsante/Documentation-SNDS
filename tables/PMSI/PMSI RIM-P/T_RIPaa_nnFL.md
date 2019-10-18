@@ -2,8 +2,6 @@
 
 actes de Biologie
 
-Champ : Privé
-
 
 ## Modèle de données
 

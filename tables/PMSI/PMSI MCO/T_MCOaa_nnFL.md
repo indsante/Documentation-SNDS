@@ -2,8 +2,6 @@
 
 OQN biologie NABM
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -17,6 +15,6 @@ Champ : Privé
 |NUM_FAC|chaîne de caractères|N° Facture séquentiel|||
 |PSH_DMT|chaîne de caractères|Discipline de prestation (ex DMT)|||
 |PSH_MDT|chaîne de caractères|Mode de traitement|||
-|RSA_NUM|chaîne de caractères| N° séquentiel (le même que pour les RSA)|||
+|RSA_NUM|chaîne de caractères|N° séquentiel (le même que pour les RSA)|||
 |RSF_TYP|chaîne de caractères|Type de format RSF (1 : ancien, 2 : nouveau)|||
 |TYP_ART|chaîne de caractères|Type d'enregistrement|||

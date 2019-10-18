@@ -2,8 +2,6 @@
 
 Fich comp prestation inter établissement
 
-Champ : Public
-
 
 ## Modèle de données
 

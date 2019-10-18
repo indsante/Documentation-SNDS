@@ -1,8 +1,6 @@
 # T_MCOaa_nnMEDTHROMBO
 
-Fich comp Méd. thrombolytiques pour le traitement des AVC ischémiques 
-
-Champ : Public
+Fich comp Méd. thrombolytiques pour le traitement des AVC ischémiques
 
 
 ## Modèle de données
@@ -24,3 +22,4 @@ Champ : Public
 |SEJ_NBR|nombre réel|Nombre de séjours impliqués|||
 |TOP_UCD_AUTO|chaîne de caractères|Top transcodage UCD13 auto|||
 |UCD_UCD_COD|chaîne de caractères|Code UCD|||
+|UCD_COD|chaîne de caractères|Code UCD|||
