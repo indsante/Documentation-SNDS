@@ -89,9 +89,32 @@ Les rétrocessions correspondent à de la pharmacie hospitalière en établissem
 Lorsque l’on travaille sur les **soins de ville**, il est recommandé d’exclure les prestations en établissements publics qui ne sont pas des rétrocessions.
 On peut donc exclure les prestations pour lesquels `PRS_PPU_SEC` == 1 sauf si la `PRS_NAT_REF` correspond à de la rétrocession.
 
-### Les catégories juridiques d'établissement dans les PMSI
+### Trouver les dépenses dans le PMSI
 
-Les données du PMSI : donner les tables et les variables concernant les etablissements.
+Nous décrivons ici comment trouver les dépenses dans le PMSI MCO. 
+
+Sur la partie séjour, les filtres à poser sont les suivants : 
+
+- Exclusion des FINESS géographiques APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) 
+- Exclusion des séjours en erreur
+- Exclusion des prestations inter établissement
+- Exclusion des prestations pour lesquelles un résumé de séjour n'a pas été généré: la dialyse, l'activité externe des médecins salariés ou des FFM, ATU, SE (attention cependant, la variable TYP_GEN_RSA n'est disponible qu'à partir de 2015)
+
+Le code SAS correspondant est le suivant :
+
+```
+WHERE 
+ETA_NUM not in ('130780521', '130783236', '130783293', '130784234', '130804297','600100101', '750041543', '750100018', '750100042', '750100075', '750100083', '750100091', '750100109', '750100125', '750100166', '750100208', '750100216', '750100232', '750100273', '750100299' , '750801441', '750803447', '750803454', '910100015', '910100023', '920100013', '920100021', '920100039', '920100047', '920100054', '920100062', '930100011', '930100037', '930100045', '940100027', '940100035', '940100043', '940100050', '940100068', '950100016', '690783154', '690784137', '690784152', '690784178', '690787478', '830100558') 
+AND GRG_GHM not like '90%' 
+AND ENT_MOD<>'0' and SOR_MOD<>'0'
+AND TYP_GEN_RSA = '0' 
+```
+
+Toutes les variables de filtres présentées se trouvent dans la table des séjours `t_mcoANNEE.b` sous ORAVUE. Pour connaitre le montant dépensé par le patient, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE et la variable `MNT_TOT_AM`. Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de dépassements à l'hôpital public.
+Pour joindre les deux tables il faut passer par la table de chainage patients (`t_mcoANNEE.c` toujours sous ORAVUE).
+
+Les dépenses d'actes et consultations externes (ACE) se trouvent dans la table de valorisation des ACE sous `ORAVUE.t_mcoANNEE.valoace`. La variable de montant est `mnt_br`. En effet, il s'agit de la base de remboursement de la sécurité sociale car il n'existe pas de dépassements sur les ACE. 
+La table patients correspondante est `t_mcoANNEE.cstc`.
 
 
  
