@@ -2,8 +2,6 @@
 
 Unité médicale
 
-Champ : Public et Privé
-
 
 ## Modèle de données
 
@@ -20,10 +18,18 @@ Champ : Public et Privé
 |ETA_NUM_GEO|chaîne de caractères|Premier numéro FINESS géographique|||
 |IGS2_COD|chaîne de caractères|IGS2|||
 |PAR_DUR_SEJ|nombre réel|Durée séjour partielle|||
-|RSA_NUM|chaîne de caractères|N° d'index du RSA |||
+|RSA_NUM|chaîne de caractères|N° d'index du RSA|||
 |RSS_NUM|chaîne de caractères|Numéro de version du format du RSA|||
 |SUP_TYP1_NAT|chaîne de caractères|Nature du supplément pour le premier type|||
 |SUP_TYP1_NBR|nombre réel|Nombre de supplément pour le premier type|||
 |SUP_TYP2_NAT|chaîne de caractères|Nature du supplément pour le deuxième type|||
 |SUP_TYP2_NBR|nombre réel|Nombre de supplément pour le deuxième type|||
 |UM_ORD_NUM|nombre réel|N° séquentiel de RUM|||
+|UM_TYP|chaîne de caractères|Type d'UM|||
+|DP_POS|chaîne de caractères|Position du DP|||
+|VAL_PAR|chaîne de caractères|Valorisation partielle|||
+|ETA_NUM_GEO2|chaîne de caractères|Deuxième numéro FINESS géographique|||
+|VAL_REA|chaîne de caractères|Valorisation réa|||
+|IND_SRC|chaîne de caractères|Indicateur de SRC|||
+|ETA_NUM_GEO1|chaîne de caractères|Premier numéro FINESS géographique|||
+|PAR_NBR_SEJ|nombre réel|Durée séjour partielle|||

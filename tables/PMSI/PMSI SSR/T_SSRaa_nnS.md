@@ -2,8 +2,6 @@
 
 synthese
 
-Champ : Public et Privé
-
 
 ## Modèle de données
 
@@ -24,3 +22,8 @@ Champ : Public et Privé
 |NBR_MUT|nombre réel|Nombre de mutations|||
 |NBR_RHA|nombre réel|Nombre de RHA|||
 |NBR_GME|nombre réel|Nombre de GME (ng)|||
+|NBR_CM|nombre réel|Nombre de CM (nc)|||
+|NBR_UM|nombre réel|Nombre d’unité médicale|||
+|DUMMY|chaîne de caractères|DUMMY|||
+|NBR_CMC|nombre réel|Nombre de CMC (nc)|||
+|NBR_GHJ|nombre réel|Nombre de GHJ (ng)|||

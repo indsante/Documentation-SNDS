@@ -2,8 +2,6 @@
 
 Table dépenses de la cartographie des pathologies pour l'année AAAA et l'algorithme N
 
-Champ : Regime general
-
 
 ## Modèle de données
 
@@ -86,3 +84,4 @@ Champ : Regime general
 |TOT_DEP_MNT|nombre réel|Total des dépenses remboursées|||
 |TOT_DEP_BSE|nombre réel|Total des dépenses remboursables|||
 |version|chaîne de caractères|Version de la cartographie|||
+|BEN_DCD_AME|chaîne de caractères|Année et mois de décès du bénéficiaire|||

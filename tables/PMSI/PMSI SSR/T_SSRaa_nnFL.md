@@ -2,8 +2,6 @@
 
 OQN actes de biologie (issus de la NABM)
 
-Champ : Privé
-
 
 ## Modèle de données
 

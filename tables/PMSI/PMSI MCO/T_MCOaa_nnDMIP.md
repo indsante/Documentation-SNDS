@@ -2,8 +2,6 @@
 
 Fich comp dmi en sus
 
-Champ : Public
-
 
 ## Modèle de données
 

@@ -2,8 +2,6 @@
 
 Diagnostic associé à l'acte
 
-Champ : Public (et qq privé)
-
 - Clé primaire : `ETA_NUM_EPMSI, ORD_NUM, SEJ_IDT`
 
 ## Modèle de données

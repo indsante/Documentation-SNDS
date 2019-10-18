@@ -2,8 +2,6 @@
 
 Table des conventions HAD-EHPA
 
-Champ : Public et Privé
-
 - Clé primaire : `ETA_NUM_EPMSI`
 
 ## Modèle de données
@@ -19,3 +17,5 @@ Champ : Public et Privé
 |FIC_TYP|chaîne de caractères|Type de fichier|||
 |MOI|chaîne de caractères|N° période (mois)|||
 |ETA_TYP_ESMS|chaîne de caractères|Type d'établissement|||
+|MOIS|chaîne de caractères|N° période (mois)|||
+|ETA_NUM_EHPA|chaîne de caractères|N° FINESS ESMS|||

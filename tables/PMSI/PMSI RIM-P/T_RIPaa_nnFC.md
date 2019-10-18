@@ -2,8 +2,6 @@
 
 honoraire
 
-Champ : Privé
-
 
 ## Modèle de données
 

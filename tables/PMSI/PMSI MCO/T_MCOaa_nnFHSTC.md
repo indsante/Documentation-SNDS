@@ -2,8 +2,6 @@
 
 ACE medicament en sus
 
-Champ : Public
-
 
 ## Modèle de données
 

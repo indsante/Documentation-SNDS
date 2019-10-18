@@ -120,3 +120,18 @@ Table des prestations
 |ORG_CLE_NUM|chaîne de caractères|organisme de liquidation des prestations (avant fusion des caisses)|||
 |PRS_ORD_NUM|nombre réel|Numéro d'ordre de la prestation dans le décompte|||
 |REM_TYP_AFF|nombre réel|type de remboursement affiné|||
+|BEN_DRT_SPF|chaîne de caractères|Droits spécifiques à l'ACS (avec ou sans tiers payant intégral)|||
+|BEN_ACS_TOP|chaîne de caractères|Top contrat ACS Tiers payant Intégral|||
+|EXE_CTX_PFS|chaîne de caractères|Contexte Professionnels de santé|||
+|PRS_TYP_MAJ|chaîne de caractères|Type de majoration|||
+|EXE_CTX_BEN|chaîne de caractères|Contexte Bénéficiaire|||
+|CPL_FTA_COD|nombre réel|Code de forçage du taux pour les compléments d'actes|||
+|PRS_PPU_SEC|nombre réel|Code privé - public de la Prestations|||
+|BEN_CTA_TYP|nombre réel|Type de contrat complémentaire|||
+|PRS_DRA_AME|chaîne de caractères|Date réelle (année et mois) de l'accouchement|||
+|DRG_AFF_NAT|chaîne de caractères|Code affiné du destinataire du règlement|||
+|PRS_MNT_MAJ|nombre réel|montant de la majoration|||
+|PRE_IND_PEL|chaîne de caractères|Indicateur Prescription en Ligne|||
+|PRS_DIS_PRE|chaîne de caractères|Dispositif de prévention|||
+|CPL_REM_TAU|nombre réel|Taux de remboursement des compléments d'actes|||
+|PRS_QTT_MAJ|nombre réel|Quantité de majorations|||

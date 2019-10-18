@@ -2,8 +2,6 @@
 
 medicament
 
-Champ : Privé
-
 
 ## Modèle de données
 

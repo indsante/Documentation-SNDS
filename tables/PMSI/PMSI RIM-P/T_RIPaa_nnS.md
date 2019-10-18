@@ -2,8 +2,6 @@
 
 Synthèse du Séjour de Résumé par séquence anonymisé
 
-Champ : Public et Privé
-
 
 ## Modèle de données
 
@@ -25,3 +23,5 @@ Champ : Public et Privé
 |SOR_MOD|chaîne de caractères|Mode de sortie|||
 |SOR_DES|chaîne de caractères|Destination|||
 |TYP_GEN_RSA|chaîne de caractères|Type de génération automatique du RPSA|||
+|SEJ_NBJ_PARTL|nombre réel|Nombre de journées et demies journées en hospitalisation partielle|||
+|SEJ_NBJ_CPLT|nombre réel|Nombre de journées de présence en hospitalisation complète|||

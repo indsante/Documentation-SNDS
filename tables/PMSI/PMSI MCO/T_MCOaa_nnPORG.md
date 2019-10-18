@@ -2,8 +2,6 @@
 
 Fich comp prélévement d'organe
 
-Champ : Public
-
 
 ## Modèle de données
 

@@ -2,8 +2,6 @@
 
 Fich Comp : Isolement et contention
 
-Champ : Public
-
 
 ## Modèle de données
 

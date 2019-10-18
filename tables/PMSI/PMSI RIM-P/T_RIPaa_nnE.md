@@ -2,8 +2,6 @@
 
 etablissement
 
-Champ : Public et Privé
-
 - Clé primaire : `ETA_NUM`
 
 ## Modèle de données

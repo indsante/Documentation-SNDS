@@ -2,8 +2,6 @@
 
 ACE actes de biologie (issus de la NABM)
 
-Champ : Public
-
 
 ## Modèle de données
 

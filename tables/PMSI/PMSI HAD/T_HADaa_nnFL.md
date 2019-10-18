@@ -2,8 +2,6 @@
 
 Table FL : Table des actes de biologie (issus de la NABM) des établissements ex-OQN
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -20,3 +18,4 @@ Champ : Privé
 |PSH_MDT|chaîne de caractères|Mode de traitement|||
 |RHAD_NUM|chaîne de caractères|N° séquentiel|||
 |TYP_ART|chaîne de caractères|Type d'enregistrement|||
+|ETA_NUM_TWO|chaîne de caractères|Numéro FINESS de l’établissement (site géographique)|||

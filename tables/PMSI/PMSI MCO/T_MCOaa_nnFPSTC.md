@@ -2,8 +2,6 @@
 
 ACE DMI en sus
 
-Champ : Public
-
 
 ## Modèle de données
 

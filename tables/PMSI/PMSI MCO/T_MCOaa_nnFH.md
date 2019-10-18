@@ -2,8 +2,6 @@
 
 OQN medicament en sus
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -20,9 +18,13 @@ Champ : Privé
 |MNT_UNI_ECA|nombre réel|Montant unitaire de l'écart indemnisable|||
 |NUM_FAC|chaîne de caractères|N° séquentiel de facture|||
 |QUA_COD|nombre réel|Quantité|||
-|RSA_NUM|chaîne de caractères| N° séquentiel (le même que pour les RSA)|||
+|RSA_NUM|chaîne de caractères|N° séquentiel (le même que pour les RSA)|||
 |RSF_TYP|chaîne de caractères|Type de format RSF (1 : ancien, 2 : nouveau)|||
 |TOT_MNT_ECA|nombre réel|Montant total de l'écart indemnisable|||
 |TYP_ART|chaîne de caractères|Type d'enregistrement|||
 |UCD_UCD_COD|chaîne de caractères|Code UCD (0 à gauche)|||
 |COD_LES|chaîne de caractères|Code indication des spécialités pharmaceutiques inscrites sur la liste en sus|||
+|COD_TAU|chaîne de caractères|Code taux|||
+|MNT_IND|nombre réel|Montant écart indemnisable|||
+|PRI_UNI_FAC|nombre réel|Prix unitaire facturé|||
+|COD_UCP_CIP|chaîne de caractères|Code UCD ou CIP|||

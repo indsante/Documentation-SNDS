@@ -2,8 +2,6 @@
 
 Table FI : Table des RSFA interruption de séjour des établissements ex-OQN
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -21,3 +19,4 @@ Champ : Privé
 |SOR_ANN|chaîne de caractères|Année de la date fin de séjour|||
 |SOR_MOI|chaîne de caractères|Mois de la date fin de séjour|||
 |TYP_ART|chaîne de caractères|Type d'enregistrement|||
+|ETA_NUM_TWO|chaîne de caractères|Numéro FINESS de l’établissement (site géographique)|||

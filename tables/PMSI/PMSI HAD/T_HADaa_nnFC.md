@@ -2,8 +2,6 @@
 
 Table FC : Table des RSFA des honoraires des établissements ex-OQN
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -33,3 +31,4 @@ Champ : Privé
 |REM_TAU|nombre réel|Taux Remboursement|||
 |RHAD_NUM|chaîne de caractères|Numéro séquentiel d'entrée (idem RAPSS)|||
 |TYP_ART|chaîne de caractères|Type d'enregistrement|||
+|ETA_NUM_TWO|chaîne de caractères|Numéro FINESS de l’établissement (site géographique)|||

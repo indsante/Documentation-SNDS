@@ -2,8 +2,6 @@
 
 TableFA : Table des RSFA début de facture des établissements ex-OQN
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -11,7 +9,7 @@ Champ : Privé
 |-|-|-|-|-|
 |AGE_ANN|nombre réel|Age|||
 |CMU_BEN_PAT|chaîne de caractères|Patient bénéficiaire de la CMU|||
-|COD_CIV|chaîne de caractères|Code civilité |||
+|COD_CIV|chaîne de caractères|Code civilité|||
 |COD_SEX|chaîne de caractères|Sexe|||
 |CON_TYP|chaîne de caractères|Type de contrat souscrit auprès d'un organisme complémentaire|||
 |ENT_ANN|chaîne de caractères|Année de la date d'entrée|||
@@ -42,3 +40,4 @@ Champ : Privé
 |NUM_DAT_AT|chaîne de caractères|Numéro accident du travail ou date d’accident de droit commun|||
 |RNG_BEN|chaîne de caractères|Rang de bénéficiaire|||
 |RNG_NAI|chaîne de caractères|Rang de naissance|||
+|ETA_NUM_TWO|chaîne de caractères|Numéro FINESS de l’établissement (site géographique)|||

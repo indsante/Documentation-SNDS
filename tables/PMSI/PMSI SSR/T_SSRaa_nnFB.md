@@ -2,8 +2,6 @@
 
 OQN Prestation
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -36,3 +34,4 @@ Champ : Privé
 |ETE_GHS_NUM|nombre réel|N° GHS (format num)|||
 |SOIN_ANN|chaîne de caractères|Année de soins|||
 |SOIN_MOI|chaîne de caractères|Mois de soins|||
+|ACT_DEL|nombre réel|Délai de l'acte|||

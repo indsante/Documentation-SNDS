@@ -2,8 +2,6 @@
 
 Table pathologies de la cartographie des pathologies pour l'année AAAA et l'algorithme N
 
-Champ : Regime general
-
 
 ## Modèle de données
 
@@ -165,3 +163,4 @@ Champ : Regime general
 |sup_Petit_Conso_exclu|nombre réel|Pas de pathologies, traitements, maternité, hospitalisations ou traitement antalgique ou anti-inflammatoire|||
 |sup_PopTot_cat|nombre réel|Total consommants régime général + sections locales mutualistes|||
 |version|chaîne de caractères|Version de la cartographie|||
+|BEN_DCD_AME|chaîne de caractères|Année et mois de décès du bénéficiaire|||

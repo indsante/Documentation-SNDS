@@ -2,8 +2,6 @@
 
 prestation hospitalière
 
-Champ : Privé
-
 - Clé primaire : `ETA_NUM_EPMSI, RIP_NUM`
 
 ## Modèle de données

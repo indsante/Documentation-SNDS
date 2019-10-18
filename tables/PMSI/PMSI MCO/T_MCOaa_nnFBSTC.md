@@ -2,8 +2,6 @@
 
 ACE Prestation
 
-Champ : Public
-
 - Clé primaire : `ETA_NUM, SEQ_NUM`
 
 ## Modèle de données
@@ -16,7 +14,7 @@ Champ : Public
 |ACT_NBR|nombre réel|Quantité|||
 |AMC_MNR|nombre réel|Montant remboursable par l'organisme complémentaire (AMC)|||
 |AMO_MNR|nombre réel|Montant Remboursable par la caisse (AMO)|||
-|COEF_MCO|nombre réel|Coefficient MCO |||
+|COEF_MCO|nombre réel|Coefficient MCO|||
 |DEL_DAT_ENT|nombre réel|Délai par rapport à la date d'entrée|||
 |ETA_NUM|chaîne de caractères|Numéro FINESS e-PMSI|||
 |ETA_NUM_GEO|chaîne de caractères|Numéro FINESS géographique|||

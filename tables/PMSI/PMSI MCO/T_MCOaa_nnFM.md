@@ -2,8 +2,6 @@
 
 OQN actes CCAM
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -11,7 +9,7 @@ Champ : Privé
 |-|-|-|-|-|
 |ACV_ACT|chaîne de caractères|Activité|||
 |ANP_ACT|chaîne de caractères|Association non prévue|||
-|CCAM_COD|chaîne de caractères|Code CCAM|||
+|CCAM_COD|chaîne de caractères|Code CCAM (y compris extension PMSI)|||
 |DEL_DAT_ENT|nombre réel|Délai par rapport à la date d'entrée|||
 |DENT_NUM_1|chaîne de caractères|N° dent 1|||
 |DENT_NUM_10|chaîne de caractères|N° dent 10|||
@@ -41,7 +39,7 @@ Champ : Privé
 |PSH_DMT|chaîne de caractères|Discipline de prestation (ex DMT)|||
 |PSH_MDT|chaîne de caractères|Mode de traitement|||
 |REM_EXP_ACT|chaîne de caractères|Code remboursement exceptionnel|||
-|RSA_NUM|chaîne de caractères| N° séquentiel (le même que pour les RSA)|||
+|RSA_NUM|chaîne de caractères|N° séquentiel (le même que pour les RSA)|||
 |RSF_TYP|chaîne de caractères|Type de format RSF (1 : ancien, 2 : nouveau)|||
 |SOR_ANN|chaîne de caractères|Année de l'acte|||
 |SOR_MOI|chaîne de caractères|Mois de l'acte|||

@@ -2,8 +2,6 @@
 
 OQN Honoraire
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -33,3 +31,4 @@ Champ : Privé
 |SOIN_ANN|chaîne de caractères|Année de soins|||
 |SOIN_MOI|chaîne de caractères|Mois de soins|||
 |EXE_SPE|chaîne de caractères|Spécilité exécutant|||
+|ACT_DEL|nombre réel|Délai de l'acte|||

@@ -2,8 +2,6 @@
 
 Actes CCAM
 
-Champ : Public et Privé
-
 
 ## Modèle de données
 

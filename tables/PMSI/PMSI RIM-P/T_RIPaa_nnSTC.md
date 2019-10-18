@@ -2,15 +2,13 @@
 
 Prise en charge patient pour etb DG
 
-Champ : Public
-
 
 ## Modèle de données
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|
 |ETA_NUM_EPMSI|chaîne de caractères|N° FINESS de l'établisement|||
-|RIP_NUM|chaîne de caractères|N° séquentiel dans fichier PMSI |||
+|RIP_NUM|chaîne de caractères|N° séquentiel dans fichier PMSI|||
 |NOE_RGM_CTL|chaîne de caractères|Code retour contrôle « code grand régime »|||
 |EXO_TM_CTL|chaîne de caractères|Code retour contrôle « code justification d’exonération du ticket modérateur »|||
 |COD_PEC_CTL|chaîne de caractères|Code retour contrôle « code de prise en charge du forfait journalier »|||
@@ -50,19 +48,19 @@ Champ : Public
 |GES_COD_CTL|chaîne de caractères|Code retour contrôle « code gestion »|||
 |PA_COD_CTL|chaîne de caractères|Code retour contrôle « Code participation assuré »|||
 |ENT_NUM_CTL|chaîne de caractères|Code retour contrôle « N° d’entrée »|||
-|CAI_GES_CTL|chaîne de caractères|Code retour contrôle « N° caisse gestionnaire » |||
-|CENT_GES_CTL|chaîne de caractères|Code retour contrôle « N° centre gestionnaire » |||
+|CAI_GES_CTL|chaîne de caractères|Code retour contrôle « N° caisse gestionnaire »|||
+|CENT_GES_CTL|chaîne de caractères|Code retour contrôle « N° centre gestionnaire »|||
 |GES_COD|chaîne de caractères|code gestion|||
-|PA_COD|chaîne de caractères|Code participation assuré |||
-|ENT_NUM|chaîne de caractères|N° d’entrée |||
-|CAI_GES|chaîne de caractères|N° caisse gestionnaire |||
-|CENT_GES|chaîne de caractères|N° centre gestionnaire |||
+|PA_COD|chaîne de caractères|Code participation assuré|||
+|ENT_NUM|chaîne de caractères|N° d’entrée|||
+|CAI_GES|chaîne de caractères|N° caisse gestionnaire|||
+|CENT_GES|chaîne de caractères|N° centre gestionnaire|||
 |RNG_NAI_CTL|chaîne de caractères|Code retour contrôle « Rang de naissance »|||
 |RNG_BEN_CTL|chaîne de caractères|Code retour contrôle « Rang du bénéficiaire »|||
-|RNG_NAI|chaîne de caractères|Rang de naissance |||
-|RNG_BEN|chaîne de caractères|Rang du bénéficiaire |||
-|PEC_SOI_URG_CTL|chaîne de caractères|Code retour contrôle «Confirmation de la prise en charge dans le cadre du dispositif des soins urgents« |||
-|PEC_SOI_URG|chaîne de caractères|Confirmation de la prise en charge dans le cadre du dispositif des soins urgents |||
+|RNG_NAI|chaîne de caractères|Rang de naissance|||
+|RNG_BEN|chaîne de caractères|Rang du bénéficiaire|||
+|PEC_SOI_URG_CTL|chaîne de caractères|Code retour contrôle "Confirmation de la prise en charge dans le cadre du dispositif des soins urgents"|||
+|PEC_SOI_URG|chaîne de caractères|Confirmation de la prise en charge dans le cadre du dispositif des soins urgents|||
 |NAT_PJ_DT_CTL|chaîne de caractères|Code retour contrôle «Nature de la pièce justificative des droits«|||
 |DAT_PEC_CTL|chaîne de caractères|Code retour contrôle «Prise en charge établie le«|||
 |CAI_NUM_CTL|chaîne de caractères|Code retour contrôle «Délivrée par«|||
@@ -101,3 +99,4 @@ Champ : Public
 |VALID_FAC_AMC|chaîne de caractères|Statut FT AMC|||
 |VALID_FAC_RAC|chaîne de caractères|Statut FT patient|||
 |PAYS_ASS_PAT|chaîne de caractères|Pays d’assurance social|||
+|ETA_NUM_TWO|chaîne de caractères|Numéro FINESS de l’établissement (site géographique)|||

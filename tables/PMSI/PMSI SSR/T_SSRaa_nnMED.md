@@ -2,8 +2,6 @@
 
 Med en sus
 
-Champ : Public et Privé
-
 
 ## Modèle de données
 
@@ -22,3 +20,4 @@ Champ : Public et Privé
 |ADM_ANN|chaîne de caractères|Année de la date d'administration|||
 |DAT_DELAI|nombre réel|Délai entre la date d’entrée du séjour et la date de dispensation|||
 |TOP_UCD_AUTO|chaîne de caractères|Top transcodage UCD13 auto|||
+|UCD_COD|chaîne de caractères|Code UCD|||

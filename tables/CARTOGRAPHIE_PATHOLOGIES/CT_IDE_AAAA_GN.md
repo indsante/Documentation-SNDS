@@ -2,8 +2,6 @@
 
 Table individus de la cartographie des pathologies pour l'année AAAA et l'algorithme N
 
-Champ : Regime general
-
 - Clé primaire : `ben_nir_psa, ben_rng_gem`
 
 ## Modèle de données

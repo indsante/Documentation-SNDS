@@ -2,8 +2,6 @@
 
 ccam
 
-Champ : Privé
-
 
 ## Modèle de données
 

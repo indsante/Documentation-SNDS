@@ -2,8 +2,6 @@
 
 OQN actes CCAM
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -45,3 +43,4 @@ Champ : Privé
 |DENT_NUM_16|chaîne de caractères|N° dent 16|||
 |SOR_ANN|chaîne de caractères|Année de sortie|||
 |SOR_MOI|chaîne de caractères|Mois de sortie|||
+|ACT_DEL|nombre réel|Délai de l'acte|||

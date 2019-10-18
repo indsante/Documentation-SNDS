@@ -2,8 +2,6 @@
 
 Table FH : Table des RSFA des Médicaments en sus des établissements ex-OQN
 
-Champ : Privé
-
 
 ## Modèle de données
 
@@ -26,3 +24,4 @@ Champ : Privé
 |TYP_ART|chaîne de caractères|Type d'enregistrement|||
 |UCD_UCD_COD|chaîne de caractères|Code UCD sur 13 caractère avec 000 à gauche|||
 |COD_LES|chaîne de caractères|Code indication des spécialités pharmaceutiques inscrites sur la liste en sus|||
+|ETA_NUM_TWO|chaîne de caractères|Numéro FINESS de l’établissement (site géographique)|||

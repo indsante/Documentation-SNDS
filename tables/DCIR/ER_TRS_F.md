@@ -28,3 +28,7 @@ Table des données détaillées de transport
 |ORG_CLE_NUM|chaîne de caractères|organisme de liquidation des prestations (avant fusion des caisses)|||
 |PRS_ORD_NUM|nombre réel|Numéro d'ordre de la prestation dans le décompte|||
 |REM_TYP_AFF|nombre réel|type de remboursement affiné|||
+|TRS_DTF_DTE|date|Date d'arrivée du transport|||
+|TRS_DTD_AME|chaîne de caractères|Année et mois de départ du transport (format AAAAMM)|||
+|TRS_DTD_DTE|date|Date de départ du transport|||
+|TRS_DTF_AME|chaîne de caractères|Année et mois d'arrivée du transport (format AAAAMM)|||

@@ -1,8 +1,6 @@
 # T_HADaa_nnSTC
 
-Prise en charge par l'AM de chaque séjour, pour les établissements valorisés STC 
-
-Champ : Public
+Prise en charge par l'AM de chaque séjour, pour les établissements valorisés STC
 
 
 ## Modèle de données
@@ -33,14 +31,14 @@ Champ : Public
 |TOT_MNT_AMC_CTL|chaîne de caractères|Code retour contrôle « Montant total du séjour remboursable pour l'AMC »|||
 |PA_COD_CTL|chaîne de caractères|Code retour contrôle « Code participation assuré »|||
 |ENT_NUM_CTL|chaîne de caractères|Code retour contrôle « N° d’entrée »|||
-|PEC_SOI_URG_CTL|chaîne de caractères|Code retour contrôle «Confirmation de la prise en charge dans le cadre du dispositif des soins urgents« |||
-|NAT_PJ_DT_CTL|chaîne de caractères|Code retour contrôle «Nature de la pièce justificative des droits«|||
-|DAT_PEC_CTL|chaîne de caractères|Code retour contrôle «Prise en charge établie le«|||
-|CAI_NUM_CTL|chaîne de caractères|Code retour contrôle «Délivrée par«|||
-|REG_PEC_ASS_CTL|chaîne de caractères|Code retour contrôle «Régime de prestation de l’assuré«|||
-|TOP_ECL_FLX_CTL|chaîne de caractères|Code retour contrôle «Top éclatement des flux par l’établissement«|||
-|DAT_DEB_FAC_CTL|chaîne de caractères|Code retour contrôle «Date d’entrée«|||
-|DAT_FIN_FAC_CTL|chaîne de caractères|Code retour contrôle «Date de sortie«|||
+|PEC_SOI_URG_CTL|chaîne de caractères|Code retour contrôle "Confirmation de la prise en charge dans le cadre du dispositif des soins urgents"|||
+|NAT_PJ_DT_CTL|chaîne de caractères|Code retour contrôle "Nature de la pièce justificative des droits"|||
+|DAT_PEC_CTL|chaîne de caractères|Code retour contrôle "Prise en charge établie le"|||
+|CAI_NUM_CTL|chaîne de caractères|Code retour contrôle "Délivrée par"|||
+|REG_PEC_ASS_CTL|chaîne de caractères|Code retour contrôle "Régime de prestation de l’assuré"|||
+|TOP_ECL_FLX_CTL|chaîne de caractères|Code retour contrôle "Top éclatement des flux par l’établissement"|||
+|DAT_DEB_FAC_CTL|chaîne de caractères|Code retour contrôle "Date d’entrée"|||
+|DAT_FIN_FAC_CTL|chaîne de caractères|Code retour contrôle "Date de sortie"|||
 |CAI_GES_CTL|chaîne de caractères|Code retour contrôle « N° caisse gestionnaire »|||
 |CENT_GES_CTL|chaîne de caractères|Code retour contrôle « N° centre gestionnaire »|||
 |GRG_COD|chaîne de caractères|Code grand régime|||
@@ -62,11 +60,11 @@ Champ : Public
 |PAT_CMU|chaîne de caractères|Patient bénéficiaire de la CMU|||
 |DAT_HOS|chaîne de caractères|Date de l’hospitalisation cryptee|||
 |TOT_MNT_AMC|nombre réel|Montant total du séjour remboursable pour l'AMC|||
-|PA_COD|chaîne de caractères|Code participation assuré |||
+|PA_COD|chaîne de caractères|Code participation assuré|||
 |ENT_NUM|chaîne de caractères|N° d’entrée|||
 |CAI_GES|chaîne de caractères|N° caisse gestionnaire|||
-|CENT_GES|chaîne de caractères|N° centre gestionnaire |||
-|PEC_SOI_URG|chaîne de caractères|Confirmation de la prise en charge dans le cadre du dispositif des soins urgents |||
+|CENT_GES|chaîne de caractères|N° centre gestionnaire|||
+|PEC_SOI_URG|chaîne de caractères|Confirmation de la prise en charge dans le cadre du dispositif des soins urgents|||
 |NAT_PJ_DT|chaîne de caractères|Nature de la pièce justificative des droits|||
 |DAT_PEC|chaîne de caractères|Prise en charge établie le|||
 |CAI_NUM|chaîne de caractères|Délivrée par|||
@@ -98,3 +96,8 @@ Champ : Public
 |VALID_FAC_AMC|chaîne de caractères|Statut FT AMC|||
 |VALID_FAC_RAC|chaîne de caractères|Statut FT patient|||
 |PAYS_ASS_PAT|chaîne de caractères|Pays d’assurance social|||
+|RNG_NAI|chaîne de caractères|Rang de naissance|||
+|RNG_BEN|chaîne de caractères|Rang du bénéficiaire|||
+|ETA_NUM_TWO|chaîne de caractères|Numéro FINESS de l’établissement (code géographique)|||
+|RNG_NAI_CTL|chaîne de caractères|Code retour contrôle « Rang de naissance »|||
+|RNG_BEN_CTL|chaîne de caractères|Code retour contrôle « Rang du bénéficiaire »|||

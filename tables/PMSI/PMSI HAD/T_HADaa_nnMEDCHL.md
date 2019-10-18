@@ -2,8 +2,6 @@
 
 Fich comp Médicament coûteux hors liste en sus et hors ATU
 
-Champ : Public et Privé
-
 
 ## Modèle de données
 

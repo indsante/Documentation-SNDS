@@ -2,8 +2,6 @@
 
 Table Molécules onéreuses (fichier COMP)
 
-Champ : Public
-
 
 ## Modèle de données
 
@@ -26,3 +24,4 @@ Champ : Public
 |TOP_UCD_AUTO|chaîne de caractères|Top transcodage UCD13 auto|||
 |UCD_UCD_COD|chaîne de caractères|Code UCD|||
 |COD_LES|chaîne de caractères|Code indication des spécialités pharmaceutiques inscrites sur la liste en sus|||
+|UCD_COD|chaîne de caractères|Code UCD|||

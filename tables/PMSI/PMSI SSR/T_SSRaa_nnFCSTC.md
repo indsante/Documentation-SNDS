@@ -2,8 +2,6 @@
 
 ACE Honoraire
 
-Champ : Public
-
 
 ## Modèle de données
 

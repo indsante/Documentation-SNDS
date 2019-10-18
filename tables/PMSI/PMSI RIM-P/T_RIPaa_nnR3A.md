@@ -2,8 +2,6 @@
 
 Résumé par acte ambulatoire anonymisé
 
-Champ : Public (et qq privé)
-
 - Clé primaire : `ETA_NUM_EPMSI, ORD_NUM, SEJ_IDT`
 
 ## Modèle de données
@@ -36,3 +34,4 @@ Champ : Public (et qq privé)
 |ETB_SAN_AUTOR|chaîne de caractères|Indicateur FINESS géographique sans autorisation|||
 |DGN_PAL|chaîne de caractères|Diagnostic principal ou motif de prise en charge principale|||
 |NBR_DGN|nombre réel|Nombre de diagnostics et facteurs associés|||
+|NAT_PEC|chaîne de caractères|Nature de prise en charge|||

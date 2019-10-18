@@ -2,8 +2,6 @@
 
 ACE NIR/date
 
-Champ : Public
-
 - Clé primaire : `ETA_NUM, SEQ_NUM`
 
 ## Modèle de données
@@ -20,11 +18,11 @@ Champ : Public
 |SEJ_NUM|chaîne de caractères|N° de séjour|||
 |SEQ_NUM|chaîne de caractères|N° séquentiel|||
 |ENT_DAT|chaîne de caractères|Date d'entrée|||
-|SOR_DAT|chaîne de caractères|Date de sortie |||
+|SOR_DAT|chaîne de caractères|Date de sortie|||
 |EXE_SOI_AMD|chaîne de caractères|Date d'entrée au format année + mois|||
 |EXE_SOI_AMF|chaîne de caractères|Date de sortie au format année + mois|||
 |EXE_SOI_DTD|date|Date d'entrée|||
-|EXE_SOI_DTF|date|Date de sortie |||
+|EXE_SOI_DTF|date|Date de sortie|||
 |RNG_BEN|chaîne de caractères|Rang de bénéficiaire|||
 |RNG_NAI|chaîne de caractères|Rang de naissance|||
 |RAC_MNT_PAT_RET|chaîne de caractères|Code retour contrôle « Montant total du séjour facturé au patient «|||

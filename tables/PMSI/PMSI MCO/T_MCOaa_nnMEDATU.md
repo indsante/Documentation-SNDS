@@ -2,8 +2,6 @@
 
 Fich comp médicament soumis à autorisation temporaire d'utilisation
 
-Champ : Public et Privé
-
 
 ## Modèle de données
 
@@ -24,3 +22,4 @@ Champ : Public et Privé
 |SEJ_NBR|nombre réel|Nombre de séjours impliqués|||
 |TOP_UCD_AUTO|chaîne de caractères|Top transcodage UCD13 auto|||
 |UCD_UCD_COD|chaîne de caractères|Code UCD|||
+|UCD_COD|chaîne de caractères|Code UCD|||
