@@ -110,10 +110,10 @@ AND ENT_MOD<>'0' and SOR_MOD<>'0'
 AND TYP_GEN_RSA = '0' 
 ```
 
-Toutes les variables de filtres présentées se trouvent dans la table des séjours `t_mcoANNEE.b` sous ORAVUE. Pour connaitre le montant dépensé par le patient, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE et la variable `MNT_TOT_AM`. Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de dépassements à l'hôpital public.
+Toutes les variables de filtres présentées se trouvent dans la table des séjours `t_mcoANNEE.b` sous ORAVUE. Pour connaitre le montant dépensé par le patient, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE. Cette table contient une ligne par ACE (valorisé ou non). La variable de montant est `MNT_TOT_AM`. Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de dépassements à l'hôpital public.
 Pour joindre les deux tables il faut passer par la table de chainage patients (`t_mcoANNEE.c` toujours sous ORAVUE).
 
-Les dépenses d'actes et consultations externes (ACE) se trouvent dans la table de valorisation des ACE sous `ORAVUE.t_mcoANNEE.valoace`. La variable de montant est `mnt_br`. En effet, il s'agit de la base de remboursement de la sécurité sociale car il n'existe pas de dépassements sur les ACE. 
+Les dépenses d'actes et consultations externes (ACE) des établissements publics et ESPIC se trouvent dans la table de valorisation des ACE sous `ORAVUE.t_mcoANNEE.valoace`. Elle contient la valorisation totale ainsi le détail de valorisation par prestation (ATU, FFM, Dialyse, SE, FTN, NGAP, CCAM, DM Externe). La variable de montant est `mnt_br`, soit la base de remboursement de la sécurité sociale. En effet, comme évoqué précédemment, il n'existe pas de dépassements à l'hôpital public. 
 La table patients correspondante est `t_mcoANNEE.cstc`.
 
 
@@ -122,6 +122,7 @@ La table patients correspondante est `t_mcoANNEE.cstc`.
 
 Les séjours en cliniques privées sont facturés directement à l’Assurance Maladie ce qui garantit l’exhaustivité des remontées d’information sur ce champ.
 Cela concerne toutes les prestations en établissement privé, que l'établissement soit de nature non lucratif ou lucratif.
+Le PMSI contient des tables de facturation des séjours privés mais il n’est pas certain qu’elles correspondent aux montants réellement facturés et remboursés par l’assurance maladie.
 Il est donc recommandé d'analyser les dépenses des cliniques privées dans le DCIR ou le DCIRS plutôt que dans le PMSI. 
 
 ### Les filtres à poser avant d'analyser les établissements privés
@@ -184,6 +185,7 @@ la variable `DDP_GDE_COD` qui nous renseigne sur la discipline de prestations.
 Pour repérer la HAD, il faut considérer les prestations pour lesquelles `ETE_CAT_COD` est égal à 127 ou 422 
 (et voir si cela correspond à `DDP_GDE_COD` égal à 10 – indiqué comme soins à domicile, à discuter).
 
+Il n'existe pas d'activité externe en établissement privé, elle est considérée comme du soin de ville libéral.
 
 ### Etudier le secteur médico-social et handicap
 
@@ -200,7 +202,7 @@ Auteurs: Kristel Jacquier, Raphaële Adjerad
 
 *Sources* 
 -	« Maquette Stat mens Etablissements prives – version du 28 mai 2010 Regles de gestion du Regime General pour constituer la statistique mensuelle pour le suivi des depenses des etablissements prives » disponible sur le portail SNDS (Dossiers publics>SNIIRAM>_Documentation SNIIRAM- SNDS> Documentation>maquettes Stat Mens>ancienne maquette stat mens)
--	Formation DCIRS
+-	Supports de Formation DCIRS et PMSI
 -	Code de Jérôme Brocca (ARS)
 -	Code de Mathis Haradji (DSS)
 
