@@ -116,7 +116,6 @@ Pour joindre les deux tables il faut passer par la table de chainage patients (`
 Les dépenses d'actes et consultations externes (ACE) des établissements publics et ESPIC se trouvent dans la table de valorisation des ACE sous `ORAVUE.t_mcoANNEE.valoace`. Elle contient la valorisation totale ainsi le détail de valorisation par prestation (ATU, FFM, Dialyse, SE, FTN, NGAP, CCAM, DM Externe). La variable de montant est `mnt_br`, soit la base de remboursement de la sécurité sociale. En effet, comme évoqué précédemment, il n'existe pas de dépassements à l'hôpital public. 
 La table patients correspondante est `t_mcoANNEE.cstc`.
 
-
  
 ## Les établissements privés dans le DCIR et le DCIRS
 
@@ -141,11 +140,9 @@ Type d’enveloppe 0,1,2,3,9 : 9=valeur inconnue, 1 à 3= Prestations légales d
  
 *Note* : Parmi les prestations non prises en compte par le RG on peut trouver des IJ paternité que le RG paie pour la CAF. 
 
--	`ASU_NAT` = 10,30,40 : on sélectionne les prestations qui correspondent aux risques maladie, maternité et AT/MP.
-On exclut décès et invalidité ici. 
-Maladie, maternité, AT/MP, décès et invalidité sont les 5 risques pris en charge par l’assurance maladie.
-Si les caisses ont effectué des remboursements pour d’autre risques, ceux-ci ne sont pas censés être pris en charge. 
-Par exemple code 22 SOINS AUX INVALIDES DE GUERRE (CNMSS). 
+-	`ASU_NAT` = 10,30,40 : Maladie, maternité, AT/MP, décès et invalidité sont les 5 risques pris en charge par l’assurance maladie.
+Si les caisses ont effectué des remboursements pour d’autres risques, ceux-ci ne sont pas censés être pris en charge. Par exemple la nature d'assurance 22 qui correspond à des soins aux invalides de guerre (CNMSS).
+On sélectionne les prestations qui correspondent aux risques maladie (10), maternité (30) et AT/MP (40) et on exclut décès et invalidité. 
 
 -	`ETE_TYP_COD` IN (4, 5, 6, 7, 8, 9) : ce filtre nous permet de se concentrer sur les prestations qui ont lieu dans un établissement privé.
 En effet, la table de nomenclature `ETE_TYE_V` nous permet de sélectionner ainsi les établissements privés lucratifs conventionnés, les établissements
@@ -154,16 +151,29 @@ non conventionnés, les OQN non lucratifs conventionnés et non conventionnés.
 
 *Note* : RA : ajouter explication sur etab OQN
 
-
--	Catégorie de l’établissement exécutant : On exclut les centres de santé . 
-
-ETE_CAT_COD NOT IN (125, 130, 132, 133, 134, 142, 223, 224, 228, 230, 268, 269, 289, 297, 347, 413, 414, 433, 438, 439,700) 
+-	 `ETE_CAT_COD` NOT IN (125, 130, 132, 133, 134, 142, 223, 224, 228, 230, 268, 269, 289, 297, 347, 413, 414, 433, 438, 439,700). 
+On filtre sur la catégorie de l’établissement exécutant afin d'exclure les centres de santé.
 
 -> RA ; pourquoi ? On pourrait vouloir garder les csanté 
 
 ### Ventiler les établissements privés selon la nature juridique
 
 Comme précisé ci-dessus, on peut construire cette ventilation avec la variable `ETE_TYP_COD`.
+
+|  ETB_TYP_COD |ETB_PPU_SEC   | ETB_TYP_LIB  |
+|---|---|---|
+| 99 | 9 | VALEUR INCONNUE  |
+| 0 | 2 | AMBULATOIRE SECTEUR LIBERAL  |
+| 1 | 1 | PUBLIC PROPREMENT DIT  |
+| 2 | 1 | PSPH PRIVE A BUT NON LUCRATIF PARTICIPANT AU SERVICE PUBLIC HOSPITALIER  |
+| 3 | 1 | EX PJP AYANT OPTE POUR LE BG  |
+| 4 | 2 | PRIVE LUCRATIF CONVENTIONNE  |
+| 5 | 2 | PRIVE NON LUCRATIF CONVENTIONNE  |
+| 6 | 2 | PRIVE NON LUCRATIF CONVENTIONNE  |
+| 7 | 2 | PRIVE NON LUCRATIF NON CONVENTIONNE  |
+| 8 | 2 | OQN NON LUCRATIF CONVENTIONNE  |
+| 9 | 2 | OQN LUCRATIF CONVENTIONNE  |
+
 
 ### Ventiler les établissements privés selon la discipline (PSY, SSR, MCO et HAD)
 
