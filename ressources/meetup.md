@@ -19,27 +19,32 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
 
 [Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/259764548/)
 
-- Documentation ouverte du SNDS sur GitLab ([documentation-snds.health-data-hub.fr](https://documentation-snds.health-data-hub.fr/))
-    - Présenté par Anne Cuerq de l'INDS et Pierre-Alain Jachiet de la DREES
-    - Support de présentation
-    [GSlides](https://docs.google.com/presentation/d/1WvC4879Exta3Iv5vT9p-aHdzEjl4vy4ElymcNYWDXCQ/edit#slide=id.g54f4ce99ab_0_5),
-    [pdf](../files/presentations/meetup-snds1/2019.03.27_INDS_DREES_Documentation_SNDS_MPL-2.0.pdf)
+### Documentation ouverte
+- Titre : Documentation ouverte du SNDS sur GitLab 
+- Lien : [documentation-snds.health-data-hub.fr](https://documentation-snds.health-data-hub.fr/)
+- Présenté par : Anne Cuerq (INDS) et Pierre-Alain Jachiet (DREES)
+- Support de présentation :
+[GSlides](https://docs.google.com/presentation/d/1WvC4879Exta3Iv5vT9p-aHdzEjl4vy4ElymcNYWDXCQ/edit#slide=id.g54f4ce99ab_0_5),
+[pdf](../files/presentations/meetup-snds1/2019.03.27_INDS_DREES_Documentation_SNDS_MPL-2.0.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JpUbZUWwEt4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
-- Schéma formel et Dictionnaire interactif du SNDS ([drees.shinyapps.io/dico-snds](https://drees.shinyapps.io/dico-snds/))
-    - Présenté par Matthieu Doutreligne et Viktor Jarry de la DREES
-    - Support de présentation
-    [GSlides](https://docs.google.com/presentation/d/1XMGUJKcxy1zqfII-EtQDbmR2tljj6A8NIyEiEKJmz-Q/edit#slide=id.g54533cc6ad_0_0), 
-    [pdf](../files/presentations/meetup-snds1/2019.03.27_DREES_schema_dico_snds_MPL-2.0.pdf)
+### Schéma formel et Dictionnaire interactif 
+- Titre : Schéma formel et Dictionnaire interactif du SNDS 
+- Lien : [drees.shinyapps.io/dico-snds](https://drees.shinyapps.io/dico-snds/)
+- Présenté par : Matthieu Doutreligne et Viktor Jarry (DREES)
+- Support de présentation :
+[GSlides](https://docs.google.com/presentation/d/1XMGUJKcxy1zqfII-EtQDbmR2tljj6A8NIyEiEKJmz-Q/edit#slide=id.g54533cc6ad_0_0), 
+[pdf](../files/presentations/meetup-snds1/2019.03.27_DREES_schema_dico_snds_MPL-2.0.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aAeAB301zzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- Appariements entre les cohortes et le SNDS - zoom sur un cas concret
-    - Présenté par Mehdi Gabbas et Brice Dufresne de la CNAM
-    - Support de présentation
-     [pptx](../files/presentations/meetup-snds1/2019.03.27_CNAM_Possibilités_Appariement_SNDS_MPL-2.0.pptx),
-    [pdf](../files/presentations/meetup-snds1/2019.03.27_CNAM_Possibilités_Appariement_SNDS_MPL-2.0.pdf)
+### Appariements 
+- Ttire : Appariements entre les cohortes et le SNDS - zoom sur un cas concret
+- Présenté par : Mehdi Gabbas et Brice Dufresne ([Cnam](../glossaire/Cnam.md))
+- Support de présentation :
+[pptx](../files/presentations/meetup-snds1/2019.03.27_CNAM_Possibilités_Appariement_SNDS_MPL-2.0.pptx),
+[pdf](../files/presentations/meetup-snds1/2019.03.27_CNAM_Possibilités_Appariement_SNDS_MPL-2.0.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8M12owyEst4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -47,31 +52,34 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
 
 [Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/261637008/)
 
-- 1990 - 2019 : du rêve à la réalité, le regard d'un clinicien sur le SNDS
-  - Présenté par le Dr Bertrand Lukacs (APHP)
-  - Support de présentation
-    [ppt](../files/presentations/meetup-snds2/2019.06.12_Lukacs_SNDS-du-reve-a-la-realite_MPL-2.0.ppt),
-    [pdf](../files/presentations/meetup-snds2/2019.06.12_Lukacs_SNDS-du-reve-a-la-realite_MPL-2.0.pdf)
+### 1990 - 2019 : du rêve à la réalité
+- Titre : 1990 - 2019 : du rêve à la réalité, le regard d'un clinicien sur le SNDS
+- Présenté par : le Dr Bertrand Lukacs (APHP)
+- Support de présentation :
+[ppt](../files/presentations/meetup-snds2/2019.06.12_Lukacs_SNDS-du-reve-a-la-realite_MPL-2.0.ppt),
+[pdf](../files/presentations/meetup-snds2/2019.06.12_Lukacs_SNDS-du-reve-a-la-realite_MPL-2.0.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xAbyRQW8KlU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- Application du Big Data sur les données du SNDS 
-  - Introduit par Emmanuel Bacry
-    - Directeur de recherche CNRS Université Paris Dauphine
-    - Directeur scientifique de l’INDS
-    - Responsable projets data-santé à Polytechnique
-  - Présenté par Youcef Sebiat (Chef de projet data-santé à Polytechnique)
-  - Support de présentation
-    [GSlides](https://docs.google.com/presentation/d/1QhqVp8tJvf4hKPF8zqSz7rE9oGhTzYpuQQwH2iP46co/edit?usp=sharing),
-    [pdf](../files/presentations/meetup-snds2/2019.06.12_CMAP-XDataInitiative-CNAM_Application-Big-Data-sur-le-SNDS_MPL-2.0.pdf)
+### Application du Big Data 
+- Titre : Application du Big Data sur les données du SNDS 
+- Introduit par : Emmanuel Bacry
+  - Directeur de recherche CNRS Université Paris Dauphine
+  - Directeur scientifique de l’INDS
+  - Responsable projets data-santé à Polytechnique
+- Présenté par : Youcef Sebiat (Chef de projet data-santé à Polytechnique)
+- Support de présentation :
+[GSlides](https://docs.google.com/presentation/d/1QhqVp8tJvf4hKPF8zqSz7rE9oGhTzYpuQQwH2iP46co/edit?usp=sharing),
+[pdf](../files/presentations/meetup-snds2/2019.06.12_CMAP-XDataInitiative-CNAM_Application-Big-Data-sur-le-SNDS_MPL-2.0.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YsGsgD_NEUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
-- Temporalité de la restitution des données dans le SNDS – Synthèse pour les analyses longitudinales 
-  - Présenté par Cedric Collin (Pharmacoépidemiologiste chez IQVIA)
-  - Support de présentation
-    [pptx](../files/presentations/meetup-snds2/2019.06.12_IQVIA_Temporalite-restitution-SNDS_MPL-2.0.pptx),
-    [pdf](../files/presentations/meetup-snds2/2019.06.12_IQVIA_Temporalite-restitution-SNDS_MPL-2.0.pdf)
+### Temporalité des données 
+- Titre : Temporalité de la restitution des données dans le SNDS – Synthèse pour les analyses longitudinales 
+- Présenté par : Cedric Collin (Pharmacoépidemiologiste chez IQVIA)
+- Support de présentation :
+[pptx](../files/presentations/meetup-snds2/2019.06.12_IQVIA_Temporalite-restitution-SNDS_MPL-2.0.pptx),
+[pdf](../files/presentations/meetup-snds2/2019.06.12_IQVIA_Temporalite-restitution-SNDS_MPL-2.0.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-wGL753gCrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -80,26 +88,30 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
 
 [Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/264156369/)
 
-- Espace ANSM, rubrique à brac et boîte à outils
-  - Présenté par Thien le Tri (ANSM Epi-Phare)
-  - Support de présentation
-    [pptx](../files/presentations/meetup-snds3/2019.09.19_EpiPhare_Espace-ANSM_MPL-2.0.pptx),
-    [pdf](../files/presentations/meetup-snds3/2019.09.19_EpiPhare_Espace-ANSM_MPL-2.0.pdf)
+### Espace ANSM
+- Titre : Espace ANSM, rubrique à brac et boîte à outils
+- Présenté par : Thien le Tri (ANSM Epi-Phare)
+- Support de présentation :
+[pptx](../files/presentations/meetup-snds3/2019.09.19_EpiPhare_Espace-ANSM_MPL-2.0.pptx),
+[pdf](../files/presentations/meetup-snds3/2019.09.19_EpiPhare_Espace-ANSM_MPL-2.0.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CmeVbjNtLNQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- La boîte à outils du data scientist pour analyser les données du SNDS
-  - Présenté par Martin Prodel (HEVA)
-  - Support de présentation
-    [pptx](../files/presentations/meetup-snds3/2019.09.19_Heva_Boite-a-outil-data-scientist_MPL-2.0.pptx),
-    [pdf](../files/presentations/meetup-snds3/2019.09.19_Heva_Boite-a-outil-data-scientist_MPL-2.0.pdf)
+### Boîte à outils du data scientist 
+
+- Titre : La boîte à outils du data scientist pour analyser les données du SNDS
+- Présenté par : Martin Prodel (HEVA)
+- Support de présentation :
+[pptx](../files/presentations/meetup-snds3/2019.09.19_Heva_Boite-a-outil-data-scientist_MPL-2.0.pptx),
+[pdf](../files/presentations/meetup-snds3/2019.09.19_Heva_Boite-a-outil-data-scientist_MPL-2.0.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ytpi4PRXYZc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
-- Présentation du modèle de données commun OMOP, et du travail de conversion réalisé par le groupe interChus, qui mène à l'organisation d'un datathon multi-centre
-  - Présenté par Nicolas Paris (APHP) et Matthieu Doutreligne (DREES)
-  - Support de présentation
-    [pptx](../files/presentations/meetup-snds3/2019.09.19_APHP_DREES_OMOP-datathon_MPL-2.0.pdf)
+### Datathon OMOP 
+- Titre : Présentation du modèle de données commun OMOP, et du travail de conversion réalisé par le groupe interChus, qui mène à l'organisation d'un datathon multi-centre
+- Présenté par : Nicolas Paris (APHP) et Matthieu Doutreligne (DREES)
+- Support de présentation :
+[pptx](../files/presentations/meetup-snds3/2019.09.19_APHP_DREES_OMOP-datathon_MPL-2.0.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ARhlmnBi_to" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    
