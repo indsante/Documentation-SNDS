@@ -154,7 +154,9 @@ non conventionnés, les OQN non lucratifs conventionnés et non conventionnés.
 -	 `ETE_CAT_COD` NOT IN (125, 130, 132, 133, 134, 142, 223, 224, 228, 230, 268, 269, 289, 297, 347, 413, 414, 433, 438, 439,700). 
 On filtre sur la catégorie de l’établissement exécutant afin d'exclure les centres de santé.
 
--> RA ; pourquoi ? On pourrait vouloir garder les csanté 
+On exclut les centres de santé car ceux-ci sont catégorisés en soins de ville comme dans les Comptes de la Santé
+(https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/panoramas-de-la-drees/article/les-depenses-de-sante-en-2018-resultats-des-comptes-de-la-sante-edition-2019)
+
 
 ### Ventiler les établissements privés selon la nature juridique
 
@@ -195,7 +197,8 @@ la variable `DDP_GDE_COD` qui nous renseigne sur la discipline de prestations.
 Pour repérer la HAD, il faut considérer les prestations pour lesquelles `ETE_CAT_COD` est égal à 127 ou 422 
 (et voir si cela correspond à `DDP_GDE_COD` égal à 10 – indiqué comme soins à domicile, à discuter).
 
-Il n'existe pas d'activité externe en établissement privé, elle est considérée comme du soin de ville libéral.
+Il n'existe pas d'activité externe en établissement privé lucratif, elle est considérée comme du soin de ville libéral. 
+Il y a de l'activité externe pour les établissements privés non lucratifs d'intérêt collectif (les ESPIC).
 
 ### Etudier le secteur médico-social et handicap
 
