@@ -131,16 +131,6 @@ Avant d'analyser ce champ dans le DCIR ou le DCIRS, les filtres à poser sont le
 
 -	`DPN_QLF NE 71` : on exclut les remontées d'information "pour information (soins externes)", afin d'écart les ACE à l'hôpital public.
 
--	`CPT_ENV_TYP` =0,1,2,3,9  (type d’enveloppe ONDAM)
-
--> RA: pour moi la variable est `RGO_ENV_TYP` et la nomenclature elle a pour variable `CPT_ENV_TYP`,
-on peut être préciser qu'il faut mettre ce filtre pour retrouver les statistiques mensuelles mais
-pas forcément pour étudier les etab privés
-
-Type d’enveloppe 0,1,2,3,9 : 9=valeur inconnue, 1 à 3= Prestations légales de l’Assurance Maladie. 
- 
-*Note* : Parmi les prestations non prises en compte par le RG on peut trouver des IJ paternité que le RG paie pour la CAF. 
-
 -	`ASU_NAT` = 10,30,40 : Maladie, maternité, AT/MP, décès et invalidité sont les 5 risques pris en charge par l’assurance maladie.
 Si les caisses ont effectué des remboursements pour d’autres risques, ceux-ci ne sont pas censés être pris en charge. Par exemple la nature d'assurance 22 qui correspond à des soins aux invalides de guerre (CNMSS).
 On sélectionne les prestations qui correspondent aux risques maladie (10), maternité (30) et AT/MP (40) et on exclut décès et invalidité. 
