@@ -185,8 +185,8 @@ la variable `DDP_GDE_COD` qui nous renseigne sur la discipline de prestations.
 | 2 | chirurgie | 
 | 3 | obstétrique |
 
-Pour repérer la HAD, il faut considérer les prestations pour lesquelles  `DDP_GDE_COD` égal à 10 
-
+Demeure le problème d'identifier la HAD qui ne se repère pas bien avec ETE_CAT_COD = 127, 422 (meme si c'est une piste) et pas non plus 
+avec DDP_GDE_COD = 10
 
 Il n'existe pas d'activité externe en établissement privé lucratif, elle est considérée comme du soin de ville libéral. 
 Il y a de l'activité externe pour les établissements privés non lucratifs d'intérêt collectif (les ESPIC).
