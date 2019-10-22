@@ -50,20 +50,22 @@ On peut créer une variable qui permet d’obtenir le lieu d’exécution de la 
 d’un établissement en public et privé. 
 
 Si la variable `ETB_EXE_FIN` est égal à 0, aucun établissement n’est lié à la prestation, alors il s’agit d’une prestation de ville. 
+
+Parmi les soins associés à un FINESS, certains peuvent être classés dans les soins de ville. 
+La variable `ETB_CAT_RG1` du référentiel des établissements (`IR_CET_V`) permet de regrouper les établissements (`ETB_CAT_COD` offre une nomenclature plus fine). 
+Si la variable de code de regroupement de l’établissement `ETB_CAT_RG1` (plus exactement les deux premiers caractères de cette variable) 
+est égale à 21 ou 22, alors il s’agit de prestations que l'on peut classer en "ville", à savoir les cabinets libéraux et autres établissements de soins et de prévention.
+
+-> RA : attention dans 21, il y a l'item établissements relevant de la loi hospitalière
+
 La variable `PRS_PPU_SEC` nous permet d'avoir de l'information sur la caractéristique privé ou public de la prestation. 
 La variable `PRS_PPU_SEC` est construite comme suit. L’établissement est public :
 
     - 	si le type d’établissement est public ( `ETE_TYP_COD` vaut 1, 2 ou 3]) et 
-    - 	si le numéro  du PS exécutant n’est pas renseigné (`PFS_EXE_NUM` est manquant ou vaut ‘00000000’
+    - 	si le numéro  du PS exécutant n’est pas renseigné (`PFS_EXE_NUM` est manquant ou vaut ‘00000000’)
     -	sinon l’établissement est privé 
 
-Si la variable de code de regroupement de l’établissement `ETB_CAT_RG1` (plus exactement les deux premiers caractères de cette variable) 
-est égale à 21 ou 22, alors il s’agit de prestations que l'on peut classer en "ville" 
-(cabinets libéraux et autres établissements de soins et de prévention). 
-
--> RA : attention dans 21, il y a l'item établissements relevant de la loi hospitalière
-
-Sinon, si le code `PRS_PPU_SEC` est égal à 1 alors on peut classer la prestation en lieu d'exécution "Public".
+Si le code `PRS_PPU_SEC` est égal à 1 alors on peut classer la prestation en lieu d'exécution "Public".
 Sinon les prestations sont classées en lieu d’exécution "Prive".
 
 Pour résumer en pseudo-code:
@@ -76,15 +78,14 @@ ELSE :
     lieu_exec = "prive"
 ```
 
-Pour avoir plus de détail sur la catégorie juridique de l'établissement, on peut se référer à la variable `ETE_TYP_COD` 
-qui est le code du type de l'établissement exécutant. 
-Dans le DCIR, il faut aller chercher cette variable dans la table `ER_ETE_F` qui n'est pas la table centrale; dans le DCIRS
-cette information a été rappatriée dans la table centrale `NS_PRS_F` (table de nomenclature `IR_TYE_V`).
+Pour avoir plus de détail sur la catégorie juridique de l'établissement, on peut se référer à la variable `ETE_TYP_COD` qui est le code du type de l'établissement exécutant. 
+Dans le DCIR, il faut aller chercher les variables `PRS_PPU_SEC` et `ETE_TYP_COD` dans la table `ER_ETE_F` qui n'est pas la table centrale; dans le DCIRS ces informations ont été rappatriées dans la table centrale `NS_PRS_F` (table de nomenclature `IR_TYE_V`).
+
 
 Un poste particulier est à dégager qui peut concerner l'hôpital public et qui devrait être retenus avec les soins de ville, 
 à savoir les **rétrocessions**.
 Les rétrocessions correspondent à de la pharmacie hospitalière en établissement. Le code prestation `PRS_NAT_REF` est parmi 
-3317, 3318, 3319, 3321, 3351, 3352, 3353,3354,3355, 3356,3357, 3330 (table de valeur `IR_NAT_V`).
+3317, 3318, 3319, 3351, 3352, 3353,3354,3355, 3356,3357, 3330 (table de valeur `IR_NAT_V`).
 
 Lorsque l’on travaille sur les **soins de ville**, il est recommandé d’exclure les prestations en établissements publics qui ne sont pas des rétrocessions.
 On peut donc exclure les prestations pour lesquels `PRS_PPU_SEC` == 1 sauf si la `PRS_NAT_REF` correspond à de la rétrocession.
