@@ -164,6 +164,10 @@ A savoir : Le dénombrement des professionnels de santé diffusé par l'Assuranc
 Dans le portail SNDS, ces tables, dont le nom commence par DENB\_PS ou DNB\_PS, se trouvent dans la bibliothèque SAS « RFCOMMUN». 
 Elles sont disponibles par année et par zone géographique (bassin de vie, commune, zone urbaine sensible (ZUS), zone franche urbaine (ZFU), IRIS et quartier prioritaire de la politique de la ville (QPV).
 
+## Références
 ::: tip Crédits
 Fiche réalisée par Catherine Bisquay (ARS île de France) [document source](../files/ARS/IDF/2019_ARSIF_Numero-Professionnel-Sante_MPL-2.0.docx)
+:::
+::: tip Autre ressource
+Une autre fiche sur la thématique des professionnels de santé a été publié par la Cnam et est [disponible ici](../files/Cnam/2019_10_Cnam_SNDS-Fiches-Thematiques-PS_MLP-2.0.pdf)
 :::
