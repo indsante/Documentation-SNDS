@@ -19,10 +19,6 @@ Archive comprenant
 - Le site [snds.gouv](https://www.snds.gouv.fr/SNDS/Accueil) 
 pour des informations générales.
 
-- Le [Wiki SNIIRAM](http://open-data-assurance-maladie.ameli.fr/wiki-sniiram/index.php/Accueil_-_Dictionnaire_de_donn%C3%A9es_SNIIRAM) 
-et notamment sa [FAQ](http://open-data-assurance-maladie.ameli.fr/wiki-sniiram/index.php/Questions-R%C3%A9ponses),
-édité par la Cnam.
-
 - Le [site de l'ATIH](https://www.atih.sante.fr)
 pour des détails sur le PMSI
     - partie [information médicale](https://www.atih.sante.fr/domaines-d-activites/information-medicale) du site
@@ -35,7 +31,9 @@ pour des détails sur la base médicale des causes de décès.
 
 - Une [cartographie des indicateurs de santé](http://dataviz.drees.solidarites-sante.gouv.fr/indicateurs_de_sante/) produite par la DREES,  décrite [ici](cartographie_indicateurs.md).
 
-- Le site open data du gouvernement : [data.gouv](https://www.data.gouv.fr) et la [partie dédiée à la santé](https://www.data.gouv.fr/fr/topics/sante-et-social/) avec notamment sur le profil de [l'assurance maladie](https://www.data.gouv.fr/fr/organizations/caisse-nationale-de-l-assurance-maladie-des-travailleurs-salaries/) qui répértorie tous les jeux de données open data de la Cnam.  
+- Le site open data du gouvernement : [data.gouv](https://www.data.gouv.fr) et la [partie dédiée à la santé](https://www.data.gouv.fr/fr/topics/sante-et-social/) avec notamment sur le profil de [l'assurance maladie](https://www.data.gouv.fr/fr/organizations/caisse-nationale-de-l-assurance-maladie-des-travailleurs-salaries/) qui répértorie tous les jeux de données open data de la Cnam. 
+
+- [Rubrique statistiques et publications](https://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/index.php) sur le site Ameli de la Cnam.
 
 
 ## Autres ressources disponibles sur ce site
