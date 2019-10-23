@@ -31,6 +31,8 @@ pour des détails sur le PMSI
 - Le [site du CépiDc](https://cepidc.inserm.fr/causes-medicales-de-deces/la-base-des-causes-medicales-de-deces)
 pour des détails sur la base médicale des causes de décès.
 
+- Les [publications](https://www.irdes.fr/recherche/publications.html) de l'[Irdes](../glossaire/Irdes.md), dont certaines concernent le SNDS
+
 - Une [cartographie des indicateurs de santé](http://dataviz.drees.solidarites-sante.gouv.fr/indicateurs_de_sante/) produite par la DREES,  décrite [ici](cartographie_indicateurs.md).
 
 - Le site open data du gouvernement : [data.gouv](https://www.data.gouv.fr) et la [partie dédiée à la santé](https://www.data.gouv.fr/fr/topics/sante-et-social/) avec notamment sur le profil de [l'assurance maladie](https://www.data.gouv.fr/fr/organizations/caisse-nationale-de-l-assurance-maladie-des-travailleurs-salaries/) qui répértorie tous les jeux de données open data de la Cnam.  
