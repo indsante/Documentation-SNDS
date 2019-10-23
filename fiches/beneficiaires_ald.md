@@ -335,6 +335,10 @@ Le contenu original de cette fiche provient du document [2019-04-08_DREES-ARS_B�
 Cette fiche s'appuie fortement sur la présentation partagée par la CNAM lors d'un comité utilisateurs partenaires intitulé « Referentiel_médicalisé_IR_IMB_R_présentationCNAM » et que l'on retrouve sur le portail BO.
 :::
 
+::: tip Autre source
+La Cnam a publié en octobre 2019 une [fiche sur les ALD](../files/Cnam/2019-10_Cnam_Programmes-SAS-ALD_MPL-2.0.doc).
+:::
+
 
 [^2] : L'absence du motif d'exonération au titre de l'ALD peut être dû à la présence d'un autre motif d'exonération qui a primé dans le codage. 
 Par exemple, l'exonération liée au statut de détenu _(régime)_ est prioritaire sur l'exonération ALD.
