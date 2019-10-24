@@ -100,7 +100,7 @@ Nous décrivons ici comment trouver les dépenses dans le PMSI MCO.
 
 Sur la partie séjour, les filtres à poser sont les suivants : 
 
-- Exclusion des FINESS géographiques APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) 
+- Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) 
 - Exclusion des séjours en erreur
 - Exclusion des prestations inter établissement
 - Exclusion des prestations pour lesquelles un résumé de séjour n'a pas été généré: la dialyse, l'activité externe des médecins salariés ou des FFM, ATU, SE (attention cependant, la variable TYP_GEN_RSA n'est disponible qu'à partir de 2015)
@@ -109,22 +109,38 @@ Le code SAS correspondant est le suivant :
 
 ```
 WHERE 
-ETA_NUM not in ('130780521', '130783236', '130783293', '130784234', '130804297','600100101', '750041543', '750100018', '750100042', '750100075', '750100083', '750100091', '750100109', '750100125', '750100166', '750100208', '750100216', '750100232', '750100273', '750100299' , '750801441', '750803447', '750803454', '910100015', '910100023', '920100013', '920100021', '920100039', '920100047', '920100054', '920100062', '930100011', '930100037', '930100045', '940100027', '940100035', '940100043', '940100050', '940100068', '950100016', '690783154', '690784137', '690784152', '690784178', '690787478', '830100558') 
+ETA_NUM not in ('130780521', '130783236', '130783293', '130784234', '130804297','600100101', '750041543', 
+'750100018', '750100042', '750100075', '750100083', '750100091', '750100109', '750100125', '750100166', 
+'750100208', '750100216', '750100232', '750100273', '750100299' , '750801441', '750803447', '750803454', 
+'910100015', '910100023', '920100013', '920100021', '920100039', '920100047', '920100054', '920100062', 
+'930100011', '930100037', '930100045', '940100027', '940100035', '940100043', '940100050', '940100068', 
+'950100016', '690783154', '690784137', '690784152', '690784178', '690787478', '830100558') 
 AND GRG_GHM not like '90%' 
 AND ENT_MOD<>'0' and SOR_MOD<>'0'
 AND TYP_GEN_RSA = '0' 
 ```
 
-Toutes les variables de filtres présentées se trouvent dans la table des séjours `t_mcoANNEE.b` sous ORAVUE. Pour connaitre le montant dépensé par le patient, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE. Cette table contient une ligne par ACE (valorisé ou non). La variable de montant est `MNT_TOT_AM`. Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de dépassements à l'hôpital public.
+Toutes les variables de filtres présentées se trouvent dans la table des séjours `t_mcoANNEE.b` sous ORAVUE. 
+
+Pour connaitre le montant dépensé par le patient, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE. 
+La variable de montant est `MNT_TOT_AM`. On considère `MNT_TOT_AM` de la table `valo` corrigée par l'ATIH et non la variable
+`TOT_MNT_AM` de la table `STC` qui est l'information brute des établissements. 
+
+Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de dépassements à l'hôpital public.
+
 Pour joindre les deux tables il faut passer par la table de chainage patients (`t_mcoANNEE.c` toujours sous ORAVUE).
 
 Les dépenses d'actes et consultations externes (ACE) des établissements publics et ESPIC se trouvent dans la table de valorisation des ACE 
-sous `ORAVUE.t_mcoANNEE.valoace`. Elle contient la valorisation totale ainsi le détail de valorisation par prestation (ATU, FFM, Dialyse,
+sous `ORAVUE.t_mcoANNEE.valoace`. Cette table contient une ligne par ACE (valorisé ou non). Elle contient la valorisation totale ainsi le détail de valorisation par prestation (ATU, FFM, Dialyse,
 SE, FTN, NGAP, CCAM, DM Externe). La variable de montant est `mnt_br`, soit la base de remboursement de la sécurité sociale. En effet, 
 comme évoqué précédemment, il n'existe pas de dépassements à l'hôpital public. 
 La table patients correspondante est `t_mcoANNEE.cstc`.
 
- 
+HAD, PSY et SSR  public
+To be continued
+
+
+
 ## Les établissements privés dans le DCIR et le DCIRS
 
 Les séjours en cliniques privées sont facturés directement à l’Assurance Maladie ce qui garantit l’exhaustivité des remontées d’information sur ce champ.
@@ -154,6 +170,12 @@ On exclut les centres de santé car ceux-ci sont catégorisés en soins de ville
 (https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/panoramas-de-la-drees/article/les-depenses-de-sante-en-2018-resultats-des-comptes-de-la-sante-edition-2019)
 
 
+- `MFT_COD` NOT IN (4,6). On filtre sur le motif du code de fixation des tarifs. On exclut ainsi ETABLISSEMENTS PRIVES A BUT NON LUCRATIF PARTICIPANT AU SERVICE PUBLIC HOSPITALIER (PSPH)
+et ETABLISSEMENT DE SANTE ET MEDICAUX SOCIAUX NON CONVENTIONNE AVEC L AIDE SOCIALE ET NON CONVENTIONNE AVEC L ASSURANCE MALADIE (TARIF D AUTORITE). Voir
+nomenclature pour plus de précisions sur le filtre sur le motif du code de fixation des tarifs à appliquer. 
+
+
+
 ### Ventiler les établissements privés selon la nature juridique
 
 Comme précisé ci-dessus, on peut construire cette ventilation avec la variable `ETE_TYP_COD`.
@@ -171,6 +193,10 @@ Comme précisé ci-dessus, on peut construire cette ventilation avec la variable
 | 7 | 2 | PRIVE NON LUCRATIF NON CONVENTIONNE  |
 | 8 | 2 | OQN NON LUCRATIF CONVENTIONNE  |
 | 9 | 2 | OQN LUCRATIF CONVENTIONNE  |
+
+OQN : Objectif Quantifié National 
+
+Conventionné
 
 
 ### Ventiler les établissements privés selon la discipline (PSY, SSR, MCO et HAD)
