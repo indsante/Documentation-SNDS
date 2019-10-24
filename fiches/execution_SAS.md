@@ -15,7 +15,7 @@ Le paramètre « **nombre de sessions simultanées** » détermine la ressource 
 Un incident relatif à une saturation des sessions se traduit par le message suivant :
 
 ::: danger
-ORACLE connection error: ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+*ORACLE connection error: ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit*
 :::
 
 Solution : Se limiter à 3 requêtes simultanées (lancées indifféremment en direct ou via SAS Asynchrone).
@@ -32,7 +32,7 @@ Un utilisateur ne respectant pas les règles d'interrogation peut saturer l'espa
 Un incident relatif à une saturation de l'espace temporaire se traduit par le message suivant :
 
 ::: danger
-ORA-01652: impossible d'étendre le segment temporaire de .... dans le tablespace TEMPO_USERSAS
+*ORA-01652: impossible d'étendre le segment temporaire de .... dans le tablespace TEMPO_USERSAS*
 :::
 
 Solution : Bien vérifier la qualité de sa requête avant de l'exécuter, optimiser les filtres, attendre que les requêtes très consommatrices soient terminées (des actions sont entreprises dans ce sens par les informaticiens).
