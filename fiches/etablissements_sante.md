@@ -160,10 +160,9 @@ Avant d'analyser ce champ dans le DCIR ou le DCIRS, les filtres à poser sont le
 Si les caisses ont effectué des remboursements pour d’autres risques, ceux-ci ne sont pas censés être pris en charge. Par exemple la nature d'assurance 22 qui correspond à des soins aux invalides de guerre (CNMSS).
 On sélectionne les prestations qui correspondent aux risques maladie (10), maternité (30) et AT/MP (40) et on exclut décès et invalidité. 
 
--	`ETE_TYP_COD` IN (4, 5, 6, 7, 8, 9) : ce filtre nous permet de se concentrer sur les prestations qui ont lieu dans un établissement privé.
-En effet, la table de nomenclature `ETE_TYE_V` nous permet de sélectionner ainsi les établissements privés lucratifs conventionnés, les établissements
-privés lucratifs non conventionnés, les établissements privés non lucratifs conventionnés, les établissements privés non lucratifs
-non conventionnés, les OQN non lucratifs conventionnés et non conventionnés.
+-	`ETE_TYP_COD` NOT IN (1,2,3) : ce filtre nous permet de se concentrer sur les prestations qui ont lieu dans un établissement privé.
+Se référer au tableau de nomenclature `ETE_TYE_V` pour obtenir la classification des établissements.
+Se référer à la nomenclature pour savoir quel filtre exact appliquer sur `ETE_TYP_COD` en fonction de la catégorie de prestations ciblée.
 
 -	 `ETE_CAT_COD` NOT IN (125, 130, 132, 133, 134, 142, 223, 224, 228, 230, 268, 269, 289, 297, 347, 413, 414, 433, 438, 439,700). 
 On filtre sur la catégorie de l’établissement exécutant afin d'exclure les centres de santé.
