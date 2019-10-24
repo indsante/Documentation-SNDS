@@ -240,10 +240,10 @@ le libellé de la CNAM dans la nomenclature ainsi que les filtres associés (`DP
 Une partie des séjours du secteur médico-social et handicap est facturée directement à l’Assurance Maladie. 
 Ces séjours peuvent être retrouvés dans le DCIR via le type d’établissement. Il faut effectuer une jointure 
 avec la table établissement `ER_ETE_F` et utiliser la variable `ETE_CAT_COD` (dans le DCIRS, la même variable
-dans la table de prestations centrale comme mentionné ci-dessus).
+dans la table de prestations centrale comme mentionné ci-dessus). Une jointure avec `IR_CET_V` (du répertoire ORAVAL)
+permet d’avoir les libellés des différents établissements.
 
-Une jointure avec `IR_CET_V` (du répertoire ORAVAL) permet d’avoir les libellés des différents établissements.
-L’information sur ces séjours n’est pas exhaustive. 
+**L’information sur ces séjours n’est pas exhaustive et doit être traitée avec précaution**. 
 
 
 Auteurs: Kristel Jacquier, Raphaële Adjerad
