@@ -5,7 +5,7 @@
 Nous vous présentons tout d'abord comment exclure l'information concernant les hôpitaux publics dans le DCIR et le DCIRS, afin
 de privilégier leur étude via le PMSI. 
 
-### Comment exclure les actes et consultations externes du DCIR 
+### Comment exclure les actes et consultations externes du DCIR et DCIRS
 
 Les remontées des hôpitaux publics ne sont pas exhaustives dans le DCIR.
 Il est donc conseillé de les exclure et d’utiliser les données du PMSI uniquement pour ceux-ci. 
@@ -54,9 +54,8 @@ Si la variable `ETB_EXE_FIN` est égal à 0, aucun établissement n’est lié �
 Parmi les soins associés à un FINESS, certains peuvent être classés dans les soins de ville. 
 La variable `ETB_CAT_RG1` du référentiel des établissements (`IR_CET_V`) permet de regrouper les établissements (`ETB_CAT_COD` offre une nomenclature plus fine). 
 Si la variable de code de regroupement de l’établissement `ETB_CAT_RG1` (plus exactement les deux premiers caractères de cette variable) 
-est égale à 21 ou 22, alors il s’agit de prestations que l'on peut classer en "ville", à savoir les cabinets libéraux et autres établissements de soins et de prévention.
-
--> RA : attention dans 21, il y a l'item établissements relevant de la loi hospitalière
+est égale à 21 ou 22, alors il s’agit de prestations que l'on peut classer en "ville", à savoir les cabinets libéraux et 
+autres établissements de soins et de prévention.
 
 La variable `PRS_PPU_SEC` nous permet d'avoir de l'information sur la caractéristique privé ou public de la prestation. 
 La variable `PRS_PPU_SEC` est construite comme suit. L’établissement est public :
@@ -85,10 +84,13 @@ Dans le DCIR, il faut aller chercher les variables `PRS_PPU_SEC` et `ETE_TYP_COD
 Un poste particulier est à dégager qui peut concerner l'hôpital public et qui devrait être retenus avec les soins de ville, 
 à savoir les **rétrocessions**.
 Les rétrocessions correspondent à de la pharmacie hospitalière en établissement. Le code prestation `PRS_NAT_REF` est parmi 
-3317, 3318, 3319, 3351, 3352, 3353,3354,3355, 3356,3357, 3330 (table de valeur `IR_NAT_V`).
+3317, 3318, 3319, 3351, 3352, 3353,3354,3355, 3356,3357, 3330 (table de valeur `IR_NAT_V`). 
+
 
 Lorsque l’on travaille sur les **soins de ville**, il est recommandé d’exclure les prestations en établissements publics qui ne sont pas des rétrocessions.
-On peut donc exclure les prestations pour lesquels `PRS_PPU_SEC` == 1 sauf si la `PRS_NAT_REF` correspond à de la rétrocession.
+
+
+On peut donc exclure les prestations pour lesquels `lieu_exec` == 'public' sauf si la `PRS_NAT_REF` correspond à de la rétrocession.
 
 ### Trouver les dépenses dans le PMSI
 
@@ -114,7 +116,10 @@ AND TYP_GEN_RSA = '0'
 Toutes les variables de filtres présentées se trouvent dans la table des séjours `t_mcoANNEE.b` sous ORAVUE. Pour connaitre le montant dépensé par le patient, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE. Cette table contient une ligne par ACE (valorisé ou non). La variable de montant est `MNT_TOT_AM`. Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de dépassements à l'hôpital public.
 Pour joindre les deux tables il faut passer par la table de chainage patients (`t_mcoANNEE.c` toujours sous ORAVUE).
 
-Les dépenses d'actes et consultations externes (ACE) des établissements publics et ESPIC se trouvent dans la table de valorisation des ACE sous `ORAVUE.t_mcoANNEE.valoace`. Elle contient la valorisation totale ainsi le détail de valorisation par prestation (ATU, FFM, Dialyse, SE, FTN, NGAP, CCAM, DM Externe). La variable de montant est `mnt_br`, soit la base de remboursement de la sécurité sociale. En effet, comme évoqué précédemment, il n'existe pas de dépassements à l'hôpital public. 
+Les dépenses d'actes et consultations externes (ACE) des établissements publics et ESPIC se trouvent dans la table de valorisation des ACE 
+sous `ORAVUE.t_mcoANNEE.valoace`. Elle contient la valorisation totale ainsi le détail de valorisation par prestation (ATU, FFM, Dialyse,
+SE, FTN, NGAP, CCAM, DM Externe). La variable de montant est `mnt_br`, soit la base de remboursement de la sécurité sociale. En effet, 
+comme évoqué précédemment, il n'existe pas de dépassements à l'hôpital public. 
 La table patients correspondante est `t_mcoANNEE.cstc`.
 
  
@@ -139,8 +144,6 @@ On sélectionne les prestations qui correspondent aux risques maladie (10), mate
 En effet, la table de nomenclature `ETE_TYE_V` nous permet de sélectionner ainsi les établissements privés lucratifs conventionnés, les établissements
 privés lucratifs non conventionnés, les établissements privés non lucratifs conventionnés, les établissements privés non lucratifs
 non conventionnés, les OQN non lucratifs conventionnés et non conventionnés.
-
-*Note* : RA : ajouter explication sur etab OQN
 
 -	 `ETE_CAT_COD` NOT IN (125, 130, 132, 133, 134, 142, 223, 224, 228, 230, 268, 269, 289, 297, 347, 413, 414, 433, 438, 439,700). 
 On filtre sur la catégorie de l’établissement exécutant afin d'exclure les centres de santé.
@@ -179,17 +182,29 @@ la variable `DDP_GDE_COD` qui nous renseigne sur la discipline de prestations.
 | ----------- | --------------------------|
 | 4 | SSR |
 | 6 | PSY |
-| 0,1,2,3 | MCO |
+| 0,1,2,3 | MCO et HAD|
 | 0 | sans objet |
 | 1 | médecine |
 | 2 | chirurgie | 
 | 3 | obstétrique |
 
-Demeure le problème d'identifier la HAD qui ne se repère pas bien avec ETE_CAT_COD = 127, 422 (meme si c'est une piste) et pas non plus 
-avec DDP_GDE_COD = 10
+La HAD se repère avec le Groupe Homogène de Tarif, on peut la repérer à l'aide 
+de la nomenclature fournie (cf. paragraphe suivant) construite sur la statistique mensuelle de la CNAM.
 
 Il n'existe pas d'activité externe en établissement privé lucratif, elle est considérée comme du soin de ville libéral. 
-Il y a de l'activité externe pour les établissements privés non lucratifs d'intérêt collectif (les ESPIC).
+Afin de distinguer le lieu d'exécution de la prestation, on peut utiliser la variable `lieu_exec` présentée ci-dessus.
+
+
+### Catégoriser les prestations des établissements privés
+
+Nous proposons une nomenclature avec une entrée par `PRS_NAT_REF` construite à 
+partir de la statistique mensuelle sur les établissements privés de la CNAM.
+Nous avons repris la catégorisation en postes. Ainsi à une `PRS_NAT_REF` correspond 
+le libellé de la CNAM dans la nomenclature ainsi que les filtres associés (`DPN_QLF`,
+`RGO_ASU_NAT`, `CPL_FJH_TYP`, etc.).
+
+
+
 
 ### Etudier le secteur médico-social et handicap
 
