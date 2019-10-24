@@ -48,15 +48,19 @@ En outre, l’ACS est accordée à tous les membres du foyer du demandeur.
 
 ### Bénéficiaires de droits à l'ACS
 
+Les variables à considérer sont les dates d'ouverture et de fermeture des droits `FAM_DRT_DSD` et `FAM_DRT_DSF` dans `IR_ACS_R`. 
+Les effectifs dépendent de la période considérée.
+
 | Sources | Effectifs | Filtre |
 | ---------| -------- | ----- |
 | Fonds CMU | 1,46 millions| X |
-| IR_ACS_R |    | |
 
 *Note :* 2016
 
 
 ### Bénéficiaires ayant utilisé leur attestations à l'ACS
+
+La variable à considérer est `BEN_CTA_TYP` dans `IR_ORC_R` ou dans `NS_PRS_F`. Les filtres à poster sont `BEN_CTA_TYP IN 91 92 93`.
 
 | Sources | Effectifs | Filtre |
 | ---------| -------- | ----- |
