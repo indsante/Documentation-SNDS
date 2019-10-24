@@ -141,7 +141,7 @@ La table patients correspondante est `t_mcoANNEE.cstc`.
 HAD, PSY et SSR  public
 To be continued
 
-
+Ajouter FichComp
 
 ## Les établissements privés dans le DCIR et le DCIRS
 
@@ -232,7 +232,7 @@ Nous avons repris la catégorisation en postes. Ainsi à une `PRS_NAT_REF` corre
 le libellé de la CNAM dans la nomenclature ainsi que les filtres associés (`DPN_QLF`,
 `RGO_ASU_NAT`, `CPL_FJH_TYP`, etc.).
 
-
+Rajouter table avec liste des catégories 
 
 
 ### Etudier le secteur médico-social et handicap
