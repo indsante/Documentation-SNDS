@@ -57,7 +57,9 @@ Si la variable de code de regroupement de l’établissement `ETB_CAT_RG1` (plus
 est égale à 21 ou 22, alors il s’agit de prestations que l'on peut classer en "ville", à savoir les cabinets libéraux et 
 autres établissements de soins et de prévention. 
 
-Pour les etablissements en code 21, code 698 : a verifier
+Pour les etablissements en code 21, code 698 : a verifier : vérifier que si c'est égal à 698, quelles sont les prestations ? 
+Regarder distinct PRS_NAT_REF les plus fréquents associés à 698 et vérifier dans la stat mensuelle si c'est classé en ville ou non 
+
 
 La variable `PRS_PPU_SEC` nous permet d'avoir de l'information sur la caractéristique privé ou public de la prestation. 
 La variable `PRS_PPU_SEC` est construite comme suit. L’établissement est public :
