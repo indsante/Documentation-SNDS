@@ -55,7 +55,9 @@ Parmi les soins associés à un FINESS, certains peuvent être classés dans les
 La variable `ETB_CAT_RG1` du référentiel des établissements (`IR_CET_V`) permet de regrouper les établissements (`ETB_CAT_COD` offre une nomenclature plus fine). 
 Si la variable de code de regroupement de l’établissement `ETB_CAT_RG1` (plus exactement les deux premiers caractères de cette variable) 
 est égale à 21 ou 22, alors il s’agit de prestations que l'on peut classer en "ville", à savoir les cabinets libéraux et 
-autres établissements de soins et de prévention.
+autres établissements de soins et de prévention. 
+
+Pour les etablissements en code 21, code 698 : a verifier
 
 La variable `PRS_PPU_SEC` nous permet d'avoir de l'information sur la caractéristique privé ou public de la prestation. 
 La variable `PRS_PPU_SEC` est construite comme suit. L’établissement est public :
