@@ -23,9 +23,11 @@ Solution : Se limiter à 3 requêtes simultanées (lancées indifféremment en d
 **L'espace de travail d'une requête ORACLE** est appelé « temporary tablespace ». Cet espace est utilisé dès qu'une requête fait des tris ou des calculs. Il est commun à tous les utilisateurs et fait 7 To.\
 Il est nécessaire de respecter les consignes données en formation :
 
-**Si les données interrogées sont non agrégées, filtrer la requête sur maximum 3 mois de traitement.**
+**Bien encadrer les périodes interrogées en bornant les dates de mise à disposition des données (FLX_DIS_DTD dans DCIR/EXE_SOI_DTD dans DCIRS).**
 
-**Bien encadrer les périodes interrogées en bornant les dates de mise à disposition des données (FLX_DIS_DTD dans DCIR).**
+Recommandation : Si les données interrogées sont non agrégées, filtrer la requête sur maximum 3 mois de traitement, au moins lorsqu'on teste la requête pour la première fois.
+
+
 
 Un utilisateur ne respectant pas les règles d'interrogation peut saturer l'espace à lui tout seul et ainsi empêcher tous les autres de travailler dans des conditions optimales.
 
@@ -38,6 +40,8 @@ Un incident relatif à une saturation de l'espace temporaire se traduit par le m
 Solution : Bien vérifier la qualité de sa requête avant de l'exécuter, optimiser les filtres, attendre que les requêtes très consommatrices soient terminées (des actions sont entreprises dans ce sens par les informaticiens).
 
 ## Utiliser SAS Asynchrone
+
+SAS Asynchrone est un outil sur le portail qui permet la planification de requêtes sur le portail SNDS.
 
 Pour que les programmes soient pris en compte correctement par SAS Asynchrone, **les caractères spéciaux dans le nom des programmes doivent être bannis**. Seul le « _ » est toléré.
 
