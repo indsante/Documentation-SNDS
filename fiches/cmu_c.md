@@ -1,11 +1,11 @@
 # CMU Complémentaire
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-La [Protection Universelle Maladie (PUMa)](http://www.securite-sociale.fr/-La-mise-en-place-de-la-Protection-Universelle-Maladie-PUMA-au-1er-janvier-2016-) 
+La [Protection Universelle Maladie (PUMa)](https://www.ameli.fr/assure/droits-demarches/principes/protection-universelle-maladie) 
 garantit désormais à toute personne qui travaille ou réside en France un droit à la prise en charge des frais de santé (remboursements des frais de santé hors prestations en espèces) sans démarche particulière à accomplir.
 
 Par conséquent, la couverture maladie universelle de base (CMU) n'a plus de raison d'être et est supprimée. 
-En revanche, la [CMU complémentaire](https://mutuelle.dispofi.fr/couverture-maladie-universelle-cmu) (CMU-C) continue d'exister. 
+En revanche, la [CMU complémentaire](https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/complementaire-sante/cmu-complementaire) (CMU-C) continue d'exister. 
 Elle permet aux assurés à qui elle est attribuée de bénéficier d'une mutuelle gratuite pour le remboursement de leurs frais de santé.
 
 Les dépenses de santé des "cmucistes" sont prises en charge à hauteur de 100 % des tarifs de la sécurité sociale. 
