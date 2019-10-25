@@ -1,7 +1,7 @@
 # Numéro du Professionnel de Santé
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Le numéro du professionnel de santé ([PS](../glossaire/professionel_sante.md)) est le numéro sous lequel un professionnel de santé libéral va liquider ses prestations ou prescrire des actes.
+Le numéro du professionnel de santé ([PS](../glossaire/PS.md)) est le numéro sous lequel un professionnel de santé libéral va liquider ses prestations ou prescrire des actes.
 
 ## Accès au numéro en clair ou crypté
 
