@@ -10,14 +10,14 @@ de privilégier leur étude via le PMSI.
 Les remontées des hôpitaux publics ne sont pas exhaustives dans le DCIR.
 Il est donc conseillé de les exclure et d’utiliser les données du PMSI uniquement pour ceux-ci. 
 
-Sont remontées dans le DCIR des lignes « pour information » relatives aux transmissions des consultations externes et des 
-séjours des établissements publics qui ne sont pas encore passés en facturation directe.  
+Sont remontées dans le DCIR des lignes « pour information » relatives aux transmissions des **consultations externes et des 
+séjours des établissements publics** qui ne sont pas encore passés en facturation directe.  
 
 Pour les exclure, il faut appliquer le filtre `DPN_QLF NE 71` (qualificatif de la dépense n'est pas "pour information (soins externes)".  
 
 La CNAM recommande d’appliquer ce filtre pour toutes les requêtes effectuées sur le DCIR. Ces lignes ont été exclues du DCIRS.
 
-On trouve dans le DCIR les **actes et consultations externes** (ACE) en facturation directe. 
+En effet, on trouve dans le DCIR les **actes et consultations externes** (ACE) en facturation directe. 
 
 En effet, depuis septembre 2011, certains établissements publics ont basculé leur activité ACE en facturation directe. 
 Cela concernait 335 établissements géographiques (268 FINESS juridiques) à fin septembre 2015, d’autres sont passés en 
@@ -33,7 +33,8 @@ le filtre ci-dessous:
 un CH, un CH spécialité de lutte contre le cancer, un hôpital local, un établissement de soins obstétriques et chirurgico-gynécologiques,
 un établissement de soins pluridisciplinaires, un établissement de soins chirurgicaux ou un établissement de soins médicaux et que le code 
 du mode de traitement indique que la prestation est en hospitalisation complète, consultation et soins externes ou urgence (ou sans objet) **OU**
-    -	si l’indicateur de T2A est manquant, que l’indicateur du caractère privé ou public de l’établissement est manquant, que la catégorie de l’établissement exécutant est manquant et que le mode de  traitement est manquant 
+    -	si l’indicateur de T2A est manquant, que l’indicateur du caractère privé ou public de l’établissement est manquant, 
+que la catégorie de l’établissement exécutant est manquant et que le mode de  traitement est manquant 
 
 Le code SAS correspondant est le suivant :
 ```
@@ -51,9 +52,11 @@ d’un établissement en public et privé.
 
 Si la variable `ETB_EXE_FIN` est égal à 0, aucun établissement n’est lié à la prestation, alors il s’agit d’une prestation de ville. 
 
-Parmi les soins associés à un FINESS, certains peuvent être classés dans les soins de ville. 
-La variable `ETB_CAT_RG1` du référentiel des établissements (`IR_CET_V`) permet de regrouper les établissements (`ETB_CAT_COD` offre une nomenclature plus fine). 
-Si la variable de code de regroupement de l’établissement `ETB_CAT_RG1` (plus exactement les deux premiers caractères de cette variable) 
+Parmi les soins associés à un FINESS, certains peuvent être classés dans les soins de ville selon la logique suivante. 
+La variable `ETB_CAT_RG1` du référentiel des établissements (`IR_CET_V`) permet de regrouper les établissements 
+(la variable `ETB_CAT_COD` offre une nomenclature plus fine). 
+
+Si les deux premiers caractères de la variable de code de regroupement de l’établissement `ETB_CAT_RG1`  
 est égale à 21 ou 22, alors il s’agit de prestations que l'on peut classer en "ville", à savoir les cabinets libéraux et 
 autres établissements de soins et de prévention. 
 
@@ -81,22 +84,25 @@ ELSE :
     lieu_exec = "prive"
 ```
 
-Pour avoir plus de détail sur la catégorie juridique de l'établissement, on peut se référer à la variable `ETE_TYP_COD` qui est le code du type de l'établissement exécutant. 
-Dans le DCIR, il faut aller chercher les variables `PRS_PPU_SEC` et `ETE_TYP_COD` dans la table `ER_ETE_F` qui n'est pas la table centrale; dans le DCIRS ces informations ont été rappatriées dans la table centrale `NS_PRS_F` (table de nomenclature `IR_TYE_V`).
+Pour avoir plus de détail sur la catégorie juridique de l'établissement, on peut se référer à la variable `ETE_TYP_COD` qui est le code du type 
+de l'établissement exécutant. 
+Dans le DCIR, il faut aller chercher les variables `PRS_PPU_SEC` et `ETE_TYP_COD` dans la table `ER_ETE_F` qui n'est pas la table centrale; 
+dans le DCIRS ces informations sont dans la table centrale `NS_PRS_F` (table de nomenclature `IR_TYE_V`).
 
 
 Un poste particulier est à dégager qui peut concerner l'hôpital public et qui devrait être retenus avec les soins de ville, 
 à savoir les **rétrocessions**.
 Les rétrocessions correspondent à de la pharmacie hospitalière en établissement. Le code prestation `PRS_NAT_REF` est parmi 
-3317, 3318, 3319, 3351, 3352, 3353,3354,3355, 3356,3357, 3330 (table de valeur `IR_NAT_V`). 
+3317, 3318, 3319, 3351, 3352, 3353, 3354, 3355, 3356, 3357, 3330 (table de valeur `IR_NAT_V`). 
 
 
-Lorsque l’on travaille sur les **soins de ville**, il est recommandé d’exclure les prestations en établissements publics qui ne sont pas des rétrocessions.
+Lorsque l’on travaille sur les **soins de ville**, il est recommandé d’exclure les prestations en établissements publics qui 
+ne sont pas des rétrocessions. On peut donc exclure les prestations pour lesquels `lieu_exec` == 'public' sauf si la `PRS_NAT_REF` 
+correspond à de la rétrocession.
 
+### Les dépenses en établissement public dans le PMSI
 
-On peut donc exclure les prestations pour lesquels `lieu_exec` == 'public' sauf si la `PRS_NAT_REF` correspond à de la rétrocession.
-
-### Trouver les dépenses dans le PMSI
+#### Filtres à appliquer pour le PMSI MCO
 
 Nous décrivons ici comment trouver les dépenses dans le PMSI MCO. 
 
@@ -105,7 +111,8 @@ Sur la partie séjour, les filtres à poser sont les suivants :
 - Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) 
 - Exclusion des séjours en erreur
 - Exclusion des prestations inter établissement
-- Exclusion des prestations pour lesquelles un résumé de séjour n'a pas été généré: la dialyse, l'activité externe des médecins salariés ou des FFM, ATU, SE (attention cependant, la variable TYP_GEN_RSA n'est disponible qu'à partir de 2015)
+- Exclusion des prestations pour lesquelles un résumé de séjour n'a pas été généré: la dialyse, l'activité externe des médecins salariés ou 
+des FFM, ATU, SE (attention cependant, la variable `TYP_GEN_RSA` n'est disponible qu'à partir de 2015)
 
 Le code SAS correspondant est le suivant :
 
@@ -124,8 +131,22 @@ AND TYP_GEN_RSA = '0'
 
 Toutes les variables de filtres présentées se trouvent dans la table des séjours `t_mcoANNEE.b` sous ORAVUE. 
 
+
+#### Les tables à considérer pour étudier l'activité en hôpital public 
+
+Il existe quatre types de spécialité hospitalière : 
+- MCO
+- SSR
+- PSY
+- HAD
+Pour plus de détail sur ce spécialités, se reporter par exemple au Panorama des établissements de santé de la DREES
+(https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/panoramas-de-la-drees/article/les-etablissements-de-sante-edition-2019)
+ou à la documentation de l'ATIH sur le sujet.
+
+##### En MCO
+
 Pour connaitre le montant dépensé par le patient, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE. 
-La variable de montant est `MNT_TOT_AM`. On considère `MNT_TOT_AM` de la table `valo` corrigée par l'ATIH et non la variable
+La variable de montant est `MNT_TOT_AM`. Il est conseillé de considérer `MNT_TOT_AM` de la table `valo` corrigée par l'ATIH et non la variable
 `TOT_MNT_AM` de la table `STC` qui est l'information brute des établissements. 
 
 Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de dépassements à l'hôpital public.
@@ -133,11 +154,20 @@ Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de d�
 Pour joindre les deux tables il faut passer par la table de chainage patients (`t_mcoANNEE.c` toujours sous ORAVUE).
 
 Les dépenses d'actes et consultations externes (ACE) des établissements publics et ESPIC se trouvent dans la table de valorisation des ACE 
-sous `ORAVUE.t_mcoANNEE.valoace`. Cette table contient une ligne par ACE (valorisé ou non). Elle contient la valorisation totale ainsi le détail de valorisation par prestation (ATU, FFM, Dialyse,
+sous `ORAVUE.t_mcoANNEE.valoace`. 
+Cette table contient une ligne par ACE (valorisé ou non). Elle contient la valorisation totale ainsi le détail de valorisation par
+prestation (ATU, FFM, Dialyse,
 SE, FTN, NGAP, CCAM, DM Externe). La variable de montant est `mnt_br`, soit la base de remboursement de la sécurité sociale. En effet, 
 comme évoqué précédemment, il n'existe pas de dépassements à l'hôpital public. 
 La table patients correspondante est `t_mcoANNEE.cstc`.
 
+#### En SSR
+
+#### En HAD
+
+#### En PSY
+
+#### La liste en sus
 HAD, PSY et SSR  public
 To be continued
 
@@ -145,10 +175,11 @@ Ajouter FichComp
 
 ## Les établissements privés dans le DCIR et le DCIRS
 
-Les séjours en cliniques privées sont facturés directement à l’Assurance Maladie ce qui garantit l’exhaustivité des remontées d’information sur ce champ.
+Les séjours en cliniques privées sont facturés directement à l’Assurance Maladie ce qui garantit l’**exhaustivité des remontées d’information sur ce champ**.
 Cela concerne toutes les prestations en établissement privé, que l'établissement soit de nature non lucratif ou lucratif.
-Le PMSI contient des tables de facturation des séjours privés mais il n’est pas certain qu’elles correspondent aux montants réellement facturés et remboursés par l’assurance maladie.
-Il est donc recommandé d'analyser les dépenses des cliniques privées dans le DCIR ou le DCIRS plutôt que dans le PMSI. 
+Le PMSI contient des tables de facturation des séjours privés mais il n’est pas certain qu’elles correspondent aux montants réellement facturés et 
+remboursés par l’assurance maladie.
+Il est donc **recommandé d'analyser les dépenses des cliniques privées dans le DCIR ou le DCIRS plutôt que dans le PMSI**. 
 
 ### Les filtres à poser avant d'analyser les établissements privés
 
@@ -157,7 +188,8 @@ Avant d'analyser ce champ dans le DCIR ou le DCIRS, les filtres à poser sont le
 -	`DPN_QLF NE 71` : on exclut les remontées d'information "pour information (soins externes)", afin d'écart les ACE à l'hôpital public.
 
 -	`ASU_NAT` = 10,30,40 : Maladie, maternité, AT/MP, décès et invalidité sont les 5 risques pris en charge par l’assurance maladie.
-Si les caisses ont effectué des remboursements pour d’autres risques, ceux-ci ne sont pas censés être pris en charge. Par exemple la nature d'assurance 22 qui correspond à des soins aux invalides de guerre (CNMSS).
+Si les caisses ont effectué des remboursements pour d’autres risques, ceux-ci ne sont pas censés être pris en charge. Par exemple la nature
+d'assurance 22 qui correspond à des soins aux invalides de guerre (CNMSS).
 On sélectionne les prestations qui correspondent aux risques maladie (10), maternité (30) et AT/MP (40) et on exclut décès et invalidité. 
 
 -	`ETE_TYP_COD` NOT IN (1,2,3) : ce filtre nous permet de se concentrer sur les prestations qui ont lieu dans un établissement privé.
@@ -169,7 +201,7 @@ On filtre sur la catégorie de l’établissement exécutant afin d'exclure les 
 
 On exclut les centres de santé car ceux-ci sont catégorisés en soins de ville comme dans les Comptes de la Santé
 (https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/panoramas-de-la-drees/article/les-depenses-de-sante-en-2018-resultats-des-comptes-de-la-sante-edition-2019)
-
+ainsi que dans la statistique mensuelle de la CNAM.
 
 - `MFT_COD` NOT IN (4,6). On filtre sur le motif du code de fixation des tarifs. On exclut ainsi ETABLISSEMENTS PRIVES A BUT NON LUCRATIF PARTICIPANT AU SERVICE PUBLIC HOSPITALIER (PSPH)
 et ETABLISSEMENT DE SANTE ET MEDICAUX SOCIAUX NON CONVENTIONNE AVEC L AIDE SOCIALE ET NON CONVENTIONNE AVEC L ASSURANCE MALADIE (TARIF D AUTORITE). Voir
@@ -197,7 +229,7 @@ Comme précisé ci-dessus, on peut construire cette ventilation avec la variable
 
 OQN : Objectif Quantifié National 
 
-Conventionné
+Conventionné : To be continued
 
 
 ### Ventiler les établissements privés selon la discipline (PSY, SSR, MCO et HAD)
@@ -218,7 +250,7 @@ la variable `DDP_GDE_COD` qui nous renseigne sur la discipline de prestations.
 | 3 | obstétrique |
 
 La HAD se repère avec le Groupe Homogène de Tarif, on peut la repérer à l'aide 
-de la nomenclature fournie (cf. paragraphe suivant) construite sur la statistique mensuelle de la CNAM.
+de la nomenclature fournie (cf. paragraphe suivant) construite sur la statistique mensuelle de la CNAM sur les cliniques privées.
 
 Il n'existe pas d'activité externe en établissement privé lucratif, elle est considérée comme du soin de ville libéral. 
 Afin de distinguer le lieu d'exécution de la prestation, on peut utiliser la variable `lieu_exec` présentée ci-dessus.
