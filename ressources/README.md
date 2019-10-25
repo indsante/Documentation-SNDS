@@ -31,7 +31,7 @@ pour des détails sur la base médicale des causes de décès.
 
 - Une [cartographie des indicateurs de santé](http://dataviz.drees.solidarites-sante.gouv.fr/indicateurs_de_sante/) produite par la DREES,  décrite [ici](cartographie_indicateurs.md).
 
-- Le site open data du gouvernement : [data.gouv](https://www.data.gouv.fr) et la [partie dédiée à la santé](https://www.data.gouv.fr/fr/topics/sante-et-social/) avec notamment sur le profil de [l'assurance maladie](https://www.data.gouv.fr/fr/organizations/caisse-nationale-de-l-assurance-maladie-des-travailleurs-salaries/) qui répértorie tous les jeux de données open data de la Cnam. 
+- Le site open data du gouvernement : [data.gouv](https://www.data.gouv.fr) et la [partie dédiée à la santé](https://www.data.gouv.fr/fr/topics/sante-et-social/) avec notamment sur le profil de [l'assurance maladie](https://www.data.gouv.fr/fr/datasets/?q=assurance+maladie&organization=534fff5ca3a7292c64a77d1a) qui répértorie tous les jeux de données open data de la Cnam. 
 
 - [Rubrique statistiques et publications](https://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/index.php) sur le site Ameli de la Cnam.
 
