@@ -248,9 +248,12 @@ la variable `DDP_GDE_COD` qui nous renseigne sur la discipline de prestations.
 | 1 | médecine |
 | 2 | chirurgie | 
 | 3 | obstétrique |
+| 5 | USLD | 
 
 La HAD se repère avec le Groupe Homogène de Tarif, on peut la repérer à l'aide 
 de la nomenclature fournie (cf. paragraphe suivant) construite sur la statistique mensuelle de la CNAM sur les cliniques privées.
+
+Pour repérer les prestations en USLD, on peut utiliser le `DDP_GDE_COD` égal à 5 combiné au code prestations (cf. nomenclature).
 
 Il n'existe pas d'activité externe en établissement privé lucratif, elle est considérée comme du soin de ville libéral. 
 Afin de distinguer le lieu d'exécution de la prestation, on peut utiliser la variable `lieu_exec` présentée ci-dessus.
