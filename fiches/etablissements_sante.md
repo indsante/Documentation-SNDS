@@ -185,13 +185,21 @@ En SSR,
 
 #### En HAD
 
+
+L'information sur la dépense que représente la pharmacie de la liste en sus et les médicaments coûteux hors liste en sus et hors ATU est contenue dans
+
+-    `MED` : médicaments en sus
+-    `MEDATU` : médicaments soumis à autorisation temporaire d’utilisation
+-    `MEDCHL` : médicaments coûteux hors liste en SUS et hors ATU
+
+
 #### En PSY
 
-#### La liste en sus
-HAD, PSY et SSR  public
-To be continued
+L'information sur la dépense que représente la pharmacie de la liste en sus est contenue dans
 
-Ajouter FichComp
+-    `MED` : médicaments en sus
+-    `MEDATU` : médicaments soumis à autorisation temporaire d’utilisation
+
 
 ## Les établissements privés dans le DCIR et le DCIRS
 
