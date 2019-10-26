@@ -114,6 +114,8 @@ Sur la partie séjour, les filtres à poser sont les suivants :
 - Exclusion des prestations pour lesquelles un résumé de séjour n'a pas été généré: la dialyse, l'activité externe des médecins salariés ou 
 des FFM, ATU, SE (attention cependant, la variable `TYP_GEN_RSA` n'est disponible qu'à partir de 2015)
 
+-> RA : j'ai l'impression qu'il manque des finess géo
+
 Le code SAS correspondant est le suivant :
 
 ```
@@ -145,23 +147,41 @@ ou à la documentation de l'ATIH sur le sujet.
 
 ##### En MCO
 
-Pour connaitre le montant dépensé par le patient, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE. 
+Pour connaitre le montant de la dépense, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE. 
 La variable de montant est `MNT_TOT_AM`. Il est conseillé de considérer `MNT_TOT_AM` de la table `valo` corrigée par l'ATIH et non la variable
-`TOT_MNT_AM` de la table `STC` qui est l'information brute des établissements. 
-
+`TOT_MNT_AM` de la table `STC` qui est l'information brute des établissements.  
 Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de dépassements à l'hôpital public.
 
-Pour joindre les deux tables il faut passer par la table de chainage patients (`t_mcoANNEE.c` toujours sous ORAVUE).
+Pour joindre les deux tables `valo` et `stc` il faut passer par la table de chainage patients (`t_mcoANNEE.c` toujours sous ORAVUE).
+La clef de chaînage est le couple (`RSA_NUM`, `ETA_NUM`). `RSA_NUM` est le numéro du patient et `ETA_NUM` l'identifiant de l'établissement.
+Dans la table patients, on trouve l'identifiant bénéficiaire `NIR_ANO_17` (cf. fiche Identifiant des bénéficiaires pour plus d'informations).
+
+L'information concernant les établissements se trouve dans la table `t_mcoANNEE.e`. On peut joindre cette table aux précédentes 
+avec `ETA_NUM`. 
 
 Les dépenses d'actes et consultations externes (ACE) des établissements publics et ESPIC se trouvent dans la table de valorisation des ACE 
 sous `ORAVUE.t_mcoANNEE.valoace`. 
 Cette table contient une ligne par ACE (valorisé ou non). Elle contient la valorisation totale ainsi le détail de valorisation par
 prestation (ATU, FFM, Dialyse,
-SE, FTN, NGAP, CCAM, DM Externe). La variable de montant est `mnt_br`, soit la base de remboursement de la sécurité sociale. En effet, 
+SE, FTN, NGAP, CCAM, DM Externe). La variable de montant de dépense est `mnt_br`, soit la base de remboursement de la sécurité sociale. En effet, 
 comme évoqué précédemment, il n'existe pas de dépassements à l'hôpital public. 
-La table patients correspondante est `t_mcoANNEE.cstc`.
+La table patients correspondante est `t_mcoANNEE.cstc`, on peut les chaîner toujours via le couple (`RSA_NUM`,`ETA_NUM`). La table
+patients contient également l'identifiant bénéficiaire `NIR_ANO_17`. 
+
+L'information sur la pharmacie de la liste en sus et les dispositifs médicaux implantables se trouve dans les tables suivantes. 
+
+Pour l'hôpital public en MCO: 
+- `MED` : contient les médicaments en sus
+- `MEDATU` : contient les médicaments soumis à autorisation temporaire d’utilisation
+- `MEDTHROMBO` : contient les médicaments thrombolytiques pour le traitement de l’AVC ischémique
+- `DMIP` : contient les dispositifs médicaux implantables en sus
+
+Pour les ACE en MCO, l'information se trouve dans la table `FHSTC` : médicaments en sus.
 
 #### En SSR
+
+Pour connaitre le montant d
+En SSR, 
 
 #### En HAD
 
