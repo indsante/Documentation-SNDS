@@ -178,7 +178,7 @@ Pour les ACE en MCO, l'information se trouve dans la table `FHSTC` : médicament
 
 #### En SSR
 
-Pour connaitre le montant d
+Pour connaitre le montant de la dépense d'un patient en SSR
 En SSR, 
 
 #### En HAD
