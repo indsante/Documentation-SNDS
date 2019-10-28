@@ -57,11 +57,9 @@ La variable `ETB_CAT_RG1` du référentiel des établissements (`IR_CET_V`) perm
 (la variable `ETB_CAT_COD` offre une nomenclature plus fine). 
 
 Si les deux premiers caractères de la variable de code de regroupement de l’établissement `ETB_CAT_RG1`  
-est égale à 21 ou 22, alors il s’agit de prestations que l'on peut classer en "ville", à savoir les cabinets libéraux et 
+est égale à 21 (à l'exclusion des établissements relevant de la loi hospitalière, `ETE_CAT_COD`== 698) ou 22, alors il s’agit de prestations que l'on peut classer en "ville", à savoir les cabinets libéraux et 
 autres établissements de soins et de prévention. 
 
-Pour les etablissements en code 21, code 698 : a verifier : vérifier que si c'est égal à 698, quelles sont les prestations ? 
-Regarder distinct PRS_NAT_REF les plus fréquents associés à 698 et vérifier dans la stat mensuelle si c'est classé en ville ou non 
 
 
 La variable `PRS_PPU_SEC` nous permet d'avoir de l'information sur la caractéristique privé ou public de la prestation. 
@@ -76,7 +74,7 @@ Sinon les prestations sont classées en lieu d’exécution "Prive".
 
 Pour résumer en pseudo-code:
 ```
-IF substr(ETB_CAT_RG1,1,2) IN (21,22):
+IF substr(ETB_CAT_RG1,1,2) IN (21,22) AND ETE_CAT_COD<>698:
     THEN lieu_exec = "ville"
 ELSE IF PRS_PPU_SEC == 1:
     THEN lieu_exec = "public"
