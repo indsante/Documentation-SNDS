@@ -32,6 +32,7 @@ centrale des prestations du DCIRS)/`ER_PRS_F` (table centrale des prestations du
 C’est un droit optionnel de l’ACS, on peut choisir de ne pas souscrire à ces contrats.
 
 2. pendant 18 mois :
+ 
 - à la dispense d'avance de frais sur la part prise en charge par l’assurance maladie obligatoire (tiers payant social),
 - depuis le 1er mars 2013, aux tarifs médicaux sans dépassements d'honoraires,  dans le cadre du parcours de soins coordonnés,
 quel que soit le médecin, même s'il pratique des honoraires libres (« secteur 2 »)
@@ -61,14 +62,22 @@ Les effectifs dépendent de la période considérée.
 ### Bénéficiaires ayant utilisé leur attestations à l'ACS
 
 La variable à considérer est `BEN_CTA_TYP` dans `IR_ORC_R` ou dans `NS_PRS_F`. Les filtres à poster sont `BEN_CTA_TYP IN 91 92 93`.
+Pour la table `IR_ORC_R`, il faut également filtrer sur les dates de début et de fin de contrat : 
+``MLL_CTA_DSD` <= 01012017 AND ( `MLL_CTA_DSF`>= 01012016 OR `MLL_CTA_DSF` IS NULL)` pour l'année 2016.
 
 | Sources | Effectifs | Filtre |
 | ---------| -------- | ----- |
 | Fonds CMU | 1,12 millions| X |
-| IR_ORC_R |    | `BEN_CTA_TYP` in 91 92 93 |
-| NS_PRS_F |    | `BEN_CTA_TYP` in 91 92 93 |
+| `IR_ORC_R` |  1 034 953  |FILTER `BEN_CTA_TYP` in 91 92 93 AND `MLL_CTA_DSD` < 01012017 AND ( `MLL_CTA_DSF`> 01012016 OR `MLL_CTA_DSF` IS NULL)  COUNT DISTINCT `BEN_IDT_ANO`|
+| `NS_PRS_F` |  1 144 228  | FILTER `BEN_CTA_TYP` in 91 92 93 COUNT DISTINCT `BEN_IDT_ANO`|
+
+Attention, la requête suppose que l'on compte les individus selon leur identifiant bénéficiaire lorsqu'ils sont consommants dans le DCIRS 
+et que pour au moins une prestations dans l'année leur variable de contrat soit dans la liste des contrats ACS. L'effectif donné par le Fonds CMU est 
+différent car il s'agit d'un effectif pris au 31/12/2016.
 
 *Note :* 2016
+
+
 
 Références :
 
