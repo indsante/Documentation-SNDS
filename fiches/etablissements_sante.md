@@ -253,7 +253,9 @@ Comme précisé ci-dessus, on peut construire cette ventilation avec la variable
 | 8 | 2 | OQN NON LUCRATIF CONVENTIONNE  |
 | 9 | 2 | OQN LUCRATIF CONVENTIONNE  |
 
-OQN : Objectif Quantifié National 
+L’Objectif quantifié national (OQN) résulte d'un accord du 4 avril 1991 entre l'État, les organismes d'assurance maladie et l'UHP. 
+Cet accord a été retranscrit dans le Code de la Sécurité sociale (art. L. 162-22-2, R. 162-41 et D. 162-4). 
+L’OQN concerne les activités de psychiatrie et de soins de suite ou de réadaptation exercées par les établissements de santé privés.  
 
 Conventionné : To be continued
 
