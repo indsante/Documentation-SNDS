@@ -15,13 +15,13 @@ Un CIP 13 commence toujours par le préfixe `3400` en France.
 
 Lorsqu’un médicament disposait d'un code CIP 7, le code CIP 13 correspondant est construit de la manière suivante :
 
-![schema 1](../files/Cnam/Ciblage_medicaments/Medicaments_schema1.png)
+![schema 1](../files/Cnam/images_ciblage_medicaments/Medicaments_schema1.png)
 
 #### Calendrier de mise en plce du CIP 13 
 
 Le calendrier de mise en place du CIP 13 est le suivant :
 
-![schema 2](../files/Cnam/Ciblage_medicaments/Medicaments_schema2.png)
+![schema 2](../files/Cnam/images_ciblage_medicaments/Medicaments_schema2.png)
 
 Le code CIP13 peut donc être présent dans les bases dès 2007, tandis que le CIP7 est présent au moins jusque 2014. 
 Une période de transition, où les 2 codes se chevauchent existe donc.
@@ -137,7 +137,7 @@ quit;
 
 ## Récapitulatif
 
-![schema 3](../files/Cnam/Ciblage_medicaments/Medicaments_schema3.png)
+![schema 3](../files/Cnam/images_ciblage_medicaments/Medicaments_schema3.png)
 
 ## Références
 
