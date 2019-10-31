@@ -31,5 +31,5 @@ Au retour de la feuille d’émargement, la calculette est activée et l’utili
 ## Références
 
 ::: tip Crédits
-L'information de cette page provient de la fiche 5 du [guide d'accès permanent](../files/Cnam/guides_pedagogiques/2019-07_Cnam_Guide_pedagogique_SNDS_acces_permanents_MPL-2.0.docx) publié par la Cnam en juillet 2019
+L'information de cette page provient de la fiche 5 du [guide d'accès permanent](../files/Cnam/2019-07_Cnam_Guide_pedagogique_SNDS_acces_permanents_MPL-2.0.docx) publié par la Cnam en juillet 2019
 :::

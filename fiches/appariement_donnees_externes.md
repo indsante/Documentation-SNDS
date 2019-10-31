@@ -51,7 +51,7 @@ Afin de faire ce lien, il faut donc impérativement que l'identifiant SNDS soit 
 La procédure passe par un cryptage irréversible des informations *Numéro de sécurité sociale-Date de Naissance-Sexe* pour transformer l'identifiant SNDS en clair en identifiant SNDS crypté (BEN_NIR_PSA). 
 Cette procédure se fait via l'outil SAFE et se décompose de la manière suivante :
 
-![schema 1](../files/Cnam/Fiche_Appariement/Appariement_Schema_1.png)
+![schema 1](../files/Cnam/images_Fiche_Appariement/Appariement_Schema_1.png)
 
 Le commanditaire fournit, en plus des informations de l'identifiant SNDS en clair, un numéro sujet (par exemple NS_000001 -> NS_999999) qui va persister au cryptage pour être associé à l'identifiant SNDS crypté final. 
 Les données du SNDS seront extraites sur ce dernier et livrées sur l'identifiant sujet.
@@ -64,7 +64,7 @@ Un autre appariement direct pourrait consister à importer des données dans le 
 Un lien pourrait être réalisé entre ces données et celles du SNDS pour ensuite extraire les données des bénéficiaires correspondants. 
 Cet appariement est équivalent à une sélection sur critères.
 
-![schema 2](../files/Cnam/Fiche_Appariement/Appariement_Schema_2.png)
+![schema 2](../files/Cnam/images_Fiche_Appariement/Appariement_Schema_2.png)
 
 
 ::: warning Attention
@@ -97,7 +97,7 @@ Le principe peut évidemment être réalisé avec davantage de groupes, selon le
 
 Un appariement sera alors considéré comme réussi si au moins 90% des patients initiaux seront retrouvés.
 
-![schema 3](../files/Cnam/Fiche_Appariement/Appariement_Schema_3.png)
+![schema 3](../files/Cnam/images_Fiche_Appariement/Appariement_Schema_3.png)
 
 Un travail d'ajustement des formats de variables peut être à prévoir car les variables des fichiers sources ne sont pas toujours au même format que les données du SNDS.
 
