@@ -3,6 +3,8 @@
 
 Documents publiés par la [Cnam](../glossaire/Cnam.md) sur ce site.
 
+Ce [dossier sur GitLab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files/Cnam) contient sinon l'ensemble des documents **et** fiches publiées par la Cnam.
+
 ## KWIKLY 
 
 Katalogue des données SNIIRAM-SNDS
@@ -24,7 +26,7 @@ Le Kwikly est un outil de clics rapides qui attend vos suggestions d’améliora
 
 ## Guides pédagogiques
 
-- Guides pédagogiques du SNDS [Cnan - MPL-2.0] pour les [accès permanents](../files/Cnam/guides_pedagogiques/2019-07_Cnam_Guide_pedagogique_SNDS_acces_permanents_MPL-2.0.docx) et pour les [accès sur projet](../files/Cnam/guides_pedagogiques/2019-07_Cnam_Guide_pedagogique_SNDS_acces_projet_MPL-2.0.docx).  
+- Guides pédagogiques du SNDS [Cnan - MPL-2.0] pour les [accès permanents](../files/Cnam/2019-07_Cnam_Guide_pedagogique_SNDS_acces_permanents_MPL-2.0.docx) et pour les [accès sur projet](../files/Cnam/2019-07_Cnam_Guide_pedagogique_SNDS_acces_projet_MPL-2.0.docx).  
 
 ## Foires aux questions
 
