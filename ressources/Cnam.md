@@ -1,6 +1,8 @@
 # Documents Cnam
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
+Documents publiés par la [Cnam](../glossaire/Cnam.md) sur ce site.
+
 ## KWIKLY 
 
 Katalogue des données SNIIRAM-SNDS

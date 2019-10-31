@@ -1,6 +1,8 @@
 # Ailleurs sur internet
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
+Ressource sur le SNDS disponibles sur d'autres sites internet.
+
 - Le site [snds.gouv](https://www.snds.gouv.fr/SNDS/Accueil) 
 pour des informations générales.
 

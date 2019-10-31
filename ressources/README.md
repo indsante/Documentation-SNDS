@@ -23,12 +23,12 @@ pour lister l'ensemble des documents **et** fiches publiés par chaque organisme
 - Un [dictionnaire interactif](https://drees.shinyapps.io/dico-snds/) du SNDS, produit par la DREES.
 - Un [schema formalisé du SNDS](https://gitlab.com/healthdatahub/schema-snds), 
 qui alimente le dictionnaire interactif, et la partie **Tables** de cette documentation.
-- Une [cartographie des indicateurs de santé](http://dataviz.drees.solidarites-sante.gouv.fr/indicateurs_de_sante/) produite par la DREES,  décrite [ici](cartographie_indicateurs.md).
+- Une [cartographie des indicateurs de santé](http://dataviz.drees.solidarites-sante.gouv.fr/indicateurs_de_sante/) produite par la DREES, décrite [ici](cartographie_indicateurs.md).
 
-## Divers  
+## Autre ressources  
 
-- Autres [ressources disponibles en ligne](internet.md)
+- Ressources sur le SNDS [disponibles ailleurs en ligne](internet.md)
 - [Présentations et vidéos](meetup.md) des meetup SNDS
-- [Programmes](programmes.md) dont le code est public
-- Comment [accéder à la documentation du portail SNIIRAM](portail_sniiram.md)
+- Référencement de [programmes](programmes.md) dont le code est public
+- Guide pour [accéder à la documentation du portail SNIIRAM](portail_sniiram.md)
 - [Bibliographie](bibliographie.md)
