@@ -59,6 +59,8 @@ Les effectifs dépendent de la période considérée.
 *Note :* 2016
 *Source*: Rapport d'activité Fonds CMU 2016
 
+L'effectif du Fonds CMU est le cumul sur les 12 derniers mois au 21/12/2016. 
+
 
 ### Bénéficiaires ayant utilisé leur attestations à l'ACS
 
@@ -74,7 +76,8 @@ Pour la table `IR_ORC_R`, il faut également filtrer sur les dates de début et 
 | `NS_PRS_F` |  1 144 228  | FILTER `BEN_CTA_TYP` in 91 92 93 COUNT DISTINCT `BEN_IDT_ANO`|
 
 Attention, la requête sur `NS_PRS_F` suppose que l'on compte les individus selon leur identifiant lorsqu'ils sont consommants dans le DCIRS 
-et que pour au moins une prestations dans l'année la variable `BEN_CTA_TYP` soit dans la liste des contrats ACS. 
+et que pour au moins une prestations dans l'année la variable `BEN_CTA_TYP` soit dans la liste des contrats ACS. Pour une explication sur la 
+différence entre le comptage à partir de la table des prestations ou la table des affiliations, se référer à la fiche sur la CMU-C. 
 
 L'effectif donné par le Fonds CMU est 
 un effectif pris au 31/12/2016.
@@ -90,6 +93,6 @@ https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/comp
 
 *Sources*:
  - CNAM, FAQ DCIR 2019
- - Fonds CMU, rapport d'activité
+ - Fonds CMU, rapport d'activité https://www.complementaire-sante-solidaire.gouv.fr/fichier-utilisateur/fichiers/Rapport_activite_2016.pdf 
  - Fonds CMU, Rapport 2017 - 2018 relatif à l'ACS : bénéficiaires, contenu et prix des contrats ayant ouvert droit à l'aide 
  
