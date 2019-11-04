@@ -57,13 +57,15 @@ Les effectifs dépendent de la période considérée.
 | Fonds CMU | 1,46 millions| X |
 
 *Note :* 2016
+*Source*: Rapport d'activité Fonds CMU 2016
 
 
 ### Bénéficiaires ayant utilisé leur attestations à l'ACS
 
-La variable à considérer est `BEN_CTA_TYP` dans `IR_ORC_R` ou dans `NS_PRS_F`. Les filtres à poster sont `BEN_CTA_TYP IN 91 92 93`.
-Pour la table `IR_ORC_R`, il faut également filtrer sur les dates de début et de fin de contrat : 
-``MLL_CTA_DSD` <= 01012017 AND ( `MLL_CTA_DSF`>= 01012016 OR `MLL_CTA_DSF` IS NULL)` pour l'année 2016.
+La variable à considérer est `BEN_CTA_TYP` dans `IR_ORC_R` ou dans `NS_PRS_F` (DCIRS) ou `ER_PRS_F` (DCIR). 
+
+Les filtres à poser sont décrits dans la table suivante.
+Pour la table `IR_ORC_R`, il faut également filtrer sur les dates de début et de fin de contrat.
 
 | Sources | Effectifs | Filtre |
 | ---------| -------- | ----- |
@@ -71,12 +73,14 @@ Pour la table `IR_ORC_R`, il faut également filtrer sur les dates de début et 
 | `IR_ORC_R` |  1 275 370  |FILTER `BEN_CTA_TYP` in 91 92 93 AND year(`MLL_CTA_DSD`) <=2016 AND ( year(`MLL_CTA_DSF`)>= 2016 OR `MLL_CTA_DSF` IS NULL)  COUNT DISTINCT `BEN_IDT_ANO`|
 | `NS_PRS_F` |  1 144 228  | FILTER `BEN_CTA_TYP` in 91 92 93 COUNT DISTINCT `BEN_IDT_ANO`|
 
-Attention, la requête suppose que l'on compte les individus selon leur identifiant bénéficiaire lorsqu'ils sont consommants dans le DCIRS 
-et que pour au moins une prestations dans l'année leur variable de contrat soit dans la liste des contrats ACS. L'effectif donné par le Fonds CMU est 
-différent car il s'agit d'un effectif pris au 31/12/2016.
+Attention, la requête sur `NS_PRS_F` suppose que l'on compte les individus selon leur identifiant lorsqu'ils sont consommants dans le DCIRS 
+et que pour au moins une prestations dans l'année la variable `BEN_CTA_TYP` soit dans la liste des contrats ACS. 
+
+L'effectif donné par le Fonds CMU est 
+un effectif pris au 31/12/2016.
 
 *Note :* 2016
-
+*Source*: Rapport d'activité Fonds CMU 2016
 
 
 Références :
