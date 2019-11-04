@@ -59,7 +59,7 @@ Les effectifs dépendent de la période considérée.
 *Note :* 2016
 *Source*: Rapport d'activité Fonds CMU 2016
 
-L'effectif du Fonds CMU est le cumul sur les 12 derniers mois au 21/12/2016. 
+L'effectif du Fonds CMU est le cumul sur les 12 derniers mois au 31/12/2016. 
 
 
 ### Bénéficiaires ayant utilisé leur attestations à l'ACS
@@ -76,13 +76,12 @@ Pour la table `IR_ORC_R`, il faut également filtrer sur les dates de début et 
 | `NS_PRS_F` |  1 144 228  | FILTER `BEN_CTA_TYP` in 91 92 93 COUNT DISTINCT `BEN_IDT_ANO`|
 
 Attention, la requête sur `NS_PRS_F` suppose que l'on compte les individus selon leur identifiant lorsqu'ils sont consommants dans le DCIRS 
-et que pour au moins une prestations dans l'année la variable `BEN_CTA_TYP` soit dans la liste des contrats ACS. Pour une explication sur la 
+et que pour au moins une prestation dans l'année la variable `BEN_CTA_TYP` soit dans la liste des contrats ACS. Pour une explication sur la 
 différence entre le comptage à partir de la table des prestations ou la table des affiliations, se référer à la fiche sur la CMU-C. 
 
-L'effectif donné par le Fonds CMU est 
-un effectif pris au 31/12/2016.
+L'effectif donné par le Fonds CMU est  un effectif pris au 31/12/2016.
 
-*Note :* 2016
+*Note :* 2016, calculs Drees à titre indicatifs
 *Source*: Rapport d'activité Fonds CMU 2016
 
 
