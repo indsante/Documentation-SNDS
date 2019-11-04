@@ -161,18 +161,20 @@ Les dépenses d'actes et consultations externes (ACE) des établissements public
 sous `ORAVUE.t_mcoANNEE.valoace`. 
 Cette table contient une ligne par ACE (valorisé ou non). Elle contient la valorisation totale ainsi le détail de valorisation par
 prestation (ATU, FFM, Dialyse,
-SE, FTN, NGAP, CCAM, DM Externe). La variable de montant de dépense est `mnt_br`, soit la base de remboursement de la sécurité sociale. En effet, 
+SE, FTN, NGAP, CCAM, DM Externe). Pour plus d'informations sur les ACE, se reporter à la fiche correspondante. 
+La variable de montant de dépense est `mnt_br`, soit la base de remboursement de la sécurité sociale. En effet, 
 comme évoqué précédemment, il n'existe pas de dépassements à l'hôpital public. 
 La table patients correspondante est `t_mcoANNEE.cstc`, on peut les chaîner toujours via le couple (`RSA_NUM`,`ETA_NUM`). La table
 patients contient également l'identifiant bénéficiaire `NIR_ANO_17`. 
 
-L'information sur la pharmacie de la liste en sus et les dispositifs médicaux implantables se trouve dans les tables suivantes. 
+L'information sur la pharmacie de la liste en sus, les dispositifs médicaux implantables, les médicaments soumis à autorisation temporaire d'utilisation (ATU)
+et les médicaments thrombolytiques se trouve dans les tables suivantes. 
 
 Pour l'hôpital public en MCO: 
 - `MED` : contient les médicaments en sus
 - `MEDATU` : contient les médicaments soumis à autorisation temporaire d’utilisation
 - `MEDTHROMBO` : contient les médicaments thrombolytiques pour le traitement de l’AVC ischémique
-- `DMIP` : contient les dispositifs médicaux implantables en sus
+- `DMIP` : contient les dispositifs médicaux implantables
 
 Pour les ACE en MCO, l'information se trouve dans la table `FHSTC` : médicaments en sus.
 
@@ -184,7 +186,7 @@ En SSR,
 #### En HAD
 
 
-L'information sur la dépense que représente la pharmacie de la liste en sus et les médicaments coûteux hors liste en sus et hors ATU est contenue dans
+L'information sur la dépense que représente la pharmacie de la liste en sus, les médicaments ATU et les médicaments coûteux hors liste en sus et hors ATU est contenue dans
 
 -    `MED` : médicaments en sus
 -    `MEDATU` : médicaments soumis à autorisation temporaire d’utilisation
@@ -193,7 +195,7 @@ L'information sur la dépense que représente la pharmacie de la liste en sus et
 
 #### En PSY
 
-L'information sur la dépense que représente la pharmacie de la liste en sus est contenue dans
+L'information sur la dépense que représente la pharmacie de la liste en sus et les médicaments ATU est contenue dans
 
 -    `MED` : médicaments en sus
 -    `MEDATU` : médicaments soumis à autorisation temporaire d’utilisation
@@ -201,11 +203,11 @@ L'information sur la dépense que représente la pharmacie de la liste en sus es
 
 ## Les établissements privés dans le DCIR et le DCIRS
 
-Les séjours en cliniques privées sont facturés directement à l’Assurance Maladie ce qui garantit l’**exhaustivité des remontées d’information sur ce champ**.
+Les séjours en établissements privés sont facturés directement à l’Assurance Maladie ce qui garantit l’**exhaustivité des remontées d’information sur ce champ**.
 Cela concerne toutes les prestations en établissement privé, que l'établissement soit de nature non lucratif ou lucratif.
 Le PMSI contient des tables de facturation des séjours privés mais il n’est pas certain qu’elles correspondent aux montants réellement facturés et 
 remboursés par l’assurance maladie.
-Il est donc **recommandé d'analyser les dépenses des cliniques privées dans le DCIR ou le DCIRS plutôt que dans le PMSI**. 
+Il est donc **recommandé d'analyser les dépenses des établissements privés dans le DCIR ou le DCIRS plutôt que dans le PMSI**. 
 
 ### Les filtres à poser avant d'analyser les établissements privés
 
@@ -229,7 +231,8 @@ On exclut les centres de santé car ceux-ci sont catégorisés en soins de ville
 (https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/panoramas-de-la-drees/article/les-depenses-de-sante-en-2018-resultats-des-comptes-de-la-sante-edition-2019)
 ainsi que dans la statistique mensuelle de la CNAM.
 
-- `MFT_COD` NOT IN (4,6). On filtre sur le motif du code de fixation des tarifs. On exclut ainsi ETABLISSEMENTS PRIVES A BUT NON LUCRATIF PARTICIPANT AU SERVICE PUBLIC HOSPITALIER (PSPH)
+- `MFT_COD` NOT IN (4,6). On filtre sur le motif du code de fixation des tarifs. 
+On exclut ainsi ETABLISSEMENTS PRIVES A BUT NON LUCRATIF PARTICIPANT AU SERVICE PUBLIC HOSPITALIER (PSPH)
 et ETABLISSEMENT DE SANTE ET MEDICAUX SOCIAUX NON CONVENTIONNE AVEC L AIDE SOCIALE ET NON CONVENTIONNE AVEC L ASSURANCE MALADIE (TARIF D AUTORITE). Voir
 nomenclature pour plus de précisions sur le filtre sur le motif du code de fixation des tarifs à appliquer. 
 
@@ -276,12 +279,10 @@ la variable `DDP_GDE_COD` qui nous renseigne sur la discipline de prestations.
 | 1 | médecine |
 | 2 | chirurgie | 
 | 3 | obstétrique |
-| 5 | USLD | 
+ 
 
 La HAD se repère avec le Groupe Homogène de Tarif, on peut la repérer à l'aide 
-de la nomenclature fournie (cf. paragraphe suivant) construite sur la statistique mensuelle de la CNAM sur les cliniques privées.
-
-Pour repérer les prestations en USLD, on peut utiliser le `DDP_GDE_COD` égal à 5 combiné au code prestations (cf. nomenclature).
+de la nomenclature fournie (cf. paragraphe suivant) construite sur la statistique mensuelle de la CNAM sur les établissements sanitaires privés.
 
 Il n'existe pas d'activité externe en établissement privé lucratif, elle est considérée comme du soin de ville libéral. 
 Afin de distinguer le lieu d'exécution de la prestation, on peut utiliser la variable `lieu_exec` présentée ci-dessus.
