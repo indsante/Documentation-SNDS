@@ -1,6 +1,9 @@
 # L'Aide au paiement d'une Complémentaire Santé 
 
 
+Cette fiche aborde une variable en particulier de l'ensemble des variables socio-démographiques, pour une description plus globale se référer à la fiche 
+concernant les variables socio-démographiques. 
+
 ## Définition 
 
 L’aide à l’acquisition d’une complémentaire santé (ACS) 
