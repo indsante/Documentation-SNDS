@@ -180,13 +180,29 @@ Pour les ACE en MCO, l'information se trouve dans la table `FHSTC` : médicament
 
 #### En SSR
 
-Pour connaitre le montant de la dépense d'un patient en SSR
-En SSR, 
+On pourra considérer la table de facturation `t_ssrANNEE.stc` et la variable `TOT_MNT_AM`. 
+La table de chainage patients se nomme `t_ssrANNEE.c`.
+ 
+Les actes et consultations externes en SSR se trouvent dans la table `t_ssrANNEE.cstc`. 
+La table `t_ssrANNEE.fbstc` permet de considérer la variable `ACT_COD`
+pour déterminer la nature des ACE (en particulier s'il s'agit d'urgences). Pour plus d'informations, se référer à la fiche sur les ACE.
+Les deux tables peuvent se joindre par la clef (`ETA_NUM`, `SEQ_NUM`).
+On peut utiliser la table `t_ssrANNEE.fastc` pour la valorisation avec les variables `PH_AMO_MNR`, `HON_AM_MNR`, `PH_MNT` et `HON_MNT`. 
+
+Les informations sur les médicaments en sus et les médicaments soumis à autorisation temporaire d'utilisation (ATU) se trouvent dans les tables:
+
+- `t_ssrANNEE.med`: médicaments en sus
+- `t_ssrANNEE.medatu`: médicaments soumis à ATU
 
 #### En HAD
 
+On pourra considérer la table de facturation `t_hadANNEE.stc` et la variable `TOT_MNT_AM`. 
+La table de chainage patients se nomme `t_hadANNEE.c`.
+ 
+Il n'y a pas d'ACE en HAD. 
 
-L'information sur la dépense que représente la pharmacie de la liste en sus, les médicaments ATU et les médicaments coûteux hors liste en sus et hors ATU est contenue dans
+L'information sur la dépense que représente la pharmacie de la liste en sus, les médicaments ATU et les médicaments coûteux hors liste en sus et
+hors ATU est contenue dans:
 
 -    `MED` : médicaments en sus
 -    `MEDATU` : médicaments soumis à autorisation temporaire d’utilisation
@@ -194,6 +210,8 @@ L'information sur la dépense que représente la pharmacie de la liste en sus, l
 
 
 #### En PSY
+
+
 
 L'information sur la dépense que représente la pharmacie de la liste en sus et les médicaments ATU est contenue dans
 
