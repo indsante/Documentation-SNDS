@@ -5,11 +5,13 @@ En dehors de l'Open Data, présenté plus haut, deux types distincts d'accès au
 
 ## Les accès permanents
 
-Certains organismes chargés d'une mission de service public, [listés par décret](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000033702840&categorieLien=id), disposent d'un accès permanent aux données du SNDS. Cette autorisation pérenne concerne un périmètre spécifique des données, et se décline ainsi selon les niveaux d'agrégation (données individuelles/agrégées bénéficiaires, …) et les historiques accessibles.
+Certains organismes chargés d'une mission de service public, [listés par décret](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000033702840&categorieLien=id), disposent d'un accès permanent aux données du SNDS.
+Cette autorisation pérenne concerne un périmètre spécifique des données, et se décline ainsi selon les niveaux d'agrégation (données individuelles/agrégées bénéficiaires, …) et les historiques accessibles.
 
 ## Les accès sur projet
 
-Pour tous les demandeurs, publics comme privés, la loi prévoit la possibilité de demander un accès à une extraction de données du SNDS pour un projet d'intérêt public à des fins de recherche, d'étude et d'évaluation dans le domaine de la santé. Selon les cas, cette demande d'accès peut relever de différentes procédures.
+Pour tous les demandeurs, publics comme privés, la loi prévoit la possibilité de demander un accès à une extraction de données du SNDS pour un projet d'intérêt public à des fins de recherche, d'étude et d'évaluation dans le domaine de la santé.
+Selon les cas, cette demande d'accès peut relever de différentes procédures.
 
 ### La procédure standard
 
@@ -22,11 +24,13 @@ La procédure standard d'accès au SNDS, la plus courante, suit les étapes suiv
 
 ### Les méthodologies de référence
 
-Les méthodologies de référence (MR) sont des procédures simplifiées d'accès aux données, qui permettent dans certaines situations de réaliser une recherche en santé sans nécessiter d'autorisation CNIL ou d'avis du CEREES. Le Responsable de Traitement adresse alors à la CNIL une déclaration attestant la conformité du projet à la MR, puis inscrit son traitement dans le [r](https://www.indsante.fr/fr/repertoire-public-des-etudes-realisees-sous-mr)[épertoire public tenu par l'INDS](https://www.indsante.fr/fr/repertoire-public-des-etudes-realisees-sous-mr).
+Les méthodologies de référence (MR) sont des procédures simplifiées d'accès aux données, qui permettent dans certaines situations de réaliser une recherche en santé sans nécessiter d'autorisation CNIL ou d'avis du CEREES.
+Le Responsable de Traitement adresse alors à la CNIL une déclaration attestant la conformité du projet à la MR, puis inscrit son traitement dans le [répertoire public tenu par l'INDS](https://www.indsante.fr/fr/repertoire-public-des-etudes-realisees-sous-mr).
 
 ### La procédure simplifiée d'accès à l'EGB
 
-Début 2019, la CNIL a homologué une procédure d'accès simplifiée à l'EGB, en sa qualité d'échantillon représentatif. La CNIL donne ainsi compétence à l'INDS pour approuver (délai : 15 jours) l'accès à l'EGB après examen des 5 conditions suivantes :
+Début 2019, la CNIL a homologué une procédure d'accès simplifiée à l'EGB, en sa qualité d'échantillon représentatif.
+La CNIL donne ainsi compétence à l'INDS pour approuver (délai : 15 jours) l'accès à l'EGB après examen des 5 conditions suivantes :
 
 - la finalité d'intérêt public du projet
 - la justification par le RT de la pertinence scientifique du projet
@@ -36,7 +40,8 @@ Début 2019, la CNIL a homologué une procédure d'accès simplifiée à l'EGB, 
 
 ### Les assureurs et industriels de santé
 
-L'accès des industriels de santé (entreprises productrices de produits de santé) et des assureurs en santé au SNDS est plus fortement encadré. Ces acteurs doivent :
+L'accès des industriels de santé (entreprises productrices de produits de santé) et des assureurs en santé au SNDS est plus fortement encadré.
+Ces acteurs doivent :
 
 - soit passer par un bureau d'études ou un organisme de recherche indépendant
 - soit démontrer l'impossibilité d'utiliser le SNDS pour des finalités interdites
