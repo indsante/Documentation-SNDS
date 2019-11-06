@@ -2,7 +2,6 @@
 
 Table des conventions HAD-EHPA
 
-- Clé primaire : `ETA_NUM_EPMSI`
 
 ## Modèle de données
 

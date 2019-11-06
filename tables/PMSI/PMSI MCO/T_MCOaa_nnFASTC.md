@@ -2,6 +2,7 @@
 
 ACE Entete facture
 
+- Clé primaire : `ETA_NUM, SEQ_NUM`
 
 ## Modèle de données
 
