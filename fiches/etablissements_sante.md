@@ -185,7 +185,7 @@ Il est conseillé de considérer `MNT_TOT_AM` de la table valo corrigée par l'A
 `TOT_MNT_AM` de la table STC qui est l'information brute des établissements.  
 Pour un même séjour, ces deux montants ne sont pas calculés selon la même base de remboursement : `MNT_TOT_AM` est calculée sur la base des GHS, tandis que `TOT_MNT_AM` est calculée sur la base des tarifs journaliers de prestation (TJP) 
 
-Pour joindre les deux tables `valo` et `stc` il faut passer par la table de chaînage patients (`t_mcoANNEE.c` toujours sous ORAVUE).  
+Pour joindre les deux tables `t_mcoANNEE.valo` et `t_mcoANNEE.stc` il faut passer par la table de chaînage patients (`t_mcoANNEE.c` toujours sous ORAVUE).  
 La clef de chaînage est le couple (`RSA_NUM`, `ETA_NUM`). `RSA_NUM` est le numéro du patient et `ETA_NUM` l'identifiant de l'établissement.  
 Dans la table patients, on trouve l'identifiant bénéficiaire `NIR_ANO_17` (cf. fiche Identifiant des bénéficiaires pour plus d'informations).
 
@@ -199,8 +199,9 @@ sous `t_mcoANNEE.valoace`.
 Cette table contient une ligne par ACE (valorisé ou non).  
 On peut obtenir des détails sur la nature de l'ACE (ATU, FFM, Dialyse, SE, FTN, NGAP, CCAM, DM Externe) à l'aide de la variable `ACT_COD` de la table `t_mcoANNEE.fbstc`.  
 Pour plus d'informations sur les ACE, se reporter à la fiche correspondante. 
-La variable de montant de dépense est `mnt_br`, soit la base de remboursement de la sécurité sociale. En effet, 
-comme évoqué précédemment, il n'existe pas de dépassements à l'hôpital public. 
+La montant des dépenses est donné par la variable `MNT_BR`, la base de remboursement de la sécurité sociale, car comme évoqué précédemment, il n'existe pas de dépassements à l'hôpital public.  
+La variable `MNT_REMB` indique le montant remboursé par l'assurance maladie.  
+
 La table patients correspondante est `t_mcoANNEE.cstc`, on peut les chaîner toujours via le couple (`RSA_NUM`,`ETA_NUM`). La table
 patients contient également l'identifiant bénéficiaire `NIR_ANO_17`.
 
