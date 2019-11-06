@@ -109,9 +109,11 @@ Pour plus de détail sur ce spécialités, se reporter par exemple au Panorama d
 (https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/panoramas-de-la-drees/article/les-etablissements-de-sante-edition-2019)
 ou à la documentation de l'ATIH sur le sujet.
 
-#### Filtres à appliquer pour le PMSI MCO
+Nous décrivons ici comment trouver les dépenses de l'assurance maladie par séjour en établissement public.
+Pour avoir les dépenses complètes par séjour, il faut ajouter le montant du reste à charge après assurance maladie obligatoire.
+Pour plus d'informations sur le calcul du reste à charge, se référer à la fiche correspondante (WIP).
 
-Nous décrivons ici comment trouver les dépenses dans le PMSI MCO. 
+#### Filtres à appliquer pour le PMSI MCO
 
 Sur la partie séjour, les filtres à poser à partir des variables 
 de la table `t_mcoANNEE.b` sous ORAVUE sont les suivants : 
@@ -173,13 +175,13 @@ A minima, il faut exclure les séjours pour lesquels `VALO` prend la valeur 0, o
 
 ##### En MCO
 
-Pour connaitre le montant de la dépense, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE. 
+Pour connaitre le montant de la dépense de l'assurance maladie, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE. 
 La variable de montant est `MNT_TOT_AM`. Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de dépassements à l'hôpital public.  
 Il est conseillé de considérer `MNT_TOT_AM` de la table valo corrigée par l'ATIH et non la variable
 `TOT_MNT_AM` de la table STC qui est l'information brute des établissements.  
 Pour un même séjour, ces deux montants ne sont pas calculés selon la même base de remboursement : 
 - `MNT_TOT_AM` est calculée sur la base des GHS
-- tandis que `TOT_MNT_AM` est calculée sur la base des TJP 
+- tandis que `TOT_MNT_AM` est calculée sur la base des tarifs journaliers de prestation (TJP) 
 
 Pour joindre les deux tables `valo` et `stc` il faut passer par la table de chainage patients (`t_mcoANNEE.c` toujours sous ORAVUE).
 La clef de chaînage est le couple (`RSA_NUM`, `ETA_NUM`). `RSA_NUM` est le numéro du patient et `ETA_NUM` l'identifiant de l'établissement.
@@ -191,7 +193,7 @@ avec `ETA_NUM`.
 Les dépenses d'actes et consultations externes (ACE) des établissements publics et ESPIC se trouvent dans la table de valorisation des ACE 
 sous `t_mcoANNEE.valoace`. 
 Cette table contient une ligne par ACE (valorisé ou non). 
-On peut obtenir des détails sur le type de prestation (ATU, FFM, Dialyse, SE, FTN, NGAP, CCAM, DM Externe) à l'aide de la variable `ACT_COD` de la table `t_mcoANNEE.fbstc`. 
+On peut obtenir des détails sur la nature de l'ACE (ATU, FFM, Dialyse, SE, FTN, NGAP, CCAM, DM Externe) à l'aide de la variable `ACT_COD` de la table `t_mcoANNEE.fbstc`. 
 Pour plus d'informations sur les ACE, se reporter à la fiche correspondante. 
 La variable de montant de dépense est `mnt_br`, soit la base de remboursement de la sécurité sociale. En effet, 
 comme évoqué précédemment, il n'existe pas de dépassements à l'hôpital public. 
@@ -207,15 +209,17 @@ L'information sur la pharmacie de la liste en sus, les dispositifs médicaux imp
 et les médicaments thrombolytiques se trouve dans les tables suivantes. 
 
 Pour l'hôpital public en MCO: 
-- `MED` : contient les médicaments en sus
-- `MEDATU` : contient les médicaments soumis à autorisation temporaire d’utilisation
-- `MEDTHROMBO` : contient les médicaments thrombolytiques pour le traitement de l’AVC ischémique
-- `DMIP` : contient les dispositifs médicaux implantables  
+- `t_mcoANNEE.med` : contient les médicaments en sus
+- `t_mcoANNEE.medatu` : contient les médicaments soumis à autorisation temporaire d’utilisation
+- `t_mcoANNEE.medthrombo` : contient les médicaments thrombolytiques pour le traitement de l’AVC ischémique
+- `t_mcoANNEE.dmip` : contient les dispositifs médicaux implantables  
+
 Pour les ACE en MCO, l'information se trouve dans la table `FHSTC` : médicaments en sus.
 
-Pour l'étude des médicaments et dispositifs de la liste en SUS, l'ATIH suggère d'appliquer un certain nombre de filtres.   
+On peut déduire le montant des dépenses à partir du prix d'achat multiplié par le nombre administré ou posé (pour les médicaments et dispositifs respectivement).  
+
+Pour l'étude des médicaments et dispositifs de la liste en SUS, l'ATIH suggère d'appliquer les critères d'exclusion suivants :     
 (https://www.scansante.fr/applications/synthese-dmi-mo-sus)  
-Les critères de suppression sont les suivant : 
 - Nombre UCD = 0 et prix d’achat > 0
 - Nombre UCD = 0 et prix d’achat = 0
 - Nombre UCD < 0 ou prix d’achat < 0
@@ -228,34 +232,81 @@ Les critères de suppression sont les suivant :
 
 #### En SSR
 
-On pourra considérer la table de facturation `t_ssrANNEE.stc` et la variable `TOT_MNT_AM`. 
+À partir de 2017, on peut utiliser la variable `MNT_TOT_AM` de la table de valorisation des séjours (corrigée par l'ATIH) `t_ssrANNEE.valo` sous ORAVUE.  
+Avant 2017, nous ne disposons que de la table de facturation transmise par les établissements `t_ssrANNEE.stc`, dans laquelle la variable `TOT_MNT_AM` n'est pas est calculée sur la base des GMT mais des TJP. 
 La table de chainage patients se nomme `t_ssrANNEE.c`.
- 
+La table `t_ssrANNEE.b` de description du sejour permet d'extraire des informations sur le mode d'hospitalisation (complète/partielle, variable `HOS_TYP_UM`), ainsi que sur le GME (variable `GR_GME`).
+
+Les filtres sur les séjours sont les suivants :
+- Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) (en utilisant la variable `ETA_NUM`)
+- Exclusion des séjours en erreur (en utilisant la variable `GRG_GME`)
+- Exclusion des prestations inter établissement (en utilisant la variable `SOR_MOD`)
+- Exclusion des séjours hors période d'étude (variables `EXE_SOI_DTD` et `EXE_SOI_DTF`)
+- Exclusion des séjours non valorisés (variable `VALO` dans `t_ssrANNEE.valo` ou `FAC_SEJ_AM` dans `t_ssrANNEE.stc`)  
+  
 Les actes et consultations externes en SSR se trouvent dans la table `t_ssrANNEE.cstc`. 
-La table `t_ssrANNEE.fbstc` permet de considérer la variable `ACT_COD`
-pour déterminer la nature des ACE (en particulier s'il s'agit d'urgences). Pour plus d'informations, se référer à la fiche sur les ACE.
+Tout comme en MCO, on peut obtenir des détails sur la nature de l'ACE (ATU, FFM, Dialyse, SE, FTN, NGAP, CCAM, DM Externe) à l'aide de la variable `ACT_COD` de la table `t_mcoANNEE.fbstc`.  
 Les deux tables peuvent se joindre par la clef (`ETA_NUM`, `SEQ_NUM`).
-On peut utiliser la table `t_ssrANNEE.fastc` pour la valorisation avec les variables `PH_AMO_MNR`, `HON_AM_MNR`, `PH_MNT` et `HON_MNT`. 
+Pour plus d'informations, se référer à la fiche sur les ACE.
+On peut utiliser la table de facturation `t_ssrANNEE.fastc` pour calculer le montant total des dépenses (somme de `PH_MNT` et `HON_MNT`),
+ainsi que le montant remboursé par l'AM (somme de `PH_AMO_MNR`, `HON_AM_MNR`). 
+Avec `PH_MNT`, le montant total facture pour PH; `HON_MNT`, le total honoraire facture; `PH_AMO_MNR`, le total remboursable AMO prestation hospitalieres; `HON_AM_MNR`, le total honoraire remboursable AM.  
 
-Les informations sur les médicaments en sus et les médicaments soumis à autorisation temporaire d'utilisation (ATU) se trouvent dans les tables:
+Tout comme en MCO, il faut veiller à appliquer les filtres suivants :
+- Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) (en utilisant la variable `ETA_NUM`)
+- Exclusion des ACE réalisées en dehors de la période d'étude (en utilisant les variable `EXE_SOI_DTD` et `EXE_SOI_DTF`)
+- Exclusion des ACE non valorisées
 
+
+Les informations sur les médicaments en sus et les médicaments soumis à autorisation temporaire d'utilisation (ATU) se trouvent dans les tables :
 - `t_ssrANNEE.med`: médicaments en sus
 - `t_ssrANNEE.medatu`: médicaments soumis à ATU
 
+On peut déduire le montant des dépenses à partir du prix d'achat multiplié par le nombre administré.  
+
+Pour l'étude des médicaments et dispositifs de la liste en SUS, l'ATIH suggère d'appliquer les critères d'exclusion suivants :   
+(https://www.scansante.fr/applications/synthese-dmi-mo-sus)  
+- Nombre UCD = 0 et prix d’achat > 0
+- Nombre UCD = 0 et prix d’achat = 0
+- Nombre UCD < 0 ou prix d’achat < 0
+- Nombre UCD >=100
+- Codes UCD erronés (à vide ou indéterminés)
+- Molécules administrées hors période d’appartenance à la liste en sus
+  
+
 #### En HAD
 
-On pourra considérer la table de facturation `t_hadANNEE.stc` et la variable `TOT_MNT_AM`. 
+À partir de 2017, on peut utiliser la variable `MNT_TOT_AM` de la table de valorisation des séjours (corrigée par l'ATIH) `t_hadANNEE.valo` sous ORAVUE.  
+Avant 2017, nous ne disposons que de la table de facturation transmise par les établissements `t_hadANNEE.stc`, dans laquelle la variable `TOT_MNT_AM` n'est pas est calculée sur la base des GHT mais des TJP. 
 La table de chainage patients se nomme `t_hadANNEE.c`.
- 
+Des informations sur le GHPC se trouvent dans la table `t_hadANNEE.grp` (variable `PAP_GRP_GHPC`).
+
+Les filtres sur les séjours sont les suivants :
+- Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) (en utilisant la variable `ETA_NUM`)
+- Exclusion des séjours en erreur (en utilisant la variable `PAP_GRP_GHPC`)
+- Exclusion des séjours hors période d'étude (variables `EXE_SOI_DTD` et `EXE_SOI_DTF`)
+- Exclusion des séjours non valorisés (variable `VALO` dans `t_hadANNEE.valo` ou `FAC_SEJ_AM` dans `t_hadANNEE.stc`)  
+
+
 Il n'y a pas d'ACE en HAD. 
 
 L'information sur la dépense que représente la pharmacie de la liste en sus, les médicaments ATU et les médicaments coûteux hors liste en sus et
 hors ATU est contenue dans:
+- `t_hadANNEE.med` : médicaments en sus
+- `t_hadANNEE.medatu` : médicaments soumis à autorisation temporaire d’utilisation
+- `t_hadANNEE.medhcl` : médicaments coûteux hors liste en SUS et hors ATU
 
--    `MED` : médicaments en sus
--    `MEDATU` : médicaments soumis à autorisation temporaire d’utilisation
--    `MEDCHL` : médicaments coûteux hors liste en SUS et hors ATU
+On peut déduire le montant des dépenses à partir du prix d'achat multiplié par le nombre administré.  
 
+Pour l'étude des médicaments et dispositifs de la liste en SUS, l'ATIH suggère d'appliquer les critères d'exclusion suivants : 
+(https://www.scansante.fr/applications/synthese-dmi-mo-sus)  
+- Nombre UCD = 0 et prix d’achat > 0
+- Nombre UCD = 0 et prix d’achat = 0
+- Nombre UCD < 0 ou prix d’achat < 0
+- Nombre UCD >=100
+- Codes UCD erronés (à vide ou indéterminés)
+- Molécules administrées hors période d’appartenance à la liste en sus
+  
 
 #### En PSY
 
