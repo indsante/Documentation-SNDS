@@ -50,7 +50,7 @@ NOT (T2.ETE_IND_TAA= 1
 On peut créer une variable qui permet d’obtenir le lieu d’exécution de la prestation et de classer ce lieu en fonction de s’il s’agit
 d’un établissement en public et privé. 
 
-Si la variable `ETB_EXE_FIN` est égal à 0, aucun établissement n’est lié à la prestation, alors il s’agit d’une prestation de ville. 
+Si la variable `ETB_EXE_FIN` est égale à 0, aucun établissement n’est lié à la prestation, alors il s’agit d’une prestation de ville. 
 
 Parmi les soins associés à un FINESS, certains peuvent être classés dans les soins de ville selon la logique suivante. 
 La variable `ETB_CAT_RG1` du référentiel des établissements (`IR_CET_V`) permet de regrouper les établissements 
@@ -100,41 +100,7 @@ correspond à de la rétrocession.
 
 ### Les dépenses en établissement public dans le PMSI
 
-#### Filtres à appliquer pour le PMSI MCO
-
-Nous décrivons ici comment trouver les dépenses dans le PMSI MCO. 
-
-Sur la partie séjour, les filtres à poser sont les suivants : 
-
-- Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) 
-- Exclusion des séjours en erreur
-- Exclusion des prestations inter établissement
-- Exclusion des prestations pour lesquelles un résumé de séjour n'a pas été généré: la dialyse, l'activité externe des médecins salariés ou 
-des FFM, ATU, SE (attention cependant, la variable `TYP_GEN_RSA` n'est disponible qu'à partir de 2015)
-
--> RA : j'ai l'impression qu'il manque des finess géo
-
-Le code SAS correspondant est le suivant :
-
-```
-WHERE 
-ETA_NUM not in ('130780521', '130783236', '130783293', '130784234', '130804297','600100101', '750041543', 
-'750100018', '750100042', '750100075', '750100083', '750100091', '750100109', '750100125', '750100166', 
-'750100208', '750100216', '750100232', '750100273', '750100299' , '750801441', '750803447', '750803454', 
-'910100015', '910100023', '920100013', '920100021', '920100039', '920100047', '920100054', '920100062', 
-'930100011', '930100037', '930100045', '940100027', '940100035', '940100043', '940100050', '940100068', 
-'950100016', '690783154', '690784137', '690784152', '690784178', '690787478', '830100558') 
-AND GRG_GHM not like '90%' 
-AND ENT_MOD<>'0' and SOR_MOD<>'0'
-AND TYP_GEN_RSA = '0' 
-```
-
-Toutes les variables de filtres présentées se trouvent dans la table des séjours `t_mcoANNEE.b` sous ORAVUE. 
-
-
-#### Les tables à considérer pour étudier l'activité en hôpital public 
-
-Il existe quatre types de spécialité hospitalière : 
+Il existe quatre types de spécialités hospitalières : 
 - MCO
 - SSR
 - PSY
@@ -143,12 +109,77 @@ Pour plus de détail sur ce spécialités, se reporter par exemple au Panorama d
 (https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/panoramas-de-la-drees/article/les-etablissements-de-sante-edition-2019)
 ou à la documentation de l'ATIH sur le sujet.
 
+#### Filtres à appliquer pour le PMSI MCO
+
+Nous décrivons ici comment trouver les dépenses dans le PMSI MCO. 
+
+Sur la partie séjour, les filtres à poser à partir des variables 
+de la table `t_mcoANNEE.b` sous ORAVUE sont les suivants : 
+
+- Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) (en utilisant la variable `ETA_NUM`)
+- Exclusion des séjours en erreur (en utilisant la variable `GRG_GHM`)
+- Exclusion des prestations inter établissement (en utilisant la variable `SOR_MOD`)
+- Exclusion des prestations pour lesquelles un résumé de séjour n'a pas été généré: la dialyse, l'activité externe des médecins salariés ou 
+des FFM, ATU, SE (attention cependant, la variable `TYP_GEN_RSA` n'est disponible qu'à partir de 2015)
+
+Le code SAS correspondant est le suivant :
+
+```
+WHERE 
+ETA_NUM not in (   '600100093','600100101','620100016','640790150','640797098','750100018','750806226', 
+                   '750100356','750802845','750801524','750100067','750100075','750100042','750805228',
+                   '750018939','750018988','750100091','750100083','750100109','750833345','750019069',
+                   '750803306','750019028','750100125','750801441','750019119','750100166','750100141',
+                   '750100182','750100315','750019648','750830945','750008344','750803199','750803447',
+                   '750100216','750100208','750833337','750000358','750019168','750809576','750100299',
+                   '750041543','750100232','750802258','750803058','750803454','750100273','750801797',
+                   '750803371','830100012','830009809','910100015','910100031','910100023','910005529',
+                   '920100013','920008059','920100021','920008109','920100039','920100047','920812930',
+                   '920008158','920100054','920008208','920100062','920712551','920000122','930100052',
+                   '930100037','930018684','930812334','930811294','930100045','930011408','930811237',
+                   '930100011','940018021','940100027','940100019','940170087','940005739','940100076',
+                   '940100035','940802291','940100043','940019144','940005788','940100050','940802317',
+                   '940100068','940005838','950100024','950100016','130808231','130809775','130782931',
+                   '130806003','130783293','130804305','130790330','130804297','130783236','130796873',
+                   '130808520','130799695','130802085','130808256','130806052','130808538','130802101',
+                   '130796550','130014558','130784234','130035884','130784259','130796279','130792856',
+                   '130017239','130792534','130793698','130792898','130808546','130789175','130780521',
+                   '130033996','130018229','90787460','690007422','690007539','690784186','690787429',
+                   '690783063','690007364','690787452','690007406','690787486','690784210','690799416',
+                   '690784137','690007281','690799366','690784202','690023072','690787577','690784194',
+                   '690007380','690784129','690029194','690806054','690029210','690787767','690784178',
+                   '690783154','690799358','690787817','690787742','690784152','690784145','690783121',
+                   '690787478','690007455','690787494','830100558','830213484') 
+AND GRG_GHM not like '90%' 
+AND ENT_MOD<>'0' and SOR_MOD<>'0'
+AND TYP_GEN_RSA = '0' 
+```
+
+En complément, des filtres peuvent être appliqués sur les dates d'entrée et de sortie pour se 
+concentrer sur les séjours ayant eu lieu à une période donnée. 
+Les variables à utiliser sont `EXE_SOI_DTD` et `EXE_SOI_DTF` dans la table de chaînage `t_mcoANNEE.c` sous ORAVUE.
+  
+Enfin, pour étudier les dépenses, il faut exclure les séjours non valorisés à partir de la variable `VALO` de la table `t_mcoANNEE.valo` de valorisation du séjour, 
+qui prend les valeurs suivantes :
+  * 0 : si le séjour n’est pas valorisé 
+  * 1 : si le séjour est valorisé 
+  * 2 : dans le cas d’un séjour non valorisé avec prélèvement d’organes. Dans ce cas, seuls les prélèvements d’organe sont valorisés pour le séjour. 
+  * 3 : si le séjour est en AME (Aide Médicale d'Etat)
+  * 4 : si le séjour est en Soins urgents (SU)
+  * 5 : si le patient est un détenu  
+A minima, il faut exclure les séjours pour lesquels `VALO` prend la valeur 0, ou est manquante.
+
+#### Les tables à considérer pour étudier l'activité en hôpital public 
+
 ##### En MCO
 
 Pour connaitre le montant de la dépense, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE. 
-La variable de montant est `MNT_TOT_AM`. Il est conseillé de considérer `MNT_TOT_AM` de la table `valo` corrigée par l'ATIH et non la variable
-`TOT_MNT_AM` de la table `STC` qui est l'information brute des établissements.  
-Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de dépassements à l'hôpital public.
+La variable de montant est `MNT_TOT_AM`. Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de dépassements à l'hôpital public.  
+Il est conseillé de considérer `MNT_TOT_AM` de la table valo corrigée par l'ATIH et non la variable
+`TOT_MNT_AM` de la table STC qui est l'information brute des établissements.  
+Pour un même séjour, ces deux montants ne sont pas calculés selon la même base de remboursement : 
+- `MNT_TOT_AM` est calculée sur la base des GHS
+- tandis que `TOT_MNT_AM` est calculée sur la base des TJP 
 
 Pour joindre les deux tables `valo` et `stc` il faut passer par la table de chainage patients (`t_mcoANNEE.c` toujours sous ORAVUE).
 La clef de chaînage est le couple (`RSA_NUM`, `ETA_NUM`). `RSA_NUM` est le numéro du patient et `ETA_NUM` l'identifiant de l'établissement.
@@ -158,14 +189,19 @@ L'information concernant les établissements se trouve dans la table `t_mcoANNEE
 avec `ETA_NUM`. 
 
 Les dépenses d'actes et consultations externes (ACE) des établissements publics et ESPIC se trouvent dans la table de valorisation des ACE 
-sous `ORAVUE.t_mcoANNEE.valoace`. 
-Cette table contient une ligne par ACE (valorisé ou non). Elle contient la valorisation totale ainsi le détail de valorisation par
-prestation (ATU, FFM, Dialyse,
-SE, FTN, NGAP, CCAM, DM Externe). Pour plus d'informations sur les ACE, se reporter à la fiche correspondante. 
+sous `t_mcoANNEE.valoace`. 
+Cette table contient une ligne par ACE (valorisé ou non). 
+On peut obtenir des détails sur le type de prestation (ATU, FFM, Dialyse, SE, FTN, NGAP, CCAM, DM Externe) à l'aide de la variable `ACT_COD` de la table `t_mcoANNEE.fbstc`. 
+Pour plus d'informations sur les ACE, se reporter à la fiche correspondante. 
 La variable de montant de dépense est `mnt_br`, soit la base de remboursement de la sécurité sociale. En effet, 
 comme évoqué précédemment, il n'existe pas de dépassements à l'hôpital public. 
 La table patients correspondante est `t_mcoANNEE.cstc`, on peut les chaîner toujours via le couple (`RSA_NUM`,`ETA_NUM`). La table
-patients contient également l'identifiant bénéficiaire `NIR_ANO_17`. 
+patients contient également l'identifiant bénéficiaire `NIR_ANO_17`.
+
+Tout comme pour les séjours de MCO, il faut veiller à appliquer les filtres suivants :
+- Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) (en utilisant la variable `ETA_NUM`)
+- Exclusion des ACE réalisées en dehors de la période d'étude (en utilisant les variable `EXE_SOI_DTD` et `EXE_SOI_DTF`)
+- Exclusion des ACE non valorisées (en utilisant la variable `VALO`)
 
 L'information sur la pharmacie de la liste en sus, les dispositifs médicaux implantables, les médicaments soumis à autorisation temporaire d'utilisation (ATU)
 et les médicaments thrombolytiques se trouve dans les tables suivantes. 
@@ -174,9 +210,21 @@ Pour l'hôpital public en MCO:
 - `MED` : contient les médicaments en sus
 - `MEDATU` : contient les médicaments soumis à autorisation temporaire d’utilisation
 - `MEDTHROMBO` : contient les médicaments thrombolytiques pour le traitement de l’AVC ischémique
-- `DMIP` : contient les dispositifs médicaux implantables
-
+- `DMIP` : contient les dispositifs médicaux implantables  
 Pour les ACE en MCO, l'information se trouve dans la table `FHSTC` : médicaments en sus.
+
+Pour l'étude des médicaments et dispositifs de la liste en SUS, l'ATIH suggère d'appliquer un certain nombre de filtres.   
+(https://www.scansante.fr/applications/synthese-dmi-mo-sus)  
+Les critères de suppression sont les suivant : 
+- Nombre UCD = 0 et prix d’achat > 0
+- Nombre UCD = 0 et prix d’achat = 0
+- Nombre UCD < 0 ou prix d’achat < 0
+- Codes UCD erronés (à vide ou indéterminés)
+- Molécules administrées hors période d’appartenance à la liste en sus
+- Nombre DMI = 0 et prix d’achat ≥ 0
+- Nombre DMI < 0 ou prix d’achat < 0
+- Codes DMI erronés (à vide ou indéterminés)
+- DMI posés hors période d’appartenance à la liste en sus
 
 #### En SSR
 
