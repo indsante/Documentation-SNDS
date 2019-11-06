@@ -324,16 +324,19 @@ Pour l'étude des médicaments et dispositifs de la liste en SUS, l'ATIH suggèr
 
 #### En PSY
 
-###### Valorisation des séjours
+###### Valorisation de la prise en charge à temps complet, partiel ou en ambulatoire
 
-###### Valorisation des actes et consultations externes
+En psychiatrie, le nom des tables commence par RIP pour "Recueil d'Information en Psychiatrie".  
+La prise en charge peut s'effectuer à temps complet, partiel ou en ambulatoire.  
+À notre connaissance, quelque soit le mode de prise en charge, le montant des dépenses se trouve dans la table de facturation transmise par les établissements `t_ripANNEE.stc`, dans laquelle la variable `TOT_MNT_AM` est calculée sur la base des TJP.     
+La table de chainage patients se nomme `t_ripANNEE.c`.  
+Des informations complémentaires sur les séjours (notamment le nombre de jours en hospitalisation partielle / complète) peuvent être extraites de la table `t_ripANNEE.s` de description du sejour.    
+Tandis que des informations sur les prises en charge ambulatoires se trouvent dans la table `t_ripANNEE.r3a`.
+
 
 ###### Dépenses en SUS 
 
-L'information sur la dépense que représente la pharmacie de la liste en sus et les médicaments ATU est contenue dans
-
--    `MED` : médicaments en sus
--    `MEDATU` : médicaments soumis à autorisation temporaire d’utilisation
+À notre connaissance, il n'y a pas de remontée d'information sur les dépenses en SUS ni de table dédiée dans le recueil d'information médicalisé. 
 
 
 ## Les établissements privés dans le DCIR et le DCIRS
