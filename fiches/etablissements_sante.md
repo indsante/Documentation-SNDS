@@ -113,11 +113,28 @@ Nous décrivons ici comment trouver les dépenses de l'assurance maladie par sé
 Pour avoir les dépenses complètes par séjour, il faut ajouter le montant du reste à charge après assurance maladie obligatoire.
 Pour plus d'informations sur le calcul du reste à charge, se référer à la fiche correspondante (WIP).
 
-#### Filtres à appliquer pour le PMSI MCO
 
-Sur la partie séjour, les filtres à poser à partir des variables 
-de la table `t_mcoANNEE.b` sous ORAVUE sont les suivants : 
+#### Les tables à considérer pour étudier l'activité en hôpital public 
 
+##### En MCO
+
+###### Valorisation des séjours
+
+Pour connaitre le montant de la dépense de l'assurance maladie, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE.  
+La variable de montant est `MNT_TOT_AM`.  
+Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de dépassement à l'hôpital public.  
+Il est conseillé de considérer `MNT_TOT_AM` de la table valo corrigée par l'ATIH et non la variable
+`TOT_MNT_AM` de la table STC qui est l'information brute des établissements.  
+Pour un même séjour, ces deux montants ne sont pas calculés selon la même base de remboursement : `MNT_TOT_AM` est calculée sur la base des GHS, tandis que `TOT_MNT_AM` est calculée sur la base des tarifs journaliers de prestation (TJP) 
+
+Pour joindre les deux tables `t_mcoANNEE.valo` et `t_mcoANNEE.stc` il faut passer par la table de chaînage patients (`t_mcoANNEE.c` toujours sous ORAVUE).  
+La clef de chaînage est le couple (`RSA_NUM`, `ETA_NUM`). `RSA_NUM` est le numéro du patient et `ETA_NUM` l'identifiant de l'établissement.  
+Dans la table patients, on trouve l'identifiant bénéficiaire `NIR_ANO_17` (cf. fiche Identifiant des bénéficiaires pour plus d'informations).
+
+L'information concernant les établissements se trouve dans la table `t_mcoANNEE.e`. On peut joindre cette table aux précédentes 
+avec `ETA_NUM`. 
+
+Sur la partie séjour, les filtres à poser à partir des variables de la table `t_mcoANNEE.b` sous ORAVUE sont les suivants : 
 - Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) (en utilisant la variable `ETA_NUM`)
 - Exclusion des séjours en erreur (en utilisant la variable `GRG_GHM`)
 - Exclusion des prestations inter établissement (en utilisant la variable `SOR_MOD`)
@@ -172,40 +189,20 @@ qui prend les valeurs suivantes :
 
 A minima, il faut exclure les séjours pour lesquels `VALO` prend la valeur 0, ou est manquante.
 
-#### Les tables à considérer pour étudier l'activité en hôpital public 
-
-##### En MCO
-
-###### Valorisation des séjours
-
-Pour connaitre le montant de la dépense de l'assurance maladie, on utilise la table de valorisation des séjours `t_mcoANNEE.valo` sous ORAVUE.  
-La variable de montant est `MNT_TOT_AM`.  
-Il s'agit du montant présenté à l'assurance maladie puisqu'il n'y a pas de dépassements à l'hôpital public.  
-Il est conseillé de considérer `MNT_TOT_AM` de la table valo corrigée par l'ATIH et non la variable
-`TOT_MNT_AM` de la table STC qui est l'information brute des établissements.  
-Pour un même séjour, ces deux montants ne sont pas calculés selon la même base de remboursement : `MNT_TOT_AM` est calculée sur la base des GHS, tandis que `TOT_MNT_AM` est calculée sur la base des tarifs journaliers de prestation (TJP) 
-
-Pour joindre les deux tables `t_mcoANNEE.valo` et `t_mcoANNEE.stc` il faut passer par la table de chaînage patients (`t_mcoANNEE.c` toujours sous ORAVUE).  
-La clef de chaînage est le couple (`RSA_NUM`, `ETA_NUM`). `RSA_NUM` est le numéro du patient et `ETA_NUM` l'identifiant de l'établissement.  
-Dans la table patients, on trouve l'identifiant bénéficiaire `NIR_ANO_17` (cf. fiche Identifiant des bénéficiaires pour plus d'informations).
-
-L'information concernant les établissements se trouve dans la table `t_mcoANNEE.e`. On peut joindre cette table aux précédentes 
-avec `ETA_NUM`. 
-
 ###### Valorisation des actes et consultations externes
 
 Les dépenses d'actes et consultations externes (ACE) des établissements publics et ESPIC se trouvent dans la table de valorisation des ACE 
 sous `t_mcoANNEE.valoace`.   
 Cette table contient une ligne par ACE (valorisé ou non).  
 On peut obtenir des détails sur la nature de l'ACE (ATU, FFM, Dialyse, SE, FTN, NGAP, CCAM, DM Externe) à l'aide de la variable `ACT_COD` de la table `t_mcoANNEE.fbstc`.  
-Pour plus d'informations sur les ACE, se reporter à la fiche correspondante. 
+Pour plus d'informations sur les ACE, se reporter à la fiche correspondante.  
 La montant des dépenses est donné par la variable `MNT_BR`, la base de remboursement de la sécurité sociale, car comme évoqué précédemment, il n'existe pas de dépassements à l'hôpital public.  
 La variable `MNT_REMB` indique le montant remboursé par l'assurance maladie.  
 
 La table patients correspondante est `t_mcoANNEE.cstc`, on peut les chaîner toujours via le couple (`RSA_NUM`,`ETA_NUM`). La table
 patients contient également l'identifiant bénéficiaire `NIR_ANO_17`.
 
-Tout comme pour les séjours de MCO, il faut veiller à appliquer les filtres suivants :
+Les filtres à appliquer sur les ACE sont les suivants :
 - Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) (en utilisant la variable `ETA_NUM`)
 - Exclusion des ACE réalisées en dehors de la période d'étude (en utilisant les variable `EXE_SOI_DTD` et `EXE_SOI_DTF`)
 - Exclusion des ACE non valorisées (en utilisant la variable `VALO`)
@@ -263,7 +260,7 @@ On peut utiliser la table de facturation `t_ssrANNEE.fastc` pour calculer le mon
 ainsi que le montant remboursé par l'AM (somme de `PH_AMO_MNR`, `HON_AM_MNR`).  
 Avec `PH_MNT`, le montant total facturé pour PH; `HON_MNT`, le total honoraire facturé; `PH_AMO_MNR`, le total remboursable AMO prestation hospitalieres; `HON_AM_MNR`, le total honoraire remboursable AM.  
 
-Tout comme en MCO, il faut veiller à appliquer les filtres suivants :
+Les filtres à appliquer sur les ACE sont les suivants :
 - Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) (en utilisant la variable `ETA_NUM`)
 - Exclusion des ACE réalisées en dehors de la période d'étude (en utilisant les variable `EXE_SOI_DTD` et `EXE_SOI_DTF`)
 - Exclusion des ACE non valorisées
@@ -327,7 +324,11 @@ Pour l'étude des médicaments et dispositifs de la liste en SUS, l'ATIH suggèr
 
 #### En PSY
 
+###### Valorisation des séjours
 
+###### Valorisation des actes et consultations externes
+
+###### Dépenses en SUS 
 
 L'information sur la dépense que représente la pharmacie de la liste en sus et les médicaments ATU est contenue dans
 
