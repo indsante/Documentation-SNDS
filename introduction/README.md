@@ -8,7 +8,7 @@ Cette section héberge un guide introductif au SNDS, décliné en quatre section
 - [Qu'est-ce que le SNDS ?](01-snds.md)
 - [Les bases du SNDS, de l'alimentation à la restitution des données](02-bases-snds.md)
 - [Comment accéder au SNDS ?](03-acces-snds.md)
-- [La recherche avec le SNDS](04-recherche-snds)
+- [La recherche avec le SNDS](04-recherche-snds.md)
 
 Les éléments spécifiques sont réservés à la section [Fiches thématiques](../fiches/README.md).
 
