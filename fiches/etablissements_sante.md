@@ -269,7 +269,7 @@ Les filtres à appliquer sur les ACE sont les suivants :
 
 Les informations sur les médicaments en sus et les médicaments soumis à autorisation temporaire d'utilisation (ATU) se trouvent dans les tables :
 - `t_ssrANNEE.med`: médicaments en sus
-- `t_ssrANNEE.medatu`: médicaments soumis à ATU
+- `t_ssrANNEE.medatu`: médicaments soumis à autorisation temporaire d’utilisation
 
 On peut déduire le montant des dépenses à partir du prix d'achat multiplié par le nombre administré.  
 
