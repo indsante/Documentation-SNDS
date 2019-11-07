@@ -128,7 +128,7 @@ Il est conseillé de considérer `MNT_TOT_AM` de la table valo corrigée par l'A
 Pour un même séjour, ces deux montants ne sont pas calculés selon la même base de remboursement : `MNT_TOT_AM` est calculée sur la base des GHS, tandis que `TOT_MNT_AM` est calculée sur la base des tarifs journaliers de prestation (TJP) 
 
 Pour joindre les deux tables `t_mcoANNEE.valo` et `t_mcoANNEE.stc` il faut passer par la table de chaînage patients (`t_mcoANNEE.c` toujours sous ORAVUE).  
-La clef de chaînage est le couple (`RSA_NUM`, `ETA_NUM`). `RSA_NUM` est le numéro du patient et `ETA_NUM` l'identifiant de l'établissement.  
+La clef de chaînage est le couple (`RSA_NUM`, `ETA_NUM`) où `RSA_NUM` est le numéro séquentiel du séjour et `ETA_NUM` le numéro FINESS de l'établissement.  
 Dans la table patients, on trouve l'identifiant bénéficiaire `NIR_ANO_17` (cf. fiche Identifiant des bénéficiaires pour plus d'informations).
 
 L'information concernant les établissements se trouve dans la table `t_mcoANNEE.e`. On peut joindre cette table aux précédentes 
