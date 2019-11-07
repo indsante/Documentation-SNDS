@@ -161,12 +161,18 @@ On trouve également le DAMIR sous certains profils BusinessObjects (profil 22 n
 
 Toutes les prestations présentées au remboursement sont disponibles dans l’univers DAMIR, à l’exclusion de deux prestations : 4381 (actes hors nomenclature) et 4382 (pharmacie non remboursable). 
 
-On trouve deux types d’indicateurs pour analyser les dépenses à l'aide du DAMIR : 
-- les indicateurs bruts : montant de la dépense, quantité, montant versé/remboursé et base de remboursement
-- les indicateurs préfiltrés: montant de la dépense de la prestation, quantité de la prestation, montant versé/remboursé (part de base uniquement)
+### Les indicateurs de dépense disponibles
+
+Il est possible de décomposer la dépense de la même façon que dans le DCIR: 
+
+![indicateurs_damir](../files/DSS/indicateurs_DAMIR_.png)
+
+Cependant, on trouve deux types d’indicateurs pour analyser les dépenses à l'aide du DAMIR : 
+- les indicateurs bruts : montant de la dépense, quantité, montant versé/remboursé, base de remboursement et montant du dépassement
+- les indicateurs préfiltrés: montant de la dépense de la prestation, quantité de la prestation, montant versé/remboursé (part de base uniquement) et montant du dépassement de la prestation
 
 Les indicateurs bruts correspondent aux variables du DCIR (`PRS_PAI_MNT`, `PRS_ ACT_QTE`, `PRS_REM_MNT` et `BSE_REM_BSE`). 
-Lorsque l'on utilise les indicateurs bruts, il est nécessaire de poser un filtre sur le type de remboursement (la variable `PRS_REM_TYP`). 
+**Lorsque l'on utilise les indicateurs bruts, il est nécessaire de poser un filtre sur le type de remboursement (la variable `PRS_REM_TYP`).**
 
 | Type de remboursement | Libellé du type de remboursement |
 |-----------------------|:--------------------------------:|
@@ -185,36 +191,46 @@ Le type de remboursement permet de distinguer les prestations légales (0, 1) de
 -	Part de base = part légale payée par l’Assurance Maladie : acte principal (= nature de prestation) et complément d’acte (= nuit, férié, dimanche, urgence)
 -	Parts complémentaires = parts non obligatoires
 
-### Contenu des indicateurs bruts
+**Les indicateurs de dépense préfiltrés sont mis à disposition pour faciliter l'utilisation du DAMIR : il s'agit des variables préfixées en FLT_.**
 
-| Nature de Prestation de Référence | Nature de Prestation | Type de Remboursement | Montant de la Dépense | Base de remboursement | Quantité | Montant Versé /Remboursé |
-|-----------------------------------|:--------------------:|-----------------------|-----------------------|-----------------------|----------|--------------------------|
-| 1111                              |         1111         | 0                     | 35                    | 23                    | 1        | 16,10                    |
-| 1111                              |         1111         | 4                     | 35                    | 0                     | 1        | 6,90                     |
 
+#### Contenu des indicateurs bruts
+
+| Nature de Prestation de Référence | Nature de Prestation | Type de Remboursement | Montant de la Dépense | Base de remboursement | Montant Versé /Remboursé | Montant du dépassement |
+|-----------------------------------|:--------------------:|-----------------------|-----------------------|-----------------------|--------------------------|------------------------|
+| 1111                              |         1111         | 0                     | 35                    | 23                    | 16,10                    |12                      |
+| 1111                              |         1111         | 4                     | 35                    | 0                     | 6,90                     |0                       |
+| 1111                              |         1951         | 0                     | 0                     | 0                     | -1                       |0                       |
+
+Nous présentons l'exemple d'une consultation avec 12€ de dépassements d'honoraires. 
 Pour cette prestation, deux remboursements sont effectués générant deux lignes de remboursement :
 -	Un remboursement part de base (type de remboursement = 0)
 -	Un remboursement part complémentaire : type de remboursement à 4 
 
+Une participation forfaitaire de 1€ est associée à cet acte (code 1951: participation forfaitaire hors tiers payant)
+
 Sans filtre sur le type de remboursement, l’indicateur « Montant de la Dépense » calcule une dépense totale de 70€ pour cet acte. 
+Avec le filtre `PRS_REM_TYP` IN (0,1) on a une dépense de 35€ et un remboursement de l'assurance maladie obligatoire de 16,1-1€ soit 15,1€.
 
 
-Lorsqu’on effectue une requête sur le DAMIR, il est recommandé d’utiliser les indicateurs de dépense préfiltrés mis à disposition : les variables préfixées en FLT_. 
+#### Contenu des indicateurs préfiltrés
 
-### Contenu des indicateurs préfiltrés
-
-| Nature de Prestation de Référence | Nature de Prestation | Type de Remboursement | Montant de la Dépense de la Prestation | Quantité de la Prestation | Montant Versé /Remboursé (Part de Base uniquement) |
-|-----------------------------------|:--------------------:|-----------------------|----------------------------------------|---------------------------|----------------------------------------------------|
-| 1111                              |         1111         | 0                     | 35                                     | 1                         | 16,10                                              |
-| 1111                              |         1111         | 4                     | 0                                      | 0                         | 0                                                  |
+| Nature de Prestation de Référence | Nature de Prestation | Type de Remboursement | Montant de la Dépense de la Prestation | Montant Versé /Remboursé (Part de Base uniquement) |Montant du dépassement de la prestation|
+|-----------------------------------|:--------------------:|-----------------------|----------------------------------------| ---------------------------------------------------|---------------------------------------|
+| 1111                              |         1111         | 0                     | 35                                     | 16,10                                              |12                                     |
+| 1111                              |         1111         | 4                     | 0                                      | 0                                                  |0                                      |
+| 1111                              |         1951         | 0                     | 0                                      | -1                                                 |0                                      |
 
 -	L’indicateur de dépense « Montant de la Dépense de la Prestation » (`FLT_PAI_MNT`) correspond à `PRS_PAI_MNT` avec `PRS_REM_TYP`=0 (acte de base uniquement)
 -	L’indicateur de dépense « Montant Versé/Remboursé » (`FLT_REM_MNT`) correspond à `PRS_REM_MNT` avec `PRS_REM_TYP` IN (0,1) (acte de base et complément d’acte)
 -	L’indicateur de dépense « Quantité de la Prestation » (`FLT_ACT_QTE`) correspond à `PRS_ACT_QTE` avec `PRS_REM_TYP`=0 (acte de base uniquement)
 
+La somme de l'indicateur préfiltré « Montant de la Dépense de la Prestation » permet de retrouver le montant de 35€ de dépense pour l'acte dont la nature de prestation de référence est 1111.
+La somme de l'indicateur « Montant Versé/Remboursé » indique quant à elle un montant remboursé par l'assurance maladie de 15,1€ (70% de la base de remboursement moins la participation forfaitaire de 1€). 
+
 L’indicateur « base de remboursement » existe uniquement dans la classe « Indicateurs bruts » (`PRS_REM_BSE`). De ce fait, lorsqu’on demande la base de remboursement, il faut absolument mettre les conditions : 	
 -	Type de remboursement ≤ 1 (`PRS_REM_TYP` IN (0,1))
--	Complément d’actes ≠ 0 quand nature de prestation différente de 2251 (forfait journalier)
+-	Complément d’actes ≠ 0 quand nature de prestation différente de 2251 (forfait journalier) (`CPL_COD` ≠ 0 et `PRS_NAT` ≠ 2251)
 
 
 ## Références
