@@ -243,6 +243,10 @@ Avant 2017, nous ne disposons que de la table de facturation transmise par les �
 La table de chaînage patients se nomme `t_ssrANNEE.c`.  
 La table `t_ssrANNEE.b` de description du sejour permet d'extraire des informations sur le mode d'hospitalisation (complète/partielle, variable `HOS_TYP_UM`), ainsi que sur le GME (variable `GR_GME`).
 
+Pour joindre les tables mentionnées ci-dessus, il faut passer par la table de chaînage patients (`t_ssrANNEE.c` toujours sous ORAVUE).  
+La clef de chaînage est le couple (`RHA_NUM`, `ETA_NUM`) où `RHA_NUM` est le numéro séquentiel du séjour et `ETA_NUM` le numéro FINESS de l'établissement.  
+Dans la table patients, on trouve l'identifiant bénéficiaire `NIR_ANO_17` (cf. fiche Identifiant des bénéficiaires pour plus d'informations).
+
 Les filtres sur les séjours sont les suivants :
 - Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) (en utilisant la variable `ETA_NUM`)
 - Exclusion des séjours en erreur (en utilisant la variable `GRG_GME`)
@@ -292,8 +296,12 @@ Avant 2017, nous ne disposons que de la table de facturation transmise par les �
 La table de chainage patients se nomme `t_hadANNEE.c`.  
 Des informations sur le GHPC se trouvent dans la table `t_hadANNEE.grp` (variable `PAP_GRP_GHPC`).
 
+Pour joindre les tables mentionnées ci-dessus, il faut passer par la table de chaînage patients (`t_hadrANNEE.c` toujours sous ORAVUE).  
+La clef de chaînage est le couple (`RHAD_NUM`, `ETA_NUM_EPMSI`) où `RHAD_NUM` est le numéro séquentiel du séjour et `ETA_NUM_EPMSI` le numéro FINESS de l'établissement.  
+Dans la table patients, on trouve l'identifiant bénéficiaire `NIR_ANO_17` (cf. fiche Identifiant des bénéficiaires pour plus d'informations).
+
 Les filtres sur les séjours sont les suivants :
-- Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) (en utilisant la variable `ETA_NUM`)
+- Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017) (en utilisant la variable `ETA_NUM_EPMSI`)
 - Exclusion des séjours en erreur (en utilisant la variable `PAP_GRP_GHPC`)
 - Exclusion des séjours hors période d'étude (variables `EXE_SOI_DTD` et `EXE_SOI_DTF`)
 - Exclusion des séjours non valorisés (variable `VALO` dans `t_hadANNEE.valo` ou `FAC_SEJ_AM` dans `t_hadANNEE.stc`)  
@@ -326,13 +334,15 @@ Pour l'étude des médicaments et dispositifs de la liste en SUS, l'ATIH suggèr
 
 ###### Valorisation de la prise en charge à temps complet, partiel ou en ambulatoire
 
-En psychiatrie, le nom des tables commence par RIP pour "Recueil d'Information en Psychiatrie".  
+En psychiatrie, le nom des tables commence par RIP pour "recueil d'information en psychiatrie".  
 La prise en charge peut s'effectuer à temps complet, partiel ou en ambulatoire.  
 À notre connaissance, quelque soit le mode de prise en charge, le montant des dépenses se trouve dans la table de facturation transmise par les établissements `t_ripANNEE.stc`, dans laquelle la variable `TOT_MNT_AM` est calculée sur la base des TJP.     
 La table de chainage patients se nomme `t_ripANNEE.c`.  
 Des informations complémentaires sur les séjours (notamment le nombre de jours en hospitalisation partielle / complète) peuvent être extraites de la table `t_ripANNEE.s` de description du sejour.    
-Tandis que des informations sur les prises en charge ambulatoires se trouvent dans la table `t_ripANNEE.r3a`.
-
+Tandis que des informations sur les prises en charge ambulatoires se trouvent dans la table `t_ripANNEE.r3a`.  
+Pour joindre les tables mentionnées ci-dessus, il faut passer par la table de chaînage patients (`t_ripANNEE.c` toujours sous ORAVUE).  
+La clef de chaînage est le couple (`RIP_NUM`, `ETA_NUM_EPMSI`) où `RIP_NUM` est le numéro séquentiel du séjour et `ETA_NUM_EPMSI` le numéro FINESS de l'établissement.  
+Dans la table patients, on trouve l'identifiant bénéficiaire `NIR_ANO_17` (cf. fiche Identifiant des bénéficiaires pour plus d'informations).
 
 ###### Dépenses en SUS 
 
