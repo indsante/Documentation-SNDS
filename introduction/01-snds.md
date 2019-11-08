@@ -1,17 +1,17 @@
 # Qu'est-ce que le SNDS ?
 
 Le Système National des Données de Santé (SNDS) est un entrepôt de données médico-administratives pseudonymisées couvrant l'ensemble de la population française et contenant l'ensemble des soins présentés au remboursement.
-Créé en 2016 dans la continuité d'un entrepôt précédent, géré par la Caisse Nationale de l'Assurance Maladie (CNAM), il permet de chaîner :
+Créé en 2016 dans la continuité d'un entrepôt précédent, géré par la Caisse Nationale de l'Assurance Maladie ([CNAM](../glossaire/Cnam.md)), il permet de chaîner :
 
-- les données de l'assurance maladie (base SNIIRAM)
-- les données des hôpitaux (base PMSI)
-- les causes médicales de décès (base du CépiDC de l'Inserm)
-- les données relatives au handicap (données de la CNSA) (à venir)
+- les données de l'assurance maladie (base [SNIIRAM](../glossaire/SNIIRAM.md))
+- les données des hôpitaux (base [PMSI](../glossaire/PMSI.md))
+- les causes médicales de décès (base du [CépiDC](../glossaire/CepiDC.md) de l'Inserm)
+- les données relatives au handicap (données de la [CNSA](../glossaire/CNSA.md)) (à venir)
 - certaines données des organismes complémentaires (à venir)
 
 En quelques chiffres, le SNDS c'est plus de 3000 variables, et un flux annuel de  :
 
-- 1,2 milliards de feuilles de soins
+- 1,2 milliards de [feuilles de soins](../glossaire/feuille_soin.md)
 - 11 millions de séjours hospitaliers
 - 500 millions d'actes
 - 450 To de données
@@ -36,10 +36,10 @@ Il est en revanche interdit d'exploiter le SNDS pour l'une des finalités interd
 
 ## La création et l'évolution
 
-Le SNDS s'inscrit naturellement dans la continuité du Système National d'Information Inter-Régime de l'Assurance Maladie (SNIIRAM), créé par la loi de financement de la sécurité sociale du 23 décembre 1998.
-La volonté était alors de constituer un entrepôt national de données médico-administratives de remboursement, dans l'objectif de contribuer à une meilleure gestion de l'Assurance Maladie (objectif ONDAM) et des politiques de santé, d'améliorer la qualité des soins et de transmettre aux professionnels de santé les informations pertinentes sur leur activité.
+Le SNDS s'inscrit naturellement dans la continuité du Système National d'Information Inter-Régime de l'Assurance Maladie ([SNIIRAM](../glossaire/SNIIRAM.md)), créé par la loi de financement de la sécurité sociale du 23 décembre 1998.
+La volonté était alors de constituer un entrepôt national de données médico-administratives de remboursement, dans l'objectif de contribuer à une meilleure gestion de l'Assurance Maladie (objectif [ONDAM](../glossaire/ONDAM.md)) et des politiques de santé, d'améliorer la qualité des soins et de transmettre aux professionnels de santé les informations pertinentes sur leur activité.
 
-Le SNDS en tant que tel est créé le 26 janvier 2016 par la loi de modernisation du système de santé, et généralise le SNIIRAM (déjà enrichi du PMSI) en le liant au CépiDC et en revoyant le circuit d'accès aux données, avec pour enjeux l'ouverture des données de santé dans le respect de la vie privée du citoyen, l'amélioration de la santé des patients et l'analyse de la dépense publique en santé.
+Le SNDS en tant que tel est créé le 26 janvier 2016 par la loi de modernisation du système de santé, et généralise le [SNIIRAM](../glossaire/SNIIRAM.md) (déjà enrichi du [PMSI](../glossaire/PMSI.md)) en le liant au [CépiDC](../glossaire/CepiDC.md) et en revoyant le circuit d'accès aux données, avec pour enjeux l'ouverture des données de santé dans le respect de la vie privée du citoyen, l'amélioration de la santé des patients et l'analyse de la dépense publique en santé.
 
 ## Les données présentes et absentes
 
@@ -53,10 +53,10 @@ On trouve dans le SNDS les grandes catégories de données suivantes :
   - Soins hospitaliers (hors séances)
   - Séjours hospitaliers (et diagnostics)
   - Indemnités journalières (maladie, ATMP, maternité) et invalidité
-- Les Affections de Longue Durée (ALD)
+- Les Affections de Longue Durée ([ALD](../glossaire/ALD.md))
 - Des informations génériques sur les patients :
   - Âge, sexe, commune et département de résidence
-  - CMU-C (Couverture Maladie Universelle Complémentaire) et ACS (Aide à la Complémentaire Santé)
+  - [CMU-C](../fiches/cmu_c.md) (Couverture Maladie Universelle Complémentaire) et [ACS](../glossaire/ACS.md) (Aide à la Complémentaire Santé)
   - Date, commune et causes médicales de décès
   - Médecin traitant
 - Des informations sur les professionnels de santé (spécialité, mode d'exercice, sexe, âge, département d'implantation)
@@ -71,7 +71,7 @@ En revanche, on ne trouve dans le SNDS :
 
 ## La sécurité et la confidentialité
 
-Pour protéger l'identité des patients et garantir la confidentialité des données, chaque patient est repéré dans l'ensemble du SNDS par un pseudonyme, obtenu par l'application au NIR d'un procédé cryptographique irréversible appelé FOIN.
+Pour protéger l'identité des patients et garantir la confidentialité des données, chaque patient est repéré dans l'ensemble du SNDS par un [pseudonyme](../glossaire/pseudonymisation.md), obtenu par l'application au [NIR](../glossaire/NIR.md) d'un procédé cryptographique irréversible appelé [FOIN](../glossaire/FOIN.md).
 Les données du SNDS sont conservées pour une durée totale de 20 ans, puis archivées pour une durée de 10 ans.
 
 L'accès aux données du SNDS et leur analyse ne peut se faire que dans un cadre d'hébergement très restrictif respectant le [référentiel de sécurité du SNDS](https://www.legifrance.gouv.fr/eli/arrete/2017/3/22/AFSE1705146A/jo/texte), afin de garantir la traçabilité des accès et des traitements, la confidentialité des données et leur intégrité.
