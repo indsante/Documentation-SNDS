@@ -4,7 +4,7 @@
 Le SNDS représente une opportunité immense pour la recherche en santé, et les projets liés sont de plus en plus nombreux.
 En plus de sa quasi-exhaustivité sur les données médico-administratives de la population française, le SNDS présente un atout majeur : la possibilité de le chaîner (ou l'apparier) à d'autres bases de données.
 
-## [Les appariements](../fiches/appariement_donnees_externes.md)
+## Les appariements ([fiche détaillée](../fiches/appariement_donnees_externes.md))
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8M12owyEst4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
