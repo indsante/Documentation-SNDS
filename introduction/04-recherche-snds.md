@@ -4,15 +4,15 @@
 Le SNDS représente une opportunité immense pour la recherche en santé, et les projets liés sont de plus en plus nombreux.
 En plus de sa quasi-exhaustivité sur les données médico-administratives de la population française, le SNDS présente un atout majeur : la possibilité de le chaîner (ou l'apparier) à d'autres bases de données.
 
-## Les appariements
+## Les appariements ([fiche détaillée](../fiches/appariement_donnees_externes.md))
 
-<!-- _vidéo sur les appariements de Mehdi Gabbas (meet up #1)_ -->
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8M12owyEst4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Apparier ainsi le SNDS à d'autres sources de données décuple le potentiel de cet entrepôt pour la recherche en santé, en permettant bien souvent d'enrichir les données médico-administratives (du SNDS) par des données cliniques (venant d'autres bases).
 Ces appariements peuvent être de deux types :
 
-- appariement direct (dit aussi _déterministe_), i.e. directement sur l'identifiant bénéficiaire, si la cohorte externe dispose du NIR (ou des données directement identifiantes permettant de le reconstruire)
-- appariement indirect (dit aussi _probabiliste_), sur un certain nombre de variables communes aux deux bases, si la cohorte externe ne dispose pas du NIR (ou des données directement identifiantes permettant de le reconstruire)
+- appariement direct (dit aussi _déterministe_), i.e. directement sur l'identifiant bénéficiaire, si la cohorte externe dispose du [NIR](../glossaire/NIR.md) (ou des données directement identifiantes permettant de le reconstruire)
+- appariement indirect (dit aussi _probabiliste_), sur un certain nombre de variables communes aux deux bases, si la cohorte externe ne dispose pas du [NIR](../glossaire/NIR.md) (ou des données directement identifiantes permettant de le reconstruire)
 
 ## Quelques exemples
 
