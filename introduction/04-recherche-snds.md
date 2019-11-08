@@ -6,7 +6,7 @@ En plus de sa quasi-exhaustivité sur les données médico-administratives de la
 
 ## Les appariements
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=8M12owyEst4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8M12owyEst4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Apparier ainsi le SNDS à d'autres sources de données décuple le potentiel de cet entrepôt pour la recherche en santé, en permettant bien souvent d'enrichir les données médico-administratives (du SNDS) par des données cliniques (venant d'autres bases).
 Ces appariements peuvent être de deux types :
