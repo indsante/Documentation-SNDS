@@ -1,7 +1,8 @@
 # Documents Cnam
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Cette section contient des documents publiés par la [Cnam](../../glossaire/Cnam.md) sur ce site de documentation collaboratif.
+Cette section contient une sélection de documents publiés par la [Cnam](../../glossaire/Cnam.md) sur le portail SNDS,
+et issus des supports de formation élaborés par la Cnam.
 
 Les documents qui ont été convertis en fiches thématiques sont référencés directement sur chaque fiche.
 
