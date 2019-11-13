@@ -98,21 +98,15 @@ Une page s'ouvre alors pour configurer cette merge-request.
 
 ### 4- Prévisualisation d'une merge-request
 
-Lorsqu'une merge-request est ouverte, un "`pipeline`" est démarré pour construire une version de prévisualisation.
+Lorsqu'une merge-request est ouverte, un "`pipeline`" est démarré pour effectuer des tests sur les liens hypertextes, et construire une prévisualisation du site. 
+Ces 2 étapes sont symbolisées par des icones rondes.
 
+Lorsque la prévisualisation est construite, la deuxième icône passe au vert. 
+Cliquer dessus permet d'ouvrir la prévisalisation du site. 
 
-Cliquer sur le numéro du pipeline pour ouvrir la page correspondante.
+![prévisualisation](../files/images/tutoriel_gitlab/preview.png)
 
-<p style="text-align:center;">
-<img src="../files/images/tutoriel_gitlab/pipeline.png" alt="pipeline" width="600"/>
-</p>
-
-Lorsque le pipeline est fini (vert), vous pouvez cliquer dessus pour ouvrir le site de prévisualisation.
-
-<p style="text-align:center;">
-<img src="../files/images/tutoriel_gitlab/preview.png" alt="preview" width="600"/>
-</p>
-
+À chaque nouveau commit sur la branche, le pipeline est relancé, et la prévisualisation est mise à jour avec la même url.
 
 ### 5- Ajouter des commits sur une branche existante
 
