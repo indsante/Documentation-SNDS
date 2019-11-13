@@ -37,9 +37,8 @@ Pour ajoutez un nouveau fichier, merci de bien vouloir :
 en mentionnant le nom de l'organisation et la licence MPL-2.0.
 
 ::: warning Note
-Bien **supprimer les espaces** dans les noms de fichiers, car ils compliquent les liens hypertexte (espace indiqué par `%20`). 
-
-**Éviter également les accents**
+- **Supprimer les espaces** dans les noms de fichiers, car ils compliquent les liens hypertextes (l'espace doit être indiqué par le caractère `%20`). 
+- **Ne pas utiliser d'accents ou de caractères spéciaux**
 :::
 
 ## Nouvelle image
@@ -51,3 +50,9 @@ Vous pouvez ensuite intégrer les images dans une page de documentation via un l
 Si une image provient d'un document tierce, par exemple une présentation Powerpoint :
 - Ajouter ce fichier (cf section précédente) pour permettre des évolutions de l'image en repartant du fichier.
 - Mettre la ou les images issue du document dans un sous-dossier du même nom, à côté de l'image. 
+
+::: warning Note
+L'extension de fichier doit être en minuscule, sinon [l'image n'est pas reconnue](https://github.com/vuejs/vuepress/issues/625#issuecomment-401614539). 
+
+Utiliser `.png` ou `.jpg`, **pas** `.PNG` ou `.JPG`.
+:::
