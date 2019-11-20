@@ -37,15 +37,16 @@ le filtre ci-dessous:
 un CH, un CH spécialité de lutte contre le cancer, un hôpital local, un établissement de soins obstétriques et chirurgico-gynécologiques,
 un établissement de soins pluridisciplinaires, un établissement de soins chirurgicaux ou un établissement de soins médicaux et que le code 
 du mode de traitement indique que la prestation est en hospitalisation complète, consultation et soins externes ou urgence (ou sans objet) **OU**
-    -	si l’indicateur de T2A est manquant, que l’indicateur du caractère privé ou public de l’établissement est manquant, 
-que la catégorie de l’établissement exécutant est manquant et que le mode de  traitement est manquant 
+
+Si l’indicateur de T2A est manquant, que l’indicateur du caractère privé ou public de l’établissement est manquant, 
+que la catégorie de l’établissement exécutant est manquant et que le mode de  traitement est manquant, on conserve la prestation. 
 
 Le code SAS correspondant est le suivant :
 ```
 NOT (T2.ETE_IND_TAA= 1  
     OR (T2.ETE_IND_TAA= 0 AND T2.PRS_PPU_SEC=1 
         AND T2.ETE_CAT_COD in (101,355,131,106,122,365,128,129) AND T2.MDT_COD in (0,3,7,10)))
-    OR (T2.ETE_IND_TAA is null AND T2.PRS_PPU_SEC is null 
+OR (T2.ETE_IND_TAA is null AND T2.PRS_PPU_SEC is null 
         AND T2.ETE_CAT_COD is null AND T2.MDT_COD is null)
 ```
 
