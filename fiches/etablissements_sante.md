@@ -74,7 +74,7 @@ La variable `PRS_PPU_SEC` est construite comme suit. L’établissement est publ
     - 	si le numéro  du PS exécutant n’est pas renseigné (`PFS_EXE_NUM` est manquant ou vaut ‘00000000’)
     -	sinon l’établissement est privé 
 
-Si le code `PRS_PPU_SEC` est égal à 1 alors on peut classer la prestation en lieu d'exécution "Public".
+Si le code `PRS_PPU_SEC` est égal à 1 alors on peut classer la prestation en lieu d'exécution "Public". 
 Sinon les prestations sont classées en lieu d’exécution "Prive".
 
 Pour résumer en pseudo-code:
@@ -102,6 +102,11 @@ Les rétrocessions correspondent à de la pharmacie hospitalière en établissem
 Lorsque l’on travaille sur les **soins de ville**, il est recommandé d’exclure les prestations en établissements publics qui 
 ne sont pas des rétrocessions. On peut donc exclure les prestations pour lesquels `lieu_exec` == 'public' sauf si la `PRS_NAT_REF` 
 correspond à de la rétrocession.
+
+On ne supprime pas l'ensemble des prestations ayant lieu dans un établissement public (`ETE_TYP_COD` IN 1,2,3). En effet, si le numéro du PS exécutant est 
+renseigné alors le type de la prestation (`PRS_PPU_SEC`) ne sera pas public, bien que la prestation ait eu lieu en établissement public. 
+C'est le cas par exemple de l'activité libérale des praticiens hospitaliers, que l'on conservera bien lorsque l'on supprime les
+prestations pour lesquelles "lieu_exec" == "public".
 
 
 
