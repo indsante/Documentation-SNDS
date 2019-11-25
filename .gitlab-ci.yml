@@ -7,7 +7,7 @@ test-internal-link:
   before_script:
     - yarn install
   script:
-   - yarn lint-md --quiet
+   - yarn lint-md
 
 test-build:
   stage: test
@@ -23,5 +23,5 @@ test-external-link:
   before_script:
     - yarn install
   script:
-   - yarn extended-lint-md --quiet
+   - yarn extended-lint-md
   allow_failure: true
