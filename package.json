@@ -15,7 +15,7 @@
   "scripts": {
     "docs:dev": "cp -r files .vuepress/public/files && vuepress dev",
     "docs:build": "cp -r files .vuepress/public/files && vuepress build",
-    "lint-md": "remark --frail --use remark-validate-links .",
-    "extended-lint-md": "remark --frail --use remark-validate-links --use remark-lint-no-dead-urls ."
+    "lint-md": "remark --frail --use remark-validate-links . --quiet",
+    "extended-lint-md": "remark --frail --use remark-validate-links --use remark-lint-no-dead-urls . --quiet"
   }
 }
