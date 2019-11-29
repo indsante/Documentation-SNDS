@@ -9,7 +9,8 @@
     "remark-lint": "^6.0.4",
     "remark-lint-no-dead-urls": "^0.4.1",
     "remark-validate-links": "^9.0.1",
-    "vuepress": ">= v1.2.0"
+    "vuepress": ">= v1.2.0",
+    "markdown-it-footnote":  "^3.0.2"
   },
   "devDependencies": {},
   "scripts": {

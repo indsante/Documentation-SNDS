@@ -86,5 +86,15 @@ module.exports = {
             apiKey: 'b1d88a4e2413821b4ebe7441ecc95a97',
             indexName: 'health-data-hub-snds'
         }
-    }
+    },
+    markdown: {
+        // options for markdown-it-anchor
+       // anchor: { permalink: false },
+        // options for markdown-it-toc
+        //toc: { includeLevel: [1, 2] },
+        extendMarkdown: md => {
+          // use more markdown-it plugins!
+          md.use(require('markdown-it-footnote'))
+        }
+      }
 };
