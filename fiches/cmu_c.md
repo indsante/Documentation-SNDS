@@ -33,7 +33,7 @@ Pour la CMU-C gérée par les organismes privés (mutuelles, assurances, sociét
 ### Table des affiliations IR\_ORC\_R
 **[IR\_ORC\_R](../tables/DCIR_DCIRS/IR_ORC_R.md)** : Table des affiliations à un organisme d'assurance maladie complémentaire 
 
-Cette table recense les affiliations des bénéficiaires du régime général et des 12 organismes infogérés par ce régime sur la période du SNIIRAM (à partir du 1er janvier 2013 actuellement), que ces bénéficiaires soient consommants ou non.
+Cette table recense les affiliations des bénéficiaires du régime général et des 12 organismes infogérés par ce régime [^2] sur la période du SNIIRAM (à partir du 1er janvier 2013 actuellement), que ces bénéficiaires soient consommants ou non.
 
 Elle couvre tous les types de contrats complémentaires, dont la CMU complémentaire. La valeur 89 de la variable **ben_cta_typ**  correspond à la CMU complémentaire.
 
@@ -88,6 +88,6 @@ Néanmoins, pour recenser la population CMU complémentaire de manière exhausti
 Le contenu original de cette fiche provient du document [2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx](../files/DREES/2018-07-25_DREES-ARS_Cmu-c_MPL-2.0.docx) rédigé par Kristel JACQUIER & Céline LEROY.
 :::
 
-[^1] : Les cmucistes bénéficient également d'une dispense d'avance des frais
+[^1]: Les cmucistes bénéficient également d'une dispense d'avance des frais
 
-[^2] : La mutuelle générale LMG, la mutuelle générale de la police MGP, MFP service MFPS, la mutuelle nationale des hospitaliers MNH, Harmonie fonction publique HFP, la mutuelle des étudiants LMDE (depuis janvier 2017), la caisse d'assurance maladie des industries électriques et gazières CAMIEG, la mutuelle du ministère de l'intérieur Intériale, l'établissement national des invalides de la marine ENIM, la caisse nationale de sécurité sociale des mines CANSSM (depuis octobre 2016), la caisse de retraite et de prévoyance des clercs et employés de notaires CRPCEN, la caisse d'assurance vieillesse et maladie des cultes CAVIMAC.
+[^2]: La mutuelle générale LMG, la mutuelle générale de la police MGP, MFP service MFPS, la mutuelle nationale des hospitaliers MNH, Harmonie fonction publique HFP, la mutuelle des étudiants LMDE (depuis janvier 2017), la caisse d'assurance maladie des industries électriques et gazières CAMIEG, la mutuelle du ministère de l'intérieur Intériale, l'établissement national des invalides de la marine ENIM, la caisse nationale de sécurité sociale des mines CANSSM (depuis octobre 2016), la caisse de retraite et de prévoyance des clercs et employés de notaires CRPCEN, la caisse d'assurance vieillesse et maladie des cultes CAVIMAC.
