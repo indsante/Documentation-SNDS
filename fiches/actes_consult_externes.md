@@ -1,4 +1,4 @@
-# Les actes et consultations externes
+# Actes et consultations externes
 
 ## Que regroupent les actes et consultations externes ?
 

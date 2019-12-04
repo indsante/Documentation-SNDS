@@ -1,4 +1,4 @@
-# Les dépenses de soins de ville dans le DCIR et le DAMIR
+# Dépenses de soins de ville dans le DCIR et le DAMIR
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## DCIR
