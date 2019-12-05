@@ -167,7 +167,7 @@ export default {
         : `https://github.com/${docsRepo}`
       return (
         base.replace(endingSlashRE, '')
-           + `/issues/new?issuable_template=erreur_documentation&issue[title]=`
+           + `/issues/new?issuable_template=erreur_documentation&issue[title]=Corriger/Compléter/Modifier (…) sur page `
           + path
       )
 
