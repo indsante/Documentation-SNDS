@@ -38,7 +38,6 @@ module.exports = {
         repo: 'https://gitlab.com/healthdatahub/documentation-snds',
         docsDir: '.',
         editLinks: true,
-        editLinkText: 'Éditer sur GitLab',
         nav: [
             {text: 'Forum entraide', link: 'https://entraide.health-data-hub.fr/'},
             {text: 'Dico interactif', link: 'https://drees.shinyapps.io/dico-snds/'},
@@ -46,7 +45,7 @@ module.exports = {
         ],
         sidebar: sidebar,
         sidebarDepth: 0,
-        lastUpdated: 'Dernière mise à jour',
+        lastUpdated: 'Dernière modification',
         algolia: {
             apiKey: 'b1d88a4e2413821b4ebe7441ecc95a97',
             indexName: 'health-data-hub-snds'
