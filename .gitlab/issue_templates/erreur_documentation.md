@@ -18,4 +18,4 @@ Proposition pour corriger l'erreur.
 
 Ressources ou références annexes pour éclairer l'erreur.
 
-/label ~Rédaction
+/label ~"Rédaction"
