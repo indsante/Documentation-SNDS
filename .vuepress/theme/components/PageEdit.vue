@@ -4,11 +4,11 @@
       <a :href="editLink" target="_blank" rel="noopener noreferrer">Éditer</a>
       <OutboundLink />
     </div>
-    <div class="edit-link-issues" v-if="issueLink">
+    <div class="edit-link" v-if="issueLink">
       <a :href="issueLink" target="_blank" rel="noopener noreferrer">Proposer une modification</a>
       <OutboundLink />
     </div>
-    <div class="edit-link-historique" v-if="historyLink">
+    <div class="edit-link" v-if="historyLink">
       <a :href="historyLink" target="_blank" rel="noopener noreferrer">Historique</a>
       <OutboundLink />
     </div>
@@ -170,6 +170,7 @@ export default {
            + `/issues/new?issuable_template=erreur_documentation&issue[title]=Corriger/Compléter/Modifier (…) sur page `
           + path
       )
+      //https://gitlab.com/healthdatahub/documentation-snds/issues/new?issuable_template=erreur_documentation&issue[title]=Corriger/Compléter/Modifier%20(…)%20sur%20page%20README.md
 
     },
     /**
@@ -223,16 +224,6 @@ export default {
   overflow auto
 
   .edit-link
-    display inline-block
-    a
-      color lighten($textColor, 25%)
-      margin-right 0.25rem
-  .edit-link-issues
-    display inline-block
-    a
-      color lighten($textColor, 25%)
-      margin-right 0.25rem
-  .edit-link-historique
     display inline-block
     a
       color lighten($textColor, 25%)
