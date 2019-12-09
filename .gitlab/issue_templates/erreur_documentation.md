@@ -1,6 +1,3 @@
----
-labels : Rédaction
----
 # Description de l'erreur
 
 Description concise de l'erreur dans la documentation.
@@ -20,3 +17,5 @@ Proposition pour corriger l'erreur.
 ## Références
 
 Ressources ou références annexes pour éclairer l'erreur.
+
+/label ~Rédaction
