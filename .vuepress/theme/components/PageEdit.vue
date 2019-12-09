@@ -170,8 +170,6 @@ export default {
            + `/issues/new?issuable_template=erreur_documentation&issue[title]=Corriger/Compléter/Modifier (…) sur page `
           + path
       )
-      //https://gitlab.com/healthdatahub/documentation-snds/issues/new?issuable_template=erreur_documentation&issue[title]=Corriger/Compléter/Modifier%20(…)%20sur%20page%20README.md
-
     },
     /**
      * Creates the link to the gitlab history of a specific page
