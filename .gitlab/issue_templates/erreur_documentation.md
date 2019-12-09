@@ -17,3 +17,5 @@ Proposition pour corriger l'erreur.
 ## Références
 
 Ressources ou références annexes pour éclairer l'erreur.
+
+/label ~Rédaction
