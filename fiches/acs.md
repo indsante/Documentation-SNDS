@@ -57,7 +57,7 @@ Les effectifs dépendent de la période considérée.
 | ---------| -------- | ----- |
 | Fonds CMU | 1,46 millions| X |
 
-*Note :* 2016
+*Champ:* Bénéficiaires 2016
 *Source*: Rapport d'activité Fonds CMU 2016
 
 L'effectif du Fonds CMU est le cumul sur les 12 derniers mois au 31/12/2016. 
