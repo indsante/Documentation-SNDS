@@ -27,7 +27,7 @@ L'attestation chèque est valide 6 mois.
 - à partir du 1er juillet 2015, à une **dispense totale d’avance de frais pour leurs soins de santé** (tiers payant intégral), 
 s’ils souscrivent à un contrat d’assurance maladie complémentaire prévu à cet effet 
 
-Il s'agit des contrats identifiés par la variable `BEN_CTA_TYP` in ('91','92','93') présente dans la table `IC_ORC_R` et dans les tables `NS_PRS_F` (table
+Dans le SNDS, il s'agit des contrats identifiés par la variable `BEN_CTA_TYP` in ('91','92','93') présente dans la table `IC_ORC_R` et dans les tables `NS_PRS_F` (table
 centrale des prestations du DCIRS)/`ER_PRS_F` (table centrale des prestations du DCIR) à partir de juillet 2015.
 
 C’est un droit optionnel de l’ACS, on peut choisir de ne pas souscrire à ces contrats.
