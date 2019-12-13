@@ -7,7 +7,7 @@ concernant les variables socio-démographiques.
 ## Définition 
 
 L’aide à l’acquisition d’une complémentaire santé (ACS) 
-concerne les personnes dont les ressources sont modestes, comprises entre le plafond de la CMU complémentaire et 35 % au-dessus de ce plafond. 
+concerne les personnes dont les **ressources sont modestes**, comprises entre le plafond de la CMU complémentaire et 35 % au-dessus de ce plafond. Ces personnes se voient attribuer une **attestation qui leur permettent de disposer de certains droits**, sans nécessairement recevoir une aide financière.
 Pour une explication plus précise, se reporter au Glossaire.
 
 Notez qu'à partir du 1er novembre 2019, l'ACS et la CMU-C fusionnent pour former la Complémentaire Santé Solidaire. 
