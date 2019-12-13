@@ -35,7 +35,7 @@ C’est un droit optionnel de l’ACS, on peut choisir de ne pas souscrire à ce
 2. pendant 18 mois :
  
 - à la dispense d'avance de frais sur la part prise en charge par l’assurance maladie obligatoire (tiers payant social),
-- depuis le 1er mars 2013, aux tarifs médicaux sans dépassements d'honoraires,  dans le cadre du parcours de soins coordonnés,
+- depuis le 1er mars 2013, aux **tarifs médicaux sans dépassements d'honoraires**,  dans le cadre du parcours de soins coordonnés,
 quel que soit le médecin, même s'il pratique des honoraires libres (« secteur 2 »)
 Ce sont les périodes de droits d’ouverture de l’ACS présente dans la table `IR_ACS_R`. 
 - Au bénéfice de tarifs faisant l'objet d'un montant maximum de dépassement pour certains soins de prothèse dentaire et d'orthodontie
