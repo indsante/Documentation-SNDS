@@ -22,7 +22,6 @@ L’ACS donne droit au demandeur et aux membres du foyer qui lui sont rattachés
 Concrètement, il s'agit d'une attestation chèque reçue à remettre à un organisme complémentaire proposant 
 l'un des contrats sélectionnés au titre de l'ACS. 11 contrats sont prévus en juillet 2015,
 regroupés en trois catégories, standard, medium, premium ; la liste des 11 contrats est disponible sur le [site de l'assurance maladie ](https://www.ameli.fr/sites/default/files/Documents/3879/document/offres-utilisation-acs_assurance-maladie.pdf)
-<https://www.ameli.fr/sites/default/files/Documents/3879/document/offres-utilisation-acs_assurance-maladie.pdf>
 L'attestation chèque est valide 6 mois.
 
 - à partir du 1er juillet 2015, à une dispense totale d’avance de frais pour leurs soins de santé (tiers payant intégral), 
