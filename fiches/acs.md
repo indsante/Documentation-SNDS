@@ -18,7 +18,6 @@ Elle est accordée par l’assurance maladie obligatoire aux personnes qui en fo
 
 L’ACS donne droit au demandeur et aux membres du foyer qui lui sont rattachés (ayants droit) :
 
-1.  
 -  à une aide financière à faire valoir sur le montant de la souscription à une assurance maladie complémentaire,
 Concrètement, il s'agit d'une attestation chèque reçue à remettre à un organisme complémentaire proposant 
 l'un des contrats sélectionnés au titre de l'ACS. 11 contrats sont prévus en juillet 2015,
