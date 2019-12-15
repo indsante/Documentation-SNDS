@@ -1,4 +1,5 @@
 # Bénéficiaires du dispositif ALD
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## Le dispositif des ALD
 

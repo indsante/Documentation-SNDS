@@ -1,4 +1,5 @@
 # Identifiants des bénéficiaires
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Comprendre les identifiants des bénéficiaires dans le SNDS et les exploiter correctement. 
 
