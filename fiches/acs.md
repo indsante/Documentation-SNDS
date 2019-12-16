@@ -78,7 +78,7 @@ Pour la table `IR_ORC_R`, il faut également filtrer sur les dates de début et 
 
 Attention, la requête sur `NS_PRS_F` suppose que l'on compte les individus selon leur identifiant lorsqu'ils sont consommants dans le DCIRS 
 et que pour au moins une prestation dans l'année la variable `BEN_CTA_TYP` soit dans la liste des contrats ACS. Pour une explication sur la 
-différence entre le comptage à partir de la table des prestations ou la table des affiliations, se référer à la fiche sur la CMU-C. 
+différence entre le comptage à partir de la table des prestations ou la table des affiliations, se référer à la [fiche sur la CMU-C](../fiches/cmu_c.md). 
 
 L'effectif donné par le Fonds CMU est  un effectif pris au 31/12/2016.
 
