@@ -44,7 +44,7 @@ module.exports = {
             {text: 'Groupe Meetup', link: 'https://www.meetup.com/fr-FR/Health-Data-Hub/'},
         ],
         sidebar: sidebar,
-        sidebarDepth: 0,
+        sidebarDepth: 1,
         lastUpdated: 'Dernière modification',
         algolia: {
             apiKey: 'b1d88a4e2413821b4ebe7441ecc95a97',
