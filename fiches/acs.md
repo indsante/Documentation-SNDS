@@ -6,13 +6,12 @@ concernant les variables socio-démographiques.
 
 ## Définition 
 
+
 L’aide à l’acquisition d’une complémentaire santé (ACS) 
 concerne les personnes dont les **ressources sont modestes**, comprises entre le plafond de la CMU complémentaire et 35 % au-dessus de ce plafond. Ces personnes se voient attribuer une **attestation qui leur permettent de disposer de certains droits**, sans nécessairement recevoir une aide financière.
 Pour une explication plus précise, se reporter au [glossaire](../glossaire/ACS.md).
 
-A partir du 1er novembre 2019, l'ACS et la CMU-C fusionnent pour former la Complémentaire Santé Solidaire. 
-Pour plus d'informations se reporter à <https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/complementaire-sante/aide-paiement-complementaire-sante>
-ou bien au rapport d'activité du Fonds CMU.
+
 
 Elle est accordée par l’assurance maladie obligatoire aux personnes qui en font la demande et qui remplissent les conditions de ressources.
 
@@ -25,25 +24,32 @@ regroupés en trois catégories, standard, medium, premium ; la liste des 11 con
 L'attestation chèque est valide 6 mois.
 
 - à partir du 1er juillet 2015, à une **dispense totale d’avance de frais pour leurs soins de santé** (tiers payant intégral), 
-s’ils souscrivent à un contrat d’assurance maladie complémentaire prévu à cet effet 
+s’ils souscrivent à un contrat d’assurance maladie complémentaire prévu à cet effet décrit ci-dessus
+
+C’est un droit optionnel de l’ACS, on peut choisir de ne pas souscrire à ces contrats.
+
 
 Dans le SNDS, il s'agit des contrats identifiés par la variable `BEN_CTA_TYP` in ('91','92','93') présente dans la table `IC_ORC_R` et dans les tables `NS_PRS_F` (table
 centrale des prestations du DCIRS)/`ER_PRS_F` (table centrale des prestations du DCIR) à partir de juillet 2015.
 
-C’est un droit optionnel de l’ACS, on peut choisir de ne pas souscrire à ces contrats.
 
-2. pendant 18 mois :
+En outre, l'ACS donne droit au demandeur et aux membres du foyers qui lui sont rattachés (ayants droit) pendant 18 mois :
  
-- à la dispense d'avance de frais sur la part prise en charge par l’assurance maladie obligatoire (tiers payant social),
+- à la dispense d'avance de frais sur la part prise en charge par l’assurance maladie obligatoire (anciennement appelé "tiers payant social") [site de l'assurance maladie tiers
+payant](https://www.ameli.fr/medecin/exercice-liberal/remuneration/tiers-payant-modalites-regles-facturation/tiers-payant-modalites-regles-facturation#text_11377),
 - depuis le 1er mars 2013, aux **tarifs médicaux sans dépassements d'honoraires**,  dans le cadre du parcours de soins coordonnés,
 quel que soit le médecin, même s'il pratique des honoraires libres (« secteur 2 »)
-Ce sont les périodes de droits d’ouverture de l’ACS présente dans la table `IR_ACS_R`. 
 - Au bénéfice de tarifs faisant l'objet d'un montant maximum de dépassement pour certains soins de prothèse dentaire et d'orthodontie
 - À l'exonération du paiement de la participation forfaitaire de 1 € et des franchises médicales
 
-Ces droits sont donnés à toute personne bénéficiaire de l'ACS.
+Ces droits sont donnés à toute personne bénéficiaire de l'ACS. 
+Ce sont les périodes de droits d’ouverture de l’ACS présente dans la table `IR_ACS_R`. 
 
-En outre, l’ACS est accordée à tous les membres du foyer du demandeur. 
+
+A partir du 1er novembre 2019, l'ACS et la CMU-C fusionnent pour former la Complémentaire Santé Solidaire. 
+Pour plus d'informations se reporter à <https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/complementaire-sante/aide-paiement-complementaire-sante>
+ou bien au rapport d'activité du Fonds CMU.
+ 
 
 
 ## Effectifs ACS
