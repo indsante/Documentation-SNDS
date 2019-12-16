@@ -86,7 +86,6 @@ L'effectif donné par le Fonds CMU est  un effectif pris au 31/12/2016.
 ::: tip Crédits  
 Cette fiche a été rédigée par Raphaële Adjerad (DREES).
 :::
-Raphaële Adjerad
 
 Références :
 
