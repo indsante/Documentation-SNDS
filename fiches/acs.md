@@ -46,7 +46,7 @@ Ces droits sont donnés à toute personne bénéficiaire de l'ACS.
 Ce sont les périodes de droits d’ouverture de l’ACS présente dans la table `IR_ACS_R`. 
 
 
-A partir du 1er novembre 2019, l'ACS et la CMU-C fusionnent pour former la Complémentaire Santé Solidaire. 
+A partir du 1er novembre 2019, l'ACS et la CMU-C ont fusionné pour former la Complémentaire Santé Solidaire. 
 Pour plus d'informations se reporter à <https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/complementaire-sante/aide-paiement-complementaire-sante>
 ou bien au rapport d'activité du Fonds CMU.
  
