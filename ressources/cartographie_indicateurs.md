@@ -19,6 +19,14 @@ Cette diversité d'indicateurs peut être difficile à retrouver, d'autant qu'il
 
 Afin de valoriser les productions de nombreux départements statistiques, une phase de concertation a débouché sur le recensement de près de 20,000 indicateurs de santé.
 
+## Améliorer la qualité des données
+
+L'application offre une fonctionnalité d'édition contrôlée par une clef d'identification qu'il convient de demander via le formulaire de contact de l'application.
+
+Si vous souhaitez corriger une coquille, compléter une information ou mettre à jour des instructions pour retrouver l'indicateur sur le site du producteur, nous serions ravis de recevoir votre aide.
+
+![Correction](../files/DREES/2019-11_demo_correction indicateurs_MPL-2.0.gif)
+
 ## Producteurs d'indicateurs
 
 La carthographie des indicateurs de santé a été développé à la DREES, grâce aux contributions des producteurs d'indicateurs suivant :
