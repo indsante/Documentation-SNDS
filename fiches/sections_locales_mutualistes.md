@@ -4,7 +4,7 @@
 
 ## Notions préalables sur les organismes de liquidation / d’affiliation 
 
-On note SLM la Section Locale Mutualiste, c’est-à-dire une Mutuelle complémentaire qui propose à ses adhérents affiliés au régime général, un service de gestion de la part obligatoire remboursée par la sécurité sociale. 
+On note SLM la Section Locale Mutualiste, c’est-à-dire une mutuelle complémentaire qui propose à ses adhérents affiliés au régime général, un service de gestion de la part obligatoire remboursée par la sécurité sociale. 
 Elle est l’unique interlocuteur et rembourse à son adhérent la part obligatoire sécurité sociale et la part mutuelle complémentaire. 
 
 Les variables ORG_CLE_NEW (Code de l'organisme de liquidation) et ORG_AFF_BEN (Code de l'organisme d'affiliation) sont décomposées en 4 parties :
@@ -18,17 +18,15 @@ Les variables ORG_CLE_NEW (Code de l'organisme de liquidation) et ORG_AFF_BEN (C
 ![schema SLM](../files/Cnam/Images_cnam/schema_slm.png)
 
 
-
 ### Organisme de liquidation du bénéficiaire 
 
-**Organisme qui  saisit les remboursements** des bénéficiaires, qui lui sont affiliés, mais aussi, éventuellement, des bénéficiaires affiliés dans d’autres organismes (c’est la subsistance).
+**Organisme qui  saisit les remboursements** des bénéficiaires qui lui sont affiliés, mais aussi éventuellement des bénéficiaires affiliés dans d’autres organismes (c’est la subsistance).
 
 Exemple de cas de subsistance : 
 * pour les caisses des DOM (hors Guadeloupe) qui liquident les remboursements des bénéficiaires salariés de la MSA, 
 * pour les prestations de cures thermales liquidées sur le lieu d’implantation de l’établissement pour n’importe quelle affiliation du bénéficiaire,
 * et pour les SLM infogérées pour lesquelles des caisses avec un numéro de liquidation « fictif » liquident pour les bénéficiaires de ces SLM, en France entière.
 
- 
 Cette notion de liquidation à un moment donné n’est pas exhaustive par rapport aux dépenses de l’organisme. 
 
 *Par exemple la CPAM des Pyrénées Orientales (661) saisit les remboursements du bénéficiaire affilié chez elle car résidant dans le département 66.* 
@@ -51,7 +49,7 @@ Cette notion est exhaustive en termes de dépense de l’organisme in fine.
 
 Mutuelle qui gère la part obligatoire du Régime Général, financière et administrative, à la place de la CPAM d’affiliation xxx du bénéficiaire [organisme de liquidation et d’affiliation en 01M] ; en général elle assure aussi la gestion de la part mutuelle complémentaire du bénéficiaire. 
 
-*Remarque : cette SLM classique adresse au SNDS des données en norme NOEMIE 303.*
+    *Remarque : cette SLM classique adresse au SNDS des données en norme NOEMIE 303.*
 
 Par exemple, la MGEN - mutuelle générale de l’éducation nationale NUM 501 et 506 - propose au personnel de l’Education nationale de gérer la part administrative et financière de leurs remboursements de soins pour la part obligatoire de la sécurité sociale, en même temps que le remboursement de la mutuelle complémentaire MGEN qu’ils ont souscrite.
 
@@ -93,11 +91,16 @@ Lorsque la SLM intègre le RG elle n’est plus comptabilisée comme une SLM et 
 |Organisme de liquidation|**01C**xxx000|01C751000|
 |Organisme d'affiliation|**01C**xxxUGE* |01C751000|
 
-*Attention ! Il n’y a pas de code organisme d’affiliation en ‘01CXXX000’ ; les 3 dernières composantes sont les centres de gestion UGE des CPAM.
+::: warning Attention
+Il n’y a pas de code organisme d’affiliation en `01CXXX000` ; les 3 dernières composantes sont les centres de gestion UGE des CPAM.
+:::
 
 
-**Un tableau de suivi des codifications des SLM est disponible dans le portail SNDS dans le répertoire : Dossiers Publics/Documentation SNIIRAM-SNDS/Offre de service/Suivi des chargements_SLM dans SNIIRAM.xls**
-
+:::tip 
+Un tableau de suivi des codifications des SLM est disponible
+- dans le portail SNDS, au chemin: `Dossiers Publics/Documentation SNIIRAM-SNDS/Offre de service/Suivi des chargements_SLM dans SNIIRAM.xls`
+- en [téléchargement ici](../files/Cnam/2019-10-14_Codification-SLM-SNIIRAM_MPL-2.0.xls), éventuellement moins à jour 
+:::
 
 
 ## Références
