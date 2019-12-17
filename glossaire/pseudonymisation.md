@@ -18,7 +18,7 @@ La principale limite de la pseudonymisation est qu'il reste techniquement possib
 
 Ainsi, toute séquence temporelle de positions géographiques constitue rapidement une trace unique, que ce soit une succession de visites dans des établissements de santé ou une série de paiements bancaires. 
 Il est alors facile de réidentifier un individu, du moins en théorie puisque c'est interdit, pour peu que l'on connaisse des informations le concernant. 
-Il est également possible de réidentifier un ensemble d'individus pour lesquels on possèderai des positions GPS issues de téléphones mobiles.  
+Il est également possible de réidentifier un ensemble d'individus pour lesquels on possèderait des positions GPS issues de téléphones mobiles.  
  
 # Références
 
