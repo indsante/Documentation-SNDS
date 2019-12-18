@@ -1,6 +1,6 @@
 # Détenus 
 
-Lorsque l'on parle de détenus, on considère l'ensemble des individus mis sous écrou. 
+Lorsque l'on parle de détenus, on considère l'ensemble des individus mis sous main de justice. 
 
 Il s'agit des individus:
 - incarcérés (condamnés ou en détention provisoire) 
@@ -48,15 +48,15 @@ drop table sasdata1.detenus ;
 %connectora;
 create table sasdata1.detenus as select * from connection to oracle (
 select distinct /*t1.ben_nir_psa, t1.ben_rng_gem,*/t2.ben_idt_ano,
-ben_sex_cod,
-ben_nai_ann
-from er_prs_f t1 left join IR_BEN_R  t2 on (t1.ben_nir_psa=t2.ben_nir_psa
+t1.ben_sex_cod,
+t1.ben_nai_ann
+from er_prs_f t1 left join IR_BEN_R t2 on (t1.ben_nir_psa=t2.ben_nir_psa
 and t1.ben_rng_gem=t2.ben_rng_gem)
 where rgm_cod in (651,652,653,654,655,656,657,658,659)
 and RGM_GRG_COD in (1)
 AND EXE_SOI_DTD BETWEEN to_date('01012018','DDMMYYYY') AND to_date('31122018','DDMMYYYY')
 AND FLX_DIS_DTD BETWEEN to_date('01012018','DDMMYYYY') AND to_date('31032019','DDMMYYYY')
-;
+);
 disconnect from oracle;
 quit;
 
