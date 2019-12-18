@@ -14,21 +14,21 @@ On considère dans ce dernier cas que les individus qui habitent sur un territoi
 Ces variables peuvent être présentes dans le SNIIRAM, dans le PMSI, ou dans les deux. Dans le premier cas, il s'agit de remontées administratives, tandis que dans le second, il s'agit d'informations déclaratives collectées au cours du séjour du patient, et qui ne sont donc pas vérifiées.
 
 ## Les variables individuelles 
-## Le sexe
+### Le sexe
 Dans le SNIIRAM, la variable **BEN_SEX_COD** renseigne sur le sexe du bénéficiaire.
 La variable BEN_SEX_COD (variable numérique) est présente dans la table de prestations de soins ER_PRS_F à chaque soin, ainsi que dans le référentiel des bénéficiaires, IR_BEN_R, pour les consommants et les non-consommants. Elle est aussi disponible dans les tables de consommants du répertoire CONSOPAT, et est issue du référentiel IR_BEN_R. 
 Cette variable ne contient quasiment pas de valeur manquante.
 
 Dans le PMSI, la variable **COD_SEX** renseigne sur le sexe du bénéficiaire. Elle se trouve dans la table T_MCOaaB.
 
-## La date de naissance
+### La date de naissance
 La date de naissance est disponible dans le SNDS mais limitée au mois (**BEN_NAI_MOI**) et à l'année de naissance (**BEN_NAI_ANN**). Le jour de naissance n’est pas disponible. 
 Ces deux variables sont restituées dans le référentiel des bénéficiaires, IR_BEN_R, pour les consommants et les non-consommants. Elles sont aussi disponibles dans les tables de consommants du répertoire CONSOPAT, et sont issues du référentiel IR_BEN_R. 
 L'année de naissance **BEN_NAI_ANN** est également restituée dans la table de prestations de soins ER_PRS_F à chaque soin.  
 La valeur manquante de l’année de naissance et du mois de naissance est forcée à janvier 1600.
 En 2016, cette variable ne contient quasiment pas de valeur manquante, la qualité ayant nettement progressé pour les bénéficiaires du [RSI](../glossaire/RSI.md)
 
-## L'âge au moment du soin
+### L'âge au moment du soin
 L’âge à la date des soins peut être calculé à partir de l'année de naissance, en âge atteint dans l’année : année des soins - année de naissance.  
 
 Il existe également dans les tables de prestations ER_PRS_F et NS_PRS_F, la variable **BEN_AMA_COD**, qui donne l'**âge à la date des soins en années** pour les bénéficiaires de plus de 2 ans.  
@@ -44,7 +44,7 @@ Un problème d’arrondi impacte les BEN_AMA_COD calculés avant Novembre 2014 (
 
 Dans le PMSI, la variable **AGE_ANN** renseigne l’âge du patient au début de l’hospitalisation en années révolues.
 
-## La date de décès
+### La date de décès
 Dans le SNDS, la date de décès est disponible :
 * en **mois/année** dans la variable **BEN_DCD_AME** : format caractère de type AAAAMM (codée « 160001 » pour les vivants ou en cas de valeur manquante)
 * en **jour/mois/année** dans BEN_DCD_DTE: format datetime.  
@@ -69,7 +69,7 @@ Il est possible d’avoir une date de décès renseignée dans les tables relati
 Une fiche est en cours de rédaction sur la fiabilité de la date de décès dans le SNDS.
 
 ## Les variables concernant les droits
-## La CMU-C
+### La CMU-C
 La couverture maladie universelle complémentaire (CMU-C) permet aux assurés dont les ressources ne dépassent pas le plafond fixé par la loi de bénéficier d’une protection maladie complémentaire gratuite ([pour en savoir plus](https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/complementaire-sante/cmu-complementaire)). La CMUC ne s’applique pas dans le département de Mayotte.  
 L’étude de la CMU-C nécessite de travailler sur les personnes $agées de moins de 60 ans, afin ’exclure les personnes pouvant bénéficier de l’allocation de solidarité aux personnes âgées (Aspa) (par exemple, le minimum vieillesse).  
 
@@ -84,7 +84,7 @@ L’information sur la CMU de base est présente dans le **PMSI** depuis 2012 po
 
 Une [fiche](../fiches/cmu_c.md) est consacrée au repérage des bénéficiaires de la CMU-C. 
 
-## L'ACS
+### L'ACS
 L’aide à l’acquisition d’une complémentaire santé (ACS) est un dispositif destiné aux personnes à faibles revenus pour leur faciliter l’accès à une assurance maladie complémentaire.  
 Cette aide est accordée pour un an renouvelable aux personnes résidant en France de façon stable depuis plus de trois mois, en situation régulière et percevant des ressources comprises entre le plafond d'attribution de la CMU-C et 35 % au-delà, selon la composition du foyer ([pour en savoir plus](https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/complementaire-sante/aide-paiement-complementaire-sante)).  
 
@@ -96,7 +96,7 @@ L’information sur l’ACS est absente du PMSI.
 
 Une fiche est en cours de rédaction sur le repérage des bénéficiaires de l'ACS dans le SNDS.  
 
-## L'AME
+### L'AME
 L'Aide Médicale de l'État (AME) est destinée à permettre l'accès aux soins des personnes en situation irrégulière en France.  
 Elle est attribuée aux **personnes étrangères (et leurs ayants droits) en situation irrégulière** (c’est-à-dire sans titre de séjour ou récépissé de demande ou de document attestant qu’une demande est en cours). Ces personnes doivent résider en France métropolitaine ou dans les départements d'outre-mer, hors Mayotte, de façon stable, depuis plus de trois mois, et leurs ressources ne doivent pas dépasser un certain plafond ([pour en savoir plus](https://www.ameli.fr/assure/droits-demarches/situations-particulieres/situation-irreguliere-ame))
 
@@ -116,17 +116,17 @@ Dans le **PMSI**, l’information sur l’AME est présente depuis 2012 dans la 
 Une [fiche](../fiches/aide_medicale_etat.md) est consacrée au repérage des bénéficiaires de l'AME. 
 
 ## Les variables écologiques
-## Le lieu de résidence
+### Le lieu de résidence
 Le SNDS couvre les bénéficiaires qui résident en France, DOM inclus ou à l’étranger.
 Il existe différentes variables dans le SNDS qui renseignent sur le département ou la commune de résidence du bénéficiaire. Elles ne sont pas toutes construites de la même façon.
 
 Pour plus d'informations, une [fiche](../fiches/localisation_geographique_beneficiaires.md) est consacrée à la localisation des bénéficiaires dans le SNDS.
 
-## L'indice de désavantage social
+### L'indice de désavantage social
 
 Un indice territorial de désavantage social (ou **FDEP** pour *French Deprivation Index*) permet de caractériser l'environnement socioéconomique du bénéficiaire à partir de sa commune de résidence.
 
-### Méthode de construction
+#### Méthode de construction
 L'indice de désavantage est calculé au niveau communal à partir de données socioéconomiques issues du recensement de la population et des données sur les revenus fiscaux des ménages respectivement en 2009 et 2013:
 * part des ouvriers dans la population active de 15 à 64 ans
 * part des chômeurs dans la population active de 15 à 64 ans
@@ -147,7 +147,7 @@ Une fois construit l'indice de désavantage social FDEP est associé de la faço
 L'indice de désavantage social n'est pas disponible pour certains bénéficiaires : les résidents des DOM et des COM, les bénéficiaires sans commune ni département de résidence connus, les bénéficiaires affiliés à des SLM (mauvaise qualité de la commune de résidence) 
 :::
   
-### Où trouver la variable ?
+#### Où trouver la variable ?
 
 L'indice de déprivation est disponible sous les variables **FDEP09** et **FDEP13** présentes dans les tables DEFA_UU2009 et DEFA_UU2013 de la bibliothèque CONSOPAT. Ces tables sont accessibles via tout profil permettant d’accéder au DCIR et permettant d’accéder au code commune de résidence du bénéficiaire.
 
@@ -165,7 +165,7 @@ L'analyse de la précarité peut se faire par le repérage des publics ayant acc
 * les bénéficaires de l'ACS, 
 * de l'AME. 
 
-Il est également possible de repérer les détenus dans le SNDS. Une fiche est en cours de construction sur ce sujet.
+Il est également possible de repérer les [détenus](detenus.md) dans le SNDS.
 
 ::: tip Crédits  
 Cette fiche a été rédigée par Claire-Lise Dubost (DREES), et s'appuie notamment sur des informations issus du document [*SNDS, ce qu'il faut savoir*](https://documentation-snds.health-data-hub.fr/ressources/Sante_publique_France.html#snds-ce-qu-il-faut-savoir) constitué par Santé Publique France, ainsi que de la note technique *L'indice de désavantage social "FDEP" et son application à DCIR* rédigé en 2014 par la CNAM.
