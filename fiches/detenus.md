@@ -127,6 +127,39 @@ quit;
 
 
 ```
+En pratique l'UHSI n’est pas toujours codée par l'établissement dans les UM existantes. On retrouve ainsi beaucoup de détenus hospitalités dans d'autres unités. 
+On peut ici chainer nos detenus (identifiés dans les prestations du DCIR à partir du code petit régime `RGM_COD` qui commence par 65) avec le PMSI pour récupérer l'ensemble des hospitalisations de detenus.
+
+```sql
+Proc sql; 
+Create table detenu_UM as select 
+distinct t2.NIR_ANO_17,
+count(distinct T1.ETA_NUM||t1.RSA_NUM) as nb_sejour,
+AUT_TYP1_UM
+from ORAVUE.T_MCO18UM T1 left join ORAVUE.T_MCO18C T2 on (T1.ETA_NUM=T2.ETA_NUM and T1.RSA_NUM=T2.RSA_NUM)
+						INNER JOIN ORAVUE.T_MCO18B T3 on (T1.ETA_NUM=T3.ETA_NUM and T1.RSA_NUM=T3.RSA_NUM)
+where t2.NIR_ANO_17 in (select ben_nir_psa from ORAUSER.detenus)
+group by 1,3;
+quit;
+Proc sql; 
+Create table detenu_UM as select 
+distinct t2.NIR_ANO_17,
+count(distinct T1.ETA_NUM||t1.RSA_NUM) as nb_sejour,
+AUT_TYP1_UM
+from ORAVUE.T_MCO18UM T1 left join ORAVUE.T_MCO18C T2 on (T1.ETA_NUM=T2.ETA_NUM and T1.RSA_NUM=T2.RSA_NUM)
+						INNER JOIN ORAVUE.T_MCO18B T3 on (T1.ETA_NUM=T3.ETA_NUM and T1.RSA_NUM=T3.RSA_NUM)
+where t2.NIR_ANO_17 in (select ben_nir_psa from ORAUSER.detenus)
+group by 1,3;
+quit;
+
+
+```
+
+
+
+ON peut donc chainer nos detenus (identifiés dans les prestations du DCIR) avec le PMSI 
+
+
 ### Dans les établissements psychiatriques 
 
 Pour chaque région pénitentaire, il existe un Services Médico-Psychologiques Régionaux (SMPR) implanté dans un établissement pénitentiaire et rattaché à un établissement public hospitalier de santé mentale.
