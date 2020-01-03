@@ -79,7 +79,7 @@ Pour la table `IR_ORC_R`, il faut également filtrer sur les dates de début et 
 | Sources | Effectifs | Filtre |
 | ---------| -------- | ----- |
 | Fonds CMU | 1,12 millions| X |
-| `IR_ORC_R` |  1,275 millions   |FILTER `BEN_CTA_TYP` in 91 92 93 AND year(`MLL_CTA_DSD`) <=2016 AND ( year(`MLL_CTA_DSF`)>= 2016 OR `MLL_CTA_DSF` IS NULL)  COUNT DISTINCT `BEN_IDT_ANO`|
+| `IR_ORC_R` |  1,275 millions   |FILTER `BEN_CTA_TYP` in 91 92 93 AND year(`MLL_CTA_DSD`) <=2016 AND ( year(`MLL_CTA_DSF`)>= 2016 OR `MLL_CTA_DSF` IS NULL OR year(`MLL_CTA_DSF`) == 1600)  COUNT DISTINCT `BEN_IDT_ANO`|
 | `NS_PRS_F` |  1,144 millions  | FILTER `BEN_CTA_TYP` in 91 92 93 COUNT DISTINCT `BEN_IDT_ANO`|
 
 Attention, la requête sur `NS_PRS_F` suppose que l'on compte les individus selon leur identifiant lorsqu'ils sont consommants dans le DCIRS 
