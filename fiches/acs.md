@@ -37,7 +37,7 @@ En outre, l'ACS donne droit au demandeur et aux membres du foyers qui lui sont r
  
 - à la dispense d'avance de frais sur la part prise en charge par l’assurance maladie obligatoire (anciennement appelé "tiers payant social") [site de l'assurance maladie tiers
 payant](https://www.ameli.fr/medecin/exercice-liberal/remuneration/tiers-payant-modalites-regles-facturation/tiers-payant-modalites-regles-facturation#text_11377),
-- depuis le 1er mars 2013, aux **tarifs médicaux sans dépassements d'honoraires**,  dans le cadre du parcours de soins coordonnés,
+- à partir du 1er mars 2013, aux **tarifs médicaux sans dépassements d'honoraires**,  dans le cadre du parcours de soins coordonnés,
 quel que soit le médecin, même s'il pratique des honoraires libres (« secteur 2 »)
 - Au bénéfice de tarifs faisant l'objet d'un montant maximum de dépassement pour certains soins de prothèse dentaire et d'orthodontie
 - À l'exonération du paiement de la participation forfaitaire de 1 € et des franchises médicales
