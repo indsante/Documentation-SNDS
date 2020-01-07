@@ -7,9 +7,9 @@ Un appariement consiste à associer des données externes au SNDS, via des infor
 
 Il existe principalement deux types d'appariements :
 
-- Les appariements directs, dits déterministes
+- Les appariements directs
 
-- Les appariements indirects, dits probabilistes
+- Les appariements indirects
 
 ::: danger Attention
 Réaliser un appariement nécessite une autorisation préalable de la [CNIL](../glossaire/CNIL.md).
@@ -71,9 +71,9 @@ Cet appariement est équivalent à une sélection sur critères.
 L'import/export de données ne doit pas concerner des données identifiantes.
 :::
 
-## Les appariements indirects, dits probabilistes
+## Les appariements indirects
 
-L'appariement probabiliste consiste à sélectionner des patients en fonction d'informations définies sans avoir d'identifiant en clair. 
+L'appariement indirect consiste à sélectionner des patients en fonction d'informations définies sans avoir d'identifiant en clair. 
 Ces patients devront correspondre de manière probabiliste aux informations souhaitées pour que la correspondance soit la plus optimale possible.
 
 La procédure de correspondance se fait généralement en plusieurs étapes, par tâtonnement, en jouant sur les différentes variables.
@@ -105,7 +105,7 @@ Toutefois, la sélection est rendue plus facile lorsque le nombre de variables t
 Cependant, une correspondance multiple peut être détectée et sera exclue des groupes. 
 Le 100% est donc difficilement atteignable.
 
-La qualité des données initiale est donc primordiale pour un appariement probabiliste réussi.
+La qualité des données initiale est donc primordiale pour un appariement indirect réussi.
 
 
 ## Références
