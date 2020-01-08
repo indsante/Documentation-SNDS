@@ -1,27 +1,12 @@
----
-sidebarDepth: 2
----
-
-# Foires aux questions DCIR / EGB
-
-Ces FAQ DCIR et EGB sont issues des fichiers FAQ DCIR et FAQ EGB, créés par la CNAM. 
-
-Elles sont susceptibles d'évoluer régulièrement. 
-
-Si vous souhaitez ajouter d'autres FAQ, merci de contacter la CNAM (snds.cnam@assurance-maladie.fr) afin d'harmoniser cette page avec les fichiers publiés sur le portail SNIIRAM et sur ameli-reseau.
-
-Nous mettrons alors à jour cette page et nos fichiers.
-
-
-## FAQ DCIR
+# FAQ DCIR
 
 *version 09/2019*
 
 
-### DCIR
+## DCIR
 
 
-#### VARIABLE IJR_EMP_NUM
+### VARIABLE IJR_EMP_NUM
 
 **La variable IJR_EMP_NUM est passée du format numérique au format alphanumérique le 9 novembre 2017.** 
 **Est-ce également le cas dans les tables archives du DCIR ER_PRS_F_aaaa ?** 	
@@ -32,7 +17,7 @@ Non, le format a changé uniquement dans la table ER_PRS_F mais pas dans les tab
 
 
 
-#### MODE DE PRESCRIPTION MSA	
+### MODE DE PRESCRIPTION MSA	
 
 **Les informations concernant le mode de prescription ne sont pas remontées pour le régime agricole (MSA), alors qu'il est disponible pour l'ensemble des autres régimes.**	
 
@@ -44,7 +29,7 @@ En effet, ce champ est remonté depuis la version 6 de la norme NTEIR, tandis qu
 
 
 
-#### PRESTATIONS DE CURES THERMALES DES BENEFICIAIRES CMU-C
+### PRESTATIONS DE CURES THERMALES DES BENEFICIAIRES CMU-C
 
 **Comment repérer les prestations cures thermales TTH et HTH pour les bénéficiaires CMU-C et Type de contrat = 89 ?**	
 
@@ -67,7 +52,7 @@ Ces prestations, pour ces bénéficiaires, sont repérables dans ER_PRS_F en com
 
 
 
-#### SOINS URGENTS EN EX-DG	
+### SOINS URGENTS EN EX-DG	
 
 **L'ATIH identifie les remboursements en soins urgents en ex-DG par la variable NON_FAC_AM = "4".** 
 **Comment identifier les soins urgents dans DCIR ?**
@@ -80,7 +65,7 @@ En revanche, nous disposons de quelques informations dans le PMSI.
 
 
 
-#### MEDECIN TRAITANT
+### MEDECIN TRAITANT
 
 **Si le médecin déclaré comme médecin traitant part à la retraite et que le patient n'en a pas déclaré un nouveau, le PRS_MTT_NUM se met-il à ""00000000"" ?**
 **Ou bien est ce que le dernier numéro reste tant qu'il n'y a pas de changement ?**
@@ -96,7 +81,7 @@ Par ailleurs, un patient peut avoir un numéro de médecin traitant qui n'est pa
 
 
 
-#### VARIABLE EXE_SOI_DTD	
+### VARIABLE EXE_SOI_DTD	
 
 **A quelle date correspond EXE_SOI_DTD dans le cadre des actes de biologie ?**
 **S'agit-il de la date du prélèvement sanguin ?** 
@@ -111,7 +96,7 @@ La date EXE_SOI_DTD associée correspond à leur date d'exécution c'est-à-dire
 
 
 
-#### REGULATIONS DES PRESTATIONS CCAM	
+### REGULATIONS DES PRESTATIONS CCAM	
 
 **Comment prendre en compte les régulations sur les prestations CCAM ?**
 **Pourriez-vous me confirmer qu'il faut prendre en compte PRS_ACT_QTE ?**	
@@ -123,7 +108,7 @@ Il s'agit bien de la variable PRS_ACT_QTE.
 
 
 
-#### VARIABLE PFS_EXE_NUM	 
+### VARIABLE PFS_EXE_NUM	 
 
 **A quoi correspond le cas PFS_EXE_NUM = 00000000 ?**
 **Récupère-t-on les établissements exécutants publics et privés ?**	 
@@ -136,7 +121,7 @@ PFS_EXE_NUM = 00000000 correspond à des PS exécutants salariés, d’établiss
 
 
 
-#### TABLE IR_PHA_R	
+### TABLE IR_PHA_R	
 
 **Selon le communiqué du 2 mars 2015, DCIR Codage du CIP sur 13 chiffres:  Nous vous rappelons également que la table CNAMTS de référence sur le médicament, IR_PHA_R, ne contient pas de médicaments homéopathiques.** 
 **A quoi correspondraient les 196 lignes avec PHA_ATC_L03 = SPECIALITES HOMEOPATHIQUES ?**
@@ -148,7 +133,7 @@ Nous avons mis à jour ce communiqué en précisant qu'il existe bien 196 lignes
 
 
 
-#### REGIME PENITENTIAIRE	
+### REGIME PENITENTIAIRE	
 
 **Existe t-il un moyen de repérer l’appartenance au Régime Pénitentiaire des individus ?** 
 
@@ -159,7 +144,7 @@ Les détenus sont identifiables par des codes petits régimes spécifiques (652,
 
 
 
-#### TABLE IR_PHA_R	
+### TABLE IR_PHA_R	
 
 **Pourquoi certains médicaments n'ont pas d'ATC dans le référentiel IR_PHA_R ?** 	
 
@@ -171,7 +156,7 @@ Il s'agit de médicaments trop récents pour que le service de la CNAMTS ait eu 
 
 
 
-#### PATIENTS FRONTALIERS
+### PATIENTS FRONTALIERS
 
 
 **Comment identifier les patients résidents dans les départements frontaliers, qui effectuent des soins d'imagerie médicale en Belgique ?**
@@ -203,7 +188,7 @@ Lorsqu’ils ont des soins effectués en Belgique, les soins sont remboursés pa
 
 
 
-#### CODAGE AFFINE LPP	
+### CODAGE AFFINE LPP	
 
 **On a découvert que pour certains codes LPP, on pouvait avoir un prix unitaire faible ainsi qu'une quantité faible et un montant remboursé/remboursable beaucoup plus important que la simple multiplication du prix X quantité.**
 **Par exemple, on a un code LPP pour les lancettes avec un prix unitaire de 15 €, une délivrance pour un patient d'une seule quantité et un montant remboursé de 127 € sur cette ligne dans la table Prestations.** 
@@ -222,7 +207,7 @@ Effectivement, si on travaille sur du codage affiné, il ne faut pas se servir d
 
 
 
-#### NIR D'UN ASSURE PROVISOIRE
+### NIR D'UN ASSURE PROVISOIRE
 
 **Dans quel(s) cas et quelle(s) condition(s) un bénéficiaire est-il considéré comme "assuré provisoire"?**
 **Est-ce uniquement les patients bénéficiaire de l'AME ? ou d'autres cas existe-t-il ?**
@@ -249,7 +234,7 @@ Attention, il s'agit du NIR de l’ouvrant droit et non de celui des ayants droi
 
 
 
-#### LIBELLES DES CODES DE CESSATION D'ACTIVITE	
+### LIBELLES DES CODES DE CESSATION D'ACTIVITE	
 
 **Existe-il une table de valeurs de la variable mode de fin d'exercice libéral (EXC_FIN_MTF) permettant d'obtenir les libellés associés à ces codes ?** 	
 
@@ -261,7 +246,7 @@ Malheureusement cette table de valeur n'existe pas encore sous SAS, elle le sera
 
 
 
-#### FORMAT DE LA VARIABLE IJR-EMP_NUM	
+### FORMAT DE LA VARIABLE IJR-EMP_NUM	
 
 **Le format de la variable IJR_EMP_NUM est-il également passé de numérique à alphanumériques dans les tables archives de DCIR (exemple : ER_PRS_F_2012) ?**                                 
 
@@ -274,7 +259,7 @@ Le format de cette variable dans les tables archives est encore numérique.
 
 
 
-#### NUMEROS SIRET
+### NUMEROS SIRET
 
 **Y a-t-il un moyen de repérer les numéros SIRET des particuliers/associations employeurs ?** 
 **Est-ce que du moment qu’on a au moins une lettre dans le numéro, on peut en déduire qu’on est dans le cas de particulier/associations employeur ?** 
@@ -288,7 +273,7 @@ Il n'y a pas moyen de repérer les numéros SIRET des particuliers/associations 
 
 
 
-#### DATE D'ACCOUCHEMENT PRS_GRS_DTD	
+### DATE D'ACCOUCHEMENT PRS_GRS_DTD	
 
 **Je m'intéresse aux congés paternité et souhaiterais savoir à quoi correspond la "date présumée de grossesse" associée à ces congés, car elle est parfois assez éloignée du premier jour du congé.**
 **Est-elle remontée au moment de l'accouchement ou plus tôt par la caisse ?**
@@ -315,7 +300,7 @@ Il existe une documentation associée à cette table dans le portail SNDS.
 
 
 
-#### MEDICAMENTS ATU	
+### MEDICAMENTS ATU	
 
 **Comment identifier les médicaments en ATU (nominative ou de cohorte) dans le SNDS ?**
 **Le fichier MATU fourni par l'ATIH n'est disponible que depuis 2014.** 
@@ -328,7 +313,7 @@ Les médicament en ATU sont identifiables dans le DCIR par le code prestation PS
 
 
 
-#### ACTES DES ORTHOPHONISTES	
+### ACTES DES ORTHOPHONISTES	
 
 **Quels sont les différents types de soins prodigués par les orthophonistes (nomenclature générale des actes professionnels - NGAP) permettant de déterminer la part des enfants suivis pour dyslexie, aphasie, autres troubles du langage...** 
 **Quelle variable doit-on utiliser ?**	
@@ -341,7 +326,7 @@ Le coefficient correspond à la variable PRS_ACT_CFT de ER_PRS_F.
 
 
 
-#### EXISTENCE DE SLM EN '01C'	
+### EXISTENCE DE SLM EN '01C'	
 
 **En consultant les tables consopat.extraction_patientsAAAAtr, il existe des lignes ORG_AFF_BEN commençant par '01C' associées à la variable "regime" = SLM, alors que les SLM ont a priori des codes organismes en '01M'.** 
 **Est-ce un cas particulier ou une erreur ?**	
@@ -355,7 +340,7 @@ Il existe cependant également des organismes d'affiliation en '91C', '92C', '93
 
 
 
-#### ALLOCATION ADULTE HANDICAPE	
+### ALLOCATION ADULTE HANDICAPE	
 
 **Comment repérer les bénéficiaires de l'allocation adulte handicapé dans le DCIR ?**
 **Existe-t-il un top AAH dans le DCIR ? Ou bien une information sur l’ouverture de droit à l’AAH ?**	
@@ -383,7 +368,7 @@ Une personne avec un code petit régime AHH n’est donc pas forcément handicap
 
 
 
-#### INTEGRATION DU REGIME DES INDEPENDANTS	
+### INTEGRATION DU REGIME DES INDEPENDANTS	
 
 **Comment reconnaître les travailleurs indépendants dans le DCIR ?**
 **Avec l’affiliation au régime général des nouveaux travailleurs indépendants  au 1 er janvier 2019, y a-t-il création d’un code petit régime pour les indépendants ?**
@@ -397,7 +382,7 @@ Un top permettant d’identifier les factures de ces nouveaux travailleurs indé
 
 
 
-#### COMPARATIF AVEC SNIREP	
+### COMPARATIF AVEC SNIREP	
 
 **Retrouver les résultats de SNIREP dans DCIR : dans le cadre de l'évaluation de l'activité en dialyse de certains établissements, une requête rapide sur le SNIREP permet d'obtenir les dépenses AM par centre, comment faire pour les retrouver sous DCIR ?** 
 
@@ -408,7 +393,7 @@ La solution consiste en fait en une jointure entre la table ER_PRS_F et ER_ETE_F
 
 
 
-#### ACTES DE TELEMEDECINE	
+### ACTES DE TELEMEDECINE	
 
 **Existe-t-il un moyen d'identifier les actes réalisées dans le cadre de la télémédecine dans le DCIR ?** 
 
@@ -443,7 +428,7 @@ A priori, les actes TE1 1193 et TE2 1194 (télé expertise) seraient à venir d�
 
 
 
-#### CHANGEMENT DE SEXE	
+### CHANGEMENT DE SEXE	
 
 **Pour les personnes ayant effectué un changement de sexe à l'état civil, le NIR du bénéficiaire BEN_NIR_ANO est-il également modifié ?** 
 **Est-il possible de suivre le parcours de soins de ces personnes en cas de changement de NIR ?**
@@ -456,7 +441,7 @@ Dans ce cas, il ne sera malheureusement pas possible de suivre le parcours de so
 
 
 
-#### MONTANTS ACTES CCAM	
+### MONTANTS ACTES CCAM	
 
 **Comment calculer le montant des actes CCAM dans DCIR ?**
 **Pour de nombreux actes, le prix unitaire renseigné dans la table ER_CAM_F (variable CAM_ACT_PRU) est inférieur au montant de la base remboursement (BSE_REM_BSE) et au montant remboursé (BSE_REM_MNT) de la table ER_PRS_F.** 
@@ -471,7 +456,7 @@ Ainsi, dans l'exemple relatif à l'acte ZBQK002, si on multiplie le prix unitair
 
 
 
-#### NUMERO PS SALARIE D'ETABLISSEMENT
+### NUMERO PS SALARIE D'ETABLISSEMENT
 
 **Quand le professionnel prescripteur ou exécutant est salarié dans un établissement public, le numéro renseigné dans les variables PFS_EXE_NUM et PFS_PRE_NUM est-il bien le numéro FINESS de l’établissement ?** 
 **S'il est salarié dans un établissement privé, s'agit-il du RPPS du professionnel ?**
@@ -501,7 +486,7 @@ Les autres régimes devraient se conformer à ces règles.
 
 
 
-#### CMU et CMU-C	
+### CMU et CMU-C	
 
 **Comment toper des consommants bénéficiaires de la CMU de base et bénéficiaires de la CMU-complémentaire ?**
 
@@ -517,7 +502,7 @@ Pour info, un top CMU = 1 indique un bénéficiaire de la CMU-C, mais qui n’es
 
 
 
-#### COMPARAISON DCIR/DCIRS	
+### COMPARAISON DCIR/DCIRS	
 
 **Les résultats d'une requête ne sont pas les mêmes sur le DCIRS et sur le DCIR : par exemple, une requête portant sur le nombre de consultations effectuées par un médecin généraliste au cours d'un mois (janvier 2016) selon le département, donne sur le DCIRS un total 22,1 millions consultations, contre 22,7 consultations sur le DCIR soit un écart de 600 000 consultations (= 3% dans l'effectif du DCIRS).**
 **En détaillant par département, les disparités dans cet écart sont les plus fortes dans les départements 93 et 75.** 
@@ -534,7 +519,7 @@ En enlevant les bénéficiaires avec NIR fictifs de la requête sur DCIR, les r�
 
 
 
-#### MENTION NON SUBSTITUABLE MSA	
+### MENTION NON SUBSTITUABLE MSA	
 
 **Les informations concernant la mention Non Substituable ne sont pas remontées pour le régime agricole (MSA) alors qu'il est disponible pour l'ensemble des autres régimes.** 
 **Cela correspond-il à une anomalie ?**
@@ -546,7 +531,7 @@ Effectivement, ce champ n'est pas encore transmis par la MSA, pour une raison de
 
 
 
-#### DECLARATION DE GROSSESSE	
+### DECLARATION DE GROSSESSE	
 
 **A-t-on dans DCIR des informations fiables concernant la déclaration de la grossesse ?**	
 
@@ -558,7 +543,7 @@ Il faut donc croiser plusieurs informations pour arriver à une information plus
 
 
 
-#### REMBOURSEMENT DE MEDICAMENTS - AYANTS-DROITS	
+### REMBOURSEMENT DE MEDICAMENTS - AYANTS-DROITS	
 
 **Le remboursement des soins des ayants-droits est-il bien rattaché à l'ayant droit ou à l'ouvreur de droit ?** 
 **Plus précisément, pour les médicaments remboursés pour des personnes de moins de 18 ans (qui n'ont pas encore de carte vitale), qui sont donc rattachés à un/les 2 parent(s), comment cela se retranscrit-il dans le DCIR ?** 
@@ -575,7 +560,7 @@ Il est recommandé d'utiliser l'identifiant BEN_IDT_ANO qui est égal au BEN_NIR
 
 
 
-#### REGROUPEMENT CABINET PS LIBERAUX	
+### REGROUPEMENT CABINET PS LIBERAUX	
 
 **Existe-t-il une variable dans le DCIR informant sur les regroupements de professionnels de santé, qui travaillent dans un même cabinet ?**	
 
@@ -589,11 +574,11 @@ Dans la table DA_PRA_R, la variable 'PFS_SCN_COD' (Code association du PS) est �
 
 
 
-### DCIRS
+## DCIRS
 
 
 
-#### PRIX UNITAIRE DE L'ACTE DE BIOLOGIE	
+### PRIX UNITAIRE DE L'ACTE DE BIOLOGIE	
 
 **Pouvez vous me dire quelle variable correspond au prix unitaire d'un acte de biologie dans la table NS_BIO_F ?** 	
 
@@ -617,7 +602,7 @@ La règle proposée pour recalculer le montant remboursé de l'acte affiné BIO_
 
 
 
-#### ABSENCE DES BENEFICIAIRES DES SLM INFOGEREES DANS LES VUES PATIENTS DCIRS	
+### ABSENCE DES BENEFICIAIRES DES SLM INFOGEREES DANS LES VUES PATIENTS DCIRS	
 
 **Dans le DCIRS, contrairement au DCIR, les patients affiliés à des SLM infogérées devraient être présents dans les vues régionales "Patients".** 
 **Or, seules les caisses et SLM de liquidation de la région y sont retrouvées.** 
@@ -636,7 +621,7 @@ Mais suite à une évolution de la gestion des profils, une correction a été a
 
 
 
-#### UTILISATION DE BEN_IDT_ANO DANS DCIR
+### UTILISATION DE BEN_IDT_ANO DANS DCIR
 
 **Peut-on utiliser BEN_IDT_ANO dans DCIR ?**
 
@@ -648,7 +633,7 @@ L'identifiant BEN_IDT_ANO est donc tout à fait utilisable dans DCIR mais demand
 
 
 
-#### LIEN BEN_IDT_ANO / BEN_NIR_PSA	
+### LIEN BEN_IDT_ANO / BEN_NIR_PSA	
 
 **Est-ce normal qu'un même BEN_IDT_ANO soit associé à plusieurs couples BEN_NIR_PSA, BEN_RNG_GEM ?**
 
@@ -664,7 +649,7 @@ Les NIR identifiés comme fictifs sont isolés et ne sont pas restitués dans IR
 
 
 
-#### PRIX UNITAIRE DANS LA TABLE NS_BIO_F	
+### PRIX UNITAIRE DANS LA TABLE NS_BIO_F	
 
 **Quelle variable correspond au prix unitaire d'un acte de biologie dans la table NS_BIO_F de DCIRS ?**
 **De plus, où peut-on trouver la description de la table IR_BIO_R ?**
@@ -678,7 +663,7 @@ coefficient de l'acte affiné de biologie * prix de l'acte B * quantité affiné
 
 
 
-#### EXCLUSION POUR CONSULTATIONS EXTERNES TRANSMISE POUR INFO	
+### EXCLUSION POUR CONSULTATIONS EXTERNES TRANSMISE POUR INFO	
 
 **Dans le DCIR simplifié, les données sont restituées avec le filtre : DPN_QLF ≠ 71.** 
 **Toutefois, un filtre supplémentaire est possible dans DCIR, si on veut exclure des analyses toutes les consultations externes transmises pour information, en excluant les lignes pour lesquelles DPN_QLF = 0 ET PRS_DPN_QLP = 71.** 
@@ -697,7 +682,7 @@ De plus, ils vous permettent de repérer qu'une consultation externe a bien eu l
 
 
 
-#### ACCIDENT DU TRAVAIL	
+### ACCIDENT DU TRAVAIL	
 
 **Comment calculer le nombre d'accidents de travail sur une année à partir du DCIRS ?** 
 **Filtrer sur le code PRS_NAT_REF = 8226 dans la table NS_RAT_F, puis utiliser la variable ATT_NAT qui permet de distinguer les accidents du travail des maladies professionnelles et les accidents de trajet : est-ce la bonne démarche ?**	
@@ -714,7 +699,7 @@ Cependant, on ne peut pas distinguer les IJ pour AT des IJ pour maladie professi
 
 
 
-#### LIGNES DE MAJORATIONS	
+### LIGNES DE MAJORATIONS	
 
 **Pourquoi existe-t-il des lignes de majorations dans DCIRS ?** 
 **Dans le support de formation, il est indiqué que le DCIRS fournit, dans la table des prestations NS_PRS_F, sur une seule ligne, des indicateurs sur la prestation de référence et sur les majorations ou compléments d'actes associés.** 
@@ -729,7 +714,7 @@ Toutefois, pour ces cas où la majoration n'a pas pu être rattachée à l'acte 
 
 
 
-#### PROFIL 81 ACTIVITE DE DIALYSE MANQUANTE	
+### PROFIL 81 ACTIVITE DE DIALYSE MANQUANTE	
 
 **A partir de le vue régionale "Prescripteurs", il n'y a pas d'assurés du RG (mais uniquement des assurés du régime agricole) ayant eu un transport lié à une dialyse dans un établissement de santé de la région, tandis qu'à partir de la vue régionale "Patients", on trouve bien des assurés du RG.** 
 **Comment expliquer cela ?**	
@@ -745,7 +730,7 @@ En conséquence, le filtre gérant les accès par région ne restitue pas les do
 
 
 
-#### OBTENIR LES MEMES RESULTATS D'UN MOIS A L'AUTRE	
+### OBTENIR LES MEMES RESULTATS D'UN MOIS A L'AUTRE	
 
 **Comment peut-on bloquer les résultats d'une requête lancée sur le DCIRS à deux dates différentes ?** 
 **Pour les soins de l'année 2017, les conditions suivantes sont-elles suffisantes ?**
@@ -762,11 +747,11 @@ Elle fait suite à la suppression dans IR_BEN_R des NIR fictifs multi BEN_NIR_PS
 
 
 
-### REFERENTIELS
+## REFERENTIELS
 
 
 
-#### IR_IMB_R VERSUS IR_ETM_R	
+### IR_IMB_R VERSUS IR_ETM_R	
 
 **Pour le régime général, on constate l'absence de bénéficiaires du référentiel IR_IMB_R alors qu'ils sont présents dans IR_ETM_R avec un motif d'exonération du TM = 41 et qu'ils ont des remboursements avec des motifs d'exo 41 ou 42 selon que le soin est en rapport ou non avec l'affection.**
 
@@ -777,7 +762,7 @@ Les données du référentiel IR_IMB_R sont médicales et nous informent en part
 
 
 
-#### IR_ACS_R	
+### IR_ACS_R	
 
 **La table IR_ACS_R est alimentée tous les mois, elle contient une ligne par bénéficiaire et par période d’affiliation afin que les utilisateurs puissent savoir à quelle date les droits à l’ACS ont été renouvelés.**
 **Je souhaiterais savoir si cette extraction est réalisée de façon centralisée par les CTI et quels sont les critères précis utilisés pour l'extraction BDO ?**
@@ -799,7 +784,7 @@ Les conditions générales de sélection des bénéficiaires dans les BDO des ba
 
 
 
-#### IR_ACS_R / IR_ORC_R	
+### IR_ACS_R / IR_ORC_R	
 
 **Quelles sont les nuances entre :**
 
@@ -848,7 +833,7 @@ Pour tout complément d’information sur l’ACS, vous pouvez vous reporter* [*
 
 
 
-#### IR_IMB_R	
+### IR_IMB_R	
 
 **Il était prévu courant 2017 une purge du référentiel IR_IMB_R, éliminant les individus non exonérés au cours des trois dernières années, intégrant le régime de l'assuré et le BEN_NIR_ANO si je ne me trompe pas. Doit-on considérer que cette nouvelle table IR_ETM_R est la version purgée de IR_IMB_R (même si elle n'est valable que pour le régime général et régimes infogérés) ou allez-vous purger dans tous les cas IR_IMB_R ?** 	
 
@@ -859,7 +844,7 @@ Non, la table IR_ETM_R n'est pas une version purgée de IR_IMB_R, la purge de IR
 
 
 
-#### IR_MAT_R
+### IR_MAT_R
 
 **IR_MAT_R fait partie des 5 tables satellites qui viennent enrichir le table principale IR_BEN_R, et fournit pour les bénéficiaires l'historique de leurs grossesses au delà du 1er janvier 2013.** 
 **On constate qu' il y a des grossesses de plus de 9 mois ... Le record est BEN_GRS_DTE = 20/03/2013 et BEN_DRA_AME = 201804, ce qui fait grosso modo 5 ans.** 
@@ -872,7 +857,7 @@ Il peut s'agir de femmes ayant fait une fausse couche suite à la grossesse déc
 
 
 
-#### IR_BEN_R : BEN_RES_DPT DOM/TOM	
+### IR_BEN_R : BEN_RES_DPT DOM/TOM	
 
 **En comptant le nombre de bénéficiaires (combinaison unique de {BEN_NIR_PSA, BEN_RNG_GEM}) dans IR_BEN_R, par département de résidence BEN_RES_DPT, on trouve une majorité de "097 -Autres DOM".** 
 **A quoi correspond le BEN_RES_DPT = 097 ?**	
@@ -887,7 +872,7 @@ puis de prendre les trois premiers caractères du code depcom; on obtient alors 
 
 
 
-#### PATIENTS AVEC UN MEDECIN TRAITANT	
+### PATIENTS AVEC UN MEDECIN TRAITANT	
 
 **Existe-t-il une table "Bénéficiaires" qui permette d'identifier l'ensemble des patients ayant déclaré un médecin traitant, même ceux n'ayant pas eu de consommation de soins une année donnée ?** 
 **Ou le seul moyen d'identifier si un patient a un médecin traitant, est-ce d'utiliser la variable "PRS_MTT_NUM" de la table "ERE_PRS_F"?**	
@@ -900,12 +885,12 @@ Une documentation sur ce référentiel est disponible sous le portail. "
 
 
 
-### PMSI
+## PMSI
 
 
 
 
-#### EVALUATION DES DEPENSES EN ETABLISSEMENTS PUBLICS HOSPITALIERS	
+### EVALUATION DES DEPENSES EN ETABLISSEMENTS PUBLICS HOSPITALIERS	
 
 **Comment évaluer les dépenses des établissements Publics Hospitaliers pour les ressortissants de l'ENIM, en risque AT-MP, à partir des données PMSI ?**	
 
@@ -922,7 +907,7 @@ NB : La table VALO ne prend en compte que les séjours remboursés par l’assur
 
 
 
-#### PSYCHIATRIE - CHAINAGE AVEC DCIR ET AUTRES PMSI	
+### PSYCHIATRIE - CHAINAGE AVEC DCIR ET AUTRES PMSI	
 
 **Un patient identifié dans le PMSI Psychiatrie ambulatoire peut-il être chainé dans les autres PMSI et dans le DCIR ?**	
 
@@ -935,7 +920,7 @@ Les actes ambulatoires des personnes n’ayant pas de séjours dans le PMSI PSY 
 
 
 
-#### RAPPROCHEMENT TABLES FMSTC ET FCSTC	
+### RAPPROCHEMENT TABLES FMSTC ET FCSTC	
 
 **Dans la table PMSI "FCSTC", pour un couple {ETA_NUM - SEQ_NUM} donné, il y a 2 lignes pour l'acte ATM, correspondant aux spécialités de l'exécutant 07 et 01.**
 **Pour le même couple {ETA_NUM - SEQ_NUM} dans la table FMSTC, il y a également 2 lignes correspondant à 2 codes affinés CCAM (par exemple, JKHD001 et JKQP001).** 
@@ -950,7 +935,7 @@ Pour résoudre ce problème, il faudrait modifier le format de ces fichiers prod
 
 
 
-#### BASE DE REMBOURSEMENT DES SEJOURS DES ETABLISSEMENTS PUBLICS	
+### BASE DE REMBOURSEMENT DES SEJOURS DES ETABLISSEMENTS PUBLICS	
 
 **Y a-t-il une table permettant de calculer les montants en base de remboursements des séjours réalisés par les établissements publics ?**
 **En effet, les tables T_MCOaaVALO ne présentent que les montants AM.**	
@@ -962,7 +947,7 @@ Cette information est présente dans la table "Prise en charge" T_MCOaa_nnSTC, �
 
 
 
-#### COUT TOTAL DES HOSPITALISATIONS DES HOPITAUX PUBLICS	
+### COUT TOTAL DES HOSPITALISATIONS DES HOPITAUX PUBLICS	
 
 **Quelle est la table appropriée pour le coût total de l'hospitalisation des hôpitaux publics ?**	
 
@@ -977,11 +962,11 @@ L’autre montant de la table STC est renseigné par les établissements et se f
 
 
 
-### AUTRES (DA_PRA_R, CARTOGRAPHIE...)
+## AUTRES (DA_PRA_R, CARTOGRAPHIE...)
 
 
 
-#### DA_PRA_R - VARIABLE PFS_PRA_SPE	
+### DA_PRA_R - VARIABLE PFS_PRA_SPE	
 
 **Détails sur la variable PFS_PRA_SPE, notamment sur les différentes variables spécialité du prescripteur dans la DA_PRA_R : le codage est-il le même que pour la variable PSP_SPE_COD du DCIR ?**	
 
@@ -998,7 +983,7 @@ Donc la variable PFS_PRA_SPE est un mix des deux, tantôt elle est égale à la 
 
 
 
-#### CARTOGRAPHIE DES PATHOLOGIES
+### CARTOGRAPHIE DES PATHOLOGIES
 
 **Afin d'avoir une vision plus fine de la cartographie des pathologies dans la région (au bassin de vie ou à l'EPCI), quels sont les profils d'accès au DCIR qui permettent de croiser la table de la cartographie des pathologies avec la commune de résidence du bénéficiaire ?** 	
 
@@ -1011,7 +996,7 @@ Cet accès est possible également via les profils portail 89 (vue offre de soin
 
 
 
-#### DA_PRA_R - DOCUMENTATION
+### DA_PRA_R - DOCUMENTATION
 
 **Existe-t-il une documentation sur la table DA_PRA_R ?**
 **J'ai reçu une requête qui fait appel à la table DA_PRA_R, je l'ai ouvert dans SAS et je vois qu'il s'agit d'une table sur les professionnels de santé, mais je ne trouve aucune documentation à son sujet.** 
@@ -1024,7 +1009,7 @@ Pour l'instant, le manuel utilisateur du FNPS disponible sur AMELI RESEAU permet
 
 
 
-#### ORAREF - DOCUMENTATION	
+### ORAREF - DOCUMENTATION	
 
 **Existe-t-il quelque part une documentation recensant les tables de ORAREF et leur variables, notamment celles commençant par XC ?**	
 
@@ -1035,7 +1020,7 @@ Les référentiels (bibliothèque ORAREF dans SAS Guide) sont présents dans le 
 
 
 
-#### RFCOMMUN - TABLES DE CORRECTIONS DES CODES COMMUNES
+### RFCOMMUN - TABLES DE CORRECTIONS DES CODES COMMUNES
 
 **Les tables CORRECTIONS_COM2011_NEW » et « CORRECTIONS_COM2012_NEW » présentes dans la bibliothèque RFCOMMUN ne concernent-elles que les années 2011 et 2012 ?** 
 **Et sont elles applicables à IR_BEN_R ?**
@@ -1054,7 +1039,7 @@ En revanche, les tables de consommants de la librairie CONSOPAT (du type "extrac
 
 
 
-#### CAUSES DE DECES - APPARIEMENT
+### CAUSES DE DECES - APPARIEMENT
 
 **A-t-on une idée de la part d’appariement total des causes médicales de décès ?**	
 
@@ -1071,7 +1056,7 @@ Un top, noté DCD_IDT_TOP, a été créé pour distinguer facilement les décès
 
 
 
-#### RESID'EHPAD - ORS
+### RESID'EHPAD - ORS
 
 **Pour les ORS, est-il prévu un accès aux données de Resid'EHPAD, ou bien la création d'un TOP EHPAD dans le DCIR, permettant d'identifier pour chaque bénéficiaire un (ou des) séjour(s) en Ehpad et de les dater, à partir des tables de Resid'Ehpad ?**
 **Ces informations paraissent indispensables si l'on veut faire des études sur les personnes (très) âgées.**	
@@ -1089,7 +1074,7 @@ Les données de Resid'EHPAD ne sont pas à l'heure actuelle accessible aux ORS, 
 
 
 
-#### IJ - QUANTITE OU DENOMBREMENT DES IJ	
+### IJ - QUANTITE OU DENOMBREMENT DES IJ	
 
 **Quel indicateur de dénombrement choisir pour compter des jours payés IJ ?**
 **Le dénombrement d’IJ semble plus élevé que sur ERASME régional (à périmètre identique) ; faut-il utiliser la variable IJR_RVL_NAT de DCIR (condition IJR_RVL_NAT = ZZ, XX, ‘   ‘) pour enlever les IJ régularisées ?**
@@ -1109,7 +1094,7 @@ Concernant la variable IJR_RVL_NAT relative aux revalorisations d'IJ, il y a en 
 
 
 
-#### RESID'EHPAD - VALEUR DE FLX_DIS_DTD
+### RESID'EHPAD - VALEUR DE FLX_DIS_DTD
 
 **Le FLX_DIS_DTD dans les tables RESID'EHPAD indique '01NOV2015:00:00:00'.** 
 **Cela veut-il dire que depuis novembre 2015, les données Resid'Ehpad ne sont pas mises à jour ?**	
@@ -1121,7 +1106,7 @@ FLX_DIS_DTD = '01NOV2015:00:00:00' signifie que les présences et les mouvements
 
 
 
-#### CAUSES DE DECES - VARIABLE BEN_SEX_COD
+### CAUSES DE DECES - VARIABLE BEN_SEX_COD
 
 **A quoi / qui correspondent les BEN_SEX_COD  = 3 en 2014 ?**	
 
@@ -1132,7 +1117,7 @@ A la suite du rechargement des données des causes médicales de décès de 2013
 
 
 
-#### LETTRES CLES POUR VALORISER LES ACE
+### LETTRES CLES POUR VALORISER LES ACE
 
 **Faut-il utiliser la table MS_ACT_V pour retrouver les lettres clés appartenant à la valorisation RAFAEL ?**	
 
@@ -1141,346 +1126,9 @@ La table ORAVAL.IR_NAT_V (variable PRS_NAT_CB2) contient les informations néces
 
 
 
-
-
-
-
-## FAQ EGB
-
-*version 09/2019*
-
-
-
-### AT-MP
-
-
-**Quelle indemnisation pour les victimes dont le taux d'incapacité permanente RAT_IPP_TAU est inférieur à 10 % ?**	
-
-Le versement de rentes de victime en réparation d’incapacités permanentes inférieures à 10 % peut correspondre aux cas suivants : 
-- il s’agit de rentes (PRS_NAT_REF = 8111) attribuées avant l’instauration des indemnités en capital (PRS_NAT_REF = 8226) : ces dernières sont en effet versées depuis 1987 en réparation d’incapacités permanentes inférieures à 10 % ; 
-- il peut s’agir aussi de rentes optionnelles attribuées quand plusieurs conditions sont réunies : la victime a plusieurs taux d’IP inférieurs à 10 % et le cumul de ces taux est supérieur à 10 %. 
-
-Dans ce cas, le taux d’IP rat_ipp_tau renseigné est le dernier taux attribué au bénéficiaire ouvrant droit à rente. 
-
-Vérifier donc avec date d'effet du taux d'incapacité permanente (IPP) RAT_IPP_DTE (Date ).
-
-
-**Comment rechercher les maladies professionnelles exonérantes et leurs libellés ?**	
-
-Pour le motif d'exonération du ticket modérateur imb_etm_nat = 12 (Référentiel médicalisé des bénéficiaires) :
-1/ On recherche le nom des maladies en priorité dans la table de valeurs des maladies professionnelles SPDVAL.AT_MLP_V. 
-La jointure entre EB_IMB_R et AT_MLP_V doit porter sur les quatre champs suivants:
-- EB_IMB_R.MED_MTF_COD = AT_MLP_V.SIN_SYN_PAT (code CIM10 de la maladie), 
-- EB_IMB_R.IMB_MLP_TAB = AT_MLP_V.SIN_MLP_TAB (N° de tableau des maladies professionnelles), 
-- EB_IMB_R.IMB_MLP_BTR = AT_MLP_V.SIN_MLP_BTR (tableaux bis et ter des maladies professionnelles), 
-- EB_IMB_R.IMB_SDR_LOP = AT_MLP_V.SIN_SYN_LOP (Localisation / paragraphe syndrome). 
-
-Il sera peut-être nécessaire d’utiliser la fonction TRIM de SAS si les formats des variables ne coïncident pas entre les deux tables. 
-
-2/ Si on n'a pas retrouvé toutes les maladies recherchées en 1/, on peut compléter la recherche en faisant une jointure sur les enregistrements restants, EB_IMB_R et la table de valeurs des codes CIM10 SPDVAL.IR_CIM_V, de la forme : MED_MTF_COD = CIM_COD"
-
-
-
-
-
-
-### MEDICAMENTS / PHARMACIE
-
-**Comment calculer le coût d'un médicament pour l'assurance maladie ?**	
-
-Le coût d'un médicament pour l'Assurance Maladie = PHA_ACT_PRU (prix unitaire du médicament) * RGO_REM_TAU (taux de remboursement de la prestation).
-Le prix unitaire d'un médicament est également disponible dans la base des médicament BDM_IT :
-http://www.codage.ext.cnamts.fr/codif/bdm_it/index_presentation.php?p_site=AMELI"
-
-
-**Pourquoi pour des médicaments soumis à prescription initiale hospitalière nous ne disposons que du code de prescripteur (PFS_PRE_CRY) ou bien du code de l’établissement prescripteur (ETB_PRE_FIN), mais pas les deux codes en même temps ?**	
-Quand la prescription est réalisée à l'hôpital, c'est le numéro FINESS de ce dernier qui est véhiculé, sinon c'est celui du médecin prescripteur. 
-Pour information, le renouvellement de la prescription des médicaments à "prescription initiale hospitalière" peut être effectué par un PS libéral.
-
-
-**Quelle variable utiliser pour identifier la classe ATC d'un médicament, entre PHA_ATC_CLA et PHA_ATC_C07 ?**	
-
-La variable PHA_ATC_CLA est obsolète depuis le 24 janvier 2012. 
-Il faut utiliser la variable PHA_ATC_C07.
-
-
-**Comment dénombrer les pharmacies ?**	
-
-Le dénombrement des pharmacies se fait grâce à l'identifiant, crypté ou pas, de la pharmacie, PFS_EXE_NUMC ou PFS_EXE_NUM.
-
-
-
-
-
-
-### PS	
-
-**Est-il possible de récupérer le numéro de département du PS (prescripteur ou exécutant) à l'origine d'une prestation ?**	
-
-Le département d'exercice du PS n'est pas intégré aux données de l'EGB, mais il peut être calculé à partir du numéro du PS (2 premiers caractères). 
-Seuls donc les utilisateurs EGB ayant accés au numero du PS en clair (PFS_PRE_NUM ou PFS_EXE_NUM) peuvent retrouver son département.
-
-
-**Comment identifier la spécialité et la nature d'activité d'un PS ?**	
-
-Dans l'EGB :
-PS(P/E)_ACT_NAT Nature d'activité du PS Exécutant/Prescripteur, dont la table de valeurs est IR_ACT_V 
-PS(P/E)_SPE_COD Spécialité médicale du PS Exécutant/Prescripteur, dont la table de valeurs est IR_SPE_V
-
-Dans l'EGB simplifié :
-Les codes de la spécialité et de la nature d’activité des professionnels de santé des données sources sont regroupés dans une seule variable dans l’EGBS, que ce soit pour les Prescripteurs ou les Exécutants, nommée PS(P/E)_ACT_SPE. La table de valeurs est IR_SPA_D.
-
-
-
-
-
-
-### ACTES ET CIM-10 (GENERAL / GROSSESSE...)
-
-**Que signifie et comment utiliser la variable PRS_ACT_QTE ?**	
-
-La variable PRS_ACT_QTE corréspond à quantité signée de l'acte, ie le nombre d'actes. 
-Pour quantifier le nombre d'actes correspondant réellement aux actes d'orthophonie, infirmiers, de kinésithérapie..., il faut sélectionner la variable PRS_ACT_QTE correspondant à l'acte de base recherché BSE_PRS_NAT (3132 pour les actes d'orthophonie, par exemple) et non pas les quantités d'actes liées aux éventuelles majorations ou indemnités de déplacement des professionnels de santé.
-
-**Comment sont gérés les actes en série dans l'EGB ?**	
-
-Cela dépend de ce que le PS écrit sur la feuille de soins. 
-Dans l'EGB, on peut avoir un ensemble d'actes saisi sur un seul enregistrement, avec une date de début de soins exe_soi_dtd et une date de fin des soins exe_soi_dtf renseignées et différente de exe_soi_dtd. 
-Dans ce cas, généralement, la quantité d'actes prs_act_qte est supérieure à 1. 
-On peut également avoir une ligne par séance de soins avec une date de fin des soins exe_soi_dtf égale à la date de début de soins exe_soi_dtd, ou une date de fin des soins non renseignée. 
-Là aussi, la quantité d'actes prs_act_qte renseignera sur le nombre d'actes pratiqués ce jour-là.
-
-
-**Comment utiliser la date présumée de grossesse PRS_GRS_DTD ?** 
-**Permet-elle de repérer les femmes enceintes ?**	
-
-Il n'y a pas de critère dans DCIR ou dans l'EGB/ qui permette d'identifier de manière infaillible les femmes enceintes ou les dates d'accouchement. 
-En théorie, à réception d'une déclaration de grossesse, on enregistre la date présumée de grossesse dans PRS_GRS_DTD. 
-Le système calcule et enregistre une exonération du ticket modérateur au titre du risque maternité, qui va du 1er jour du 6ème mois jusqu'à 12 jours après la date présumée d'accouchement. 
-Lors de l'enregistrement de la date réelle d'accouchement, cette période d'exonération est recalculée en fonction de la date réelle de l'accouchement. 
-Ainsi, pour une période de soins donnée, on peut trouver plusieurs valeurs différentes de la date PRS_GRS_DTD pour une même bénéficiaire. 
-Pratiquement, il est conseillé de rechercher les femmes enceintes en croisant plusieurs informations, par exemple en ciblant un contexte spécifique de remboursement (exemple : prise en charge des prestations sur le risque maternité à partir du 6ème mois de grossesse) ou des soins dits "traçants".
-
-
-**Comment interpreter les dates d'insertion pour une pathologie CIM-10 ?**
-**Exemple : Un individu qui a un code cim10 ="I70" depuis le 14/01/2014 pour IMB_ETM_NAT=41 avec une date d'insertion 01/05/2014.** 
-**La ligne du dessous, il s'agit du même individu avec un code cim10 ="I70" depuis le 14/01/2016 mais IMB_ETM_NAT=13 avec une date d'insertion 01/05/2016.**
-
-Une nouvelle date d'insertion pour une pathologie correspond à une nouvelle déclaration (même si c'est pour la même pathologie).
-Dans le cas de l'exemple, le 14/01/2014 est la première date de début de l'ALD.
-
-
-
-
-
-
-### AFFILIATION / LIQUIDATION
-
-**Comment interpréter le code du régime d'affiliation ou de liquidation d'un bénéficiaire ?**	
-
-L’organisme de liquidation et l’organisme d’affiliation (org_cle_new et org_aff_ben dans l'EGB) sont éclatés en trois, le code du grand régime, le code de la caisse et le code de la SLM. 
-Ainsi, dans l’EGBS, vous disposez : 
-- du code du grand régime d'affiliation ou de liquidation qui correspond aux trois premières positions de l’organisme org_cle_new
-- de la caisse d'affiliation ou de liquidation sur trois positions (positions 4 à 6 de l’organisme org_cle_new)
-- du code de la SLM de liquidation sur trois positions (positions 7 à 9 de la variable org_cle_new), qui n’est renseignée que si le code du grand régime de liquidation grg_liq_cod est égal à 01M (SLM)
-- du code de la SLM d’affiliation (7ème à 9ème composantes de la variable org_aff_ben), qui n’est alimenté que si le grand régime d’affiliation grg_aff_cod vaut 01M, 91C à 96C ou 99C (SLM)"
-
-**Quelle est la variable grand régime de liquidation du bénéficiaire ?**	
-
-Dans l'EGB : 
-Variable RGM_GRG_COD dont la table de valeur est IR_GRG_V.
-
-Dans L'EGB simplifié : 
-Variable GRG_LIQ_COD dont les valeurs sont 01C (RG), 01M(SLM), 02A(RA), 03A(IND), 10A(clers de notaires) et 90A(cultes).
-
-
-**Comment utiliser le code du petit régime d'affiliation ?**	
-
-Le code du petit régime d'affiliation RGM_COD est propre à chaque grand régime. 
-Pour le régime général par exemple, il permet de distinguer un salarié d'un retraité ou d'un bénéficiaire de la CMU de base ... 
-Pour la MSA, il permet de distinguer un salarié d'un exploitant agricole. 
-Il faut donc toujours combiner le grand régime avec le code du petit régime pour savoir exactement ce que ce code du petit régime signifie. 
-
-
-
-
-
-
-### BENEFICIAIRES (VARIABLES, PRESTATIONS, DECES...)
-
-**Comment utiliser la variable BEN_AMA_COD ?**	
-
-La variable BEN_AMA_COD donne l'âge du patient à la date de la prestation. 
-Il est préconisé de contrôler la fiabilité de BEN_AMA_COD avec la variable BEN_NAI_ANM (année et mois de naissance) dans le référentiel des bénéficiaires EB_INB_F.
-
-
-**Disposons-nous de toutes les prestations consommées par les patients qui ont changé d'organisme au cours d'une année (notamment pour les sujets qui sont passés du RG au RSI pendant cette période) ?**	
-
-A partir de juin 2007, les prestations des bénéficiaires nomades (sortis de l'EGB) sont toujours chargées à condition qu'elles relèvent de l'un des organismes participant à l'EGB. En 2008, l’EGB ne couvrait que le régime général hors SLM, seules sont donc chargée les prestations relevant du RG sur cette période (cf. la documentation générale de l'EGB (version 3-2) du 29 avril 2016 disponible sous Mediam). 
-
-
-**D'où proviennent les dates de décès (variables BEN_DCD_DTD et BEN_DCD_AME) ?**	
-
-Les dates de décès qui sont dans le référentiel des bénéficiaires de l'EGB eb_inb_f proviennent du RNIAM, lorsqu'elles sont certifiées par l'INSEE, et des caisses d'assurance maladie. 
-
-
-**A quel type de prise en charge correspond la prestation de base BSE_PRS_NAT=1122 dont le libellé est examen spécial (protocole) ?**	
-
-Cette prestation désigne le protocole d'examen spécial établi conjointement par le médecin traitant et le médecin conseil en cas d’affection de longue durée et en cas de de soins continus ou d'interruption de travail supérieurs à six mois. 
-Il est matérialisé par un protocole écrit qui détermine : 
-les soins et les traitements nécessaires à la prise en charge de la maladie du patient. 
-les soins qui sont pris en charge à 100 %, ceux qui sont remboursés aux taux habituels de la Sécurité sociale et ceux qui ne sont pas du tout pris en charge.
-
-
-**Quels codes prestations utiliser pour cibler le recours au médecin géneraliste ?**	
-
-Utiliser les codes PRS_NAT : 1111 (C), 1112 (CS), 1211 (V), 1212 (VS) et les nouvelles prestations G, GS, VG, VGS.
-
-4 nouvelles prestations de médecin généraliste ont été crées le 1er mai 2017 suite à l'application de la majoration MMG (majoration pour les médecins généralistes), d’un montant de 2 €, est appliquée (sous conditions) :
-- 1110, G (C+MMG) : consultation au cabinet majorée de la majoration pour le médecin généraliste
-- 1109, GS (CS+MMG) : consultation au cabinet par le médecin spécialiste qualifié en médecine générale avec la majoration pour le médecin généraliste
-- 1210, VG (V+MMG) : visite à domicile par le médecin généraliste majorée de la majoration pour le médecin généraliste
-- 1209, VGS (VS+MMG) : visite à domicile par le médecin spécialiste qualifié en médecine générale majorée de la majoration pour le médecin généraliste"
-
-
-
-
-
-
-### EHPAD / LPP
-
-**Peut-on retrouver les informations des bénéficiaires hébergés en EHPAD ?**	
-
-Il existe un top BEN_EHP_TOP dans la table des prestations EB_PRS_F, concernant les personnes hospitalisées dans des EHPAD. 
-Cette donnée a été ajoutée par anticipation dans le modèle en octobre 2009, mais elle n'est pas alimentée (top=0, et valeur non renseignée sur l'historique).
-
-
-**Dans quelle mesure le SNIIRAM ne dispose-t-il que des "Informations partielles sur la consommation des personnes âgées en EHPAD et pas d’informations sur l’hospitalisation en long séjour" (cf. formation architecture)**
-
-Dans le DCIR ainsi que dans l'EGB nous ne disposons pas des délivrances de médicaments en EHPAD disposant d'une pharmacie à usage intérieur (PUI), ni des soins paramédicaux réalisés dans les EHPAD dont la tarification se fait au forfait global. 
-Les EHPAD au forfait partiel et sans PUI, donc celles pour lesquelles on dispose du maximum d'informations, représentent environ 3/4 de l'ensemble des EHPAD, représentant 2/3 des résidents en EHPAD.
-
-
-**Pouvez vous me préciser quelle est la différence entre les variables TIP_ACT_PRU (Prix unitaire LPP) et TIP_PUB_PRX (Prix public) dans la table EB_TIP_F ?**	
-
-Le prix unitaire TIP_ACT_PRU correspond à la base de remboursement de la prestation affinée LPP dont le code est tip_prs_ide. 
-C'est le montant à partir duquel les régimes obligatoires de sécurité sociale calculent le montant remboursé. 
-Le champ TIP_PUB_PRX est le prix limite de vente de cette prestation affinée par les fournisseurs (pharmaciens par exemple). 
-Ce prix limite de vente n'est pas toujours renseigné. 
-Aussi, il est conseillé d'utiliser le code TIP_ACT_PRU mais de ne pas utiliser la variable TIP_PUB_PRX.
-
-
-
-
-
-
-### REFERENTIELS 
-
-**A quoi correspond la modalité "0" de la variable imb_etm_nat dans le référentiel médicalisé ?**	
-
-Cette valeur "0" correspondait aux ALD du RSI mais depuis janvier 2017, les codes de prise en charge des ALD du RSI sont les mêmes que ceux des autres régimes (41 pour ALD liste, 43 pour ALD hors liste, 45 pour polypathologies). 
-
-
-**Comment dénombrer les individus vivants en situation de pouvoir "consommer" en 2016 à partir du référentiel eb_inb_f ?**	
-
-Consulter la macrocommande SAS détaillant le mode de calcul de la population protégée par le RG hors SLM, les SLM, la MSA ou le RSI au cours d'une année donnée. 
-Elle a été mise en ligne le 05/05/2017 sur médiam ou xmédiam sous "Projets informationnels > Documentation EGB".
-
-
-
-
-
-
-### PMSI	
-
-**Les données PMSI des bénéficiaires continuent-elles d’être chargées s’ils sortent de l’EGB ?**	
-
-Les bénéficiaires du référentiel de l'EGB eb_inb_f peuvent être topés comme sortis (ben_mvt_top = 2) mais ils ne sortent pas encore physiquement du référentiel. 
-L'historique de l'EGB est de 20 ans : les premiers bénéficiaires ont été intégrés en mars 2005, le chargement suivant du référentiel n'est intervenu qu'en mars 2006 (Cf. documentation générale §IV-1-c). 
-Les premiers bénéficiaires sortis ne seront éliminés physiquement du référentiel qu'en mars 2026, soit 20 ans après leur sortie. 
-Pour le PMSI d'une année donnée dans l'EGB, on sélectionne les bénéficiaires recensés dans le référentiel de juin de l'année suivante, i.e. tous les bénéficiaires, quel que soit leur statut (entrant, sorti, présent dans le même organisme ou ayant changé d'organisme), pour lesquels la date d'insertion dans l'EGB ins_dte est antérieure ou égale à juin de l'année suivante.
-
-
-**Comment la variable ben_nir_idt est-elle créée dans le PMSI de l'EGB, alors que classiquement le rang gémellaire n'est pas disponible dans le PMSI ?**	
-
-Le rang gémellaire étant absent du PMSI, l'appariement de celui-ci avec le référentiel des bénéficiaires est réalisé uniquement sur le BEN_NIR_PSA.
-Les informations des jumeaux, triplés … de même sexe, sont donc dupliquées dans les tables de chaînage. 
-Mais les conséquences de cette duplication restent négligeables car ces bénéficiaires sont très rares dans l’EGB.
-
-
-**Quand sont disponibles les tables annuelles du PMSI MCO ?**	
-
-Il faut se référer au classeur "ECHANTILLON_TABLEAU_DES_CHARGEMENTS_MAJ_20AA_MM_JJ" onglet "PMSI pour l'EGB" (disponible sous BO Infoview / Dossiers publics / Echantillon Généraliste Bénéficiaires / Offre de services EGB). 
-Pour information, les données du PMSI d'une année N sont chargées avec le référentiel de l'EGB de l'année N+1. "
-
-
-
-
-
-
-### DOCUMENTATION / DONNEES
-
-
-**Quand le dictionnaire EGB sera t-il bientôt mis à jour ?**
-**La dernière version date de 2013.**	
-
-Le dictionnaire SNIIRAM est en cours de reconstruction.
-Il faut considérer, pour le moment, le fichier téléchargeable "liste des tables et des variables Vx" comme le dictionnaire de l'EGB : Il décrit l'ensemble des variables de l'EGB (Libellé, Format, Tables de valeurs, Critères d'agrégation...).
-
-
-**Je ne parviens pas à lire les documents PDF sur le portail sous BO**	
-
-Sur Internet Explorer : aller dans "Outils" de votre navigateur Internet explorer, --> Paramètres d’affichage de compatibilité et d’ajouter le site "ameli.fr". 
-Ou bien utiliser firefox.
-
-
-**Les données pour les années 2002 et 2003 présentes dans l’EGB sont complètes et bien renseignées ?**	
-
-Les données de prestations de l'EGB sont traitées depuis le 1er janvier 2003 (date de traitement flx_trt_dtd >= 1er janvier 2003, date de mise à disposition des données flx_dis_dtd >= 1er février 2003). 
-Dans ces conditions, vous pouvez rencontrer des prestations exécutées en 2002 et traitées en 2003 car une feuille de soins peut être envoyée par un assuré social à sa caisse d'assurance maladie pendant les 27 mois qui suivent la date des soins. 
-Cependant, les feuilles de soins électroniques sont traitées majoritairement au cours du mois d'exécution des soins. 
-Par conséquent, vous ne disposez pas de l'exhaustivité des soins exécutés en 2002 dans l'EGB. 
-Le plus prudent est de travailler sur les soins exécutés à partir de 2004 (date de début de soins exe_soi_dtd >= 1er janvier 2004).
-
-
-**Concernant la représentation géographique de l'EGB, l'échantillon n'est pas représentatif au niveau départemental et encore moins par commune.** 
-**Mais l'est-il au niveau régional ? Si non existe t il une méthode de redressement ?** 	
-
-L'EGB est représentatif au niveau national, il n'est pas construit pour l'être au niveau régional. 
-Aucune méthode de redressement n'est disponible pour l'instant. 
-
-
-
-
-
-
-### AUTRES
-
-**Est-il possible à partir des données de l'EGB de repérer les médecins ayant signé le contrat d'accès aux soins et si oui à partir de quelle année ?**	
-
-L'EGB est un échantillon de patients et non un échantillon de PS.
-On ne peut pas savoir si un médecin a signé un contrat d'accès aux soins à partir des données de l'EGB.
-
-
-
-**Je souhaite calculer la survie des patients ayant subi un acte de réanimation à 1 mois, 3 mois, et 1 an.** 
-**Je trouve des taux plus élevés que ceux attendus.**
-**La population étudiée est l'ensemble des patients ayant subi un acte de chirurgie dans les 48h précédents ou suivants l'acte de réanimation, sur la période 2009-2015.**	
-
-Si la survie est supérieure à celle attendue y compris dans la population générale, a priori ce n'est pas dû à la sélection d'actes. 
-Les données concernant les décès ne sont disponibles que pour le Régime Général jusqu'en 2011. 
-Il faut donc soit limiter votre analyse à cette population, soit limiter la période de recrutement aux années ultérieures.
-
-
-**Pour quelle raisons des montants remboursés peuvent être négatifs ou nuls ?**	
-
-Dans l'EGB Simplifié, les montants négatifs ou nuls correspondent à des régularisations ou à des anomalies non corrigées/redresées par l'ETL lors du passage de l'EGB à l'EGBS.
-La proportion des prestations concernées est très faible.
-
-
-
 ## REFERENCES
 
-La [FAQ DCIR 09 2019](../../files/Cnam/2019-07-CNAM-FAQ_DCIR_MLP-2.0.xlsx) et la [FAQ EGB 09 2019](../../files/Cnam/2019-06-CNAM-FAQ_EGB_MLP-2.0.xlsx) [CNAM - MPL-2.0] reprennent les questions fréquemment posées sur le DCIR et sur l'EGB.
+La [FAQ DCIR 09 2019](../../../files/Cnam/2019-07-CNAM-FAQ_DCIR_MLP-2.0.xlsx) [CNAM - MPL-2.0] reprend les questions fréquemment posées sur le DCIR.
+
 
 
