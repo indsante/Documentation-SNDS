@@ -1,16 +1,17 @@
 # Les Méthodologies de Référence (MR) 
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Les Méthodologies de Référence (MR) sont des procédures simplifiées d'accès aux données de santé, elles sont le principe quand le circuit d'autorisation, l'exception. 
+Les Méthodologies de Référence (MR) sont des procédures simplifiées d'accès aux données de santé.
+Elles sont le principal mode d'accès, là où le circuit d'autorisation est l'exception. 
 
-Il existe des procédures permettant d’alléger le circuit de droit commun d'obtention d'autorisation d'accès aux données (INDS-CEREES-CNIL), sans contourner pour autant la nécessité pour la recherche, l’étude ou l’évaluation de présenter un intérêt public. 
-L’élaboration de ces procédures revient à la CNIL (Commission Nationale de l'Informatique et des Libertés), en concertation avec l'INDS (Institut National des Données de Santé), en fonction des besoins de chaque type de projet (projets des industriels de santé, des centre hospitaliers, des centres de lutte contre le cancer, des associations, etc.).
+Il existe des procédures permettant d’alléger le circuit de droit commun d'obtention d'autorisation d'accès aux données ([HDH](../glossaire/HDH.md)-CESREES-CNIL), sans contourner pour autant la nécessité pour la recherche, l’étude ou l’évaluation de présenter un intérêt public. 
+L’élaboration de ces procédures revient à la [CNIL](../glossaire/CNIL.md), en concertation avec le Health Data Hub, en fonction des besoins de chaque type de projet (projets des industriels de santé, des centre hospitaliers, des centres de lutte contre le cancer, des associations, etc.).
 
-Quand les recherches, études ou évaluations sont conduites dans le cadre d’exigences législatives et réglementaires strictes, et selon des méthodologies standardisées, la CNIL peut consulter le CEREES et doit règlementairement consulter l’INDS et les organismes publics et privés représentatifs afin d’adopter une Méthodologie de Référence. 
+Quand les recherches, études ou évaluations sont conduites dans le cadre d’exigences législatives et réglementaires strictes, et selon des méthodologies standardisées, la CNIL peut consulter le CESREES et doit règlementairement consulter le Health Data Hub et les organismes publics et privés représentatifs afin d’adopter une Méthodologie de Référence. 
 Elle permet au responsable de traitement, dès lors que son projet satisfait à l’ensemble des conditions prévues par la Méthodologie de Référence, de n’adresser à la CNIL qu’un simple engagement de conformité à la méthodologie en lieu et place d’une demande d’autorisation. 
 Cet engagement sera aussi valable pour tous ses autres traitements qui seront conformes à cette méthodologie.
 
-En contrepartie de cet allégement des formalités d'accès, le responsable de traitement doit tenir à jour une liste des traitements qu’il réalise sous couvert de son engagement de conformité et les enregistrer dans un répertoire public tenu par l’INDS. 
+En contrepartie de cet allégement des formalités d'accès, le responsable de traitement doit tenir à jour une liste des traitements qu’il réalise sous couvert de son engagement de conformité et les enregistrer dans un répertoire public tenu par le Health Data Hub. 
 
 Celui-ci est mis à disposition en accès ouvert à tous sur son [site](https://www.indsante.fr/fr/repertoire-public/etudes-sous-mr) et concerne uniquement les recherches n’impliquant pas la personne humaine.
 
@@ -34,4 +35,4 @@ Les trois MR suivantes (MR-004, MR-005 et MR-006) concernent les recherches n’
 ## Usages des Méthodologies de référence 
 Les MR-001, MR-002, MR-003 et MR-004 ne concernent pas les accès aux données de santé disponibles via les portails de la Cnam, de l'ATIH.
 En revanche, l'utilisation des MR-005 et MR-006 concernent exclusivement les études réalisées sur le portail de l'ATIH.
-Pour accéder aux données sur le portail de la Cnam, il faut suivre la procédure standard INDS-CEREES-CNIL (sauf pour les organismes bénéficiant dun accès permanant au titre de leurs missions indiquées dans la loi). 
+Pour accéder aux données sur le portail de la Cnam, il faut suivre la procédure standard HDH-CESREES-CNIL (sauf pour les organismes bénéficiant dun accès permanant au titre de leurs missions indiquées dans la loi).
