@@ -54,7 +54,7 @@ Pour le privé, il est aussi possible d’extraire le montant des dépenses en s
 
 Les tables se trouvent sous ORAVUE. 
 Nous indiquons le libellé des variables à extraire de chaque table, mais par leur nom car le nom d’une même variable peut être différent d’un champ du PMSI à l’autre. 
-Exemple : le nombre de séjours impliqués est indiqué par la variable « NBR_SEJ » en MCO en et « SEJ_NBR » en HAD. 
+Exemple : le nombre de séjours impliqués est indiqué par la variable `NBR_SEJ` en MCO en et `SEJ_NBR` en HAD. 
 Se référer au [dictionnaire des variables du SNDS](https://drees.shinyapps.io/dico-snds/) pour plus d’informations.
 
 #### Tables et variables communes aux champs MCO, SSR et HAD
