@@ -25,6 +25,11 @@ Le top CMU-C est positionné à 1 lorsque le type de contrat cmu est égal à 89
 
 Lorsque le patient est en ALD, le top CMU-C est forcé à 0 pour les prestations liquidées en rapport avec son ALD (celle-ci est prioritaire), et prend la valeur 1 pour les prestations liquidées non en rapport avec l'ALD.
 
+::: warning Attention
+La modalité 2 de `BEN_CMU_TOP` est codée par le régime agricole pour signaler des prestations en espèces et les prestations non individualisées. 
+:::
+
+
 **Ainsi, si l'on veut savoir si une prestation est exonérée au titre de la CMU-C, le ben_cmu_top suffit. Par contre, si l'on a besoin de recenser la population cmu-c, il faut utiliser la table IR_ORC_R (présentée ci-après).**
 
 **BEN_CMU_ORG** : La CMU-C gérée par le régime général pour le compte de l'état est identifiable par le ben_cmu_top = 1 et le numéro d'organisme complémentaire ben_cmu_org = 075689893. 
@@ -71,7 +76,7 @@ QUIT;
 ## Recommandations et précautions
 
 Il ne faut pas essayer de retrouver les cmucistes en fonction de la base de remboursement. 
-Avec la condition `abs(PRS_PAI_MNT) = abs(BSE_REM_BSE)` on retrouve des prestations qui sont sans lien avec la CMU-C : les paires gratuites en optique, le dépistage, une exonération au titre d'une ALD, ainsi que tout autre motif d'exonération prioritaire par rapport à la CMU-C.
+Avec la condition `abs(PRS_PAI_MNT) = abs(BSE_REM_BSE)` on peut en effet retrouver des prestations qui sont sans lien avec la CMU-C : les paires gratuites en optique, le dépistage, une exonération au titre d'une ALD, ainsi que tout autre motif d'exonération prioritaire par rapport à la CMU-C.
 
 De plus, une partie des prestations CMU-C ne remplit pas ce critère. 
 En effet, les cmucistes qui consultent un médecin hors résidence ou sans passer par le médecin traitant se voient pénaliser au même titre que les autres bénéficiaires de l'assurance maladie. 
