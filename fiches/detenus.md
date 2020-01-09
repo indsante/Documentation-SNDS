@@ -10,7 +10,9 @@ Cette population est rattachée au régime général d'assurance maladie et affi
 
 ## Repérage des détenus
 
-Dans le SNDS, la population des détenus se repère avec la variable `RGM_COD`, lorsque le code de gestion vaut 65 (cf ci-dessous).
+### DANS le DCIR 
+
+Dans le SNDS et plus praticulièrement dans les bases du DCIR, la population des détenus se repère avec la variable `RGM_COD`, lorsque le code de gestion vaut 65 (cf ci-dessous).
 On trouve cette variable dans la table prestation (`ER_PRS_F` dans le DCIR ou `NS_PRS_F` dans le DCIRS). 
 
 
@@ -61,8 +63,13 @@ disconnect from oracle;
 quit;
 
 ```
+### Dans le PMSI 
 
-## Unités de soins 
+De manière générale dans le PMSI, la variable `COD_ GES` qui indique le code du regime du patient n'est pas toujours bien renseignée. 
+ Pour cibler les personnes détenus notamment dans le MCO, il vaut mieux partir de la variable `VALO` contenue dans la table `VALO` ou `VALO_ACE`. 
+ Les détenus correspondent à la modalité  5 dans la table `VALO` et 3 dans la table `VALO_ACE`.
+
+## Les soins dispensés aux detenus  
 
 Dans le cas des personnes incarcérées (condamnées ou en détention provisoire), les soins sont organisés par l'administration pénitentiaire et dispensés au sein d'une unité de soins:
 - d'une unité de soins unité de consultation et de soins ambulatoires (UCSA),
@@ -155,20 +162,15 @@ quit;
 
 ```
 
-
-
-ON peut donc chainer nos detenus (identifiés dans les prestations du DCIR) avec le PMSI 
-
-
-### Dans les établissements psychiatriques 
+### les soins psychiatriques 
 
 Pour chaque région pénitentaire, il existe un Services Médico-Psychologiques Régionaux (SMPR) implanté dans un établissement pénitentiaire et rattaché à un établissement public hospitalier de santé mentale.
 
 Pour les prisons ne disposant pas d’un SMPR, le dispositif de soins psychiatrique implique des personnels soignants issus d’un établissement psychiatrique qui assurent des vacations et sont intégrés dans les UHSA (Unités d’Hospitalisation Spécialement Aménagées), visant à accueillir les détenus ayant besoin de soins en milieu hospitalier.
-On peut dans le RIM-P identifier les detenus lorsqu'ils sont hospitalisés (hospitalisation complète ou partielle). 
 
 On peut identifier cette activite grâce à la variable `SEC_NUM` dans `T_RIPaaRSA` ou `T_RIPaaR3A`.
 modalité à 5 caractères du secteur dans lequel le malade est pris en charge. 
+
 Le troisième caractère donne des informations sur le secteur.
 
 - G = secteur de psychiatrie générale 
@@ -177,25 +179,77 @@ Le troisième caractère donne des informations sur le secteur.
 - Z = dispositif intersectoriel formalisé 
 - UMD = Unités Malades Difficiles inter-régionale code du département d’implantation suivi de D00
 
+
+```sql
+/* l'UHSA correspond aux UM qui ont un 3ieme caractère = P */
+/* ici on s'interresse à tous les détenus (à partir du code petit régime) et on recherche l'unité médicale dans lequel se trouve le patient*/
+proc sql;
+Create table detenu_UHSA as 
+select 
+count(distinct t2.NIR_ANO_17) as nb_patient, 
+substr(SEC_NUM,3,1) as num_secteur
+from ORAVUE.T_RIP18RSA t1 LEFT JOIN ORAVUE.T_RIP18C t2 on (t1.ETA_NUM_EPMSI=t2.ETA_NUM_EPMSI and t1.RIP_NUM=t2.RIP_NUM)
+where t2.NIR_ANO_17 in (select ben_nir_psa from ORAUSER.detenus)
+group by 2
+;
+quit;
+
+``` 
+
 On peut savoir où a eu lieu le soin grâce à la variabe `ACT_LIEU` dans les tables `T_RIPaaRSA` ou `T_RIPaaR3A`. 
 Le code `L06` correspond au milieu pénitentier. 
 
+```sql
+proc sql;
+Create table detenu_UHSA_lieu as 
+select distinct ACt_LIEU,
+count(distinct t1.ETA_NUM_EPMSI||t1.IPP_IRR_CRY) as nb_patient, 
+count(distinct t1.ETA_NUM_EPMSI||t1.ORD_NUM||SEJ_IDT) as nb_passage
+from ORAVUE.T_RIP18R3A t1 INNER JOIN ORAUSER. tab_int  T2 ON (T1.ETA_NUM_EPMSI= T2.ETA_NUM_EPMSI  AND T1.IPP_IRR_CRY=T2.IPP_IRR_CRY)
+group by 1
+;
+quit;
+``` 
+
 Ces soins peuvent être dispensés avec ou sans consentements. 
+
 On peut avoir cette information à partir de la variable `MOD_SOI`. 
 Les soins sans consentement correspondent à la modalité `6 - Soins psychiatriques aux détenus (article D. 398 du code de procédure pénale)` lorsqu'il s'agit de patients detenus.
 
-## En général ...
- De manière générale dans le PMSI, la variable `COD_ GES` qui indique le code du regime du patient n'est pas toujours bien renseignée. 
- Pour cibler les personnes détenus notamment dans le MCO, il vaut mieux partir de la variable `VALO` contenue dans la table `VALO` ou `VALO_ACE`. 
- Les détenus correspondent à la modalité  5 dans la table `VALO` et 3 dans la table `VALO_ACE`.
  
-## Les détenus et la cartographie des pathologies. 
+### Les détenus et le médicament. 
  
- La cartographie des pathologies permet de répérer à partir d'algorithmes médicaux les pathologies des bénéficaires du RG et des sections locales mutualistes (fiche cartographie des pathologies). 
- Les détenus sont affiliés au régime général, ils sont donc bien présent dans le cartographie des pathologies. 
- Toutefois le recueil des médicaments dispensés dans les UCSA aux détenus ne donne lieu à la production d'un fichier supplémentaire que depuis le 1 janvier 2016, ce fichier est alimenté à la fin de l'année. 
- Concernant les médicaments, une partie de ces derniers font l'objet d'une commande dans les officines de ville et se retrouve sur le bénéficiaire. 
- 
+Les médicaments peuvent être dispensés : 
+ - dans les UCSA
+ - en officine de ville 
+ - pendant séjours hospitaliers
+
+Les médicaments délivrés dans les UCSA donne lieu à un recueil dans le PMSI depuis 1 Janvier 2016 (base `T_MCO18SUP_USMP`  unité sanitaire en milieu pénitencier). Ce recueil se fait par établissement et n'est donc pas chainable sur les bénéficaires. 
+
+exemple : 
+
+| PERIODE | PHA\_ATC\_L03                                                  | NBboites | nb\_patient |
+|---------|----------------------------------------------------------------|----------|-------------|
+| 2018    | ANALGESIQUES                                                   | 84345    | 5667        |
+| 2018    | ANTIBACTERIENS A USAGE SYSTEMIQUE                              | 14109    | 3397        |
+| 2018    | ANTIINFLAMMATOIRES ET ANTIRHUMATISMAUX                         | 7095     | 2991        |
+| 2018    | PSYCHOLEPTIQUES                                                | 70742    | 2968        |
+| 2018    | MEDICAMENTS POUR LES TROUBLES DE L'ACIDITE                     | 10669    | 2519        |
+| 2018    | AUTRES MEDICAMENTS DU SYSTEME NERVEUX                          | 132306   | 1883        |
+| 2018    | ANTISEPTIQUES ET DESINFECTANTS                                 | 2535     | 1480        |
+| 2018    | PREPARATIONS NASALES                                           | 2363     | 1331        |
+| 2018    | ANTIHISTAMINIQUES A USAGE SYSTEMIQUE                           | 4883     | 1280        |
+| 2018    | TOPIQUES POUR DOULEURS ARTICULAIRES OU MUSCULAIRES             | 2706     | 1255        |
+| 2018    | CORTICOIDES A USAGE SYSTEMIQUE                                 | 2595     | 1201        |
+| 2018    | MEDICAMENTS DU RHUME ET DE LA TOUX                             | 2588     | 1201        |
+| 2018    | MEDICAMENTS POUR LES SYNDROMES OBSTRUCTIFS DES VOIES AERIENNES | 9503     | 1197        |
+| 2018    | PSYCHOANALEPTIQUES                                             | 11654    | 1143        |
+| 2018    | PREPARATIONS STOMATOLOGIQUES                                   | 3640     | 1102        |
+| 2018    | ANTITHROMBOTIQUES                                              | 8601     | 1050        |
+
+DCIR exploitation ARS NORMANDIE (données detenus Normands)
+
+
  
  
  
