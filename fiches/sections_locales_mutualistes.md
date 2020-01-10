@@ -70,7 +70,7 @@ L’activité de cette caisse centralisatrice « fictive » est réalisée dans 
 
 Par exemple, la Mutuelle des étudiants LMDE - NUM 601 – a rendu en 2015 la gestion financière des remboursements de la part obligatoire  qui a été réalisée par la CPAM centralisatrice « fictive » 909, mais la LMDE assurait toujours la gestion administrative des bénéficiaires pour le compte de leur CPAM de résidence xxx.
 
-|SLM infogérée | Cas général | Exemple MGEN d'un bénéficiaire affilié à Paris|
+|SLM infogérée | Cas général | Exemple LMDE d'un bénéficiaire affilié à Paris|
 |---|---|---|
 |Organisme de liquidation|**01C**zzz000|01C909000|
 |Organisme d'affiliation|**01M**xxxNUM|01M751601|
