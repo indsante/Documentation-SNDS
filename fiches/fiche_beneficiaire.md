@@ -94,7 +94,9 @@ Nous construisons ensuite une table de correspondance entre le NUM_ANO (= crypta
 1. Au NIR pseudonymisé du bénéficiaire BEN_NIR_ANO (NUM_ANO), lorsque ce NIR est renseigné.
 2. A la concaténation de l’identifiant SNIIRAM pseudonymisé BEN_NIR_PSA (NUM_ENQ) et du rang de bénéficiaire BEN_RNG_GEM lorsque le NIR du bénéficiaire BEN_NIR_ANO n’est pas renseigné.
 
-L’identifiant BEN_ID vous permet directement de regrouper les informations d’un même bénéficiaire suivant son NIR pseudonymisé BEN_NIR_ANO lorsqu’il est renseigné dans la table IR_BEN_R, suivant son couple {identifiant SNIIRAM pseudonymisé; rang de bénéficiaire} lorsque son NIR ne figure pas dans la table IR_BEN_R.
+L’identifiant BEN_ID vous permet directement de regrouper les informations d’un même bénéficiaire :
+- suivant son NIR pseudonymisé BEN_NIR_ANO lorsqu’il est renseigné dans la table IR_BEN_R, 
+- suivant son couple (identifiant SNIIRAM pseudonymisé; rang de bénéficiaire) lorsque son NIR ne figure pas dans la table IR_BEN_R.
 
 ## Références
 
