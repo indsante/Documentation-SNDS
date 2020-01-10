@@ -86,7 +86,7 @@ Lorsque la SLM intègre le RG elle n’est plus comptabilisée comme une SLM et 
 *Par exemple, en septembre 2019, la LMDE - NUM 601 - a restitué aux caisses du régime général la gestion administrative et financière de la part obligatoire de la sécurité sociale et les bénéficiaires sont à présent gérés par leur CPAM d’affiliation.*
 
 
-|SLM rendant l'infogérance | Cas général | Exemple MGEN d'un bénéficiaire affilié à Paris|
+|SLM rendant l'infogérance | Cas général | Exemple LMDE d'un bénéficiaire affilié à Paris|
 |---|---|---|
 |Organisme de liquidation|**01C**xxx000|01C751000|
 |Organisme d'affiliation|**01C**xxxUGE* |01C751000|
