@@ -8,7 +8,7 @@ concernant les variables socio-démographiques ([fiche sur les variables socio-d
 
 
 L’aide à l’acquisition d’une complémentaire santé (ACS) 
-concerne les personnes dont les **ressources sont modestes**, comprises entre le plafond de la CMU complémentaire et 35 % au-dessus de ce plafond. Ces personnes se voient attribuer une **attestation qui leur permettent de disposer de certains droits**, sans nécessairement recevoir une aide financière.
+concerne les personnes dont les **ressources sont modestes**, comprises entre le plafond de la CMU complémentaire et 35 % au-dessus de ce plafond. Ces personnes se voient attribuer une **attestation qui leur permettent de disposer de certains droits**, sans nécessiter de devoir souscrire un contrat de complémentaire santé
 Pour une explication plus précise, se reporter au [glossaire](../glossaire/ACS.md).
 
 
