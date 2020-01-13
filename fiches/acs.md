@@ -43,7 +43,9 @@ quel que soit le médecin, même s'il pratique des honoraires libres (« secteur
 - À l'exonération du paiement de la participation forfaitaire de 1 € et des franchises médicales
 
 Ces droits sont donnés à toute personne bénéficiaire de l'ACS. 
+Ce sont les périodes de droits d’ouverture de l’ACS présente dans la table `IR_ACS_R`. 
 
+Voici un tableau récapitulatif dans l'ordre chronologique :
 | Date | Evènement législatif |
 | ----- | ------------------- |
 | 2005 | Création de l'ACS | 
@@ -52,13 +54,14 @@ Ces droits sont donnés à toute personne bénéficiaire de l'ACS.
 | 2015 | Passage à 3 contrats / Dispense totale d'avance de frais |
 | 2017 | Tarifs avex un montant maximum de dépassement pour certains soins prothèses dentaires et orthodontie |  
 
-Ce sont les périodes de droits d’ouverture de l’ACS présente dans la table `IR_ACS_R`. 
 
 
+::: tip Attention
 A partir du 1er novembre 2019, l'ACS et la CMU-C ont fusionné pour former la Complémentaire Santé Solidaire. 
 Pour plus d'informations se reporter à [site ameli](https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/complementaire-sante/aide-paiement-complementaire-sante) ou à [site info-acs]((https://www.info-acs.fr/)
 ou bien au rapport d'activité du Fonds CMU (avant 2019).
- 
+Pour la Complémentaire Santé Solidaire, se reporter au site du nouveau Fonds Complémentaire Santé Solidaire (ex- Fonds CMU): [site Fonds CSS](https://www.complementaire-sante-solidaire.gouv.fr/faqreformecmuc.php)
+:::
 
 
 ## Effectifs ACS
