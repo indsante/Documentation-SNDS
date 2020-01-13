@@ -19,7 +19,7 @@ La liste des médicaments bénéficiant de ce financement dérogatoire s’appel
 En pratique, au-delà de l’ASMR, qui est une condition nécessaire, il y a un second critère prix qui joue : un médicament pourra être inscrit sur la liste en sus si son prix est trop élevé pour être intégré au tarif du séjour hospitalier. 
 Ainsi, si des médicaments génériques ou biosimilaires d’un médicament référent inscrit sur la liste en sus arrivent sur le marché, ils seront de facto ASMR V mais ajoutés à la liste en sus si leur prix reste élevé.
 
-*Source >* [Site du Ministère de la santé](https://solidarites-sante.gouv.fr/archives/archives-presse/archives-breves/article/prise-en-charge-des-medicaments-a-l-hopital-precisions-sur-le-decret-liste-en)
+*Source >* [site du Ministère de la santé](https://solidarites-sante.gouv.fr/archives/archives-presse/archives-breves/article/prise-en-charge-des-medicaments-a-l-hopital-precisions-sur-le-decret-liste-en)
 
 ### Unités communes de dispensation (UCD) prises en charge 
 
@@ -29,9 +29,13 @@ La liste initiale a été publiée au journal officiel de la république frança
 « Arrêté du 4 avril 2005 pris en application de l'article L. 162-22-7 du code de la sécurité sociale et fixant la spécialités pharmaceutiques prises en charge par l'assurance maladie en sus des prestations d'hospitalisation ». 
 Cette liste est ensuite mise à jour par des arrêtés modificatifs.  
 Sur le [site de l’ATIH](https://www.atih.sante.fr/unites-communes-de-dispensation-prises-en-charge-en-sus), vous trouverez le fichier historique qui permet de retracer toutes les modifications apportées à cette liste (inscription, radiation, modification de tarifs, modification du libellé UCD, etc.), ainsi que la date de prise d’effet de ces modifications.  
-Un tarif de responsabilité est fixé pour chaque UCD par le Comité Économique des Produits de Santé, conformément à l’accord du 30 mars 2004, sous la forme d’avis publiés dans le journal officiel de la république française. Il est à noter qu’il y a un décalage dans le temps entre l’inscription sur la liste et la fixation d’un tarif de responsabilité.
+Un tarif de responsabilité est fixé pour chaque UCD par le Comité économique des produits de santé, conformément à l’accord du 30 mars 2004, sous la forme d’avis publiés dans le journal officiel de la république française. Il est à noter qu’il y a un décalage dans le temps entre l’inscription sur la liste et la fixation d’un tarif de responsabilité.
 
-*Source >* [ATIH](https://www.atih.sante.fr/unites-communes-de-dispensation-prises-en-charge-en-sus)
+L'ATIH restitue également des [statistiques sur la consommation annuelle des médicaments en sus au niveau national](https://www.atih.sante.fr/unites-communes-de-dispensation-prises-en-charge-en-sus), déclinées par année année et par molécule.
+
+*Sources >* 
+- [ATIH : UCD prises en charge](https://www.atih.sante.fr/unites-communes-de-dispensation-prises-en-charge-en-sus)
+- [ATIH : synthèses nationales](https://www.atih.sante.fr/unites-communes-de-dispensation-prises-en-charge-en-sus)
 
 ### Prescription de médicaments « en sus » des tarifs des séjours hospitaliers
 
@@ -42,7 +46,7 @@ En plus des médicaments de la liste en sus au sens strict, on trouve d’autres
 - les médicaments thrombolytiques pour le traitement de l’AVC ischémique (MCO) 
 - les médicament coûteux hors liste en sus et hors ATU (HAD)
 
-*Pour plus d'information >* [Site de l'ATIH](https://www.atih.sante.fr/nomenclatures-de-recueil-de-l-information/medicaments#Medicaments%20spe%20en%20SSR) : informations sur les UCD communes aux champs MCO, HAD, SSR, spécifiques à HAD ou SSR, ainsi que sur les médicaments en ATU.
+*Pour plus d'information >* [ATIH](https://www.atih.sante.fr/nomenclatures-de-recueil-de-l-information/medicaments#Medicaments%20spe%20en%20SSR) : informations sur les UCD communes aux champs MCO, HAD, SSR, spécifiques à HAD ou SSR, ainsi que sur les médicaments en ATU.
 
 
 ## Les médicaments de la liste en sus dans le PMSI 
