@@ -13,7 +13,7 @@ Pour une explication plus précise, se reporter au [glossaire](../glossaire/ACS.
 
 
 
-Elle est accordée par l’assurance maladie obligatoire aux personnes qui en font la demande et qui remplissent les conditions de ressources.
+Elle est accordée par l’assurance maladie obligatoire aux personnes qui en font la demande et qui remplissent les conditions de ressources et de résidence.
 
 L’ACS donne droit au demandeur et aux membres du foyer qui lui sont rattachés (ayants droit) :
 
