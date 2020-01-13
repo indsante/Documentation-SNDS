@@ -14,15 +14,15 @@ Table des NIR foinisé deux fois et date entrè/sortie complètes
 |vid_hosp_for|chaîne de caractères|N° format VID-HOSP|||
 |ENT_MOI|chaîne de caractères|Mois d'entrée|||
 |ENT_ANN|chaîne de caractères|Année d'entrée|||
-|NIR_RET|chaîne de caractères|Code retour contrôle " n° sécurité sociale "|||
-|NAI_RET|chaîne de caractères|Code retour contrôle " date de naissance "|||
-|SEX_RET|chaîne de caractères|Code retour contrôle " sexe "|||
-|SEJ_RET|chaîne de caractères|Code retour contrôle " n° d’identification administratif de séjour "|||
-|FHO_RET|chaîne de caractères|Code retour "fusion ANO_HOSP et HOSP-PMSI"|||
-|PMS_RET|chaîne de caractères|Code retour "fusion ANO-PMSI et fichier PMSI "|||
-|DAT_RET|chaîne de caractères|Contrôle de cohérence de date|||
-|COH_NAI_RET|chaîne de caractères|Code retour controle date de naissance|||
-|COH_SEX_RET|chaîne de caractères|code retour controle coherence sexe|||
+|NIR_RET|booléen|Code retour contrôle " n° sécurité sociale "|||
+|NAI_RET|booléen|Code retour contrôle " date de naissance "|||
+|SEX_RET|booléen|Code retour contrôle " sexe "|||
+|SEJ_RET|booléen|Code retour contrôle " n° d’identification administratif de séjour "|||
+|FHO_RET|booléen|Code retour "fusion ANO_HOSP et HOSP-PMSI"|||
+|PMS_RET|booléen|Code retour "fusion ANO-PMSI et fichier PMSI "|||
+|DAT_RET|booléen|Contrôle de cohérence de date|||
+|COH_NAI_RET|booléen|Code retour controle date de naissance|||
+|COH_SEX_RET|booléen|code retour controle coherence sexe|||
 |NIR_ANO_17|chaîne de caractères|N° anonyme|||
 |SEJ_NUM|chaîne de caractères|N° de séjour|||
 |RHAD_NUM|chaîne de caractères|N° séquentiel de séjour d'HAD|||
@@ -32,13 +32,13 @@ Table des NIR foinisé deux fois et date entrè/sortie complètes
 |EXE_SOI_DTF|date|Date de sortie (format date)|||
 |EXE_SOI_AMD|chaîne de caractères|Date d'entrée au format année + mois|||
 |EXE_SOI_AMF|chaîne de caractères|Date de sortie au format année + mois|||
-|RNG_NAI_RET|chaîne de caractères|Code retour contrôle « Rang de naissance »|||
-|RNG_BEN_RET|chaîne de caractères|Code retour contrôle « Rang du bénéficiaire »|||
+|RNG_NAI_RET|booléen|Code retour contrôle « Rang de naissance »|||
+|RNG_BEN_RET|booléen|Code retour contrôle « Rang du bénéficiaire »|||
 |RNG_NAI|chaîne de caractères|Rang de naissance|||
 |RNG_BEN|chaîne de caractères|Rang du bénéficiaire|||
-|NUM_DAT_AT_RET|chaîne de caractères|Code retour contrôle " Numéro accident du travail ou date d’accident de droit commun"|||
-|ORG_CPL_NUM_RET|chaîne de caractères|Code retour contrôle " N° d’organisme complémentaire"|||
-|ETA_NUM_RET|chaîne de caractères|Code retour contrôle "N° FINESS d’inscription e-PMSI"|||
+|NUM_DAT_AT_RET|booléen|Code retour contrôle " Numéro accident du travail ou date d’accident de droit commun"|||
+|ORG_CPL_NUM_RET|booléen|Code retour contrôle " N° d’organisme complémentaire"|||
+|ETA_NUM_RET|booléen|Code retour contrôle "N° FINESS d’inscription e-PMSI"|||
 |NUM_DAT_AT|chaîne de caractères|Numéro accident du travail ou date d’accident de droit commun|||
 |ORG_CPL_NUM|chaîne de caractères|N° d’organisme complémentaire|||
 |SEJ_LUN_ANN|chaîne de caractères|Année de la date d'entrée de séjour|||

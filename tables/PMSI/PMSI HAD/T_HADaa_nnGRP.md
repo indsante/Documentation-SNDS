@@ -13,7 +13,7 @@ Table des GHT et des GHPC (groupage paprica)
 |GHT_NBJ|nombre réel|Groupage PAPRICA : nombre de jours|||
 |GHT_NUM|chaîne de caractères|Groupage PAPRICA : n° du GHT|||
 |PAP_GRP_GHPC|chaîne de caractères|Groupage PAPRICA : n° du GHPC|||
-|PAP_GRP_RET|chaîne de caractères|Groupage PAPRICA : code retour|||
+|PAP_GRP_RET|booléen|Groupage PAPRICA : code retour|||
 |PAP_GRP_VER|chaîne de caractères|Groupage établissement : version de la classification|||
 |RHAD_NUM|chaîne de caractères|N° séquentiel de séjour d'HAD|||
 |SEQ_NUM|chaîne de caractères|N° de la séquence dans le séjour|||
