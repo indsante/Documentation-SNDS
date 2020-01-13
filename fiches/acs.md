@@ -50,7 +50,7 @@ Ces droits sont donnés à toute personne bénéficiaire de l'ACS.
 | 2005-2013 | Modifications de l'ACS (tranches d'âges des chèques, montants chèques, etc.) |
 | 2013 | Tarifs médicaux sans dépassements d'honoraires, dans le parcours de soins coordonnés |
 | 2015 | Passage à 3 contrats / Dispense totale d'avance de frais |
-| 2017 | Tarifs avex un montant maximum de dépassement pour certains soins prothèses dentaire et orthodontie |  
+| 2017 | Tarifs avex un montant maximum de dépassement pour certains soins prothèses dentaires et orthodontie |  
 
 Ce sont les périodes de droits d’ouverture de l’ACS présente dans la table `IR_ACS_R`. 
 
