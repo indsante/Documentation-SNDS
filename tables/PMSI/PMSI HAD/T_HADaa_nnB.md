@@ -69,7 +69,7 @@ Table des Résumés Anonyme Par Sous-Séquence (RAPSS)
 |ETA_GRP_VER|chaîne de caractères|Groupage établissement : version de la classification|||
 |SEQ_SEJ|chaîne de caractères|Numéro de la séquence dans le séjour|||
 |DGN_PAL1|chaîne de caractères|Diagnostic associé 1|||
-|ETA_GRP_RET|chaîne de caractères|Groupage établissement : code retour|||
+|ETA_GRP_RET|booléen|Groupage établissement : code retour|||
 |ETA_GRP_GHPC|chaîne de caractères|Groupage établissement : n° du GHPC|||
 |ETA_NUM_EHPA|chaîne de caractères|Numéro FINESS EHPA|||
 |DGN_PAL6|chaîne de caractères|Diagnostic associé 6|||

@@ -14,7 +14,7 @@ Table des GHT (groupage établissement)
 |GHT_NUM|chaîne de caractères|Groupage Etablissement : n° du GHT|||
 |GRE_GRP_ETB|chaîne de caractères|Groupage Etablissement : nombre de zones tarifaires établissement (1 à 4)|||
 |GRE_GRP_GHPC|chaîne de caractères|Groupage Etablissement : n° du GHPC|||
-|GRE_GRP_RET|chaîne de caractères|Groupage Etablissement : code retour|||
+|GRE_GRP_RET|booléen|Groupage Etablissement : code retour|||
 |GRE_RPPS_VER|chaîne de caractères|Groupage établissement version de la classification|||
 |RHAD_NUM|chaîne de caractères|N° séquentiel de séjour d'HAD|||
 |SEQ_NUM|chaîne de caractères|N° de la séquence dans le séjour|||

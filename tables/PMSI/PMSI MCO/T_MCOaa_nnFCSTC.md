@@ -32,10 +32,10 @@ ACE Honoraire
 |SOR_ANN|chaîne de caractères|Année des soins|||
 |SOR_MOI|chaîne de caractères|Mois des soins|||
 |TYP_ART|chaîne de caractères|Type d'enregistrement|||
-|DAT_RET|chaîne de caractères|Code retour contrôle « date de référence» (date d'entrée)|||
+|DAT_RET|booléen|Code retour contrôle « date de référence» (date d'entrée)|||
 |NIR_ANO_17|chaîne de caractères|N° anonyme|||
-|NIAS_RET|chaîne de caractères|Code retour contrôle « n° d’identification administratif de séjour »|||
-|SEX_RET|chaîne de caractères|Code retour contrôle « sexe »|||
+|NIAS_RET|booléen|Code retour contrôle « n° d’identification administratif de séjour »|||
+|SEX_RET|booléen|Code retour contrôle « sexe »|||
 |NOE_MNR|nombre réel|Montant remboursé NOEMIE Retour|||
 |NOE_OPE|nombre réel|Nature opération récupération NOEMIE Retour|||
-|NIR_RET|chaîne de caractères|Code retour contrôle « n° sécurité sociale »|||
+|NIR_RET|booléen|Code retour contrôle « n° sécurité sociale »|||

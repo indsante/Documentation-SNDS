@@ -44,8 +44,8 @@ ACE actes CCAM
 |SOR_ANN|chaîne de caractères|Année de sortie|||
 |SOR_MOI|chaîne de caractères|Mois de sortie|||
 |TYP_ART|chaîne de caractères|Type d'enregistrement|||
-|DAT_RET|chaîne de caractères|Code retour contrôle « date de référence» (date d'entrée)|||
+|DAT_RET|booléen|Code retour contrôle « date de référence» (date d'entrée)|||
 |NIR_ANO_17|chaîne de caractères|N° anonyme|||
-|NIAS_RET|chaîne de caractères|Code retour contrôle « n° d’identification administratif de séjour »|||
-|SEX_RET|chaîne de caractères|Code retour contrôle « sexe »|||
-|NIR_RET|chaîne de caractères|Code retour contrôle « n° sécurité sociale »|||
+|NIAS_RET|booléen|Code retour contrôle « n° d’identification administratif de séjour »|||
+|SEX_RET|booléen|Code retour contrôle « sexe »|||
+|NIR_RET|booléen|Code retour contrôle « n° sécurité sociale »|||
