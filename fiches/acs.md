@@ -1,7 +1,7 @@
 # L'Aide au paiement d'une Complémentaire Santé 
 
 
-Cette fiche aborde une variable en particulier de l'ensemble des variables socio-démographiques, pour une description plus globale se référer à la [fiche](../fiches/variables_sociodemo.md) 
+Cette fiche aborde une variable parmi l'ensemble des variables socio-démographiques, pour une description plus globale se référer à la [fiche](../fiches/variables_sociodemo.md) 
 concernant les variables socio-démographiques ([fiche sur les variables socio-démographiques](../fiches/ variables_sociodemo.md)). 
 
 ## Définition 
