@@ -33,7 +33,7 @@ Dans le SNDS, il s'agit des contrats identifiés par la variable `BEN_CTA_TYP` i
 centrale des prestations du DCIRS)/`ER_PRS_F` (table centrale des prestations du DCIR) à partir de juillet 2015.
 
 
-En outre, l'ACS donne droit au demandeur et aux membres du foyers qui lui sont rattachés (ayants droit) pendant 18 mois :
+En outre, l'ACS donne droit au demandeur et aux membres du foyers qui lui sont rattachés (ayants droit) pendant un an :
  
 - à la dispense d'avance de frais sur la part prise en charge par l’assurance maladie obligatoire (anciennement appelé "tiers payant social") [site de l'assurance maladie tiers
 payant](https://www.ameli.fr/medecin/exercice-liberal/remuneration/tiers-payant-modalites-regles-facturation/tiers-payant-modalites-regles-facturation#text_11377),
