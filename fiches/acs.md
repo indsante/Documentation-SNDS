@@ -102,15 +102,11 @@ L'effectif donné par le Fonds CMU est  un effectif pris au 31/12/2016.
 
 
 ::: tip Crédits  
-Cette fiche a été rédigée par Raphaële Adjerad (DREES).
+Cette fiche a été rédigée par Raphaële ADJERAD (DREES), relue par Claire-Lise DUBOST (DREES), Kristel JACQUIER (DSS) et Romain LOISEAU (DREES)
 :::
 
-Références :
+## Références
 
-https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/complementaire-sante/aide-paiement-complementaire-sante
-
-
-*Sources*:
  - CNAM, FAQ DCIR 2019
  - Fonds CMU, rapport d'activité https://www.complementaire-sante-solidaire.gouv.fr/fichier-utilisateur/fichiers/Rapport_activite_2016.pdf 
  - Fonds CMU, Rapport 2017 - 2018 relatif à l'ACS : bénéficiaires, contenu et prix des contrats ayant ouvert droit à l'aide 
