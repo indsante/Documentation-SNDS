@@ -224,9 +224,9 @@ Les médicaments peuvent être dispensés :
  - en officine de ville 
  - pendant séjours hospitaliers
 
-Les médicaments délivrés dans les UCSA donne lieu à un recueil dans le PMSI depuis 1 Janvier 2016 (base `T_MCO18SUP_USMP`  unité sanitaire en milieu pénitencier). Ce recueil se fait par établissement et n'est donc pas chainable sur les bénéficaires. 
+Pour précision, les médicaments délivrés dans les UCSA donne lieu à un recueil dans le PMSI depuis 1 Janvier 2016 (base `T_MCO18SUP_USMP`  unité sanitaire en milieu pénitencier). Ce recueil se fait par établissement et n'est donc pas chainable sur les bénéficaires. 
 
-exemple : 
+exemple d'extraction des médicaments de ville chez les détenus (pour illustration données Normandes) : 
 
 | PERIODE | PHA\_ATC\_L03                                                  | NBboites | nb\_patient |
 |---------|----------------------------------------------------------------|----------|-------------|
