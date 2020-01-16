@@ -81,7 +81,7 @@ Les effectifs dépendent de la période considérée.
 L'effectif du Fonds CMU est le cumul sur les 12 derniers mois au 31/12/2016. 
 
 
-### Bénéficiaires ayant utilisé leur attestations à l'ACS
+### Bénéficiaires ayant utilisé leur attestation à l'ACS
 
 La variable à considérer est `BEN_CTA_TYP` dans `IR_ORC_R` ou dans `NS_PRS_F` (DCIRS) ou `ER_PRS_F` (DCIR). 
 
