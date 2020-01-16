@@ -1,9 +1,9 @@
-# Les dépenses des établissement privés (à partir du DCIRs)
+# Dépenses des établissement privés (à partir du DCIRS)
 
 L'objectif de la fiche est de reconstituer les dépenses des établissements de santé privés. 
 
-Les séjours en établissements privés sont facturés directement à l’Assurance Maladie ce qui garantit l’exhaustivité des remontées d’information sur ce champ.
-Cela concerne toutes les prestations en établissement privé, que l'établissement soit de nature non lucratif ou lucratif.
+Les séjours en établissements privés sont facturés directement à l’Assurance Maladie ce qui garantit l’exhaustivité des remontées d’information sur ce champ.  
+Cela concerne toutes les prestations en établissement privé, que l'établissement soit de nature non lucratif ou lucratif.  
 Le PMSI contient des tables de facturation des séjours privés mais il n’est pas certain qu’elles correspondent aux montants réellement facturés et
 remboursés par l’assurance maladie.
 C'est pourquoi nous présentons dans cette fiche l'analyse les dépenses des établissements privés dans le DCIR ou le DCIRS.
@@ -11,7 +11,7 @@ C'est pourquoi nous présentons dans cette fiche l'analyse les dépenses des ét
 
 ## Sélectionner les prestations et délimiter le champ
 
-La première étape consiste à sélectionner dans la table prestation (`ER_PRS_F` dans le DCIR et `NS_PRS_F` dans le DCIRs), tous les actes associés à un établissement de santé. 
+La première étape consiste à sélectionner dans la table prestation (`ER_PRS_F` dans le DCIR et `NS_PRS_F` dans le DCIRS), tous les actes associés à un établissement de santé. 
 Il s'agit des actes pour lesquels le finess de l'établissement exécutant est renseigné (la variable `ETB_EXE_FIN` contient un code à 8 chiffres, il s'agit du FINESS sans clef). 
 
 Afin de se concentrer sur le champ des établissements privés, les filtres à poser sont les suivants : 
