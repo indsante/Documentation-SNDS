@@ -51,7 +51,7 @@ Il est conseillé de considérer `MNT_TOT_AM` de la table `T_MCOaaVALO` corrigé
 `TOT_MNT_AM` de la table de prise en charge `T_MCOaaSTC` qui est l'information brute fournie par les établissements.  
 Pour un même séjour, ces deux montants ne sont pas calculés selon la même base de remboursement : `MNT_TOT_AM` est calculée sur la base des tarifs nationaux de prestations, *i.e.* les [groupes homogènes de séjours](../glossaire/GHS.md) en MCO, tandis que `TOT_MNT_AM` est calculée sur la base des tarifs journaliers de prestation (TJP).
 
-La table de chaînage patients (`T_MCOaaC` toujours sous ORAVUE) est la seule à contenir l'identifiant du bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](https://documentation-snds.health-data-hub.fr/fiches/fiche_beneficiaire.html) pour plus d'informations).  
+La table de chaînage patients (`T_MCOaaC` toujours sous ORAVUE) est la seule à contenir l'identifiant du bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](../fiches/fiche_beneficiaire.md) pour plus d'informations).  
 La table des séjours (`T_MCOaaB` sous ORAVUE) apporte des informations supplémentaires sur le séjour (mode d'entrée et de sortie, numéro du [GHM](../glossaire/GHM.md), etc.).  
 Pour joindre les différentes tables mentionnées, la clef de chaînage est le couple (`ETA_NUM`, `RSA_NUM`) où `ETA_NUM` est le numéro FINESS de l'établissement et `RSA_NUM` le numéro séquentiel du séjour.  
 
@@ -125,7 +125,7 @@ Avant 2017, nous ne disposons que de la table de facturation transmise par les �
 La table `T_SSRaaB` de description du séjour permet d'extraire des informations sur le mode d'hospitalisation (complète/partielle, variable `HOS_TYP_UM`), 
 ainsi que sur le [GME](../glossaire/GME.md) (variable `GR_GME`).
 
-La table de chaînage patients se nomme `T_SSRaaC` (toujours sous ORAVUE). On y trouve l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](https://documentation-snds.health-data-hub.fr/fiches/fiche_beneficiaire.html) pour plus d'informations).   
+La table de chaînage patients se nomme `T_SSRaaC` (toujours sous ORAVUE). On y trouve l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](../fiches/fiche_beneficiaire.md) pour plus d'informations).   
 Pour joindre les tables mentionnées ci-dessus, la clef de chaînage est le couple (`ETA_NUM`,`RHA_NUM`) où `ETA_NUM` est le numéro FINESS de l'établissement et `RHA_NUM` le numéro séquentiel du séjour.  
 
 Les filtres sur les séjours sont les suivants :
@@ -139,7 +139,7 @@ Les filtres sur les séjours sont les suivants :
 
 À partir de 2017, on peut utiliser la variable `MNT_TOT_AM` de la table de valorisation des séjours (corrigée par l'ATIH) `T_HADaaVALO` sous ORAVUE.  
 Avant 2017, nous ne disposons que de la table de facturation transmise par les établissements `T_HADaaSTC`, dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des [GHT](../glossaire/GHT.md) mais des tarifs journaliers de prestation.   
-La table de chaînage patients se nomme `T_HADaaC`. On y trouve l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires pour plus d'informations](https://documentation-snds.health-data-hub.fr/fiches/fiche_beneficiaire.html)).  
+La table de chaînage patients se nomme `T_HADaaC`. On y trouve l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires pour plus d'informations](../fiches/fiche_beneficiaire.md)).  
 Des informations sur le [GHPC](../glossaire/GHPC.md) se trouvent dans la table `T_HAD_aaGRP` (variable `PAP_GRP_GHPC`).  
 
 Pour joindre les tables mentionnées ci-dessus, la clef de chaînage est le couple (`ETA_NUM_EPMSI`, `RHAD_NUM`) où `ETA_NUM_EPMSI` est le numéro FINESS de l'établissement et `RHAD_NUM` le numéro séquentiel du séjour.  
@@ -160,7 +160,7 @@ La prise en charge peut s'effectuer à temps complet, partiel ou en ambulatoire.
 Quel que soit le mode de prise en charge, le montant des dépenses se trouve dans la table de facturation transmise par les établissements `T_RIPaaSTC`, dans laquelle la variable `TOT_MNT_AM` est calculée sur la base des tarifs journaliers de prestation.     
 Des informations complémentaires sur les séjours (notamment le nombre de jours en hospitalisation partielle / complète) peuvent être extraites de la table `T_RIPaaS` de description du sejour.    
 Des informations sur les prises en charge ambulatoires se trouvent dans la table `T_RIPaaR3A`.  
-La table de chaînage patients (`T_RIPaaC` toujours sous ORAVUE) contient notamment l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](https://documentation-snds.health-data-hub.fr/fiches/fiche_beneficiaire.html) pour plus d'informations).  
+La table de chaînage patients (`T_RIPaaC` toujours sous ORAVUE) contient notamment l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](../fiches/fiche_beneficiaire.md) pour plus d'informations).  
 La clef de chaînage entre les tables mentionnées ci-dessus est le couple (`ETA_NUM_EPMSI`, `RIP_NUM`) où `ETA_NUM_EPMSI` est le numéro FINESS de l'établissement et `RIP_NUM` est le numéro séquentiel du séjour.  
 
 
