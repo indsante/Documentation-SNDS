@@ -198,7 +198,7 @@ Les filtres à appliquer sur les ACE sont les suivants :
 - Exclusion des ACE non valorisées (en utilisant la variable `VALO`)
 
 
-## En SSR
+### En SSR
 
 Les actes et consultations externes en SSR se trouvent dans la table `T_SSRaaCSTC`.  
 Tout comme en MCO, on peut obtenir des détails sur la nature de l'ACE à l'aide de la variable `ACT_COD` de la table `T_SSRaaFBSTC`.  
@@ -213,7 +213,7 @@ Les filtres à appliquer sur les ACE sont les suivants :
 - Exclusion des ACE non valorisées
 
 
-## En HAD et PSY
+### En HAD et PSY
 
 Il n'y a pas d'ACE en HAD ni en PSY. 
 
