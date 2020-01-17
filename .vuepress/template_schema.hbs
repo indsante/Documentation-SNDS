@@ -1,5 +1,7 @@
+## Schéma
+
 {{#if title}}
-- Description : {{{title}}}
+- Titre : {{{title}}}
 {{/if}}
 {{#if primaryKey}}
 <br />
@@ -13,7 +15,7 @@
 {{/each}}
 {{/if}}
 
-## Schéma de la table {{{name}}}
+### Liste des variables
 <br />
 <div>
     <a href="https://gitlab.com/healthdatahub/schema-snds/edit/master/schemas/{{#startsWith "PMSI" produit}}{{replace produit "PMSI " "PMSI/PMSI%20"}}{{else}}{{encodeURI produit}}{{/startsWith}}/{{name}}.json"  
