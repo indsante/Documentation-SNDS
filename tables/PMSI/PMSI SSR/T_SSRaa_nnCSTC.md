@@ -17,8 +17,8 @@ ACE NIR/date
 |NIR_ANO_17|chaîne de caractères|N° Anonyme du patient|||
 |SEJ_NUM|chaîne de caractères|N° de séjour|||
 |SEQ_NUM|chaîne de caractères|N° séquentiel|||
-|ENT_DAT|chaîne de caractères|Date d'entrée|||
-|SOR_DAT|chaîne de caractères|Date de sortie|||
+|ENT_DAT|date (format `%d%m%Y`)|Date d'entrée|||
+|SOR_DAT|date (format `%d%m%Y`)|Date de sortie|||
 |EXE_SOI_AMD|chaîne de caractères|Date d'entrée au format année + mois|||
 |EXE_SOI_AMF|chaîne de caractères|Date de sortie au format année + mois|||
 |EXE_SOI_DTD|date|Date d'entrée|||
