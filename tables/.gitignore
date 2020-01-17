@@ -20,4 +20,5 @@ PMSI/**/*
 !PMSI/PMSI RIM-P/
 !PMSI/PMSI SSR/
 !.gitignore
+!README.md
 !.keep
