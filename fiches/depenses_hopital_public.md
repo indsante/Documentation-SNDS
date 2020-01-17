@@ -65,7 +65,7 @@ Avant de calculer les dépenses, il faut appliquer les filtres suivants (à part
 
 Le code SAS correspondant est le suivant :
 
-```
+```sql
 WHERE 
 ETA_NUM not in (   
                  # APHP 
@@ -220,11 +220,6 @@ Il n'y a pas d'ACE en HAD ni en PSY.
 
 ## Références
 
-::: tip Crédits
-Cette fiche a été rédigée par Noémie Courtejoie (DREES), Raphaële Adjerad (DREES) et Kristel Jacquier (DSS)
-:::
-
-*Sources* 
 - Supports de formation de la CNAM sur le DCIRS et le PMSI
 - Documentation de l'ATIH
   * [ATIH - Manuel d'utilisation du logiciel VisualValoSej (PMSI MCO)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=2ahUKEwiRm-798-TlAhUPFRQKHQHkBi8QFjACegQIABAH&url=https%3A%2F%2Fwww.atih.sante.fr%2Fplateformes-de-transmission-et-logiciels%2Flogiciels-espace-de-telechargement%2Ftelecharger%2Fgratuit%2F8758%2F1745&usg=AOvVaw3nx5ugXpZiyo3SBrv_M4is) 
@@ -235,3 +230,7 @@ Cette fiche a été rédigée par Noémie Courtejoie (DREES), Raphaële Adjerad 
 [Guide méthodo ATIH SSR](https://www.atih.sante.fr/ssr/documentation#Guides%20m%C3%A9thodologiques)  
 [Guide méthodo ATIH HAD](https://www.atih.sante.fr/had/documentation#Guides%20m%C3%A9thodologiques)  
 [Guide méthodo ATIH PSY](https://www.atih.sante.fr/psy/documentation#Guides%20m%C3%A9thodologiques)  
+
+::: tip Crédits
+Cette fiche a été rédigée par Noémie Courtejoie (DREES), Raphaële Adjerad (DREES) et Kristel Jacquier (DSS)
+:::
