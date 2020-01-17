@@ -8,7 +8,7 @@ ACE NIR/date
 
 |Nom|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|
-|ENT_DAT|chaîne de caractères|Date d'entrée|||
+|ENT_DAT|date (format `%d%m%Y`)|Date d'entrée|||
 |ENT_DAT_RET|booléen|Code retour contrôle « date de référence» (date d'entrée)|||
 |ETA_NUM|chaîne de caractères|N° FINESS|||
 |EXE_SOI_AMD|chaîne de caractères|Date d'entrée au format année + mois|||
@@ -24,7 +24,7 @@ ACE NIR/date
 |SEJ_NUM|chaîne de caractères|N° de séjour|||
 |SEQ_NUM|chaîne de caractères|N° séquentiel|||
 |SEX_RET|booléen|Code retour contrôle « sexe »|||
-|SOR_DAT|chaîne de caractères|Date de sortie|||
+|SOR_DAT|date (format `%d%m%Y`)|Date de sortie|||
 |RAC_MNT_PAT_RET|booléen|Code retour contrôle « Montant total du séjour facturé au patient «|||
 |NBR_REJET_AMO_RET|booléen|Code retour contrôle « Rejet AMO «|||
 |FAC_AMO_DT_RET|booléen|Code retour contrôle « Date de facturation AMO «|||

@@ -11,7 +11,7 @@ NIR patient et Dates de soin
 |COH_NAI_RET|booléen|Code retour contrôle « Cohérence date naissance »|||
 |COH_SEX_RET|booléen|Code retour contrôle « Cohérence sexe »|||
 |DAT_RET|booléen|Code retour contrôle « date de référence» (date d'entrée)|||
-|ENT_DAT|chaîne de caractères|date d'entrée|||
+|ENT_DAT|date (format `%d%m%Y`)|date d'entrée|||
 |ETA_NUM|chaîne de caractères|Numéro FINESS e-PMSI|||
 |ETA_NUM_RET|booléen|Code retour contrôle "N° FINESS d’inscription e-PMSI"|||
 |EXE_SOI_AMD|chaîne de caractères|Date d'entrée au format année + mois|||
@@ -43,7 +43,7 @@ NIR patient et Dates de soin
 |SEJ_RET|booléen|Code retour contrôle « n° d’identification administratif de séjour »|||
 |SEX_RET|booléen|Code retour contrôle « sexe »|||
 |SOR_ANN|chaîne de caractères|Année de sortie|||
-|SOR_DAT|chaîne de caractères|date de sortie|||
+|SOR_DAT|date (format `%d%m%Y`)|date de sortie|||
 |SOR_MOI|chaîne de caractères|Mois de sortie|||
 |VID_HOSP_FOR|chaîne de caractères|N° format VID-HOSP|||
 |ENT_AM|date|Date d'entrée au format année + mois|||

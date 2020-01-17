@@ -26,8 +26,8 @@ chainage
 |NIR_ANO_17|chaîne de caractères|N° anonyme|||
 |SEJ_NUM|chaîne de caractères|N° de séjour|||
 |RIP_NUM|chaîne de caractères|N° séquentiel dans fichier PMSI|||
-|ENT_DAT|chaîne de caractères|Date d'entrée|||
-|SOR_DAT|chaîne de caractères|Date de sortie|||
+|ENT_DAT|date (format `%d%m%Y`)|Date d'entrée|||
+|SOR_DAT|date (format `%d%m%Y`)|Date de sortie|||
 |EXE_SOI_DTD|date et heure|date d'entrée|||
 |EXE_SOI_DTF|date et heure|date de sortie|||
 |EXE_SOI_AMD|chaîne de caractères|Date d'entrée au format année + mois|||
