@@ -5,15 +5,19 @@ const fs = require('fs');
  * @param {*} directory 
  * @param {*} filename 
  */
-function getMarkdownTitle(directory, filename){
+function getMarkdownTitle(directory, filename) {
     var text = fs.readFileSync(directory + '/' + filename);
-    //returns the first line of the text 
-    var header= text.toString().split('\n').shift()
-    /*
-    applies the following transformation 
-    '# Les actes et consultations externes' -> 'les actes et consultations externes'
-    */
-    .slice(1).toLowerCase().trim();
+    var lines = text.toString().split('\n');
+    var header = text.toString().split('\n')[0];
+    for (line of lines) {
+        if (line.startsWith('# ')) {
+            /* applies the following transformation :
+             * '# Les actes et consultations externes' -> 'les actes et consultations externes'
+             */
+            header = line.slice(1).toLowerCase().trim();
+            break;
+        }
+    }
     return header
 }
 
@@ -23,25 +27,25 @@ function getMarkdownTitle(directory, filename){
 */
 function listMarkdownFilesInDirectory(directoryName) {
     return fs
-    // returns an array of all the filenames in a directory
-    .readdirSync('./' + directoryName) 
-    // returns all filenames except README.md
-    .filter(function (filename) {
-        return filename !== 'README.md';
-    })
-    //returns only filenames that have an .md extension
-    .filter(function (filename) {
-        return filename.slice(-3) === '.md';
-    })
-    // returns a case insensitive sorting between file titles
-    .sort(function (a, b) {
-        return getMarkdownTitle(directoryName, a)
-        .localeCompare(getMarkdownTitle(directoryName, b));
-    })
-    //returns a new array with a transformation on filenames (adding the directory name)
-    .map(function (filename) {
-        return '/' + directoryName + '/' + filename.slice(0, -3);
-    });
+        // returns an array of all the filenames in a directory
+        .readdirSync('./' + directoryName)
+        // returns all filenames except README.md
+        .filter(function (filename) {
+            return filename !== 'README.md';
+        })
+        //returns only filenames that have an .md extension
+        .filter(function (filename) {
+            return filename.slice(-3) === '.md';
+        })
+        // returns a case insensitive sorting between file titles
+        .sort(function (a, b) {
+            return getMarkdownTitle(directoryName, a)
+                .localeCompare(getMarkdownTitle(directoryName, b));
+        })
+        //returns a new array with a transformation on filenames (adding the directory name)
+        .map(function (filename) {
+            return '/' + directoryName + '/' + filename.slice(0, -3);
+        });
 }
 
 /**
@@ -50,12 +54,16 @@ function listMarkdownFilesInDirectory(directoryName) {
 */
 function listSubDirectories(directoryName) {
     return fs
-    // returns an array of all the filenames in a directory
-    .readdirSync('./' + directoryName)
-    //returns only the directories
-    .filter(function (filename) {
-        return fs.lstatSync('./' + directoryName + '/' + filename).isDirectory();
-    })
+        // returns an array of all the filenames in a directory
+        .readdirSync('./' + directoryName)
+        //returns only the directories
+        .filter(function (filename) {
+            return fs.lstatSync('./' + directoryName + '/' + filename).isDirectory();
+        })
+        //ignore .schemas and .sources directories in /tables
+        .filter(function (filename) {
+            return filename !== ".schemas" && filename !== ".sources";
+        })
 }
 
 /**
@@ -65,9 +73,9 @@ function listSubDirectories(directoryName) {
 const getSidebarGroup = function (directoryPath) {
     const lastDirectory = directoryPath.split("/").pop();
     const sidebarGroup = {};
-    
+
     sidebarGroup["title"] = lastDirectory.charAt(0).toUpperCase() + lastDirectory.slice(1);
-    
+
     // checks if it contains a README file 
     if (fs.existsSync('./' + directoryPath + '/README.md')) {
         sidebarGroup["path"] = '/' + directoryPath + '/';

@@ -7,8 +7,8 @@ test-internal-link-and-build:
   before_script:
     - yarn install
   script:
-   - yarn lint-md
    - yarn docs:build
+   - yarn lint-md
 
 test-external-link:
   stage: test
