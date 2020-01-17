@@ -1,0 +1,102 @@
+{
+    "name": "T_SSRaa_nnCMC",
+    "title": "Catégories Majeures de diagnostics",
+    "produit": "PMSI SSR",
+    "history": {
+        "dateCreated": "2005",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "N° FINESS de l'établisement",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHA_VER",
+            "description": "N° version du format du RHA",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "CMC_COD",
+            "description": "Code CMC",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_JOU",
+            "description": "Nombre de jours",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "RHA_NUM",
+            "description": "N° Séquentiel du séjour",
+            "type": "string",
+            "length": "7",
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RHA_NUM"
+            ],
+            "reference": {
+                "resource": "T_SSRaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RHA_NUM"
+                ]
+            }
+        }
+    ],
+    "champ": "Public et Privé",
+    "observation": ""
+}
