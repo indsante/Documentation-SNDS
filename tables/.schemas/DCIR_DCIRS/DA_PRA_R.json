@@ -479,7 +479,7 @@
         {
             "name": "PRA_DIP_NBR",
             "description": "Nb de salariés diplômés",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -493,7 +493,7 @@
         {
             "name": "PRA_SAL_NBR",
             "description": "Nb de salariés non diplômés",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -521,7 +521,7 @@
         {
             "name": "PFS_AMB_NBR",
             "description": "Effectif du véhicule de type ambulance",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -535,7 +535,7 @@
         {
             "name": "PFS_VSL_NBR",
             "description": "Effectif du véhicule de type VSL",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -549,7 +549,7 @@
         {
             "name": "PFS_TXI_NBR",
             "description": "Effectif du véhicule de type Taxi",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",

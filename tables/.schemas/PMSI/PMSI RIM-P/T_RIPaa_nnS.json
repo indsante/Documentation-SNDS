@@ -87,7 +87,7 @@
         {
             "name": "SEJ_NBJ",
             "description": "Nombre de journées de présence ",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",

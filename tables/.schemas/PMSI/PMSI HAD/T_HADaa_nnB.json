@@ -549,7 +549,7 @@
         {
             "name": "SEJ_NBJ",
             "description": "Nombre de journées dans le séjour",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -577,7 +577,7 @@
         {
             "name": "SEQ_NBJ",
             "description": "Nombre de journées dans la séquence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -605,7 +605,7 @@
         {
             "name": "SEQ_SEJ_NBJ",
             "description": "Nombre de journées entre le début de la séquence et la date d’entrée du séjour",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -703,7 +703,7 @@
         {
             "name": "SSEQ_NBJ",
             "description": "Nombre de journées de la sous-séquence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -759,7 +759,7 @@
         {
             "name": "SSEQ_SEQ_NBJ",
             "description": "Nombre de journées entre le début de la sous-séquence et le début de la séquence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -941,7 +941,7 @@
         {
             "name": "ETB_TAR_NBR",
             "description": "Groupage établissement : nombre de zones tarifaires établissement (1 à 4)",
-            "type": "number",
+            "type": "integer",
             "length": null,
             "dateCreated": "2005",
             "dateDeleted": "2010",

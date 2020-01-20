@@ -689,7 +689,7 @@
         {
             "name": "EXB_NBJ",
             "description": "Nombre de journées du supplément zone basse",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -703,7 +703,7 @@
         {
             "name": "EXH_NBJ",
             "description": "Nombre de journées en zone haute",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",

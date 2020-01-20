@@ -310,7 +310,7 @@
         {
             "name": "UCD_DLV_NBR",
             "description": "Nombre d'unités délivrées",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "nomenclature": "-",
             "dateCreated": "",

@@ -352,7 +352,7 @@
         {
             "name": "FLT_ACT_NBR",
             "description": "Dénombrement de la prestation",
-            "type": "number",
+            "type": "integer",
             "length": "12",
             "nomenclature": "-",
             "dateCreated": "",
@@ -884,7 +884,7 @@
         {
             "name": "PRS_ACT_NBR",
             "description": "Dénombrement des actes de base",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "nomenclature": "-",
             "dateCreated": "",

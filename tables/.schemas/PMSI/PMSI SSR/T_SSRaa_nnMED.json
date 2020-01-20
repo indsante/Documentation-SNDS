@@ -101,7 +101,7 @@
         {
             "name": "ADM_NBR",
             "description": "Nombre administré éventuellement fractionnaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

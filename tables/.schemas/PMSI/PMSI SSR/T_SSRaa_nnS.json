@@ -73,7 +73,7 @@
         {
             "name": "SEJ_NBJ",
             "description": "Durée du séjour",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -87,7 +87,7 @@
         {
             "name": "PRE_JOU_NBR",
             "description": "Nombre de journées de présence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
