@@ -23,7 +23,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "cp -r files .vuepress/public/files && node .vuepress/generate-schemas.js && node .vuepress/include-tables.js",
-    "docs:dev": "yarn run start && vuepress dev",
+    "docs:dev": "vuepress dev",
     "docs:build": "yarn run start && vuepress build",
     "lint-md": "remark --frail --use remark-validate-links . --quiet",
     "extended-lint-md": "remark --frail --use remark-validate-links --use remark-lint-no-dead-urls . --quiet"
