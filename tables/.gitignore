@@ -5,20 +5,5 @@
 .schemas/**/*.md
 !.sources/
 !.sources/**/*
-!BENEFICIAIRE/
-!CARTOGRAPHIE_PATHOLOGIES/
-!Causes de décès/
-!DAMIR/
-!DCIR/
-!DCIR_DCIRS/
-!DCIRS/
-!EGB/
-!PMSI/
-PMSI/**/*
-!PMSI/PMSI HAD/
-!PMSI/PMSI MCO/
-!PMSI/PMSI RIM-P/
-!PMSI/PMSI SSR/
 !.gitignore
 !README.md
-!.keep
