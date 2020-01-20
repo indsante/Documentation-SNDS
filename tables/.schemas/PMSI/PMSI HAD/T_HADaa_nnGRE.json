@@ -56,7 +56,7 @@
         {
             "name": "GHT_NBJ",
             "description": "Groupage Etablissement : nombre de jours",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",

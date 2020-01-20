@@ -3,7 +3,7 @@
         {
             "name": "ACT_RUM_NBR",
             "description": "Nombre de zones d'actes du RUM (Nb_Act_R_1)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -59,7 +59,7 @@
         {
             "name": "DGN_ASS_NBR",
             "description": "Nombre de diagnostics associés du RUM (Nb_DA_R_1)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -199,7 +199,7 @@
         {
             "name": "SUP_TYP1_NBR",
             "description": "Nombre de supplément pour le premier type",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -227,7 +227,7 @@
         {
             "name": "SUP_TYP2_NBR",
             "description": "Nombre de supplément pour le deuxième type",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",

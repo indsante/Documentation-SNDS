@@ -286,7 +286,7 @@
         {
             "name": "INT_NBR",
             "description": "Nombre d’intervenants",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

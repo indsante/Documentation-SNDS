@@ -45,7 +45,7 @@
         {
             "name": "ANT_SUP_NBR",
             "description": "Nombre de suppléments antepartum",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -59,7 +59,7 @@
         {
             "name": "AUT_PGV_NBR",
             "description": "Nombre d'autorisations d'unités médicales à portée globale valides (Nb_AutPGV)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -115,7 +115,7 @@
         {
             "name": "BEH_NBJ",
             "description": "Nombre de journées au-delà de la borne extrême haute",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -129,7 +129,7 @@
         {
             "name": "CAI_SUP_NBR",
             "description": "Nombre de suppléments caisson hyperbare",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -269,7 +269,7 @@
         {
             "name": "EXB_NBJ",
             "description": "Nb journées EXB",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -675,7 +675,7 @@
         {
             "name": "RTH_SUP_NBR",
             "description": "Nombre de zones de suppléments de radiothérapie (Nb_Rdth)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -703,7 +703,7 @@
         {
             "name": "SEJ_NBJ",
             "description": "Durée totale du séjour dans le champ du PMSI (vide si séances)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -1179,7 +1179,7 @@
         {
             "name": "FAIS_NBR",
             "description": "Nombre de faisceaux",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2010",
             "dateDeleted": "2015",

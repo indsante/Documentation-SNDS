@@ -28,7 +28,7 @@
         {
             "name": "LPP_NBR",
             "description": "Nombre de LPP posés",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2007",
             "dateDeleted": "2009",

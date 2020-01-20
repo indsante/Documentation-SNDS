@@ -129,7 +129,7 @@
         {
             "name": "ACT_NBR",
             "description": "Quantité acte",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",

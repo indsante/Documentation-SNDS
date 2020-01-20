@@ -633,7 +633,7 @@
         {
             "name": "TOT_GRS_NBR",
             "description": "Nombre total de grossesses",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -647,7 +647,7 @@
         {
             "name": "TOT_ACC_NBR",
             "description": "Nombre total daccouchements",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",

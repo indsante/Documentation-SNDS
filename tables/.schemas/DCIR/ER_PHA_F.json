@@ -19,8 +19,12 @@
             "description": "Prix unitaire du médicament codé en CIP",
             "type": "number",
             "nomenclature": "-",
-            "length": "10,5",
+            "length": "5,5",
             "format": "default",
+            "constraints": {
+                "maximum": 25000.00000,
+                "minimum": 0.00000
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -31,10 +35,14 @@
         {
             "name": "PHA_ACT_QSN",
             "description": "Quantité affinée signée (= nombre de boites facturées)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": "4",
+            "length": "2",
             "format": "default",
+            "constraints": {
+                "maximum": 30,
+                "minimum": -10
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -49,6 +57,9 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "minLength": 3
+            },
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
@@ -73,7 +84,7 @@
         {
             "name": "PHA_DEC_QSU",
             "description": "Quantité complète de déconditionnement signée",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -129,10 +140,14 @@
         {
             "name": "PHA_ORD_NUM",
             "description": "Numéro d'ordre de la prestation affinée pharmacie",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": "4",
+            "length": "2",
             "format": "default",
+            "constraints": {
+                "maximum": 20,
+                "minimum": 1
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -143,7 +158,7 @@
         {
             "name": "PHA_PRS_C13",
             "description": "Code CIP de la pharmacie de ville (13 Caractères)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_PHA_R",
             "length": "13",
             "format": "default",
@@ -157,7 +172,7 @@
         {
             "name": "PHA_PRS_IDE",
             "description": "Code CIP de la pharmacie de ville (ancien code sur 7 Caractères)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_PHA_R",
             "length": "7",
             "format": "default",
@@ -171,7 +186,7 @@
         {
             "name": "PHA_SEQ_RNV",
             "description": "Séquence de renouvellement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SEQ_V",
             "length": "2",
             "format": "default",
@@ -185,7 +200,7 @@
         {
             "name": "PHA_SUB_MTF",
             "description": "Motif de substitution du médicament",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SUB_V",
             "length": "1",
             "format": "default",
@@ -199,7 +214,7 @@
         {
             "name": "DCT_ORD_NUM",
             "description": "numéro d'ordre du décompte dans l'organisme",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "9",
             "format": "default",
@@ -227,9 +242,9 @@
         {
             "name": "FLX_EMT_NUM",
             "description": "numéro d'émetteur du flux",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_NEM_T",
-            "length": "4",
+            "length": "2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -241,7 +256,7 @@
         {
             "name": "FLX_EMT_ORD",
             "description": "numéro de séquence du flux",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -255,7 +270,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TYT_V",
             "length": "2",
             "format": "default",
@@ -297,10 +312,14 @@
         {
             "name": "PRS_ORD_NUM",
             "description": "Numéro d'ordre de la prestation dans le décompte",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": "5",
+            "length": "3",
             "format": "default",
+            "constraints": {
+                "maximum": 100,
+                "minimum": 1
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -311,10 +330,14 @@
         {
             "name": "REM_TYP_AFF",
             "description": "type de remboursement affiné",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "2",
             "format": "default",
+            "constraints": {
+                "maximum": 10,
+                "minimum": 1
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],

@@ -45,7 +45,7 @@
         {
             "name": "UCD_DLV_NBR",
             "description": "Nombre d'unités délivrées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",

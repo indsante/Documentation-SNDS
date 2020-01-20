@@ -45,7 +45,7 @@
         {
             "name": "ADM_NBR",
             "description": "Nombre administré éventuellement fractionnaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -171,7 +171,7 @@
         {
             "name": "SEJ_NBR",
             "description": "Nombre de séjours impliqués",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
