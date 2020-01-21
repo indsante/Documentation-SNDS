@@ -1224,20 +1224,6 @@
             "type_oracle": "string"
         },
         {
-            "name": "PFS_EXE_NUMC",
-            "description": "N° PS exécutant (anonymisé)",
-            "type": "string",
-            "nomenclature": "-",
-            "length": "32",
-            "format": "default",
-            "dateCreated": "",
-            "dateDeleted": "",
-            "dateMissing": [],
-            "observation": "",
-            "regle_gestion": "",
-            "type_oracle": "string"
-        },
-        {
             "name": "PFS_PRE_NUM",
             "description": "N° du professionnel de santé prescripteur",
             "type": "string",
@@ -1255,20 +1241,6 @@
             "type_oracle": "string"
         },
         {
-            "name": "PFS_PRE_NUMC",
-            "description": "N° PS prescripteur (anonymisé)",
-            "type": "string",
-            "nomenclature": "-",
-            "length": "32",
-            "format": "default",
-            "dateCreated": "",
-            "dateDeleted": "",
-            "dateMissing": [],
-            "observation": "",
-            "regle_gestion": "",
-            "type_oracle": "string"
-        },
-        {
             "name": "PRS_MTT_NUM",
             "description": "Numéro du medecin traitant",
             "type": "string",
@@ -1279,20 +1251,6 @@
                 "minLength": 9
             },
             "dateCreated": "2006",
-            "dateDeleted": "",
-            "dateMissing": [],
-            "observation": "",
-            "regle_gestion": "",
-            "type_oracle": "string"
-        },
-        {
-            "name": "PRS_MTT_NUMC",
-            "description": "N° médecin traitant (anonymisé)",
-            "type": "string",
-            "nomenclature": "-",
-            "length": "32",
-            "format": "default",
-            "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
@@ -1411,20 +1369,6 @@
                 "minLength": 9
             },
             "dateCreated": "2006",
-            "dateDeleted": "",
-            "dateMissing": [],
-            "observation": "",
-            "regle_gestion": "",
-            "type_oracle": "string"
-        },
-        {
-            "name": "PSP_PPS_NUMC",
-            "description": "Numéro RPPS du prescripteur (anonymisé)",
-            "type": "string",
-            "nomenclature": "-",
-            "length": "32",
-            "format": "default",
-            "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
