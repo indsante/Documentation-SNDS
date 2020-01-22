@@ -30,7 +30,7 @@
         {
             "name": "REM_TYP_AFF",
             "description": "type de remboursement affiné",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "nomenclature": "-",
             "dateCreated": "",
@@ -86,7 +86,7 @@
         {
             "name": "ARO_REM_TYP",
             "description": "Type de remboursement (autre que régime obligatoire)",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_TYR_V",
             "dateCreated": "",
@@ -128,7 +128,7 @@
         {
             "name": "DCT_ORD_NUM",
             "description": "numéro d'ordre du décompte dans l'organisme",
-            "type": "number",
+            "type": "integer",
             "length": "9",
             "nomenclature": "-",
             "dateCreated": "",
@@ -142,7 +142,7 @@
         {
             "name": "ARO_PRS_NAT",
             "description": "Nature de la prestation (autre que régime obligatoire)",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "nomenclature": "IR_NAT_V",
             "dateCreated": "",
@@ -156,7 +156,7 @@
         {
             "name": "ARO_ENV_TYP",
             "description": "Type d'enveloppe (autre que régime obligatoire)",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_ENV_V",
             "dateCreated": "",
@@ -184,7 +184,7 @@
         {
             "name": "ARO_ASU_NAT",
             "description": "Nature d'assurance (autre que régime obligatoire)",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_ASU_V",
             "dateCreated": "",
@@ -198,7 +198,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_TYT_V",
             "dateCreated": "",
@@ -226,7 +226,7 @@
         {
             "name": "ARO_FJH_TYP",
             "description": "Type de prise en charge du forfait Journalier (autre que régime obligatoire)",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_FJH_V",
             "dateCreated": "",
@@ -240,7 +240,7 @@
         {
             "name": "ARO_ORD_NUM",
             "description": "Numéro d'ordre du remboursement autre que régime obligatoire",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "-",
             "dateCreated": "",
@@ -254,7 +254,7 @@
         {
             "name": "ARO_CPL_COD",
             "description": "Complément d'acte (autre que régime obligatoire)",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_CPA_V",
             "dateCreated": "",
@@ -296,7 +296,7 @@
         {
             "name": "FLX_EMT_NUM",
             "description": "numéro d'émetteur du flux",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "IR_NEM_T",
             "dateCreated": "",
@@ -310,7 +310,7 @@
         {
             "name": "PRS_ORD_NUM",
             "description": "Numéro d'ordre de la prestation dans le décompte",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "nomenclature": "-",
             "dateCreated": "",
@@ -324,7 +324,7 @@
         {
             "name": "FLX_EMT_ORD",
             "description": "numéro de séquence du flux",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "-",
             "dateCreated": "",
@@ -338,7 +338,7 @@
         {
             "name": "ARO_REM_SGN",
             "description": "Signe du remboursement (autre que régime obligatoire)",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_SGN_V",
             "dateCreated": "",
@@ -380,7 +380,7 @@
         {
             "name": "ARO_FTA_COD",
             "description": "Code forçage du taux (hors parcours de soins) autre que régime obligatoire",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_FOR_V",
             "dateCreated": "",

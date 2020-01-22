@@ -59,7 +59,7 @@
         {
             "name": "ETE_GHS_NUM",
             "description": "GHS au format DCIR",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -101,7 +101,7 @@
         {
             "name": "GHS50",
             "description": "Nb séjours avec réhospitalisation dans le même GHM",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -801,7 +801,7 @@
         {
             "name": "NB_9610",
             "description": "Nombre d’actes menant dans le GHS 9610",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -815,7 +815,7 @@
         {
             "name": "NB_9615",
             "description": "Nombre d’actes menant dans le GHS 9615",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -829,7 +829,7 @@
         {
             "name": "NB_9619",
             "description": "Nombre d’actes menant dans le GHS 9619",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -843,7 +843,7 @@
         {
             "name": "NB_9620",
             "description": "Nombre d’actes menant dans le GHS 9620",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -857,7 +857,7 @@
         {
             "name": "NB_9621",
             "description": "Nombre d’actes menant dans le GHS 9621",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -871,7 +871,7 @@
         {
             "name": "NB_9622",
             "description": "Nombre d’actes menant dans le GHS 9622",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -885,7 +885,7 @@
         {
             "name": "NB_9623",
             "description": "Nombre d’actes menant dans le GHS 9623",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -899,7 +899,7 @@
         {
             "name": "NB_9625",
             "description": "Nombre d’actes menant dans le GHS 9625",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -913,7 +913,7 @@
         {
             "name": "NB_9631",
             "description": "Nombre d’actes menant dans le GHS 9631",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -927,7 +927,7 @@
         {
             "name": "NB_9632",
             "description": "Nombre d’actes menant dans le GHS 9632",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -941,7 +941,7 @@
         {
             "name": "NB_9633",
             "description": "Nombre d’actes menant dans le GHS 9633",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -955,7 +955,7 @@
         {
             "name": "NB_ANT",
             "description": "Nb suppléments antepartum",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -969,7 +969,7 @@
         {
             "name": "NB_DIP",
             "description": "Nb suppléments dialyse DIP",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -983,7 +983,7 @@
         {
             "name": "NB_NN1",
             "description": "Nb suppléments de néonat sans SI",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -997,7 +997,7 @@
         {
             "name": "NB_NN2",
             "description": "Nb suppléments de néonat avec SI",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1011,7 +1011,7 @@
         {
             "name": "NB_NN3",
             "description": "Nb suppléments de réanimation néonat",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1025,7 +1025,7 @@
         {
             "name": "NB_RAP",
             "description": "Nb suppléments de radiothérapie pédiatrique",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1039,7 +1039,7 @@
         {
             "name": "NB_SRC2",
             "description": "Nb suppléments de surveillance continue",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1053,7 +1053,7 @@
         {
             "name": "NB_STF2",
             "description": "Nb suppléments de soins intensifs",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1067,7 +1067,7 @@
         {
             "name": "NBCAISSON",
             "description": "Nb suppléments caisson hyperbare",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1081,7 +1081,7 @@
         {
             "name": "NBEXB",
             "description": "Nb journées EXB",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1095,7 +1095,7 @@
         {
             "name": "NBEXH",
             "description": "Nombre de journées EXH",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1109,7 +1109,7 @@
         {
             "name": "NBJREA",
             "description": "Nb suppléments de réanimation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1123,7 +1123,7 @@
         {
             "name": "NBREP",
             "description": "Nb suppléments de réanimation pédiatrique",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1137,7 +1137,7 @@
         {
             "name": "PONDER",
             "description": "Nombre de séjours ou nombre de séances",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1179,7 +1179,7 @@
         {
             "name": "SUPPENT1",
             "description": "Nb suppléments pour entraînements à la dialyse péritonéale automatisée hors séance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1193,7 +1193,7 @@
         {
             "name": "SUPPENT2",
             "description": "Nb suppléments pour entraînements à la dialyse péritonéale continue ambulatoire hors séance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1207,7 +1207,7 @@
         {
             "name": "SUPPENT3",
             "description": "Nb suppléments pour entraînements à l’hémodialyse hors séance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1221,7 +1221,7 @@
         {
             "name": "SUPPHD",
             "description": "Nb suppléments pour hémodialyse hors séance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -2005,7 +2005,7 @@
         {
             "name": "MNT_TJP20_AME",
             "description": "Valorisation 20% TJP (uniquement pour les séjours AME)",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2012",
             "dateDeleted": "2013",
@@ -2019,7 +2019,7 @@
         {
             "name": "MNT_IVGFJS_AM",
             "description": "Valorisation Forfait Journalier de Sortie (uniquement pour les séjours AME)",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2011",
             "dateDeleted": "2014",
@@ -2033,7 +2033,7 @@
         {
             "name": "NB_9611",
             "description": "Nombre d’actes menant dans le GHS 9611",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "dateCreated": "2011",
             "dateDeleted": "2012",
@@ -2047,7 +2047,7 @@
         {
             "name": "GHSMIN",
             "description": "Nb séjours avec minoration forfaitaire liste en sus",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "dateCreated": "2015",
             "dateDeleted": "",
@@ -2061,7 +2061,7 @@
         {
             "name": "MNT_9624_AM",
             "description": "Valorisation AM actes menant dans le GHS 9624",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2011",
             "dateDeleted": "2013",
@@ -2075,7 +2075,7 @@
         {
             "name": "NB_9624",
             "description": "Nombre d’actes menant dans le GHS 9624",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "dateCreated": "2011",
             "dateDeleted": "2013",
@@ -2089,7 +2089,7 @@
         {
             "name": "MNT_FJS_AME",
             "description": "Valorisation Forfait Journalier de Sortie (uniquement pour les séjours AME)",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2012",
             "dateDeleted": "2013",
@@ -2103,7 +2103,7 @@
         {
             "name": "MNT_9612_AM",
             "description": "Valorisation AM actes menant dans le GHS 9612",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2011",
             "dateDeleted": "2012",
@@ -2117,7 +2117,7 @@
         {
             "name": "MNT_9611_AM",
             "description": "Valorisation AM actes menant dans le GHS 9611",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2011",
             "dateDeleted": "2012",
@@ -2131,7 +2131,7 @@
         {
             "name": "NB_9612",
             "description": "Nombre d’actes menant dans le GHS 9612",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "dateCreated": "2011",
             "dateDeleted": "2012",

@@ -44,7 +44,7 @@
         {
             "name": "REM_TYP_AFF",
             "description": "type de remboursement affiné",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "nomenclature": "-",
             "dateCreated": "",
@@ -72,7 +72,7 @@
         {
             "name": "DDP_COD",
             "description": "Code de la discipline de Prestations (ou discipline médico tarifaire)",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_DDP_V",
             "dateCreated": "",
@@ -114,7 +114,7 @@
         {
             "name": "DCT_ORD_NUM",
             "description": "numéro d'ordre du décompte dans l'organisme",
-            "type": "number",
+            "type": "integer",
             "length": "9",
             "nomenclature": "-",
             "dateCreated": "",
@@ -128,7 +128,7 @@
         {
             "name": "ETE_CAT_COD",
             "description": "Catégorie de l'établissement exécutant",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_CET_V",
             "dateCreated": "",
@@ -156,7 +156,7 @@
         {
             "name": "MDT_COD",
             "description": "Code du mode de traitement",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_MDT_V",
             "dateCreated": "",
@@ -170,7 +170,7 @@
         {
             "name": "ETE_TYP_COD",
             "description": "Code du type de l'établissement exécutant",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_TYE_V",
             "dateCreated": "",
@@ -184,7 +184,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_TYT_V",
             "dateCreated": "",
@@ -212,7 +212,7 @@
         {
             "name": "ETE_STJ_COD",
             "description": "Statut Juridique de l'établissement juridique",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_SJE_V",
             "dateCreated": "",
@@ -254,7 +254,7 @@
         {
             "name": "ETE_GHS_NUM",
             "description": "Numéro du GHS",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "IR_GHS_V",
             "dateCreated": "",
@@ -268,7 +268,7 @@
         {
             "name": "ETE_IND_TAA",
             "description": "Indicateur TAA",
-            "type": "number",
+            "type": "integer",
             "length": "1",
             "nomenclature": "IR_TAA_V",
             "dateCreated": "",
@@ -296,7 +296,7 @@
         {
             "name": "FLX_EMT_NUM",
             "description": "numéro d'émetteur du flux",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "IR_NEM_T",
             "dateCreated": "",
@@ -310,7 +310,7 @@
         {
             "name": "PRS_ORD_NUM",
             "description": "Numéro d'ordre de la prestation dans le décompte",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "nomenclature": "-",
             "dateCreated": "",
@@ -324,7 +324,7 @@
         {
             "name": "FLX_EMT_ORD",
             "description": "numéro de séquence du flux",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "-",
             "dateCreated": "",
@@ -338,7 +338,7 @@
         {
             "name": "MFT_COD",
             "description": "Code du mode de fixation des tarifs",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_MFT_V",
             "dateCreated": "",
@@ -352,7 +352,7 @@
         {
             "name": "PRS_PPU_SEC",
             "description": "Code privé - public de la Prestations",
-            "type": "number",
+            "type": "integer",
             "length": "1",
             "nomenclature": "IR_PPU_V",
             "dateCreated": "",

@@ -17,7 +17,7 @@
         {
             "name": "ETE_GHS_NUM",
             "description": "Regroupage en GHS (format numérique de GHS_NUM)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",

@@ -28,7 +28,7 @@
         {
             "name": "NBR_FFM",
             "description": "Nombre total réalisé",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2015",
             "dateDeleted": "2016",

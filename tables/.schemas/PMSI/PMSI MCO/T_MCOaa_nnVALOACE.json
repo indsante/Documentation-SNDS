@@ -521,7 +521,7 @@
         {
             "name": "nbligne",
             "description": "Nb lignes de la facture",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "10",
             "format": "default",

@@ -17,7 +17,7 @@
         {
             "name": "BEN_RNG_GEM",
             "description": "rang de naissance du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_BER_V",
             "length": "2",
             "format": "default",
@@ -59,7 +59,7 @@
         {
             "name": "IMB_ALD_NUM",
             "description": "Numéro d'ALD",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ALD_V",
             "length": "2",
             "format": "default",
@@ -73,7 +73,7 @@
         {
             "name": "IMB_ETM_NAT",
             "description": "Motif d'exonération du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ETM_V",
             "length": "2",
             "format": "default",

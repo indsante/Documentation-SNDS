@@ -717,7 +717,7 @@
         {
             "name": "IDE_IDE_CTR",
             "description": "Code convention tripartite",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -857,7 +857,7 @@
         {
             "name": "IDE_CBU_CTR",
             "description": "Code contrat médicaments",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -955,7 +955,7 @@
         {
             "name": "IDE_MCO_COE",
             "description": "Coefficient MCO",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -969,7 +969,7 @@
         {
             "name": "IDE_COE_HAD",
             "description": "Coefficient HAD",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",

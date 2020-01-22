@@ -3,7 +3,7 @@
         {
             "name": "CLE_DCI_JNT",
             "description": "Clé technique de jointure",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -31,7 +31,7 @@
         {
             "name": "BEN_IDT_TOP",
             "description": "Top identifiant bénéficiaire Anonymisé",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -157,7 +157,7 @@
         {
             "name": "PRS_NAT_REF",
             "description": "Code de la Prestations de référence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_NAT_V",
             "length": "4",
             "format": "default",
@@ -283,7 +283,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TYT_V",
             "length": "2",
             "format": "default",
@@ -367,7 +367,7 @@
         {
             "name": "UCD_SEQ_NUM",
             "description": "Numéro séquentiel",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -507,7 +507,7 @@
         {
             "name": "UCD_TOP_UCD",
             "description": "Top UCD",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TCU_V",
             "length": "1",
             "format": "default",

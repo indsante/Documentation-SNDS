@@ -17,7 +17,7 @@
         {
             "name": "ACT_COE",
             "description": "Coefficient",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -45,7 +45,7 @@
         {
             "name": "AMC_MNR",
             "description": "Montant remboursable par l'organisme complémentaire (AMC)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "7",
             "format": "default",
@@ -59,7 +59,7 @@
         {
             "name": "AMO_MNR",
             "description": "Montant Remboursable par la caisse (AMO)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -73,7 +73,7 @@
         {
             "name": "DEL_DAT_ENT",
             "description": "Délai par rapport à la date d'entrée",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -101,7 +101,7 @@
         {
             "name": "ETE_GHS_NUM",
             "description": "N° GHS (format num)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -129,7 +129,7 @@
         {
             "name": "FAC_MNT",
             "description": "Montant total de la dépense",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -171,7 +171,7 @@
         {
             "name": "MCO_COE",
             "description": "Coefficient MCO",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -185,7 +185,7 @@
         {
             "name": "NOE_MNR",
             "description": "Montant remboursé NOEMIE Retour",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -227,7 +227,7 @@
         {
             "name": "PRI_UNI",
             "description": "Prix Unitaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "7",
             "format": "default",
@@ -269,7 +269,7 @@
         {
             "name": "REM_BAS",
             "description": "Montant Base remboursement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -283,7 +283,7 @@
         {
             "name": "REM_TAU",
             "description": "Taux applicable à la prestation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",

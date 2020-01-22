@@ -17,7 +17,7 @@
         {
             "name": "INV_PEN_CAT",
             "description": "Catégorie de la pension d'invalidité",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_CIV_V",
             "length": "2",
             "format": "default",
@@ -31,7 +31,7 @@
         {
             "name": "INV_PEN_ETA",
             "description": "Etat de la pension d'invalidité",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_EIN_V",
             "length": "2",
             "format": "default",
@@ -59,7 +59,7 @@
         {
             "name": "DCT_ORD_NUM",
             "description": "numéro d'ordre du décompte dans l'organisme",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "9",
             "format": "default",
@@ -87,7 +87,7 @@
         {
             "name": "FLX_EMT_NUM",
             "description": "numéro d'émetteur du flux",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_NEM_T",
             "length": "4",
             "format": "default",
@@ -101,7 +101,7 @@
         {
             "name": "FLX_EMT_ORD",
             "description": "numéro de séquence du flux",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -115,7 +115,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TYT_V",
             "length": "2",
             "format": "default",
@@ -157,7 +157,7 @@
         {
             "name": "PRS_ORD_NUM",
             "description": "Numéro d'ordre de la prestation dans le décompte",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -171,7 +171,7 @@
         {
             "name": "REM_TYP_AFF",
             "description": "type de remboursement affiné",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",

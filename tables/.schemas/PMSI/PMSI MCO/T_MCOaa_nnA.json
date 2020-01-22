@@ -73,7 +73,7 @@
         {
             "name": "ENT_DAT_DEL",
             "description": "Délai depuis la date d'entrée\nVariable de type Caractère de 2005 à 2013, puis de type numérique à partir de 2014",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -129,7 +129,7 @@
         {
             "name": "NBR_EXE_ACT",
             "description": "Nombre de réalisations de l'acte n° 1 pendant le séjour",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",

@@ -28,7 +28,7 @@
         {
             "name": "MNT_TOT_TTC",
             "description": "Montant total TTC",
-            "type": "number",
+            "type": "integer",
             "length": "9",
             "dateCreated": "2016",
             "dateDeleted": "",

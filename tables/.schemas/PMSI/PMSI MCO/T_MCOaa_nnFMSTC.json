@@ -45,7 +45,7 @@
         {
             "name": "DEL_DAT_ENT",
             "description": "Délai par rapport à la date d'entrée",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",

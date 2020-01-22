@@ -21,7 +21,7 @@
         {
             "name": "BEN_RNG_GEM",
             "description": "rang de naissance du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_BER_V",
             "length": "2",
             "format": "default",
@@ -66,7 +66,7 @@
         {
             "name": "BEN_IDT_TOP",
             "description": "Top identifiant bénéficiaire Anonymisé",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -150,7 +150,7 @@
         {
             "name": "BEN_SEX_COD",
             "description": "Code sexe du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SEX_V",
             "length": "1",
             "format": "default",
@@ -234,7 +234,7 @@
         {
             "name": "BEN_TOP_CNS",
             "description": "top consommant - non consommant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",

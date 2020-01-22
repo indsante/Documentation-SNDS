@@ -3,7 +3,7 @@
         {
             "name": "AGE_BEN_SNDS",
             "description": "Tranche d'Age Bénéficiaire au moment des soins",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "AGE_BEN_SNDS",
             "length": "2",
             "format": "default",
@@ -17,7 +17,7 @@
         {
             "name": "BEN_RES_REG",
             "description": "Région de Résidence du Bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "BEN_RES_REG",
             "length": "2",
             "format": "default",
@@ -31,7 +31,7 @@
         {
             "name": "DDP_SPE_COD",
             "description": "Discipline de Prestation Etb Exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "DDP_SPE_COD",
             "length": "3",
             "format": "default",
@@ -45,7 +45,7 @@
         {
             "name": "ETE_CAT_SNDS",
             "description": "Catégorie Etb Exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "ETE_CAT_SNDS",
             "length": "4",
             "format": "default",
@@ -59,7 +59,7 @@
         {
             "name": "ETE_REG_COD",
             "description": "Région d'Implantation Etb Exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "ETE_REG_COD",
             "length": "2",
             "format": "default",
@@ -73,7 +73,7 @@
         {
             "name": "ETE_TYP_SNDS",
             "description": "Type Etb Exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "ETE_TYP_SNDS",
             "length": "2",
             "format": "default",
@@ -87,7 +87,7 @@
         {
             "name": "ETP_CAT_SNDS",
             "description": "Catégorie Etb Prescripteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "ETP_CAT_SNDS",
             "length": "4",
             "format": "default",
@@ -101,7 +101,7 @@
         {
             "name": "ETP_REG_COD",
             "description": "Région d'Implantation Etb Prescripteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "ETP_REG_COD",
             "length": "2",
             "format": "default",
@@ -115,7 +115,7 @@
         {
             "name": "EXE_INS_REG",
             "description": "Région du PS Exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "EXE_INS_REG",
             "length": "2",
             "format": "default",
@@ -129,7 +129,7 @@
         {
             "name": "MDT_TYP_COD",
             "description": "Mode de Traitement Etb Exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "MDT_TYP_COD",
             "length": "1",
             "format": "default",
@@ -143,7 +143,7 @@
         {
             "name": "ORG_CLE_REG",
             "description": "Région de l'Organisme de Liquidation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "ORG_CLE_REG",
             "length": "2",
             "format": "default",
@@ -157,7 +157,7 @@
         {
             "name": "PRE_INS_REG",
             "description": "Région du PS Prescripteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "PRE_INS_REG",
             "length": "2",
             "format": "default",
@@ -171,7 +171,7 @@
         {
             "name": "PSE_ACT_CAT",
             "description": "Catégorie de l' Exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "PSE_ACT_CAT",
             "length": "2",
             "format": "default",
@@ -185,7 +185,7 @@
         {
             "name": "PSE_ACT_SNDS",
             "description": "Nature d'Activité PS Exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "PSE_ACT_SNDS",
             "length": "2",
             "format": "default",
@@ -199,7 +199,7 @@
         {
             "name": "PSE_SPE_SNDS",
             "description": "Spécialité Médicale PS Exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "PSE_SPE_SNDS",
             "length": "2",
             "format": "default",
@@ -213,7 +213,7 @@
         {
             "name": "PSE_STJ_SNDS",
             "description": "Statut Juridique PS Exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "PSE_STJ_SNDS",
             "length": "1",
             "format": "default",
@@ -227,7 +227,7 @@
         {
             "name": "PSP_ACT_CAT",
             "description": "Catégorie du Prescripteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "PSP_ACT_CAT",
             "length": "2",
             "format": "default",
@@ -241,7 +241,7 @@
         {
             "name": "PSP_ACT_SNDS",
             "description": "Nature d'Activité PS Prescripteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "PSP_ACT_SNDS",
             "length": "2",
             "format": "default",
@@ -255,7 +255,7 @@
         {
             "name": "PSP_SPE_SNDS",
             "description": "Spécialité Médicale PS Prescripteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "PSP_SPE_SNDS",
             "length": "2",
             "format": "default",
@@ -269,7 +269,7 @@
         {
             "name": "PSP_STJ_SNDS",
             "description": "Statut Juridique PS Prescripteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "PSP_STJ_SNDS",
             "length": "1",
             "format": "default",
@@ -311,7 +311,7 @@
         {
             "name": "MTM_NAT",
             "description": "Modulation du ticket modérateur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_MTM_V",
             "length": "1",
             "format": "default",
@@ -325,7 +325,7 @@
         {
             "name": "EXO_MTF",
             "description": "Motif d'exonération du ticket modérateur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_EXO_V",
             "length": "2",
             "format": "default",
@@ -339,7 +339,7 @@
         {
             "name": "TOP_PS5_TRG",
             "description": "Top PS5 Tous Régimes",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -367,7 +367,7 @@
         {
             "name": "ETE_IND_TAA",
             "description": "Indicateur TAA",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TAA_V",
             "length": "1",
             "format": "default",
@@ -381,7 +381,7 @@
         {
             "name": "PRS_REM_TAU",
             "description": "Taux de remboursement réel (régime obligatoire)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -395,7 +395,7 @@
         {
             "name": "PRS_NAT",
             "description": "Nature de prestation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_NAT_V",
             "length": "5",
             "format": "default",
@@ -409,7 +409,7 @@
         {
             "name": "MFT_COD",
             "description": "Code du mode de fixation des tarifs",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_MFT_V",
             "length": "2",
             "format": "default",
@@ -451,7 +451,7 @@
         {
             "name": "BEN_SEX_COD",
             "description": "Code sexe du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SEX_V",
             "length": "1",
             "format": "default",
@@ -521,7 +521,7 @@
         {
             "name": "FLT_ACT_QTE",
             "description": "Quantité de la prestation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "12",
             "format": "default",
@@ -535,7 +535,7 @@
         {
             "name": "PRS_PDS_QCP",
             "description": "Code qualificatif du parcours de soins",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_QPS_V",
             "length": "2",
             "format": "default",
@@ -563,7 +563,7 @@
         {
             "name": "ASU_NAT",
             "description": "Nature de l'assurance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ASU_V",
             "length": "3",
             "format": "default",
@@ -577,7 +577,7 @@
         {
             "name": "PRS_ACT_QTE",
             "description": "Quantité de l'acte de base",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -605,7 +605,7 @@
         {
             "name": "CPT_ENV_TYP",
             "description": "Type d'enveloppe",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ENV_V",
             "length": "3",
             "format": "default",
@@ -619,7 +619,7 @@
         {
             "name": "BEN_QLT_COD",
             "description": "Qualité du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_BEQ_V",
             "length": "3",
             "format": "default",
@@ -633,7 +633,7 @@
         {
             "name": "PRS_FJH_TYP",
             "description": "Type de prise en charge Forfait Journalier",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_FJH_V",
             "length": "2",
             "format": "default",
@@ -689,7 +689,7 @@
         {
             "name": "CPL_COD",
             "description": "Majorations hors actes CCAM - complément dacte",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_CPA_V",
             "length": "1",
             "format": "default",
@@ -717,7 +717,7 @@
         {
             "name": "PRS_REM_TYP",
             "description": "Type de remboursement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TYR_V",
             "length": "3",
             "format": "default",
@@ -745,7 +745,7 @@
         {
             "name": "ATT_NAT",
             "description": "Nature de l'accident du travail",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ATT_V",
             "length": "2",
             "format": "default",
@@ -759,7 +759,7 @@
         {
             "name": "PRS_PPU_SEC",
             "description": "Code privé - public de la Prestations",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_PPU_V",
             "length": "1",
             "format": "default",

@@ -3,7 +3,7 @@
         {
             "name": "AGE_ANN",
             "description": "Age (en années)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",

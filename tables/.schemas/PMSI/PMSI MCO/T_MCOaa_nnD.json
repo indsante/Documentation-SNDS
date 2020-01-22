@@ -17,7 +17,7 @@
         {
             "name": "DGN_ASS_NUM",
             "description": "Numero de diag par couple eta_num rsa_num",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",

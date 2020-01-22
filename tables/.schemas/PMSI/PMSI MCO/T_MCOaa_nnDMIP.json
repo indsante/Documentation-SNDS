@@ -31,7 +31,7 @@
         {
             "name": "DELAI",
             "description": "Délai entre la date d’entrée du séjour et la date de pose",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -115,7 +115,7 @@
         {
             "name": "NBR_POS",
             "description": "Nombre posé",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "10",
             "format": "default",
@@ -171,7 +171,7 @@
         {
             "name": "TIP_PRS_IDE",
             "description": "Code LPP (format numérique)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "NT_LPP",
             "length": "13",
             "format": "default",

@@ -339,7 +339,7 @@
         {
             "name": "NBR_ACT",
             "description": "Nombre d'actes",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -353,7 +353,7 @@
         {
             "name": "NBR_DGN",
             "description": "Nombre de diagnostics associés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -367,7 +367,7 @@
         {
             "name": "NBR_DGN_MPA",
             "description": "Nombre de diagnostics liés au MPA (n2)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -381,7 +381,7 @@
         {
             "name": "NBR_DGN_MPP",
             "description": "Nombre de diagnostics liés au MPP (n1)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",

@@ -157,7 +157,7 @@
         {
             "name": "NBR_EXE_ACT",
             "description": "Nombre de réalisations",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",

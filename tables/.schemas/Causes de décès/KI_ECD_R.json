@@ -17,7 +17,7 @@
         {
             "name": "DCD_IDT_TOP",
             "description": "Top apparié avec IR_BEN_R",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -45,7 +45,7 @@
         {
             "name": "BEN_IDT_TOP",
             "description": "Top identifiant bénéficiaire Anonymisé",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -87,7 +87,7 @@
         {
             "name": "CER_LIG_NUM",
             "description": "N° de ligne du certificat de décès",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -101,7 +101,7 @@
         {
             "name": "ECD_CAU_RNG",
             "description": "Rang de la cause",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",

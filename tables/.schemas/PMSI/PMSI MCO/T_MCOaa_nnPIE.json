@@ -17,7 +17,7 @@
         {
             "name": "DELAI",
             "description": "Délai entre la date d’entrée du séjour et la date de début de la prestation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
