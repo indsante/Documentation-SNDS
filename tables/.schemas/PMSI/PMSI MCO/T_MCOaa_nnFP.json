@@ -3,7 +3,7 @@
         {
             "name": "DEL_DAT_ENT",
             "description": "Délai par rapport à la date d'entrée",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -115,7 +115,7 @@
         {
             "name": "LPP_QUA",
             "description": "Quantité",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -185,7 +185,7 @@
         {
             "name": "TIP_PRS_IDE",
             "description": "Code référence LPP (format numérique)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "NT_LPP",
             "length": "13",
             "format": "default",
@@ -227,7 +227,7 @@
         {
             "name": "LPP_QUA1",
             "description": "Quantité 1",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2005",
             "dateDeleted": "2008",
@@ -269,7 +269,7 @@
         {
             "name": "LPP_QUA2",
             "description": "Quantité 2",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2005",
             "dateDeleted": "2008",

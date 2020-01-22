@@ -31,7 +31,7 @@
         {
             "name": "ACT_DNB",
             "description": "Dénombrement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -115,7 +115,7 @@
         {
             "name": "DEL_DAT_ENT",
             "description": "Délai par rapport à la date d'entrée",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -269,7 +269,7 @@
         {
             "name": "REM_TAU",
             "description": "Taux applicable à la prestation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -409,7 +409,7 @@
         {
             "name": "NOE_MNR",
             "description": "Montant remboursé NOEMIE Retour",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2007",
             "dateDeleted": "2008",
@@ -423,7 +423,7 @@
         {
             "name": "NOE_OPE",
             "description": "Nature opération récupération NOEMIE Retour",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2007",
             "dateDeleted": "2008",

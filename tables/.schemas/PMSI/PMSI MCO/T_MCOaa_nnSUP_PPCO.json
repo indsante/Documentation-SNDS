@@ -14,7 +14,7 @@
         {
             "name": "NBR_CONS_AUT_PS",
             "description": "·   Dont Nombre de consultations avec participation d'un autre professionnel de santé",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -28,7 +28,7 @@
         {
             "name": "NBR_CONS_120_SUP",
             "description": "Nombre de consultations d'une durée supérieure à 120 minutes",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -42,7 +42,7 @@
         {
             "name": "NBR_CONS_030_060",
             "description": "Nombre de consultations d'une durée comprise entre 30 et 60 minutes",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -56,7 +56,7 @@
         {
             "name": "NBR_CONS_AUT_PRO",
             "description": "·   Dont Nombre de consultations avec participation d'un autre professionnel (hors professionnel de santé)",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -70,7 +70,7 @@
         {
             "name": "NBR_CONS_PLURI_PRO",
             "description": "Nombre total de consultations avec participation d'un autre intervenant",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -84,7 +84,7 @@
         {
             "name": "NBR_CONS_PPCO_SC",
             "description": "·   Dont nb de consultations ayant également donné lieu à une prescription de chimiothérapie sous-cutanée",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -98,7 +98,7 @@
         {
             "name": "NBR_CONS_060_120",
             "description": "Nombre de consultations d'une durée comprise entre 60 et 120 minutes",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -112,7 +112,7 @@
         {
             "name": "NBR_PAT_PPCO_1ER_TRAIT",
             "description": "·   Le nombre de patients pour lesquels il s’agit d’un premier traitement de chimiothérapie orale",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -140,7 +140,7 @@
         {
             "name": "NBR_CONS_ASS_SOC",
             "description": "·   Dont Nombre de consultations avec participation d'une assistante sociale",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -154,7 +154,7 @@
         {
             "name": "NBR_CONS_AUT_MED",
             "description": "·   Dont Nombre de consultations avec participation d'un autre médecin",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -168,7 +168,7 @@
         {
             "name": "NBR_PAT_PPCO_SUP_5AN",
             "description": "·   Le nombre de patient suivis pour un traitement du cancer depuis plus de 5 ans",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -182,7 +182,7 @@
         {
             "name": "NBR_CONS_INFIRM",
             "description": "·   Dont Nombre de consultations avec participation d'un infirmier",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -196,7 +196,7 @@
         {
             "name": "NBR_PAT_PPCO",
             "description": "Nombre total de patients ayant eu une consultation médicale de primo-prescription de traitement de chimiothérapie par voie orale pendant l’année",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -210,7 +210,7 @@
         {
             "name": "NBR_CONS_PPCO",
             "description": "Nombre total de consultations médicales pour primo-prescription de traitement de chimiothérapie par voie orale pendant l’année",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -224,7 +224,7 @@
         {
             "name": "NBR_CONS_PPCO_IV",
             "description": "·   Dont nb de consultations ayant également donné lieu à une prescription de chimiothérapie par voie IV",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -238,7 +238,7 @@
         {
             "name": "NBR_PAT_PPCO_INF_1AN",
             "description": "·   Le nombre de patients vus pour la première fois cette année",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -252,7 +252,7 @@
         {
             "name": "NBR_TOT_PAT",
             "description": "File active de patients ayant un traitement du cancer par chimiothérapie orale",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -280,7 +280,7 @@
         {
             "name": "NBR_PAT_PPCO_SUP_1AN",
             "description": "·   Le nombre de patients suivis pour un traitement du cancer depuis plus d’un an",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -294,7 +294,7 @@
         {
             "name": "NBR_CONS_PHARMA",
             "description": "·   Dont Nombre de consultations avec participation d'un pharmacien",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -308,7 +308,7 @@
         {
             "name": "NBR_CONS_000_030",
             "description": "Nombre de consultations d'une durée inférieure à 30 minutes",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2016",
             "dateDeleted": "",

@@ -17,7 +17,7 @@
         {
             "name": "ben_sex_cod",
             "description": "Code sexe du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SEX_V",
             "length": "1",
             "format": "default",
@@ -45,7 +45,7 @@
         {
             "name": "age",
             "description": "Age du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -157,7 +157,7 @@
         {
             "name": "cmu",
             "description": "Bénéficiaire de la Couverture Maladie Universelle complémentaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -171,7 +171,7 @@
         {
             "name": "ben_dcd_dte",
             "description": "Date de décés du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -185,7 +185,7 @@
         {
             "name": "dcd_3112",
             "description": "Bénéficiaire décédé au 31 décembre de l'année N",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -213,7 +213,7 @@
         {
             "name": "ben_aah_top",
             "description": "Bénéficiaire de l'allocation adulte handicapé",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -227,7 +227,7 @@
         {
             "name": "top_CvIDM_aig",
             "description": "Syndrome coronaire aigu",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -241,7 +241,7 @@
         {
             "name": "top_CvCoron_chr",
             "description": "Maladie coronaire chronique",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -255,7 +255,7 @@
         {
             "name": "sup_CvIDMCor_cat",
             "description": "Maladie coronaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -269,7 +269,7 @@
         {
             "name": "top_CvAVC_aig",
             "description": "Accident vasculaire cérébral aigu",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -283,7 +283,7 @@
         {
             "name": "top_CvAVC_seq",
             "description": "Séquelle d'accident vasculaire cérébral",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -297,7 +297,7 @@
         {
             "name": "sup_CvAVC_cat",
             "description": "Accident vasculaire cérébral",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -311,7 +311,7 @@
         {
             "name": "top_CvIC_aig",
             "description": "Insuffisance cardiaque aiguë",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -325,7 +325,7 @@
         {
             "name": "top_CvIC_chr",
             "description": "Insuffisance cardiaque chronique",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -339,7 +339,7 @@
         {
             "name": "sup_CvIC_cat",
             "description": "Insuffisance cardiaque",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -353,7 +353,7 @@
         {
             "name": "top_CvAOMI_ind",
             "description": "Artériopathie oblitérante du membre inférieur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -367,7 +367,7 @@
         {
             "name": "top_CvTrRyC_ind",
             "description": "Troubles du rythme ou de la conduction cardiaque",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -381,7 +381,7 @@
         {
             "name": "top_CvValve_ind",
             "description": "Maladie valvulaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -395,7 +395,7 @@
         {
             "name": "top_CvEmbol_aig",
             "description": "Embolie pulmonaire aiguë",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -409,7 +409,7 @@
         {
             "name": "top_CvAutre_ind",
             "description": "Autres affections cardiovasculaires",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -423,7 +423,7 @@
         {
             "name": "sup_Cvaig_cat",
             "description": "Maladies cardioneurovasculaires aigues",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -437,7 +437,7 @@
         {
             "name": "sup_Cvchr_cat",
             "description": "Maladies cardioneurovasculaires chroniques",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -451,7 +451,7 @@
         {
             "name": "sup_Cv_cat",
             "description": "Maladies cardioneurovasculaires",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -465,7 +465,7 @@
         {
             "name": "top_FAntiHTA_med",
             "description": "Traitements antihypertenseurs (hors pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -479,7 +479,7 @@
         {
             "name": "sup_FAntiHTA_med_nnexclu",
             "description": "Traitements antihypertenseurs (avec ou sans pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -493,7 +493,7 @@
         {
             "name": "top_FHypoLi_med",
             "description": "Traitements hypolipémiants (hors pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -507,7 +507,7 @@
         {
             "name": "sup_FHypoLi_med_nnexclu",
             "description": "Traitements hypolipémiants (avec ou sans pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -521,7 +521,7 @@
         {
             "name": "sup_FRV_cat",
             "description": "Traitements du risque vasculaire (hors pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -535,7 +535,7 @@
         {
             "name": "sup_FRV_cat_nnexclu",
             "description": "Traitements du risque vasculaire (avec ou sans pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -549,7 +549,7 @@
         {
             "name": "top_FDiabet_ind",
             "description": "Diabète",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -563,7 +563,7 @@
         {
             "name": "sup_FInsul_ind",
             "description": "Diabète insulino-traité",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -577,7 +577,7 @@
         {
             "name": "sup_FInsulNO_ind",
             "description": "Diabète non insulino-traité",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -591,7 +591,7 @@
         {
             "name": "sup_FRVDiab_cat",
             "description": "Diabète (avec ou sans pathologies) ou traitements du risque vasculaire (hors pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -605,7 +605,7 @@
         {
             "name": "top_CanSeiF_act",
             "description": "Cancer du sein de la femme actif",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -619,7 +619,7 @@
         {
             "name": "top_CanSeiF_sur",
             "description": "Cancer du sein de la femme sous surveillance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -633,7 +633,7 @@
         {
             "name": "sup_CanSeiF_cat",
             "description": "Cancer du sein de la femme",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -647,7 +647,7 @@
         {
             "name": "top_CanColo_act",
             "description": "Cancer du côlon actif",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -661,7 +661,7 @@
         {
             "name": "top_CanColo_sur",
             "description": "Cancer du côlon sous surveillance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -675,7 +675,7 @@
         {
             "name": "sup_CanColo_cat",
             "description": "Cancer du côlon",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -689,7 +689,7 @@
         {
             "name": "top_CanPoum_act",
             "description": "Cancer du poumon actif",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -703,7 +703,7 @@
         {
             "name": "top_CanPoum_sur",
             "description": "Cancer du poumon sous surveillance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -717,7 +717,7 @@
         {
             "name": "sup_CanPoum_cat",
             "description": "Cancer du poumon",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -731,7 +731,7 @@
         {
             "name": "top_CanPros_act",
             "description": "Cancer de la prostate actif",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -745,7 +745,7 @@
         {
             "name": "top_CanPros_sur",
             "description": "Cancer de la prostate sous surveillance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -759,7 +759,7 @@
         {
             "name": "sup_CanPros_cat",
             "description": "Cancer de la prostate",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -773,7 +773,7 @@
         {
             "name": "top_CanAutr_act",
             "description": "Autres cancers actifs",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -787,7 +787,7 @@
         {
             "name": "top_CanAutr_sur",
             "description": "Autres cancers sous surveillance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -801,7 +801,7 @@
         {
             "name": "sup_CanAutr_cat",
             "description": "Autres cancers",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -815,7 +815,7 @@
         {
             "name": "sup_CanAct_cat",
             "description": "Cancers actifs",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -829,7 +829,7 @@
         {
             "name": "sup_CanSur_cat",
             "description": "Cancers sous surveillance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -843,7 +843,7 @@
         {
             "name": "sup_Can_cat",
             "description": "Cancers",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -857,7 +857,7 @@
         {
             "name": "top_Psychos_ind",
             "description": "Troubles psychotiques",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -871,7 +871,7 @@
         {
             "name": "top_PDepNev_ind",
             "description": "Troubles névrotiques et de l'humeur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -885,7 +885,7 @@
         {
             "name": "sup_PTrBipo_ind",
             "description": "Troubles maniaques et bipolaires",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -899,7 +899,7 @@
         {
             "name": "sup_PTrDHum_ind",
             "description": "Dépression et autres troubles de l'humeur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -913,7 +913,7 @@
         {
             "name": "sup_PTrNevr_ind",
             "description": "Troubles névrotiques liés au stress et somatoformes",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -927,7 +927,7 @@
         {
             "name": "top_PRetard_ind",
             "description": "Déficience mentale",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -941,7 +941,7 @@
         {
             "name": "top_PAddict_ind",
             "description": "Troubles addictifs",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -955,7 +955,7 @@
         {
             "name": "sup_PAddAlc_ind",
             "description": "Troubles addictifs liés à l'utilisation d'alcool",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -969,7 +969,7 @@
         {
             "name": "sup_PAddTab_ind",
             "description": "Troubles addictifs liés à l'utilisation du tabac",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -983,7 +983,7 @@
         {
             "name": "sup_PAddCan_ind",
             "description": "Troubles addictifs liés à l'utilisation du cannabis",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -997,7 +997,7 @@
         {
             "name": "sup_PAddAut_ind",
             "description": "Troubles addictifs (hormis ceux liés à l'utilisation d'alcool, du tabac et du cannabis)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1011,7 +1011,7 @@
         {
             "name": "top_PTrEnfa_ind",
             "description": "Troubles psychiatriques débutant dans l'enfance",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1025,7 +1025,7 @@
         {
             "name": "top_PsyAutr_ind",
             "description": "Autres troubles psychiatriques",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1039,7 +1039,7 @@
         {
             "name": "sup_PsyPat_cat",
             "description": "Maladies psychiatriques",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1053,7 +1053,7 @@
         {
             "name": "top_PAntiDe_med",
             "description": "Traitements antidépresseurs ou régulateurs de l'humeur (hors pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1067,7 +1067,7 @@
         {
             "name": "sup_PAntiDe_med_nnexclu",
             "description": "Traitements antidépresseurs ou régulateurs de l'humeur (avec ou sans pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1081,7 +1081,7 @@
         {
             "name": "top_PNeurol_med",
             "description": "Traitements neuroleptiques (hors pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1095,7 +1095,7 @@
         {
             "name": "sup_PNeurol_med_nnexclu",
             "description": "Traitements neuroleptiques (avec ou sans pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1109,7 +1109,7 @@
         {
             "name": "top_PAnxiol_med",
             "description": "Traitements anxiolytiques (hors pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1123,7 +1123,7 @@
         {
             "name": "sup_PAnxiol_med_nnexclu",
             "description": "Traitements anxiolytiques (avec ou sans pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1137,7 +1137,7 @@
         {
             "name": "top_PHypnot_med",
             "description": "Traitements hypnotiques (hors pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1151,7 +1151,7 @@
         {
             "name": "sup_PHypnot_med_nnexclu",
             "description": "Traitements hypnotiques (avec ou sans pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1165,7 +1165,7 @@
         {
             "name": "sup_PsyMed_cat",
             "description": "Traitements psychotropes (hors pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1179,7 +1179,7 @@
         {
             "name": "sup_PsyMed_cat_nnexclu",
             "description": "Traitements psychotropes (avec ou sans pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1193,7 +1193,7 @@
         {
             "name": "sup_Psy_cat",
             "description": "Maladies psychiatriques ou psychotropes",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1207,7 +1207,7 @@
         {
             "name": "top_NDemenc_ind",
             "description": "Démences (dont maladie d'Alzheimer)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1221,7 +1221,7 @@
         {
             "name": "sup_NDemAlz_ind",
             "description": "Maladie d'Alzheimer",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1235,7 +1235,7 @@
         {
             "name": "sup_NDemAut_ind",
             "description": "Autres démences",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1249,7 +1249,7 @@
         {
             "name": "top_NParkin_ind",
             "description": "Maladie de Parkinson",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1263,7 +1263,7 @@
         {
             "name": "sup_NDemPar_cat",
             "description": "Maladies dégénératives (démences et Parkinson)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1277,7 +1277,7 @@
         {
             "name": "top_NSePlaq_ind",
             "description": "Sclérose en plaque",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1291,7 +1291,7 @@
         {
             "name": "top_NParapl_ind",
             "description": "Paraplégie",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1305,7 +1305,7 @@
         {
             "name": "top_NMyoMya_ind",
             "description": "Myopathie ou myasthénie",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1319,7 +1319,7 @@
         {
             "name": "top_NEpilep_ind",
             "description": "Epilepsie",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1333,7 +1333,7 @@
         {
             "name": "top_NAutres_ind",
             "description": "Autres affections neurologiques",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1347,7 +1347,7 @@
         {
             "name": "sup_Neuro_cat",
             "description": "Maladies neurologiques",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1361,7 +1361,7 @@
         {
             "name": "sup_NeuDeg_cat",
             "description": "Maladies neurologiques ou dégénératives",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1375,7 +1375,7 @@
         {
             "name": "top_ABPCOIr_ind",
             "description": "Maladies respiratoires chroniques (hors mucoviscidose)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1389,7 +1389,7 @@
         {
             "name": "sup_ABPCOIr_ind_nnexclu",
             "description": "Maladies respiratoires chroniques (avec ou sans mucoviscidose)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1403,7 +1403,7 @@
         {
             "name": "top_IRCrRCH_ind",
             "description": "Maladies inflammatoires chroniques intestinales",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1417,7 +1417,7 @@
         {
             "name": "top_IRPolyA_ind",
             "description": "Polyarthrite rhumatoïde et maladies apparentées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1431,7 +1431,7 @@
         {
             "name": "top_IRSponA_ind",
             "description": "Spondylarthrite ankylosante et maladies apparentées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1445,7 +1445,7 @@
         {
             "name": "top_IRautre_ind",
             "description": "Autres maladies inflammatoires chroniques",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1459,7 +1459,7 @@
         {
             "name": "sup_Inflam_cat",
             "description": "Maladies inflammatoires chroniques",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1473,7 +1473,7 @@
         {
             "name": "top_IRMMHer_ind",
             "description": "Maladies métaboliques héréditaires ou amylose",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1487,7 +1487,7 @@
         {
             "name": "top_IRMuco_ind",
             "description": "Mucoviscidose",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1501,7 +1501,7 @@
         {
             "name": "top_IRHemop_ind",
             "description": "Hémophilie ou troubles de l'hémostase graves",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1515,7 +1515,7 @@
         {
             "name": "sup_IRHemop_ind_exclu",
             "description": "Hémophilie",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1529,7 +1529,7 @@
         {
             "name": "sup_IRTrHemoSev_ind",
             "description": "Autres troubles de l'hémostase graves",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1543,7 +1543,7 @@
         {
             "name": "sup_Rares_cat",
             "description": "Maladies rares",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1557,7 +1557,7 @@
         {
             "name": "top_IRVih_ind",
             "description": "VIH ou SIDA",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1571,7 +1571,7 @@
         {
             "name": "sup_InfRarVIH_cat",
             "description": "Maladies inflammatoires ou rares ou VIH ou SIDA",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1585,7 +1585,7 @@
         {
             "name": "top_RDialyse_ind",
             "description": "Dialyse chronique",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1599,7 +1599,7 @@
         {
             "name": "sup_RHemDia_ind",
             "description": "Hémodialyse chronique",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1613,7 +1613,7 @@
         {
             "name": "sup_RDiaPer_ind",
             "description": "Dialyse péritonéale chronique",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1627,7 +1627,7 @@
         {
             "name": "top_Rtrans_aig",
             "description": "Transplantation rénale",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1641,7 +1641,7 @@
         {
             "name": "top_Rtrans_chr",
             "description": "Suivi de transplantation rénale",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1655,7 +1655,7 @@
         {
             "name": "sup_RDiaCou_ind",
             "description": "Dialyse courte",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1669,7 +1669,7 @@
         {
             "name": "sup_RIRCT_cat",
             "description": "Insuffisance rénale chronique terminale",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1683,7 +1683,7 @@
         {
             "name": "top_HFoiPan_ind",
             "description": "Maladies du foie ou du pancréas (hors mucoviscidose)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1697,7 +1697,7 @@
         {
             "name": "sup_HFoiPan_ind_nnexclu",
             "description": "Maladies du foie ou du pancréas (avec ou sans mucoviscidose)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1711,7 +1711,7 @@
         {
             "name": "sup_HFoi_ind",
             "description": "Maladies du foie (hors mucoviscidose)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1725,7 +1725,7 @@
         {
             "name": "sup_HPan_ind",
             "description": "Maladies du pancréas (hors mucoviscidose)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1739,7 +1739,7 @@
         {
             "name": "top_ALDAutr_ind",
             "description": "Autres affections de longue durée (dont 31 et 32)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1753,7 +1753,7 @@
         {
             "name": "sup_ALDAutr_0_ind",
             "description": "Autres affections de longue durée non retrouvées ou non ventilées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1767,7 +1767,7 @@
         {
             "name": "sup_ALDAutr_2_ind",
             "description": "Autres affections de longue durée pour insuffisances médullaires et autres cytopénies chroniques",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1781,7 +1781,7 @@
         {
             "name": "sup_ALDAutr_4_ind",
             "description": "Autres affections de longue durée pour bilharziose compliquée",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1795,7 +1795,7 @@
         {
             "name": "sup_ALDAutr_10_ind",
             "description": "Autres affections de longue durée pour hémoglobinopathies, hémolyses chroniques constitutionnelles et acquises sévères",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1809,7 +1809,7 @@
         {
             "name": "sup_ALDAutr_19_ind",
             "description": "Autres affections de longue durée pour néphropathie chronique grave et syndrome néphrotique primitif (hors IRCT)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1823,7 +1823,7 @@
         {
             "name": "sup_ALDAutr_23_ind",
             "description": "Autres affections de longue durée pour affections psychiatriques (anomalies chromosomiques)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1837,7 +1837,7 @@
         {
             "name": "sup_ALDAutr_26_ind",
             "description": "Autres affections de longue durée pour scoliose structurale évolutive",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1851,7 +1851,7 @@
         {
             "name": "sup_ALDAutr_29_ind",
             "description": "Autres affections de longue durée pour tuberculose active, lèpre",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1865,7 +1865,7 @@
         {
             "name": "sup_ALDAutr_30_ind",
             "description": "Autres affections de longue durée pour tumeurs à évolution imprévisible ou inconnue",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1879,7 +1879,7 @@
         {
             "name": "sup_ALDAutr_31_ind",
             "description": "Autres affections de longue durée hors liste (31)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1893,7 +1893,7 @@
         {
             "name": "sup_ALDAutr_32_ind",
             "description": "Autres affections de longue durée pour polypathologie (32)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1907,7 +1907,7 @@
         {
             "name": "sup_Patho_cat_exclu",
             "description": "Au moins une pathologie",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1921,7 +1921,7 @@
         {
             "name": "sup_Patho_cat_nnexclu",
             "description": "Au moins une pathologie ou traitement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1935,7 +1935,7 @@
         {
             "name": "top_Materni_ind",
             "description": "Maternité (avec ou sans pathologies)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1949,7 +1949,7 @@
         {
             "name": "sup_Materni_ind_exclu",
             "description": "Maternité (hors pathologies et traitements)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1963,7 +1963,7 @@
         {
             "name": "sup_PatMat_cat",
             "description": "Au moins une pathologie, traitement ou maternité",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1977,7 +1977,7 @@
         {
             "name": "sup_hospit_ponct",
             "description": "Hospitalisations ponctuelles (avec ou sans pathologies, traitements ou maternité)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1991,7 +1991,7 @@
         {
             "name": "sup_hospit_ponct_exclu",
             "description": "Hospitalisations ponctuelles (hors pathologies, traitements ou maternité)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -2005,7 +2005,7 @@
         {
             "name": "sup_PatMatHos_cat",
             "description": "Au moins une pathologie, traitement, maternité ou hospitalisation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -2019,7 +2019,7 @@
         {
             "name": "sup_Petit_Conso",
             "description": "Pas de pathologies, traitements, maternité ou hospitalisations",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -2033,7 +2033,7 @@
         {
             "name": "sup_Arthros_med",
             "description": "Traitement antalgique ou anti-inflammatoire (hors pathologies, traitements, maternité ou hospitalisations)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -2047,7 +2047,7 @@
         {
             "name": "sup_AINS_med",
             "description": "Traitement AINS (hors pathologies, traitements, maternité ou hospitalisations)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -2061,7 +2061,7 @@
         {
             "name": "sup_Antalg_med",
             "description": "Traitement antalgique (hors pathologies, traitements, maternité ou hospitalisations)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -2075,7 +2075,7 @@
         {
             "name": "sup_ACorti_med",
             "description": "Traitement corticoide (hors pathologies, traitements, maternité ou hospitalisations)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -2089,7 +2089,7 @@
         {
             "name": "sup_Arthros_med_nnexclu",
             "description": "Traitement antalgique ou anti-inflammatoire (avec ou sans pathologies, traitements, maternité ou hospitalisations)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -2103,7 +2103,7 @@
         {
             "name": "sup_AINS_med_nnexclu",
             "description": "Traitement AINS (avec ou sans pathologies, traitements, maternité ou hospitalisations)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -2117,7 +2117,7 @@
         {
             "name": "sup_Antalg_med_nnexclu",
             "description": "Traitement antalgique (avec ou sans pathologies, traitements, maternité ou hospitalisations)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -2131,7 +2131,7 @@
         {
             "name": "sup_ACorti_med_nnexclu",
             "description": "Traitement corticoide (avec ou sans pathologies, traitements, maternité ou hospitalisations)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -2145,7 +2145,7 @@
         {
             "name": "sup_Petit_Conso_exclu",
             "description": "Pas de pathologies, traitements, maternité, hospitalisations ou traitement antalgique ou anti-inflammatoire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -2159,7 +2159,7 @@
         {
             "name": "sup_PopTot_cat",
             "description": "Total consommants régime général + sections locales mutualistes",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",

@@ -28,7 +28,7 @@
         {
             "name": "NBR_SOR_PRIM",
             "description": "Nombre de sorties primaires",
-            "type": "number",
+            "type": "integer",
             "length": "6",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -56,7 +56,7 @@
         {
             "name": "NBR_SOR_SND",
             "description": "Nombre de sorties secondaires",
-            "type": "number",
+            "type": "integer",
             "length": "6",
             "dateCreated": "2016",
             "dateDeleted": "",
@@ -98,7 +98,7 @@
         {
             "name": "NBR_TIIH",
             "description": "Nombre TIIH (transfert infirmier inter-hospitalier)",
-            "type": "number",
+            "type": "integer",
             "length": "6",
             "dateCreated": "2016",
             "dateDeleted": "",

@@ -17,7 +17,7 @@
         {
             "name": "ben_sex_cod",
             "description": "Code sexe du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SEX_V",
             "length": "1",
             "format": "default",
@@ -45,7 +45,7 @@
         {
             "name": "age",
             "description": "Age du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -157,7 +157,7 @@
         {
             "name": "cmu",
             "description": "Bénéficiaire de la Couverture Maladie Universelle complémentaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -185,7 +185,7 @@
         {
             "name": "ben_aah_top",
             "description": "Bénéficiaire de l'allocation adulte handicapé",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -199,7 +199,7 @@
         {
             "name": "ben_dcd_dte",
             "description": "Date de décès du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -213,7 +213,7 @@
         {
             "name": "dcd_3112",
             "description": "Bénéficiaire décédé au 31 décembre de l'année N",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -227,7 +227,7 @@
         {
             "name": "DEP_SDV_HONOGEN_MNT",
             "description": "Soins de généralistes remboursés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -241,7 +241,7 @@
         {
             "name": "DEP_SDV_HONOGEN_BSE",
             "description": "Soins de généralistes remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -255,7 +255,7 @@
         {
             "name": "DEP_SDV_HONOSPE_MNT",
             "description": "Soins autres spécialistes remboursés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -269,7 +269,7 @@
         {
             "name": "DEP_SDV_HONOSPE_BSE",
             "description": "Soins autres spécialistes remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -283,7 +283,7 @@
         {
             "name": "DEP_SDV_HONODENT_MNT",
             "description": "Soins dentaires remboursés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -297,7 +297,7 @@
         {
             "name": "DEP_SDV_HONODENT_BSE",
             "description": "Soins dentaires remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -311,7 +311,7 @@
         {
             "name": "DEP_SDV_SAGEFEMME_MNT",
             "description": "Soins de sages-femmes remboursés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -325,7 +325,7 @@
         {
             "name": "DEP_SDV_SAGEFEMME_BSE",
             "description": "Soins de sages-femmes remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -339,7 +339,7 @@
         {
             "name": "DEP_SDV_KINE_MNT",
             "description": "Soins de kinésithérapie remboursés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -353,7 +353,7 @@
         {
             "name": "DEP_SDV_KINE_BSE",
             "description": "Soins de kinésithérapie remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -367,7 +367,7 @@
         {
             "name": "DEP_SDV_INFIRMIER_MNT",
             "description": "Soins infirmiers remboursés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -381,7 +381,7 @@
         {
             "name": "DEP_SDV_INFIRMIER_BSE",
             "description": "Soins infirmiers remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -395,7 +395,7 @@
         {
             "name": "DEP_SDV_AUTRESAUXIL_MNT",
             "description": "Soins d'autres paramédicaux remboursés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -409,7 +409,7 @@
         {
             "name": "DEP_SDV_AUTRESAUXIL_BSE",
             "description": "Soins d'autres paramédicaux remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -423,7 +423,7 @@
         {
             "name": "DEP_SDV_BIO_MNT",
             "description": "Biologie remboursée",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -437,7 +437,7 @@
         {
             "name": "DEP_SDV_BIO_BSE",
             "description": "Biologie remboursable",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -451,7 +451,7 @@
         {
             "name": "DEP_SDV_PHARMACIE_MNT",
             "description": "Médicaments remboursés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -465,7 +465,7 @@
         {
             "name": "DEP_SDV_PHARMACIE_BSE",
             "description": "Médicaments remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -479,7 +479,7 @@
         {
             "name": "DEP_SDV_LPP_MNT",
             "description": "Autres produits de santé remboursés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -493,7 +493,7 @@
         {
             "name": "DEP_SDV_LPP_BSE",
             "description": "Autres produits de santé remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -507,7 +507,7 @@
         {
             "name": "DEP_SDV_TRANSPORT_MNT",
             "description": "Transports remboursés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -521,7 +521,7 @@
         {
             "name": "DEP_SDV_TRANSPORT_BSE",
             "description": "Transports remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -535,7 +535,7 @@
         {
             "name": "DEP_SDV_AUTRES_MNT",
             "description": "Autres dépenses de soins de ville remboursés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -549,7 +549,7 @@
         {
             "name": "DEP_SDV_AUTRES_BSE",
             "description": "Autres dépenses de soins de ville remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -563,7 +563,7 @@
         {
             "name": "TOT_DEP_SDV_MNT",
             "description": "Total soins de ville remboursés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -577,7 +577,7 @@
         {
             "name": "TOT_DEP_SDV_BSE",
             "description": "Total soins de ville remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -591,7 +591,7 @@
         {
             "name": "DEP_DGF_MCOSEJOUR_MNT",
             "description": "Hospitalisations séjour MCO secteur public remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -605,7 +605,7 @@
         {
             "name": "DEP_DGF_MCOSEJOUR_BSE",
             "description": "Hospitalisations séjour MCO secteur public remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -619,7 +619,7 @@
         {
             "name": "DEP_DGF_MCOSUS_MNT",
             "description": "Hospitalisations liste en sus MCO secteur public remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -633,7 +633,7 @@
         {
             "name": "DEP_DGF_MCOSUS_BSE",
             "description": "Hospitalisations liste en sus MCO secteur public remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -647,7 +647,7 @@
         {
             "name": "dep_OQN_MCOSEJOUR_MNT",
             "description": "Hospitalisations séjour MCO secteur privé remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -661,7 +661,7 @@
         {
             "name": "dep_OQN_MCOSEJOUR_BSE",
             "description": "Hospitalisations séjour MCO secteur privé remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -675,7 +675,7 @@
         {
             "name": "DEP_OQN_MCOSUS_MNT",
             "description": "Hospitalisations liste en sus MCO secteur privé remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -689,7 +689,7 @@
         {
             "name": "DEP_OQN_MCOSUS_BSE",
             "description": "Hospitalisations liste en sus MCO secteur privé remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -703,7 +703,7 @@
         {
             "name": "DEP_DGF_ACE_MNT",
             "description": "Actes et consultations externes MCO secteur public remboursés",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -717,7 +717,7 @@
         {
             "name": "DEP_DGF_ACE_BSE",
             "description": "Actes et consultations externes MCO secteur public remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -731,7 +731,7 @@
         {
             "name": "DEP_DGF_PSY_MNT",
             "description": "Hospitalisations en psychiatrie secteur public remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -745,7 +745,7 @@
         {
             "name": "DEP_DGF_PSY_BSE",
             "description": "Hospitalisations en psychiatrie secteur public remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -759,7 +759,7 @@
         {
             "name": "dep_OQN_PSY_MNT",
             "description": "Hospitalisations en psychiatrie secteur privé remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -773,7 +773,7 @@
         {
             "name": "dep_OQN_PSY_BSE",
             "description": "Hospitalisations en psychiatrie secteur privé remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -787,7 +787,7 @@
         {
             "name": "DEP_DGF_SSR_MNT",
             "description": "Hospitalisations en SSR secteur public remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -801,7 +801,7 @@
         {
             "name": "DEP_DGF_SSR_BSE",
             "description": "Hospitalisations en SSR secteur public remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -815,7 +815,7 @@
         {
             "name": "dep_OQN_SSR_MNT",
             "description": "Hospitalisations en SSR secteur privé remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -829,7 +829,7 @@
         {
             "name": "dep_OQN_SSR_BSE",
             "description": "Hospitalisations en SSR secteur privé remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -843,7 +843,7 @@
         {
             "name": "DEP_DGF_HAD_MNT",
             "description": "Hospitalisations en HAD secteur public remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -857,7 +857,7 @@
         {
             "name": "DEP_DGF_HAD_BSE",
             "description": "Hospitalisations en HAD secteur public remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -871,7 +871,7 @@
         {
             "name": "DEP_OQN_HAD_MNT",
             "description": "Hospitalisations en HAD secteur privé remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -885,7 +885,7 @@
         {
             "name": "DEP_OQN_HAD_BSE",
             "description": "Hospitalisations en HAD secteur privé remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -899,7 +899,7 @@
         {
             "name": "TOT_DEP_HOP_MNT",
             "description": "Total hospitalisations (tous secteurs) remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -913,7 +913,7 @@
         {
             "name": "TOT_DEP_HOP_BSE",
             "description": "Total hospitalisations (tous secteurs) remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -927,7 +927,7 @@
         {
             "name": "DEP_IJMALATMP_MNT",
             "description": "Indemnités journalières maladie et AT-MP remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -941,7 +941,7 @@
         {
             "name": "DEP_IJMALATMP_BSE",
             "description": "Indemnités journalières maladie et AT-MP remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -955,7 +955,7 @@
         {
             "name": "DEP_IJMATER_MNT",
             "description": "Indemnités journalières maternité et autres prestations remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -969,7 +969,7 @@
         {
             "name": "DEP_IJMATER_BSE",
             "description": "Indemnités journalières maternité et autres prestations remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -983,7 +983,7 @@
         {
             "name": "DEP_INVALID_MNT",
             "description": "Prestations d'invalidité remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -997,7 +997,7 @@
         {
             "name": "DEP_INVALID_BSE",
             "description": "Prestations d'invalidité remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1011,7 +1011,7 @@
         {
             "name": "TOT_DEP_PRESESPECE_MNT",
             "description": "Total prestations en espèces remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1025,7 +1025,7 @@
         {
             "name": "TOT_DEP_PRESESPECE_BSE",
             "description": "Total prestations en espèces remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1039,7 +1039,7 @@
         {
             "name": "TOT_DEP_MNT",
             "description": "Total des dépenses remboursées",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -1053,7 +1053,7 @@
         {
             "name": "TOT_DEP_BSE",
             "description": "Total des dépenses remboursables",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",

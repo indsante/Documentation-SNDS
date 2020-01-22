@@ -14,7 +14,7 @@
         {
             "name": "DER_ACH_PRI",
             "description": "Dernier prix d'achat",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2007",
             "dateDeleted": "2009",
@@ -28,7 +28,7 @@
         {
             "name": "NBR_TOT_UCD",
             "description": "Nombre d'UCD dispensées totales",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2007",
             "dateDeleted": "2009",
@@ -70,7 +70,7 @@
         {
             "name": "NBR_ETH_UCD",
             "description": "Nombre d'UCD dispensées au titre des essais thérapeutiques",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2007",
             "dateDeleted": "2009",
@@ -84,7 +84,7 @@
         {
             "name": "MOY_PRI",
             "description": "Prix moyen",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2007",
             "dateDeleted": "2009",
@@ -98,7 +98,7 @@
         {
             "name": "FIC_TYP",
             "description": "Type de fichier",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2007",
             "dateDeleted": "2009",

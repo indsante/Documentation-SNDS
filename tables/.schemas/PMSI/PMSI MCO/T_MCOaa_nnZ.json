@@ -17,7 +17,7 @@
         {
             "name": "ETE_GHS_NUM",
             "description": "Code du supplément (n° GHS)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -45,7 +45,7 @@
         {
             "name": "NBR_SUP",
             "description": "Nombre de suppléments (Nb actes menant dans le GHS)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",

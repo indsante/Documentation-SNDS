@@ -72,7 +72,7 @@
         {
             "name": "DCT_ORD_NUM",
             "description": "numéro d'ordre du décompte dans l'organisme",
-            "type": "number",
+            "type": "integer",
             "length": "9",
             "nomenclature": "-",
             "dateCreated": "",
@@ -100,7 +100,7 @@
         {
             "name": "MTM_NAT",
             "description": "Modulation du ticket modérateur",
-            "type": "number",
+            "type": "integer",
             "length": "1",
             "nomenclature": "IR_MTM_V",
             "dateCreated": "",
@@ -114,7 +114,7 @@
         {
             "name": "PSE_STJ_COD",
             "description": "Mode d'exercice du professionnel de santé exécutant",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_SJP_V",
             "dateCreated": "",
@@ -156,7 +156,7 @@
         {
             "name": "CPL_REM_SGN",
             "description": "Signe du remboursement (complément d'acte)",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_SGN_V",
             "dateCreated": "",
@@ -170,7 +170,7 @@
         {
             "name": "PSE_CNV_COD",
             "description": "Code convention du professionnel de santé exécutant",
-            "type": "number",
+            "type": "integer",
             "length": "1",
             "nomenclature": "IR_CNV_V",
             "dateCreated": "",
@@ -212,7 +212,7 @@
         {
             "name": "EXO_MTF",
             "description": "Motif d'exonération du ticket modérateur",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_EXO_V",
             "dateCreated": "",
@@ -282,7 +282,7 @@
         {
             "name": "PSP_STJ_COD",
             "description": "Mode d'exercice du professionnel de santé prescripteur",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_SJP_V",
             "dateCreated": "",
@@ -310,7 +310,7 @@
         {
             "name": "RGO_ASU_NAT",
             "description": "Nature d'assurance (régime obligatoire)",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_ASU_V",
             "dateCreated": "",
@@ -366,7 +366,7 @@
         {
             "name": "RGO_ENV_TYP",
             "description": "Type d'enveloppe (régime obligatoire)",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_ENV_V",
             "dateCreated": "",
@@ -394,7 +394,7 @@
         {
             "name": "PRS_QTT_MAJ",
             "description": "Quantité de majorations",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "-",
             "dateCreated": "",
@@ -436,7 +436,7 @@
         {
             "name": "PRS_TOP_ENP",
             "description": "Indicateur Top Entente Préalable",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_TEK_V",
             "dateCreated": "",
@@ -464,7 +464,7 @@
         {
             "name": "PSE_SPE_COD",
             "description": "Spécialite médicale du professionnel de santé exécutant",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_SPE_V",
             "dateCreated": "",
@@ -478,7 +478,7 @@
         {
             "name": "CPL_ANO_COD",
             "description": "Code anomalie complément affiné",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_ANC_V",
             "dateCreated": "",
@@ -548,7 +548,7 @@
         {
             "name": "BEN_SEX_COD",
             "description": "Code sexe du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "length": "1",
             "nomenclature": "IR_SEX_V",
             "dateCreated": "",
@@ -590,7 +590,7 @@
         {
             "name": "PRS_OPS_TRF",
             "description": "Indicateur de tarif opposable",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_TOP_V",
             "dateCreated": "",
@@ -646,7 +646,7 @@
         {
             "name": "DRG_NAT",
             "description": "Code du destinataire du règlement",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_DRG_V",
             "dateCreated": "",
@@ -660,7 +660,7 @@
         {
             "name": "BSE_FJH_TYP",
             "description": "Type de prise en charge du forfait journalier (acte de base)",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_FJH_V",
             "dateCreated": "",
@@ -730,7 +730,7 @@
         {
             "name": "CPL_PRS_NAT",
             "description": "Nature de la prestation (complément d'acte)",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "nomenclature": "IR_NAT_V",
             "dateCreated": "",
@@ -744,7 +744,7 @@
         {
             "name": "PRS_PRE_MTT",
             "description": "Code origine de la prescription",
-            "type": "number",
+            "type": "integer",
             "length": "1",
             "nomenclature": "IR_TMT_V",
             "dateCreated": "",
@@ -758,7 +758,7 @@
         {
             "name": "CPL_MAJ_TOP",
             "description": "Top complément - majoration",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "-",
             "dateCreated": "",
@@ -772,7 +772,7 @@
         {
             "name": "IJR_EMP_NUM",
             "description": "Numéro demployeur pour les indemnités journalières",
-            "type": "number",
+            "type": "integer",
             "length": "16",
             "nomenclature": "-",
             "dateCreated": "",
@@ -786,7 +786,7 @@
         {
             "name": "RGM_COD",
             "description": "Code du petit régime",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_RGM_V",
             "dateCreated": "",
@@ -828,7 +828,7 @@
         {
             "name": "PRS_NAT_REF",
             "description": "Code de la Prestations de référence",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "IR_NAT_V",
             "dateCreated": "",
@@ -870,7 +870,7 @@
         {
             "name": "PRS_ORD_NUM",
             "description": "Numéro d'ordre de la prestation dans le décompte",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "nomenclature": "-",
             "dateCreated": "",
@@ -884,7 +884,7 @@
         {
             "name": "PSP_SPE_COD",
             "description": "Spécialité médicale du professionnel de santé prescripteur",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_SPE_V",
             "dateCreated": "",
@@ -898,7 +898,7 @@
         {
             "name": "BEN_AMA_COD",
             "description": "Age du bénéficiaire en mois (si < 2 ans) ou années (si >= 2 ans)",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "IR_AMA_V",
             "dateCreated": "",
@@ -926,7 +926,7 @@
         {
             "name": "PSE_ACT_NAT",
             "description": "Nature d'activité du professionnel de santé exécutant",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_ACT_V",
             "dateCreated": "",
@@ -940,7 +940,7 @@
         {
             "name": "BEN_QAF_COD",
             "description": "Qualité du matricule de l'ouvreur de droits",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_QBA_V",
             "dateCreated": "",
@@ -968,7 +968,7 @@
         {
             "name": "REM_TYP_AFF",
             "description": "type de remboursement affiné",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "nomenclature": "-",
             "dateCreated": "",
@@ -982,7 +982,7 @@
         {
             "name": "PRS_PDS_QTP",
             "description": "Qualificatif du parcours de soins transmis",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_QPE_V",
             "dateCreated": "",
@@ -996,7 +996,7 @@
         {
             "name": "RGO_FTA_COD",
             "description": "Forçage du taux (hors parcours de soins) (part obligatoire)",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_FOR_V",
             "dateCreated": "",
@@ -1010,7 +1010,7 @@
         {
             "name": "CPL_AFF_COD",
             "description": "Code complément affiné",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_CCA_V",
             "dateCreated": "",
@@ -1052,7 +1052,7 @@
         {
             "name": "PRS_PDS_QCP",
             "description": "Code qualificatif du parcours de soins",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_QPS_V",
             "dateCreated": "",
@@ -1164,7 +1164,7 @@
         {
             "name": "PRS_ACT_QTE",
             "description": "Quantité de l'acte de base",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "nomenclature": "-",
             "dateCreated": "",
@@ -1178,7 +1178,7 @@
         {
             "name": "PRS_DPN_QLP",
             "description": "Qualificatif de la dépense transmis",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_DEP_V",
             "dateCreated": "",
@@ -1192,7 +1192,7 @@
         {
             "name": "BSE_PRS_NAT",
             "description": "Nature de la prestation (acte de base)",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "nomenclature": "IR_NAT_V",
             "dateCreated": "",
@@ -1206,7 +1206,7 @@
         {
             "name": "RGM_GRG_COD",
             "description": "Grand régime de liquidation du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_RGM_V",
             "dateCreated": "",
@@ -1248,7 +1248,7 @@
         {
             "name": "DRG_MOD",
             "description": "Mode de règlement",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_MOD_V",
             "dateCreated": "",
@@ -1262,7 +1262,7 @@
         {
             "name": "CPL_FJH_TYP",
             "description": "Type de prise en charge du forfait journalier (complément d'acte)",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_FJH_V",
             "dateCreated": "",
@@ -1332,7 +1332,7 @@
         {
             "name": "PSP_CNV_COD",
             "description": "Code convention du professionnel de santé prescripteur",
-            "type": "number",
+            "type": "integer",
             "length": "1",
             "nomenclature": "IR_CNV_V",
             "dateCreated": "",
@@ -1430,7 +1430,7 @@
         {
             "name": "BEN_CTA_TYP",
             "description": "Type de contrat complémentaire",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "-",
             "dateCreated": "",
@@ -1472,7 +1472,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_TYT_V",
             "dateCreated": "",
@@ -1486,7 +1486,7 @@
         {
             "name": "ACC_TIE_IND",
             "description": "Top tiers responsable accident",
-            "type": "number",
+            "type": "integer",
             "length": "1",
             "nomenclature": "-",
             "dateCreated": "",
@@ -1570,7 +1570,7 @@
         {
             "name": "EXE_LIE_COD",
             "description": "Lieu d'exécution de l'acte médical",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_LIE_V",
             "dateCreated": "",
@@ -1598,7 +1598,7 @@
         {
             "name": "DPN_QLF",
             "description": "Qualificatif de la dépense",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_DEP_V",
             "dateCreated": "",
@@ -1612,7 +1612,7 @@
         {
             "name": "BSE_REM_SGN",
             "description": "Signe du remboursement (acte de base)",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_SGN_V",
             "dateCreated": "",
@@ -1654,7 +1654,7 @@
         {
             "name": "FLX_EMT_NUM",
             "description": "numéro d'émetteur du flux",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "IR_NEM_T",
             "dateCreated": "",
@@ -1682,7 +1682,7 @@
         {
             "name": "FLX_EMT_ORD",
             "description": "numéro de séquence du flux",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "-",
             "dateCreated": "",
@@ -1696,7 +1696,7 @@
         {
             "name": "PSP_ACT_NAT",
             "description": "Nature d'activite du professionnel de santé prescripteur",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_ACT_V",
             "dateCreated": "",
@@ -1710,7 +1710,7 @@
         {
             "name": "CPL_FTA_COD",
             "description": "Code de forçage du taux pour les compléments d'actes",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "-",
             "dateCreated": "",

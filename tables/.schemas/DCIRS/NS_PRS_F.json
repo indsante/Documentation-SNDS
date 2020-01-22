@@ -3,7 +3,7 @@
         {
             "name": "ACC_TIE_IND",
             "description": "Top tiers responsable accident",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "TOP_TIER_ACC",
             "length": "1",
             "format": "default",
@@ -17,7 +17,7 @@
         {
             "name": "AR1_ASU_NAT",
             "description": "Nature d'assurance autre régime que régime obligatoire (ARO) - 1ère occurrence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ASU_V",
             "length": "2",
             "format": "default",
@@ -59,7 +59,7 @@
         {
             "name": "AR1_REM_TYP",
             "description": "Type de remboursement autre régime que régime obligatoire (ARO) - 1ère occurrence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TYR_V",
             "length": "2",
             "format": "default",
@@ -73,7 +73,7 @@
         {
             "name": "AR2_ASU_NAT",
             "description": "Nature d'assurance autre régime que régime obligatoire (ARO) - 2ème occurrence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ASU_V",
             "length": "2",
             "format": "default",
@@ -115,7 +115,7 @@
         {
             "name": "AR2_REM_TYP",
             "description": "Type de remboursement autre régime que régime obligatoire (ARO) - 2ème occurrence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TYR_V",
             "length": "2",
             "format": "default",
@@ -129,7 +129,7 @@
         {
             "name": "AR3_ASU_NAT",
             "description": "Nature d'assurance autre régime que régime obligatoire (ARO) - 3ème occurrence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ASU_V",
             "length": "2",
             "format": "default",
@@ -171,7 +171,7 @@
         {
             "name": "AR3_REM_TYP",
             "description": "Type de remboursement autre régime que régime obligatoire (ARO) - 3ème occurrence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TYR_V",
             "length": "2",
             "format": "default",
@@ -199,7 +199,7 @@
         {
             "name": "BEN_AMA_COD",
             "description": "Age du bénéficiaire en mois (si < 2 ans) ou années (si >= 2 ans)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_AMA_V",
             "length": "4",
             "format": "default",
@@ -255,7 +255,7 @@
         {
             "name": "BEN_CTA_TYP",
             "description": "Type de contrat complémentaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_CTA_V",
             "length": "3",
             "format": "default",
@@ -297,7 +297,7 @@
         {
             "name": "BEN_IDT_TOP",
             "description": "Top identifiant bénéficiaire Anonymisé",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -311,7 +311,7 @@
         {
             "name": "BEN_QAF_COD",
             "description": "Qualité du matricule de l'ouvreur de droits",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_QBA_V",
             "length": "2",
             "format": "default",
@@ -409,7 +409,7 @@
         {
             "name": "CLE_DCI_JNT",
             "description": "Clé technique de jointure",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -451,7 +451,7 @@
         {
             "name": "DDP_COD",
             "description": "Code de la discipline de Prestations (ou discipline médico tarifaire)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_DDP_V",
             "length": "3",
             "format": "default",
@@ -465,7 +465,7 @@
         {
             "name": "DPN_QLF",
             "description": "Qualificatif de la dépense",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_DEP_V",
             "length": "2",
             "format": "default",
@@ -493,7 +493,7 @@
         {
             "name": "DRG_NAT",
             "description": "Code du destinataire du règlement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_DRG_V",
             "length": "2",
             "format": "default",
@@ -549,7 +549,7 @@
         {
             "name": "ETE_CAT_COD",
             "description": "Catégorie de l'établissement exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_CET_V",
             "length": "3",
             "format": "default",
@@ -577,7 +577,7 @@
         {
             "name": "ETE_GHS_NUM",
             "description": "Numéro du GHS",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_GHS_V",
             "length": "4",
             "format": "default",
@@ -591,7 +591,7 @@
         {
             "name": "ETE_IND_TAA",
             "description": "Indicateur TAA",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TAA_V",
             "length": "1",
             "format": "default",
@@ -619,7 +619,7 @@
         {
             "name": "ETE_TYP_COD",
             "description": "Code du type de l'établissement exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TYE_V",
             "length": "2",
             "format": "default",
@@ -745,7 +745,7 @@
         {
             "name": "EXO_MTF",
             "description": "Motif d'exonération du ticket modérateur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_EXO_V",
             "length": "2",
             "format": "default",
@@ -773,7 +773,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TYT_V",
             "length": "2",
             "format": "default",
@@ -843,7 +843,7 @@
         {
             "name": "MDT_COD",
             "description": "Code du mode de traitement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_MDT_V",
             "length": "2",
             "format": "default",
@@ -857,7 +857,7 @@
         {
             "name": "MFT_COD",
             "description": "Code du mode de fixation des tarifs",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_MFT_V",
             "length": "2",
             "format": "default",
@@ -871,7 +871,7 @@
         {
             "name": "MTM_NAT",
             "description": "Modulation du ticket modérateur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_MTM_V",
             "length": "1",
             "format": "default",
@@ -983,7 +983,7 @@
         {
             "name": "PRS_ACT_QTE",
             "description": "Quantité de l'acte de base",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -1095,7 +1095,7 @@
         {
             "name": "PRS_NAT_REF",
             "description": "Code de la Prestations de référence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_NAT_V",
             "length": "4",
             "format": "default",
@@ -1123,7 +1123,7 @@
         {
             "name": "PRS_PDS_QCP",
             "description": "Code qualificatif du parcours de soins",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_QPS_V",
             "length": "2",
             "format": "default",
@@ -1137,7 +1137,7 @@
         {
             "name": "PRS_PPU_SEC",
             "description": "Code privé - public de la Prestations",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_PPU_V",
             "length": "1",
             "format": "default",
@@ -1151,7 +1151,7 @@
         {
             "name": "PRS_PRE_MTT",
             "description": "Code origine de la prescription",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TMT_V",
             "length": "1",
             "format": "default",
@@ -1165,7 +1165,7 @@
         {
             "name": "PSE_ACT_NAT",
             "description": "Nature d'activité du professionnel de santé exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ACT_V",
             "length": "2",
             "format": "default",
@@ -1179,7 +1179,7 @@
         {
             "name": "PSE_ACT_SPE",
             "description": "Spécialité ou nature d'activité du professionnel de santé exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SPA_D",
             "length": "2",
             "format": "default",
@@ -1193,7 +1193,7 @@
         {
             "name": "PSE_CNV_COD",
             "description": "Code convention du professionnel de santé exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_CNV_V",
             "length": "1",
             "format": "default",
@@ -1207,7 +1207,7 @@
         {
             "name": "PSE_SPE_COD",
             "description": "Spécialite médicale du professionnel de santé exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SPE_V",
             "length": "2",
             "format": "default",
@@ -1221,7 +1221,7 @@
         {
             "name": "PSE_STJ_COD",
             "description": "Mode d'exercice du professionnel de santé exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SJP_V",
             "length": "2",
             "format": "default",
@@ -1235,7 +1235,7 @@
         {
             "name": "PSP_ACT_NAT",
             "description": "Nature d'activite du professionnel de santé prescripteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ACT_V",
             "length": "2",
             "format": "default",
@@ -1249,7 +1249,7 @@
         {
             "name": "PSP_ACT_SPE",
             "description": "Spécialité ou nature d'activité du professionnel de santé prescripteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SPA_D",
             "length": "2",
             "format": "default",
@@ -1263,7 +1263,7 @@
         {
             "name": "PSP_CNV_COD",
             "description": "Code convention du professionnel de santé prescripteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_CNV_V",
             "length": "1",
             "format": "default",
@@ -1291,7 +1291,7 @@
         {
             "name": "PSP_SPE_COD",
             "description": "Spécialité médicale du professionnel de santé prescripteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SPE_V",
             "length": "2",
             "format": "default",
@@ -1305,7 +1305,7 @@
         {
             "name": "PSP_STJ_COD",
             "description": "Mode d'exercice du professionnel de santé prescripteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SJP_V",
             "length": "2",
             "format": "default",
@@ -1319,7 +1319,7 @@
         {
             "name": "RGM_COD",
             "description": "Code du petit régime",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_RGM_V",
             "length": "3",
             "format": "default",
@@ -1333,7 +1333,7 @@
         {
             "name": "RGO_ASU_NAT",
             "description": "Nature d'assurance (régime obligatoire)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ASU_V",
             "length": "2",
             "format": "default",
@@ -1347,7 +1347,7 @@
         {
             "name": "RGO_ENV_TYP",
             "description": "Type d'enveloppe (régime obligatoire)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_ENV_V",
             "length": "2",
             "format": "default",

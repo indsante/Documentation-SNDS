@@ -42,7 +42,7 @@
         {
             "name": "NBR_PAS",
             "description": "Nombre de passages total",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2007",
             "dateDeleted": "2009",
@@ -56,7 +56,7 @@
         {
             "name": "FIC_TYP",
             "description": "Type de fichier",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2007",
             "dateDeleted": "2009",
@@ -70,7 +70,7 @@
         {
             "name": "NBR_HOS",
             "description": "Nombres d'hospitalisations",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2007",
             "dateDeleted": "2009",

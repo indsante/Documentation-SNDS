@@ -72,7 +72,7 @@
         {
             "name": "DCT_ENT_SUP",
             "description": "Type de saisie affinée",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_SAF_V",
             "dateCreated": "",
@@ -128,7 +128,7 @@
         {
             "name": "DCT_MVT_SYS",
             "description": "Type de saisie",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_SAI_V",
             "dateCreated": "",
@@ -142,7 +142,7 @@
         {
             "name": "DCT_ORD_NUM",
             "description": "numéro d'ordre du décompte dans l'organisme",
-            "type": "number",
+            "type": "integer",
             "length": "9",
             "nomenclature": "-",
             "dateCreated": "",
@@ -184,7 +184,7 @@
         {
             "name": "DCT_CTL_COD",
             "description": "Code du contrôle",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "nomenclature": "IR_CLC_V",
             "dateCreated": "",
@@ -212,7 +212,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_TYT_V",
             "dateCreated": "",
@@ -282,7 +282,7 @@
         {
             "name": "FLX_EMT_NUM",
             "description": "numéro d'émetteur du flux",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "IR_NEM_T",
             "dateCreated": "",
@@ -310,7 +310,7 @@
         {
             "name": "FLX_EMT_ORD",
             "description": "numéro de séquence du flux",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "-",
             "dateCreated": "",

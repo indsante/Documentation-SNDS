@@ -28,7 +28,7 @@
         {
             "name": "NBR_PAT_SUP1",
             "description": "Le nombre de patients suivis depuis plus d’un an",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2014",
             "dateDeleted": "",
@@ -56,7 +56,7 @@
         {
             "name": "NBR_CONS_MIG",
             "description": "Le nombre total de consultations médicales pendant l’année",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2014",
             "dateDeleted": "",
@@ -98,7 +98,7 @@
         {
             "name": "NBR_PAT_CONS",
             "description": "La file active de patients (nombre de patients vus au moins une fois en consultation au cours de l’année)",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2014",
             "dateDeleted": "",
@@ -112,7 +112,7 @@
         {
             "name": "NBR_PAT_NVX",
             "description": "Le nombre de patient vu pour la première fois cette année",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2014",
             "dateDeleted": "",
@@ -126,7 +126,7 @@
         {
             "name": "P_CONS_30_60",
             "description": "La durée des consultations entre 30 et 60 minutes",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2014",
             "dateDeleted": "",
@@ -154,7 +154,7 @@
         {
             "name": "P_CONS_60_120",
             "description": "La durée des consultations entre 60 et 120 minutes",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2014",
             "dateDeleted": "",
@@ -210,7 +210,7 @@
         {
             "name": "NBR_PAT_SUP5",
             "description": "Le nombre de patient suivis depuis plus de 5 ans",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2014",
             "dateDeleted": "",
@@ -224,7 +224,7 @@
         {
             "name": "P_CONS_SUP_120",
             "description": "La durée des consultations supérieure à 120 minutes",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2014",
             "dateDeleted": "",

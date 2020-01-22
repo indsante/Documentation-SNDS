@@ -59,7 +59,7 @@
         {
             "name": "NBR_PRS",
             "description": "Nombre de suppléments DIP",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "10",
             "format": "default",

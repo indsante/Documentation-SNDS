@@ -17,7 +17,7 @@
         {
             "name": "BEN_RNG_GEM",
             "description": "rang de naissance du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_BER_V",
             "length": "2",
             "format": "default",
@@ -59,7 +59,7 @@
         {
             "name": "BEN_EXO_MTF",
             "description": "Motif d’exonération du ticket modérateur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",

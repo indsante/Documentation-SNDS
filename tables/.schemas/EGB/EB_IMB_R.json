@@ -72,7 +72,7 @@
         {
             "name": "IMB_ETM_NAT",
             "description": "Motif d'exonération du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_ETM_V",
             "dateCreated": "",
@@ -86,7 +86,7 @@
         {
             "name": "IMB_ALD_NUM",
             "description": "Numéro d'ALD",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_ALD_V",
             "dateCreated": "",

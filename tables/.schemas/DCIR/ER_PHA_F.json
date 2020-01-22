@@ -112,7 +112,7 @@
         {
             "name": "PHA_IDE_CPL",
             "description": "Préfixe du code CIP",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "6",
             "format": "default",

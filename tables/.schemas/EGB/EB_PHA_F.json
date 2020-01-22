@@ -16,7 +16,7 @@
         {
             "name": "PHA_PRS_C13",
             "description": "Code CIP de la pharmacie de ville (13 Caractères)",
-            "type": "number",
+            "type": "integer",
             "length": "13",
             "nomenclature": "-",
             "dateCreated": "",
@@ -30,7 +30,7 @@
         {
             "name": "PHA_ORD_NUM",
             "description": "Numéro d'ordre de la prestation affinée pharmacie",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "-",
             "dateCreated": "",
@@ -44,7 +44,7 @@
         {
             "name": "PHA_ACT_QSN",
             "description": "Quantité affinée signée (= nombre de boites facturées)",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "IR_PHA_R",
             "dateCreated": "",
@@ -86,7 +86,7 @@
         {
             "name": "REM_TYP_AFF",
             "description": "type de remboursement affiné",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "nomenclature": "-",
             "dateCreated": "",
@@ -156,7 +156,7 @@
         {
             "name": "DCT_ORD_NUM",
             "description": "numéro d'ordre du décompte dans l'organisme",
-            "type": "number",
+            "type": "integer",
             "length": "9",
             "nomenclature": "-",
             "dateCreated": "",
@@ -170,7 +170,7 @@
         {
             "name": "PHA_IDE_CPL",
             "description": "Préfixe du code CIP",
-            "type": "number",
+            "type": "integer",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -184,7 +184,7 @@
         {
             "name": "PHA_PRS_IDE",
             "description": "Code CIP de la pharmacie de ville (ancien code sur 7 Caractères)",
-            "type": "number",
+            "type": "integer",
             "length": "7",
             "nomenclature": "IR_PHA_R",
             "dateCreated": "",
@@ -198,7 +198,7 @@
         {
             "name": "PHA_SEQ_RNV",
             "description": "Séquence de renouvellement",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_SEQ_V",
             "dateCreated": "",
@@ -226,7 +226,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
-            "type": "number",
+            "type": "integer",
             "length": "2",
             "nomenclature": "IR_TYT_V",
             "dateCreated": "",
@@ -268,7 +268,7 @@
         {
             "name": "PHA_DEC_QSU",
             "description": "Quantité complète de déconditionnement signée",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "IR_PHA_R",
             "dateCreated": "",
@@ -282,7 +282,7 @@
         {
             "name": "PHA_SUB_MTF",
             "description": "Motif de substitution du médicament",
-            "type": "number",
+            "type": "integer",
             "length": "1",
             "nomenclature": "IR_SUB_V",
             "dateCreated": "",
@@ -310,7 +310,7 @@
         {
             "name": "FLX_EMT_NUM",
             "description": "numéro d'émetteur du flux",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "IR_NEM_T",
             "dateCreated": "",
@@ -324,7 +324,7 @@
         {
             "name": "PRS_ORD_NUM",
             "description": "Numéro d'ordre de la prestation dans le décompte",
-            "type": "number",
+            "type": "integer",
             "length": "5",
             "nomenclature": "-",
             "dateCreated": "",
@@ -338,7 +338,7 @@
         {
             "name": "FLX_EMT_ORD",
             "description": "numéro de séquence du flux",
-            "type": "number",
+            "type": "integer",
             "length": "4",
             "nomenclature": "-",
             "dateCreated": "",

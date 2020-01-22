@@ -28,7 +28,7 @@
         {
             "name": "NBR_REA_EAL",
             "description": "Nombre réalisé en activité libérale",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2007",
             "dateDeleted": "2009",
@@ -42,7 +42,7 @@
         {
             "name": "NBR_REA_HAL",
             "description": "Nombre réalisé hors activité libérale",
-            "type": "number",
+            "type": "integer",
             "length": "8",
             "dateCreated": "2007",
             "dateDeleted": "2009",
@@ -70,7 +70,7 @@
         {
             "name": "FIC_TYP",
             "description": "Type de fichier",
-            "type": "number",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2007",
             "dateDeleted": "2009",

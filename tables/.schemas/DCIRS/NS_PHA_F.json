@@ -3,7 +3,7 @@
         {
             "name": "CLE_DCI_JNT",
             "description": "Clé technique de jointure",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -31,7 +31,7 @@
         {
             "name": "BEN_IDT_TOP",
             "description": "Top identifiant bénéficiaire Anonymisé",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -157,7 +157,7 @@
         {
             "name": "PRS_NAT_REF",
             "description": "Code de la Prestations de référence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_NAT_V",
             "length": "4",
             "format": "default",
@@ -283,7 +283,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TYT_V",
             "length": "2",
             "format": "default",
@@ -367,7 +367,7 @@
         {
             "name": "PHA_SEQ_NUM",
             "description": "Numéro séquentiel",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -381,7 +381,7 @@
         {
             "name": "PHA_PRS_C13",
             "description": "Code CIP de la pharmacie de ville (13 Caractères)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_PHA_R",
             "length": "13",
             "format": "default",
@@ -395,7 +395,7 @@
         {
             "name": "PHA_PRS_IDE",
             "description": "Code CIP de la pharmacie de ville (ancien code sur 7 Caractères)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_PHA_R",
             "length": "7",
             "format": "default",
@@ -465,7 +465,7 @@
         {
             "name": "PHA_IDE_CPL",
             "description": "Préfixe du code CIP",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
@@ -493,7 +493,7 @@
         {
             "name": "PHA_SEQ_RNV",
             "description": "Séquence de renouvellement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SEQ_V",
             "length": "2",
             "format": "default",
@@ -507,7 +507,7 @@
         {
             "name": "PHA_SUB_MTF",
             "description": "Motif de substitution du médicament",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SUB_V",
             "length": "1",
             "format": "default",
@@ -521,7 +521,7 @@
         {
             "name": "PHA_ACT_QSC",
             "description": "Nombre de conditionnements (boite, etc.)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SUB_V",
             "length": "5",
             "format": "default",
@@ -535,7 +535,7 @@
         {
             "name": "PHA_DEC_QSD",
             "description": "Nombre d'unités délivrées (comprimés, etc.) si déconditionnement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",

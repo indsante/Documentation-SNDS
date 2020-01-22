@@ -34,7 +34,7 @@
         {
             "name": "ben_rng_gem",
             "description": "rang de naissance du bénéficiaire",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_BER_V",
             "length": "2",
             "format": "default",

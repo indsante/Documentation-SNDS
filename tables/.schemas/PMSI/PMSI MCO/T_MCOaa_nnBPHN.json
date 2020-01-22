@@ -14,7 +14,7 @@
         {
             "name": "NBR_FAC_AUT_ETP",
             "description": "Nombre facturé pour un autre établissement public",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "2011",
@@ -28,7 +28,7 @@
         {
             "name": "NBR_FAC_TOT",
             "description": "Nombre total facturé",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "2011",
@@ -70,7 +70,7 @@
         {
             "name": "NBR_AUT_ETP",
             "description": "Nombre réalisé pour un autre établissement public",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "2011",
@@ -84,7 +84,7 @@
         {
             "name": "NBR_REA_TOT",
             "description": "Nombre total réalisé",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "2011",
@@ -98,7 +98,7 @@
         {
             "name": "NBR_PHE",
             "description": "Nombre réalisé pour  patients hospitalisés au sein de l’établissement",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "2011",
@@ -126,7 +126,7 @@
         {
             "name": "NBR_INC_DEM",
             "description": "Nombre réalisé autre ou demandeur inconnu",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "2011",
@@ -140,7 +140,7 @@
         {
             "name": "NBR_FAC_CON_EXT",
             "description": "Nombre facturé pour consultants externes",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "2011",
@@ -154,7 +154,7 @@
         {
             "name": "NBR_FAC_SEC_LIB",
             "description": "Nombre facturé  émanant du secteur libéral",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "2011",
@@ -168,7 +168,7 @@
         {
             "name": "NBR_CON_EXT",
             "description": "Nombre réalisé pour consultants externes",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "2011",
@@ -196,7 +196,7 @@
         {
             "name": "NBR_FAC_INC_DEM",
             "description": "Nombre facturé autre ou demandeur inconnu",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "2011",
@@ -210,7 +210,7 @@
         {
             "name": "NBR_FAC_PHE",
             "description": "Nombre facturé pour patients hospitalisés au sein de l’établissement",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "2011",
@@ -224,7 +224,7 @@
         {
             "name": "NBR_SEC_LIB",
             "description": "Nombre réalisé émanant du secteur libéral",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "2011",

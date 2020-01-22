@@ -28,7 +28,7 @@
         {
             "name": "NBR_ACT_PAT_AUT_ETB",
             "description": "Nombre d'actes réalisés pour les patients d'autres établissements ou de laboratoires extérieurs",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "",
@@ -42,7 +42,7 @@
         {
             "name": "NBR_ACT_CON_EXT",
             "description": "Dont nombre d'actes réalisés pour consultants externe",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "",
@@ -70,7 +70,7 @@
         {
             "name": "NBR_ACT_PAT_ETB",
             "description": "Nombre d'actes réalisés pour patients de l'etab",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "",
@@ -112,7 +112,7 @@
         {
             "name": "NBR_ACT_PAT_HOS",
             "description": "Dont nombre d'actes réalisés pour patients hospitalisés",
-            "type": "number",
+            "type": "integer",
             "length": "10",
             "dateCreated": "2010",
             "dateDeleted": "",

@@ -3,7 +3,7 @@
         {
             "name": "DDP_COD",
             "description": "Code de la discipline de Prestations (ou discipline médico tarifaire)",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_DDP_V",
             "length": "3",
             "format": "default",
@@ -31,7 +31,7 @@
         {
             "name": "ETE_CAT_COD",
             "description": "Catégorie de l'établissement exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_CET_V",
             "length": "3",
             "format": "default",
@@ -59,7 +59,7 @@
         {
             "name": "ETE_GHS_NUM",
             "description": "Numéro du GHS",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_GHS_V",
             "length": "4",
             "format": "default",
@@ -73,7 +73,7 @@
         {
             "name": "ETE_IND_TAA",
             "description": "Indicateur TAA",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TAA_V",
             "length": "1",
             "format": "default",
@@ -129,7 +129,7 @@
         {
             "name": "ETE_STJ_COD",
             "description": "Statut Juridique de l'établissement juridique",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_SJE_V",
             "length": "3",
             "format": "default",
@@ -143,7 +143,7 @@
         {
             "name": "ETE_TYP_COD",
             "description": "Code du type de l'établissement exécutant",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TYE_V",
             "length": "2",
             "format": "default",
@@ -157,7 +157,7 @@
         {
             "name": "MDT_COD",
             "description": "Code du mode de traitement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_MDT_V",
             "length": "2",
             "format": "default",
@@ -171,7 +171,7 @@
         {
             "name": "MFT_COD",
             "description": "Code du mode de fixation des tarifs",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_MFT_V",
             "length": "2",
             "format": "default",
@@ -199,7 +199,7 @@
         {
             "name": "PRS_PPU_SEC",
             "description": "Secteur privé/public",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_PPU_V",
             "length": "1",
             "format": "default",
@@ -213,7 +213,7 @@
         {
             "name": "DCT_ORD_NUM",
             "description": "N° ordre décompte dans caisse                      1",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -241,7 +241,7 @@
         {
             "name": "FLX_EMT_NUM",
             "description": "numéro d'émetteur du flux",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_NEM_T",
             "length": "4",
             "format": "default",
@@ -255,7 +255,7 @@
         {
             "name": "FLX_EMT_ORD",
             "description": "numéro de séquence du flux",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -269,7 +269,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TYT_V",
             "length": "2",
             "format": "default",
@@ -311,7 +311,7 @@
         {
             "name": "PRS_ORD_NUM",
             "description": "Numéro d'ordre de la prestation dans le décompte",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -325,7 +325,7 @@
         {
             "name": "REM_TYP_AFF",
             "description": "type de remboursement affiné",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",

@@ -605,7 +605,7 @@
         {
             "name": "FAC_NBR_VEN",
             "description": "Nombre de venues de la facture",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",

@@ -101,7 +101,7 @@
         {
             "name": "PRS_ENT_NUM",
             "description": "N° ordre entité / type remboursement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
@@ -115,7 +115,7 @@
         {
             "name": "DCT_ORD_NUM",
             "description": "N° ordre décompte dans caisse                      1",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -143,7 +143,7 @@
         {
             "name": "FLX_EMT_NUM",
             "description": "numéro d'émetteur du flux",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_NEM_T",
             "length": "4",
             "format": "default",
@@ -157,7 +157,7 @@
         {
             "name": "FLX_EMT_ORD",
             "description": "numéro de séquence du flux",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -171,7 +171,7 @@
         {
             "name": "FLX_EMT_TYP",
             "description": "Type d'émetteur",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "IR_TYT_V",
             "length": "2",
             "format": "default",
@@ -213,7 +213,7 @@
         {
             "name": "PRS_ORD_NUM",
             "description": "Numéro d'ordre de la prestation dans le décompte",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
@@ -227,7 +227,7 @@
         {
             "name": "REM_TYP_AFF",
             "description": "Type de remboursement affiné                                 9",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
