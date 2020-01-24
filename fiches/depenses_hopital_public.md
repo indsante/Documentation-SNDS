@@ -13,19 +13,29 @@ Les explications sont déclinées par spécialité hospitalière :
 Pour plus de détail sur ces spécialités, se reporter à la [documentation de l'ATIH](https://www.atih.sante.fr/domaines-d-activites/information-medicale), ou au 
 [panorama Etablissements de santé de la DREES](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/panoramas-de-la-drees/article/les-etablissements-de-sante-edition-2019).
 
-L'ensemble des dépenses associées aux séjours ou ACE en établissement public comprend :
-- le montant, que nous noterons pour simplifier, **"montant AMO"**, et qui comprend la part prise en charge par l'assurance maladie obligatoire (AMO) ainsi que les parts supplémentaires prises en charge par le public (CMU-C, AME, soins urgents, détenus, etc.).  
-  Nous intégrons à ce montant d'éventuelles dépenses en sus (pour molécules onéreuses notamment) intégralement prises en charge par l'AMO.
-- le **reste à charge après AMO** (RAC AMO), payé par le patient et / ou son organisme complémentaire
+
+L'ensemble des dépenses associées à un séjour en établissement public comprend :
+* le **montant AMO** qui est la part légale prise en charge par l'assurance maladie obligatoire (AMO)  
+* le **reste à charge après AMO** payé par le patient et / ou son organisme complémentaire
 
 Dans cette fiche, nous expliquons comment extraire à partir du PMSI :
 - le montant AMO d'un séjour en établissement public  
 - l'ensemble des dépenses associées aux ACE, en séparant montant AMO et RAC AMO
 
-Pour obtenir l'ensemble des dépenses associées à un séjour en établissement public, il faut ajouter au montant AMO décrit dans la présente fiche, le montant du RAC AMO du séjour.   
+
+Pour obtenir l'ensemble des dépenses associées à un séjour en établissement public, 
+il faut ajouter au montant AMO décrit dans la présente fiche, le montant du RAC AMO du séjour.   
 Une fiche est en cours de rédaction sur le calcul du reste à charge après AMO en établissement public.
 
-En complément, des informations sur les dépenses en établissements de santé privés se trouvent dans la fiche thématique en cours de rédaction intitulée "les dépenses des établissement de santé privés (à partir du DCIRS)".
+Le montant AMO ici défini ne tient pas compte des parts supplémentaires prises en charge par le public 
+pour les bénéficiaires de la CMU-C, de l'AME, des soins urgents, ainsi que pour les détenus. 
+À l'hôpital public, le montant de ces parts supplémentaires est égal à celui du RAC opposable (tarif de convention - montant AMO) : 
+des éléments permettant d'identifier les populations concernées dans le PMSI (CMU-C, AME, SU, détenus) 
+et de calculer leur RAC opposable figurent dans la fiche en cours de rédaction sur le calcul du RAC AMO en établissement public.
+
+En complément, des informations sur les dépenses en établissements de santé privés 
+se trouvent dans la fiche sur [les dépenses des établissement de santé privés (à partir du DCIRS)](../fiche_etab_prives.md).
+
 
 
 ::: tip ATTENTION 
