@@ -128,7 +128,7 @@
         {
             "name": "TRS_DTD_AME",
             "description": "Année et mois de départ du transport (format AAAAMM)",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -226,7 +226,7 @@
         {
             "name": "TRS_DTF_AME",
             "description": "Année et mois d'arrivée du transport (format AAAAMM)",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",

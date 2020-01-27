@@ -157,7 +157,7 @@
         {
             "name": "ENT_ANN",
             "description": "Année de début de séjour",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -171,10 +171,10 @@
         {
             "name": "ENT_MOI",
             "description": "mois de début de séjour",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],

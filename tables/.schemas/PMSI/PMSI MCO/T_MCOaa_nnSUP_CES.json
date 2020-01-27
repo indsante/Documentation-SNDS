@@ -182,7 +182,7 @@
         {
             "name": "ANN",
             "description": "Année",
-            "type": "string",
+            "type": "year",
             "length": "4",
             "dateCreated": "2014",
             "dateDeleted": "",
@@ -252,13 +252,13 @@
         {
             "name": "MOI",
             "description": "Période",
-            "type": "string",
+            "type": "date",
             "length": "2",
             "dateCreated": "2014",
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default",
+            "format": "%m",
             "observation": "",
             "regle_gestion": "",
             "type_oracle": "string"

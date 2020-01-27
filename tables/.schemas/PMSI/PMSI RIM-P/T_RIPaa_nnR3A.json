@@ -216,10 +216,10 @@
         {
             "name": "RAL_ACT_MOI",
             "description": "Mois de la date de réalisation de l'acte",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
@@ -230,7 +230,7 @@
         {
             "name": "RAL_ACT_ANN",
             "description": "Année de la date de réalisation de l'acte",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",

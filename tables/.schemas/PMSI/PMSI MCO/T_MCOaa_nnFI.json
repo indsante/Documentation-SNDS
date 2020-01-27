@@ -101,7 +101,7 @@
         {
             "name": "SOR_ANN",
             "description": "Année de fin de séjour",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -115,10 +115,10 @@
         {
             "name": "SOR_MOI",
             "description": "Mois de fin de séjour",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],

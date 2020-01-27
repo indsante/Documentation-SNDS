@@ -56,7 +56,7 @@
         {
             "name": "ANN_MOI",
             "description": "Mois et année",
-            "type": "date",
+            "type": "yearmonth",
             "length": null,
             "dateCreated": "2009",
             "dateDeleted": "2010",

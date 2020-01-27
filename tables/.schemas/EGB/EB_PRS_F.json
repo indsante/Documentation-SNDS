@@ -128,7 +128,7 @@
         {
             "name": "EXE_SOI_AMD",
             "description": "Date (année et mois) de début d'exécution des soins",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "IR_DTE_V",
             "dateCreated": "",
@@ -450,7 +450,7 @@
         {
             "name": "PRE_PRE_AMD",
             "description": "Date (année et mois) de prescription",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "IR_DTE_V",
             "dateCreated": "",
@@ -814,7 +814,7 @@
         {
             "name": "PRS_DRA_AME",
             "description": "Date réelle (année et mois) de l'accouchement",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -1388,7 +1388,7 @@
         {
             "name": "EXE_SOI_AMF",
             "description": "Date (année et mois) de fin d'exécution des soins",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "IR_DTE_V",
             "dateCreated": "",
@@ -1416,7 +1416,7 @@
         {
             "name": "BEN_DCD_AME",
             "description": "Année et mois de décès du bénéficiaire",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -1626,7 +1626,7 @@
         {
             "name": "PRS_HOS_AMD",
             "description": "Date (année et mois) de début d'hospitalisation",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "IR_DTE_V",
             "dateCreated": "",

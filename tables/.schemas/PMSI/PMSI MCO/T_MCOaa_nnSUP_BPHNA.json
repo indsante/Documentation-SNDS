@@ -98,7 +98,7 @@
         {
             "name": "ANN_MOI",
             "description": "Année+Mois",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "dateCreated": "2010",
             "dateDeleted": "",

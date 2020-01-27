@@ -3,7 +3,7 @@
         {
             "name": "ANN",
             "description": "Année période",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -17,7 +17,7 @@
         {
             "name": "DAT_POS_ANN",
             "description": "Année de la date de pose",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -87,10 +87,10 @@
         {
             "name": "MOI",
             "description": "N° période (mois)",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
@@ -101,10 +101,10 @@
         {
             "name": "MOI_POS",
             "description": "Mois de la date de pose (si renseginée)",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],

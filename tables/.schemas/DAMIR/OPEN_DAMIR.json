@@ -591,7 +591,7 @@
         {
             "name": "SOI_ANN",
             "description": "Année de soin PS5",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -675,10 +675,10 @@
         {
             "name": "SOI_MOI",
             "description": "Mois de soin PS5",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
@@ -731,7 +731,7 @@
         {
             "name": "FLX_ANN_MOI",
             "description": "Année et Mois de traitement",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",

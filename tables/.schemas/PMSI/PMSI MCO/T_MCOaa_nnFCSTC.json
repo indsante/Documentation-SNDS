@@ -311,7 +311,7 @@
         {
             "name": "SOR_ANN",
             "description": "Année des soins",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -325,10 +325,10 @@
         {
             "name": "SOR_MOI",
             "description": "Mois des soins",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],

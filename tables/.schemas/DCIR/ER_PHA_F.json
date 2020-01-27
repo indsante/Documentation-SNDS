@@ -22,8 +22,8 @@
             "length": "5,5",
             "format": "default",
             "constraints": {
-                "maximum": 25000.00000,
-                "minimum": 0.00000
+                "maximum": 25000.0,
+                "minimum": 0.0
             },
             "dateCreated": "2006",
             "dateDeleted": "",

@@ -156,7 +156,7 @@
         {
             "name": "EXF_ANN_MOI",
             "description": "Année Mois fin de soin exécution",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -618,7 +618,7 @@
         {
             "name": "REM_ANN_MOI",
             "description": "Année Mois de remboursement",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -702,7 +702,7 @@
         {
             "name": "EXD_ANN_MOI",
             "description": "Année Mois début de soin exécution",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -716,7 +716,7 @@
         {
             "name": "SOI_ANN",
             "description": "Année de soin PS5",
-            "type": "string",
+            "type": "year",
             "length": "4",
             "nomenclature": "-",
             "dateCreated": "",
@@ -940,7 +940,7 @@
         {
             "name": "BEN_NAI_ANN",
             "description": "Année de naissance du bénéficiaire",
-            "type": "string",
+            "type": "year",
             "length": "4",
             "nomenclature": "-",
             "dateCreated": "",
@@ -954,13 +954,13 @@
         {
             "name": "SOI_MOI",
             "description": "Mois de soin PS5",
-            "type": "string",
+            "type": "date",
             "length": "2",
             "nomenclature": "-",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
-            "format": "default",
+            "format": "%m",
             "regle_gestion": "* Alimenté avec le mois extrait de la date de début de soins, à lexception de lorthodontie et des cures thermales.\n* Alimenté avec le mois extrait de la date de fin de soins pour lorthodontie et les cures thermales. Si la date de fin de soins n'est pas alimentée (par exemple : '01-01-0001'), alimenter le mois de soin à partir de la date début de soins.\n* Pour les Rentes AT, Pension d'invalidité et Capital décès, le mois de soin est alimenté à zéro.",
             "observation": "",
             "type_oracle": "string"
@@ -1024,7 +1024,7 @@
         {
             "name": "FLX_ANN_MOI",
             "description": "Année et Mois de traitement",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
