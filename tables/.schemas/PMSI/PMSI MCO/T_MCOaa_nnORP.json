@@ -28,7 +28,7 @@
         {
             "name": "ANN",
             "description": "Année période",
-            "type": "string",
+            "type": "year",
             "length": "4",
             "dateCreated": "2013",
             "dateDeleted": "2017",
@@ -70,13 +70,13 @@
         {
             "name": "MOI",
             "description": "N° période (mois)",
-            "type": "string",
+            "type": "date",
             "length": "2",
             "dateCreated": "2013",
             "dateDeleted": "2017",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default",
+            "format": "%m",
             "observation": "",
             "regle_gestion": "",
             "type_oracle": "string"

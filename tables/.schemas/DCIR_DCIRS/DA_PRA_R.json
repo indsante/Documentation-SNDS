@@ -3,10 +3,10 @@
         {
             "name": "DTE_MOI_FIN",
             "description": "Mois de traitement",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
@@ -17,7 +17,7 @@
         {
             "name": "DTE_ANN_TRT",
             "description": "Exercice de traitement",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -87,7 +87,7 @@
         {
             "name": "IPP_ANN_NAI",
             "description": "Année de naissance du P.S.",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -689,10 +689,10 @@
         {
             "name": "PFS_MAJ_DAT",
             "description": "Mois de dernière mise à jour durant l'exercice",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],

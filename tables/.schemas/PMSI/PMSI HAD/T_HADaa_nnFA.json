@@ -73,7 +73,7 @@
         {
             "name": "ENT_ANN",
             "description": "Année de la date d'entrée",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -87,10 +87,10 @@
         {
             "name": "ENT_MOI",
             "description": "Mois de la date d'entrée",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2010",
             "dateDeleted": "",
             "dateMissing": [],
@@ -367,7 +367,7 @@
         {
             "name": "SOR_ANN",
             "description": "Année de la date de sortie",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -381,10 +381,10 @@
         {
             "name": "SOR_MOI",
             "description": "Mois de la date de sortie",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2010",
             "dateDeleted": "",
             "dateMissing": [],

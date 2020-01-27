@@ -17,10 +17,10 @@
         {
             "name": "MOI",
             "description": "N° période (mois)",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2014",
             "dateDeleted": "",
             "dateMissing": [],
@@ -31,7 +31,7 @@
         {
             "name": "ANN",
             "description": "Année période",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",

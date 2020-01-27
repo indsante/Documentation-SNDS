@@ -59,7 +59,7 @@
         {
             "name": "BEN_NAI_ANN",
             "description": "Année de naissance du bénéficiaire",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -73,10 +73,10 @@
         {
             "name": "BEN_NAI_MOI",
             "description": "Mois de naissance du bénéficiaire",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
@@ -115,7 +115,7 @@
         {
             "name": "BEN_DCD_AME",
             "description": "Année et mois de décès du bénéficiaire",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",

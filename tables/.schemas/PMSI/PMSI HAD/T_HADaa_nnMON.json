@@ -14,13 +14,13 @@
         {
             "name": "MOIS",
             "description": "N° période (mois)",
-            "type": "string",
+            "type": "date",
             "length": "2",
             "dateCreated": "2008",
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default",
+            "format": "%m",
             "observation": "",
             "regle_gestion": "",
             "type_oracle": "string"
@@ -42,7 +42,7 @@
         {
             "name": "ANN",
             "description": "Année période",
-            "type": "string",
+            "type": "year",
             "length": "4",
             "dateCreated": "2008",
             "dateDeleted": "2009",

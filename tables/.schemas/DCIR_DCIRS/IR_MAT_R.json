@@ -73,7 +73,7 @@
         {
             "name": "BEN_DRA_AME",
             "description": "Année et mois de l’accouchement",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",

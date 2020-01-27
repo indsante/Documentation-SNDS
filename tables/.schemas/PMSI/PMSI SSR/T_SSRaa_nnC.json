@@ -17,10 +17,10 @@
         {
             "name": "MOI_LUN_1S",
             "description": "Mois du lundi de la première semaine du séjour dans l'année (SSR)",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
@@ -31,7 +31,7 @@
         {
             "name": "ANN_LUN_1S",
             "description": "Année du lundi de la première semaine du séjour dans l'année (SSR)",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -241,7 +241,7 @@
         {
             "name": "EXE_SOI_AMD",
             "description": "Date d'entrée au format année + mois",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
@@ -381,13 +381,13 @@
         {
             "name": "SOR_MOI",
             "description": "Mois de sortie",
-            "type": "string",
+            "type": "date",
             "length": "2",
             "dateCreated": "2005",
             "dateDeleted": "2009",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default",
+            "format": "%m",
             "observation": "",
             "regle_gestion": "",
             "type_oracle": "string"
@@ -409,7 +409,7 @@
         {
             "name": "SOR_ANN",
             "description": "Année de sortie",
-            "type": "string",
+            "type": "year",
             "length": "4",
             "dateCreated": "2005",
             "dateDeleted": "2009",

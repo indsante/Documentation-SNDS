@@ -353,7 +353,7 @@
         {
             "name": "SOIN_ANN",
             "description": "Année de soins",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -367,10 +367,10 @@
         {
             "name": "SOIN_MOI",
             "description": "Mois de soins",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],

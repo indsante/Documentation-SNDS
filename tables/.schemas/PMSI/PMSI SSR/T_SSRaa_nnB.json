@@ -269,7 +269,7 @@
         {
             "name": "MOI_ANN_SOR_SEJ",
             "description": "Mois/ Année de sortie du séjour",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
@@ -423,7 +423,7 @@
         {
             "name": "MOI_ANN",
             "description": "Mois Année du RHS",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",

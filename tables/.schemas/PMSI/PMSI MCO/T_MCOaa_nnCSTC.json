@@ -45,7 +45,7 @@
         {
             "name": "EXE_SOI_AMD",
             "description": "Date d'entrée au format année + mois",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",

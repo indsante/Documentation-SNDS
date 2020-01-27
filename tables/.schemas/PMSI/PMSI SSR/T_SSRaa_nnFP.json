@@ -87,7 +87,7 @@
         {
             "name": "SOR_ANN",
             "description": "Année de sortie",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -101,10 +101,10 @@
         {
             "name": "SOR_MOI",
             "description": "Mois de sortie",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": null,
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2017",
             "dateDeleted": "2017",
             "dateMissing": [],

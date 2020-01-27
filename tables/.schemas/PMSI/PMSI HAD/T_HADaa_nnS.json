@@ -129,10 +129,10 @@
         {
             "name": "SOR_MOI",
             "description": "Mois de la date de sortie du séjour",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2015",
             "dateDeleted": "",
             "dateMissing": [],
@@ -143,7 +143,7 @@
         {
             "name": "SOR_ANN",
             "description": "Année de la date de sortie du séjour",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",

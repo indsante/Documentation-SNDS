@@ -73,7 +73,7 @@
         {
             "name": "FLX_PER_ANN",
             "description": "Année de décès",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -157,7 +157,7 @@
         {
             "name": "BEN_DCD_AME",
             "description": "Année et mois de décès du bénéficiaire",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",

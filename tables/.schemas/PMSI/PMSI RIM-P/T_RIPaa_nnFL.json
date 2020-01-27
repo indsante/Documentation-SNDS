@@ -101,7 +101,7 @@
         {
             "name": "ANN_MOI",
             "description": "Mois et année",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",

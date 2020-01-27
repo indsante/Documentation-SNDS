@@ -689,7 +689,7 @@
         {
             "name": "EXE_SOI_AMD",
             "description": "Date (année et mois) de début d'exécution des soins",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "IR_DTE_V",
             "length": "6",
             "format": "default",
@@ -703,7 +703,7 @@
         {
             "name": "EXE_SOI_AMF",
             "description": "Date (année et mois) de fin d'exécution des soins",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "IR_DTE_V",
             "length": "6",
             "format": "default",
@@ -927,7 +927,7 @@
         {
             "name": "PRE_PRE_AMD",
             "description": "Date (année et mois) de prescription",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "IR_DTE_V",
             "length": "6",
             "format": "default",
@@ -1025,7 +1025,7 @@
         {
             "name": "PRS_DRA_AME",
             "description": "Date réelle (année et mois) de l'accouchement",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
@@ -1053,7 +1053,7 @@
         {
             "name": "PRS_HOS_AMD",
             "description": "Date (année et mois) de début d'hospitalisation",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "IR_DTE_V",
             "length": "6",
             "format": "default",

@@ -871,7 +871,7 @@
         {
             "name": "DAT_PEC",
             "description": "Prise en charge établie le",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -927,7 +927,7 @@
         {
             "name": "DAT_DEB_FAC",
             "description": "Date d’entrée",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -941,7 +941,7 @@
         {
             "name": "DAT_FIN_FAC",
             "description": "Date de sortie",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": null,
             "format": "default",
