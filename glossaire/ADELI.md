@@ -1,7 +1,7 @@
 # ADELI - Automatisation des listes
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-L'automatisation des listes (ADELI) est un répertoire des [professionnels de santé](professionel_sante.md).
+L'automatisation des listes (ADELI) est un répertoire des [professionnels de santé](PS.md).
  
 ADELI est progressivement remplacé par le [RPPS](RPPS.md), et ne concerne que les catégories de professionnels de santé non-RPPS.
 

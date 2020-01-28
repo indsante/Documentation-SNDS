@@ -1,27 +1,20 @@
 stages:
   - test
 
-test-internal-link:
+test-internal-link-and-build:
   stage: test
   image: node:12
   before_script:
-    - npm install
-  script:
-   - yarn lint-md --quiet
-
-test-build:
-  stage: test
-  image: node:12
-  before_script:
-    - npm install
+    - yarn install
   script:
    - yarn docs:build
+   - yarn lint-md
 
 test-external-link:
   stage: test
   image: node:12
   before_script:
-    - npm install
+    - yarn install
   script:
-   - yarn extended-lint-md --quiet
+   - yarn extended-lint-md
   allow_failure: true

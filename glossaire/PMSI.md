@@ -5,5 +5,5 @@ Le PMSI permet de décrire de façon synthétique et standardisée l’activité
 
 # Références
 
-- [Page wikipedia]()
+- [Page wikipedia](https://fr.wikipedia.org/wiki/Programme_de_m%C3%A9dicalisation_des_syst%C3%A8mes_d%27information)
 - [Fiche](https://solidarites-sante.gouv.fr/professionnels/gerer-un-etablissement-de-sante-medico-social/financement/financement-des-etablissements-de-sante-10795/financement-des-etablissements-de-sante-glossaire/article/programme-de-medicalisation-des-systemes-d-information-pmsi) sur le site internet du ministère

@@ -1,0 +1,102 @@
+{
+    "name": "T_SSRaa_nnGHJ",
+    "title": "table des Groupes de Morbidité Dominante",
+    "produit": "PMSI SSR",
+    "history": {
+        "dateCreated": "2005",
+        "dateDeleted": "2013",
+        "dateMissing": []
+    },
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "N° FINESS de l'établisement",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2005",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "GHJ_COD",
+            "description": "Code GMD",
+            "type": "string",
+            "length": "5",
+            "dateCreated": "2005",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RHA_VER",
+            "description": "N° version du format du RHA",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2005",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "NBR_JOU",
+            "description": "Nombre de jours",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "RHA_NUM",
+            "description": "N° Séquentiel du séjour",
+            "type": "string",
+            "length": "7",
+            "dateCreated": "2005",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RHA_NUM"
+            ],
+            "reference": {
+                "resource": "T_SSRaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RHA_NUM"
+                ]
+            }
+        }
+    ],
+    "champ": "Public et Privé",
+    "observation": "remplacée par la table T_SSRaaGME"
+}

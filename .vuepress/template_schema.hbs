@@ -1,0 +1,35 @@
+## Schéma
+
+{{#if title}}
+- Titre : {{{title}}}
+{{/if}}
+{{#if primaryKey}}
+<br />
+- Clé primaire : {{#each primaryKey}}`{{this}}`{{#unless @last}}, {{/unless}}{{else}}`{{this.primaryKey}}`{{/each}}
+{{/if}}
+{{#if foreignKeys}}
+<br />
+- Clé(s) étrangère(s) : <br />
+{{#each foreignKeys}}
+{{#each this.fields}}`{{this}}`{{#unless @last}}, {{/unless}}{{else}}`{{this.fields}}`{{/each}} => table [{{this.reference.resource}}](/tables/{{this.reference.resource}}) [ {{#each this.reference.fields}}`{{this}}`{{#unless @last}}, {{/unless}}{{else}}`{{this.reference.fields}}`{{/each}} ]<br />
+{{/each}}
+{{/if}}
+
+### Liste des variables
+<br />
+<div>
+    <a href="https://gitlab.com/healthdatahub/schema-snds/edit/master/schemas/{{#startsWith "PMSI" produit}}{{replace produit "PMSI " "PMSI/PMSI%20"}}{{else}}{{encodeURI produit}}{{/startsWith}}/{{name}}.json"  
+    arget="_blank" rel="noopener noreferrer">> Éditer le schéma</a>
+    <OutboundLink />
+</div>
+<br />
+
+Nom|Type|Description|Propriétés
+-|-|-|-
+{{#each fields}}
+`{{name}}`|
+{{~type}}|
+{{~description}}|
+{{~#if constraints.unique}}<p>{{intlGet "fieldProperties.constraints.unique"}}</p>{{/if}}
+{{~#if constraints.description}}<p>{{constraints.description}}</p>{{/if}}|
+{{/each}}

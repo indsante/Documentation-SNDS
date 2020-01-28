@@ -1,0 +1,268 @@
+{
+    "name": "T_MCOaa_nnSUP_LACT",
+    "title": "Fich sup lactarium",
+    "produit": "PMSI MCO",
+    "history": {
+        "dateCreated": "2010",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "LAI_COL_PERS",
+            "description": "Quantité de lait collecté pour don personnalisé (en litres)",
+            "type": "integer",
+            "length": "7",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "LAI_PAST_DIS_ANO",
+            "description": "Quantité de lait pasteurisé congelé distribué au total dans le cadre du don anonyme (en litres)",
+            "type": "integer",
+            "length": "7",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "LAI_PAST_REQ_ANO",
+            "description": "Quantité de lait pasteurisé congelé requalifié en don anonyme (en litres)",
+            "type": "integer",
+            "length": "7",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "LAI_COL_ANO",
+            "description": "Quantité de lait collecté dans le cadre d'un don anonyme (en litres)",
+            "type": "integer",
+            "length": "7",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "LAI_PAST_VEND",
+            "description": "Quantité de lait pasteurisé congelé vendu (en litres)",
+            "type": "integer",
+            "length": "7",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "LAI_LYOP_CONS",
+            "description": "Quantité de lait lyophilisé consommé (en litres)",
+            "type": "integer",
+            "length": "7",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "Numéro FINESS d’inscription ePMSI",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ETA_NUM_GEO",
+            "description": "Numéro FINESS géographique",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "FIC_TYP",
+            "description": "Type de fichier",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "LAI_CONG_CONS",
+            "description": "Quantité de lait congelé consommé (en litres)",
+            "type": "integer",
+            "length": "7",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ANN_MOI",
+            "description": "Année+Mois",
+            "type": "yearmonth",
+            "length": "6",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "LAI_PAST_DIS_PERS",
+            "description": "Quantité de lait pasteurisé congelé distribué pour don personnalisé (en litres)",
+            "type": "integer",
+            "length": "7",
+            "dateCreated": "2015",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "NBR_LLA_COL",
+            "description": "Nombre de litres de lait collecté",
+            "type": "integer",
+            "length": "7",
+            "dateCreated": "2011",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "QTE_LFC_CON_LIT",
+            "description": "Quantité de lait frais ou congelé consommé (en litres)",
+            "type": "integer",
+            "length": "7",
+            "dateCreated": "2010",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "QTE_LLY_PRD_GR",
+            "description": "Quantité de lait lyophilisé produit (en grammes)",
+            "type": "integer",
+            "length": "7",
+            "dateCreated": "2010",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "QTE_LLY_CON_GR",
+            "description": "Quantité de lait lyophilisé consommé (en grammes)",
+            "type": "integer",
+            "length": "7",
+            "dateCreated": "2010",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "QTE_LFC_PRD_LIT",
+            "description": "Quantité de lait frais ou congelé produit (en litres)",
+            "type": "integer",
+            "length": "7",
+            "dateCreated": "2010",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        }
+    ],
+    "champ": "Public",
+    "observation": "Chgt de nom en 2015 ajout du préfixe SUP_",
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnE",
+                "fields": [
+                    "ETA_NUM"
+                ]
+            }
+        }
+    ]
+}

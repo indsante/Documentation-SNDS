@@ -1,4 +1,5 @@
-# Les actes et consultations externes
+# Actes et consultations externes
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## Que regroupent les actes et consultations externes ?
 
@@ -66,6 +67,13 @@ Dans l'EGB, il n'y a pas ce problème de doubles remontées pour les tables annu
 
 **Pour les actes et consultations externes, que ce soit dans le DCIR ou l'EGB, les séjours de l'AP-HP et de l'AP-HM sont remontés via les deux FINESS et sont donc en doublons, les séjours des HCL ne sont pas remontés via le FINESS géographique et ne posent pas de problèmes de doublons.**
 :::
+
+
+::: tip ATTENTION
+
+La spécialité de l'exécutant pour les consultations externes est remplie uniquement de façon déclarative. La variable n'est pas forcément de bonne qualité. Notamment, les internes sont connus pour être codés par défaut en Médecine Générale (1).
+:::
+
 
 ## Exemple de requêtes pour analyse 
 
