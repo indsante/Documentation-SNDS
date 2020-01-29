@@ -120,8 +120,7 @@ A minima, il faut exclure les séjours pour lesquels `VALO` prend la valeur 0, o
 
 ### En SSR 
 
-À partir de 2017, on peut utiliser la variable `MNT_TOT_AM` de la table de valorisation des séjours (corrigée par l'ATIH) `T_SSRaaVALO` sous ORAVUE.  
-Avant 2017, nous ne disposons que de la table de facturation transmise par les établissements `T_SSRaaSTC`, dans laquelle la variable `TOT_MNT_AM` n'est pas est calculée sur la base des [GMT](../glossaire/GMT.md) mais des tarifs journaliers de prestation.   
+Avant 2017, nous ne disposons que de la table de facturation transmise par les établissements `T_SSRaaSTC` (sous ORAVUE), dans laquelle la variable `TOT_MNT_AM` n'est pas est calculée sur la base des [GMT](../glossaire/GMT.md) mais des tarifs journaliers de prestation.   
 La table `T_SSRaaB` de description du séjour permet d'extraire des informations sur le mode d'hospitalisation (complète/partielle, variable `HOS_TYP_UM`), 
 ainsi que sur le [GME](../glossaire/GME.md) (variable `GR_GME`).
 
@@ -133,12 +132,17 @@ Les filtres sur les séjours sont les suivants :
 - Exclusion des séjours en erreur (en utilisant la variable `GRG_GME`, dont le code commence par 90 en cas d'erreur)
 - Exclusion des prestations inter établissement (en utilisant les variables `ENT_MOD` et `SOR_MOD`)
 - Exclusion des séjours hors période d'étude (variables `EXE_SOI_DTD` et `EXE_SOI_DTF`)
-- Exclusion des séjours non valorisés (variable `VALO` dans `T_SSRaaVALO` ou `FAC_SEJ_AM` dans `T_SSRaaSTC`)  
+- Exclusion des séjours non valorisés (variable `VALO` dans `T_SSRaaVALO` ou `FAC_SEJ_AM` dans `T_SSRaaSTC`) 
+
+*En complément :*  
+À partir de 2017, on peut utiliser la variable `MNT_AM_RSFA` de la table de valorisation des séjours (corrigée par l'ATIH) `T_SSRaaVALO` sous ORAVUE, 
+mais elle semble présenter beaucoup de valeurs manquantes. Par ailleurs, les SSR sont financés à 10% par la T2A et à 90% par dotations. 
+Il est donc possible que la variable `MNT_AM_RSFA` ne corresponde qu'à 10% du tarif de remboursement calculé sur la base des GMT. 
+Dans ce cas, nous suggérons d'appliquer un facteur multiplicatif pour extrapoler ce montant AM à l'ensemble du séjour.
 
 ### En HAD 
 
-À partir de 2017, on peut utiliser la variable `MNT_TOT_AM` de la table de valorisation des séjours (corrigée par l'ATIH) `T_HADaaVALO` sous ORAVUE.  
-Avant 2017, nous ne disposons que de la table de facturation transmise par les établissements `T_HADaaSTC`, dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des [GHT](../glossaire/GHT.md) mais des tarifs journaliers de prestation.   
+Nous ne disposons que de la table de facturation transmise par les établissements `T_HADaaSTC` (sous ORAVUE), dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des [GHT](../glossaire/GHT.md) mais des tarifs journaliers de prestation.   
 La table de chaînage patients se nomme `T_HADaaC`. On y trouve l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires pour plus d'informations](../fiches/fiche_beneficiaire.md)).  
 Des informations sur le [GHPC](../glossaire/GHPC.md) se trouvent dans la table `T_HAD_aaGRP` (variable `PAP_GRP_GHPC`).  
 
