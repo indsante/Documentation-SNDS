@@ -31,10 +31,13 @@
         {
             "name": "DAT_RET",
             "description": "Code retour contrôle « date de référence» (date d'entrée)",
-            "type": "boolean",
+            "type": "string",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
+            "constraints": {
+                "enum": ["0"]
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -59,10 +62,13 @@
         {
             "name": "ETA_NUM",
             "description": "Numéro FINESS e-PMSI",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "9",
             "format": "default",
+            "constraints": {
+                "minimum": 100000000
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -101,7 +107,7 @@
         {
             "name": "EXE_SOI_AMF",
             "description": "Date de sortie au format année + mois",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
@@ -115,10 +121,10 @@
         {
             "name": "EXE_SOI_DTD",
             "description": "Date d'entrée (date)",
-            "type": "date",
+            "type": "datetime",
             "nomenclature": "-",
             "length": null,
-            "format": "default",
+            "format": "%d%b%Y:%H:%M:%S",
             "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
@@ -129,10 +135,10 @@
         {
             "name": "EXE_SOI_DTF",
             "description": "Date de sortie (date)",
-            "type": "date",
+            "type": "datetime",
             "nomenclature": "-",
             "length": null,
-            "format": "default",
+            "format": "%d%b%Y:%H:%M:%S",
             "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
@@ -161,6 +167,9 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "enum": ["010","011", "012"]
+            },
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
@@ -171,7 +180,7 @@
         {
             "name": "HOS_NN_MAM",
             "description": "Hospitalisation d'un nouveau-né auprès de la mère",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -213,7 +222,7 @@
         {
             "name": "HOS_PLO",
             "description": "Hospitalisation pour prélèvement d'organe",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -227,10 +236,13 @@
         {
             "name": "NAI_RET",
             "description": "Code retour contrôle « date de naissance »",
-            "type": "boolean",
+            "type": "string",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
+            "constraints": {
+                "enum": ["0", "1", "9"]
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -245,6 +257,9 @@
             "nomenclature": "-",
             "length": "17",
             "format": "default",
+            "constraints": {
+                "minLength": 17
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -259,6 +274,9 @@
             "nomenclature": "-",
             "length": "32",
             "format": "default",
+            "constraints": {
+                "minLength": 32
+            },
             "dateCreated": "2013",
             "dateDeleted": "",
             "dateMissing": [],
@@ -283,10 +301,13 @@
         {
             "name": "NUM_DAT_AT",
             "description": "Numéro accident du travail ou date d’accident de droit commun",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "9",
             "format": "default",
+            "constraints": {
+                "minimum": 100000000
+            },
             "dateCreated": "2015",
             "dateDeleted": "",
             "dateMissing": [],
@@ -343,6 +364,8 @@
             "nomenclature": "-",
             "length": "1",
             "format": "default",
+            "trueValues": ["0"],
+            "falseValues": ["0"],
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -381,7 +404,7 @@
         {
             "name": "RNG_NAI",
             "description": "Rang de naissance",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -409,10 +432,13 @@
         {
             "name": "RSA_NUM",
             "description": "N° séquentiel dans fichier PMSI",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "10",
             "format": "default",
+            "constraints": {
+                "minimum": 1000000000
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -437,10 +463,13 @@
         {
             "name": "SEJ_NUM",
             "description": "N° de séjour",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "5",
             "format": "default",
+            "constraints": {
+                "minimum": 10000
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -455,6 +484,8 @@
             "nomenclature": "-",
             "length": "1",
             "format": "default",
+            "trueValues": ["0"],
+            "falseValues": ["9"],
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -521,10 +552,13 @@
         {
             "name": "VID_HOSP_FOR",
             "description": "N° format VID-HOSP",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "minimum": 100
+            },
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
@@ -535,8 +569,8 @@
         {
             "name": "ENT_AM",
             "description": "Date d'entrée au format année + mois",
-            "type": "date",
-            "length": null,
+            "type": "yearmonth",
+            "length": "6",
             "dateCreated": "2009",
             "dateDeleted": "2011",
             "nomenclature": "-",
@@ -549,8 +583,8 @@
         {
             "name": "SOR_AM",
             "description": "Date de sortie au format année + mois",
-            "type": "date",
-            "length": null,
+            "type": "yearmonth",
+            "length": "6",
             "dateCreated": "2009",
             "dateDeleted": "2011",
             "nomenclature": "-",
