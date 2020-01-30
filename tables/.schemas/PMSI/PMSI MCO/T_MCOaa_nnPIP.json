@@ -1,0 +1,116 @@
+{
+    "name": "T_MCOaa_nnPIP",
+    "title": "Fich comp prothèse PIP",
+    "produit": "PMSI MCO",
+    "history": {
+        "dateCreated": "2012",
+        "dateDeleted": "2016",
+        "dateMissing": []
+    },
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "ETA_NUM",
+            "description": "N° FINESS e-PMSI",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2012",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "ANN",
+            "description": "Année période",
+            "type": "year",
+            "length": "4",
+            "dateCreated": "2012",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "PRS_TYP",
+            "description": "Type de prestation",
+            "type": "string",
+            "length": "2",
+            "dateCreated": "2012",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "MOI",
+            "description": "N° période (mois)",
+            "type": "date",
+            "length": "2",
+            "dateCreated": "2012",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "%m",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "PIP_COD",
+            "description": "Code PIP",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2012",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "RSA_NUM",
+            "description": "N° d'index du RSA",
+            "type": "string",
+            "length": "10",
+            "dateCreated": "2012",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "champ": "Public",
+    "observation": "",
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM",
+                "RSA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnB",
+                "fields": [
+                    "ETA_NUM",
+                    "RSA_NUM"
+                ]
+            }
+        }
+    ]
+}

@@ -19,7 +19,7 @@ Le RNIPP contient uniquement des informations sur l'état-civil :
 
 ## Alimentation
 
-Le RNIPP est mis à jour quotidiennement grâce aux bulletins statistiques de l'état civil établis et adressés à l'Insee par les communes à la suite de naissances, décès, reconnaissances, et mentions portées en marge des actes de naissance pour les personnes nées en France métropolitaine et dans les départements d'outre-mer ([DOM](DOM.md)).
+Le RNIPP est mis à jour quotidiennement grâce aux bulletins statistiques de l'état civil établis et adressés à l'Insee par les communes à la suite de naissances, décès, reconnaissances, et mentions portées en marge des actes de naissance pour les personnes nées en France métropolitaine et dans les départements d'outre-mer ([Dom](Dom.md)).
 
 Le RNIPP alimente le Système national de gestion des identifiants ([SNGI](SNGI.md)) géré par la [CNAV](Cnav.md).
 

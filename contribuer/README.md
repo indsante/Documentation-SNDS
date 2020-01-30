@@ -47,12 +47,11 @@ Une contribution de grande valeur consiste donc à partager publiquement des doc
 Vous avez deux options pour publier ces documents
 
 - sur le site internet de votre organisation 
-Nous les référencerons via un lien hypertexte dans la section des 
-[ressources externes](../ressources/README.md#autres-ressources-disponibles-en-ligne). 
+Nous les référencerons via un lien hypertexte dans la section [ressources externes](../ressources/internet.md). 
 
 - sur ce site de documentation
 Nous ajouterons alors un lien de téléchargement dans la section des 
-[documents partagés via ce projet](../ressources/README.md), et convertirons ce document en des pages de documentations si approprié. 
+[documents partagés via ce projet](../ressources/README.md), et nous les convertirons en page de documentation si approprié.
 
 
 ::: tip Note

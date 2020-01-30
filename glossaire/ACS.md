@@ -1,5 +1,5 @@
 # ACS - Aide à la complémentaire santé
-!-- SPDX-License-Identifier: MPL-2.0 -->
+<!-- SPDX-License-Identifier: MPL-2.0 -->
  
 L’Aide à la complémentaire santé (ACS) est une aide réservée aux personnes dont les ressources sont légèrement supérieures au plafond d’attribution de la [CMU-C](../fiches/cmu_c.md).
 L'individu se voit attribuer une attestation qui lui permet de disposer de certains droits, sans nécessairement recevoir une aide financière.

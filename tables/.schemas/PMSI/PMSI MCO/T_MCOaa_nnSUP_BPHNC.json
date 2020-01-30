@@ -1,0 +1,184 @@
+{
+    "name": "T_MCOaa_nnSUP_BPHNC",
+    "title": "Fich sup BP HN etb demandeur",
+    "produit": "PMSI MCO",
+    "history": {
+        "dateCreated": "2010",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "missingValues": [
+        ""
+    ],
+    "fields": [
+        {
+            "name": "MNT_PHN_ETB_EXDG",
+            "description": "Montant total de PHN payés à un établissement de santé - ex-DG ou ex-OQN - (en centimes d'euro)",
+            "type": "number",
+            "length": "10,2",
+            "dateCreated": "2010",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "MNT_PHN_LAB_PRI",
+            "description": "Montant total de PHN payés à un laboratoire privé ou un cabinet (en centimes d'euro)",
+            "type": "number",
+            "length": "10,2",
+            "dateCreated": "2010",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ETA_NUM",
+            "description": "N° FINESS",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "MNT_LC_ETB_EXDG",
+            "description": "Montant total d’actes de la LC dont la facture a été reçue  à un établissement de santé - ex-DG ou ex-OQN - (en centimes d'euro)",
+            "type": "number",
+            "length": "10,2",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "MNT_LC_LAB_PRI",
+            "description": "Montant total d’actes de la LC dont la facture a été reçue  à un laboratoire privé ou un cabinet (en centimes d'euro)",
+            "type": "number",
+            "length": "10,2",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "MNT_RIHN_ETB_EXDG",
+            "description": "Montant total d’actes du RIHN dont la facture a été reçue à un établissement de santé - ex-DG ou ex-OQN - (en centimes d'euro)",
+            "type": "number",
+            "length": "10,2",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "MNT_BHN_LAB_PRI",
+            "description": "Montant total de BHN payés à un laboratoire privé ou un cabinet (en centimes d'euro)",
+            "type": "number",
+            "length": "10,2",
+            "dateCreated": "2010",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "MNT_RIHN_LAB_PRI",
+            "description": "Montant total d’actes du RIHN dont la facture a été reçue à un laboratoire privé ou un cabinet (en centimes d'euro)",
+            "type": "number",
+            "length": "10,2",
+            "dateCreated": "2016",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "FIC_TYP",
+            "description": "Type de fichier",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        },
+        {
+            "name": "MNT_BHN_ETB_EXDG",
+            "description": "Montant total de BHN payés à un établissement de santé - ex-DG ou ex-OQN - (en centimes d'euro)",
+            "type": "number",
+            "length": "10,2",
+            "dateCreated": "2010",
+            "dateDeleted": "2016",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number"
+        },
+        {
+            "name": "ANN_MOI",
+            "description": "Année+Mois",
+            "type": "yearmonth",
+            "length": "6",
+            "dateCreated": "2010",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string"
+        }
+    ],
+    "champ": "Public",
+    "observation": "Chgt de nom en 2015 ajout du préfixe SUP_",
+    "foreignKeys": [
+        {
+            "fields": [
+                "ETA_NUM"
+            ],
+            "reference": {
+                "resource": "T_MCOaa_nnE",
+                "fields": [
+                    "ETA_NUM"
+                ]
+            }
+        }
+    ]
+}

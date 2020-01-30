@@ -5,12 +5,14 @@ Dans le SNDS, les dépenses en audioprothèse sont regroupées sous 2 codes pres
 
 - 3541 : APPAREILS ELECTRONIQUES DE SURDITE  (CHAP 3.)
 - 3547 : APPAREILS ELECTRONIQUES DE SURDITE (CONSOMMABLES Y.C. PILES)
+- 3549 : PROCESSEUR POUR IMPLANT OSTE-INTEGRE
 
-Ces dépenses comprennent l'achat d'appareil auditif à proprement parler ainsi que l'entretien et la réparation de l'appareil. 
+Ces dépenses comprennent l'achat d'appareil auditif à proprement parler, l'entretien et la réparation de l'appareil ainsi que les processeurs pour les implants. 
 Le détail est donné par le code [LPP](../glossaire/LPP.md) des [audioprothèses](http://www.codage.ext.cnamts.fr/codif/tips//chapitre/index_chap.php?p_ref_menu_code=53&amp;p_site=AMELI)
 
-Ces codes sont donnés par la variable TIP_PRS_IDE dans la table de prestation affinée des dispositifs médicaux : [ER_TIP_F](../tables/DCIR/ER_TIP_F.md). 
-Il faut donc effectuer une jointure entre la table prestation ER_PRS_F et ER_TIP_F pour avoir le détail par codes LPP.
+Ces codes sont donnés par la variable `TIP_PRS_IDE` dans la table de prestation affinée des dispositifs médicaux : [ER_TIP_F](../tables/DCIR/ER_TIP_F.md). 
+Il faut donc effectuer une jointure dans le DCIR entre la table prestations `ER_PRS_F` et `ER_TIP_F` pour avoir le détail par codes LPP.
+Dans le DCIRS, il faut joindre les tables `NS_PRS_F` et `NS_TIP_F`. 
 
 ## Répartition des achats par codes LPP
 
@@ -31,20 +33,57 @@ Il faut donc effectuer une jointure entre la table prestation ER_PRS_F et ER_TIP
 | **2383933** | AUDIOPROTHESE, APPAREIL DE CLASSE B, > OU = 20 ANS | 0,0% | 0,0% |
 | **2341449** | AUDIOPROTHESE, BOITIER AVEC ACCESSOIRES, > OU = 20 ANS | 0,0% | 0,0% |
 | **2392079** | AUDIOPROTHESE, LUNETTES AUDITIVES, < 20 ANS | 0,0% | 0,0% |
+| **2316782** | AUDIOPROTHESE, APPAREIL DE CLASSE A, < 20 ANS | ||
+| **2325723** | AUDIOPROTHESE, APPAREIL DE CLASSE B, < 20 ANS |||
+| **2355820** | AUDIOPROTHESE, APPAREIL DE CLASSE C, < 20 ANS |||
+| **2326190** | AUDIOPROTHESE, BOITIER AVEC SES ACCESSOIRES, < 20 ANS |||
+| **2349712** | AUDIOPROTHESE, ENTRETIEN ET REPARATIONS, VIBRATEUR A CONDUCTION OSSEUSE |||
+| **2306832** | AUDIOPROTHESE, ENTRETIEN ET REPARATIONS, < 2 ANS, EMBOUT |||
 
 *Source : DCIR (Base école), extraction mars 2018*
 
-En part des achats, on trouve 30% d'appareil auditif et 70% de dépenses d'entretien et réparation. Les entretiens et réparations coutent moins de 260€ dans 98% des cas.
+
+
+En part des achats, on trouve 30% d'appareil auditif et 70% de dépenses d'entretien et réparation. 
+Les entretiens et réparations coutent moins de 260€ dans 98% des cas.
 
 L'achat d'appareils auditifs représente 89% des dépenses totales (seulement 11% pour les dépenses d'entretien et réparations)
 
-Pour exclure la partie entretien et réparation, appliquer le filtre TIP_PRS_TYP NOT IN (2,5).
+Pour exclure la partie entretien et réparation, appliquer le filtre `TIP_PRS_TYP` NOT IN (2,5).
 
-TIP_PRS_TYP = Type de Prs Fournie LPP (table de valeur IR_PRF_V).
+`TIP_PRS_TYP` = Type de Prs Fournie LPP (table de valeur IR_PRF_V).
+
+En outre, les **implants cochléaires** sont des appareils électroniques insérés dans l'oreille interne reliés à 
+un microphone posé derrière le pavillon de l'oreille.
+
+
+La liste des implants cochléaires est la suivante:
+
+| **LPP** | **Libellé** |
+| --- | --- |
+| **2350922** | IMPLANT COCH OU TRONC CEREBRAL, PROCESSEUR, FORFAIT ANNUEL ACCESSOIRES |
+| **2325090** | IMPLANT COCH OU TRONC CEREBRAL, PROCESSEUR, FORFAIT ANNUEL PILES JETABLES|
+| **2326941** | IMPLANT COCH OU TRONC CEREBRAL, PROCESSEUR, CHARGEUR ET BATTERIES RECHARGEABLES |
+| **2330977** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA BP110 POWER, PROCESSEUR. |
+| **2326438** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA 4, PROCESSEUR. |
+| **2340208** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA, PROCESSEUR |
+| **2331043** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA, ENTRETIEN ET REPARATIONS, FORFAIT | 
+| **2304997** | PROTHESE OSTEO-INTEGREE, PRODITION, PONTO, PROCESSEUR |
+| **2382885** | PROTHESE OSTEO-INTEGREE, PRODITION, PONTO, ENTRETIEN ET REPARATIONS, FORFAIT | 
+| **2378725** | PROTHESE OSTEO-INTEGREE, PRODITION, PONTO 3, PROCESSEUR. | 
+| **2338022** | PROTHESE OSTEO-INTEGREE, PRODITION, PONTO 3 POWER, PROCESSEUR. | 
+| **2339412** | PROTHESE OSTEO-INTEGREE, PRODITION, PONTO 3 SUPER POWER, PROCESSEUR | 
+| **2350388** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA ATTRACT, DEUX AIMANTS EXTERNES | 
+| **2372786** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA 5, PROCESSEUR. | 
+| **2303118** | IMPLANT OREILLE MOYENNE, AUDIOPROCESSEUR, MED-EL, VIBRANT SOUNDBRIDGE | 
+| **2358645** | IMPLANT OREILLE MOYENNE, MED-EL, VIBRANT SOUNDBRIDGE, FORFAIT PILES | 
+| **2344873** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA 5 POWER, PROCESSEUR. | 
+| **2300864** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA 5 SUPER POWER, PROCESSEUR. | 
+
+Comme pour les prothèses auditives, certains codes LPP sont liés à l'implant cochléaire, d'autres à l'entretien et aux réparations et 
+d'autres au processeur. 
 
 ## Prix d'un appareil auditif 
-
-Codes 2335791, 2355084 et 2369471
 
 |   | **Fréquence** | **%** | **Fréquence cumulée** | **%** |
 | --- | --- | --- | --- | --- |
@@ -86,7 +125,7 @@ PROC SQL;
           t1.PRS_ORD_NUM = t2.PRS_ORD_NUM AND 
           t1.REM_TYP_AFF = t2.REM_TYP_AFF)
   )
-  WHERE t1.prs_nat_ref in ( **3541** , **3547** )
+  WHERE t1.prs_nat_ref in ( **3541** , **3547**, **3549** )
         AND t1.dpn_qlf <> 71
   ;
 QUIT;
@@ -98,5 +137,9 @@ QUIT;
 [https://www.ameli.fr/fileadmin/user_upload/documents/Points_de_repere_n_47___Le_marche_de_l_audioprothese_en_2015.pdf](https://www.ameli.fr/fileadmin/user_upload/documents/Points_de_repere_n_47___Le_marche_de_l_audioprothese_en_2015.pdf)
 
 ::: tip Crédits
-Le contenu original de cette fiche provient du document [2019-03-22_DREES_Audioprothèses_MLP-2.0.docx](../files/DREES/2019-03-22_DREES_Audioproth%C3%A8ses_MPL-2.0.docx) rédigé par Kristel JACQUIER.
+
+Le contenu original de cette fiche provient du document
+[2019-03-22_DREES_Audioprothèses_MLP-2.0.docx](../files/DREES/2019-03-22_DREES_Audioproth%C3%A8ses_MPL-2.0.docx) rédigé par Kristel JACQUIER.
+Il a été complété par Raphaële ADJERAD
+
 :::

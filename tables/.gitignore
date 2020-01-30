@@ -1,0 +1,9 @@
+*
+!.schemas/
+!.schemas/**
+!.schemas/**/*.json
+.schemas/**/*.md
+!.sources/
+!.sources/**/*
+!.gitignore
+!README.md

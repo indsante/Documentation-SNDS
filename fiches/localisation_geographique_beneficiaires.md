@@ -88,6 +88,7 @@ Pour reconstituer le code département de la Corse (Haute-Corse `201`, et Corse-
 il est également possible d'utiliser le département de l'organisme d'affiliation du bénéficiaire `(substr(ORG_AFF_BEN,4,3))`.
 Les deux départements de la Corse y sont en effet bien distingués pour le régime général, et pour les SLM.
 
+
 ### Construction du code commune Insee complet à 5 positions
  
 Pour travailler *au niveau communal* dans le SNIIRAM, il faut reconstituer le code commune Insee complet à 5 positions. 
@@ -136,6 +137,11 @@ ELSE IF (regime='02A' and substr(ben_res_dpt,1,2)='97')
 ELSE IF (regime='03A' and substr(ben_res_dpt,1,2)='97') 
 	THEN depcom=compress(ben_res_dpt)||substr(ben_res_com,2,2); 
 ```
+#### Obtention du code INSEE en 2A et 2B pour la Corse en partant du code INSEE commencant par 20
+Lorsque le code INSEE est obtenu à partir des variables `BEN_RES_DPT` et `BEN_RES_COM` il est possible d'obtenir le code INSEE actuel pour la Corse (commençant par 2A ou 2B) pour tous les bénéficiaires. Pour obtenir le nouveau code INSEE (l’ancien code INSEE était valable avant 1976) il faut utiliser le fichier des événements sur les communes de l'INSEE, disponible à cette [page](https://www.insee.fr/fr/information/3720946) pour l'année 2019. 
+
+Il faudra ainsi fusionner la variable code INSEE avec la variable `com_av`.  
+Le code INSEE actuel pour la Corse est donné par la variable `com_ap`.
 
 #### Problèmes supplémentaires et corrections
 

@@ -21,7 +21,8 @@ puis de les partager via une merge-request sur GitLab.
 
 Les commandes suivantes permettent de lancer une version locale du site internet :
 
-- `npm install` : installer les modules npm 
+- `yarn install` : installer les modules npm 
+- `yarn start` : générer les fichiers markdown des tables
 - `yarn docs:dev` : démarrer le serveur de développement 
 - Votre navigateur reproduira alors en temps réel vos modifications sur le texte, 
 à l'adresse `http://localhost:8080`.

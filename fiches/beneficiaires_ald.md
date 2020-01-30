@@ -1,4 +1,5 @@
 # Bénéficiaires du dispositif ALD
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## Le dispositif des ALD
 
@@ -333,6 +334,10 @@ Quelques exemples d'ALD non exonérantes : Hypertension artérielle, Hypothyroï
 Le contenu original de cette fiche provient du document [2019-04-08_DREES-ARS_Bénéficiaires-ALD_MPL-2.0.docx](../files/DREES/2019-04-08_DREES-ARS_Beneficiaires-ALD/2019-04-08_DREES-ARS_Bénéficiaires-ALD_MPL-2.0.docx)) rédigé par Kristel JACQUIER, Claire-Lise DUBOST, Céline LEROY.
 
 Cette fiche s'appuie fortement sur la présentation partagée par la CNAM lors d'un comité utilisateurs partenaires intitulé « Referentiel_médicalisé_IR_IMB_R_présentationCNAM » et que l'on retrouve sur le portail BO.
+:::
+
+::: tip Autre source
+La Cnam a publié en octobre 2019 une [fiche sur les ALD](../files/Cnam/2019-10_Cnam_Programmes-SAS-ALD_MPL-2.0.doc).
 :::
 
 
