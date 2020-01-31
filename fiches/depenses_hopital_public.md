@@ -2,7 +2,7 @@
 
 Cette fiche explique comment retrouver les dépenses des établissements publics dans le PMSI. 
 
-Nous y traitons les dépenses associées aux séjours hospitaliers ainsi qu'aux actes et consultations externes ([ACE](../fiches/actes_consult_externes.md)).
+Nous y traitons les dépenses associées aux séjours hospitaliers ainsi qu'aux actes et consultations externes ([ACE](actes_consult_externes.md)).
 
 Les explications sont déclinées par spécialité hospitalière : 
 - [MCO](../glossaire/MCO.md) : médecine chirurgie obstétrique et odontologie
@@ -34,7 +34,7 @@ des éléments permettant d'identifier les populations concernées dans le PMSI 
 et de calculer leur RAC opposable figurent dans la fiche en cours de rédaction sur le calcul du RAC AMO en établissement public.
 
 En complément, des informations sur les dépenses en établissements de santé privés 
-se trouvent dans la fiche sur [les dépenses des établissement de santé privés (à partir du DCIRS)](../fiche_etab_prives.md).
+se trouvent dans la fiche sur [les dépenses des établissement de santé privés (à partir du DCIRS)](fiche_etab_prives.md).
 
 
 
@@ -61,7 +61,7 @@ Il est conseillé de considérer `MNT_TOT_AM` de la table `T_MCOaaVALO` corrigé
 `TOT_MNT_AM` de la table de prise en charge `T_MCOaaSTC` qui est l'information brute fournie par les établissements.  
 Pour un même séjour, ces deux montants ne sont pas calculés selon la même base de remboursement : `MNT_TOT_AM` est calculée sur la base des tarifs nationaux de prestations, *i.e.* les [groupes homogènes de séjours](../glossaire/GHS.md) en MCO, tandis que `TOT_MNT_AM` est calculée sur la base des tarifs journaliers de prestation (TJP).
 
-La table de chaînage patients (`T_MCOaaC` toujours sous ORAVUE) est la seule à contenir l'identifiant du bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](../fiches/fiche_beneficiaire.md) pour plus d'informations).  
+La table de chaînage patients (`T_MCOaaC` toujours sous ORAVUE) est la seule à contenir l'identifiant du bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](fiche_beneficiaire.md) pour plus d'informations).  
 La table des séjours (`T_MCOaaB` sous ORAVUE) apporte des informations supplémentaires sur le séjour (mode d'entrée et de sortie, numéro du [GHM](../glossaire/GHM.md), etc.).  
 Pour joindre les différentes tables mentionnées, la clef de chaînage est le couple (`ETA_NUM`, `RSA_NUM`) où `ETA_NUM` est le numéro FINESS de l'établissement et `RSA_NUM` le numéro séquentiel du séjour.  
 
@@ -134,7 +134,7 @@ Avant 2017, nous ne disposons que de la table de facturation transmise par les �
 La table `T_SSRaaB` de description du séjour permet d'extraire des informations sur le mode d'hospitalisation (complète/partielle, variable `HOS_TYP_UM`), 
 ainsi que sur le [GME](../glossaire/GME.md) (variable `GR_GME`).
 
-La table de chaînage patients se nomme `T_SSRaaC` (toujours sous ORAVUE). On y trouve l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](../fiches/fiche_beneficiaire.md) pour plus d'informations).   
+La table de chaînage patients se nomme `T_SSRaaC` (toujours sous ORAVUE). On y trouve l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](fiche_beneficiaire.md) pour plus d'informations).   
 Pour joindre les tables mentionnées ci-dessus, la clef de chaînage est le couple (`ETA_NUM`,`RHA_NUM`) où `ETA_NUM` est le numéro FINESS de l'établissement et `RHA_NUM` le numéro séquentiel du séjour.  
 
 Les filtres sur les séjours sont les suivants :
@@ -152,8 +152,9 @@ Dans ce cas, nous suggérons d'appliquer un facteur multiplicatif pour extrapole
 
 ### En HAD 
 
-Nous ne disposons que de la table de facturation transmise par les établissements `T_HADaaSTC` (sous ORAVUE), dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des [GHT](../glossaire/GHT.md) mais des tarifs journaliers de prestation.   
-La table de chaînage patients se nomme `T_HADaaC`. On y trouve l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires pour plus d'informations](../fiches/fiche_beneficiaire.md)).  
+À partir de 2017, on peut utiliser la variable `MNT_TOT_AM` de la table de valorisation des séjours (corrigée par l'ATIH) `T_HADaaVALO` sous ORAVUE.  
+Avant 2017, nous ne disposons que de la table de facturation transmise par les établissements `T_HADaaSTC`, dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des [GHT](../glossaire/GHT.md) mais des tarifs journaliers de prestation.   
+La table de chaînage patients se nomme `T_HADaaC`. On y trouve l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires pour plus d'informations](fiche_beneficiaire.md)).  
 Des informations sur le [GHPC](../glossaire/GHPC.md) se trouvent dans la table `T_HAD_aaGRP` (variable `PAP_GRP_GHPC`).  
 
 Pour joindre les tables mentionnées ci-dessus, la clef de chaînage est le couple (`ETA_NUM_EPMSI`, `RHAD_NUM`) où `ETA_NUM_EPMSI` est le numéro FINESS de l'établissement et `RHAD_NUM` le numéro séquentiel du séjour.  
@@ -174,7 +175,7 @@ La prise en charge peut s'effectuer à temps complet, partiel ou en ambulatoire.
 Quel que soit le mode de prise en charge, le montant des dépenses se trouve dans la table de facturation transmise par les établissements `T_RIPaaSTC`, dans laquelle la variable `TOT_MNT_AM` est calculée sur la base des tarifs journaliers de prestation.     
 Des informations complémentaires sur les séjours (notamment le nombre de jours en hospitalisation partielle / complète) peuvent être extraites de la table `T_RIPaaS` de description du sejour.    
 Des informations sur les prises en charge ambulatoires se trouvent dans la table `T_RIPaaR3A`.  
-La table de chaînage patients (`T_RIPaaC` toujours sous ORAVUE) contient notamment l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](../fiches/fiche_beneficiaire.md) pour plus d'informations).  
+La table de chaînage patients (`T_RIPaaC` toujours sous ORAVUE) contient notamment l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](fiche_beneficiaire.md) pour plus d'informations).  
 La clef de chaînage entre les tables mentionnées ci-dessus est le couple (`ETA_NUM_EPMSI`, `RIP_NUM`) où `ETA_NUM_EPMSI` est le numéro FINESS de l'établissement et `RIP_NUM` est le numéro séquentiel du séjour.  
 
 
@@ -183,9 +184,9 @@ La clef de chaînage entre les tables mentionnées ci-dessus est le couple (`ETA
 Par ailleurs, certains médicaments peuvent être facturés en sus du tarif du séjour ([GHS](../glossaire/GMT.md) en MCO, 
 [GHT](../glossaire/GHT.md) en HAD et [GMT](../glossaire/GMT.md) en SSR) et en sus des ACE (en MCO).  
 Les informations sur les dépenses associées à ces médicaments sont détaillées dans 
-la [fiche sur les médicaments de la liste en sus](../fiches/medicaments_de_la_liste_en_sus.md).  
+la [fiche sur les médicaments de la liste en sus](medicaments_de_la_liste_en_sus.md).  
 En MCO, certains dispositifs médicaux implantables peuvent également être facturés en sus du [GHS](../glossaire/GMT.md). 
-Les dépenses associées à ces dispositifs sont détaillées dans la [fiche sur les dispositifs médicaux implantables en sus](../fiches/dispositifs_medicaux_implantables_en_sus.md).  
+Les dépenses associées à ces dispositifs sont détaillées dans la [fiche sur les dispositifs médicaux implantables en sus](dispositifs_medicaux_implantables_en_sus.md).  
 Par définition, il n'y a pas de reste à charge pour les dépenses en sus qui sont entièrement prises en charge par l'assurance maladie obligatoire.  
 
 À notre connaissance, il n'y a pas de remontée d'information sur les dépenses en sus ni de table dédiée dans le recueil d'information médicalisé. 
@@ -195,10 +196,10 @@ Par définition, il n'y a pas de reste à charge pour les dépenses en sus qui s
 
 ### En MCO
 
-Les dépenses d'[actes et consultations externes (ACE)](../fiches/actes_consult_externes.md) des établissements publics et établissements de santé privés d'intérêt collectif (ESPIC) se trouvent dans la table de valorisation des ACE 
+Les dépenses d'[actes et consultations externes (ACE)](actes_consult_externes.md) des établissements publics et établissements de santé privés d'intérêt collectif (ESPIC) se trouvent dans la table de valorisation des ACE 
 sous `T_MCOaaVALOACE`.   
 Cette table contient une ligne par ACE (valorisé ou non).  
-On peut obtenir des détails sur la nature de l'ACE (accueil et traitement des urgences, actes d'analyse, dialyse, forfaits petit matériel, etc.) à l'aide de la variable `ACT_COD` de la table `T_MCOaaFBSTC` dont la nomenclature figure en [annexe de la fiche sur les ACE](../fiches/actes_consult_externes.md#annexe).  
+On peut obtenir des détails sur la nature de l'ACE (accueil et traitement des urgences, actes d'analyse, dialyse, forfaits petit matériel, etc.) à l'aide de la variable `ACT_COD` de la table `T_MCOaaFBSTC` dont la nomenclature figure en [annexe de la fiche sur les ACE](actes_consult_externes.md#annexe).  
 Le montant des dépenses est donné par la variable `MNT_BR`, la base de remboursement de la sécurité sociale, car il n'existe pas de dépassements en ACE.  
 La variable `MNT_REMB` indique le montant remboursé par l'assurance maladie (part légale et participations supplémentaires (détenus, SU, etc.)).    
 Le montant du reste à charge (RAC AMO) peut-être calculé comme la différence entre `MNT_BR` et `MNT_REMB`. 
