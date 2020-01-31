@@ -29,7 +29,7 @@ La documentation est organisée en 5 sections :
 - [Fiche thématiques](fiches/README.md) contient des fiches thématiques détaillés ;
 - [Glossaire](glossaire/README.md) contient des fiches explicitant des concepts importants.
 - [Ressources](ressources/README.md) liste des liens vers différentes ressources documentaires sur le SNDS ;
-- La section **Tables** présente l'ensemble des produits, tables et variables du SNDS ;
+- [Tables](tables/README.md) présente l'ensemble des produits, tables et variables du SNDS ;
 - [Contribuer](contribuer/README.md) est un guide de contribution à cette documentation.
 
 Chacune de ces sections correspond à un dossier sur [GitLab](https://gitlab.com/healthdatahub/documentation-snds), avec un [dossier supplémentaire](https://gitlab.com/healthdatahub/documentation-snds/files) pour les fichiers et images.
