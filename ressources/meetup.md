@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # Meetup SNDS
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
@@ -30,7 +34,6 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JpUbZUWwEt4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
 ### Schéma formel et Dictionnaire interactif 
-- Titre : Schéma formel et Dictionnaire interactif du SNDS 
 - Lien : [drees.shinyapps.io/dico-snds](https://drees.shinyapps.io/dico-snds/)
 - Présenté par : Matthieu Doutreligne et Viktor Jarry (DREES)
 - Support de présentation :
@@ -39,8 +42,8 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aAeAB301zzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Appariements 
-- Ttire : Appariements entre les cohortes et le SNDS - zoom sur un cas concret
+### Appariements entre les cohortes et le SNDS
+- Titre : Appariements entre les cohortes et le SNDS - zoom sur un cas concret
 - Présenté par : Mehdi Gabbas et Brice Dufresne ([Cnam](../glossaire/Cnam.md))
 - Support de présentation :
 [pptx](../files/presentations/meetup-snds1/2019.03.27_CNAM_Possibilités_Appariement_SNDS_MPL-2.0.pptx),
@@ -98,7 +101,6 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CmeVbjNtLNQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Boîte à outils du data scientist 
-
 - Titre : La boîte à outils du data scientist pour analyser les données du SNDS
 - Présenté par : Martin Prodel (HEVA)
 - Support de présentation :
@@ -129,13 +131,11 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_0rrgW1kMQA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Le service santé de la Cnil 
-
 - Titre : Le service santé de la Cnil : ressources, méthodes et points de vigilance
 - Présenté par : Hélène Guimiot-Breaud (Cheffe du service de la santé de la Cnil)
 - Support de présentation : À venir
 
-### Appariement SNDS 
-- Titre : Histoire d’un appariement SNDS 
+### Histoire d’un appariement SNDS chez Clinityx
 - Présenté par :  Nicolas Glatt (directeur général et co-fondateur de Clinityx)
 - Support de présentation :
 [pdf](../files/presentations/meetup-snds4/2019.11.28_CLYNTIX_France-Tavi_MPL-2.0.pdf)
