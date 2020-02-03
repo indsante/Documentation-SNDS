@@ -34,7 +34,7 @@ des éléments permettant d'identifier les populations concernées dans le PMSI 
 et de calculer leur RAC opposable figurent dans la fiche en cours de rédaction sur le calcul du RAC AMO en établissement public.
 
 En complément, des informations sur les dépenses en établissements de santé privés 
-se trouvent dans la fiche sur [les dépenses des établissement de santé privés (à partir du DCIRS)](fiche_etab_prives.md).
+se trouvent dans la fiche sur [les dépenses des établissements de santé privés (à partir du DCIRS)](fiche_etab_prives.md).
 
 
 
