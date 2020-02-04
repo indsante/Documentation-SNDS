@@ -6,7 +6,7 @@
 Des documents de tout format peuvent être partagés dans la documentation collaborative. 
 Ils seront mis à disposition via un lien de téléchargement.
 
-Pour ajoutez un nouveau fichier, merci de bien vouloir : 
+Pour ajouter un nouveau fichier, merci de bien vouloir : 
 - Vérifier que vous avez les droits pour le publier 
 
 - Le renommer en local au format **date_auteur_nom-du-fichier_MPL-2.0.extension**
