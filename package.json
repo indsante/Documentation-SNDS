@@ -4,7 +4,7 @@
   "repository": "https://gitlab.com/healthdatahub/documentation-snds.git",
   "license": "MPL-2.0",
   "dependencies": {
-    "@opendataschema/table-schema-to-markdown": ">= 0.4.1",
+    "@opendataschema/table-schema-to-markdown": ">= 0.4.2",
     "handlebars-helpers": ">= 0.10.0",
     "markdown-include": ">= 0.4.3",
     "markdown-it-footnote": ">= 3.0.2",
