@@ -10,7 +10,7 @@ Cette activité est de même nature que celle réalisée par les praticiens lib�
 Elle ne concerne que les **hôpitaux publics** et les **établissements de santé privés d’intérêt collectif** (ESPIC), puisque dans les établissements de santé privés lucratifs, l’activité externe relève du champ libéral. On retrouve donc cette dernière dans le DCIR (SNIIRAM).
 
 Plus concrètement, les prestations réalisées dans ce cadre sont principalement :
--	des **consultations** (spécialistes, 39 millions d’actes et 14% du total des dépenses  ; généralistes, 24 millions, 14%)[^1], 
+-	des **consultations** (spécialistes, 39 millions d’actes et 14% du total des dépenses  ; généralistes, 24 millions, 14%) [^1], 
 -	des **actes d’imagerie** (15 millions, 14%) ou de **biologie** (77 millions, 12%), 
 -	des **forfaits techniques de radiologie**,
 -	des **actes techniques médicaux**, 
@@ -187,7 +187,7 @@ RUN;
 ## Annexe
 
 
-### Table de valeur de la variable ACT\_COD[^2]
+### Table de valeur de la variable ACT\_COD [^2]
 
 |    Code        |    Libellé                                                                              |
 |----------------|-----------------------------------------------------------------------------------------|
@@ -295,7 +295,7 @@ Le contenu original de cette fiche provient du document *Les actes et consultati
 Cette fiche s'appuie fortement sur les slides de la formation proposée par la CNAM sur les données du PMSI dans le SNDS.
 :::
 
-[^1] : Chiffres tirés de l’éclairage « Les actes et consultations externes à l’hôpital » dans le rapport Les Comptes de la Sécurité Sociale publié par la DSS en 2015   
+[^1]: Chiffres tirés de l’éclairage « Les actes et consultations externes à l’hôpital » dans le rapport Les Comptes de la Sécurité Sociale publié par la DSS en 2015   
 
-[^2] : Cette table a été reconstituée à partir de différentes sources dont principalement la page suivante sur le site de l’ATIH https://www.atih.sante.fr/codes-prestations-actes-externes, ainsi que différents documents renseignant sur les tarifs des actes des médecins, à partir de recherches effectués sur les modalités possibles de la variable ACT_COD. En l’état, la table n’est pas exhaustive.
+[^2]: Cette table a été reconstituée à partir de différentes sources dont principalement la page suivante sur le site de l’ATIH [https://www.atih.sante.fr/codes-prestations-actes-externes](https://www.atih.sante.fr/codes-prestations-actes-externes), ainsi que différents documents renseignant sur les tarifs des actes des médecins, à partir de recherches effectués sur les modalités possibles de la variable ACT_COD. En l’état, la table n’est pas exhaustive.
 
