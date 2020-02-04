@@ -1,9 +1,8 @@
-# Guide pédagogique SNDS pour accès sur projet
+# Guide accès sur projet
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ::: tip
-Cette fiche provient du guide pour les [accès sur projet](../../files/Cnam/2019-07_Cnam_Guide_pedagogique_SNDS_acces_projet_MPL-2.0.docx) publié par la Cnam, sous licence MPL 2.0
-
+Cette fiche provient du guide pour les [accès sur projet](../../../files/Cnam/2019-07_Cnam_Guide_pedagogique_SNDS_acces_projet_MPL-2.0.docx) publié par la Cnam, sous licence MPL-2.0
 :::
 
 
@@ -108,7 +107,7 @@ Le SNDS assure la mise à disposition des données selon la nature des données 
     -  **Sur projet**, via des accès standards après avis favorables ou favorables avec recommandation de l’INDS (Institut National des Données de Santé) et du CEREES (Comité d’Expertise pour les Recherches, les Etudes et les Evaluations), et sur autorisation de la CNIL, ou via des accès simplifiés, **à des fins de recherche, d’étude et d’évaluation d’intérêt public dans le domaine de la santé, pour les demandeurs publics et privés** (intermédiaires nécessaires dans certains cas pour respecter les 2 finalités interdites qui sont la promotion des produits, et la modification des contrats d’assurance) :  **accès à une partie du SNDS (EGB) ou à des extractions de données du SNDS restituées dans des conditions de sécurité équivalente**.
 
 
-![schema](../../files/Cnam/Images_guide_acces_projets/SchemaFiche2.png)
+![schema](../../../files/Cnam/Images_guide_acces_projets/SchemaFiche2.png)
 
 
 
@@ -295,7 +294,7 @@ En complément, une formation sur les données du PMSI accessibles dans le SNDS 
 **Parcours de formation pour les utilisateurs ayant un accès sur projet aux SNDS**
 
 
-![schema](../../files/Cnam/Images_guide_acces_projets/SchemaFiche6.png)
+![schema](../../../files/Cnam/Images_guide_acces_projets/SchemaFiche6.png)
 
 
 Les formations se déroulent en partenariat avec l’Institut 4.10, sur les sites de Paris, Lyon et Tours.
@@ -325,7 +324,7 @@ Il permet d’accéder :
 Les données d’extraction ainsi que le produit EGB se situent dans l’onglet `STATISTIQUES` du portail SNDS où les tables autorisées sont accessibles et interrogeables par SAS guide.
 
 
-![schema](../../files/Cnam/Images_guide_acces_projets/SchemaFiche7.png)
+![schema](../../../files/Cnam/Images_guide_acces_projets/SchemaFiche7.png)
 
 
 -  Le guide d’utilisation du portail et la procédure d’installation de certains modules (certificats, citrix) sont disponibles sur l’accueil du portail.
@@ -374,17 +373,17 @@ Par ailleurs, pour éviter les imports des mêmes tables par de nombreux utilisa
 
 ### Le processus d’import/export de fichiers du portail SNDS  
 
-![schema](../../files/Cnam/Images_guide_acces_projets/SchemaFiche8_1.png)
+![schema](../../../files/Cnam/Images_guide_acces_projets/SchemaFiche8_1.png)
 
 
 #### Le processus d’import de fichiers
 
-![schema](../../files/Cnam/Images_guide_acces_projets/SchemaFiche8_2.png)
+![schema](../../../files/Cnam/Images_guide_acces_projets/SchemaFiche8_2.png)
 
 
 #### Le processus d’export de fichiers
 
-![schema](../../files/Cnam/Images_guide_acces_projets/SchemaFiche8_3.png)
+![schema](../../../files/Cnam/Images_guide_acces_projets/SchemaFiche8_3.png)
 
 
 
@@ -396,7 +395,7 @@ Le DPD doit veiller à la **traçabilité** des traitements réalisés par la te
 
 Ce dernier doit comporter a minima les informations suivantes, sur l’utilisation des données individuelles bénéficiaires, professionnels de santé ou établissements ainsi que les identifiants potentiels utilisés et pourra faire l’objet d’un contrôle par la CNIL :
 
-![schema](../../files/Cnam/Images_guide_acces_projets/SchemaFiche9.png)
+![schema](../../../files/Cnam/Images_guide_acces_projets/SchemaFiche9.png)
 
 
 ## Quel accompagnement autour du SNDS ? 
@@ -406,7 +405,7 @@ La CNAM propose le dispositif d’accompagnement suivant en se connectant sur le
 L’ensemble des profils permet d’interroger la documentation.
 
 
-![schema](../../files/Cnam/Images_guide_acces_projets/SchemaFiche10.png)
+![schema](../../../files/Cnam/Images_guide_acces_projets/SchemaFiche10.png)
 
 
 ### Le Support
@@ -474,15 +473,15 @@ Un modèle de mail est proposé sur la page d’accueil du portail dans la rubri
 
 -  Et **divers documents d’actualité forte** (par exemple évolutions dues à la mise en œuvre du référentiel sécurité, nouvelle version de SAS,…)
 
-![schema](../../files/Cnam/Images_guide_acces_projets/SchemaFiche10_2.png)
+![schema](../../../files/Cnam/Images_guide_acces_projets/SchemaFiche10_2.png)
 
 
 3.	En cliquant sur l’onglet `TABLEAUX ET REQUETES`, vous accédez à une **arborescence de documentations insérées dans Business Object**.
 
-![schema](../../files/Cnam/Images_guide_acces_projets/SchemaFiche10_3.png)
+![schema](../../../files/Cnam/Images_guide_acces_projets/SchemaFiche10_3.png)
 
 
-![schema](../../files/Cnam/Images_guide_acces_projets/SchemaFiche10_4.png)
+![schema](../../../files/Cnam/Images_guide_acces_projets/SchemaFiche10_4.png)
 
 
 **La documentation est détaillée dans l’arborescence :**
@@ -522,7 +521,7 @@ Le projet doit suivre une finalité de recherche, d’étude et d’évaluation 
 - pour accéder à des extractions de données du SNDS (données DCIR chainées aux données PMSI et CépiDC) après avis favorable ou favorable avec recommandation du **CEREES** (Comité d’Expertise pour les Recherches, les Etudes et les Evaluations), et sur autorisation de la **CNIL**.
 
 
-![schema](../../files/Cnam/Images_guide_acces_projets/SchemaFiche11.png)
+![schema](../../../files/Cnam/Images_guide_acces_projets/SchemaFiche11.png)
 
 
 Le porteur de projet dépose un dossier dématérialisé sur la plateforme de dépôt de l’Inds qui a 7 jours pour rendre un avis sur l’intérêt public du projet. Le dossier est constitué des éléments suivants : 

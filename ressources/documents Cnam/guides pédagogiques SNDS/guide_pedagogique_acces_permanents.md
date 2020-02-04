@@ -1,8 +1,8 @@
-# Guide pédagogique SNDS pour accès permanents
+# Guide accès permanents
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ::: tip
-Cette fiche provient du guide pour les [accès permanents](../../files/Cnam/2019-07_Cnam_Guide_pedagogique_SNDS_acces_permanents_MPL-2.0.docx) publié par la Cnam, sous licence MPL 2.0
+Cette fiche provient du guide pour les [accès permanents](../../../files/Cnam/2019-07_Cnam_Guide_pedagogique_SNDS_acces_permanents_MPL-2.0.docx) publié par la Cnam, sous licence MPL-2.0
 
 :::
 
@@ -98,7 +98,7 @@ Le SNDS assure la mise à disposition des données selon la nature des données 
 * [ ]  **Sur autorisation pérenne**, pour l’Etat et ses agences, des établissements publics et des organismes **chargés d’une mission de service public** (recherches, sphère santé,…) listés dans le décret n°2016-1871 du 26 décembre 2016 : **accès aux données du SNDS en déclinant les accès selon les niveaux d’agrégation des données** (individuelles/agrégées bénéficiaires, …) **et les historiques accessibles**,
 
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche2.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche2.png)
 
 
 * [ ]  **Ou accès par projet**, à des fins de recherche, d’étude et d’évaluation d’intérêt public dans le domaine de la santé, pour les demandeurs publics et privés après autorisation de la CNIL : **accès à une partie du SNDS ou une extraction de données**.
@@ -319,7 +319,7 @@ Dans le cadre de l’accès aux données du SNDS, au titre d’un accès permane
 
 ### Parcours de formation pour les utilisateurs ayant un accès permanent aux SNDS
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche6.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche6.png)
 
 
 Pour être habilité à consulter les données du SNDS sur le portail, le futur utilisateur doit obligatoirement suivre le module de formation “Architecture et données du SNIIRAM/SNDS” (réf. Institut 4.10 REQ-054-AM).
@@ -348,7 +348,7 @@ Ce numéro de profil correspond à l’accès à un périmètre de données, sel
 
 *  Les différents produits de restitutions des données SNDS sont interrogeables pour certains via des datamarts accessibles sous le logiciel BO Webi (Onglet TABLEAUX ET REQUETES) et pour d’autres via des tables accessibles par SAS guide (onglet STATISTIQUES) 
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche7.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche7.png)
 
 
 *  Le guide d’utilisation du portail et la procédure d’installation de certains modules (certificats, citrix) est disponible sur l’accueil du portail.
@@ -356,7 +356,7 @@ Ce numéro de profil correspond à l’accès à un périmètre de données, sel
 
 ### Liste des produits de restitution selon le niveau d’agrégation et outil d’interrogation.
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche7_2.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche7_2.png)
 
 
 
@@ -430,7 +430,7 @@ Ce contrôle s’assure que le transfert des données échangées entre profils 
 *Exemple de message type attendu :*
 
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche9.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche9.png)
 
 
 *  **Comment récupérer les tables SAS ?**
@@ -507,13 +507,13 @@ Par ailleurs, pour éviter les imports des mêmes tables par de nombreux utilisa
 ### Téléchargement des fichiers
 
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche10_1.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche10_1.png)
 
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche10_2.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche10_2.png)
 
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche10_3.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche10_3.png)
 
 
 ## Comment le Délégué à la Protection des Données doit-il remplir le document décrivant les caractéristiques des traitements portant sur des données individuelles ?
@@ -524,7 +524,7 @@ Le DPD doit veiller à la **traçabilité** des traitements réalisés par la te
 
 Ce dernier doit comporter a minima les informations suivantes, sur l’utilisation des données individuelles bénéficiaires, professionnels de santé ou établissements ainsi que les identifiants potentiels utilisés et pourra faire l’objet d’un contrôle par la CNIL :
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche11.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche11.png)
 
 
 
@@ -534,7 +534,7 @@ La CNAM propose le dispositif d’accompagnement suivant en se connectant sur le
 L’ensemble des profils permet d’interroger la documentation.
 
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche12_1.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche12_1.png)
 
 
 ### Le Support
@@ -602,15 +602,15 @@ Un modèle de mail est proposé sur la page d’accueil du portail dans la rubri
 
 *  Et **divers documents d’actualité forte** (par exemple évolutions dues à la mise en œuvre du référentiel sécurité, nouvelle version de SAS,…)
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche12_2.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche12_2.png)
 
 
 3.	En cliquant sur l’onglet `TABLEAUX ET REQUETES`, vous accédez à une **arborescence de documentations insérées dans Business Object**.
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche12_3.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche12_3.png)
 
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche12_4.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche12_4.png)
 
 
 **La documentation est détaillée dans l’arborescence :**
@@ -636,7 +636,7 @@ PMSI |	Toute la documentation relative aux tables du PMSI : liste des variables,
 
 Dans l’intranet de la CNAM, vous trouverez toute la documentation présente sur le portail SNDS : 
 
-![schema](../../files/Cnam/Images_guide_acces_permanents/SchemaFiche12_5.png)
+![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche12_5.png)
 
 
 ### La documentation collaborative du Health Data Hub 

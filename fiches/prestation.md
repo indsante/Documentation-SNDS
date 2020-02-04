@@ -87,6 +87,6 @@ quit;
 ## Références
 
 ::: tip Crédits
-Cette fiche provient d'un document créé par la Cnam - MPL 2.0
+Cette fiche provient d'un document créé par la Cnam - MPL-2.0
 [Fiche publiée](../files/Cnam/2019-10_Cnam_Programmes-SAS-Nature-Prestation_MPL-2.0.doc)
 :::
