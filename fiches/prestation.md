@@ -39,7 +39,7 @@ Un code « Nature de prestation » est répertorié par un code sur 4 caractère
 
 Dans les exemples de programme SAS ci-dessous, le code de prestation est noté `XXXX`.
 
-```{SAS}
+```sas
 proc sql;
 %connectora;
 create table table as select * from connection to oracle
@@ -60,7 +60,7 @@ quit;
 
 Programme SAS :
 
-```{SAS}
+```sas
 proc sql;
 %connectora;
 create table table2 as select * from connection to oracle
