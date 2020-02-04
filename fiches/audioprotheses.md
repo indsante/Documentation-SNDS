@@ -11,8 +11,8 @@ Ces dépenses comprennent l'achat d'appareil auditif à proprement parler, l'ent
 Le détail est donné par le code [LPP](../glossaire/LPP.md) des [audioprothèses](http://www.codage.ext.cnamts.fr/codif/tips//chapitre/index_chap.php?p_ref_menu_code=53&amp;p_site=AMELI)
 
 Ces codes sont donnés par la variable `TIP_PRS_IDE` dans la table de prestation affinée des dispositifs médicaux : [ER_TIP_F](../tables/DCIR/ER_TIP_F.md). 
-Il faut donc effectuer une jointure dans le DCIR entre la table prestations `ER_PRS_F` et `ER_TIP_F` pour avoir le détail par codes LPP.
-Dans le DCIRS, il faut joindre les tables `NS_PRS_F` et `NS_TIP_F`. 
+Il faut donc effectuer une jointure dans le DCIR entre la table prestations [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) et `ER_TIP_F` pour avoir le détail par codes LPP.
+Dans le DCIRS, il faut joindre les tables [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md) et [NS_TIP_F](../tables/DCIRS/NS_TIP_F.md). 
 
 ## Répartition des achats par codes LPP
 

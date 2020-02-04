@@ -16,7 +16,7 @@ Ces variables peuvent être présentes dans le SNIIRAM, dans le PMSI, ou dans le
 ## Les variables individuelles 
 ### Le sexe
 Dans le SNIIRAM, la variable **BEN_SEX_COD** renseigne sur le sexe du bénéficiaire.
-La variable BEN_SEX_COD (variable numérique) est présente dans la table de prestations de soins ER_PRS_F à chaque soin, ainsi que dans le référentiel des bénéficiaires, IR_BEN_R, pour les consommants et les non-consommants. Elle est aussi disponible dans les tables de consommants du répertoire CONSOPAT, et est issue du référentiel IR_BEN_R. 
+La variable BEN_SEX_COD (variable numérique) est présente dans la table de prestations de soins [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) à chaque soin, ainsi que dans le référentiel des bénéficiaires, [IR_BEN_R](../tables/BENEFICIAIRE/IR_BEN_R.md), pour les consommants et les non-consommants. Elle est aussi disponible dans les tables de consommants du répertoire CONSOPAT, et est issue du référentiel IR_BEN_R. 
 Cette variable ne contient quasiment pas de valeur manquante.
 
 Dans le PMSI, la variable **COD_SEX** renseigne sur le sexe du bénéficiaire. Elle se trouve dans la table T_MCOaaB.
@@ -31,7 +31,7 @@ En 2016, cette variable ne contient quasiment pas de valeur manquante, la qualit
 ### L'âge au moment du soin
 L’âge à la date des soins peut être calculé à partir de l'année de naissance, en âge atteint dans l’année : année des soins - année de naissance.  
 
-Il existe également dans les tables de prestations ER_PRS_F et NS_PRS_F, la variable **BEN_AMA_COD**, qui donne l'**âge à la date des soins en années** pour les bénéficiaires de plus de 2 ans.  
+Il existe également dans les tables de prestations ER_PRS_F et [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md), la variable **BEN_AMA_COD**, qui donne l'**âge à la date des soins en années** pour les bénéficiaires de plus de 2 ans.  
 Cette variable est calculée comme l’écart entre l’année et le mois de la date des soins (ou à défaut de la date de liquidation) et l’année et le mois de naissance du bénéficiaire. 
 
 Pour les nourrissons de moins de 2 ans, BEN_AMA_COD donne l'âge en mois + 1000 (exemple : 1023 = 23 mois). 
@@ -61,7 +61,7 @@ Le processus d’alimentation de la date de décès est propre à chaque régime
 
 Pour le PMSI, l’information est présente si le patient est décédé au cours de son hospitalisation (mode de sortie égal à 9). Dans ce cas, on peut récuperer la date de sortie du séjour **SOR-DAT**.
 
-Depuis juin 2018, les causes de décès sont intégrées dans le SNDS, les variables BEN_DCD_DTE et BEN_DCD_AME apparaissent donc également dans les tables KI_CCI_R et KI_ECD_R. 
+Depuis juin 2018, les causes de décès sont intégrées dans le SNDS, les variables BEN_DCD_DTE et BEN_DCD_AME apparaissent donc également dans les tables [KI_CCI_R](../tables/Causes de décès/KI_CCI_R.md) et [KI_ECD_R](../tables/Causes de décès/KI_ECD_R.md). 
 ::: warning Attention 
 Il est possible d’avoir une date de décès renseignée dans les tables relatives aux causes de décès, mais  mise par défaut au 01 janvier 1600 dans IR_BEN_R, bien que le certificat ait pu être apparié à un bénéficiaire. 
 :::

@@ -156,7 +156,7 @@ Le [DAMIR](../glossaire/DAMIR.md) est un outil pour l'analyse statistique des gr
 Contrairement au DCIR, le DAMIR ne permet pas d'effectuer des analyses individuelles. 
 C'est un outil complémentaire au DCIR dans la mesure où il offre des temps de requêtage nettement inférieurs, dans le cas où l'on s'intéresse uniquement à des montants agrégés de dépenses.
  
-Sous SAS/Guide, le DAMIR correspond à la table `MA_REM_FT` (bibliothèque `ORAVUE`). 
+Sous SAS/Guide, le DAMIR correspond à la table [MA_REM_FT](../tables/DAMIR/MA_REM_FT.md) (bibliothèque `ORAVUE`). 
 On trouve également le DAMIR sous certains profils BusinessObjects (profil 22 notamment). 
 
 Toutes les prestations présentées au remboursement sont disponibles dans l’univers DAMIR, à l’exclusion de deux prestations : 4381 (actes hors nomenclature) et 4382 (pharmacie non remboursable). 

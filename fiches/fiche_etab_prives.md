@@ -11,7 +11,7 @@ C'est pourquoi nous présentons dans cette fiche l'analyse les dépenses des ét
 
 ## Sélectionner les prestations et délimiter le champ
 
-La première étape consiste à sélectionner dans la table prestation (`ER_PRS_F` dans le DCIR et `NS_PRS_F` dans le DCIRS), tous les actes associés à un établissement de santé. 
+La première étape consiste à sélectionner dans la table prestation (`ER_PRS_F` dans le DCIR et [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md) dans le DCIRS), tous les actes associés à un établissement de santé. 
 Il s'agit des actes pour lesquels le finess de l'établissement exécutant est renseigné (la variable `ETB_EXE_FIN` contient un code à 8 chiffres, il s'agit du FINESS sans clef). 
 
 Afin de se concentrer sur le champ des établissements privés, les filtres à poser sont les suivants : 
@@ -67,7 +67,7 @@ Les cliniques privées non conventionnées sont très peu nombreuses en France [
 ### Selon la discipline (PSY, SSR, MCO et HAD)
 
 Dans le DCIR et le DCIRS,  il y a les équivalents des discipline de prestation des différents PMSI pour les établissements privés. 
-Pour faire la distinction, il faut regarder la variable `DDP_COD` de `NS_PRS_F` pour le DCIRS et `DDP_COD` de la table `ER_ETE_F` pour le DCIR.
+Pour faire la distinction, il faut regarder la variable `DDP_COD` de `NS_PRS_F` pour le DCIRS et `DDP_COD` de la table [ER_ETE_F](../tables/DCIR/ER_ETE_F.md) pour le DCIR.
 Cette variable de code de la discipline de prestations a pour table de nomenclature `IR_DDP_V`, et dans cette nomenclature on trouve
 la variable `DDP_GDE_COD` qui nous renseigne sur la discipline de prestations.
 
@@ -94,7 +94,7 @@ Il n'existe pas d'activité externe en établissement privé lucratif, elle est 
 
 ### Les variables à considérer 
 
-Les montants payés, de base et remboursés du régime obligatoire des soins de ville sont disponibles dans la table `ER_PRS_F` dans le DCIR ([fiche sur les dépenses dans le DCIR et DAMIR](../fiches/montant_soins_de_ville.md)):
+Les montants payés, de base et remboursés du régime obligatoire des soins de ville sont disponibles dans la table [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) dans le DCIR ([fiche sur les dépenses dans le DCIR et DAMIR](../fiches/montant_soins_de_ville.md)):
 
 - montant payé : `PRS_PAI_MNT`
 - taux de remboursement : `RGO_REM_TAU`
