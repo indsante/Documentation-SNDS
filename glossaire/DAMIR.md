@@ -18,7 +18,7 @@ Les dépenses sont agrégées selon différents axes :
 
 On peut interroger le DAMIR:
 - via BO WebI, avec les profils 22 et 23. 
-- via SAS / Guide, table table `MA_REM_FT` dans ORAVUE. 
+- via SAS / Guide, table [MA_REM_FT](../tables/DAMIR/MA_REM_FT.md) dans ORAVUE. 
 
 La table `MA_REM_FT` est accessible: 
 - à partir des profils permettant d’accéder à DCIR pour les organismes autorisés à requêter sur DCIR. 

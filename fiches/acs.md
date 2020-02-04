@@ -1,8 +1,7 @@
-# L'Aide au paiement d'une Complémentaire Santé 
+# Aide au paiement d'une Complémentaire Santé 
 
 
-Cette fiche aborde une variable parmi l'ensemble des variables socio-démographiques, pour une description plus globale se référer à la [fiche](../fiches/variables_sociodemo.md) 
-concernant les variables socio-démographiques ([fiche sur les variables socio-démographiques](../fiches/ variables_sociodemo.md)). 
+Cette fiche aborde une variable parmi l'ensemble des variables socio-démographiques, pour une description plus globale se référer à la [fiche sur les variables socio-démographiques](../fiches/variables_sociodemo.md). 
 
 ## Définition 
 
@@ -29,7 +28,7 @@ s’ils souscrivent à un contrat d’assurance maladie complémentaire prévu �
 C’est un droit optionnel de l’ACS, on peut choisir de ne pas souscrire à ces contrats.
 
 
-Dans le SNDS, il s'agit des contrats identifiés par la variable `BEN_CTA_TYP` in ('91','92','93') présente dans la table `IC_ORC_R` et dans les tables `NS_PRS_F` (table
+Dans le SNDS, il s'agit des contrats identifiés par la variable `BEN_CTA_TYP` in ('91','92','93') présente dans la table `IC_ORC_R` et dans les tables [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md) (table
 centrale des prestations du DCIRS)/`ER_PRS_F` (table centrale des prestations du DCIR) à partir de juillet 2015.
 
 
@@ -43,7 +42,7 @@ quel que soit le médecin, même s'il pratique des honoraires libres (« secteur
 - À l'exonération du paiement de la participation forfaitaire de 1 € et des franchises médicales
 
 Ces droits sont donnés à toute personne bénéficiaire de l'ACS. 
-Ce sont les périodes de droits d’ouverture de l’ACS présente dans la table `IR_ACS_R`. 
+Ce sont les périodes de droits d’ouverture de l’ACS présente dans la table [IR_ACS_R](../tables/DCIR_DCIRS/IR_ACS_R.md). 
 
 Voici un tableau récapitulatif dans l'ordre chronologique :
 | Date | Evènement législatif |
@@ -83,7 +82,7 @@ L'effectif du Fonds CMU est le cumul sur les 12 derniers mois au 31/12/2016.
 
 ### Bénéficiaires ayant utilisé leur attestation à l'ACS
 
-La variable à considérer est `BEN_CTA_TYP` dans `IR_ORC_R` ou dans `NS_PRS_F` (DCIRS) ou `ER_PRS_F` (DCIR). 
+La variable à considérer est `BEN_CTA_TYP` dans [IR_ORC_R](../tables/DCIR_DCIRS/IR_ORC_R.md) ou dans `NS_PRS_F` (DCIRS) ou [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) (DCIR). 
 
 Les filtres à poser sont décrits dans la table suivante.
 Pour la table `IR_ORC_R`, il faut également filtrer sur les dates de début et de fin de contrat.
