@@ -64,7 +64,6 @@ Les rétrocessions correspondent à de la pharmacie hospitalière en établissem
 Lorsque l’on travaille sur les **soins de ville**, il est recommandé d’exclure toutes les prestations en établissements publics hors rétrocessions. 
 **On peut donc exclure les prestations pour lesquels `lieu_exec` == 'public' sauf si la `PRS_NAT_REF` correspond à de la rétrocession**.
 
-de l'établissement exécutant. 
 Dans le DCIR, il faut aller chercher les variables `PRS_PPU_SEC` et `ETE_TYP_COD` dans la table `ER_ETE_F` qui n'est pas la table centrale; 
 dans le DCIRS ces informations sont dans la table centrale `NS_PRS_F` (table de nomenclature `IR_TYE_V`).
 
