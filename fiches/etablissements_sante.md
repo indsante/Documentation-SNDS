@@ -45,7 +45,6 @@ Sinon les prestations sont classées en lieu d’exécution "Prive".
 
 Remarque: On ne supprime pas l'ensemble des prestations ayant lieu dans un établissement public (`ETE_TYP_COD` IN 1,2,3). En effet, si le numéro du PS exécutant est 
 renseigné alors le type de la prestation (`PRS_PPU_SEC`) ne sera pas public, bien que la prestation ait eu lieu en établissement public. 
-C'est le cas par exemple de l'activité libérale des praticiens hospitaliers que l'on souhaite conserver. 
 
 Pour résumer en pseudo-code:
 ```
