@@ -36,7 +36,7 @@ Si les deux premiers caractères de la variable de code de regroupement de l’�
 Ensuite, la variable `PRS_PPU_SEC` nous permet d'avoir de l'information sur le caractère privé ou public de la prestation. 
 Elle est construite comme suit. L’établissement est public :
 
-    - 	si le type d’établissement est public ( `ETE_TYP_COD` vaut 1, 2 ou 3]) et 
+    - 	si le type d’établissement est public ( `ETE_TYP_COD` vaut 1, 2 ou 3]) **ET** 
     - 	si le numéro  du PS exécutant n’est pas renseigné (`PFS_EXE_NUM` est manquant ou vaut ‘00000000’)
     -	sinon l’établissement est privé 
 
