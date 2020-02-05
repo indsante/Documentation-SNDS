@@ -61,7 +61,7 @@ Un poste particulier est à dégager qui peut concerner l'hôpital public et qui
 Les rétrocessions correspondent à de la pharmacie hospitalière en établissement. Le code prestation `PRS_NAT_REF` est parmi 
 3317, 3318, 3319, 3351, 3352, 3353, 3354, 3355, 3356, 3357, 3330 (table de valeur `IR_NAT_V`). 
 
-Lorsque l’on travaille sur les **soins de ville**, il est recommandé d’exclure toutes les prestations en établissements publics hors rétrocessions. 
+Lorsque l’on travaille sur les **soins de ville**, il est recommandé d’exclure toutes les prestations en établissements publics hors rétrocessions et centres de santé. 
 **On peut donc exclure les prestations pour lesquels `lieu_exec` == 'public' sauf si la `PRS_NAT_REF` correspond à de la rétrocession, ou la catégorie d'établissement à un centre de santé**.
 
 Dans le DCIR, il faut aller chercher les variables `PRS_PPU_SEC` et `ETE_TYP_COD` dans la table `ER_ETE_F` qui n'est pas la table centrale; 
