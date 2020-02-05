@@ -56,7 +56,7 @@ ELSE :
     lieu_exec = "prive"
 ```
 
-Un poste particulier est à dégager qui peut concerner l'hôpital public et qui devrait être retenus avec les soins de ville, 
+Un poste particulier est à dégager qui peut concerner l'hôpital public et qui devrait être retenu avec les soins de ville, 
 à savoir les **rétrocessions**.
 Les rétrocessions correspondent à de la pharmacie hospitalière en établissement. Le code prestation `PRS_NAT_REF` est parmi 
 3317, 3318, 3319, 3351, 3352, 3353, 3354, 3355, 3356, 3357, 3330 (table de valeur `IR_NAT_V`). 
