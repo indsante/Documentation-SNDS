@@ -29,7 +29,7 @@ Si la variable `ETB_EXE_FIN` est égale à 0, aucun établissement n’est lié 
 Parmi les soins associés à un FINESS, certains peuvent être classés dans les soins de ville selon la logique suivante. 
 La variable `ETB_CAT_RG1` du référentiel des établissements (`IR_CET_V`) permet de regrouper les établissements 
 (pour une nomenclature plus fine, voir la variable `ETB_CAT_COD`).
-Si les deux premiers caractères de la variable de code de regroupement de l’établissement `ETB_CAT_RG1` est égale à 21 
+Si les deux premiers caractères de la variable de code de regroupement de l’établissement `ETB_CAT_RG1` sont égaux à 21 
 (à l'exclusion des établissements relevant de la loi hospitalière, `ETE_CAT_COD`== 698) ou 22, alors il s’agit de prestations que l'on peut classer en "ville", 
 à savoir les cabinets libéraux et autres établissements de soins et de prévention. 
 
