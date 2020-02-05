@@ -75,6 +75,17 @@ La spécialité de l'exécutant pour les consultations externes est remplie uniq
 :::
 
 
+## Repérage des ACE dans la table des prestations DCIR
+
+Bien qu’il soit conseillé de repérer les ACE (pour les hôpitaux publics et les ESPIC) dans le PMSI, il est possible de repérer certaines activités externes dans la table des prestations `ER_PRS_F` du DCIR mais leur exhaustivité dépend du statut de l’établissement de soins : 
+1. L’alimentation des ACE des établissements de soins privés est exhaustive.
+2. Pour les hôpitaux publics :
+-	L’alimentation des ACE est exhaustive pour les établissements pratiquant la facturation individuelle des établissements de santé (FIDES). Ces établissements peuvent être repérés grâce à la variable `ETE_IND_TAA` = 1 dans la table `ER_ETE_F`.
+-	L’alimentation des ACE est partielle pour les hôpitaux publics sans FIDES ; les ACE sont en effet transmis pour information (depuis 2009) et l’exhaustivité et la qualité de ces données sont inconnues. Ces ACE peuvent être repérées grâce aux variables `DPN_QLF`=71 et `PRS_DPN_QLP`=71.
+
+La réglementation a toutefois évolué, et au 1er mars 2016, l’ensemble de l’activité externe des hôpitaux devrait être facturé à l’assurance maladie (et donc se retrouver de manière exhaustive dans le DCIR).
+
+
 ## Exemple de requêtes pour analyse 
 
 ### Description des ACE les plus fréquents (hors prestations)
@@ -293,6 +304,8 @@ RUN;
 Le contenu original de cette fiche provient du document *Les actes et consultations externes dans le SNDS* rédigé par Claire-Lise DUBOST en avril 2019.
 
 Cette fiche s'appuie fortement sur les slides de la formation proposée par la CNAM sur les données du PMSI dans le SNDS.
+
+Certaines informations sont également tirées du document [*SNDS, ce qu'il faut savoir*](https://documentation-snds.health-data-hub.fr/ressources/Sante_publique_France.html#snds-ce-qu-il-faut-savoir) constitué par Santé Publique France.
 :::
 
 [^1]: Chiffres tirés de l’éclairage « Les actes et consultations externes à l’hôpital » dans le rapport Les Comptes de la Sécurité Sociale publié par la DSS en 2015   
