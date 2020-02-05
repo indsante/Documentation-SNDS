@@ -122,41 +122,40 @@ Il existe différentes variables dans le SNDS qui renseignent sur le départemen
 
 Pour plus d'informations, une [fiche](../fiches/localisation_geographique_beneficiaires.md) est consacrée à la localisation des bénéficiaires dans le SNDS.
 
-### L'indice de désavantage social
+### L'indice de désavantage social : le FDep
 
-Un indice territorial de désavantage social (ou **FDEP** pour *French Deprivation Index*) permet de caractériser l'environnement socioéconomique du bénéficiaire à partir de sa commune de résidence.
+Un indice territorial de désavantage social (ou **FDep** pour *French Deprivation Index*) permet de caractériser l'environnement socioéconomique des bénéficiaires à partir de la commune de résidence.
 
 #### Méthode de construction
-L'indice de désavantage est calculé au niveau communal à partir de données socioéconomiques issues du recensement de la population et des données sur les revenus fiscaux des ménages respectivement en 2009 et 2013:
-* part des ouvriers dans la population active de 15 à 64 ans
-* part des chômeurs dans la population active de 15 à 64 ans
-* part des diplômés de niveau baccalauréat (minimum) dans la population de 15 ans ou plus non scolarisée
+L'indice de désavantage social est calculé au niveau communal à partir de données socioéconomiques issues du recensement de la population et des données sur les revenus fiscaux des ménages respectivement en 2009 et 2013 :
+* part des ouvrier·e·s dans la population active de 15 à 64 ans
+* part des chômeur·se·s dans la population active de 15 à 64 ans
+* part des diplômé·e·s de niveau baccalauréat (minimum) dans la population de 15 ans ou plus non scolarisée
 * revenu fiscal médian des ménages
 
 
-La méthode qui permet de construire cet indice est décrite dans l'article suivant :
-[Rey, Grégoire et al. *“Ecological association between a deprivation index and mortality in France over the period 1997 - 2001: variations with spatial scale, degree of urbanicity, age, gender and cause of death.”* BMC public health vol. 9 33. 22 Jan. 2009, doi:10.1186/1471-2458-9-33](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2637240/).
+Le FDep est calculé comme la première composante principale d’une analyse factorielle de ces quatre variables. La méthode qui permet de construire cet indice est décrite dans l'article suivant :
+> [Rey, Grégoire et al. *“Ecological association between a deprivation index and mortality in France over the period 1997 - 2001: variations with spatial scale, degree of urbanicity, age, gender and cause of death.”* BMC public health vol. 9 33. 22 Jan. 2009, doi:10.1186/1471-2458-9-33](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2637240/).
   
-Contrairement à la méthode décrite dans l’article ci-dessus, les variables socioéconomiques manquantes au niveau de la commune sont remplacées par les données du canton auquel appartient la commune. 
+Contrairement à la méthode décrite dans l’article ci-dessus, les variables socioéconomiques manquantes au niveau de la commune sont remplacées par les données du canton auquel appartient la commune. Par ailleurs, le FDep09 (version de 2009) a été calculé au niveau des Iris, mais son utilisation à cette échelle n’a pas fait l’objet d’une publication, car les données de mortalité ne sont pas diffusables à cette échelle. 
+ 
 
-Une fois construit l'indice de désavantage social FDEP est associé de la façon suivante au code commune de résidence du bénéficiaire :
-* calcul du code commune de résidence corrigé pour chaque bénéficiaire, ou de son département si la commune est inconnue (cf. Lieu de résidence du bénéficiaire)
-* affectation de l’indice de désavantage social de la commune aux patients avec commune de résidence connue ou affectation de l’indice de désavantage social du département aux patients sans commune de résidence connue
+Une fois construit, l'indice de désavantage social FDep est associé de la façon suivante au code commune de résidence des bénéficiaires :
+* calcul du code commune de résidence corrigé pour chaque bénéficiaire, ou de son département si la commune est inconnue (*cf*. [lieu de résidence du bénéficiaire](../fiches/localisation_geographique_beneficiaires.md))
+* affectation de l’indice de désavantage social de la commune aux patient·e·s avec commune de résidence connue ou affectation de l’indice de désavantage social du département aux patient·e·s sans commune de résidence connue
 
 ::: warning Restrictions
-L'indice de désavantage social n'est pas disponible pour certains bénéficiaires : les résidents des DOM et des COM, les bénéficiaires sans commune ni département de résidence connus, les bénéficiaires affiliés à des SLM (mauvaise qualité de la commune de résidence) 
+L'indice de désavantage social n'est pas disponible pour certains bénéficiaires : les résidents des DOM et des COM, les bénéficiaires sans commune ni département de résidence connus, les bénéficiaires affiliés à des SLM (mauvaise qualité de la commune de résidence).
 :::
   
 #### Où trouver la variable ?
 
-L'indice de déprivation est disponible sous les variables **FDEP09** et **FDEP13** présentes dans les tables DEFA_UU2009 et DEFA_UU2013 de la bibliothèque CONSOPAT. Ces tables sont accessibles via tout profil permettant d’accéder au DCIR et permettant d’accéder au code commune de résidence du bénéficiaire.
+L'indice de déprivation social est disponible sous les variables **FDEP09** et **FDEP13** présentes dans les tables `DEFA_UU2009` et `DEFA_UU2013` de la bibliothèque `CONSOPAT`. Ces tables sont accessibles via tout profil permettant d’accéder au DCIR et permettant d’accéder au code commune de résidence du bénéficiaire.
 
-La variable **QUINTILE_COM** donne la répartition en quintile des communes.   
-Après pondération par le nombre d’habitants de la commune l’indice permet de définir des quintiles de population générale en fonction du niveau de désavantage social de la commune (QUINTILE_POP), du quintile de population le plus favorisé (Q1) au quintile le plus défavorisé (Q5). Cet indice est également disponible pour chaque bénéficiaire dans certaines des tables de consommants au travers de la variable **QUINT_DEFA**.
+La variable **QUINTILE_COM** donne la répartition en quintile des communes. Après pondération par le nombre d’habitant·e·s de la commune, l’indice permet de définir des quintiles de population générale en fonction du niveau de désavantage social de la commune (QUINTILE_POP), du quintile de population le plus favorisé (Q1) au quintile le plus défavorisé (Q5). Cet indice est également disponible pour chaque bénéficiaire dans certaines des tables de consommants au travers de la variable **QUINT_DEFA**.
 
 
-La variable QUINTILE_COM donne la répartition en quintile des communes. Après pondération par le nombre d’habitants de la commune l’indice permet de définir des quintiles de population générale en fonction du niveau de désavantage social de la commune (QUINTILE_POP), du quintile de population le plus favorisé (Q1) au quintile le plus défavorisé (Q5). Cet indice est également disponible pour chaque bénéficiaire dans certaines des tables de consommants au travers de la variable QUINT_DEFA.
-L’indice est calculé uniquement pour les communes de France métropolitaine (environ 36 600 communes). En raison d’une mauvaise qualité de l’information portant sur la commune, l’indice territorial de désavantage social n’est exploitable que pour les données du RG (hors SLM), RSI et MSA. Le programme de la Cnam fait appel à un fichier de correction du code de la commune différent suivant l’année (Les tables CORRECTIONS_COM2011_NEW ou CORRECTIONS_COM2012_NEW de la bibliothèque RFCOMMUN) avant l’affectation de l’indice à la commune.
+L’indice est calculé uniquement pour les communes de France métropolitaine (environ 36 600 communes). En raison d’une mauvaise qualité de l’information portant sur la commune, **l’indice de désavantage social n’est exploitable que pour les données du RG (hors SLM), RSI et MSA**. Le programme de la Cnam fait appel à un fichier de correction du code de la commune différent suivant l’année (Les tables `CORRECTIONS_COM2011_NEW` ou `CORRECTIONS_COM2012_NEW` de la bibliothèque `RFCOMMUN`) avant l’affectation de l’indice à la commune.
 
 ## Repérer les publics précaires 
 
