@@ -38,7 +38,7 @@ Elle est construite comme suit. L’établissement est public :
 
     - 	si le type d’établissement est public ( `ETE_TYP_COD` vaut 1, 2 ou 3]) **ET** 
     - 	si le numéro  du PS exécutant n’est pas renseigné (`PFS_EXE_NUM` est manquant ou vaut ‘00000000’)
-    -	sinon l’établissement est privé 
+Sinon l’établissement est privé 
 
 Si le code `PRS_PPU_SEC` est égal à 1 alors on peut classer la prestation en lieu d'exécution "Public". 
 Sinon les prestations sont classées en lieu d’exécution "Prive".
