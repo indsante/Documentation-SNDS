@@ -38,7 +38,7 @@ Lorsqu’il s’agit d’un **médecin**, la spécialité médicale du praticien
 
 
 ## Exemple de programme de calcul du nombre d’IVG
-Pour les régimes hors régime spécial des indépendants, de la SNCF et des militaires de carrières, on prend le département de caisse (03A,04A et 08A à partir de `ORG_AFF_BEN`) quand le département de résidence est inconnu.
+Pour les régimes hors régime spécial des indépendants, de la SNCF et des militaires de carrières, on prend le **département de caisse** (03A,04A et 08A à partir de `ORG_AFF_BEN`) quand le **département de résidence** est inconnu.
 Le nombre d’IVG est pondéré par la quantité d’acte (`PRS_ACT_QTE`) pour tenir compte des corrections (avec -1 pour supprimer certaines lignes).
 
 
@@ -85,5 +85,5 @@ WHERE (t2.CPL_MAJ_TOP<2 & t2.PRS_NAT_REF=3329 & t2.EXE_SOI_AMD LIKE '2018%'
 ## Références
 
 ::: tip Crédits
-Cette fiche a été rédigée par Annick Vilain (DREES) [(Études et Résultats)](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/etudes-et-resultats/article/224-300-interruptions-volontaires-de-grossesse-en-2018)
+Cette fiche a été rédigée par **Annick Vilain** (DREES) [(Études et Résultats)](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/etudes-et-resultats/article/224-300-interruptions-volontaires-de-grossesse-en-2018)
 :::
