@@ -7,6 +7,10 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "minimum": 1,
+                "maximum": 120
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -21,6 +25,10 @@
             "nomenclature": "-",
             "length": "2",
             "format": "default",
+            "constraints": {
+                "minimum": 1,
+                "maximum": 44
+            },
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
@@ -35,6 +43,10 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 365
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -49,6 +61,10 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 0
+            },
             "dateCreated": "2012",
             "dateDeleted": "",
             "dateMissing": [],
@@ -63,6 +79,10 @@
             "nomenclature": "-",
             "length": "1",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 2
+            },
             "dateCreated": "2012",
             "dateDeleted": "",
             "dateMissing": [],
@@ -133,6 +153,10 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 59
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -147,6 +171,9 @@
             "nomenclature": "-",
             "length": "1",
             "format": "default",
+             "constraints": {
+                "enum": ["1", "2", "7", "8", "9"]
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -161,6 +188,10 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999
+            },
             "dateCreated": "2011",
             "dateDeleted": "",
             "dateMissing": [],
@@ -172,7 +203,7 @@
             "name": "DGN_PAL",
             "description": "Diagnostic principal (DP)",
             "type": "string",
-            "nomenclature": "MS_CIM_V",
+            "nomenclature": "MS_CIM_V:CIM_COD",
             "length": "6",
             "format": "default",
             "dateCreated": "2005",
@@ -186,7 +217,7 @@
             "name": "DGN_REL",
             "description": "Diagnostic relié (DR)",
             "type": "string",
-            "nomenclature": "MS_CIM_V",
+            "nomenclature": "MS_CIM_V:CIM_COD",
             "length": "6",
             "format": "default",
             "dateCreated": "2005",
@@ -203,6 +234,9 @@
             "nomenclature": "-",
             "length": "1",
             "format": "default",
+            "constraints": {
+                "enum": ["1", "2", "3", "4"]
+            },
             "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
@@ -214,7 +248,7 @@
             "name": "ENT_MOD",
             "description": "Mode d'entrée dans le champ du PMSI-MCO",
             "type": "string",
-            "nomenclature": "MS_SOR_V",
+            "nomenclature": "MS_SOR_V:SOR_MOD_COD",
             "length": "1",
             "format": "default",
             "dateCreated": "2005",
@@ -228,7 +262,7 @@
             "name": "ENT_PRV",
             "description": "Provenance",
             "type": "string",
-            "nomenclature": "MS_PRV_V",
+            "nomenclature": "MS_PRV_V:PRV_COD",
             "length": "1",
             "format": "default",
             "dateCreated": "2005",
@@ -241,10 +275,14 @@
         {
             "name": "ETA_NUM",
             "description": "Numéro FINESS e-PMSI",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "9",
             "format": "default",
+            "constraints": {
+                "minimum": 100000000,
+                "maximum": 999999999
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -259,6 +297,10 @@
             "nomenclature": "-",
             "length": "4",
             "format": "default",
+            "constraints": {
+                "minimum": 1000,
+                "maximum": 9999
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -273,6 +315,9 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "maximum": 320
+            },
             "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
@@ -287,6 +332,9 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "maximum": 107
+            },
             "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
@@ -297,10 +345,14 @@
         {
             "name": "GHS_HS_INNOV",
             "description": "GHS si non prise en compte de l'innovation",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
+            "constraints": {
+                "minimum": 1000,
+                "maximum": 9999
+            },
             "dateCreated": "2015",
             "dateDeleted": "",
             "dateMissing": [],
@@ -311,10 +363,14 @@
         {
             "name": "GHS_NUM",
             "description": "Numéro de GHS (du GHM GENRSA)",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
+            "constraints": {
+                "minimum": 1000,
+                "maximum": 9999
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -329,6 +385,9 @@
             "nomenclature": "-",
             "length": "6",
             "format": "default",
+            "constraints": {
+                "minLength": 6
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -353,10 +412,14 @@
         {
             "name": "GRC_VER",
             "description": "Groupage établissement Version classification",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
+            "constraints": {
+                "minimum": -1,
+                "maximum": 20
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -371,6 +434,9 @@
             "nomenclature": "-",
             "length": "6",
             "format": "default",
+            "constraints": {
+                "minLength": 6
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -399,6 +465,9 @@
             "nomenclature": "-",
             "length": "2",
             "format": "default",
+            "constraints": {
+                "enum": ["11"]
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -413,6 +482,9 @@
             "nomenclature": "-",
             "length": "15",
             "format": "default",
+            "constraints": {
+                "minLength": 15
+            },
             "dateCreated": "2011",
             "dateDeleted": "",
             "dateMissing": [],
@@ -427,6 +499,9 @@
             "nomenclature": "-",
             "length": "1",
             "format": "default",
+            "constraints": {
+                "enum": ["1", "2", "3", "4", "8"]
+            },
             "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
@@ -441,6 +516,10 @@
             "nomenclature": "-",
             "length": "5",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 2500
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -453,8 +532,12 @@
             "description": "Nombre de diagnostics associés significatifs (nDAS) dans ce RSA",
             "type": "integer",
             "nomenclature": "-",
-            "length": "4",
+            "length": "3",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -497,6 +580,10 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 299
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -511,6 +598,10 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 199
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -525,6 +616,10 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 399
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -567,6 +662,10 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 200
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -605,7 +704,7 @@
         {
             "name": "PAS_LIT_DED",
             "description": "Passage dans un lit dédié de soins palliatifs",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -619,10 +718,14 @@
         {
             "name": "PLO_ACT",
             "description": "Type de prestation de prélèvement d'organe",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 3
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -647,10 +750,14 @@
         {
             "name": "RSA_NUM",
             "description": "N° d'index du RSA",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "10",
             "format": "default",
+            "constraints": {
+                "minimum": 1000000000,
+                "maximum": 9999999999
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -665,6 +772,9 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "enum": ["224"]
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -679,6 +789,10 @@
             "nomenclature": "-",
             "length": "1",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 3
+            },
             "dateCreated": "2011",
             "dateDeleted": "",
             "dateMissing": [],
@@ -693,6 +807,9 @@
             "nomenclature": "-",
             "length": "1",
             "format": "default",
+            "constraints": {
+                "enum": ["", "1", "2"]
+            },
             "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
@@ -707,6 +824,10 @@
             "nomenclature": "-",
             "length": "4",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 2999
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -721,6 +842,9 @@
             "nomenclature": "-",
             "length": "1",
             "format": "default",
+            "constraints": {
+                "enum": ["A", "B", "."]
+            },
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
@@ -731,10 +855,14 @@
         {
             "name": "SEQ_RUM",
             "description": "N° séquentiel du RUM ayant fourni le DP",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
+            "constraints": {
+                "minimum": 10,
+                "maximum": 55
+            },
             "dateCreated": "2008",
             "dateDeleted": "",
             "dateMissing": [],
@@ -760,7 +888,7 @@
             "name": "SOR_DES",
             "description": "Destination",
             "type": "string",
-            "nomenclature": "MS_PRV_V",
+            "nomenclature": "MS_PRV_V:PRV_COD",
             "length": "1",
             "format": "default",
             "dateCreated": "2005",
@@ -774,7 +902,7 @@
             "name": "SOR_MOD",
             "description": "Mode de sortie du champ PMSI-MCO",
             "type": "string",
-            "nomenclature": "MS_SOR_V",
+            "nomenclature": "MS_SOR_V:SOR_MOD_COD",
             "length": "1",
             "format": "default",
             "dateCreated": "2005",
@@ -803,8 +931,12 @@
             "description": "Nombre de suppléments pour les entraînements à la dialyse péritonéale automatisée hors séances",
             "type": "integer",
             "nomenclature": "-",
-            "length": "3",
+            "length": "2",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 30
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -817,8 +949,12 @@
             "description": "Nombre de suppléments pour les entraînements à la dialyse péritonéale continue ambulatoire hors séances",
             "type": "integer",
             "nomenclature": "-",
-            "length": "3",
+            "length": "2",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 58
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -831,8 +967,12 @@
             "description": "Nombre de suppléments pour les entraînements à l'hémodialyse hors séances",
             "type": "integer",
             "nomenclature": "-",
-            "length": "3",
+            "length": "2",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 16
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -847,6 +987,10 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 199
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
@@ -859,8 +1003,12 @@
             "description": "Nombre de suppléments radiothérapie pédiatrique",
             "type": "integer",
             "nomenclature": "-",
-            "length": "3",
+            "length": "2",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 30
+            },
             "dateCreated": "2012",
             "dateDeleted": "",
             "dateMissing": [],
@@ -875,6 +1023,9 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "enum": ["003", "004", "005"]
+            },
             "dateCreated": "2010",
             "dateDeleted": "",
             "dateMissing": [],
@@ -885,7 +1036,7 @@
         {
             "name": "TOP_AVASTIN",
             "description": "Top Radiation partielle Avastin",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -899,7 +1050,7 @@
         {
             "name": "TOP_DEF_CARD",
             "description": "Supplément défibrillateur cardiaque",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -913,7 +1064,7 @@
         {
             "name": "TOP_GHS_MIN_SUS",
             "description": "Top GHS minoré",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -927,7 +1078,7 @@
         {
             "name": "TOP_VLV_AOR",
             "description": "Top valves aortiques percutanées",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -941,10 +1092,14 @@
         {
             "name": "TYP_GEN_RSA",
             "description": "Type de génération automatique du RSA",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 3
+            },
             "dateCreated": "2015",
             "dateDeleted": "",
             "dateMissing": [],
@@ -955,7 +1110,7 @@
         {
             "name": "UHCD_TOP",
             "description": "Top UHCD",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",

@@ -12,6 +12,9 @@ Pour créer une nouvelle page de documentation, naviguer dans le dossier de votr
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 ```
 
-Enregistrez votre fichier, avec un nom en minuscule (sauf sigle), sans espace, et terminier par l'extention **.md** pour indiquer qu'il s'agit d'une page Markdown.
+Enregistrez votre fichier, avec un nom 
+- en minuscule (sauf sigle), pour standardiser ; 
+- sans espace, pour simplifier les liens internes ;
+- terminer par l'extention **.md**, pour indiquer qu'il s'agit d'un fichier Markdown.
 
 Pour la suite, enregistrez votre modification dans une branche et ouvrez une merge-request de la même façon que pour modifier un fichier (cf [Introduction GitLab](introduction_gitlab.md)).
