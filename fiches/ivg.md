@@ -1,4 +1,4 @@
-# Les interruptions volontaires de grossesse
+# Interruptions volontaires de grossesse
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Les IVG peuvent être réalisées en établissement de santé de façon médicamenteuse ou chirurgicale, et en cabinet libéral ou en centre de santé, centre de planification et d’éducation familiale, de façon médicamenteuse uniquement.
