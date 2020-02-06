@@ -2,16 +2,16 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Les IVG peuvent être réalisées en établissement de santé de façon médicamenteuse ou chirurgicale, et en cabinet libéral ou en centre de santé, centre de planification et d’éducation familiale, de façon médicamenteuse uniquement.
-Les IVG hospitalières sont comptabilisées dans le [PMSI](../glossaire/PMSI.md) et les IVG réalisées hors établissement sont comptabilisées dans la table des prestations du DCIR.
+Les IVG **hospitalières** sont comptabilisées dans le [PMSI](../glossaire/PMSI.md) et les IVG réalisées **hors établissement** sont comptabilisées dans la table des prestations du DCIR.
 ## Les IVG en établissement hospitalier
 Les IVG en établissement hospitalier correspondent au [GHM](../glossaire/GHM.md) d’IVG calculé par le GENRSA (`GRG_GHM`=14Z08Z) dans la base [T_MCOaa_B](../tables/PMSI/PMSI MCO/T_MCOaa_B.md). 
-Dans la table des actes ([T_MCOaa_nnA](../tables/PMSI/PMSI MCO/T_MCOaa_nnA.md)) la variable `CDC_ACT` concerne les IVG médicamenteuses lorsqu'elle vaut JNJP0010 et les IVG instrumentales lorsqu'elle vaut JNJD0020.
+Dans la table des actes ([T_MCOaa_nnA](../tables/PMSI/PMSI MCO/T_MCOaa_nnA.md)) la variable `CDC_ACT` concerne les IVG *médicamenteuses* lorsqu'elle vaut **JNJP0010** et les IVG *instrumentales* lorsqu'elle vaut **JNJD0020**.
 ## Les IVG hors établissement hospitalier
 Les IVG hors établissement hospitalier correspondent à la prestation « forfait médicament IVG ville » (`PRS_NAT_REF`=3329) dans la table des prestations ([ER_PRS_F](../tables/DCIR/ER_PRS_F.md)).
 On trouve la catégorie de l’établissement (`ETE_CAT_COD`) dans la table [ER_ETE_F](../tables/DCIR/ER_ETE_F.md), pour distinguer les IVG selon le lieu de réalisation. Quand aucune modalité n’est précisée il s’agit d’une IVG en cabinet libéral. Il faut donc faire une jointure selon les 9 variables habituellement utilisées.
 En dehors des cabinets libéraux, les IVG médicamenteuses peuvent être réalisées dans les lieux suivants :
 
-| `ETE_CAT_COD` | lieu |
+| `ETE_CAT_COD` | *Lieu* |
 | ---- | ------- | 
 | 124 | centre de santé |		
 | 130	| centre de soins médicaux |
@@ -22,10 +22,10 @@ En dehors des cabinets libéraux, les IVG médicamenteuses peuvent être réalis
 | 347 |			centre d’examens de santé |
 | 439 |	centre de santé polyvalent|
 
-La nature d’activité du professionnel (`PSE_ACT_NAT`) permet d’identifier les IVG réalisées par des sage-femmes (modalité 21).
-Lorsqu’il s’agit d’un médecin, la spécialité médicale du praticien ayant réalisé l’IVG (`PSE_SPE_COD`) est précisée.
+La nature d’activité du professionnel (`PSE_ACT_NAT`) permet d’identifier les IVG réalisées par des **sage-femmes** (modalité **21**).
+Lorsqu’il s’agit d’un **médecin**, la spécialité médicale du praticien ayant réalisé l’IVG (`PSE_SPE_COD`) est précisée :
 
-|`PSE_SPE_COD`|spécialité médicale|
+|`PSE_SPE_COD`|*Spécialité médicale*|
 | --- | ------- |
 |0 ou 99 |		inconnue|
 |1 ou 22|		médecine générale|
@@ -42,10 +42,10 @@ Pour les régimes hors régime spécial des indépendants, de la SNCF et des mil
 Le nombre d’IVG est pondéré par la quantité d’acte (`PRS_ACT_QTE`) pour tenir compte des corrections (avec -1 pour supprimer certaines lignes).
 
 
-Programme pour déterminer le nombre de forfaits IVG en 2019
+Programme pour déterminer le nombre de forfaits IVG en 2018 comme dans cet [Études et Résultats](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/etudes-et-resultats/article/224-300-interruptions-volontaires-de-grossesse-en-2018)
 ```sql
 proc sql;
-create table ivg2019 AS
+create table ivg2018 AS
 select 	t2.DCT_ORD_NUM,
 		t2.FLX_DIS_DTD,
 		t2.FLX_EMT_NUM,
@@ -78,14 +78,12 @@ on (t2.DCT_ORD_NUM = et.DCT_ORD_NUM and t2.FLX_DIS_DTD = et.FLX_DIS_DTD and t2.F
 t2.FLX_EMT_ORD = t2.FLX_EMT_ORD and t2.FLX_EMT_TYP = et.FLX_EMT_TYP and t2.FLX_TRT_DTD = et.FLX_TRT_DTD and
 t2.ORG_CLE_NUM = et.ORG_CLE_NUM and t2.PRS_ORD_NUM = et.PRS_ORD_NUM and t2.REM_TYP_AFF = et.REM_TYP_AFF)
 
-WHERE (t2.CPL_MAJ_TOP<2 & t2.PRS_NAT_REF=3329 & t2.EXE_SOI_AMD LIKE '2019%'
-& t2.flx_dis_dtd > '31dec2018:0:0:0'dt 
+WHERE (t2.CPL_MAJ_TOP<2 & t2.PRS_NAT_REF=3329 & t2.EXE_SOI_AMD LIKE '2018%'
+& t2.flx_dis_dtd > '31dec2017:0:0:0'dt 
 & t2.dpn_qlf ne 71 & t2.prs_dpn_qlp ne 71);
-
-QUIT;/* 59 680 en 2019 le 5 février 2020  */
 ```
 ## Références
 
 ::: tip Crédits
-Cette fiche a été rédigée par Annick Vilain (DREES)
+Cette fiche a été rédigée par Annick Vilain (DREES) [(Études et Résultats)](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/etudes-et-resultats/article/224-300-interruptions-volontaires-de-grossesse-en-2018)
 :::
