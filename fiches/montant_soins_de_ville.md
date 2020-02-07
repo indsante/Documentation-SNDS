@@ -49,7 +49,8 @@ Pour les médicaments, la LPP, la biologie et la CCAM, seuls les montants totaux
 
 Par exemple, dans le cas d'une ordonnance pour 3 médicaments (avec un même taux de remboursement), `PRS_PAI_MNT` correspond au montant payé pour les 3 médicaments. Le montant payé pour chacun des médicaments n'est pas disponible. Idem, les montants de base et remboursé dans ER_PRS_F correspondent aux 3 médicaments. Les montants de base et remboursé de chaque médicament peuvent être calculés à l'aide de la table affinée ER_PHA_F(_XXXX).
 
-Pour calculer les indicateurs d’un acte affiné prendre les indicateurs affinés de la table affinée uniquement (quantité affinée, prix unitaire et taux de remboursement) et calculer le montant remboursé affiné et la base de remboursement affinée à l’aide des formules suivantes : 
+Pour calculer les indicateurs d’un acte affiné prendre les indicateurs quantité affinée et prix unitaire de la table affinée et le taux de remboursement de la table prestation.
+Puis calculer le montant remboursé affiné et la base de remboursement affinée à l’aide des formules suivantes : 
 - Base de remboursement affinée = qté affinée x prix unitaire
 - Montant remboursé affiné = qté affinée x prix unitaire x taux de remboursement/100
 
