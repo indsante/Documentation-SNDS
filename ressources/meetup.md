@@ -14,8 +14,6 @@ Pour être informé des nouveaux événements et s'y inscrire, merci de rejoindr
 Nous aimerions organiser des Meetup SNDS dans d'autres villes que Paris. 
 Merci de nous contacter si vous souhaiter initier un groupe local.  
 
-# Ressource et présentations partagés durant les Meetup SNDS.
-
 - [Chaîne youtube](https://www.youtube.com/channel/UCFmHnLZ31EgSrPhZQTM9weQ) du HealthDataHub
 - [Dossier sur GitLab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files/presentations) contenant l'ensemble des présentations
 
