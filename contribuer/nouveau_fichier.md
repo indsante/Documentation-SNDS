@@ -45,7 +45,7 @@ Les images sont un type particulier de fichier, à ajouter comme expliqué ci-de
 Les images peuvent être ajoutées dans le dossier `files` ([lien gitlab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files)), ou dans le dossier générique `images`. 
 
 Vous pouvez ensuite intégrer les images dans une page de documentation via un lien hypertexte précédé d'un point d'exclamation `!` 
-(cf [tutoriel Markdown](tutoriel_markdown.md#lien-hypertexte)).
+(cf [tutoriel Markdown](tutoriel_markdown.md#liens-hypertextes)).
 
 Si une image provient d'un document tierce, par exemple une présentation Powerpoint :
 - Ajouter ce document tierce pour permettre des évolutions de l'image en repartant du fichier
