@@ -2,10 +2,15 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Les IVG peuvent être réalisées en établissement de santé de façon médicamenteuse ou chirurgicale, et en cabinet libéral ou en centre de santé, centre de planification et d’éducation familiale, de façon médicamenteuse uniquement.  
-Les IVG **hospitalières** sont comptabilisées dans le [PMSI](../glossaire/PMSI.md) et les IVG réalisées **hors établissement** sont comptabilisées dans la table des prestations du [DCIR](../glossaire/DCIR.md).
+Les IVG **hospitalières** sont comptabilisées dans le [PMSI](../glossaire/PMSI.md) et les IVG réalisées **hors établissement** sont comptabilisées dans la table des prestations du [DCIR](../glossaire/DCIR.md).  
 ## Les IVG en établissement hospitalier
-Les IVG en établissement hospitalier correspondent au [GHM](../glossaire/GHM.md) d’IVG calculé par le GENRSA (`GRG_GHM`=14Z08Z) dans la base [T_MCOaa_nnB](/tables/T_MCOaa_nnB). 
-Dans la table des actes ([T_MCOaa_nnA](/tables/T_MCOaa_nnA.md)) la variable `CDC_ACT` concerne les IVG *médicamenteuses* lorsqu'elle vaut **JNJP0010** et les IVG *instrumentales* lorsqu'elle vaut **JNJD0020**.
+Les IVG en établissement hospitalier s'identifient grâce au [GHM](../glossaire/GHM.md) calculé par le générateur de [RSA](../glossaire/RSA.md)  dans la base [T_MCOaa_nnB](/tables/T_MCOaa_nnB).  
+Il faut retenir le code `GRG_GHM`=14Z08Z.  
+
+Dans la table des actes ([T_MCOaa_nnA](../tables/PMSI/PMSI MCO/T_MCOaa_nnA.md)) la variable `CDC_ACT` donne le type de l'IVG : 
+*  les IVG *médicamenteuses* correspondent au code **JNJP0010** 
+*  les IVG *instrumentales* correspondent au code **JNJD0020**.
+
 ## Les IVG hors établissement hospitalier
 Les IVG hors établissement hospitalier correspondent à la prestation « forfait médicament IVG ville » (`PRS_NAT_REF`=3329) dans la table des prestations ([ER_PRS_F](../tables/DCIR/ER_PRS_F.md)).  
 La catégorie de l’établissement (`ETE_CAT_COD`) dans la table [ER_ETE_F](../tables/DCIR/ER_ETE_F.md) permet de distinguer les IVG selon le lieu de réalisation.
