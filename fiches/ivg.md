@@ -1,7 +1,7 @@
 # Interruptions volontaires de grossesse
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Les IVG peuvent être réalisées en établissement de santé de façon médicamenteuse ou chirurgicale, et en cabinet libéral ou en centre de santé, centre de planification et d’éducation familiale, de façon médicamenteuse uniquement.
+Les IVG peuvent être réalisées en établissement de santé de façon médicamenteuse ou chirurgicale, et en cabinet libéral ou en centre de santé, centre de planification et d’éducation familiale, de façon médicamenteuse uniquement.  
 Les IVG **hospitalières** sont comptabilisées dans le [PMSI](../glossaire/PMSI.md) et les IVG réalisées **hors établissement** sont comptabilisées dans la table des prestations du DCIR.
 ## Les IVG en établissement hospitalier
 Les IVG en établissement hospitalier correspondent au [GHM](../glossaire/GHM.md) d’IVG calculé par le GENRSA (`GRG_GHM`=14Z08Z) dans la base [T_MCOaa_nnB](/tables/T_MCOaa_nnB). 
