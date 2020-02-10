@@ -8,7 +8,7 @@ car celles-ci ne sont pas exhaustives et d'**analyser les dépenses des établis
 [Dépenses des établissements de santé publics dans le PMSI](../fiches/depenses_hopital_public.md). 
 
 Le DCIR contient en revanche les données les plus exhaustives sur les établissements privés, 
-la fiche [Dépenses des établissement privés (à partir du DCIRS)](../fiches/fiche_etab_prive.md) est consacrée à l'**étude des dépenses des établissements privés dans le DCIR**.
+la fiche [Dépenses des établissement privés (à partir du DCIRS)](../fiches/fiche_etab_prives.md) est consacrée à l'**étude des dépenses des établissements privés dans le DCIR**.
 
 Enfin le DCIR contient très peu d'informations sur le secteur médico-social, pour étudier ce secteur, il est recommandé de faire appel à d'autres sources. 
 
