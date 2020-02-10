@@ -7,7 +7,7 @@ Les IVG **hospitalières** sont comptabilisées dans le [PMSI](../glossaire/PMSI
 Les IVG en établissement hospitalier correspondent au [GHM](../glossaire/GHM.md) d’IVG calculé par le GENRSA (`GRG_GHM`=14Z08Z) dans la base [T_MCOaa_nnB](/tables/T_MCOaa_nnB). 
 Dans la table des actes ([T_MCOaa_nnA](/tables/T_MCOaa_nnA.md)) la variable `CDC_ACT` concerne les IVG *médicamenteuses* lorsqu'elle vaut **JNJP0010** et les IVG *instrumentales* lorsqu'elle vaut **JNJD0020**.
 ## Les IVG hors établissement hospitalier
-Les IVG hors établissement hospitalier correspondent à la prestation « forfait médicament IVG ville » (`PRS_NAT_REF`=3329) dans la table des prestations ([ER_PRS_F](../tables/DCIR/ER_PRS_F.md)).
+Les IVG hors établissement hospitalier correspondent à la prestation « forfait médicament IVG ville » (`PRS_NAT_REF`=3329) dans la table des prestations ([ER_PRS_F](../tables/DCIR/ER_PRS_F.md)).  
 On trouve la catégorie de l’établissement (`ETE_CAT_COD`) dans la table [ER_ETE_F](../tables/DCIR/ER_ETE_F.md), pour distinguer les IVG selon le lieu de réalisation. Quand aucune modalité n’est précisée il s’agit d’une IVG en cabinet libéral. Il faut donc faire une jointure selon les 9 variables habituellement utilisées.
 En dehors des cabinets libéraux, les IVG médicamenteuses peuvent être réalisées dans les lieux suivants :
 
