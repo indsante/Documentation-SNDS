@@ -109,7 +109,7 @@ Le PMSI contient des tables de facturation des séjours privés mais il n’est 
 remboursés par l’assurance maladie.
 Il est donc **recommandé d'analyser les dépenses des établissements privés dans le DCIR ou le DCIRS plutôt que dans le PMSI**. 
 
-Pour étudier les dépenses en établissements privés, se référer à la fiche [Dépenses des établissement privés (à partir du DCIRS)](../fiches/fiche_etab_prive.md)
+Pour étudier les dépenses en établissements privés, se référer à la fiche [Dépenses des établissement privés (à partir du DCIRS)](../fiches/fiche_etab_prives.md)
 
 
 ## Le secteur médico-social et handicap
