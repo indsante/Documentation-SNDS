@@ -26,7 +26,7 @@ En dehors des cabinets libéraux, les IVG médicamenteuses peuvent être réalis
 | 347 |			centre d’examens de santé |
 | 439 |	centre de santé polyvalent|
 
-La nature d’activité du professionnel (`PSE_ACT_NAT`) permet d’identifier les IVG réalisées par des **sage-femmes** (modalité **21**).
+La nature d’activité du professionnel (`PSE_ACT_NAT`) permet d’identifier les IVG réalisées par des **sage-femmes** (modalité **21**).  
 Lorsqu’il s’agit d’un **médecin**, la spécialité médicale du praticien ayant réalisé l’IVG (`PSE_SPE_COD`) est précisée :
 
 |`PSE_SPE_COD`|*Spécialité médicale*|
