@@ -164,6 +164,11 @@ Résultat :
 | cellule 7 | cellule 8 | cellule 9 |
 
 ## Les blocs
+
+**Note** : cette syntaxe est utilisée par VuePress, mais pas GitLab
+
+Elle fonctionne sur le site de documentation en ligne et lors de la prévisualisation des branches, mais pas dans l'onglet `Preview` de GitLab.
+
 ````
 ::: tip Titre
 Texte
