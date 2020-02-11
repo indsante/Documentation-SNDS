@@ -73,7 +73,7 @@ QUIT;
 
 ## Recommandations et précautions
 
-Lorsqu'on utilise la CMU-C comme indicateur de la précarité, l'étude des personnes âgées de 60 ans n'est pas pertinente. 
+Lorsqu'on utilise la CMU-C comme indicateur de la précarité, l'étude des personnes âgées de 60 ans et plus n'est pas pertinente. 
 En effet, les personnes âgées disposant de faibles ressources peuvent bénéficier de l'ASPA (allocation de solidarité aux personnes âgées) dont le montant est supérieur au plafond d'éligibilité à la CMU-C. 
 
 Il ne faut pas essayer de retrouver les cmucistes en fonction de la base de remboursement. 
