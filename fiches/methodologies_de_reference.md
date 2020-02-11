@@ -36,3 +36,6 @@ Les trois MR suivantes (MR-004, MR-005 et MR-006) concernent les recherches n’
 Les MR-001, MR-002, MR-003 et MR-004 ne concernent pas les accès aux données de santé disponibles via les portails de la Cnam, de l'ATIH.
 En revanche, l'utilisation des MR-005 et MR-006 concernent exclusivement les études réalisées sur le portail de l'ATIH.
 Pour accéder aux données sur le portail de la Cnam, il faut suivre la procédure standard HDH-CESREES-CNIL (sauf pour les organismes bénéficiant dun accès permanant au titre de leurs missions indiquées dans la loi).
+
+Cette fiche a été initialement rédigée par Emmanuel Stranadica, Plateforme des données de santé (HDH)
+
