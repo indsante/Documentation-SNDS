@@ -13,13 +13,11 @@ Aucun dépassement d'honoraires ne peut être facturé sauf en cas d'exigence pa
 En cas d'hospitalisation, le forfait journalier est pris en charge sans limitation de durée. 
 De plus, la CMU-C inclut des forfaits de prise en charge pour les soins dentaires, les lunettes, les prothèses auditives, etc. [^1].
 
-Cette population est spécifique en termes d'âge avec une surreprésentation des jeunes. 
-Les cmucistes étant en moyenne très jeunes, on les trouve souvent moins malade,  mais à classe d'âge identique ils le sont souvent plus.
 
 ## Description des tables et variables d'intérêt
 ### Variables de la table des prestations ER\_PRS\_F
 
-**BEN_CMU_TOP** : La variable BEN_CMU_TOP permet d'identifier les cmucistesau au moment des soins. 
+**BEN_CMU_TOP** : La variable BEN_CMU_TOP permet d'identifier les cmucistes au moment des soins. 
 
 Le top CMU-C est positionné à 1 lorsque le type de contrat cmu est égal à 89 (bénéficiaire de la CMU complémentaire), sinon il est positionné à zéro. 
 
@@ -32,7 +30,7 @@ La modalité 2 de `BEN_CMU_TOP` est codée par le régime agricole pour signaler
 
 **Ainsi, si l'on veut savoir si une prestation est exonérée au titre de la CMU-C, le ben_cmu_top suffit. Par contre, si l'on a besoin de recenser la population cmu-c, il faut utiliser la table IR_ORC_R (présentée ci-après).**
 
-**BEN_CMU_ORG** : La CMU-C gérée par le régime général pour le compte de l'état est identifiable par le ben_cmu_top = 1 et le numéro d'organisme complémentaire ben_cmu_org = 075689893. 
+**BEN_CMU_ORG** : La CMU-C gérée par le régime général pour le compte de l'état est identifiable par le numéro d'organisme complémentaire ben_cmu_org = 075689893. 
 Pour la CMU-C gérée par les organismes privés (mutuelles, assurances, sociétés de prévoyance), l'information est transmise si il y a télétransmission entre la caisse qui gère le régime obligatoire et l'organisme qui gère la CMU-C.
 
 ### Table des affiliations IR\_ORC\_R
@@ -75,12 +73,15 @@ QUIT;
 
 ## Recommandations et précautions
 
-Il ne faut pas essayer de retrouver les cmucistes en fonction de la base de remboursement. 
-Avec la condition `abs(PRS_PAI_MNT) = abs(BSE_REM_BSE)` on peut en effet retrouver des prestations qui sont sans lien avec la CMU-C : les paires gratuites en optique, le dépistage, une exonération au titre d'une ALD, ainsi que tout autre motif d'exonération prioritaire par rapport à la CMU-C.
+Lorsqu'on utilise la CMU-C comme indicateur de la précarité, l'étude des personnes âgées de 60 ans n'est pas pertinente. 
+En effet, l’Allocation de solidarité aux personnes âgées (ASPA, ex : minimum vieillesse) se substitue généralement à la CMU-C à partir de 60 ans. 
 
+Il ne faut pas essayer de retrouver les cmucistes en fonction de la base de remboursement. 
+Avec la condition `abs(PRS_PAI_MNT) = abs(BSE_REM_BSE)` on peut en effet retrouver des prestations qui sont sans lien avec la CMU-C : 
+les paires gratuites en optique, le dépistage, une exonération au titre d'une ALD, ainsi que tout autre motif d'exonération prioritaire par rapport à la CMU-C.
 De plus, une partie des prestations CMU-C ne remplit pas ce critère. 
 En effet, les cmucistes qui consultent un médecin hors résidence ou sans passer par le médecin traitant se voient pénaliser au même titre que les autres bénéficiaires de l'assurance maladie. 
-De plus, en cas d'exigence particulière du bénéficiaire, des dépassements d'honoraire peuvent être facturés au cmuciste.
+Enfin, en cas d'exigence particulière du bénéficiaire, des dépassements d'honoraire peuvent être facturés au cmuciste.
 
 Lorsqu'une personne a été topée comme bénéficiaire de la CMU-C (ben_ cmu_top=1) une fois dans l'année, il est préférable de considérer cette personne comme cmuciste toute l'année. 
 En effet, comme évoqué précédemment, lorsque le patient est en ALD, le top CMU-c est forcé à 0 pour les prestations liquidées en rapport avec son ALD (car celle-ci est prioritaire).
