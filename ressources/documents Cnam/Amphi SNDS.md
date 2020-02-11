@@ -20,7 +20,7 @@ Les résumés de chaque étude sont consultables ci-dessous.
 
 ### Méthodologie Bigdata : travaux dans le domaine de la pharmacovigilance - Cnam 
 Présenté par : Fanny Leroy, Cnam DSES/DATA.D/Pôle Bigdata
-::: details Résumé 
+::: details **Résumé** 
 Un partenariat entre l'Ecole Polytechnique et la CNAM a été conclu en 2015 et renouvelé en 2018 afin d'aider la CNAM à prendre en main et à tirer profit des technologies "Big Data" le plus rapidement possible. 
 Dans ce cadre, une nouvelle infrastructure machine, "horizontale", plus adaptée à la recherche méthodologique, a été mise en place. 
 Cette nouvelle "machine" s'accompagne d'une nouvelle organisation des données et d'une nouvelle architecture logicielle basées sur des technologies open-source. 
@@ -39,7 +39,7 @@ Au cours de cet exposé, nous présenterons l’ensemble de ces travaux réalis�
 
 ### SNDS, apprentissage profond et analyse de données de mortalités en causes multiples - INSERM
 Présenté par : Louis Falissard, INSERM/CépiDc
-::: details Résumé
+::: details **Résumé**
 Les statistiques de mortalités par cause sont de nos jours encore produites par l'analyse d'experts sur une grande quantité de certificats de décès à l’échelle nationale. 
 Plusieurs tentatives d’automatisation de ce coûteux processus, par le biais de systèmes experts, ont été proposées par le passé, avec des performances permettant au mieux une assistance aux experts humains. 
 Les récentes avancées en apprentissage automatique ont permis l’automatisation de tâches complexes dans tout un spectre d’applications, avec des performances sensiblement supérieures aux systèmes experts, tout particulièrement en présence de jeux de données d’apprentissage massifs. 
@@ -48,7 +48,7 @@ Ce travail explore le potentiel des méthodes d’apprentissage machine, et en p
 
 ### Impact de la durée moyenne de séjour sur les réadmissions, analyse préliminaire des pratiques dans le cadre des expérimentations article 51 de la LFSS, projet Episode de soins (EDS) - ATIH
 Présenté par : Marc-Antoine Sanchez, ATIH
-::: details Résumé 
+::: details **Résumé** 
 **Introduction** La mise en place des paiements au parcours de type épisode de soins (EDS), dans le cadre de l'article 51 de la loi de financement de la sécurité sociale (LFSS) 2018 est susceptible d'impacter la qualité des soins, et notamment le taux de réadmissions des établissements de santé. 
 L'objectif est d'étudier le lien entre durée moyenne séjour (DMS) et réadmissions permettant d'estimer l'impact sur le coût global du parcours.
  
@@ -70,7 +70,7 @@ Ce nouveau mode de paiement pourrait permettre une modification des pratiques vi
 
 ### Contribution du Système national des données de santé à la construction de la cascade de prise en charge de l’hépatite C chronique - Santé publique France
 Présenté par : Cécile Brouard, Santé publique France
-::: details Résumé 
+::: details **Résumé** 
 **Introduction** La disponibilité, depuis 2014, de nouveaux traitements de l’hépatite C chronique, reposant sur les antiviraux à action directe (AAD) de seconde génération, extrêmement efficaces et bien tolérés, a conduit l’Organisation mondiale de la Santé (OMS) à fixer, en 2016, un objectif d’élimination de l’hépatite C chronique à l’horizon 2030. 
 Pour atteindre cet objectif, 90% des infections chroniques doivent être diagnostiquées et 80% des personnes éligibles au traitement traitées. 
 La France s’est engagée à atteindre cet objectif pour l’hépatite C d’ici 2025. 
@@ -100,7 +100,7 @@ Pour autant, l’accès aux soins et au traitement des personnes infectées rest
 
 ###  Outils d’accompagnement des utilisateurs du SNDS
 Présenté par : Anne Cuerq (HDH) & Laure de Martini (Cnam)
-::: details Résumé 
+::: details **Résumé** 
 Présentation conjointe des outils d'accompagnement proposé par la Cnam et le Health Data Hub, et démonstration.
 ::: 
 
