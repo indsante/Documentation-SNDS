@@ -1,4 +1,3 @@
-
 const sb = require('./sidebar');
 
 const sidebar = [
@@ -49,7 +48,8 @@ module.exports = {
         algolia: {
             apiKey: 'b1d88a4e2413821b4ebe7441ecc95a97',
             indexName: 'health-data-hub-snds'
-        }
+        },
+        smoothScroll: true
     },
     markdown: {
         // options for markdown-it-anchor
