@@ -27,7 +27,7 @@ Pour obtenir l'ensemble des dépenses associées à un séjour en établissement
 il faut ajouter au montant AMO décrit dans la présente fiche, le montant du RAC AMO du séjour.   
 Une fiche est en cours de rédaction sur le calcul du reste à charge après AMO en établissement public.
 
-Le montant AMO ici défini ne tient pas compte des parts supplémentaires prises en charge par le public 
+Le montant AMO ici défini exclut les parts supplémentaires prises en charge par le public (Sécurité sociale, Etat, ou organismes assurant les remboursements au titre de la CMU-C)
 pour les bénéficiaires de la CMU-C, de l'AME, des soins urgents, ainsi que pour les détenus. 
 À l'hôpital public, le montant de ces parts supplémentaires est égal à celui du RAC opposable (tarif de convention - montant AMO) : 
 des éléments permettant d'identifier les populations concernées dans le PMSI (CMU-C, AME, SU, détenus) 
