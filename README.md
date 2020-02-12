@@ -13,34 +13,40 @@ Nous conseillons d'utiliser un autre navigateur, car Microsoft a arrêté le dé
 
 ## Contributeurs 
 
-Cette documentation sous licence ouverte est maintenue par la DREES et l'INDS.
+Cette documentation est maintenue par le Health data hub.
 
 Elle résulte d'une mise en commun de documents et travaux par plusieurs organisations, dont :
 - la Caisse nationale d'assurance maladie - [Cnam](https://www.ameli.fr/)
 - l'Institut National des Données de Santé - [INDS](https://www.indsante.fr/)
 - la Direction de la Recherche, des études, de l’évaluation et des statistiques - 
 [DREES](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/la-drees/)
+- les Agences régionales de santé - [ARS](https://www.ars.sante.fr/)
+- Santé publique France - [SpF](https://www.santepubliquefrance.fr/)
 
 
-## Organisation la documentation
+## Organisation
 
 La documentation est organisée en 5 sections :
-- [Introduction](introduction/README.md) est un guide introductif au SNDS, actuellement presque vide ;
+- [Introduction](introduction/README.md) est un guide introductif au SNDS ;
 - [Fiche thématiques](fiches/README.md) contient des fiches thématiques détaillés ;
-- [Glossaire](glossaire/README.md) contient des fiches explicitant des concepts importants.
-- [Ressources](ressources/README.md) liste des liens vers différentes ressources documentaires sur le SNDS ;
-- [Tables](tables/README.md) présente l'ensemble des produits, tables et variables du SNDS ;
+- [Glossaire](glossaire/README.md) contient des fiches explicitant des concepts importants, utilisées comme références ailleurs ;
+- [Ressources](ressources/README.md) liste de nombreuses ressources externes ou à télécharger ;
+- [Tables](tables/README.md) est un dictionnaire des tables et variables ;
 - [Contribuer](contribuer/README.md) est un guide de contribution à cette documentation.
 
 Chacune de ces sections correspond à un dossier sur [GitLab](https://gitlab.com/healthdatahub/documentation-snds), avec un [dossier supplémentaire](https://gitlab.com/healthdatahub/documentation-snds/files) pour les fichiers et images.
 
-::: tip Note
-La section **Tables** est générée automatiquement à partir du [schema formalisé du SNDS](https://gitlab.com/healthdatahub/schema-snds), qui alimente également le [dictionnaire interactif](https://drees.shinyapps.io/dico-snds/).
+## Citation
+
+Merci de citer ce site si vous l'utilisez dans vos travaux.
+
+::: tip Citation au format recommandé par l'APA
+> Documentation collaborative du SNDS. (n.d.). Retrieved from https://gitlab.com/healthdatahub/documentation-snds 
 :::
 
 ## Licence
 
-Ce dépôt est publié par la DREES et l'Institut National des Données de Santé sous
-licence Mozilla Public License 2.0.
+Ce dépôt est publié par le Health data hub sous 
+licence Mozilla Public License 2.0 (MPL-2.0)
 
 Voir le fichier [LICENSE](https://gitlab.com/healthdatahub/documentation-snds/blob/master/LICENSE).
