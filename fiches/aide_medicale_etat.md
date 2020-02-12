@@ -2,7 +2,8 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 L'Aide Médicale de l'État (AME) est destinée à permettre l'accès aux soins des personnes en situation irrégulière en France. 
-Elle est attribuée sous conditions de résidence et de ressources.
+Elle est attribuée sous conditions de résidence (résider en France depuis une durée initerompue d'au moins 3 mois) et de ressources.
+L'AME est attribuée sans conditions aux enfants mineurs dont les parents sont en situation irrégulière, même lorsque ces derniers n'en bénéficient pas encore ou dépassent le plafond de ressources pour en bénéficier. 
 
 Ce dispositif s'inscrit dans le cadre de la lutte contre les exclusions. 
 Elle s'adresse aux ressortissants étrangers en situation irrégulière et précaire.
@@ -11,7 +12,7 @@ Elle s'adresse aux ressortissants étrangers en situation irrégulière et préc
 ## Identification des bénéficiaires de l'AME
 
 Pour identifier les bénéficiaires de l'AME dans la table des prestations du DCIR [ER_PRS_F](../tables/DCIR/ER_PRS_F.md),
- il faut utiliser la variable `RGM_COD` (code petit régime). 
+ il faut utiliser la variable `RGM_GRG_COD`=01 couplée à la variable `RGM_COD` (code petit régime). 
 
 On prends les modalités : 
 - 95 : aide médicale gratuite 100 % état
@@ -21,6 +22,8 @@ Seul souci : on ne considère que les consommants puisque on a l'information uni
 Il faut donc que l'individu ait au moins une prestation, ce qui est souvent le cas pour les AME. 
 
 On peut aussi utiliser la variable `BEN_CMU_CAT` (catégorie d’organisme complémentaire) dont la modalité 5 correspond à l’AME.
+
+Dans le PMSI, l’information sur l’AME est présente depuis 2012 dans la table de valorisation des établissements publics `T_MCOaaVALO` avec la variable `VALO`=3.
 
 ::: warning Attention
 L'AME n'est pas applicable à Mayotte.
