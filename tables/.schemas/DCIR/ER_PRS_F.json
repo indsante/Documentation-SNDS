@@ -1822,20 +1822,6 @@
     ],
     "foreignKeys": [
         {
-            "fields": [
-                "BEN_NIR_PSA",
-                "BEN_RNG_GEM"
-            ],
-            "reference": {
-                "resource": "CT_IDE_AAAA_GN",
-                "fields": [
-                    "ben_nir_psa",
-                    "ben_rng_gem"
-                ]
-            },
-            "description": "Bidirectionnel"
-        },
-        {
             "fields": "PFS_EXE_NUM",
             "reference": {
                 "resource": "DA_PRA_R",

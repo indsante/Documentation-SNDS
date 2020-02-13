@@ -82,7 +82,8 @@
                     "BEN_NIR_PSA",
                     "BEN_RNG_GEM"
                 ]
-            }
+            },
+            "description": "Bidirectionnel"
         }
     ],
     "history": {
