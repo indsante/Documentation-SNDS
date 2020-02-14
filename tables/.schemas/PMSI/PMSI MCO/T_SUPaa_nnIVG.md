@@ -16,14 +16,9 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|Numéro FINESS e-PMSI||
-`FIC_TYP`|
-integer|Type de fichier||
-`ANN_MOI`|
-date|Mois et année||
-`NBR_IVG`|
-integer|Nombre total réalisé||
-`PRS_IVG`|
-string|Code prestation IVG||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS e-PMSI||
+`FIC_TYP`|nombre entier|Type de fichier||
+`ANN_MOI`|année et mois|Mois et année||
+`NBR_IVG`|nombre entier|Nombre total réalisé||
+`PRS_IVG`|chaîne de caractères|Code prestation IVG||
 

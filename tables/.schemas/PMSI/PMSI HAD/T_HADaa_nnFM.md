@@ -16,80 +16,42 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ACT_ANN`|
-string|Année de la date de l&#x27;acte||
-`ACT_DAT_COMP`|
-string|Compatible avec la date de l&#x27;acte||
-`ACT_MOI`|
-string|Mois de la date de l&#x27;acte||
-`ACV_ACT`|
-string|Activité||
-`ANP_ACT`|
-string|Association non prévue||
-`CCAM_COD`|
-string|Code CCAM (y compris extension PMSI)||
-`DEL_DAT_ENT`|
-number|delai par rapport à la date d&#x27;entrée||
-`DENT_NUM_1`|
-string|N° dent 1||
-`DENT_NUM_2`|
-string|N° dent 2||
-`DENT_NUM_3`|
-string|N° dent 3||
-`DENT_NUM_4`|
-string|N° dent 4||
-`DENT_NUM_5`|
-string|N° dent 5||
-`DENT_NUM_6`|
-string|N° dent 6||
-`DENT_NUM_7`|
-string|N° dent 7||
-`DENT_NUM_8`|
-string|N° dent 8||
-`DENT_NUM_9`|
-string|N° dent 9||
-`DENT_NUM_10`|
-string|N° dent 10||
-`DENT_NUM_11`|
-string|N° dent 11||
-`DENT_NUM_12`|
-string|N° dent 12||
-`DENT_NUM_13`|
-string|N° dent 13||
-`DENT_NUM_14`|
-string|N° dent 14||
-`DENT_NUM_15`|
-string|N° dent 15||
-`DENT_NUM_16`|
-string|N° dent 16||
-`DOC_ACT`|
-string|Extension documentaire||
-`ETA_NUM_EPMSI`|
-string|N° FINESS e-PMSI||
-`ETA_NUM_GEO`|
-string|Numéro FINESS  géographique||
-`FAC_NUM`|
-string|N° séquentiel de facture (idem RAPSS)||
-`MOD_ACT1`|
-string|Modificateur 1||
-`MOD_ACT2`|
-string|Modificateur 2||
-`MOD_ACT3`|
-string|Modificateur 3||
-`MOD_ACT4`|
-string|Modificateur 4||
-`PHA_ACT`|
-string|Phase||
-`PSH_DMT`|
-string|Discipline de prestation (ex DMT)||
-`PSH_MDT`|
-string|Mode de traitement||
-`REM_EXP_ACT`|
-string|Code remb exceptionnel||
-`RHAD_NUM`|
-string|Numéro séquentiel d&#x27;entrée (idem RAPSS)||
-`TYP_ART`|
-string|Type d&#x27;enregistrement||
-`ETA_NUM_TWO`|
-string|Numéro FINESS de l’établissement (site géographique)||
+`ACT_ANN`|année|Année de la date de l&#x27;acte||
+`ACT_DAT_COMP`|chaîne de caractères|Compatible avec la date de l&#x27;acte||
+`ACT_MOI`|date|Mois de la date de l&#x27;acte||
+`ACV_ACT`|chaîne de caractères|Activité||
+`ANP_ACT`|chaîne de caractères|Association non prévue||
+`CCAM_COD`|chaîne de caractères|Code CCAM (y compris extension PMSI)||
+`DEL_DAT_ENT`|nombre réel|delai par rapport à la date d&#x27;entrée||
+`DENT_NUM_1`|chaîne de caractères|N° dent 1||
+`DENT_NUM_2`|chaîne de caractères|N° dent 2||
+`DENT_NUM_3`|chaîne de caractères|N° dent 3||
+`DENT_NUM_4`|chaîne de caractères|N° dent 4||
+`DENT_NUM_5`|chaîne de caractères|N° dent 5||
+`DENT_NUM_6`|chaîne de caractères|N° dent 6||
+`DENT_NUM_7`|chaîne de caractères|N° dent 7||
+`DENT_NUM_8`|chaîne de caractères|N° dent 8||
+`DENT_NUM_9`|chaîne de caractères|N° dent 9||
+`DENT_NUM_10`|chaîne de caractères|N° dent 10||
+`DENT_NUM_11`|chaîne de caractères|N° dent 11||
+`DENT_NUM_12`|chaîne de caractères|N° dent 12||
+`DENT_NUM_13`|chaîne de caractères|N° dent 13||
+`DENT_NUM_14`|chaîne de caractères|N° dent 14||
+`DENT_NUM_15`|chaîne de caractères|N° dent 15||
+`DENT_NUM_16`|chaîne de caractères|N° dent 16||
+`DOC_ACT`|chaîne de caractères|Extension documentaire||
+`ETA_NUM_EPMSI`|chaîne de caractères|N° FINESS e-PMSI||
+`ETA_NUM_GEO`|chaîne de caractères|Numéro FINESS  géographique||
+`FAC_NUM`|chaîne de caractères|N° séquentiel de facture (idem RAPSS)||
+`MOD_ACT1`|chaîne de caractères|Modificateur 1||
+`MOD_ACT2`|chaîne de caractères|Modificateur 2||
+`MOD_ACT3`|chaîne de caractères|Modificateur 3||
+`MOD_ACT4`|chaîne de caractères|Modificateur 4||
+`PHA_ACT`|chaîne de caractères|Phase||
+`PSH_DMT`|chaîne de caractères|Discipline de prestation (ex DMT)||
+`PSH_MDT`|chaîne de caractères|Mode de traitement||
+`REM_EXP_ACT`|chaîne de caractères|Code remb exceptionnel||
+`RHAD_NUM`|chaîne de caractères|Numéro séquentiel d&#x27;entrée (idem RAPSS)||
+`TYP_ART`|chaîne de caractères|Type d&#x27;enregistrement||
+`ETA_NUM_TWO`|chaîne de caractères|Numéro FINESS de l’établissement (site géographique)||
 

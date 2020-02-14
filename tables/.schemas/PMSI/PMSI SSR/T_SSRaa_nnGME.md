@@ -16,22 +16,13 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|N° FINESS de l&#x27;établisement||
-`RHA_VER`|
-string|N° version du format du RHA||
-`RHA_NUM`|
-string|N° Séquentiel du séjour||
-`NBR_JOU`|
-number|Nombre de jours||
-`GME_COD`|
-string|Code GME||
-`GMT_NUM`|
-string|GMT||
-`RHS_NUM`|
-string|N° séquentiel du RHS||
-`RET_COD`|
-string|code retour *||
-`GME`|
-string|GME||
+`ETA_NUM`|chaîne de caractères|N° FINESS de l&#x27;établisement||
+`RHA_VER`|chaîne de caractères|N° version du format du RHA||
+`RHA_NUM`|chaîne de caractères|N° Séquentiel du séjour||
+`NBR_JOU`|nombre réel|Nombre de jours||
+`GME_COD`|chaîne de caractères|Code GME||
+`GMT_NUM`|chaîne de caractères|GMT||
+`RHS_NUM`|chaîne de caractères|N° séquentiel du RHS||
+`RET_COD`|chaîne de caractères|code retour *||
+`GME`|chaîne de caractères|GME||
 

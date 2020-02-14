@@ -16,16 +16,10 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|Numéro FINESS e-PMSI||
-`ETE_GHS_NUM`|
-integer|Code du supplément (n° GHS)||
-`GHS_SUP_COD`|
-string|Code du supplément (n° GHS)||
-`NBR_SUP`|
-integer|Nombre de suppléments (Nb actes menant dans le GHS)||
-`RSA_NUM`|
-string|N° d&#x27;index du RSA||
-`RSS_NUM`|
-string|Numéro de version du format du RSA||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS e-PMSI||
+`ETE_GHS_NUM`|nombre entier|Code du supplément (n° GHS)||
+`GHS_SUP_COD`|chaîne de caractères|Code du supplément (n° GHS)||
+`NBR_SUP`|nombre entier|Nombre de suppléments (Nb actes menant dans le GHS)||
+`RSA_NUM`|chaîne de caractères|N° d&#x27;index du RSA||
+`RSS_NUM`|chaîne de caractères|Numéro de version du format du RSA||
 

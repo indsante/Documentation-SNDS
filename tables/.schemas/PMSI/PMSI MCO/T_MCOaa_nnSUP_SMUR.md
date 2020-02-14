@@ -16,18 +16,11 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|Numéro FINESS ePMSI||
-`NBR_SOR_PRIM`|
-integer|Nombre de sorties primaires||
-`ETA_NUM_SMUR`|
-string|N° FINESS d’implantation SMUR||
-`NBR_SOR_SND`|
-integer|Nombre de sorties secondaires||
-`ANN_MOI`|
-string|Année+Mois||
-`FIC_TYP`|
-string|Type de fichier||
-`NBR_TIIH`|
-integer|Nombre TIIH (transfert infirmier inter-hospitalier)||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS ePMSI||
+`NBR_SOR_PRIM`|nombre entier|Nombre de sorties primaires||
+`ETA_NUM_SMUR`|chaîne de caractères|N° FINESS d’implantation SMUR||
+`NBR_SOR_SND`|nombre entier|Nombre de sorties secondaires||
+`ANN_MOI`|année et mois|Année+Mois||
+`FIC_TYP`|chaîne de caractères|Type de fichier||
+`NBR_TIIH`|nombre entier|Nombre TIIH (transfert infirmier inter-hospitalier)||
 

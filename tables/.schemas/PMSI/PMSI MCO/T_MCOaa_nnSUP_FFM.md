@@ -16,12 +16,8 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|Numéro FINESS d’inscription ePMSI||
-`NBR_FFM`|
-integer|Nombre total réalisé||
-`ANN_MOI`|
-string|Année+Mois||
-`FIC_TYP`|
-string|Type de fichier||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS d’inscription ePMSI||
+`NBR_FFM`|nombre entier|Nombre total réalisé||
+`ANN_MOI`|année et mois|Année+Mois||
+`FIC_TYP`|chaîne de caractères|Type de fichier||
 

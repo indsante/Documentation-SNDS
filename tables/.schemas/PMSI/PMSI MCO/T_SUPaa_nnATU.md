@@ -16,18 +16,11 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|Numéro FINESS e-PMSI||
-`ETA_NUM_GEO`|
-string|Premier numéro FINESS géographique||
-`NBR_PAS`|
-integer|Nombre de passages total||
-`FIC_TYP`|
-integer|Type de fichier||
-`NBR_HOS`|
-integer|Nombres d&#x27;hospitalisations||
-`ANN_MOI`|
-date|Mois et année||
-`AUT_TYP`|
-string|Type d&#x27;autorisation||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS e-PMSI||
+`ETA_NUM_GEO`|chaîne de caractères|Premier numéro FINESS géographique||
+`NBR_PAS`|nombre entier|Nombre de passages total||
+`FIC_TYP`|nombre entier|Type de fichier||
+`NBR_HOS`|nombre entier|Nombres d&#x27;hospitalisations||
+`ANN_MOI`|année et mois|Mois et année||
+`AUT_TYP`|chaîne de caractères|Type d&#x27;autorisation||
 

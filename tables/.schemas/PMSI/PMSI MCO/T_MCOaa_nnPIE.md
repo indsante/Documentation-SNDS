@@ -16,28 +16,16 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ANN`|
-string|Année période||
-`DELAI`|
-integer|Délai entre la date d’entrée du séjour et la date de début de la prestation||
-`ETA_NUM`|
-string|N° FINESS e-PMSI||
-`ETA_NUM_ENT`|
-string|N° FINESS du fichier d&#x27;entrée||
-`MOI`|
-string|N° période (mois)||
-`POS_ANN`|
-string|Année de la date de début de la prestation||
-`POS_MOI`|
-string|Mois de la date de début de la prestation||
-`PRS_COD`|
-string|Code Prestation||
-`PRS_JOU_NBR`|
-integer|Durée de la prestation||
-`PRS_TYP`|
-string|Type de prestation||
-`RSA_NUM`|
-string|N° d&#x27;index du RSA||
-`SUP_PAY_NBR`|
-integer|Nombre de suppléments payés||
+`ANN`|année|Année période||
+`DELAI`|nombre entier|Délai entre la date d’entrée du séjour et la date de début de la prestation||
+`ETA_NUM`|chaîne de caractères|N° FINESS e-PMSI||
+`ETA_NUM_ENT`|chaîne de caractères|N° FINESS du fichier d&#x27;entrée||
+`MOI`|date|N° période (mois)||
+`POS_ANN`|année|Année de la date de début de la prestation||
+`POS_MOI`|date|Mois de la date de début de la prestation||
+`PRS_COD`|chaîne de caractères|Code Prestation||
+`PRS_JOU_NBR`|nombre entier|Durée de la prestation||
+`PRS_TYP`|chaîne de caractères|Type de prestation||
+`RSA_NUM`|chaîne de caractères|N° d&#x27;index du RSA||
+`SUP_PAY_NBR`|nombre entier|Nombre de suppléments payés||
 

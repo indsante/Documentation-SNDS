@@ -16,34 +16,19 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM_EPMSI`|
-string|N° FINESS e-PMSI||
-`FOR_NUM`|
-string|N° de format||
-`ANN`|
-string|Année période de transmission||
-`MOI`|
-string|Mois période de transmission||
-`ANN_DEB`|
-string|Année début de mesure||
-`MOI_DEB`|
-string|Mois début de mesure||
-`ANN_FIN`|
-string|Année fin de mesure||
-`MOI_FIN`|
-string|Mois fin de mesure||
-`RIP_NUM`|
-string|N° séquentiel de séjour du RPSA||
-`SEQ_SEQ_NUM`|
-string|N° sequentiel de séquence ||
-`TYP_ISO_CONT`|
-string|Type de contention/isolement||
-`MES_ORD_NUM`|
-string|N° séquentiel de la mesure||
-`MES_REP_TPS`|
-number|Identifiant de la mesure||
-`MES_INDIC`|
-string|Indicateur de mesure ||
-`MES_DUREE`|
-number|Durée de la mesure||
+`ETA_NUM_EPMSI`|chaîne de caractères|N° FINESS e-PMSI||
+`FOR_NUM`|chaîne de caractères|N° de format||
+`ANN`|année|Année période de transmission||
+`MOI`|date|Mois période de transmission||
+`ANN_DEB`|année|Année début de mesure||
+`MOI_DEB`|date|Mois début de mesure||
+`ANN_FIN`|année|Année fin de mesure||
+`MOI_FIN`|date|Mois fin de mesure||
+`RIP_NUM`|chaîne de caractères|N° séquentiel de séjour du RPSA||
+`SEQ_SEQ_NUM`|chaîne de caractères|N° sequentiel de séquence ||
+`TYP_ISO_CONT`|chaîne de caractères|Type de contention/isolement||
+`MES_ORD_NUM`|chaîne de caractères|N° séquentiel de la mesure||
+`MES_REP_TPS`|nombre réel|Identifiant de la mesure||
+`MES_INDIC`|chaîne de caractères|Indicateur de mesure ||
+`MES_DUREE`|nombre réel|Durée de la mesure||
 

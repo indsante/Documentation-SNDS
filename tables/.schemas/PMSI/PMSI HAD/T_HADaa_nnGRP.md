@@ -16,32 +16,18 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM_EPMSI`|
-string|N° FINESS e-PMSI||
-`ETA_NUM_GEO`|
-string|Numéro FINESS de l’établissement (code géographique)||
-`ETE_GHS_NUM`|
-number|GHT_NUM en numérique||
-`GHT_NBJ`|
-integer|Groupage PAPRICA : nombre de jours||
-`GHT_NUM`|
-string|Groupage PAPRICA : n° du GHT||
-`PAP_GRP_GHPC`|
-string|Groupage PAPRICA : n° du GHPC||
-`PAP_GRP_RET`|
-boolean|Groupage PAPRICA : code retour||
-`PAP_GRP_VER`|
-string|Groupage établissement : version de la classification||
-`RHAD_NUM`|
-string|N° séquentiel de séjour d&#x27;HAD||
-`SEQ_NUM`|
-string|N° de la séquence dans le séjour||
-`SSEQ_NUM`|
-string|N° de la sous-séquence||
-`SEQ_SEJ`|
-string|Numéro de la séquence dans le séjour||
-`ETA_NUM_JUR`|
-string|N° FINESS de l’établissement (code géographique)||
-`ETA_NUM_TWO`|
-string|Numéro FINESS de l’établissement (code géographique)||
+`ETA_NUM_EPMSI`|chaîne de caractères|N° FINESS e-PMSI||
+`ETA_NUM_GEO`|chaîne de caractères|Numéro FINESS de l’établissement (code géographique)||
+`ETE_GHS_NUM`|nombre réel|GHT_NUM en numérique||
+`GHT_NBJ`|nombre entier|Groupage PAPRICA : nombre de jours||
+`GHT_NUM`|chaîne de caractères|Groupage PAPRICA : n° du GHT||
+`PAP_GRP_GHPC`|chaîne de caractères|Groupage PAPRICA : n° du GHPC||
+`PAP_GRP_RET`|booléen|Groupage PAPRICA : code retour||
+`PAP_GRP_VER`|chaîne de caractères|Groupage établissement : version de la classification||
+`RHAD_NUM`|chaîne de caractères|N° séquentiel de séjour d&#x27;HAD||
+`SEQ_NUM`|chaîne de caractères|N° de la séquence dans le séjour||
+`SSEQ_NUM`|chaîne de caractères|N° de la sous-séquence||
+`SEQ_SEJ`|chaîne de caractères|Numéro de la séquence dans le séjour||
+`ETA_NUM_JUR`|chaîne de caractères|N° FINESS de l’établissement (code géographique)||
+`ETA_NUM_TWO`|chaîne de caractères|Numéro FINESS de l’établissement (code géographique)||
 

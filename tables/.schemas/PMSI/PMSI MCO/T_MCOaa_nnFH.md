@@ -16,46 +16,25 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ACH_PRI`|
-number|Prix d&#x27;achat unitaire TTC||
-`COD_UCD`|
-string|Code UCD||
-`COE_TAU`|
-number|Coefficient de fractionnement||
-`DEL_DAT_ENT`|
-integer|Délai par rapport à la date d&#x27;entrée||
-`ENT_ANN`|
-string|Année début de séjour||
-`ENT_MOI`|
-string|Mois de début de séjour||
-`ETA_NUM`|
-string|Numéro FINESS e-PMSI||
-`FAC_TOT`|
-number|Montant total facturé TTC||
-`MNT_UNI_ECA`|
-number|Montant unitaire de l&#x27;écart indemnisable||
-`NUM_FAC`|
-string|N° séquentiel de facture||
-`QUA_COD`|
-integer|Quantité||
-`RSA_NUM`|
-string|N° séquentiel (le même que pour les RSA)||
-`RSF_TYP`|
-string|Type de format RSF (1 : ancien, 2 : nouveau)||
-`TOT_MNT_ECA`|
-number|Montant total de l&#x27;écart indemnisable||
-`TYP_ART`|
-string|Type d&#x27;enregistrement||
-`UCD_UCD_COD`|
-string|Code UCD (0 à gauche)||
-`COD_LES`|
-string|Code indication des spécialités pharmaceutiques inscrites sur la liste en sus||
-`COD_TAU`|
-string|Code taux||
-`MNT_IND`|
-number|Montant écart indemnisable||
-`PRI_UNI_FAC`|
-number|Prix unitaire facturé||
-`COD_UCP_CIP`|
-string|Code UCD ou CIP||
+`ACH_PRI`|nombre réel|Prix d&#x27;achat unitaire TTC||
+`COD_UCD`|chaîne de caractères|Code UCD||
+`COE_TAU`|nombre réel|Coefficient de fractionnement||
+`DEL_DAT_ENT`|nombre entier|Délai par rapport à la date d&#x27;entrée||
+`ENT_ANN`|année|Année début de séjour||
+`ENT_MOI`|date|Mois de début de séjour||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS e-PMSI||
+`FAC_TOT`|nombre réel|Montant total facturé TTC||
+`MNT_UNI_ECA`|nombre réel|Montant unitaire de l&#x27;écart indemnisable||
+`NUM_FAC`|chaîne de caractères|N° séquentiel de facture||
+`QUA_COD`|nombre entier|Quantité||
+`RSA_NUM`|chaîne de caractères|N° séquentiel (le même que pour les RSA)||
+`RSF_TYP`|chaîne de caractères|Type de format RSF (1 : ancien, 2 : nouveau)||
+`TOT_MNT_ECA`|nombre réel|Montant total de l&#x27;écart indemnisable||
+`TYP_ART`|chaîne de caractères|Type d&#x27;enregistrement||
+`UCD_UCD_COD`|chaîne de caractères|Code UCD (0 à gauche)||
+`COD_LES`|chaîne de caractères|Code indication des spécialités pharmaceutiques inscrites sur la liste en sus||
+`COD_TAU`|chaîne de caractères|Code taux||
+`MNT_IND`|nombre réel|Montant écart indemnisable||
+`PRI_UNI_FAC`|nombre réel|Prix unitaire facturé||
+`COD_UCP_CIP`|chaîne de caractères|Code UCD ou CIP||
 

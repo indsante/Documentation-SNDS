@@ -16,72 +16,38 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`AGE_ANN`|
-number|Age||
-`CMU_BEN_PAT`|
-string|Patient bénéficiaire de la CMU||
-`COD_CIV`|
-string|Code civilité||
-`COD_SEX`|
-string|Sexe||
-`CON_TYP`|
-string|Type de contrat souscrit auprès d&#x27;un organisme complémentaire||
-`ENT_ANN`|
-string|Année de la date d&#x27;entrée||
-`ENT_MOI`|
-string|Mois de la date d&#x27;entrée||
-`ETA_NUM_EPMSI`|
-string|N° FINESS e-PMSI||
-`ETA_NUM_GEO`|
-string|Numéro FINESS  géographique||
-`EXO_TM`|
-string|Justification d&#x27;exonération du TM||
-`COD_PEC`|
-string|Code de prise en charge||
-`FAC_ETL`|
-string|Etat de liquidation de la facture||
-`FAC_NUM`|
-string|N° séquentiel de facture (idem RAPSS)||
-`GES_COD`|
-string|Code gestion||
-`HON_AM_MNR`|
-number|Total honoraire remboursable AM||
-`HON_MNT`|
-number|Total honoraire Facturé||
-`HON_OC_MNR`|
-number|Total remboursable OC pour les honoraires||
-`NAT_ASS`|
-string|Nature assurance||
-`NOE_RGM`|
-string|Code Gd régime||
-`OPE_NAT`|
-string|Nature opération||
-`PAS_OC_MNT`|
-number|Total participation assuré avant OC||
-`PH_AMO_MNR`|
-number|Total remboursable AMO Prestation hospitalières||
-`PH_BRM`|
-number|Total Base Remboursement Prestation hospitalière||
-`PH_MNT`|
-number|Montant total facturé pour  PH||
-`PH_OC_MNR`|
-number|Total remboursable OC pour les PH||
-`RHAD_NUM`|
-string|Numéro séquentiel d&#x27;entrée (idem RAPSS)||
-`SOR_ANN`|
-string|Année de la date de sortie||
-`SOR_MOI`|
-string|Mois de la date de sortie||
-`TYP_ART`|
-string|Type d&#x27;enregistrement||
-`ORG_CPL_NUM`|
-string|N° d’organisme complémentaire||
-`NUM_DAT_AT`|
-string|Numéro accident du travail ou date d’accident de droit commun||
-`RNG_BEN`|
-string|Rang de bénéficiaire||
-`RNG_NAI`|
-string|Rang de naissance||
-`ETA_NUM_TWO`|
-string|Numéro FINESS de l’établissement (site géographique)||
+`AGE_ANN`|nombre réel|Age||
+`CMU_BEN_PAT`|chaîne de caractères|Patient bénéficiaire de la CMU||
+`COD_CIV`|chaîne de caractères|Code civilité||
+`COD_SEX`|chaîne de caractères|Sexe||
+`CON_TYP`|chaîne de caractères|Type de contrat souscrit auprès d&#x27;un organisme complémentaire||
+`ENT_ANN`|année|Année de la date d&#x27;entrée||
+`ENT_MOI`|date|Mois de la date d&#x27;entrée||
+`ETA_NUM_EPMSI`|chaîne de caractères|N° FINESS e-PMSI||
+`ETA_NUM_GEO`|chaîne de caractères|Numéro FINESS  géographique||
+`EXO_TM`|chaîne de caractères|Justification d&#x27;exonération du TM||
+`COD_PEC`|chaîne de caractères|Code de prise en charge||
+`FAC_ETL`|chaîne de caractères|Etat de liquidation de la facture||
+`FAC_NUM`|chaîne de caractères|N° séquentiel de facture (idem RAPSS)||
+`GES_COD`|chaîne de caractères|Code gestion||
+`HON_AM_MNR`|nombre réel|Total honoraire remboursable AM||
+`HON_MNT`|nombre réel|Total honoraire Facturé||
+`HON_OC_MNR`|nombre réel|Total remboursable OC pour les honoraires||
+`NAT_ASS`|chaîne de caractères|Nature assurance||
+`NOE_RGM`|chaîne de caractères|Code Gd régime||
+`OPE_NAT`|chaîne de caractères|Nature opération||
+`PAS_OC_MNT`|nombre réel|Total participation assuré avant OC||
+`PH_AMO_MNR`|nombre réel|Total remboursable AMO Prestation hospitalières||
+`PH_BRM`|nombre réel|Total Base Remboursement Prestation hospitalière||
+`PH_MNT`|nombre réel|Montant total facturé pour  PH||
+`PH_OC_MNR`|nombre réel|Total remboursable OC pour les PH||
+`RHAD_NUM`|chaîne de caractères|Numéro séquentiel d&#x27;entrée (idem RAPSS)||
+`SOR_ANN`|année|Année de la date de sortie||
+`SOR_MOI`|date|Mois de la date de sortie||
+`TYP_ART`|chaîne de caractères|Type d&#x27;enregistrement||
+`ORG_CPL_NUM`|chaîne de caractères|N° d’organisme complémentaire||
+`NUM_DAT_AT`|chaîne de caractères|Numéro accident du travail ou date d’accident de droit commun||
+`RNG_BEN`|chaîne de caractères|Rang de bénéficiaire||
+`RNG_NAI`|chaîne de caractères|Rang de naissance||
+`ETA_NUM_TWO`|chaîne de caractères|Numéro FINESS de l’établissement (site géographique)||
 

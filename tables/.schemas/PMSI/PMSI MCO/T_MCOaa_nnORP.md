@@ -16,16 +16,10 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|N° FINESS e-PMSI||
-`ANN`|
-string|Année période||
-`PRS_TYP`|
-string|Type de prestation||
-`ORP_COD`|
-string|Code ORPHA||
-`MOI`|
-string|N° période (mois)||
-`RSA_NUM`|
-string|N° d&#x27;index du RSA||
+`ETA_NUM`|chaîne de caractères|N° FINESS e-PMSI||
+`ANN`|année|Année période||
+`PRS_TYP`|chaîne de caractères|Type de prestation||
+`ORP_COD`|chaîne de caractères|Code ORPHA||
+`MOI`|date|N° période (mois)||
+`RSA_NUM`|chaîne de caractères|N° d&#x27;index du RSA||
 

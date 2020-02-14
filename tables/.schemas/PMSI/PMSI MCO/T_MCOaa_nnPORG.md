@@ -16,24 +16,14 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ANN`|
-string|Année période||
-`ANN_PO`|
-string|Année de la date de réalisation du prélèvement d&#x27;organe||
-`DELAI`|
-integer|Délai entre la date d’entrée du séjour et la date de réalisation du prélèvement d&#x27;organe||
-`ETA_NUM`|
-string|N° FINESS e-PMSI||
-`ETA_NUM_ENT`|
-string|N° FINESS du fichier d&#x27;entrée||
-`MOI`|
-string|N° période (mois)||
-`MOI_PO`|
-string|Mois de la date de réalisation du prélèvement d&#x27;organe||
-`PO_COD`|
-string|Code PO||
-`PRS_TYP`|
-string|Type de prestation||
-`RSA_NUM`|
-string|N° d&#x27;index du RSA||
+`ANN`|année|Année période||
+`ANN_PO`|année|Année de la date de réalisation du prélèvement d&#x27;organe||
+`DELAI`|nombre entier|Délai entre la date d’entrée du séjour et la date de réalisation du prélèvement d&#x27;organe||
+`ETA_NUM`|chaîne de caractères|N° FINESS e-PMSI||
+`ETA_NUM_ENT`|chaîne de caractères|N° FINESS du fichier d&#x27;entrée||
+`MOI`|date|N° période (mois)||
+`MOI_PO`|date|Mois de la date de réalisation du prélèvement d&#x27;organe||
+`PO_COD`|chaîne de caractères|Code PO||
+`PRS_TYP`|chaîne de caractères|Type de prestation||
+`RSA_NUM`|chaîne de caractères|N° d&#x27;index du RSA||
 

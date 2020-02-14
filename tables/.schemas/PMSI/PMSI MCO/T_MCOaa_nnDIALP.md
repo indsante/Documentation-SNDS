@@ -16,22 +16,13 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ANN`|
-string|Année période||
-`ETA_NUM`|
-string|N° FINESS||
-`ETA_NUM_ENT`|
-string|N° FINESS du fichier d&#x27;entrée||
-`MOI`|
-string|N° période (mois)||
-`NBR_PRS`|
-integer|Nombre de suppléments DIP||
-`PRS_COD`|
-string|Code Prestation||
-`PRS_TYP`|
-string|Type de prestation||
-`RSA_NUM`|
-string|N° d&#x27;index du RSA||
-`FAC_SEM_NBR`|
-integer|Nombre de semaine facturées||
+`ANN`|année|Année période||
+`ETA_NUM`|chaîne de caractères|N° FINESS||
+`ETA_NUM_ENT`|chaîne de caractères|N° FINESS du fichier d&#x27;entrée||
+`MOI`|date|N° période (mois)||
+`NBR_PRS`|nombre entier|Nombre de suppléments DIP||
+`PRS_COD`|chaîne de caractères|Code Prestation||
+`PRS_TYP`|chaîne de caractères|Type de prestation||
+`RSA_NUM`|chaîne de caractères|N° d&#x27;index du RSA||
+`FAC_SEM_NBR`|nombre entier|Nombre de semaine facturées||
 

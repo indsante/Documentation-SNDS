@@ -16,30 +16,17 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ANN`|
-string|Année période||
-`DAT_POS_ANN`|
-string|Année de la date de pose||
-`DELAI`|
-integer|Délai entre la date d’entrée du séjour et la date de pose||
-`ETA_NUM`|
-string|Numéro FINESS e-PMSI||
-`ETA_NUM_ENT`|
-string|N° FINESS du fichier d&#x27;entrée||
-`LPP_COD`|
-string|Code LPP (attention blanc devant)||
-`MOI`|
-string|N° période (mois)||
-`MOI_POS`|
-string|Mois de la date de pose (si renseginée)||
-`NBR_POS`|
-integer|Nombre posé||
-`NBR_POS_PRI`|
-number|Prix d&#x27;achat multiplié par le nombre posé||
-`PRS_TYP`|
-string|Type de prestation||
-`RSA_NUM`|
-string|N° d&#x27;index du RSA||
-`TIP_PRS_IDE`|
-integer|Code LPP (format numérique)||
+`ANN`|année|Année période||
+`DAT_POS_ANN`|année|Année de la date de pose||
+`DELAI`|nombre entier|Délai entre la date d’entrée du séjour et la date de pose||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS e-PMSI||
+`ETA_NUM_ENT`|chaîne de caractères|N° FINESS du fichier d&#x27;entrée||
+`LPP_COD`|chaîne de caractères|Code LPP (attention blanc devant)||
+`MOI`|date|N° période (mois)||
+`MOI_POS`|date|Mois de la date de pose (si renseginée)||
+`NBR_POS`|nombre entier|Nombre posé||
+`NBR_POS_PRI`|nombre réel|Prix d&#x27;achat multiplié par le nombre posé||
+`PRS_TYP`|chaîne de caractères|Type de prestation||
+`RSA_NUM`|chaîne de caractères|N° d&#x27;index du RSA||
+`TIP_PRS_IDE`|nombre entier|Code LPP (format numérique)||
 

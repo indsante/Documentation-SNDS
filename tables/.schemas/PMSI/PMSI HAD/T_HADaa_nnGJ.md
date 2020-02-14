@@ -16,10 +16,7 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM_GEO`|
-string|N° FINESS de l’entité juridique||
-`ETA_NUM_EPMSI`|
-string|N° FINESS e-PMSI||
-`ETA_NUM_JUR`|
-string|N° FINESS de l’établissement (code géographique)||
+`ETA_NUM_GEO`|chaîne de caractères|N° FINESS de l’entité juridique||
+`ETA_NUM_EPMSI`|chaîne de caractères|N° FINESS e-PMSI||
+`ETA_NUM_JUR`|chaîne de caractères|N° FINESS de l’établissement (code géographique)||
 

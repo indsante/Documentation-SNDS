@@ -16,38 +16,21 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ACH_PRI_ADM`|
-number|Prix d&#x27;achat multiplié par le nombre administré||
-`ADM_ANN`|
-string|Année de la date d&#x27;administration||
-`ADM_MOIS`|
-string|Mois de la date d&#x27;administration||
-`ADM_NBR`|
-integer|Nombre administré éventuellement fractionnaire||
-`ANN`|
-string|Année période||
-`DAT_DELAI`|
-number|Délai entre la date d’entrée du séjour et la date de dispensation||
-`ETA_NUM_EPMSI`|
-string|N° FINESS e-PMSI||
-`FAC_NUM`|
-string|N° séquentiel de facture||
-`INI_VAL_PRS`|
-string|Validation initiale de la prescription par un centre de référence ou de compétence||
-`MOIS`|
-string|N° période (mois)||
-`PRS_TYP`|
-string|Type de prestation||
-`RHAD_NUM`|
-string|N° séquentiel de séjour d&#x27;HAD||
-`SEJ_NBR`|
-integer|Nombre de séjours impliqués||
-`SEQ_SEJ`|
-string|Numéro de la séquence dans le séjour||
-`SSEQ_NUM`|
-string|Numéro de sous-séquence||
-`TOP_UCD_AUTO`|
-string|Top transcodage UCD13 auto||
-`UCD_UCD_COD`|
-string|Code UCD||
+`ACH_PRI_ADM`|nombre réel|Prix d&#x27;achat multiplié par le nombre administré||
+`ADM_ANN`|année|Année de la date d&#x27;administration||
+`ADM_MOIS`|date|Mois de la date d&#x27;administration||
+`ADM_NBR`|nombre entier|Nombre administré éventuellement fractionnaire||
+`ANN`|année|Année période||
+`DAT_DELAI`|nombre réel|Délai entre la date d’entrée du séjour et la date de dispensation||
+`ETA_NUM_EPMSI`|chaîne de caractères|N° FINESS e-PMSI||
+`FAC_NUM`|chaîne de caractères|N° séquentiel de facture||
+`INI_VAL_PRS`|chaîne de caractères|Validation initiale de la prescription par un centre de référence ou de compétence||
+`MOIS`|date|N° période (mois)||
+`PRS_TYP`|chaîne de caractères|Type de prestation||
+`RHAD_NUM`|chaîne de caractères|N° séquentiel de séjour d&#x27;HAD||
+`SEJ_NBR`|nombre entier|Nombre de séjours impliqués||
+`SEQ_SEJ`|chaîne de caractères|Numéro de la séquence dans le séjour||
+`SSEQ_NUM`|chaîne de caractères|Numéro de sous-séquence||
+`TOP_UCD_AUTO`|chaîne de caractères|Top transcodage UCD13 auto||
+`UCD_UCD_COD`|chaîne de caractères|Code UCD||
 

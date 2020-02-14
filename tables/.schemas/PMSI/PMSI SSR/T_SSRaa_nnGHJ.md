@@ -16,14 +16,9 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|N° FINESS de l&#x27;établisement||
-`GHJ_COD`|
-string|Code GMD||
-`RHA_VER`|
-string|N° version du format du RHA||
-`NBR_JOU`|
-number|Nombre de jours||
-`RHA_NUM`|
-string|N° Séquentiel du séjour||
+`ETA_NUM`|chaîne de caractères|N° FINESS de l&#x27;établisement||
+`GHJ_COD`|chaîne de caractères|Code GMD||
+`RHA_VER`|chaîne de caractères|N° version du format du RHA||
+`NBR_JOU`|nombre réel|Nombre de jours||
+`RHA_NUM`|chaîne de caractères|N° Séquentiel du séjour||
 
