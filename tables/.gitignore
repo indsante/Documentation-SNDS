@@ -1,8 +1,7 @@
 *
 !.schemas/
 !.schemas/**
-!.schemas/**/*.json
-.schemas/**/*.md
+!.schemas/**/*
 !.sources/
 !.sources/**/*
 !.gitignore
