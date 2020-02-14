@@ -16,14 +16,9 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|N° FINESS de l&#x27;établisement||
-`RHA_VER`|
-string|N° version du format du RHA||
-`RHA_NUM`|
-string|N° Séquentiel du séjour||
-`RHS_NUM`|
-string|Numéro séquentiel du RHS||
-`DGN_COD`|
-string|DAS||
+`ETA_NUM`|chaîne de caractères|N° FINESS de l&#x27;établisement||
+`RHA_VER`|chaîne de caractères|N° version du format du RHA||
+`RHA_NUM`|chaîne de caractères|N° Séquentiel du séjour||
+`RHS_NUM`|chaîne de caractères|Numéro séquentiel du RHS||
+`DGN_COD`|chaîne de caractères|DAS||
 

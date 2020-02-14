@@ -16,26 +16,15 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ANN`|
-string|Année période||
-`ANN_IVG_PREC`|
-string|Année de la dernière IVG||
-`ETA_NUM`|
-string|N° FINESS e-PMSI||
-`ETA_NUM_ENT`|
-string|N° FINESS du fichier d&#x27;entrée||
-`MOI`|
-string|N° période (mois)||
-`NBR_IVG_ANT`|
-integer|Nombre d&#x27;IVG antérieures||
-`NBR_NAIS_ANT`|
-integer|Nombre de naissances vivantes antérieures||
-`PRS_TYP`|
-string|Type de prestation||
-`RSA_NUM`|
-string|N° d&#x27;index du RSA||
-`SOR_ANN`|
-string|Année du séjour||
-`SOR_MOI`|
-string|Mois du séjour||
+`ANN`|année|Année période||
+`ANN_IVG_PREC`|année|Année de la dernière IVG||
+`ETA_NUM`|chaîne de caractères|N° FINESS e-PMSI||
+`ETA_NUM_ENT`|chaîne de caractères|N° FINESS du fichier d&#x27;entrée||
+`MOI`|date|N° période (mois)||
+`NBR_IVG_ANT`|nombre entier|Nombre d&#x27;IVG antérieures||
+`NBR_NAIS_ANT`|nombre entier|Nombre de naissances vivantes antérieures||
+`PRS_TYP`|chaîne de caractères|Type de prestation||
+`RSA_NUM`|chaîne de caractères|N° d&#x27;index du RSA||
+`SOR_ANN`|année|Année du séjour||
+`SOR_MOI`|date|Mois du séjour||
 

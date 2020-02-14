@@ -16,68 +16,36 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ACT_COD`|
-string|Code acte||
-`ACT_COE`|
-number|Coefficient||
-`ACT_DNB`|
-integer|Dénombrement||
-`ACT_NBR`|
-integer|Quantité||
-`AMC_MNR`|
-number|Montant remboursable par l&#x27;organisme complémentaire (AMC)||
-`AMO_MNR`|
-number|Montant Remboursable par la caisse (AMO)||
-`COEF_MCO`|
-number|Coefficient MCO||
-`CONSULT_MIG`|
-string|Type d’unité fonctionnelle de consultations (*)||
-`DEL_DAT_ENT`|
-integer|Délai par rapport à la date d&#x27;entrée||
-`ETA_NUM`|
-string|Numéro FINESS e-PMSI||
-`ETA_NUM_GEO`|
-string|Numéro FINESS géographique||
-`EXE_SPE`|
-string|Spécialité exécutant||
-`EXO_TM`|
-string|Justification exo TM||
-`HON_MNT`|
-number|Montant des honoraire (dépassement compris) ou Montant total de la dépense pour PH||
-`NUM_FAC`|
-string|N° Facture séquentiel||
-`PRI_UNI`|
-number|Prix Unitaire||
-`PSH_DMT`|
-string|Discipline de prestation (ex DMT)||
-`PSH_MDT`|
-string|Mode de traitement||
-`REM_BAS`|
-number|Montant Base remboursement||
-`REM_TAU`|
-integer|Taux applicable à la prestation||
-`RSF_TYP`|
-string|Type de format RSF (1 : ancien, 2 : nouveau)||
-`SEQ_NUM`|
-string|N° séquentiel||
-`SOR_ANN`|
-string|Année des soins||
-`SOR_MOI`|
-string|Mois des soins||
-`TYP_ART`|
-string|Type d&#x27;enregistrement||
-`DAT_RET`|
-boolean|Code retour contrôle « date de référence» (date d&#x27;entrée)||
-`NIR_ANO_17`|
-string|N° anonyme||
-`NIAS_RET`|
-boolean|Code retour contrôle « n° d’identification administratif de séjour »||
-`SEX_RET`|
-boolean|Code retour contrôle « sexe »||
-`NOE_MNR`|
-integer|Montant remboursé NOEMIE Retour||
-`NOE_OPE`|
-integer|Nature opération récupération NOEMIE Retour||
-`NIR_RET`|
-boolean|Code retour contrôle « n° sécurité sociale »||
+`ACT_COD`|chaîne de caractères|Code acte||
+`ACT_COE`|nombre réel|Coefficient||
+`ACT_DNB`|nombre entier|Dénombrement||
+`ACT_NBR`|nombre entier|Quantité||
+`AMC_MNR`|nombre réel|Montant remboursable par l&#x27;organisme complémentaire (AMC)||
+`AMO_MNR`|nombre réel|Montant Remboursable par la caisse (AMO)||
+`COEF_MCO`|nombre réel|Coefficient MCO||
+`CONSULT_MIG`|chaîne de caractères|Type d’unité fonctionnelle de consultations (*)||
+`DEL_DAT_ENT`|nombre entier|Délai par rapport à la date d&#x27;entrée||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS e-PMSI||
+`ETA_NUM_GEO`|chaîne de caractères|Numéro FINESS géographique||
+`EXE_SPE`|chaîne de caractères|Spécialité exécutant||
+`EXO_TM`|chaîne de caractères|Justification exo TM||
+`HON_MNT`|nombre réel|Montant des honoraire (dépassement compris) ou Montant total de la dépense pour PH||
+`NUM_FAC`|chaîne de caractères|N° Facture séquentiel||
+`PRI_UNI`|nombre réel|Prix Unitaire||
+`PSH_DMT`|chaîne de caractères|Discipline de prestation (ex DMT)||
+`PSH_MDT`|chaîne de caractères|Mode de traitement||
+`REM_BAS`|nombre réel|Montant Base remboursement||
+`REM_TAU`|nombre entier|Taux applicable à la prestation||
+`RSF_TYP`|chaîne de caractères|Type de format RSF (1 : ancien, 2 : nouveau)||
+`SEQ_NUM`|chaîne de caractères|N° séquentiel||
+`SOR_ANN`|année|Année des soins||
+`SOR_MOI`|date|Mois des soins||
+`TYP_ART`|chaîne de caractères|Type d&#x27;enregistrement||
+`DAT_RET`|booléen|Code retour contrôle « date de référence» (date d&#x27;entrée)||
+`NIR_ANO_17`|chaîne de caractères|N° anonyme||
+`NIAS_RET`|booléen|Code retour contrôle « n° d’identification administratif de séjour »||
+`SEX_RET`|booléen|Code retour contrôle « sexe »||
+`NOE_MNR`|nombre entier|Montant remboursé NOEMIE Retour||
+`NOE_OPE`|nombre entier|Nature opération récupération NOEMIE Retour||
+`NIR_RET`|booléen|Code retour contrôle « n° sécurité sociale »||
 

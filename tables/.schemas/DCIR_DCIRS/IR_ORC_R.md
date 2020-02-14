@@ -17,22 +17,13 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`BEN_NIR_PSA`|
-string|Identifiant anonyme du patient dans le SNIIRAM||
-`BEN_RNG_GEM`|
-integer|rang de naissance du bénéficiaire||
-`BEN_NIR_ANO`|
-string|NIR pseudonymisé du bénéficiaire||
-`BEN_IDT_ANO`|
-string|Identifiant bénéficiaire anonymisé||
-`BEN_CTA_TYP`|
-integer|Type de contrat complémentaire||
-`BEN_CMU_ORG`|
-string|Code de l&#x27;organisme complémentaire||
-`MLL_CTA_DSD`|
-date|Date de début du contrat complémentaire||
-`MLL_CTA_DSF`|
-date|Date de fin du contrat complémentaire||
-`IND_RNM_BEN`|
-string|Top RNIAM||
+`BEN_NIR_PSA`|chaîne de caractères|Identifiant anonyme du patient dans le SNIIRAM||
+`BEN_RNG_GEM`|nombre entier|rang de naissance du bénéficiaire||
+`BEN_NIR_ANO`|chaîne de caractères|NIR pseudonymisé du bénéficiaire||
+`BEN_IDT_ANO`|chaîne de caractères|Identifiant bénéficiaire anonymisé||
+`BEN_CTA_TYP`|nombre entier|Type de contrat complémentaire||
+`BEN_CMU_ORG`|chaîne de caractères|Code de l&#x27;organisme complémentaire||
+`MLL_CTA_DSD`|date|Date de début du contrat complémentaire||
+`MLL_CTA_DSF`|date|Date de fin du contrat complémentaire||
+`IND_RNM_BEN`|chaîne de caractères|Top RNIAM||
 

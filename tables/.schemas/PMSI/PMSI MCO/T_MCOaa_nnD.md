@@ -16,14 +16,9 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ASS_DGN`|
-string|Diagnostic associé||
-`DGN_ASS_NUM`|
-integer|Numero de diag par couple eta_num rsa_num||
-`ETA_NUM`|
-string|Numéro FINESS e-PMSI||
-`RSA_NUM`|
-string|N° d&#x27;index du RSA||
-`RSS_NUM`|
-string|Numéro de version du format du RSA||
+`ASS_DGN`|chaîne de caractères|Diagnostic associé||
+`DGN_ASS_NUM`|nombre entier|Numero de diag par couple eta_num rsa_num||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS e-PMSI||
+`RSA_NUM`|chaîne de caractères|N° d&#x27;index du RSA||
+`RSS_NUM`|chaîne de caractères|Numéro de version du format du RSA||
 

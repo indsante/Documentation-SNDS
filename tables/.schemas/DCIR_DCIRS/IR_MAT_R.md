@@ -17,18 +17,11 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`BEN_NIR_PSA`|
-string|Identifiant anonyme du patient dans le SNIIRAM||
-`BEN_RNG_GEM`|
-integer|rang de naissance du bénéficiaire||
-`BEN_NIR_ANO`|
-string|NIR pseudonymisé du bénéficiaire||
-`BEN_IDT_ANO`|
-string|Identifiant bénéficiaire anonymisé||
-`BEN_GRS_DTE`|
-date|Date présumée de grossesse||
-`BEN_DRA_AME`|
-string|Année et mois de l’accouchement||
-`IND_RNM_BEN`|
-string|Top RNIAM||
+`BEN_NIR_PSA`|chaîne de caractères|Identifiant anonyme du patient dans le SNIIRAM||
+`BEN_RNG_GEM`|nombre entier|rang de naissance du bénéficiaire||
+`BEN_NIR_ANO`|chaîne de caractères|NIR pseudonymisé du bénéficiaire||
+`BEN_IDT_ANO`|chaîne de caractères|Identifiant bénéficiaire anonymisé||
+`BEN_GRS_DTE`|date|Date présumée de grossesse||
+`BEN_DRA_AME`|année et mois|Année et mois de l’accouchement||
+`IND_RNM_BEN`|chaîne de caractères|Top RNIAM||
 

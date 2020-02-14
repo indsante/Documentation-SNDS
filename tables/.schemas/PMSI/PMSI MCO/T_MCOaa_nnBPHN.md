@@ -16,36 +16,20 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`NBR_FAC_AUT_ETP`|
-integer|Nombre facturé pour un autre établissement public||
-`NBR_FAC_TOT`|
-integer|Nombre total facturé||
-`ACT_COD`|
-string|Code acte||
-`ANN_MOI`|
-date|Mois et année||
-`NBR_AUT_ETP`|
-integer|Nombre réalisé pour un autre établissement public||
-`NBR_REA_TOT`|
-integer|Nombre total réalisé||
-`NBR_PHE`|
-integer|Nombre réalisé pour  patients hospitalisés au sein de l’établissement||
-`FIC_TYP`|
-string|Type de fichier||
-`NBR_INC_DEM`|
-integer|Nombre réalisé autre ou demandeur inconnu||
-`NBR_FAC_CON_EXT`|
-integer|Nombre facturé pour consultants externes||
-`NBR_FAC_SEC_LIB`|
-integer|Nombre facturé  émanant du secteur libéral||
-`NBR_CON_EXT`|
-integer|Nombre réalisé pour consultants externes||
-`ETA_NUM`|
-string|Numéro FINESS e-PMSI||
-`NBR_FAC_INC_DEM`|
-integer|Nombre facturé autre ou demandeur inconnu||
-`NBR_FAC_PHE`|
-integer|Nombre facturé pour patients hospitalisés au sein de l’établissement||
-`NBR_SEC_LIB`|
-integer|Nombre réalisé émanant du secteur libéral||
+`NBR_FAC_AUT_ETP`|nombre entier|Nombre facturé pour un autre établissement public||
+`NBR_FAC_TOT`|nombre entier|Nombre total facturé||
+`ACT_COD`|chaîne de caractères|Code acte||
+`ANN_MOI`|année et mois|Mois et année||
+`NBR_AUT_ETP`|nombre entier|Nombre réalisé pour un autre établissement public||
+`NBR_REA_TOT`|nombre entier|Nombre total réalisé||
+`NBR_PHE`|nombre entier|Nombre réalisé pour  patients hospitalisés au sein de l’établissement||
+`FIC_TYP`|chaîne de caractères|Type de fichier||
+`NBR_INC_DEM`|nombre entier|Nombre réalisé autre ou demandeur inconnu||
+`NBR_FAC_CON_EXT`|nombre entier|Nombre facturé pour consultants externes||
+`NBR_FAC_SEC_LIB`|nombre entier|Nombre facturé  émanant du secteur libéral||
+`NBR_CON_EXT`|nombre entier|Nombre réalisé pour consultants externes||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS e-PMSI||
+`NBR_FAC_INC_DEM`|nombre entier|Nombre facturé autre ou demandeur inconnu||
+`NBR_FAC_PHE`|nombre entier|Nombre facturé pour patients hospitalisés au sein de l’établissement||
+`NBR_SEC_LIB`|nombre entier|Nombre réalisé émanant du secteur libéral||
 

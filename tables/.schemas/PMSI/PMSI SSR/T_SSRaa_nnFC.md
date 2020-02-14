@@ -16,54 +16,29 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`RHA_NUM`|
-string|N° Séquentiel du séjour||
-`TYP_ART`|
-string|Type d&#x27;enregistrement (C)||
-`RSF_TYP`|
-string|Type de format RSF (1&#x3D;Ancien/2&#x3D;Nouveau)||
-`NUM_FAC`|
-string|N° Facture séquentiel||
-`DEL_DAT_ENT`|
-number|Délai par rapport à la date d&#x27;entrée||
-`ETA_NUM`|
-string|N° FINESS||
-`PSH_MDT`|
-string|Mode de traitement||
-`PSH_DMT`|
-string|Discipline de prestation (ex DMT)||
-`EXO_TM`|
-string|Justification exonération TM||
-`ACT_COD`|
-string|Code acte||
-`ACT_NBR`|
-integer|Quantité||
-`ACT_COE`|
-number|Cœfficient||
-`ACT_DNB`|
-number|Dénombrement||
-`PRI_UNI`|
-number|Prix Unitaire||
-`REM_BAS`|
-number|Montant Base remboursement||
-`REM_TAU`|
-number|Taux Remboursement||
-`AMO_MNR`|
-number|Montant Remboursable AMO||
-`HON_MNT`|
-number|Montant des honoraires (dépassement compris)||
-`AMC_MNR`|
-number|Montant remboursable AMC||
-`NOE_MNR`|
-number|Montant remboursé NOEMIE Retour||
-`NOE_OPE`|
-string|Nature opération récupération NOEMIE Retour||
-`SOIN_ANN`|
-string|Année de soins||
-`SOIN_MOI`|
-string|Mois de soins||
-`EXE_SPE`|
-string|Spécilité exécutant||
-`ACT_DEL`|
-number|Délai de l&#x27;acte||
+`RHA_NUM`|chaîne de caractères|N° Séquentiel du séjour||
+`TYP_ART`|chaîne de caractères|Type d&#x27;enregistrement (C)||
+`RSF_TYP`|chaîne de caractères|Type de format RSF (1&#x3D;Ancien/2&#x3D;Nouveau)||
+`NUM_FAC`|chaîne de caractères|N° Facture séquentiel||
+`DEL_DAT_ENT`|nombre réel|Délai par rapport à la date d&#x27;entrée||
+`ETA_NUM`|chaîne de caractères|N° FINESS||
+`PSH_MDT`|chaîne de caractères|Mode de traitement||
+`PSH_DMT`|chaîne de caractères|Discipline de prestation (ex DMT)||
+`EXO_TM`|chaîne de caractères|Justification exonération TM||
+`ACT_COD`|chaîne de caractères|Code acte||
+`ACT_NBR`|nombre entier|Quantité||
+`ACT_COE`|nombre réel|Cœfficient||
+`ACT_DNB`|nombre réel|Dénombrement||
+`PRI_UNI`|nombre réel|Prix Unitaire||
+`REM_BAS`|nombre réel|Montant Base remboursement||
+`REM_TAU`|nombre réel|Taux Remboursement||
+`AMO_MNR`|nombre réel|Montant Remboursable AMO||
+`HON_MNT`|nombre réel|Montant des honoraires (dépassement compris)||
+`AMC_MNR`|nombre réel|Montant remboursable AMC||
+`NOE_MNR`|nombre réel|Montant remboursé NOEMIE Retour||
+`NOE_OPE`|chaîne de caractères|Nature opération récupération NOEMIE Retour||
+`SOIN_ANN`|année|Année de soins||
+`SOIN_MOI`|date|Mois de soins||
+`EXE_SPE`|chaîne de caractères|Spécilité exécutant||
+`ACT_DEL`|nombre réel|Délai de l&#x27;acte||
 

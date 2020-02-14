@@ -17,28 +17,16 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`DCD_IDT_ENC`|
-string|Identifiant décès encodé||
-`DCD_IDT_TOP`|
-integer|Top apparié avec IR_BEN_R||
-`BEN_IDT_ANO`|
-string|Identifiant bénéficiaire anonymisé||
-`BEN_IDT_TOP`|
-integer|Top identifiant bénéficiaire Anonymisé||
-`BEN_NIR_ANO`|
-string|NIR pseudonymisé du bénéficiaire||
-`FLX_PER_ANN`|
-string|Année de décès||
-`CER_LIG_NUM`|
-integer|N° de ligne du certificat de décès||
-`ECD_CAU_RNG`|
-integer|Rang de la cause||
-`ECD_CAU_LIB`|
-string|Libellé de la cause||
-`ECD_CIM_COD`|
-string|Code de la cause||
-`BEN_DCD_DTE`|
-date|Date de décès du bénéficiaire||
-`BEN_DCD_AME`|
-string|Année et mois de décès du bénéficiaire||
+`DCD_IDT_ENC`|chaîne de caractères|Identifiant décès encodé||
+`DCD_IDT_TOP`|nombre entier|Top apparié avec IR_BEN_R||
+`BEN_IDT_ANO`|chaîne de caractères|Identifiant bénéficiaire anonymisé||
+`BEN_IDT_TOP`|nombre entier|Top identifiant bénéficiaire Anonymisé||
+`BEN_NIR_ANO`|chaîne de caractères|NIR pseudonymisé du bénéficiaire||
+`FLX_PER_ANN`|année|Année de décès||
+`CER_LIG_NUM`|nombre entier|N° de ligne du certificat de décès||
+`ECD_CAU_RNG`|nombre entier|Rang de la cause||
+`ECD_CAU_LIB`|chaîne de caractères|Libellé de la cause||
+`ECD_CIM_COD`|chaîne de caractères|Code de la cause||
+`BEN_DCD_DTE`|date|Date de décès du bénéficiaire||
+`BEN_DCD_AME`|année et mois|Année et mois de décès du bénéficiaire||
 

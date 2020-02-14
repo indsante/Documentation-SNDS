@@ -16,14 +16,9 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|N° FINESS e-PMSI||
-`ANN`|
-string|Année période||
-`COD_ERR`|
-string|Code retour||
-`MOI`|
-string|Mois période||
-`RSA_NUM`|
-string|N° d&#x27;index du RSA||
+`ETA_NUM`|chaîne de caractères|N° FINESS e-PMSI||
+`ANN`|année|Année période||
+`COD_ERR`|chaîne de caractères|Code retour||
+`MOI`|date|Mois période||
+`RSA_NUM`|chaîne de caractères|N° d&#x27;index du RSA||
 

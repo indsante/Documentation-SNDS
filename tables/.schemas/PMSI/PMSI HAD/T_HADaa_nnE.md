@@ -15,18 +15,11 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ANN_TRT`|
-string|N° du trimestre PMSI transmis||
-`ETA_NUM`|
-string|N°FINESS||
-`ETB_EXE_FIN`|
-string|N°FINESS sans clef||
-`REG_ETA`|
-string|Région||
-`SOC_RAI`|
-string|Raison sociale||
-`STA_ETA`|
-string|Statut de l&#x27;établissement||
-`VAL_ETA`|
-string|Validation des données||
+`ANN_TRT`|chaîne de caractères|N° du trimestre PMSI transmis||
+`ETA_NUM`|chaîne de caractères|N°FINESS||
+`ETB_EXE_FIN`|chaîne de caractères|N°FINESS sans clef||
+`REG_ETA`|chaîne de caractères|Région||
+`SOC_RAI`|chaîne de caractères|Raison sociale||
+`STA_ETA`|chaîne de caractères|Statut de l&#x27;établissement||
+`VAL_ETA`|chaîne de caractères|Validation des données||
 

@@ -16,54 +16,29 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`SEQ_NUM`|
-string|N° séquentiel||
-`TYP_ART`|
-string|Type d&#x27;enregistrement||
-`RSF_TYP`|
-string|Type de format RSF (1 : ancien, 2 : nouveau)||
-`NUM_FAC`|
-string|N° Facture séquentiel||
-`SOR_ANN`|
-string|Année des soins||
-`SOR_MOI`|
-string|Mois des soins||
-`DEL_DAT_ENT`|
-number|Délai par rapport à la date d&#x27;entrée||
-`ETA_NUM`|
-string|Numéro FINESS||
-`PSH_MDT`|
-string|Mode de traitement||
-`PSH_DMT`|
-string|Discipline de prestation (ex DMT)||
-`EXO_TM`|
-string|Justification exo TM||
-`EXE_SPE`|
-string|Spécialité exécutant||
-`ACT_COD`|
-string|Code acte||
-`ACT_NBR`|
-integer|Quantité||
-`ACT_COE`|
-number|Coefficient||
-`ACT_DNB`|
-number|Dénombrement||
-`PRI_UNI`|
-number|Prix Unitaire||
-`REM_BAS`|
-number|Montant Base remboursement||
-`REM_TAU`|
-number|Taux applicable à la prestation||
-`AMO_MNR`|
-number|Montant Remboursable par la caisse (AMO)||
-`HON_MNT`|
-number|Montant des honoraire (dépassement compris) ou Montant total de la dépense pour PH||
-`AMC_MNR`|
-number|Montant remboursable par l&#x27;organisme complémentaire (AMC)||
-`ETA_NUM_GEO`|
-string|FINESS géographique||
-`TYP_UNI_FON_C`|
-string|Type d’unité fonctionnelle de consultations||
-`COEF_SSR`|
-number|Coefficient SSR (1)||
+`SEQ_NUM`|chaîne de caractères|N° séquentiel||
+`TYP_ART`|chaîne de caractères|Type d&#x27;enregistrement||
+`RSF_TYP`|chaîne de caractères|Type de format RSF (1 : ancien, 2 : nouveau)||
+`NUM_FAC`|chaîne de caractères|N° Facture séquentiel||
+`SOR_ANN`|année|Année des soins||
+`SOR_MOI`|date|Mois des soins||
+`DEL_DAT_ENT`|nombre réel|Délai par rapport à la date d&#x27;entrée||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS||
+`PSH_MDT`|chaîne de caractères|Mode de traitement||
+`PSH_DMT`|chaîne de caractères|Discipline de prestation (ex DMT)||
+`EXO_TM`|chaîne de caractères|Justification exo TM||
+`EXE_SPE`|chaîne de caractères|Spécialité exécutant||
+`ACT_COD`|chaîne de caractères|Code acte||
+`ACT_NBR`|nombre entier|Quantité||
+`ACT_COE`|nombre réel|Coefficient||
+`ACT_DNB`|nombre réel|Dénombrement||
+`PRI_UNI`|nombre réel|Prix Unitaire||
+`REM_BAS`|nombre réel|Montant Base remboursement||
+`REM_TAU`|nombre réel|Taux applicable à la prestation||
+`AMO_MNR`|nombre réel|Montant Remboursable par la caisse (AMO)||
+`HON_MNT`|nombre réel|Montant des honoraire (dépassement compris) ou Montant total de la dépense pour PH||
+`AMC_MNR`|nombre réel|Montant remboursable par l&#x27;organisme complémentaire (AMC)||
+`ETA_NUM_GEO`|chaîne de caractères|FINESS géographique||
+`TYP_UNI_FON_C`|chaîne de caractères|Type d’unité fonctionnelle de consultations||
+`COEF_SSR`|nombre réel|Coefficient SSR (1)||
 

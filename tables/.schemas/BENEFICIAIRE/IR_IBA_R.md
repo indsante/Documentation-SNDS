@@ -18,38 +18,21 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`BEN_IDT_ANO`|
-string|Identifiant bénéficiaire anonymisé||
-`BEN_IDT_TOP`|
-integer|Top identifiant bénéficiaire Anonymisé||
-`ASS_NIR_ANO`|
-string|Matricule anonymisé de l&#x27;ouvreur de droits||
-`BEN_CDI_NIR`|
-string|Code d&#x27;identification du NIR||
-`BEN_NAI_ANN`|
-string|Année de naissance du bénéficiaire||
-`BEN_NAI_MOI`|
-string|Mois de naissance du bénéficiaire||
-`BEN_SEX_COD`|
-integer|Code sexe du bénéficiaire||
-`BEN_DCD_DTE`|
-date|Date de décès du bénéficiaire||
-`BEN_DCD_AME`|
-string|Année et mois de décès du bénéficiaire||
-`ORG_AFF_BEN`|
-string|Code de l&#x27;organisme d&#x27;affiliation||
-`BEN_RES_DPT`|
-string|Département de résidence du bénéficiaire||
-`BEN_RES_COM`|
-string|commune de résidence du destinataire du règlement||
-`BEN_TOP_CNS`|
-integer|top consommant - non consommant||
-`MAX_TRT_DTD`|
-date|Date maximale de traitement d&#x27;une Prestations||
-`ORG_CLE_NEW`|
-string|Code de l&#x27;organisme de liquidation||
-`BEN_DTE_INS`|
-date|Date d&#x27;insertion dans le référentiel||
-`BEN_DTE_MAJ`|
-date|Date de mise à jour||
+`BEN_IDT_ANO`|chaîne de caractères|Identifiant bénéficiaire anonymisé||
+`BEN_IDT_TOP`|nombre entier|Top identifiant bénéficiaire Anonymisé||
+`ASS_NIR_ANO`|chaîne de caractères|Matricule anonymisé de l&#x27;ouvreur de droits||
+`BEN_CDI_NIR`|chaîne de caractères|Code d&#x27;identification du NIR||
+`BEN_NAI_ANN`|année|Année de naissance du bénéficiaire||
+`BEN_NAI_MOI`|date|Mois de naissance du bénéficiaire||
+`BEN_SEX_COD`|nombre entier|Code sexe du bénéficiaire||
+`BEN_DCD_DTE`|date|Date de décès du bénéficiaire||
+`BEN_DCD_AME`|année et mois|Année et mois de décès du bénéficiaire||
+`ORG_AFF_BEN`|chaîne de caractères|Code de l&#x27;organisme d&#x27;affiliation||
+`BEN_RES_DPT`|chaîne de caractères|Département de résidence du bénéficiaire||
+`BEN_RES_COM`|chaîne de caractères|commune de résidence du destinataire du règlement||
+`BEN_TOP_CNS`|nombre entier|top consommant - non consommant||
+`MAX_TRT_DTD`|date|Date maximale de traitement d&#x27;une Prestations||
+`ORG_CLE_NEW`|chaîne de caractères|Code de l&#x27;organisme de liquidation||
+`BEN_DTE_INS`|date|Date d&#x27;insertion dans le référentiel||
+`BEN_DTE_MAJ`|date|Date de mise à jour||
 

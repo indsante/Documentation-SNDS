@@ -16,28 +16,16 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ACT_NBR`|
-integer|Quantité acte||
-`ANN_MOI`|
-string|Mois et année de l&#x27;acte||
-`DEL_DAT_ENT`|
-number|Delai par rapport à la date d&#x27;entrée rsfa||
-`ETA_NUM_EPMSI`|
-string|N° FINESS e-PMSI||
-`ETA_NUM_GEO`|
-string|Numéro FINESS  géographique||
-`FAC_NUM`|
-string|N° Facture séquentiel||
-`NABM_COD`|
-string|Code acte NABM||
-`PSH_DMT`|
-string|Discipline de prestation (ex DMT)||
-`PSH_MDT`|
-string|Mode de traitement||
-`RHAD_NUM`|
-string|N° séquentiel||
-`TYP_ART`|
-string|Type d&#x27;enregistrement||
-`ETA_NUM_TWO`|
-string|Numéro FINESS de l’établissement (site géographique)||
+`ACT_NBR`|nombre entier|Quantité acte||
+`ANN_MOI`|année et mois|Mois et année de l&#x27;acte||
+`DEL_DAT_ENT`|nombre réel|Delai par rapport à la date d&#x27;entrée rsfa||
+`ETA_NUM_EPMSI`|chaîne de caractères|N° FINESS e-PMSI||
+`ETA_NUM_GEO`|chaîne de caractères|Numéro FINESS  géographique||
+`FAC_NUM`|chaîne de caractères|N° Facture séquentiel||
+`NABM_COD`|chaîne de caractères|Code acte NABM||
+`PSH_DMT`|chaîne de caractères|Discipline de prestation (ex DMT)||
+`PSH_MDT`|chaîne de caractères|Mode de traitement||
+`RHAD_NUM`|chaîne de caractères|N° séquentiel||
+`TYP_ART`|chaîne de caractères|Type d&#x27;enregistrement||
+`ETA_NUM_TWO`|chaîne de caractères|Numéro FINESS de l’établissement (site géographique)||
 

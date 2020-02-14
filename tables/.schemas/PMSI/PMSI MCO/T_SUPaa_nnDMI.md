@@ -16,16 +16,10 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|Numéro FINESS e-PMSI||
-`LPP_NBR`|
-integer|Nombre de LPP posés||
-`MOY_PRI`|
-integer|Prix moyen||
-`FIC_TYP`|
-integer|Type de fichier||
-`LPP_COD`|
-string|Code LPP (attention blanc devant)||
-`ANN_MOI`|
-date|Mois et année||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS e-PMSI||
+`LPP_NBR`|nombre entier|Nombre de LPP posés||
+`MOY_PRI`|nombre entier|Prix moyen||
+`FIC_TYP`|nombre entier|Type de fichier||
+`LPP_COD`|chaîne de caractères|Code LPP (attention blanc devant)||
+`ANN_MOI`|année et mois|Mois et année||
 

@@ -16,20 +16,12 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`SSEQ_NUM`|
-string|Numéro de sous-séquence||
-`FAC_NUM`|
-string|N° séquentiel de facture||
-`COD_ERR`|
-string|Code retour||
-`RHAD_NUM`|
-string|N° séquentiel de séjour d&#x27;HAD/ N° séquentiel d&#x27;entrée||
-`ANN`|
-string|Année période||
-`ETA_NUM_ePMSI`|
-string|N° FINESS e-PMSI||
-`SEQ_NUM`|
-string|Numéro de la séquence dans le séjour||
-`MOI`|
-string|Mois période||
+`SSEQ_NUM`|chaîne de caractères|Numéro de sous-séquence||
+`FAC_NUM`|chaîne de caractères|N° séquentiel de facture||
+`COD_ERR`|chaîne de caractères|Code retour||
+`RHAD_NUM`|chaîne de caractères|N° séquentiel de séjour d&#x27;HAD/ N° séquentiel d&#x27;entrée||
+`ANN`|année|Année période||
+`ETA_NUM_ePMSI`|chaîne de caractères|N° FINESS e-PMSI||
+`SEQ_NUM`|chaîne de caractères|Numéro de la séquence dans le séjour||
+`MOI`|date|Mois période||
 

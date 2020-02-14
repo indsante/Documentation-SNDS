@@ -16,16 +16,10 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|Numéro FINESS||
-`MOI`|
-string|N° période (mois)||
-`ANN`|
-string|Année période||
-`RHA_NUM`|
-string|N° Séquentiel du séjour||
-`RHS_NUM`|
-string|Numéro séquentiel du RHS||
-`COD_ERR`|
-string|Code erreur||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS||
+`MOI`|date|N° période (mois)||
+`ANN`|année|Année période||
+`RHA_NUM`|chaîne de caractères|N° Séquentiel du séjour||
+`RHS_NUM`|chaîne de caractères|Numéro séquentiel du RHS||
+`COD_ERR`|chaîne de caractères|Code erreur||
 

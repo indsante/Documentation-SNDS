@@ -16,35 +16,20 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ACV_ACT`|
-string|Activité||
-`ANP_ACT`|
-string|Association non prévue||
-`CDC_ACT`|
-string|Code CCAM (hors extension PMSI)||
-`CMP_DAT`|
-string|Dates de validité de l&#x27;acte compatibles avec les dates du RUM||
-`DOC_ACT`|
-string|Extension documentaire||
-`ENT_DAT_DEL`|
-integer|Délai depuis la date d&#x27;entrée
+`ACV_ACT`|chaîne de caractères|Activité||
+`ANP_ACT`|chaîne de caractères|Association non prévue||
+`CDC_ACT`|chaîne de caractères|Code CCAM (hors extension PMSI)||
+`CMP_DAT`|chaîne de caractères|Dates de validité de l&#x27;acte compatibles avec les dates du RUM||
+`DOC_ACT`|chaîne de caractères|Extension documentaire||
+`ENT_DAT_DEL`|nombre entier|Délai depuis la date d&#x27;entrée
 Variable de type Caractère de 2005 à 2013, puis de type numérique à partir de 2014||
-`ETA_NUM`|
-string|Numéro FINESS e-PMSI||
-`EXT_PMSI`|
-string|Extension PMSI||
-`MOD_ACT`|
-string|Modificateurs||
-`NBR_EXE_ACT`|
-integer|Nombre de réalisations de l&#x27;acte n° 1 pendant le séjour||
-`PHA_ACT`|
-string|Phase||
-`REM_EXP_ACT`|
-string|Remboursement exceptionnel||
-`RSA_NUM`|
-string|N° d&#x27;index du RSA||
-`RSS_NUM`|
-string|Numéro de version du format du RSA||
-`RUM_SEQ`|
-string|N° séquentiel du RUM ayant fourni le DP||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS e-PMSI||
+`EXT_PMSI`|chaîne de caractères|Extension PMSI||
+`MOD_ACT`|chaîne de caractères|Modificateurs||
+`NBR_EXE_ACT`|nombre entier|Nombre de réalisations de l&#x27;acte n° 1 pendant le séjour||
+`PHA_ACT`|chaîne de caractères|Phase||
+`REM_EXP_ACT`|chaîne de caractères|Remboursement exceptionnel||
+`RSA_NUM`|chaîne de caractères|N° d&#x27;index du RSA||
+`RSS_NUM`|chaîne de caractères|Numéro de version du format du RSA||
+`RUM_SEQ`|chaîne de caractères|N° séquentiel du RUM ayant fourni le DP||
 

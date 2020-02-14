@@ -16,16 +16,10 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|Numéro FINESS e-PMSI||
-`ETE_GHS_NUM`|
-integer|Regroupage en GHS (format numérique de GHS_NUM)||
-`GHM_NUM`|
-string|Regroupage en GHM||
-`GHS_NUM`|
-string|Regroupage en GHS (utilisé pour la valorisation)||
-`GHS_THEO`|
-string|Regroupage en GHS (GHS correspond au GHM)||
-`RSA_NUM`|
-string|N° d&#x27;index du RSA||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS e-PMSI||
+`ETE_GHS_NUM`|nombre entier|Regroupage en GHS (format numérique de GHS_NUM)||
+`GHM_NUM`|chaîne de caractères|Regroupage en GHM||
+`GHS_NUM`|chaîne de caractères|Regroupage en GHS (utilisé pour la valorisation)||
+`GHS_THEO`|chaîne de caractères|Regroupage en GHS (GHS correspond au GHM)||
+`RSA_NUM`|chaîne de caractères|N° d&#x27;index du RSA||
 

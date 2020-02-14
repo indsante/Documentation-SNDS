@@ -16,36 +16,20 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`TYP_ART`|
-string|Type d&#x27;enregistrement||
-`ETA_NUM_EPMSI`|
-string|Numéro FINESS de l’entité juridique||
-`ETA_NUM_TWO`|
-string|Numéro FINESS de l’établissement (site géographique)||
-`RIP_NUM`|
-string|Numéro séquentiel de séjour (idem RPSA)||
-`FAC_NUM`|
-string|N° séquentiel de facture||
-`DEL_DAT_ENT`|
-number|Délai par rapport à la date d&#x27;entrée||
-`ENT_MOI`|
-string|Mois de la date de début de séjour||
-`ENT_ANN`|
-string|Année de la date de début de séjour||
-`COD_UCD`|
-string|Code UCD||
-`COE_TAU`|
-number|Coefficient de fractionnement||
-`ACH_PRI`|
-number|Prix d&#x27;achat unitaire TTC||
-`MNT_UNI_ECA`|
-number|Montant unitaire de l&#x27;écart indemnisable||
-`TOT_MNT_ECA`|
-number|Montant total de l&#x27;écart indemnisable||
-`QUA_COD`|
-number|Quantité||
-`FAC_TOT`|
-number|Montant total facturé TTC||
-`UCD_UCD_COD`|
-string|Code UCD (0 à gauche)||
+`TYP_ART`|chaîne de caractères|Type d&#x27;enregistrement||
+`ETA_NUM_EPMSI`|chaîne de caractères|Numéro FINESS de l’entité juridique||
+`ETA_NUM_TWO`|chaîne de caractères|Numéro FINESS de l’établissement (site géographique)||
+`RIP_NUM`|chaîne de caractères|Numéro séquentiel de séjour (idem RPSA)||
+`FAC_NUM`|chaîne de caractères|N° séquentiel de facture||
+`DEL_DAT_ENT`|nombre réel|Délai par rapport à la date d&#x27;entrée||
+`ENT_MOI`|date|Mois de la date de début de séjour||
+`ENT_ANN`|année|Année de la date de début de séjour||
+`COD_UCD`|chaîne de caractères|Code UCD||
+`COE_TAU`|nombre réel|Coefficient de fractionnement||
+`ACH_PRI`|nombre réel|Prix d&#x27;achat unitaire TTC||
+`MNT_UNI_ECA`|nombre réel|Montant unitaire de l&#x27;écart indemnisable||
+`TOT_MNT_ECA`|nombre réel|Montant total de l&#x27;écart indemnisable||
+`QUA_COD`|nombre réel|Quantité||
+`FAC_TOT`|nombre réel|Montant total facturé TTC||
+`UCD_UCD_COD`|chaîne de caractères|Code UCD (0 à gauche)||
 

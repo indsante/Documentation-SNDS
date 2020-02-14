@@ -16,14 +16,9 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|N° FINESS de l&#x27;établisement||
-`RHA_VER`|
-string|N° version du format du RHA||
-`CMC_COD`|
-string|Code CMC||
-`NBR_JOU`|
-number|Nombre de jours||
-`RHA_NUM`|
-string|N° Séquentiel du séjour||
+`ETA_NUM`|chaîne de caractères|N° FINESS de l&#x27;établisement||
+`RHA_VER`|chaîne de caractères|N° version du format du RHA||
+`CMC_COD`|chaîne de caractères|Code CMC||
+`NBR_JOU`|nombre réel|Nombre de jours||
+`RHA_NUM`|chaîne de caractères|N° Séquentiel du séjour||
 

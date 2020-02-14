@@ -16,20 +16,12 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ACT_COD`|
-string|Code acte||
-`NBR_ACT_PAT_AUT_ETB`|
-integer|Nombre d&#x27;actes réalisés pour les patients d&#x27;autres établissements ou de laboratoires extérieurs||
-`NBR_ACT_CON_EXT`|
-integer|Dont nombre d&#x27;actes réalisés pour consultants externe||
-`ETA_NUM`|
-string|N° FINESS||
-`NBR_ACT_PAT_ETB`|
-integer|Nombre d&#x27;actes réalisés pour patients de l&#x27;etab||
-`FIC_TYP`|
-string|Type de fichier||
-`ANN_MOI`|
-string|Année+Mois||
-`NBR_ACT_PAT_HOS`|
-integer|Dont nombre d&#x27;actes réalisés pour patients hospitalisés||
+`ACT_COD`|chaîne de caractères|Code acte||
+`NBR_ACT_PAT_AUT_ETB`|nombre entier|Nombre d&#x27;actes réalisés pour les patients d&#x27;autres établissements ou de laboratoires extérieurs||
+`NBR_ACT_CON_EXT`|nombre entier|Dont nombre d&#x27;actes réalisés pour consultants externe||
+`ETA_NUM`|chaîne de caractères|N° FINESS||
+`NBR_ACT_PAT_ETB`|nombre entier|Nombre d&#x27;actes réalisés pour patients de l&#x27;etab||
+`FIC_TYP`|chaîne de caractères|Type de fichier||
+`ANN_MOI`|année et mois|Année+Mois||
+`NBR_ACT_PAT_HOS`|nombre entier|Dont nombre d&#x27;actes réalisés pour patients hospitalisés||
 

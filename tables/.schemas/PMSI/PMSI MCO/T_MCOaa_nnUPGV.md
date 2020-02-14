@@ -16,12 +16,8 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`AUT_TYP_PGV`|
-string|Type d&#x27;autorisation à portée globale valide||
-`ETA_NUM`|
-string|Numéro FINESS||
-`RSA_NUM`|
-string|N° d&#x27;index du RSA||
-`RSS_NUM`|
-string|Numéro de version du format du RSA||
+`AUT_TYP_PGV`|chaîne de caractères|Type d&#x27;autorisation à portée globale valide||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS||
+`RSA_NUM`|chaîne de caractères|N° d&#x27;index du RSA||
+`RSS_NUM`|chaîne de caractères|Numéro de version du format du RSA||
 

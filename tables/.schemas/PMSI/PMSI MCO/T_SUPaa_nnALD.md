@@ -16,16 +16,10 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|Numéro FINESS e-PMSI||
-`NBR_REA_EAL`|
-integer|Nombre réalisé en activité libérale||
-`NBR_REA_HAL`|
-integer|Nombre réalisé hors activité libérale||
-`PRS_COD`|
-string|Code Prestation||
-`FIC_TYP`|
-integer|Type de fichier||
-`ANN_MOI`|
-date|Mois et année||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS e-PMSI||
+`NBR_REA_EAL`|nombre entier|Nombre réalisé en activité libérale||
+`NBR_REA_HAL`|nombre entier|Nombre réalisé hors activité libérale||
+`PRS_COD`|chaîne de caractères|Code Prestation||
+`FIC_TYP`|nombre entier|Type de fichier||
+`ANN_MOI`|année et mois|Mois et année||
 

@@ -16,24 +16,14 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`MOIS`|
-string|N° période (mois)||
-`UCD_COD`|
-string|Code UCD||
-`ANN`|
-string|Année période||
-`UCD_NBR_TOT`|
-number|Nombre d&#x27;UCD dispensées totales||
-`ETA_NUM_EPMSI`|
-string|N° FINESS e-PMSI||
-`MOY_PRI`|
-number|Prix moyen||
-`FIC_TYP`|
-string|Type de fichier||
-`UCD_NBR_ETH`|
-number|Nombre d&#x27;UCD dispensées au titre des essais thérapeutiques||
-`UCD_UCD_COD`|
-string|Code UCD||
-`ACH_PRI_DER`|
-number|Dernier prix d&#x27;achat||
+`MOIS`|date|N° période (mois)||
+`UCD_COD`|chaîne de caractères|Code UCD||
+`ANN`|année|Année période||
+`UCD_NBR_TOT`|nombre réel|Nombre d&#x27;UCD dispensées totales||
+`ETA_NUM_EPMSI`|chaîne de caractères|N° FINESS e-PMSI||
+`MOY_PRI`|nombre réel|Prix moyen||
+`FIC_TYP`|chaîne de caractères|Type de fichier||
+`UCD_NBR_ETH`|nombre réel|Nombre d&#x27;UCD dispensées au titre des essais thérapeutiques||
+`UCD_UCD_COD`|chaîne de caractères|Code UCD||
+`ACH_PRI_DER`|nombre réel|Dernier prix d&#x27;achat||
 

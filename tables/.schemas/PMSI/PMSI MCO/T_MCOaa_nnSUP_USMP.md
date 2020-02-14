@@ -16,14 +16,9 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|N° FINESS d’inscription e-PMSI||
-`MNT_TOT_TTC`|
-integer|Montant total TTC||
-`FIC_TYP`|
-string|Type de fichier||
-`UCD_COD_7_13`|
-string|Code UCD (7 ou 13)||
-`ANN_MOI`|
-string|Année+Mois||
+`ETA_NUM`|chaîne de caractères|N° FINESS d’inscription e-PMSI||
+`MNT_TOT_TTC`|nombre entier|Montant total TTC||
+`FIC_TYP`|chaîne de caractères|Type de fichier||
+`UCD_COD_7_13`|chaîne de caractères|Code UCD (7 ou 13)||
+`ANN_MOI`|année et mois|Année+Mois||
 

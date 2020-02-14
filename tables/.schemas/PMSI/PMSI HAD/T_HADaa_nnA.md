@@ -16,32 +16,18 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ACT_COD`|
-string|Code de l&#x27;activité||
-`CCAM_COD`|
-string|Code de l&#x27;acte CCAM (hors extension PMSI)||
-`EXT_PMSI`|
-string|Extension PMSI||
-`DEL_DEB_SSEQ`|
-number|Délai depuis le début de la sousséquence||
-`ETA_NUM_EPMSI`|
-string|N° FINESS e-PMSI||
-`ETA_NUM_GEO`|
-string|Numéro FINESS de l’établissement (code géographique)||
-`EXT_DOC`|
-string|Extension documentaire||
-`PHA_COD`|
-string|Code de la phase||
-`REAL_NBR`|
-integer|Nombre de réalisations||
-`RHAD_NUM`|
-string|N° séquentiel de séjour d&#x27;HAD||
-`SEQ_NUM`|
-string|N° de la séquence dans le séjour||
-`SSEQ_NUM`|
-string|N° de la sous-séquence||
-`VAL_DAT_SSEQ`|
-string|Dates de validité de l&#x27;acte compatibles avec les dates de la sousséquence||
-`ETA_NUM_TWO`|
-string|Numéro FINESS de l’établissement (code géographique)||
+`ACT_COD`|chaîne de caractères|Code de l&#x27;activité||
+`CCAM_COD`|chaîne de caractères|Code de l&#x27;acte CCAM (hors extension PMSI)||
+`EXT_PMSI`|chaîne de caractères|Extension PMSI||
+`DEL_DEB_SSEQ`|nombre réel|Délai depuis le début de la sousséquence||
+`ETA_NUM_EPMSI`|chaîne de caractères|N° FINESS e-PMSI||
+`ETA_NUM_GEO`|chaîne de caractères|Numéro FINESS de l’établissement (code géographique)||
+`EXT_DOC`|chaîne de caractères|Extension documentaire||
+`PHA_COD`|chaîne de caractères|Code de la phase||
+`REAL_NBR`|nombre entier|Nombre de réalisations||
+`RHAD_NUM`|chaîne de caractères|N° séquentiel de séjour d&#x27;HAD||
+`SEQ_NUM`|chaîne de caractères|N° de la séquence dans le séjour||
+`SSEQ_NUM`|chaîne de caractères|N° de la sous-séquence||
+`VAL_DAT_SSEQ`|chaîne de caractères|Dates de validité de l&#x27;acte compatibles avec les dates de la sousséquence||
+`ETA_NUM_TWO`|chaîne de caractères|Numéro FINESS de l’établissement (code géographique)||
 

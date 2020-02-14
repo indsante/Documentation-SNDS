@@ -16,44 +16,24 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM`|
-string|FINESS||
-`RHA_VER`|
-string|Version du Format du SRHA||
-`GEN_VER`|
-string|Version de GENRHA||
-`RHA_NUM`|
-string|N° Séquentiel du séjour||
-`SUI_TYP`|
-string|Type de suite||
-`SEJ_NBJ`|
-integer|Durée du séjour||
-`PRE_JOU_NBR`|
-integer|Nombre de journées de présence||
-`ENT_MOD`|
-string|Mode d’entrée||
-`ENT_PRV`|
-string|Provenance||
-`SOR_MOD`|
-string|Mode de sortie||
-`SOR_DES`|
-string|Destination||
-`ACT_TYP`|
-string|Type d’hospitalisation||
-`NBR_MUT`|
-number|Nombre de mutations||
-`NBR_RHA`|
-number|Nombre de RHA||
-`NBR_GME`|
-number|Nombre de GME (ng)||
-`NBR_CM`|
-number|Nombre de CM (nc)||
-`NBR_UM`|
-number|Nombre d’unité médicale||
-`DUMMY`|
-string|DUMMY||
-`NBR_CMC`|
-number|Nombre de CMC (nc)||
-`NBR_GHJ`|
-number|Nombre de GHJ (ng)||
+`ETA_NUM`|chaîne de caractères|FINESS||
+`RHA_VER`|chaîne de caractères|Version du Format du SRHA||
+`GEN_VER`|chaîne de caractères|Version de GENRHA||
+`RHA_NUM`|chaîne de caractères|N° Séquentiel du séjour||
+`SUI_TYP`|chaîne de caractères|Type de suite||
+`SEJ_NBJ`|nombre entier|Durée du séjour||
+`PRE_JOU_NBR`|nombre entier|Nombre de journées de présence||
+`ENT_MOD`|chaîne de caractères|Mode d’entrée||
+`ENT_PRV`|chaîne de caractères|Provenance||
+`SOR_MOD`|chaîne de caractères|Mode de sortie||
+`SOR_DES`|chaîne de caractères|Destination||
+`ACT_TYP`|chaîne de caractères|Type d’hospitalisation||
+`NBR_MUT`|nombre réel|Nombre de mutations||
+`NBR_RHA`|nombre réel|Nombre de RHA||
+`NBR_GME`|nombre réel|Nombre de GME (ng)||
+`NBR_CM`|nombre réel|Nombre de CM (nc)||
+`NBR_UM`|nombre réel|Nombre d’unité médicale||
+`DUMMY`|chaîne de caractères|DUMMY||
+`NBR_CMC`|nombre réel|Nombre de CMC (nc)||
+`NBR_GHJ`|nombre réel|Nombre de GHJ (ng)||
 

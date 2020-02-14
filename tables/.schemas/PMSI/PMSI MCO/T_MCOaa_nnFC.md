@@ -16,52 +16,28 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ACT_COD`|
-string|Code acte||
-`ACT_COE`|
-number|Coefficient||
-`ACT_DNB`|
-integer|Dénombrement||
-`ACT_NBR`|
-integer|Quantité||
-`AMC_MNR`|
-number|Montant remboursable par AMC||
-`AMO_MNR`|
-number|Montant Remboursable par AMO||
-`DEL_DAT_ENT`|
-integer|Délai par rapport à la date d&#x27;entrée||
-`ETA_NUM`|
-string|Numéro FINESS e-PMSI||
-`EXE_SPE`|
-string|Spécialité exécutant||
-`EXO_TM`|
-string|Justification exo TM||
-`HON_MNT`|
-number|Montant des honoraire (dépassement compris)||
-`NOE_MNR`|
-number|Montant remboursé NOEMIE Retour||
-`NOE_OPE`|
-string|Nature opération récupération NOEMIE Retour||
-`NUM_FAC`|
-string|N° séquentiel de facture||
-`PRI_UNI`|
-number|Prix Unitaire||
-`PSH_DMT`|
-string|Discipline de prestation (ex DMT)||
-`PSH_MDT`|
-string|Mode de traitement||
-`REM_BAS`|
-number|Montant Base remboursement||
-`REM_TAU`|
-integer|Taux Remboursement||
-`RSA_NUM`|
-string|N° séquentiel (le même que pour les RSA)||
-`RSF_TYP`|
-string|Type de format RSF (1 : ancien, 2 : nouveau)||
-`SOR_ANN`|
-string|Année de l&#x27;acte||
-`SOR_MOI`|
-string|Mois de l&#x27;acte||
-`TYP_ART`|
-string|Type d&#x27;enregistrement||
+`ACT_COD`|chaîne de caractères|Code acte||
+`ACT_COE`|nombre réel|Coefficient||
+`ACT_DNB`|nombre entier|Dénombrement||
+`ACT_NBR`|nombre entier|Quantité||
+`AMC_MNR`|nombre réel|Montant remboursable par AMC||
+`AMO_MNR`|nombre réel|Montant Remboursable par AMO||
+`DEL_DAT_ENT`|nombre entier|Délai par rapport à la date d&#x27;entrée||
+`ETA_NUM`|chaîne de caractères|Numéro FINESS e-PMSI||
+`EXE_SPE`|chaîne de caractères|Spécialité exécutant||
+`EXO_TM`|chaîne de caractères|Justification exo TM||
+`HON_MNT`|nombre réel|Montant des honoraire (dépassement compris)||
+`NOE_MNR`|nombre réel|Montant remboursé NOEMIE Retour||
+`NOE_OPE`|chaîne de caractères|Nature opération récupération NOEMIE Retour||
+`NUM_FAC`|chaîne de caractères|N° séquentiel de facture||
+`PRI_UNI`|nombre réel|Prix Unitaire||
+`PSH_DMT`|chaîne de caractères|Discipline de prestation (ex DMT)||
+`PSH_MDT`|chaîne de caractères|Mode de traitement||
+`REM_BAS`|nombre réel|Montant Base remboursement||
+`REM_TAU`|nombre entier|Taux Remboursement||
+`RSA_NUM`|chaîne de caractères|N° séquentiel (le même que pour les RSA)||
+`RSF_TYP`|chaîne de caractères|Type de format RSF (1 : ancien, 2 : nouveau)||
+`SOR_ANN`|année|Année de l&#x27;acte||
+`SOR_MOI`|date|Mois de l&#x27;acte||
+`TYP_ART`|chaîne de caractères|Type d&#x27;enregistrement||
 

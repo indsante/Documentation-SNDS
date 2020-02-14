@@ -16,18 +16,11 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`ETA_NUM_EPMSI`|
-string|N° FINESS e-PMSI||
-`ETA_NUM_TWO`|
-string|Second n° FINESS||
-`IPP_IRR_CRY`|
-string|Cryptage irreversible de l&#x27;IPP||
-`SEJ_IDT`|
-string|Identifiant de séjour||
-`RIP_NUM`|
-string|N° séquentiel de séjour||
-`SEQ_SEQ_NUM`|
-string|N° séquentiel de séquence au sein du séjour||
-`ASS_DGN`|
-string|Diagnostics et facteurs associés||
+`ETA_NUM_EPMSI`|chaîne de caractères|N° FINESS e-PMSI||
+`ETA_NUM_TWO`|chaîne de caractères|Second n° FINESS||
+`IPP_IRR_CRY`|chaîne de caractères|Cryptage irreversible de l&#x27;IPP||
+`SEJ_IDT`|chaîne de caractères|Identifiant de séjour||
+`RIP_NUM`|chaîne de caractères|N° séquentiel de séjour||
+`SEQ_SEQ_NUM`|chaîne de caractères|N° séquentiel de séquence au sein du séjour||
+`ASS_DGN`|chaîne de caractères|Diagnostics et facteurs associés||
 

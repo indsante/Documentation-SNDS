@@ -18,12 +18,8 @@
 
 Nom|Type|Description|Propriétés
 -|-|-|-
-`id_carto`|
-string|Identifiant bénéficiaire cartographie|<p>valeur unique</p>|
-`ben_nir_psa`|
-string|Identifiant anonyme du patient dans le SNIIRAM||
-`ben_rng_gem`|
-integer|rang de naissance du bénéficiaire||
-`version`|
-string|Version de la cartographie||
+`id_carto`|chaîne de caractères|Identifiant bénéficiaire cartographie|<p>valeur unique</p>|
+`ben_nir_psa`|chaîne de caractères|Identifiant anonyme du patient dans le SNIIRAM||
+`ben_rng_gem`|nombre entier|rang de naissance du bénéficiaire||
+`version`|chaîne de caractères|Version de la cartographie||
 
