@@ -23,7 +23,7 @@ Tous les programmes disponible sur [programme-snds](https://gitlab.com/healthdat
 
 - Programme ALD sur [ALZHEIMER](https://gitlab.com/healthdatahub/programmes-sdns/-/blob/master/ARS/pathologies/ALD/ALD.sas) par Céline Leroy (ARS NORM.) & Jérôme Brocca (ARS CVL)
 
-- Dossier avec 3 programme permettant l'estimation de la prévalence des pathologies à partir des tables de cartographie des pathologies & dénombrement de population protégée, proposé par l’ARS Normandie.
+- Dossier avec 3 programmes permettant l'estimation de la prévalence des pathologies à partir des tables de cartographie des pathologies & dénombrement de population protégée, proposé par l’ARS Normandie.
 	- [cartographie des pathologies](https://gitlab.com/healthdatahub/programmes-sdns/-/blob/master/ARS/pathologies/carto%20patho/NORMANDIE_carto_patho.sas) 
 	- [dénominateur national](https://gitlab.com/healthdatahub/programmes-sdns/-/blob/master/ARS/pathologies/carto%20patho/NORMANDIE_denominateur_national.sas)
 	- [Estimation de la population protégée Régime Général et Section Locale Mutualiste - RG+SLM](https://gitlab.com/healthdatahub/programmes-sdns/-/blob/master/ARS/pathologies/carto%20patho/NORMANDIE_estimation_pop_prot_correction_patho.sas)
