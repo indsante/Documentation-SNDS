@@ -30,4 +30,4 @@ Tous les programmes disponible sur [programme-snds](https://gitlab.com/healthdat
 
 ### Centre d’épidémiologie et de santé publique des armées (CESPA) du Service de Santé des Armées (SSA)
 
-- Programme de [Reperage des Rhabdomyolyse d’effort en 2016](https://gitlab.com/healthdatahub/programmes-sdns/-/blob/master/SSA-CESPA/Rhabdomyolise_09012020.sas). Pour toutes informations sur ce programme, vous pouvez contacter [Bakridine Mmadi-Mrenda](bakridine.mmadi-mrenda@intradef.gouv.fr)
+- Programme de [Reperage des Rhabdomyolyse d’effort en 2016](https://gitlab.com/healthdatahub/programmes-sdns/-/blob/master/SSA-CESPA/Rhabdomyolise_09012020.sas). Pour toutes informations sur ce programme, vous pouvez contacter [Bakridine Mmadi-Mrenda](mailto:bakridine.mmadi-mrenda@intradef.gouv.fr)
