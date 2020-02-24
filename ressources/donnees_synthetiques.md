@@ -69,7 +69,7 @@ Il serait possible d'ajouter de telles contraintes par un traitement _a posterio
 ### Pas de version par année
 
 Le schéma des tables évolue chaque année, avec l'ajout ou la suppression de tables et variables.  
-Ces informations sont actuellement présentent dans le schéma SNDS, mais de façon trop incomplète pour générer un SNDS synthétiques pour chaque année.
+Ces informations sont actuellement présentes dans le schéma SNDS, mais de façon trop incomplète pour générer un SNDS synthétiques pour chaque année.
 
 ### Erreurs dans le schéma
 
@@ -80,9 +80,10 @@ Il manque en particulier de nombreuses tables de nomenclatures, qui indiquent le
 
 ## Amélioration des données synthétiques
 
-Vous pouvez contribuer à améliorer les données synthétiques en améliorant le schéma formel du SNDS, via des Merge-Request sur le [projet schema-snds](https://gitlab.com/healthdatahub/schema-snds). 
+Vous pouvez contribuer à améliorer les données synthétiques en améliorant le schéma formel du SNDS sur le [projet schema-snds](https://gitlab.com/healthdatahub/schema-snds). 
+Vous pouvez proposer des merge-request pour ajouter des contraintes, corriger les types, ou compléter les nomenclatures.
 
-Des liens directs vers les schémas sont disponibles sur le [dictionnaire interactif](https://drees.shinyapps.io/dico-snds), ainsi que sur les pages de la [section table](../tables/README.md) de cette documentation.  
+Des liens directs pour éditer les schémas sont disponibles sur le [dictionnaire interactif](https://drees.shinyapps.io/dico-snds), et sur les pages de la [section table](../tables/README.md) de cette documentation.  
 
-Si vous souhaitez proposer d'autres types d'améliorations, vous pouvez ouvrir des issues sur le projet schema-snds, ou sur le [projet tsfaker](https://gitlab.com/healthdatahub/tsfaker/issues/) si cela concerne la procédure de génération.
+Si vous souhaitez proposer d'autres types d'améliorations, vous pouvez ouvrir des issues sur le projet [schema-snds](https://gitlab.com/healthdatahub/schema-snds), ou sur le [projet tsfaker](https://gitlab.com/healthdatahub/tsfaker/issues/) si cela concerne la procédure de génération.
   
