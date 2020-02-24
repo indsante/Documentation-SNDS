@@ -24,6 +24,7 @@ const sidebar = [
             '/contribuer/tutoriel_markdown',
             '/contribuer/nouveau_fichier',
             '/contribuer/nouvelle_page',
+            '/contribuer/contribution_tables',
             '/contribuer/developpement_local',
             '/contribuer/exercices_formation',
         ]
