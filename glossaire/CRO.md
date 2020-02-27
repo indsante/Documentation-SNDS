@@ -1,4 +1,5 @@
 # CRO - Société de recherche contractuelle
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 CRO est l'acronyme anglophone pour *contract research organization*.
 

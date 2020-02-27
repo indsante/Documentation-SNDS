@@ -1,4 +1,5 @@
 # Modifier la documentation des tables
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 La section [Tables](../tables/README.md) de la documentation a un fonctionnement spécifique.
 

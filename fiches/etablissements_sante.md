@@ -1,4 +1,5 @@
 # Dépenses des établissements de santé dans le SNDS
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 L'objectif de la fiche est de décrire où trouver les informations sur les trois types d'établissements de santé: 
 **publics, privés et les établissements du secteur médico-social**.

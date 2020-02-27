@@ -1,4 +1,5 @@
 # GME - Groupe médicoéconomique
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Les groupes médicoéconomiques (GME) constituent un système de classification médico-économique des hospitalisations en soins de suite et de réadaptation (SSR).
 

@@ -1,4 +1,5 @@
 # RG - Régime Général
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Régime Général
 

@@ -1,4 +1,5 @@
 # DAMIR - Dépenses d’Assurance Maladie Inter-Régimes
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## L'univers DAMIR 
 
