@@ -1,0 +1,9 @@
+---
+permalink: /tables/T_SSRaaCCAM
+---
+# T_SSRaaCCAM
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<!-- ATTENTION : Ne pas supprimer ou modifier la ligne ci-dessous -->
+#include "tables/.schemas/PMSI/PMSI SSR/T_SSRaaCCAM.md"
+<!-- ATTENTION : Ne pas supprimer ou modifier la ligne ci-dessus -->
