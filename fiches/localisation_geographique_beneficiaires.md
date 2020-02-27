@@ -51,7 +51,7 @@ On recourt alors notamment à des tables de correction, qui ne sont *a priori* p
 | **SNIIRAM DCIRS** | **Référentiel des bénéficiaires** [IR_IBA_R](../tables/BENEFICIAIRE/IR_IBA_R.md) | BEN_RES_DPT | BEN_RES_COM | Dernière information disponible (table des prestations ou données administratives des caisses de sécurité sociale) |
 | | **Table prestations** [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md)| BEN_RES_DPT | BEN_RES_COM | Information remontée au moment de la prestation |
 | | **Tables affinées** [NS_XXX_F](../tables/DCIRS)| BEN_RES_DPT | BEN_RES_COM | Information remontée au moment de la prestation |
-| **PMSI MCO/SSR/HAD** | **Table séjour B** [T_MCOAA_B](../tables/PMSI/PMSI%20MCO/T_MCOaa_nnB.md) | BDI_DEP | BDI_COD (str(5))| |
+| **PMSI MCO/SSR/HAD** | **Table séjour B** [T_MCOaa_B](../tables/PMSI/PMSI%20MCO/T_MCOaaB.md) | BDI_DEP | BDI_COD (str(5))| |
 | **Cartographie des pathologies** | **Table individus** [CT_IND_AAAA_GN](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_IND_AAAA_GN.md)| dpt| Non disponible | Code reconstitué à partir des informations du DCIR et du PMSI et corrigé si besoin |
 | **Causes de décès** | **Table cause initiale de décès** [KI_CCI_R](../tables/Causes%20de%20décès/KI_CCI_R.md) | BEN_RES_DPT | BEN_RES_COM | Les codes ont été transformés pour coller aux référentiels du SNIIRAM IR_DPT_V et IR_GEO_V |
 
