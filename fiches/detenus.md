@@ -1,4 +1,5 @@
 # Détenus 
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Lorsque l'on parle de détenus, on considère l'ensemble des individus mis sous main de justice. 
 

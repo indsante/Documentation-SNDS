@@ -1,4 +1,5 @@
 # FAQ EGB
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 *version 09/2019*
 

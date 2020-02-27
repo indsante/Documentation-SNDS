@@ -1,4 +1,5 @@
 # Foires aux questions DCIR / EGB
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Ces FAQ DCIR et EGB sont issues des fichiers FAQ DCIR et FAQ EGB, créés par la CNAM. 
 

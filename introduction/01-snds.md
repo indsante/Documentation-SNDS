@@ -1,4 +1,5 @@
 # Qu'est-ce que le SNDS ?
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Le Système National des Données de Santé (SNDS) est un entrepôt de données médico-administratives pseudonymisées couvrant l'ensemble de la population française et contenant l'ensemble des soins présentés au remboursement.
 Créé en 2016 dans la continuité d'un entrepôt précédent, géré par la Caisse Nationale de l'Assurance Maladie ([CNAM](../glossaire/Cnam.md)), il permet de chaîner :

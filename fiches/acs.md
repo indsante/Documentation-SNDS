@@ -1,4 +1,5 @@
 # Aide au paiement d'une Complémentaire Santé 
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 
 Cette fiche aborde une variable parmi l'ensemble des variables socio-démographiques, pour une description plus globale se référer à la [fiche sur les variables socio-démographiques](../fiches/variables_sociodemo.md). 

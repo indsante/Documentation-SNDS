@@ -1,4 +1,5 @@
 # KWIKLY 
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Katalogue des données SNIIRAM-SNDS
 

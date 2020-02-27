@@ -1,4 +1,5 @@
 # Documents GIS Epi-Phare
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Documents publiés par le GIS Epi-Phare sur ce site.
 
