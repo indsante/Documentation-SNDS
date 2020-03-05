@@ -32,6 +32,11 @@ Les branches de travail sont nommées selon l'objet des modifications apportées
 
 - `merge-request` : Les merge-request (MR) permettent d'intégrer une branche de travail dans la branche principale.
  
+![Editer sur Gitlab](../files/images/2020-03-05-HDH-introduction-gitlab_MLP-2.0.jpg)
+
+*a) Représentation schématique des branches dans Gitlab  
+b) Exemple de visualisation obtenue dans Gitlab pour le projet de la documentation collaborative du SNDS*
+
 Les modifications proposées dans la branche de travail sont discutées et validées avant d'être publiées. 
 Pour cela, les relecteurs commentent la MR dans l'onglet *Discussion*, ou font des remarques ligne par ligne dans l'onglet *Changes*. 
 
