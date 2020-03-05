@@ -38,7 +38,7 @@ Exemple : T_MCO16B concerne les séjours uniquement terminés en 2016
 ![schéma concepts pmsi HAD](../files/INDS/concepts_had.png)
 
 ### L'articulation des principales bases du PMSI HAD
-![schéma structuration pmsi HAD](../files/INDS/Structuration tables HAD.png)
+![schéma structuration pmsi HAD](../files/INDS/Structuration_tables_HAD.png)
 
 ### L'identification d'un séjour dans le PMSI HAD
 Un séjour hospitalier en HAD est constitué d'une suite de séquences de soins, elles-mêmes décomposées en sous-séquences.
@@ -56,7 +56,7 @@ Un séjour est indentifié par les clés de jointure suivantes :
 ## PMSI SSR
 
 ### Schéma des concepts du PMSI SSR
-![schéma concepts pmsi SSR](../files/INDS/Concepts SSR.png)
+![schéma concepts pmsi SSR](../files/INDS/Concepts_SSR.png)
 
 ### L'articulation des principales bases du PMSI SSR
 ![schéma structuration pmsi SSR](../files/INDS/Structuration_tables_SSR.png)
