@@ -42,10 +42,10 @@ lors de séjours en MCO à l'hôpital figurent dans des tables dédiées, diffé
 ### Dans les hopitaux publics
 
 Pour les hôpitaux publics, on utilisera la table `ORAVUE.T_MCOaaDMIP`.
-La variable à utiliser pour identifier le DMI implanté lors du séjour est la variable 'tip_prs_ide'.
+La variable à utiliser pour identifier le DMI implanté lors du séjour est la variable 'LPP_COD'.
 
 ::: warning
-Attention au format de cette variable moment de la requête
+Attention au format de cette variable moment de la requête (blanc devant)
 ::: warning
 
 
@@ -54,7 +54,7 @@ Attention au format de cette variable moment de la requête
 Pour les hôpitaux privés, on utilisera la table 'ORAVUE.T_MCO&aa.FP'.
 Les variables à utiliser diffèrent selon les années : 
 Pour les années 2006 et 2007, les variables à utiliser sont les variables lpp_cod1 et lpp_cod2
-A partir de l'année 2008, on utilisera la variable tip_prs_ide
+A partir de l'année 2008, on utilisera la variable 'LPP_COD'
 
 ::: warning
 Attention au format de cette variable moment de la requête 
@@ -72,14 +72,18 @@ Pour l'étude des dépenses associées à ces dispositifs, l'[ATIH](https://www.
 
 On peut ensuite déduire le montant des dépenses à partir du prix tarifé multiplié par le nombre de dispositifs posés.  
 
+Les tarifications des DMI peuvent différer entre hôpitaux privés et hopitaux publics ; 
+pour valoriser l'utilisation des DMI, on utilisera les prix tarifés indiqués dans les tables DMIP pour les hôpitaux publics et tables FP pour les hôpitaux privés.
+
+Pour les hôpitaux publics : la variable 'NBR_POS_PI' indique le Prix d'achat multiplié par le nombre posé
+
+Pour les hopitaux privés : la variable 'FAC_MNT' indique le	Montant total facturé
+
 Pour vérifier l'appartenance à la liste en sus : 
 - on récupère le mois et l’année de pose du DMI (ou, par défaut, le mois et l’année de sortie du résumé de sortie anonyme [RSA](../glossaire/RSA.md))
 - à l'aide de la liste (actualisée) des produits et prestations pris en charge en sus, 
   on vérifie que le DMI appartient bien à la liste en sus durant cette période
 - pour les données de l’année N, on ne conserve que les dispositifs dont l’année de pose est égale à N, N-1 ou N-2
-
-Les tarifications des DMI peuvent différer entre hôpitaux privés et hopitaux publi
-pour valoriser l'utilisation des DMI, on utilisera les prix tarifés indiqués dans les tables DMIP pour les hôpitaux publics et tables FP pour les hôpitaux privés.
 
 
 ## Références
