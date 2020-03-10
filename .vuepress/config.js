@@ -5,10 +5,10 @@ const sidebar = [
         title: 'Introduction',
         path: '/introduction/',
         children: [
-          '/introduction/01-snds',
-          '/introduction/02-bases-snds',
-          '/introduction/03-acces-snds',
-          '/introduction/04-recherche-snds'
+            '/introduction/01-snds',
+            '/introduction/02-bases-snds',
+            '/introduction/03-acces-snds',
+            '/introduction/04-recherche-snds'
         ]
     },
     sb.getSidebarGroup("fiches"),
@@ -54,12 +54,15 @@ module.exports = {
     },
     markdown: {
         // options for markdown-it-anchor
-       // anchor: { permalink: false },
+        // anchor: { permalink: false },
         // options for markdown-it-toc
         //toc: { includeLevel: [1, 2] },
         extendMarkdown: md => {
-          // use more markdown-it plugins!
-          md.use(require('markdown-it-footnote'))
+            // use more markdown-it plugins!
+            md.use(require('markdown-it-footnote'))
         }
-      }
+    },
+    plugins: [
+        'mermaidjs'
+    ]
 };
