@@ -82,7 +82,7 @@ Les variables disponibles sont :
 `NBR_POS_PI` : Prix d'achat multiplié par le nombre posé  
 
 ### Pour les hopitaux privés : 
-Les variables disponibles sont : 
+Les variables disponibles sont :   
 `FAC_MNT` : Montant total facturé
 `LPP_PRI_UNI` :	Prix d'achat unitaire
 `LPP_PU_DEV` :	Tarif référence LPP/ Prix Unitaire sur devis
