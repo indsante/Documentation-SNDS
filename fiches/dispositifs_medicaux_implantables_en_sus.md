@@ -42,7 +42,7 @@ lors de séjours en MCO à l'hôpital figurent dans des tables dédiées, diffé
 ### Dans les hopitaux publics
 
 Pour les hôpitaux publics, on utilisera la table `ORAVUE.T_MCOaaDMIP`.
-La variable à utiliser pour identifier le DMI implanté lors du séjour est la variable 'LPP_COD'.
+La variable à utiliser pour identifier le DMI implanté lors du séjour est la variable `LPP_COD`.
 
 ::: warning Format
 Attention au format de cette variable moment de la requête (blanc devant)
@@ -51,10 +51,10 @@ Attention au format de cette variable moment de la requête (blanc devant)
 
 ### Dans les hopitaux privés
 
-Pour les hôpitaux privés, on utilisera la table 'ORAVUE.T_MCO&aa.FP'.
+Pour les hôpitaux privés, on utilisera la table `ORAVUE.T_MCO&aa.FP`.
 Les variables à utiliser diffèrent selon les années : 
 Pour les années 2006 et 2007, les variables à utiliser sont les variables lpp_cod1 et lpp_cod2
-A partir de l'année 2008, on utilisera la variable 'LPP_COD'
+A partir de l'année 2008, on utilisera la variable `LPP_COD`
 
 ::: warning Format
 Attention au format de cette variable moment de la requête (blanc avant)
@@ -74,19 +74,19 @@ On peut ensuite déduire le montant des dépenses à partir du prix tarifé mult
 il est également possible d'utiliser la variable de montant total restitué (cf. variables ci-dessous).  
 
 Les tarifications des DMI peuvent différer entre hôpitaux privés et hopitaux publics ; 
-pour valoriser l'utilisation des DMI, on utilisera les prix tarifés indiqués dans les tables DMIP pour les hôpitaux publics et tables FP pour les hôpitaux privés.
+pour valoriser l'utilisation des DMI, on utilisera les prix tarifés indiqués dans les tables `ORAVUE.T_MCOaaDMIP` pour les hôpitaux publics et tables `ORAVUE.T_MCO&aa.FP` pour les hôpitaux privés.
 
 ### Pour les hôpitaux publics : 
 Les variables disponibles sont : 
-'NBR_POS'	: Nombre posé
-'NBR_POS_PI' : Prix d'achat multiplié par le nombre posé
+`NBR_POS`	: Nombre posé
+`NBR_POS_PI` : Prix d'achat multiplié par le nombre posé
 
 ### Pour les hopitaux privés : 
 Les variables disponibles sont : 
-'FAC_MNT' : Montant total facturé
-'LPP_PRI_UNI' :	Prix d'achat unitaire
-'LPP_PU_DEV' :	Tarif référence LPP/ Prix Unitaire sur devis
-'LPP_QUA' :	Quantité
+`FAC_MNT` : Montant total facturé
+`LPP_PRI_UNI` :	Prix d'achat unitaire
+`LPP_PU_DEV` :	Tarif référence LPP/ Prix Unitaire sur devis
+`LPP_QUA` :	Quantité
 
 :::Tip Appartenance d'un DMI à la liste en Sus
 Pour vérifier l'appartenance à la liste en sus : 
