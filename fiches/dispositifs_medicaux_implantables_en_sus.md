@@ -78,7 +78,7 @@ pour valoriser l'utilisation des DMI, on utilisera les prix tarifés indiqués d
 
 ### Pour les hôpitaux publics : 
 Les variables disponibles sont :  
-`NBR_POS`	: Nombre posé
+`NBR_POS`	: Nombre posé  
 `NBR_POS_PI` : Prix d'achat multiplié par le nombre posé
 
 ### Pour les hopitaux privés : 
