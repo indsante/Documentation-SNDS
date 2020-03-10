@@ -44,7 +44,7 @@ lors de séjours en MCO à l'hôpital figurent dans des tables dédiées, diffé
 Pour les hôpitaux publics, on utilisera la table `ORAVUE.T_MCOaaDMIP`.
 La variable à utiliser pour identifier le DMI implanté lors du séjour est la variable 'LPP_COD'.
 
-::: warning
+::: warning Format
 Attention au format de cette variable moment de la requête (blanc devant)
 ::: warning
 
@@ -56,9 +56,9 @@ Les variables à utiliser diffèrent selon les années :
 Pour les années 2006 et 2007, les variables à utiliser sont les variables lpp_cod1 et lpp_cod2
 A partir de l'année 2008, on utilisera la variable 'LPP_COD'
 
-::: warning
-Attention au format de cette variable moment de la requête 
-::: warning
+::: warning Format
+Attention au format de cette variable moment de la requête (blanc avant)
+::: 
 
 ## Dépenses associées aux DMI dans le PMSI MCO 
 
@@ -70,21 +70,31 @@ Pour l'étude des dépenses associées à ces dispositifs, l'[ATIH](https://www.
 - Codes DMI erronés (à vide ou indéterminés)
 - DMI posés hors période d’appartenance à la liste en sus 
 
-On peut ensuite déduire le montant des dépenses à partir du prix tarifé multiplié par le nombre de dispositifs posés.  
+On peut ensuite déduire le montant des dépenses à partir du prix tarifé multiplié par le nombre de dispositifs posés ; 
+il est également possible d'utiliser la variable de montant total restitué (cf. variables ci-dessous).  
 
 Les tarifications des DMI peuvent différer entre hôpitaux privés et hopitaux publics ; 
 pour valoriser l'utilisation des DMI, on utilisera les prix tarifés indiqués dans les tables DMIP pour les hôpitaux publics et tables FP pour les hôpitaux privés.
 
-Pour les hôpitaux publics : la variable 'NBR_POS_PI' indique le Prix d'achat multiplié par le nombre posé
+### Pour les hôpitaux publics : 
+Les variables disponibles sont : 
+'NBR_POS'	: Nombre posé
+'NBR_POS_PI' : Prix d'achat multiplié par le nombre posé
 
-Pour les hopitaux privés : la variable 'FAC_MNT' indique le	Montant total facturé
+### Pour les hopitaux privés : 
+Les variables disponibles sont : 
+'FAC_MNT' : Montant total facturé
+'LPP_PRI_UNI' :	Prix d'achat unitaire
+'LPP_PU_DEV' :	Tarif référence LPP/ Prix Unitaire sur devis
+'LPP_QUA' :	Quantité
 
+:::Tip Appartenance d'un DMI à la liste en Sus
 Pour vérifier l'appartenance à la liste en sus : 
 - on récupère le mois et l’année de pose du DMI (ou, par défaut, le mois et l’année de sortie du résumé de sortie anonyme [RSA](../glossaire/RSA.md))
 - à l'aide de la liste (actualisée) des produits et prestations pris en charge en sus, 
   on vérifie que le DMI appartient bien à la liste en sus durant cette période
 - pour les données de l’année N, on ne conserve que les dispositifs dont l’année de pose est égale à N, N-1 ou N-2
-
+:::
 
 ## Références
 
