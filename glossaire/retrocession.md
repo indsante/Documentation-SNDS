@@ -1,5 +1,4 @@
-
-Les rétrocessions correspondent à une liste de médicaments délivrés par des établissements à des patients non hospitalisés. 
+La rétrocession correspond à une liste de médicaments délivrés par des établissements à des patients non hospitalisés. 
 
 Le traitement de ces prestations dans le SNDS est décrit dans la fiche [Dépenses des établissements de santé dans le SNDS](etablissements_sante.md)
 
