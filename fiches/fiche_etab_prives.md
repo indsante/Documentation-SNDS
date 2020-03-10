@@ -9,6 +9,9 @@ Le PMSI contient des tables de facturation des séjours privés mais il n’est 
 remboursés par l’assurance maladie.
 C'est pourquoi nous présentons dans cette fiche l'analyse les dépenses des établissements privés dans le DCIR ou le DCIRS.
 
+En complément, des informations sur les dépenses en établissements de santé publics se trouvent dans la fiche sur 
+les [dépenses des établissements de santé publics dans le PMSI](depenses_hopital_public.md).
+
 
 ## Sélectionner les prestations et délimiter le champ
 
@@ -95,7 +98,7 @@ Il n'existe pas d'activité externe en établissement privé lucratif, elle est 
 
 ### Les variables à considérer 
 
-Les montants payés, de base et remboursés du régime obligatoire des soins de ville sont disponibles dans la table [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) dans le DCIR ([fiche sur les dépenses dans le DCIR et DAMIR](../fiches/montant_soins_de_ville.md)):
+Les montants payés, de base et remboursés du régime obligatoire des soins de ville sont disponibles dans la table [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) dans le DCIR :
 
 - montant payé : `PRS_PAI_MNT`
 - taux de remboursement : `RGO_REM_TAU`
@@ -114,7 +117,7 @@ On trouve ces variables dans la table prestation `NS_PRS_F`.
 ### Méthode de calcul
 
 La méthode est identique à celle appliquée pour les soins de ville. 
-Vous pouvez donc vous reporter à la fiche [Dépenses de soins de ville dans le DCIR et le DAMIR](../fiches/montant_soins_de_ville.md)
+Vous pouvez donc vous reporter à la fiche [Dépenses de soins de ville dans le DCIR et le DAMIR](montant_soins_de_ville.md)
 
 
 ## Références
