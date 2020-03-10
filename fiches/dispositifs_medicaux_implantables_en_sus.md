@@ -29,27 +29,48 @@ L'ATIH restitue également des statistiques sur la consommation annuelle des dis
 Ces synthèses, déclinées par année et par DM, sont disponibles au lien suivant : [https://www.scansante.fr/applications/synthese-dmi-mo-sus](https://www.scansante.fr/applications/synthese-dmi-mo-sus).  
 
 ## Identification dans le PMSI MCO des assurés implantés par un DMI
+
 On peut retrouver dans le PMSI les DMI implantés depuis 2006 dans les hopitaux privés et depuis 2008 dans les hopitaux publics.
-Les informations sur les dispositifs médicaux implantables (DMI) facturés en sus du [GHS](../glossaire/GHS.md) 
+Ceci peut permettre d'identifier une population d'intérêt : le DMI constitue alors un critère de sélection de cette population d'étude.
+Par exemple, on cherche les sujets ayant reçu la pose d'un stent en 2016 : on recherchera les assurés ayant eu un séjour en 2016 avec facturation d'un DMI du chapitre de la LPP : ENDOPROTHESES CORONAIRES DITES "STE
+et la facturation dans le même séjour d'un acte correspondant à la pose d'un stent 
+(par exemple acte de code CCAM 'DDAF006 : Dilatation intraluminale d'un vaisseau coronaire avec pose d'endoprothèse, par voie artérielle transcutanée')
+
+En pratique, les informations sur les dispositifs médicaux implantables (DMI) facturés en sus du [GHS](../glossaire/GHS.md) 
 lors de séjours en MCO à l'hôpital figurent dans des tables dédiées, différentes selon qu'ils ont été implantés et facturés dans un hopital public ou privé.
 
 ### Dans les hopitaux publics
-Pour les hôpitaux publics, on utilisera la table `T_MCOaaDMIP`.
+
+Pour les hôpitaux publics, on utilisera la table `ORAVUE.T_MCOaaDMIP`.
 La variable à utiliser pour identifier le DMI implanté lors du séjour est la variable 'tip_prs_ide'.
 
+::: warning
+Attention au format de cette variable moment de la requête
+::: warning
 
+
+### Dans les hopitaux privés
+
+Pour les hôpitaux privés, on utilisera la table 'ORAVUE.T_MCO&aa.FP'.
+Les variables à utiliser diffèrent selon les années : 
+Pour les années 2006 et 2007, les variables à utiliser sont les variables lpp_cod1 et lpp_cod2
+A partir de l'année 2008, on utilisera la variable tip_prs_ide
+
+::: warning
+Attention au format de cette variable moment de la requête 
+::: warning
 
 ## Dépenses associées aux DMI dans le PMSI MCO 
-### Dans les hôpitaux publics
 
-  
+Une autre utilisation des informations de facturation des DMI dans le PMSI peut être de quantifier les dépenses associées à ces dispositifs.
+
 Pour l'étude des dépenses associées à ces dispositifs, l'[ATIH](https://www.scansante.fr/applications/synthese-dmi-mo-sus) suggère d'appliquer les critères d'exclusion suivants :  
 - Nombre DMI = 0 et prix d’achat ≥ 0
 - Nombre DMI < 0 ou prix d’achat < 0
 - Codes DMI erronés (à vide ou indéterminés)
 - DMI posés hors période d’appartenance à la liste en sus 
 
-On peut ensuite déduire le montant des dépenses à partir du prix d'achat multiplié par le nombre de dispositifs posés.  
+On peut ensuite déduire le montant des dépenses à partir du prix tarifé multiplié par le nombre de dispositifs posés.  
 
 Pour vérifier l'appartenance à la liste en sus : 
 - on récupère le mois et l’année de pose du DMI (ou, par défaut, le mois et l’année de sortie du résumé de sortie anonyme [RSA](../glossaire/RSA.md))
@@ -57,8 +78,13 @@ Pour vérifier l'appartenance à la liste en sus :
   on vérifie que le DMI appartient bien à la liste en sus durant cette période
 - pour les données de l’année N, on ne conserve que les dispositifs dont l’année de pose est égale à N, N-1 ou N-2
 
+Les tarifications des DMI peuvent différer entre hôpitaux privés et hopitaux publi
+pour valoriser l'utilisation des DMI, on utilisera les prix tarifés indiqués dans les tables DMIP pour les hôpitaux publics et tables FP pour les hôpitaux privés.
+
+
 ## Références
 
 ::: tip Crédits
 Cette fiche a été rédigée par Noémie Courtejoie (DREES).
+La partie hopitaux privés a été complétée par Sandrine Colas (IQVIA).
 :::
