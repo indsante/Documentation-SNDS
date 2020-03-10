@@ -45,7 +45,7 @@ Pour les hôpitaux publics, on utilisera la table `ORAVUE.T_MCOaaDMIP`.
 La variable à utiliser pour identifier le DMI implanté lors du séjour est la variable `LPP_COD`.
 
 ::: warning Format
-Attention au format de cette variable moment de la requête (blanc devant)
+Attention au format de cette variable au moment de la requête (blanc devant)
 ::: 
 
 
@@ -57,7 +57,7 @@ Pour les années 2006 et 2007, les variables à utiliser sont les variables lpp_
 A partir de l'année 2008, on utilisera la variable `LPP_COD`
 
 ::: warning Format
-Attention au format de cette variable moment de la requête (blanc avant)
+Attention au format de cette variable au moment de la requête (blanc avant)
 ::: 
 
 ## Dépenses associées aux DMI dans le PMSI MCO 
