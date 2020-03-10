@@ -31,3 +31,11 @@ Tous les programmes disponible sur [programme-snds](https://gitlab.com/healthdat
 ### Centre d’épidémiologie et de santé publique des armées (CESPA) du Service de Santé des Armées (SSA)
 
 - Programme de [Reperage des Rhabdomyolyse d’effort en 2016](https://gitlab.com/healthdatahub/programmes-sdns/-/blob/master/SSA-CESPA/Rhabdomyolise_09012020.sas). Pour toutes informations sur ce programme, vous pouvez contacter [Bakridine Mmadi-Mrenda](mailto:bakridine.mmadi-mrenda@intradef.gouv.fr)
+
+### Santé Publique France (SPF)
+
+Ces programmes sont présents dans le dossier Santé Publique France dont le détail est disponible dans le [readme](https://gitlab.com/healthdatahub/programmes-sdns/-/blob/master/Sante_publique_France/README.md) dédié. 
+
+- Programme de [sélection de données socio-démographiques dans les référentiels des bénéficiaires](https://gitlab.com/healthdatahub/programmes-sdns/-/blob/master/Sante_publique_France/infos_socio_eco_referentiels_dcir.sas)
+- Programme de [sélection des remboursements de médicaments dans le DCIR archive et le DCIR](https://gitlab.com/healthdatahub/programmes-sdns/-/blob/master/Sante_publique_France/prestations_medicaments_DCIR.sas)
+- Programme de [sélection des hospitalisations MCO en fonction des DP ou DR ou DAS incluant des variables relatives au patient, au séjour et à l’établissement de santé](https://gitlab.com/healthdatahub/programmes-sdns/-/blob/master/Sante_publique_France/sejours_pmsi_mco.sas)
