@@ -77,7 +77,7 @@ Les tarifications des DMI peuvent différer entre hôpitaux privés et hopitaux 
 pour valoriser l'utilisation des DMI, on utilisera les prix tarifés indiqués dans les tables `ORAVUE.T_MCOaaDMIP` pour les hôpitaux publics et tables `ORAVUE.T_MCO&aa.FP` pour les hôpitaux privés.
 
 ### Pour les hôpitaux publics : 
-Les variables disponibles sont : 
+Les variables disponibles sont :  
 `NBR_POS`	: Nombre posé
 `NBR_POS_PI` : Prix d'achat multiplié par le nombre posé
 
