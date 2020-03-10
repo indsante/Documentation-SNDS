@@ -141,7 +141,7 @@ export default {
         + `/edit`
         + `/${docsBranch}/`
         + (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '')
-        + path.replace('/tables/','/tables/.sources/')
+        + path.replace('tables/','tables/.sources/')
       )
 
     },
