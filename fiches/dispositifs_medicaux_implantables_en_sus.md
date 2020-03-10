@@ -46,7 +46,7 @@ La variable à utiliser pour identifier le DMI implanté lors du séjour est la 
 
 ::: warning Format
 Attention au format de cette variable moment de la requête (blanc devant)
-::: warning
+::: 
 
 
 ### Dans les hopitaux privés
