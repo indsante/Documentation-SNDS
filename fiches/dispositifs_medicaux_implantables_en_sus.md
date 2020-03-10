@@ -88,7 +88,7 @@ Les variables disponibles sont :
 `LPP_PU_DEV` :	Tarif référence LPP/ Prix Unitaire sur devis  
 `LPP_QUA` :	Quantité  
 
-:::Tip Appartenance d'un DMI à la liste en Sus
+::: Tip Appartenance d'un DMI à la liste en Sus
 Pour vérifier l'appartenance à la liste en sus : 
 - on récupère le mois et l’année de pose du DMI (ou, par défaut, le mois et l’année de sortie du résumé de sortie anonyme [RSA](../glossaire/RSA.md))
 - à l'aide de la liste (actualisée) des produits et prestations pris en charge en sus, 
