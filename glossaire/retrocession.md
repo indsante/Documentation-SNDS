@@ -1,6 +1,6 @@
 La rétrocession correspond à une liste de médicaments délivrés par des établissements à des patients non hospitalisés. 
 
-Le traitement de ces prestations dans le SNDS est décrit dans la fiche [Dépenses des établissements de santé dans le SNDS](etablissements_sante.md)
+Le traitement de ces prestations dans le SNDS est décrit dans la fiche [Dépenses des établissements de santé dans le SNDS](../fiches/etablissements_sante.md)
 
 La CNAM met à disposition des données en open data sur les rétrocessions: 
 [Retroced'AM](https://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/medicament/retroced-am.php)
