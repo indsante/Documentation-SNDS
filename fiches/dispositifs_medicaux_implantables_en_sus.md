@@ -86,7 +86,7 @@ Les variables disponibles sont :
 `FAC_MNT` : Montant total facturé  
 `LPP_PRI_UNI` :	Prix d'achat unitaire  
 `LPP_PU_DEV` :	Tarif référence LPP/ Prix Unitaire sur devis  
-`LPP_QUA` :	Quantité
+`LPP_QUA` :	Quantité  
 
 :::Tip Appartenance d'un DMI à la liste en Sus
 Pour vérifier l'appartenance à la liste en sus : 
