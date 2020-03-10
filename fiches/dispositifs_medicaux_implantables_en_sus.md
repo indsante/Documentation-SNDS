@@ -83,7 +83,7 @@ Les variables disponibles sont :
 
 ### Pour les hopitaux privés : 
 Les variables disponibles sont :   
-`FAC_MNT` : Montant total facturé
+`FAC_MNT` : Montant total facturé  
 `LPP_PRI_UNI` :	Prix d'achat unitaire
 `LPP_PU_DEV` :	Tarif référence LPP/ Prix Unitaire sur devis
 `LPP_QUA` :	Quantité
