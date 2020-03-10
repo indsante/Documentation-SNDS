@@ -54,7 +54,7 @@ Attention au format de cette variable au moment de la requête (blanc devant)
 Pour les hôpitaux privés, on utilisera la table `ORAVUE.T_MCO&aa.FP`.
 Les variables à utiliser diffèrent selon les années : 
 - Pour les années 2006 et 2007, les variables à utiliser sont les variables lpp_cod1 et lpp_cod2
-A partir de l'année 2008, on utilisera la variable `LPP_COD`
+- A partir de l'année 2008, on utilisera la variable `LPP_COD`
 
 ::: warning Format
 Attention au format de cette variable au moment de la requête (blanc avant)
