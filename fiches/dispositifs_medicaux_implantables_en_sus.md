@@ -3,9 +3,9 @@
 
 Dans une première partie, nous présentons les dispositifs médicaux implantables (DMI) facturés en sus des [GHS](../glossaire/GHS.md) en MCO.  
 Dans une seconde partie, nous expliquons comment extraire les dépenses associées à ces dispositifs à partir du PMSI MCO.  
-Nous ne traitons ici que le cas des hôpitaux publics.
+Pour chaque partie, nous traiterons le cas des hôpitaux publics, puis le cas des hôpitaux privés.
 
-## Présentation 
+## Présentation générale, réglementaire
 
 D'après le [code de la santé publique (article L.5211-1)](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006072665&idArticle=LEGIARTI000006690281), on entend par dispositif médical implantable : 
 "tout instrument, appareil, équipement, matière, produit, [...] destiné par le fabricant à être 
@@ -28,10 +28,21 @@ La liste (actualisée) des produits et prestations pris en charge en sus des pre
 L'ATIH restitue également des statistiques sur la consommation annuelle des dispositifs médicaux implantables en sus au niveau national.  
 Ces synthèses, déclinées par année et par DM, sont disponibles au lien suivant : [https://www.scansante.fr/applications/synthese-dmi-mo-sus](https://www.scansante.fr/applications/synthese-dmi-mo-sus).  
 
-## Dépenses associées aux DMI dans le PMSI MCO
-
+## Identification dans le PMSI MCO des assurés implantés par un DMI
+On peut retrouver dans le PMSI les DMI implantés depuis 2006 dans les hopitaux privés et depuis 2008 dans les hopitaux publics.
 Les informations sur les dispositifs médicaux implantables (DMI) facturés en sus du [GHS](../glossaire/GHS.md) 
-lors de séjours en MCO à l'hôpital public figurent dans la table `T_MCOaaDMIP`.  
+lors de séjours en MCO à l'hôpital figurent dans des tables dédiées, différentes selon qu'ils ont été implantés et facturés dans un hopital public ou privé.
+
+### Dans les hopitaux publics
+Pour les hôpitaux publics, on utilisera la table `T_MCOaaDMIP`.
+La variable à utiliser pour identifier le DMI implanté lors du séjour est la variable 'tip_prs_ide'.
+
+
+
+## Dépenses associées aux DMI dans le PMSI MCO 
+### Dans les hôpitaux publics
+
+  
 Pour l'étude des dépenses associées à ces dispositifs, l'[ATIH](https://www.scansante.fr/applications/synthese-dmi-mo-sus) suggère d'appliquer les critères d'exclusion suivants :  
 - Nombre DMI = 0 et prix d’achat ≥ 0
 - Nombre DMI < 0 ou prix d’achat < 0
