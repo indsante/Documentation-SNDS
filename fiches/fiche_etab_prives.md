@@ -1,4 +1,4 @@
-# Dépenses des établissement privés (à partir du DCIRS)
+# Dépenses des établissements privés (à partir du DCIRS)
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 L'objectif de la fiche est de reconstituer les dépenses des établissements de santé privés. 
