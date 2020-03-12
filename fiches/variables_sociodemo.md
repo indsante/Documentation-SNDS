@@ -94,7 +94,7 @@ Depuis le 1er juillet 2015, il est possible d’identifier les bénéficiaires �
 L’information sur l’ACS est absente du PMSI.
 -->
 
-Une fiche est en cours de rédaction sur le repérage des bénéficiaires de l'ACS dans le SNDS.  
+Une [fiche](../fiches/acs.md) est consacrée au repérage des bénéficiaires de l'ACS dans le SNDS.  
 
 ### L'AME
 L'Aide Médicale de l'État (AME) est destinée à permettre l'accès aux soins des personnes en situation irrégulière en France.  
