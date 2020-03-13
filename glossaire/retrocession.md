@@ -1,3 +1,6 @@
+# Rétrocession
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+
 La rétrocession correspond à la dispensation de médicaments par la pharmacie hospitalière à des malades non hospitalisés.   
 Elle est limitée aux médicaments inscrits sur la « liste de rétrocession », fixée par arrêté du ministre chargé de la Santé.  
 La liste des médicaments en rétrocession est disponible sur le site du 
