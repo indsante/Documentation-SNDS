@@ -1,7 +1,7 @@
 ---
 permalink: /tables/T_MCOaaSUP_LACT
 ---
-# T_MCOaaSUP_LACT
+# T\_MCOaaSUP\_LACT
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 <!-- ATTENTION : Ne pas supprimer ou modifier la ligne ci-dessous -->

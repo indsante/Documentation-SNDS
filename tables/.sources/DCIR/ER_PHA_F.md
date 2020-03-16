@@ -1,7 +1,7 @@
 ---
 permalink: /tables/ER_PHA_F
 ---
-# ER_PHA_F
+# ER\_PHA\_F
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 Dans **ER_PHA_F**, l’information affinée est communiquée sous le code CIP. 
 Le code CIP permet d’identifier un médicament précisément, c’est-à-dire sa molécule mais aussi son nom commercial, son laboratoire, son dosage, son conditionnement ou son prix unitaire. 

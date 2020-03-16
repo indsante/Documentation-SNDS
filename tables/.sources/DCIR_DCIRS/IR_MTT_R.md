@@ -1,7 +1,7 @@
 ---
 permalink: /tables/IR_MTT_R
 ---
-# IR_MTT_R
+# IR\_MTT\_R
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 <!-- ATTENTION : Ne pas supprimer ou modifier la ligne ci-dessous -->
