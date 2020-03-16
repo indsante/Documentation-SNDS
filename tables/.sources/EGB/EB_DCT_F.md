@@ -1,7 +1,7 @@
 ---
 permalink: /tables/EB_DCT_F
 ---
-# EB_DCT_F
+# EB\_DCT\_F
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 <!-- ATTENTION : Ne pas supprimer ou modifier la ligne ci-dessous -->

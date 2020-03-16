@@ -1,7 +1,7 @@
 ---
 permalink: /tables/IR_BEN_R
 ---
-# IR_BEN_R
+# IR\_BEN\_R
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 **IR_BEN_R** contient les informations sociodémographiques des bénéficiaires consommants depuis la date d’archivage du DCIR : sexe, mois et année de naissance, commune et département de résidence, et date de décès.
 
