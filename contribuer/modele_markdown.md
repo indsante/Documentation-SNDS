@@ -1,17 +1,17 @@
-# Titre page
+# Modèle Markdown
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Description du contenu de la page
 
-## Titre partie - Rappel Makdown
+## Mise en page courante
 
-### Titre sous-partie - Formatage de base
+### Italique et gras
 
 Texte en *italique*
 
 Texte en **gras**
 
-### Titre sous-partie - Listes
+### Listes
 
 Liste à puce
 - premier niveau
@@ -27,30 +27,37 @@ Liste numerotée
     1. second niveau
 1. premier niveau
 
-### Titre sous-partie - Liens 
+## Inclure des liens
+
+### Liens externes 
 
 Lien vers url externe
 [texte du lien](http://example.com/)
 
+### Liens internes
+
 Lien vers document interne
+[texte du lien](../glossaire/GHM.md)
 
-[lien vers images/dico_snds.png](../files/images/dico_snds.png)
+## Inclure des images
 
+Pour afficher une image, ajouter un point d'exclamation devant son
+chemin ou son URL.  
+![texte alternatif de l'image](files/images/logo/logoSNDS.jpg)
 
-Image en lien rendue dans la page avec point d'exclamation devant
-
-![texte alternatif de l'image](../files/images/dico_snds.png)
-
-
-Balises html, pour une image centrée et de largeur 600px fixée
-
+Utilisez des balises html, pour une image centrée et de largeur 100px fixée.
 <p style="text-align:center;">
-<img src="images/tutoriel_github/commit.png" alt="commit" width="600"/>
+<img src="files/images/logo/logoSNDS.jpg" width="100"/>
 </p>
 
+## Inclure du code
+Pour introduire du code au sein d’un paragraphe, il faut encadrer le dit code par des accents graves.  
+*Exemple:*  `PRS_NAT_REF` 
 
-## Titre partie
+Pour introduire un bloc de code, il faut encadrer ledit code par deux groupes de trois accents graves et préciser le langage de programmation pour une coloration syntaxique adaptée.
 
-### Titre sous-partie
-
-### Titre sous-partie
+*Exemple:* 
+```sql
+SELECT * 
+FROM SNDS
+```
