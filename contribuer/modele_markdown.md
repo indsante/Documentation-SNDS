@@ -43,11 +43,11 @@ Lien vers document interne
 
 Pour afficher une image, ajouter un point d'exclamation devant son
 chemin ou son URL.  
-![texte alternatif de l'image](files/images/logo/logoSNDS.jpg)
+![texte alternatif de l'image](../files/images/logo/logoSNDS.jpg)
 
 Utilisez des balises html, pour une image centrée et de largeur 100px fixée.
 <p style="text-align:center;">
-<img src="files/images/logo/logoSNDS.jpg" width="100"/>
+<img src="../files/images/logo/logoSNDS.jpg" width="100"/>
 </p>
 
 ## Inclure du code
