@@ -36,21 +36,28 @@ Sauter une ligne pour changer de paragraphe.
 ### Listes à puces
 ```
 * élément 1
+    * sous-élément 1
+    * sous-élément 2
 * élément 2
 ```
 Résultat : 
 * élément 1
+    * sous-élément 1
+    * sous-élément 2
 * élément 2
 
 ### Listes numérotées
 ```
 1. élément 1
+    1. sous-élément 1
+    2. sous-élément 2
 2. élément 2
 ```
 Résultat : 
 1. élément 1
+    1. sous-élément 1
+    2. sous-élement 2
 2. élément 2
-
 
 ## Lignes horizontales
 ```
@@ -129,18 +136,57 @@ Résultat : [Lien vers la page de la table ER_PRS_F](/tables/ER_PRS_F)
 :::
 
 ### Inclure une image
-Pour afficher une image, ajouter un **point d'exclamation** devant son chemin ou son URL.
+Pour inclure une image, il faut tout d'abord la téléverser dans Gitlab (voir fiche [Ajouter des fichiers](https://documentation-snds.health-data-hub.fr/contribuer/nouveau_fichier.html)). 
+
+1. Pour afficher une image, ajouter un **point d'exclamation** devant son chemin ou son URL.
 
 ```
 ![texte alternatif de l'image](../files/images/logo/logoSNDS.jpg)
 ```
 Résultat : ![texte alternatif de l'image](../files/images/logo/logoSNDS.jpg)
 
-Pour préciser les dimensions de l'image, il faut utiliser des balises html.
+2. Pour préciser les dimensions de l'image, il faut utiliser des balises html.
 ```
+<img src="../files/images/logo/logoSNDS.jpg" alt="Éditer sur GitLab" width="100px"/>
+```
+Résultat : <img src="../files/images/logo/logoSNDS.jpg" alt="Éditer sur GitLab" width="100px"/>
+
+3. Légende
+
+Pour ajouter une légende[^legende], on écrit une ligne de texte en italique sous l'image.
+Pour que ce texte soit **en dessous** de l'image, insérer deux espaces à la fin de la ligne d'insertion de l'image.
+
+[^legende]: Mardown n'a pas à proprement parler de notion de légende.
+
+```
+![texte alternatif de l'image](../files/images/logo/logoSNDS.jpg)    
+*Logo SNDS* 
+```
+Résultat :
+
+![Editer sur Gitlab](../files/images/logo/logoSNDS.jpg)  
+*Logo SNDS* 
+
+4. Pour centrer l'image, des balises html doivent également être utilisées :
+```
+<p align="center">
 <img src="../files/images/logo/logoSNDS.jpg" width="100px"/>
+</p>
 ```
-Résultat : <img src="../files/images/logo/logoSNDS.jpg" width="100px"/>
+Résultat :
+
+<p style="text-align:center;">
+<img src="../files/images/logo/logoSNDS.jpg" alt="Éditer sur GitLab" width="100"/>
+</p>
+
+## Notes de bas de page
+Il est possible d'ajouter des notes de bas de page dans la documentation. Les notes de bas de page sont principalement à utiliser pour les références bibliographiques. Pour des usages tels que les définitions, préférer des liens vers des fiches de glossaire.
+
+1. Note de bas de page courte (chiffre ou lettre)  
+`[^id]` à l’endroit d’insertion. `id` peut être n'importe quel texte ou nombre (sans espace). Il est possible d'avoir plusieurs points d'insertion dans une note.
+
+2. Note de bas de page longue (paragraphe)  
+`[^contenu de la note]`. Les paragraphes suivants sont indentés, pour indiquer qu'ils appartiennent à la note. 
 
 ## Tableaux
 Pour écrire des tableaux, le plus simple est de copier-coller les cellules du tableau dans GitLab depuis un outil de tableur tel qu'Excel. 
