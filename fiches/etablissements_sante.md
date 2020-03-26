@@ -58,7 +58,7 @@ ELSE :
 ```
 
 Deux postes avec un code établissement public devraient être retenus avec les soins de ville, 
-à savoir les **rétrocessions** et les **centres de santé**.
+à savoir les [rétrocessions](../glossaire/retrocession.md) et les **centres de santé**.
 Les rétrocessions correspondent à de la pharmacie hospitalière en établissement. Le code prestation `PRS_NAT_REF` est parmi 
 3317, 3318, 3319, 3351, 3352, 3353, 3354, 3355, 3356, 3357, 3330 (table de valeur `IR_NAT_V`). 
 Les centres de santé correspondent aux  catégories d'établissements (124, 125, 130, 132, 133, 134, 142, 223, 224, 228, 230, 268, 269, 289, 297, 347, 413, 414, 433, 438, 439,700) de la variable `ETE_CAT_COD`(table de valeur `IR_CET_V`). 
