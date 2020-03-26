@@ -17,6 +17,14 @@
       <span class="prefix">{{ lastUpdatedText }}:</span>
       <span class="time">{{ lastUpdated | moment }}</span>
     </div>
+    <div>
+      <br/>
+      <input type="hidden" value="https://gitlab.com/healthdatahub/documentation-snds/-/blob/master/" id="Citation">
+      <button class="button" v-on:click="copyQuotation()">Copier le lien à citer</button>
+      <div class="last-updated">
+      Licence : Mozilla Public License 2.0 (MPL-2.0)
+       </div>
+    </div>
   </footer>
 </template>
 <script>
@@ -199,6 +207,19 @@ export default {
         + path
       )
 
+    },
+    /**
+     * Copies the link to quote the page
+     */
+    copyQuotation: function(event){
+      var copyText = document.getElementById("Citation");
+      copyText.value += this.$page.relativePath.replace('tables/','tables/.sources/');
+      copyText.setAttribute('type', 'text'); 
+      copyText.select();
+      document.execCommand("copy");
+      alert("Le lien suivant a été copié: " + copyText.value);
+      copyText.value = "https://gitlab.com/healthdatahub/documentation-snds/-/blob/master/";
+      copyText.setAttribute('type', 'hidden'); 
     }
   },
 
@@ -235,6 +256,13 @@ export default {
     .time
       font-weight 400
       color #aaa
+  .button
+    border 1px solid #ddd
+    border-radius 4px
+    font-size 14px
+    cursor pointer
+    background-color lighten($textColor, 25%)
+    color #fff
 
 @media (max-width: $MQMobile)
   .page-edit
