@@ -1,4 +1,4 @@
-# La Complémentaire Santé Solidaire
+# Complémentaire Santé Solidaire
 
 A partir du 1er novembre 2019, l'[ACS](../fiches/acs.md) et la [CMU-C](../fiches/cmu_c.md) ont fusionné pour former 
 la [Complémentaire Santé Solidaire](https://www.complementaire-sante-solidaire.gouv.fr/).
