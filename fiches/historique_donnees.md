@@ -16,7 +16,7 @@ Cet historique permet de voir aussi l'ajout des différents régimes dans les ba
 
 ## Régimes disponibles et années de présence dans les tables
 
-| Régime | Intitulé | 2 ou 3 premiers caractères de ORG_AFF_BEN | IR_BEN_R | DCIR | CONSOPAT | Commentaires |
+| Régime | <div style="width:150px">Intitulé</div> | 2 ou 3 premiers caractères de ORG_AFF_BEN | IR_BEN_R | DCIR | CONSOPAT | <div style="width:290px">Commentaires</div> |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | RG | Régime Général | 01C | 2006 |2006 | 2006 | La Banque de France (BDF) est rattachée au RG depuis décembre 2009 mais codé en « BDF » dans la variable REGIME de CONSOPAT. |
 | SLM | Sections Locales Multualistes | 01M + 91 à 99 | 2006 | 2006 | 2006 | Le régime CAMIEG (Gaz et Electricité) est rattaché aux SLM depuis juillet 2008 mais codé en « CAMIEG » dans la variable REGIME de CONSOPAT. |
