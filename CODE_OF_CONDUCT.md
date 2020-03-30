@@ -1,4 +1,5 @@
 # Contributor Covenant Code of Conduct
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## Our Pledge
 
