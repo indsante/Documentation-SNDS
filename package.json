@@ -25,8 +25,9 @@
     "docs:dev": "yarn run start && vuepress dev",
     "docs:build": "yarn run start && vuepress build",
     "lint-md": "remark --frail --use remark-validate-links . --quiet",
-    "extended-lint-md": "yarn run start && remark --frail --use remark-validate-links --use remark-lint-no-dead-urls . --quiet"
-  },
+    "extended-lint-md": "yarn run start && remark --frail --use remark-validate-links --use remark-lint-no-dead-urls . --quiet",
+    "licence": "bash test-licence.sh"
+  }, 
   "devDependencies": {
     "vuepress-plugin-mermaidjs": "^1.2.0"
   }
