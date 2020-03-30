@@ -1,4 +1,5 @@
 # Tables
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Cette partie décrit les tables du SNDS et leurs schémas. 
 
