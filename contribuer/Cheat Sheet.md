@@ -1,4 +1,5 @@
 # Cheat Sheet
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 L'essentiel du guide de contribution est résumé sous la forme de Cheat Sheet pour faciliter la contribution. 
 
