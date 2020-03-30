@@ -27,6 +27,7 @@ const sidebar = [
             '/contribuer/contribution_tables',
             '/contribuer/developpement_local',
             '/contribuer/exercices_formation',
+            '/contribuer/Cheat_Sheet'
         ]
     }
 ];
