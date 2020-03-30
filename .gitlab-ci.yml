@@ -1,6 +1,15 @@
 stages:
   - test
 
+test-licence:
+  stage: test
+  image: node:12
+  before_script:
+  - yarn install
+  script:
+  - yarn licence
+  allow_failure: true
+
 test-internal-link-and-build:
   stage: test
   image: node:12
