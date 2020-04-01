@@ -1,5 +1,6 @@
-# Dépenses de soins de ville dans le DCIR et le DAMIR
+# Dépenses de soins de ville dans le DCIR, le DCIRS et le DAMIR
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
 
 ## DCIR
 
@@ -12,17 +13,19 @@ Différentes informations sur les montants sont indiquées :
 - le montant remboursé
 - le [taux de remboursement](https://www.ameli.fr/rhone/assure/remboursements/rembourse/tableau-recapitulatif-taux-remboursement/tableau-recapitulatif-taux-remboursement)
 - les [participations forfaitaires](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/participation-forfaitaire-1-euro) et [franchises médicales](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/franchise-medicale)
+- les participations supplémentaires prises en charge par le public ([CMU-C](../glossaire/CMUC.md), [AME](../glossaire/AME.md), etc.)
 
 ### Exemple schématique des différents montants 
 ![ex_montants_sdv](../files/HEVA/2019-07-16_HEVA_ex_montants_sdv_dcir_MPL-2.0.png)
 
+Dans cet exemple, il n'y a pas de parts supplémentaires. 
 
 ::: warning Attention
 Le reste à charge (RAC) après Assurance Maladie Complémentaire (AMC) n'est pas calculable. 
 
 Le SNDS ne dispose pas encore de l'échantillon représentatif des données de remboursement par bénéficiaire transmis par les organismes d'assurance maladie complémentaires (mutuelles, institutions de prévoyance et sociétés d'assurances) prévu dans la loi de modernisation du système de santé 2016 (cf. [projet ADAM de la DREES](https://drees.solidarites-sante.gouv.fr/IMG/pdf/programme_travail_2017.pdf#page=51)).
 
-On peut toutefois calculer le RAC après Assurance Maladie Obligatoire (AMO).
+On peut toutefois calculer le RAC après Assurance Maladie Obligatoire (AMO) et après prise en compte des participations supplémentaires. 
 :::
 
 ### Les tables et variables  
@@ -37,10 +40,14 @@ Les montants payé, de base et remboursé du régime obligatoire des soins de vi
 
 Les participations forfaitaires et franchises médicales sont dans la variable `CPL_REM_MNT` dans `ER_PRS_F` (`CPL_MAJ_TOP=2 and CPL_AFF_COD=16`). 
 
-Les montants liés à la couverture étendue de la CMUc et de l'Alsace-Moselle sont dans la table [ER_ARO_F](../tables/DCIR/ER_ARO_F.md)(`_XXXX`) via la variable `ARO_REM_MNT`.
+Les participations supplémentaires liés à la couverture étendue de la CMUc et de l'Alsace-Moselle sont dans la
+table [ER_ARO_F](../tables/DCIR/ER_ARO_F.md)(`_XXXX`) via la variable `ARO_REM_MNT`. La variable `ARO_REM_TYP` indique
+le type de la prise en charge supplémentaire (Alsace Moselle, CMUc, AME, etc.)
 
 ::: warning Attention
-Dans `ER_ARO_F`, si le patient est Alsace-Moselle et CMUc, il aura pour chaque soin, une ligne de remboursement supplémentaire Alsace-Moselle et une pour la CMUc (la variable `ARO_REM_TYP` permet de différencier les 2 types de remboursement).
+Dans `ER_ARO_F`, si le patient est Alsace-Moselle et CMUc, il aura pour chaque soin, 
+une ligne de remboursement supplémentaire Alsace-Moselle et une pour la CMU-C 
+(la variable `ARO_REM_TYP` permet de différencier les 2 types de remboursement).
 :::
 
 **Les montants dans les tables affinées**
@@ -111,7 +118,7 @@ Le patient bénéficie de la CMUc. Il sera remboursé de 25€ (100%) par le ré
 Le montant total remboursé est donc la somme des montants remboursés dans PRS et ARO.
 
 ::: warning 
-A noter : les professionels de santé ne sont pas autorisés à appliquer de dépassement d'honoraires pour les patients CMUc.
+A noter : les professionnels de santé ne sont pas autorisés à appliquer de dépassement d'honoraires pour les patients CMUc.
 :::
 
 4. **Une consultation chez un médecin généraliste le 04/03/2018 - patient Alsace-Moselle**
@@ -132,7 +139,8 @@ Il sera remboursé par le régime obligatoire de 22,50€ (90% au lieu de 70%). 
 5. **Une consultation chez un médecin généraliste le 03/04/2019 - complément et majoration - patient "classique"** 
 
 La consultation a eu lieu dans la nuit avec une majoration de coordination des généralistes.
-Le patient a payé 47,06€. Le montant de base de remboursement de la consultation est 25€ auquel il faut ajouter les montants de base de la majoration de coordination et du complément nuit. Le montant de base total est donc 25+19,06+3 soit 47,06€.
+Le patient a payé 47,06€. Le montant de base de remboursement de la consultation est 25€ auquel 
+il faut ajouter les montants de base de la majoration de coordination et du complément nuit. Le montant de base total est donc 25+19,06+3 soit 47,06€.
 Le patient ne bénéficie d'aucune exonération, il est donc remboursé au taux de 70% (soit 32,94€).
 
 Plusieurs lignes vont être présentes dans ER_PRS_F pour ce soin : 
@@ -143,12 +151,46 @@ Plusieurs lignes vont être présentes dans ER_PRS_F pour ce soin :
 | montant de base   | ER_PRS_F  | BSE_REM_BSE + CPL_REM_BSE| 25+19,06+3€  |
 | montant remboursé | ER_PRS_F  | BSE_REM_MNT + CPL_REM_MNT| 17,5+13,34+2,1€  |
 | dépassement       | ER_PRS_F  | PRS_PAI_MNT - (BSE_REM_BSE + CPL_REM_BSE) | 0€ |
-| RAC après AMO      | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_MNT | 14,12€     |
+| RAC après AMO      | ER_PRS_F  | PRS_PAI_MNT - BSE_REM_MNT -CPL_REM_MNT | 14,12€     |
 
 
 ::: warning À noter 
 L'exemple présente un cas de soin avec complément et majoration mais il est possible que seule une majoration (ou un complément) soit associé au soin.
 :::
+
+## DCIRS
+
+Dans le DCIRS, on retrouve le montant payé (`PRS_PAI_MNT`) et le taux de remboursement (`RGO_REM_TAU`). 
+Cependant, la partie de base et le complément sont sommés au sein de deux indicateurs:
+
+- le montant total remboursé (`TOT_REM_MNT` qui correspond à `BSE_REM_MNT`+`CPL_REM_MNT` dans le DCIR)
+- la base de remboursement totale (`TOT_REM_BSE` qui correspond à `BSE_REM_BSE`+`CPL_REM_BSE` dans le DCIR).
+
+
+On trouve ces variables dans la table prestation `NS_PRS_F`.
+
+
+::: warning Attention
+Si les variables ci-dessus se correspondent conceptuellement, il ne suffit pas de sommer ces variables du DCIR pour obtenir les mêmes valeurs
+que dans le DCIRS. En effet, le DCIRS est construit à partir du DCIR selon une procédure qui, entre autres, 
+filtre et agrège des observations 
+selon une logique orienté individu contrairement à la base DCIR qui est une base essentiellement comptable.
+
+:::
+
+
+
+Dans le DCIRS, les participations supplémentaires (Alsace-Moselle, CMUc, etc.) se trouvent dans les variables `AR1_REM_MNT`, `AR2_REM_MNT` et `AR3_REM_MNT`
+dans la table centrale des prestations `NS_PRS_F`. La logique n'est pas exactement la même que pour le DCIR. 
+
+En effet, les participations supplémentaires dans le DCIR, comme décrit plus haut, 
+sont dans une autre table qui peut comporter plusieurs lignes pour un acte en fonction du type de remboursement. 
+Dans le DCIRS, les variables de participations supplémentaires ont été ajoutées à la table centrale 
+et pour résoudre ce problème de la relation *one-to-many*, les parts supplémentaires remboursées ont été séparées en trois possibles occurrences. 
+Par exemple, si un patient se voit rembourser deux types de parts supplémentaires, alors `AR1_REM_MNT` et `AR2_REM_MNT` seront positives. 
+Les variables `AR1_REM_TYP`, `AR2_REM_TYP` et `AR3_REM_TYP` permettent d'associer à chaque occurrence le type de remboursement correspondant.
+
+A noter que la nomenclature de `AR1_REM_TYP`, `AR2_REM_TYP` et `AR3_REM_TYP` est la même que celle de `ARO_REM_TYP` dans le DCIR (table `ER_ARO_F`). 
 
 ## DAMIR
 
