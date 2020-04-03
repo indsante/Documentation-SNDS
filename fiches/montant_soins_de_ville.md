@@ -283,4 +283,6 @@ Le contenu de cette fiche s'appuie fortement sur les présentations faites par l
 Elle a été rédigée par [HEVA](https://hevaweb.com/fr/#!/).
 
 La partie sur le DAMIR s'appuie sur le support de formation DAMIR. Elle a été rédigée par Kristel JACQUIER (DSS).
+
+La partie sur le DCIRS a été rédigée par Raphaële Adjerad (DREES).
 :::
