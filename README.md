@@ -17,7 +17,7 @@ Cette documentation est maintenue par le Health data hub.
 
 Elle résulte d'une mise en commun de documents et travaux par plusieurs organisations, dont :
 - la Caisse nationale d'assurance maladie - [Cnam](https://www.ameli.fr/)
-- l'Institut National des Données de Santé - [INDS](https://www.indsante.fr/)
+- le Health Data Hub - [HDH](https://www.health-data-hub.fr)
 - la Direction de la Recherche, des études, de l’évaluation et des statistiques - 
 [DREES](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/la-drees/)
 - les Agences régionales de santé - [ARS](https://www.ars.sante.fr/)
