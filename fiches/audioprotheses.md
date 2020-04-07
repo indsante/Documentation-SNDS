@@ -1,7 +1,20 @@
-# Audioprothèses
+# Audioprothèses 
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Dans le SNDS, les dépenses en audioprothèse sont regroupées sous 2 codes prestations (variable PRS_NAT_REF) :
+
+Il existe plusieurs types d'audioprothèses, ou "aides auditives". On peut en effet les classer en appareils intra-auriculaires, contours à écouteurs
+déportés ou contours classiques. 
+
+Ce domaine du SNDS est en train de subir des **changements**, en particulier en **termes de nomenclature** dans le cadre de la
+[réforme du 100% santé](https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/100pourcent-sante/). 
+Cette réforme est progressivement mise en oeuvre de 2019 à 2021. 
+Cette fiche sera donc scindée en deux parties, avant et après la mise en place de la réforme du 100 % santé. 
+
+
+
+## Les audioprothèses dans le SNDS avant la réforme du 100 % sante 
+
+Dans le SNDS, les dépenses en audioprothèses sont regroupées sous trois codes prestations (variable `PRS_NAT_REF`) :
 
 - 3541 : APPAREILS ELECTRONIQUES DE SURDITE  (CHAP 3.)
 - 3547 : APPAREILS ELECTRONIQUES DE SURDITE (CONSOMMABLES Y.C. PILES)
@@ -130,6 +143,9 @@ PROC SQL;
   ;
 QUIT;
 ```
+
+
+## Les audioprothèses dans le SNDS après la mise en place du 100 % santé
 
 ## Références
 - Documentation sur ameli [https://www.ameli.fr/assure/remboursements/rembourse/optique-audition/protheses-auditives](https://www.ameli.fr/assure/remboursements/rembourse/optique-audition/protheses-auditives)
