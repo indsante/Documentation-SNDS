@@ -7,25 +7,54 @@ déportés ou contours classiques.
 
 Ce domaine du SNDS est en train de subir des **changements**, en particulier en **termes de nomenclature** dans le cadre de la
 [réforme du 100% santé](https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/100pourcent-sante/). 
-Cette réforme est progressivement mise en oeuvre de 2019 à 2021. 
-Cette fiche sera donc scindée en deux parties, avant et après la mise en place de la réforme du 100 % santé. 
+La réforme du 100 % santé est **progressivement mise en oeuvre** de 2019 à 2021. 
+Cette fiche s'attachera à mettre en valeur les changements suite à la mise en place de la réforme du 100 % santé. 
+Cette fiche aborde principalement les aspects concernant les dépenses et les prix des audioprothèses.
 
 
+## Les audioprothèses/aides auditives dans le SNDS
 
-## Les audioprothèses dans le SNDS avant la réforme du 100 % sante 
+Dans la table centrale des prestations dans le `DCIR` ou dans le `DCIRS`, on peut cibler les dépenses en audioprothèses via les
+codes de prestations `PRS_NAT_REF` ([norme PS5](../fiches/prestation.md)) ou les codes prestations de la norme B2 (`PRS_NAT_CB2`) suivants : 
 
-Dans le SNDS, les dépenses en audioprothèses sont regroupées sous trois codes prestations (variable `PRS_NAT_REF`) :
+| `PRS_NAT_REF`| `PRS_NAT_LIB` | `PRS_NAT_CB2` |
+| ------------ | ------------- | ------------- |
+| 3541 | APPAREILS ELECTRONIQUES DE SURDITE  (CHAP 3.) | PAU/AUA |
+| 3547 | APPAREILS ELECTRONIQUES DE SURDITE (CONSOMMABLES Y.C. PILES) | AUP |
+| 3549 | PROCESSEUR POUR IMPLANT OSTE-INTEGRE | PIO |
+| 3550 | PROTHESE AUDITIVE SUIVI | SUI | 
+|  **3540**| **PROTHESE AUDITIVE RAC ZERO** | **PAZ**
+*Note* : le code prestation correspondant aux prothèses auditives "100 % santé", i.e. de Classe I dans la terminologie
+de la réforme, est mis en valeur en gras.
 
-- 3541 : APPAREILS ELECTRONIQUES DE SURDITE  (CHAP 3.)
-- 3547 : APPAREILS ELECTRONIQUES DE SURDITE (CONSOMMABLES Y.C. PILES)
-- 3549 : PROCESSEUR POUR IMPLANT OSTE-INTEGRE
 
-Ces dépenses comprennent l'achat d'appareil auditif à proprement parler, l'entretien et la réparation de l'appareil ainsi que les processeurs pour les implants. 
-Le détail est donné par le code [LPP](../glossaire/LPP.md) des [audioprothèses](http://www.codage.ext.cnamts.fr/codif/tips//chapitre/index_chap.php?p_ref_menu_code=53&amp;p_site=AMELI)
+Il est également possible de rechercher les dépenses en audioprothèses à un niveau de détail plus fin 
+dans la table affinée `ER_TIP_F` (pour le `DCIR`) ou `NS_TIP_F` pour le `DCIRS`. En effet, 
+les audioprothèses font partie intégrante de la [LPP](../glossaire/LPP.md), plus précisément du Titre II, chapitre 3.
 
-Ces codes sont donnés par la variable `TIP_PRS_IDE` dans la table de prestation affinée des dispositifs médicaux : [ER_TIP_F](../tables/DCIR/ER_TIP_F.md). 
-Il faut donc effectuer une jointure dans le DCIR entre la table prestations [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) et `ER_TIP_F` pour avoir le détail par codes LPP.
-Dans le DCIRS, il faut joindre les tables [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md) et [NS_TIP_F](../tables/DCIRS/NS_TIP_F.md). 
+A noter que le code `3550,PROTHESE AUDITIVE SUIVI,SUI` ci-dessus correspond au code LPP de suivi des prothèses auditives. 
+Il correspond à une consultation d'un audioprothésiste pour le réglage des aides auditives, qui est transmise par télétransmission.
+Cette consultation, facturée 0,01€ auprès de l’AMO, est remboursée à 100 % par l'AMO, et permet un suivi
+dans le SNDS des prothèses auditives.
+
+
+Les dépenses en audioprothèses comprennent:
+- **l'achat d'appareil auditif** à proprement parler, 
+- l'**entretien** et la **réparation** de l'appareil ainsi que 
+- les **processeurs pour les implants**. 
+
+Pour obtenir le détail par le code [LPP](../glossaire/LPP.md) 
+des [audioprothèses](http://www.codage.ext.cnamts.fr/codif/tips//chapitre/index_chap.php?p_ref_menu_code=53&amp;p_site=AMELI),
+il convient de regarder la variable `TIP_PRS_IDE` dans la table de prestation affinée des dispositifs médicaux : [ER_TIP_F](../tables/DCIR/ER_TIP_F.md). 
+Il faut donc effectuer une jointure dans le DCIR entre la table prestations [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) et `ER_TIP_F`, par les neuf
+clefs de jointure techniques.
+
+Dans le DCIRS, il faut joindre les tables [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md) et [NS_TIP_F](../tables/DCIRS/NS_TIP_F.md) par la clef de 
+jointure unique `CLE_DCI_JNT`. 
+
+La correspondance entre les codes LPP et les codes prestations est donnée dans 
+la table de nomenclature `NT_HIS`, où `LPH_PRS_NAT` représente le code prestation et `LPH_PRS_IDE` 
+représente le code LPP. 
 
 ## Répartition des achats par codes LPP
 
@@ -145,7 +174,6 @@ QUIT;
 ```
 
 
-## Les audioprothèses dans le SNDS après la mise en place du 100 % santé
 
 ## Références
 - Documentation sur ameli [https://www.ameli.fr/assure/remboursements/rembourse/optique-audition/protheses-auditives](https://www.ameli.fr/assure/remboursements/rembourse/optique-audition/protheses-auditives)
@@ -156,6 +184,6 @@ QUIT;
 
 Le contenu original de cette fiche provient du document
 [2019-03-22_DREES_Audioprothèses_MLP-2.0.docx](../files/DREES/2019-03-22_DREES_Audioproth%C3%A8ses_MPL-2.0.docx) rédigé par Kristel JACQUIER.
-Il a été complété par Raphaële ADJERAD
+Il a été complété par Raphaële ADJERAD (DREES)
 
 :::
