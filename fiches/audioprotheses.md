@@ -2,14 +2,15 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 
-Il existe plusieurs types d'audioprothèses, ou "aides auditives". On peut en effet les classer en appareils intra-auriculaires, contours à écouteurs
-déportés ou contours classiques. 
+Il existe plusieurs types d'audioprothèses, aussi appelées "aides auditives". On peut en effet les classer en appareils intra-auriculaires, contours à écouteurs
+déportés ou contours classiques. Cette fiche aborde principalement les aspects concernant les dépenses et les prix des audioprothèses, ainsi
+que tous ces types d'audioprothèses.
 
 Ce domaine du SNDS est en train de subir des **changements**, en particulier en **termes de nomenclature** dans le cadre de la
 [réforme du 100% santé](https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/100pourcent-sante/). 
-La réforme du 100 % santé est **progressivement mise en oeuvre** de 2019 à 2021. 
-Cette fiche s'attachera à mettre en valeur les changements suite à la mise en place de la réforme du 100 % santé. 
-Cette fiche aborde principalement les aspects concernant les dépenses et les prix des audioprothèses.
+Cette réforme est **progressivement mise en oeuvre** de 2019 à 2021, ce qui implique une montée en charge et un changement
+dans les nomenclatures. 
+Cette fiche s'attachera à mettre en valeur ces changements suite à la mise en place de la réforme du 100 % santé. 
 
 
 ## Les audioprothèses/aides auditives dans le SNDS
@@ -24,13 +25,16 @@ codes de prestations `PRS_NAT_REF` ([norme PS5](../fiches/prestation.md)) ou les
 | 3549 | PROCESSEUR POUR IMPLANT OSTE-INTEGRE | PIO |
 | 3550 | PROTHESE AUDITIVE SUIVI | SUI | 
 |  **3540**| **PROTHESE AUDITIVE RAC ZERO** | **PAZ**
+
 *Note* : le code prestation correspondant aux prothèses auditives "100 % santé", i.e. de Classe I dans la terminologie
 de la réforme, est mis en valeur en gras.
 
 
 Il est également possible de rechercher les dépenses en audioprothèses à un niveau de détail plus fin 
-dans la table affinée `ER_TIP_F` (pour le `DCIR`) ou `NS_TIP_F` pour le `DCIRS`. En effet, 
+dans la table affinée `ER_TIP_F` pour le `DCIR` ou `NS_TIP_F` pour le `DCIRS`. En effet, 
 les audioprothèses font partie intégrante de la [LPP](../glossaire/LPP.md), plus précisément du Titre II, chapitre 3.
+Il est donc également possible d'utiliser la base de données *open data* de la CNAM
+ [OPENLPP](http://open-data-assurance-maladie.ameli.fr/LPP/index.php) pour explorer ce champ.
 
 A noter que le code `3550,PROTHESE AUDITIVE SUIVI,SUI` ci-dessus correspond au code LPP de suivi des prothèses auditives. 
 Il correspond à une consultation d'un audioprothésiste pour le réglage des aides auditives, qui est transmise par télétransmission.
@@ -53,79 +57,41 @@ Dans le DCIRS, il faut joindre les tables [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md
 jointure unique `CLE_DCI_JNT`. 
 
 La correspondance entre les codes LPP et les codes prestations est donnée dans 
-la table de nomenclature `NT_HIS`, où `LPH_PRS_NAT` représente le code prestation et `LPH_PRS_IDE` 
-représente le code LPP. 
+la table de nomenclature `NT_HIS`, où `LPH_PRS_NAT` représente le code prestation en norme B2 (`PRS_NAT_CB2`)
+ et `LPH_PRS_IDE` représente le code LPP. 
 
-## Répartition des achats par codes LPP
-
-| **LPP** | **Libellé** | **% des dépenses** | **% des prestations** |
-| --- | --- | --- | --- |
-| **2335791** | AUDIOPROTHESE, APPAREIL DE CLASSE D, > OU = 20 ANS | 83,5% | 27,6% |
-| **2340119** | AUDIOPROTHESE, ENTRETIEN & REPARATIONS, ALLOCATION FORFAITAIRE ANNUELLE | 6,8% | 61,8% |
-| **2355084** | AUDIOPROTHESE, APPAREIL DE CLASSE D, < 20 ANS | 4,1% | 1,4% |
-| **2343856** | AUDIOPROTHESE, ENTRETIEN ET REPARATIONS, MICROPHONE | 2,1% | 1,1% |
-| **2369471** | AUDIOPROTHESE, APPAREIL DE CLASSE C, > OU = 20 ANS | 1,4% | 1,2% |
-| **2357338** | AUDIOPROTHESE, ENTRETIEN ET REPARATIONS, > OU = 20 ANS, EMBOUT | 0,8% | 2,5% |
-| **2344100** | AUDIOPROTHESE, ENTRETIEN ET REPARATIONS, ECOUTEUR | 0,7% | 2,4% |
-| **2351548** | AUDIOPROTHESE, APPAREIL DE CLASSE A, > OU = 20 ANS | 0,2% | 0,3% |
-| **2346441** | AUDIOPROTHESE, LUNETTES AUDITIVES, > OU = 20 ANS | 0,1% | 0,0% |
-| **2312927** | AUDIOPROTHESE, ENTRETIEN ET REPARATIONS, >OU= 2 ANS &amp; < 20 ANS OU CECITE, EMBOUT | 0,1% | 0,8% |
-| **2340208** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA, PROCESSEUR | 0,1% | 0,0% |
-| **2352097** | AUDIOPROTHESE, ENTRETIEN ET REPARATIONS, POTENTIOMETRE | 0,0% | 0,1% |
-| **2383933** | AUDIOPROTHESE, APPAREIL DE CLASSE B, > OU = 20 ANS | 0,0% | 0,0% |
-| **2341449** | AUDIOPROTHESE, BOITIER AVEC ACCESSOIRES, > OU = 20 ANS | 0,0% | 0,0% |
-| **2392079** | AUDIOPROTHESE, LUNETTES AUDITIVES, < 20 ANS | 0,0% | 0,0% |
-| **2316782** | AUDIOPROTHESE, APPAREIL DE CLASSE A, < 20 ANS | ||
-| **2325723** | AUDIOPROTHESE, APPAREIL DE CLASSE B, < 20 ANS |||
-| **2355820** | AUDIOPROTHESE, APPAREIL DE CLASSE C, < 20 ANS |||
-| **2326190** | AUDIOPROTHESE, BOITIER AVEC SES ACCESSOIRES, < 20 ANS |||
-| **2349712** | AUDIOPROTHESE, ENTRETIEN ET REPARATIONS, VIBRATEUR A CONDUCTION OSSEUSE |||
-| **2306832** | AUDIOPROTHESE, ENTRETIEN ET REPARATIONS, < 2 ANS, EMBOUT |||
-
-*Source : DCIR (Base école), extraction mars 2018*
+## Répartition de la base de remboursement par codes LPP
 
 
+![graphique base remboursement audio](../files/DREES/2020-04-09_audioprotheses.png "Base remboursement titre II chap 3")
+![graphique base remboursement audio_quantite](../files/DREES/2020-04-09_audioprotheses_quantite.png "Quantité titre II chap 3")
 
-En part des achats, on trouve 30% d'appareil auditif et 70% de dépenses d'entretien et réparation. 
+*Note*: Ces graphiques sont donnés à titre indicatif, graphique 1: 10 premiers codes LPP
+en parts de la base de remboursement, graphique 2: 10 premiers codes LPP en ce qui concerne la
+quantité d'actes. 
+
+*Source*: OPENLPP, 2018
+
+
+En part d'achats, on trouve 30% d'appareil auditif et 70% de dépenses d'entretien et réparation. 
 Les entretiens et réparations coutent moins de 260€ dans 98% des cas.
+L'achat d'appareils auditifs représente 89% des dépenses totales 
+(seulement 11% pour les dépenses d'entretien et réparations)
 
-L'achat d'appareils auditifs représente 89% des dépenses totales (seulement 11% pour les dépenses d'entretien et réparations)
-
-Pour exclure la partie entretien et réparation, appliquer le filtre `TIP_PRS_TYP` NOT IN (2,5).
-
-`TIP_PRS_TYP` = Type de Prs Fournie LPP (table de valeur IR_PRF_V).
-
-En outre, les **implants cochléaires** sont des appareils électroniques insérés dans l'oreille interne reliés à 
+Il est possible d'exclure la partie entretien et réparation en appliquant  un filtre
+ sur le type de prestations : `TIP_PRS_TYP` NOT IN (2,5). Il convient de se référer à la
+ nomenclature `IR_PRF_V` pour cette variable.
+ 
+Dans le titre II, chapitre 3, on peut trouve également les **implants cochléaires**, qui sont  
+également des aides auditives. Ce sont des appareils électroniques insérés dans l'oreille interne reliés à 
 un microphone posé derrière le pavillon de l'oreille.
 
 
-La liste des implants cochléaires est la suivante:
-
-| **LPP** | **Libellé** |
-| --- | --- |
-| **2350922** | IMPLANT COCH OU TRONC CEREBRAL, PROCESSEUR, FORFAIT ANNUEL ACCESSOIRES |
-| **2325090** | IMPLANT COCH OU TRONC CEREBRAL, PROCESSEUR, FORFAIT ANNUEL PILES JETABLES|
-| **2326941** | IMPLANT COCH OU TRONC CEREBRAL, PROCESSEUR, CHARGEUR ET BATTERIES RECHARGEABLES |
-| **2330977** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA BP110 POWER, PROCESSEUR. |
-| **2326438** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA 4, PROCESSEUR. |
-| **2340208** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA, PROCESSEUR |
-| **2331043** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA, ENTRETIEN ET REPARATIONS, FORFAIT | 
-| **2304997** | PROTHESE OSTEO-INTEGREE, PRODITION, PONTO, PROCESSEUR |
-| **2382885** | PROTHESE OSTEO-INTEGREE, PRODITION, PONTO, ENTRETIEN ET REPARATIONS, FORFAIT | 
-| **2378725** | PROTHESE OSTEO-INTEGREE, PRODITION, PONTO 3, PROCESSEUR. | 
-| **2338022** | PROTHESE OSTEO-INTEGREE, PRODITION, PONTO 3 POWER, PROCESSEUR. | 
-| **2339412** | PROTHESE OSTEO-INTEGREE, PRODITION, PONTO 3 SUPER POWER, PROCESSEUR | 
-| **2350388** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA ATTRACT, DEUX AIMANTS EXTERNES | 
-| **2372786** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA 5, PROCESSEUR. | 
-| **2303118** | IMPLANT OREILLE MOYENNE, AUDIOPROCESSEUR, MED-EL, VIBRANT SOUNDBRIDGE | 
-| **2358645** | IMPLANT OREILLE MOYENNE, MED-EL, VIBRANT SOUNDBRIDGE, FORFAIT PILES | 
-| **2344873** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA 5 POWER, PROCESSEUR. | 
-| **2300864** | PROTHESE OSTEO-INTEGREE, COCHLEAR, BAHA 5 SUPER POWER, PROCESSEUR. | 
-
-Comme pour les prothèses auditives, certains codes LPP sont liés à l'implant cochléaire, d'autres à l'entretien et aux réparations et 
-d'autres au processeur. 
-
 ## Prix d'un appareil auditif 
+
+::: tip Note
+Ces données datent de 2018.
+:::
 
 |   | **Fréquence** | **%** | **Fréquence cumulée** | **%** |
 | --- | --- | --- | --- | --- |
@@ -134,7 +100,7 @@ d'autres au processeur.
 | **entre 2000€ et 2999€** | 3532 | 8,3 | 40325 | 95,3 |
 | **plus de 2999€** | 2004 | 4,7 | 42329 | 100 |
 
-*Source  : DCIR (Base école)*
+*Source*  : DCIR (Base école)
 
 **Prix moyen**
 
@@ -167,23 +133,100 @@ PROC SQL;
           t1.PRS_ORD_NUM = t2.PRS_ORD_NUM AND 
           t1.REM_TYP_AFF = t2.REM_TYP_AFF)
   )
-  WHERE t1.prs_nat_ref in ( **3541** , **3547**, **3549** )
+  WHERE t1.prs_nat_ref in ( **3541** , **3547**, **3549**, **3540** ) # ajout du code prestation prothèses RAC zéro
         AND t1.dpn_qlf <> 71
   ;
 QUIT;
 ```
 
+## Evolutions de nomenclatures audioprothèses
+
+La nomenclature de la LPP est disponible [ici](http://www.codage.ext.cnamts.fr/codif/tips//telecharge/index_tele.php?p_site=AMELI).
+Les fichiers sont au format `.dbf` et permettent d'avoir la totalité des codes LPP ainsi que 
+leur historique (table `tot` et table `histo_tot` dans le fichier zippé). Cette nomenclature a subi des changements suite à 
+la réforme du 100 % santé. 
+
+Le code suivant en python vous permet de comparer les deux tables dbf (après leur téléchargement) et 
+d'isoler les nouveaux codes dans le titre II, chapitre 3. 
+```python
+# modules
+import pandas as pd
+from dbfread import DBF
+
+path2file = "files/DREES/"
+
+# Import --------------------------------------------------
+# Nomenclature LPP
+lpp = DBF(path2file + 'lpp_fiche_tot578.dbf', encoding="cp850")
+lpp = pd.DataFrame(iter(lpp))
+lpp = lpp.rename(columns={"CODE_TIPS": "LPP_PRS_IDE",
+                          "NOM_COURT": "LPP_RED_LIB",
+                          "AGE_MAX": "LPP_MAX_AGE",
+                          "TYPE_PREST": "LPP_PRS_TYP",
+                          "DATE_FIN": "LPP_VAL_DTF",
+                          "ARBO1": "LPP_ARB_CHA",
+                          "ARBO2": "LPP_ARB_SC1"})
+lpp = lpp.loc[:, ['LPP_PRS_IDE', 'LPP_RED_LIB', 'LPP_MAX_AGE', 'LPP_PRS_TYP',
+                  'LPP_VAL_DTF', 'LPP_ARB_CHA', 'LPP_ARB_SC1']]
+
+# Historique des codes
+lpp_histo = DBF(path2file + 'lpp_histo_tot578.dbf', encoding="cp850")
+lpp_histo = pd.DataFrame(iter(lpp_histo))
+lpp_histo = lpp_histo.rename(columns={"CODE_TIPS": "LPH_PRS_IDE",
+                                      "DEBUTVALID": "LPH_HIS_DTD",
+                                      "FINHISTO": "LPH_HIS_DTF",
+                                      "NAT_PREST": "LPH_PRS_NAT"})
+lpp_histo = lpp_histo.loc[:, ['LPH_PRS_IDE', 'LPH_HIS_DTD', 'LPH_HIS_DTF', 'LPH_PRS_NAT']]
+
+# Filtre : année d'entrée en vigueur >= 2019 -------------
+lpp_histo = lpp_histo.assign(LPH_HIS_DTD=pd.to_datetime(lpp_histo["LPH_HIS_DTD"]))
+lpp_histo = lpp_histo.loc[lpp_histo["LPH_HIS_DTD"].dt.year >= 2019, :]
+
+# Filtre : codes LPP Titre II, chapitre 3
+audio = lpp.loc[(lpp["LPP_ARB_CHA"] == 2) & (lpp["LPP_ARB_SC1"] == 3), :]
+
+# Filtre : fin de validité en 2019 ou pas de fin de validité
+audio = audio.assign(LPP_VAL_DTF=pd.to_datetime(audio["LPP_VAL_DTF"]))
+audio = audio.loc[(audio["LPP_VAL_DTF"].dt.year >= 2019) |
+                  (audio["LPP_VAL_DTF"].isna()), :]
+
+# Merge : entre historique et audio
+audio_new = pd.merge(audio, lpp_histo, left_on='LPP_PRS_IDE', right_on="LPH_PRS_IDE",
+                     how="inner")
+# attention, plusieurs lignes par codes s'il y a plusieurs lignes dans lpp_histo pour un code
+# dans audio
+```
+
+Ces tables dbf sont les dernières versions à jour (à partir des arrêtés dans le Journal Officiel). 
+La nomenclature `NT_LPP` est également disponible dans le portail CNAM dans la biliothèque ORAREF tout
+comme l'historique `NT_HIS`, mais il y a parfois des décalages entre ces référentiels et les fichiers dbf.
+On peut faire le parallèle entre la nomenclature `NT_LPP` et la `lpp_fiche_totVVV.dbf` d'une part
+et entre `NT_HIS` et `lpp_histo_totVVV.dbf` d'autre part (où VVV désigne la version).
+Dans le code ci-dessus, les noms des variables sont ici transformés pour correspondre aux tables `NT_LPP` et `NT_HIS`.
+
+L'apparition de nouveaux codes dans le titre II chapitre 3, entre autres, est due à l'entrée en vigueur, au 1er 
+janvier 2019 et au 1er janvier 2020, de codes pour les deux classes définies pour le 100 % santé.
+Les codes LPP reprennent les dichotomies précédentes, en distinguant les appareils pour
+les moins de 20 ans et pour les plus de 20 ans ainsi que l'oreille gauche et droite. 
+A cela s'ajoute les distinctions Classe I et Classe II, ainsi que les distinctions par marque. 
+A noter que certains codes entrée en vigueur au 1er janvier 2019 sont prévus d'être en fin de validité
+au 31 décembre 2019, cela est dû à la mise en place progressive de la réforme et à l'évolution des
+nomenclatures en conséquence. Ainsi, un code mis en place au 1er janvier 2019 d'un appareil classe I
+ a été remplacé par un ensemble de nouveaux codes au 1er janvier 2019 correspondant au même bien
+ mais avec le détail des marques. La **distinction en classe A, B, C et D a pris fin** à la fin de l'année 2018.
+
 
 
 ## Références
-- Documentation sur ameli [https://www.ameli.fr/assure/remboursements/rembourse/optique-audition/protheses-auditives](https://www.ameli.fr/assure/remboursements/rembourse/optique-audition/protheses-auditives)
+- Documentation sur ameli [prise_en_charge_aides_auditives](https://www.ameli.fr/assure/remboursements/rembourse/optique-audition/protheses-auditives)
 - Point de repère CNAMTS : 
-[https://www.ameli.fr/fileadmin/user_upload/documents/Points_de_repere_n_47___Le_marche_de_l_audioprothese_en_2015.pdf](https://www.ameli.fr/fileadmin/user_upload/documents/Points_de_repere_n_47___Le_marche_de_l_audioprothese_en_2015.pdf)
-
+[le_marche_des_audioprotheses_2015](https://www.ameli.fr/fileadmin/user_upload/documents/Points_de_repere_n_47___Le_marche_de_l_audioprothese_en_2015.pdf)
+- Nomenclature LPP sur ameli : [telechargement_lpp](http://www.codage.ext.cnamts.fr/codif/tips//telecharge/index_tele.php?p_site=AMELI)
+- Réforme du 100 % santé en audiologie : [site_ministère_santé](https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/100pourcent-sante/espace-professionnels/les-nouvelles-mesures-audiologie/article/la-reforme-100-sante-audiologie)
 ::: tip Crédits
 
 Le contenu original de cette fiche provient du document
 [2019-03-22_DREES_Audioprothèses_MLP-2.0.docx](../files/DREES/2019-03-22_DREES_Audioproth%C3%A8ses_MPL-2.0.docx) rédigé par Kristel JACQUIER.
-Il a été complété par Raphaële ADJERAD (DREES)
+Il a été complété par Raphaële ADJERAD (DREES).
 
 :::
