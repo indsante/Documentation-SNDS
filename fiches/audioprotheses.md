@@ -133,7 +133,7 @@ PROC SQL;
           t1.PRS_ORD_NUM = t2.PRS_ORD_NUM AND 
           t1.REM_TYP_AFF = t2.REM_TYP_AFF)
   )
-  WHERE t1.prs_nat_ref in ( **3541** , **3547**, **3549**, **3540** ) # ajout du code prestation prothèses RAC zéro
+  WHERE t1.prs_nat_ref in ( **3541** , **3547**, **3549**, **3540** ) 
         AND t1.dpn_qlf <> 71
   ;
 QUIT;
@@ -205,24 +205,31 @@ et entre `NT_HIS` et `lpp_histo_totVVV.dbf` d'autre part (où VVV désigne la ve
 Dans le code ci-dessus, les noms des variables sont ici transformés pour correspondre aux tables `NT_LPP` et `NT_HIS`.
 
 L'apparition de nouveaux codes dans le titre II chapitre 3, entre autres, est due à l'entrée en vigueur, au 1er 
-janvier 2019 et au 1er janvier 2020, de codes pour les deux classes définies pour le 100 % santé.
-Les codes LPP reprennent les dichotomies précédentes, en distinguant les appareils pour
-les moins de 20 ans et pour les plus de 20 ans ainsi que l'oreille gauche et droite. 
-A cela s'ajoute les distinctions Classe I et Classe II, ainsi que les distinctions par marque. 
-A noter que certains codes entrée en vigueur au 1er janvier 2019 sont prévus d'être en fin de validité
-au 31 décembre 2019, cela est dû à la mise en place progressive de la réforme et à l'évolution des
-nomenclatures en conséquence. Ainsi, un code mis en place au 1er janvier 2019 d'un appareil classe I
- a été remplacé par un ensemble de nouveaux codes au 1er janvier 2019 correspondant au même bien
- mais avec le détail des marques. La **distinction en classe A, B, C et D a pris fin** à la fin de l'année 2018.
+janvier 2019 et au 1er janvier 2020, de **codes pour les deux classes définies pour le 100 % santé**.
+Les codes LPP **reprennent les dichotomies précédentes**: 
+- en distinguant les appareils pour
+les moins de 20 ans et pour les plus de 20 ans 
+- ainsi que l'oreille gauche et droite. 
+- A cela s'ajoute les distinctions Classe I et Classe II,
+- ainsi que les distinctions par marque. 
+
+A noter que **certains codes entrés en vigueur au 1er janvier 2019 ont une fin de validité au
+ 31 décembre 2019**, cela est dû à la **mise en place progressive** de la réforme et à l'évolution des
+nomenclatures en conséquence. Par exemple, un code mis en place au 1er janvier 2019 pour un bien d'une certaine classe
+ pourra être remplacé par un ensemble de nouveaux codes au 1er janvier 2020 correspondant au même bien
+ mais avec le détail des marques. A noter que la **distinction en classe A, B, C et D**,
+  qui figure dans les graphiques ci-dessus, **a pris fin** à la fin de l'année 2018.
 
 
 
 ## Références
+
 - Documentation sur ameli [prise_en_charge_aides_auditives](https://www.ameli.fr/assure/remboursements/rembourse/optique-audition/protheses-auditives)
 - Point de repère CNAMTS : 
 [le_marche_des_audioprotheses_2015](https://www.ameli.fr/fileadmin/user_upload/documents/Points_de_repere_n_47___Le_marche_de_l_audioprothese_en_2015.pdf)
 - Nomenclature LPP sur ameli : [telechargement_lpp](http://www.codage.ext.cnamts.fr/codif/tips//telecharge/index_tele.php?p_site=AMELI)
 - Réforme du 100 % santé en audiologie : [site_ministère_santé](https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/100pourcent-sante/espace-professionnels/les-nouvelles-mesures-audiologie/article/la-reforme-100-sante-audiologie)
+
 ::: tip Crédits
 
 Le contenu original de cette fiche provient du document
