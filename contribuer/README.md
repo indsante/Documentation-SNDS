@@ -14,8 +14,9 @@ Les contributions visant à corriger des erreurs ou à compléter des pages exis
 Toute amélioration, même d'apparence mineure comme la correction de fautes d'orthographe, améliorera pour tous la qualité du contenu.
 
 Vous pouvez pour cela écrire un email aux mainteneurs du projets :
+- Lorien Benda - HDH <<lorien.benda@health-data-hub.fr>>
+- Olivier de Fresnoye - HDH <<olivier.defresnoye@health-data-hub.fr>>
 - Lab santé - DREES <<ld-lab-github@sante.gouv.fr>>
-- Olivier de Fresnoye - INDS <<olivier.defresnoye@indsante.fr>>
 
 Vous pouvez également utiliser le système de tickets, appelés **issues**, dans cet 
 [onglet](https://gitlab.com/healthdatahub/documentation-snds/issues). 
@@ -46,10 +47,10 @@ Une contribution de grande valeur consiste donc à partager publiquement des doc
 
 Vous avez deux options pour publier ces documents
 
-- sur le site internet de votre organisation 
+- sur le site internet de votre organisation.
 Nous les référencerons via un lien hypertexte dans la section [ressources externes](../ressources/internet.md). 
 
-- sur ce site de documentation
+- sur ce site de documentation.
 Nous ajouterons alors un lien de téléchargement dans la section des 
 [documents partagés via ce projet](../ressources/README.md), et nous les convertirons en page de documentation si approprié.
 
@@ -69,6 +70,6 @@ et d'être publiée sous la même licence afin de garantir les mêmes droits.
 
 Le partage de programmes ou scripts d'analyses est très utile pour la communauté.
 
-Nous partageons dans les fiches de courtes sections de code illustrative. 
+Nous partageons dans les fiches de courtes sections de code illustratives. 
 
-Les programmes plus conséquents, par exemple un script complet d'analyse, sont partagé dans le dépôt dédié [programme-snds](https://gitlab.com/healthdatahub/programmes-sdns).
+Les programmes plus conséquents, par exemple un script complet d'analyse, sont partagés dans le dépôt dédié [programme-snds](https://gitlab.com/healthdatahub/programmes-sdns).
