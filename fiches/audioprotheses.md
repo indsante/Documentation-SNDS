@@ -210,7 +210,7 @@ Les codes LPP **reprennent les dichotomies précédentes**:
 - en distinguant les appareils pour
 les moins de 20 ans et pour les plus de 20 ans 
 - ainsi que l'oreille gauche et droite. 
-- A cela s'ajoute les distinctions Classe I et Classe II,
+- A cela s'ajoutent les distinctions Classe I et Classe II,
 - ainsi que les distinctions par marque. 
 
 A noter que **certains codes entrés en vigueur au 1er janvier 2019 ont une fin de validité au
