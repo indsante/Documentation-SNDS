@@ -26,7 +26,7 @@ codes de prestations `PRS_NAT_REF` ([norme PS5](../fiches/prestation.md)) ou les
 | 3550 | PROTHESE AUDITIVE SUIVI | SUI | 
 |  **3540**| **PROTHESE AUDITIVE RAC ZERO** | **PAZ**
 
-*Note* : le code prestation correspondant aux prothèses auditives "100 % santé", i.e. de Classe I dans la terminologie
+Le code prestation correspondant aux prothèses auditives "100 % santé", i.e. de Classe I dans la terminologie
 de la réforme, est mis en valeur en gras.
 
 
