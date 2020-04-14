@@ -30,12 +30,6 @@ Le code prestation correspondant aux prothèses auditives "100 % santé", i.e. d
 de la réforme, est mis en valeur en gras.
 
 
-Il est également possible de rechercher les dépenses en audioprothèses à un niveau de détail plus fin 
-dans la table affinée `ER_TIP_F` pour le `DCIR` ou `NS_TIP_F` pour le `DCIRS`. En effet, 
-les audioprothèses font partie intégrante de la [LPP](../glossaire/LPP.md), plus précisément du Titre II, chapitre 3.
-Il est donc également possible d'utiliser la base de données *open data* de la CNAM
- [OPENLPP](http://open-data-assurance-maladie.ameli.fr/LPP/index.php) pour explorer ce champ.
-
 A noter que le code `3550,PROTHESE AUDITIVE SUIVI,SUI` ci-dessus correspond au code LPP de suivi des prothèses auditives. 
 Il correspond à une consultation d'un audioprothésiste pour le réglage des aides auditives, qui est transmise par télétransmission.
 Cette consultation, facturée 0,01€ auprès de l’AMO, est remboursée à 100 % par l'AMO, et permet un suivi
@@ -46,6 +40,14 @@ Les dépenses en audioprothèses comprennent:
 - **l'achat d'appareil auditif** à proprement parler, 
 - l'**entretien** et la **réparation** de l'appareil ainsi que 
 - les **processeurs pour les implants**. 
+
+
+Il est possible de rechercher les dépenses en audioprothèses à un niveau de détail plus fin 
+dans la table affinée `ER_TIP_F` pour le `DCIR` ou `NS_TIP_F` pour le `DCIRS`. En effet, 
+les audioprothèses font partie intégrante de la [LPP](../glossaire/LPP.md), plus précisément du Titre II, chapitre 3.
+Il est donc également possible d'utiliser la base de données *open data* de la CNAM
+ [OPENLPP](http://open-data-assurance-maladie.ameli.fr/LPP/index.php) pour explorer ce champ.
+
 
 Pour obtenir le détail par le code [LPP](../glossaire/LPP.md) 
 des [audioprothèses](http://www.codage.ext.cnamts.fr/codif/tips//chapitre/index_chap.php?p_ref_menu_code=53&amp;p_site=AMELI),
@@ -58,9 +60,11 @@ jointure unique `CLE_DCI_JNT`.
 
 La correspondance entre les codes LPP et les codes prestations est donnée dans 
 la table de nomenclature `NT_HIS`, où `LPH_PRS_NAT` représente le code prestation en norme B2 (`PRS_NAT_CB2`)
- et `LPH_PRS_IDE` représente le code LPP. 
+ et `LPH_PRS_IDE` représente le code LPP (plus de détails dans la dernière section). 
 
-## Répartition de la base de remboursement par codes LPP
+## Quelques statistiques sur les aides auditives
+
+### Répartition de la base de remboursement par codes LPP
 
 
 ![graphique base remboursement audio](../files/DREES/2020-04-09_audioprotheses.png "Base remboursement titre II chap 3")
@@ -72,7 +76,7 @@ quantité d'actes.
 
 *Source*: OPENLPP, 2018
 
-
+*A ACTUALISER AVEC OPENDAMIR : DEPENSE PAR PRS VENTILE PAR PRS_REM_TYP/ QUANTITE ACTE PAR PRS*
 En part d'achats, on trouve 30% d'appareil auditif et 70% de dépenses d'entretien et réparation. 
 Les entretiens et réparations coutent moins de 260€ dans 98% des cas.
 L'achat d'appareils auditifs représente 89% des dépenses totales 
@@ -82,35 +86,17 @@ Il est possible d'exclure la partie entretien et réparation en appliquant  un f
  sur le type de prestations : `TIP_PRS_TYP` NOT IN (2,5). Il convient de se référer à la
  nomenclature `IR_PRF_V` pour cette variable.
  
-Dans le titre II, chapitre 3, on trouve les **implants cochléaires**, qui sont  
+Dans le titre II, chapitre 3, on trouve aussi les **implants cochléaires**, qui sont  
 également des aides auditives. Ce sont des appareils électroniques insérés dans l'oreille interne reliés à 
 un microphone posé derrière le pavillon de l'oreille.
 
 
-## Prix d'un appareil auditif 
-
-::: tip Note
-Ces données datent de 2018.
-:::
-
-|   | **Fréquence** | **%** | **Fréquence cumulée** | **%** |
-| --- | --- | --- | --- | --- |
-| **strictement inférieur à 1000€** | 3819 | 9 | 3819 | 9 |
-| **entre 1000€ et 1999€** | 32974 | 77,9 | 36793 | 86,9 |
-| **entre 2000€ et 2999€** | 3532 | 8,3 | 40325 | 95,3 |
-| **plus de 2999€** | 2004 | 4,7 | 42329 | 100 |
-
-*Source*  : DCIR (Base école)
-
-**Prix moyen**
-
-Si l'on considère l'ensemble du poste audioprothèse, on a un prix moyen de 812€.
-- Achat d'appareil auditif seulement : 2528,3€
-- Entretien et réparation : 124,8€
+### Prix d'un appareil auditif 
+A ACTUALISER
 
 ## Exemple de code pour extraire les dépenses d'audioprothèses
 
-Ce code fonctionne sur les bases école du DCIR
+Ce code fonctionne sur les bases école du DCIR.
 
 ```sql
 PROC SQL;
@@ -198,6 +184,7 @@ audio_new = pd.merge(audio, lpp_histo, left_on='LPP_PRS_IDE', right_on="LPH_PRS_
 ```
 
 Ces tables dbf sont les dernières versions à jour (à partir des arrêtés dans le Journal Officiel). 
+Dans le code ci-dessus, les versions sont indiquées par la mention `578` dans le nom des fichiers (version du 09/04/2020).
 La nomenclature `NT_LPP` est également disponible dans le portail CNAM dans la biliothèque ORAREF tout
 comme l'historique `NT_HIS`, mais il y a parfois des décalages entre ces référentiels et les fichiers dbf.
 On peut faire le parallèle entre la nomenclature `NT_LPP` et la `lpp_fiche_totVVV.dbf` d'une part
