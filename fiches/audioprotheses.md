@@ -82,7 +82,7 @@ Il est possible d'exclure la partie entretien et réparation en appliquant  un f
  sur le type de prestations : `TIP_PRS_TYP` NOT IN (2,5). Il convient de se référer à la
  nomenclature `IR_PRF_V` pour cette variable.
  
-Dans le titre II, chapitre 3, on peut trouve également les **implants cochléaires**, qui sont  
+Dans le titre II, chapitre 3, on trouve les **implants cochléaires**, qui sont  
 également des aides auditives. Ce sont des appareils électroniques insérés dans l'oreille interne reliés à 
 un microphone posé derrière le pavillon de l'oreille.
 
