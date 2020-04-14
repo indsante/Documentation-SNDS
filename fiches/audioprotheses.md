@@ -1,4 +1,4 @@
-# Audioprothèses 
+# Les aides auditives
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 
