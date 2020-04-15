@@ -217,10 +217,6 @@ nomenclatures en conséquence. Par exemple, un code mis en place au 1er janvier 
 - Nomenclature LPP sur ameli : [telechargement_lpp](http://www.codage.ext.cnamts.fr/codif/tips//telecharge/index_tele.php?p_site=AMELI)
 - Réforme du 100 % santé en audiologie : [site_ministère_santé](https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/100pourcent-sante/espace-professionnels/les-nouvelles-mesures-audiologie/article/la-reforme-100-sante-audiologie)
 
-::: tip Crédits
-
-Le contenu original de cette fiche provient du document
-[2019-03-22_DREES_Audioprothèses_MLP-2.0.docx](../files/DREES/2019-03-22_DREES_Audioproth%C3%A8ses_MPL-2.0.docx) rédigé par Kristel JACQUIER.
-Il a été complété par Raphaële ADJERAD (DREES).
-
+::: tip Crédits  
+Cette fiche a été rédigée par Raphaële Adjerad (DREES) et Kristel Jacquier (DSS).
 :::
