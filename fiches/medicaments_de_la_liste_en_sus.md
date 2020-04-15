@@ -32,7 +32,7 @@ Cette liste est ensuite mise à jour par des arrêtés modificatifs.
 Sur le [site de l’ATIH](https://www.atih.sante.fr/unites-communes-de-dispensation-prises-en-charge-en-sus), vous trouverez le fichier historique qui permet de retracer toutes les modifications apportées à cette liste (inscription, radiation, modification de tarifs, modification du libellé UCD, etc.), ainsi que la date de prise d’effet de ces modifications.  
 Un tarif de responsabilité est fixé pour chaque UCD par le Comité économique des produits de santé, conformément à l’accord du 30 mars 2004, sous la forme d’avis publiés dans le journal officiel de la république française. Il est à noter qu’il y a un décalage dans le temps entre l’inscription sur la liste et la fixation d’un tarif de responsabilité.
 
-L'ATIH restitue également des [statistiques sur la consommation annuelle des médicaments en sus au niveau national](https://www.atih.sante.fr/unites-communes-de-dispensation-prises-en-charge-en-sus), déclinées par année année et par molécule.
+L'ATIH restitue également des [statistiques sur la consommation annuelle des médicaments en sus au niveau national](https://www.atih.sante.fr/unites-communes-de-dispensation-prises-en-charge-en-sus), déclinées par année et par molécule.
 
 *Sources >* 
 - [ATIH : UCD prises en charge](https://www.atih.sante.fr/unites-communes-de-dispensation-prises-en-charge-en-sus)
