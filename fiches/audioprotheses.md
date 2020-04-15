@@ -26,11 +26,10 @@ codes de prestations `PRS_NAT_REF` ([norme PS5](../fiches/prestation.md)) ou les
 | 3550 | PROTHESE AUDITIVE SUIVI | SUI | 
 |  **3540**| **PROTHESE AUDITIVE RAC ZERO** | **PAZ**
 
-Le code prestation correspondant aux prothèses auditives "100 % santé", i.e. de Classe I dans la terminologie
-de la réforme, est mis en valeur en gras.
 
-
-A noter que le code `3550,PROTHESE AUDITIVE SUIVI,SUI` ci-dessus correspond au code LPP de suivi des prothèses auditives. 
+Le code prestation `3540,PROTHESE AUDITIVE RAC ZERO,PAZ` correspondant aux prothèses auditives "100 % santé", i.e. de Classe I dans la terminologie
+de la réforme, est mis en valeur en gras.  
+Le code `3550,PROTHESE AUDITIVE SUIVI,SUI` ci-dessus correspond au code LPP de suivi des prothèses auditives. 
 Il correspond à une consultation d'un audioprothésiste pour le réglage des aides auditives, qui est transmise par télétransmission.
 Cette consultation, facturée 0,01€ auprès de l’AMO, est remboursée à 100 % par l'AMO, et permet un suivi
 dans le SNDS des prothèses auditives.
@@ -53,11 +52,9 @@ Pour obtenir le détail par le code [LPP](../glossaire/LPP.md)
 des [audioprothèses](http://www.codage.ext.cnamts.fr/codif/tips//chapitre/index_chap.php?p_ref_menu_code=53&amp;p_site=AMELI),
 il convient de regarder la variable `TIP_PRS_IDE` dans la table de prestation affinée des dispositifs médicaux : [ER_TIP_F](../tables/DCIR/ER_TIP_F.md). 
 Il faut donc effectuer une jointure dans le DCIR entre la table prestations [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) et `ER_TIP_F`, par les neuf
-clefs de jointure techniques.
-
+clefs de jointure techniques.  
 Dans le DCIRS, il faut joindre les tables [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md) et [NS_TIP_F](../tables/DCIRS/NS_TIP_F.md) par la clef de 
-jointure unique `CLE_DCI_JNT`. 
-
+jointure unique `CLE_DCI_JNT`.  
 La correspondance entre les codes LPP et les codes prestations est donnée dans 
 la table de nomenclature `NT_HIS`, où `LPH_PRS_NAT` représente le code prestation en norme B2 (`PRS_NAT_CB2`)
  et `LPH_PRS_IDE` représente le code LPP (plus de détails dans la dernière section). 
@@ -72,23 +69,19 @@ la table de nomenclature `NT_HIS`, où `LPH_PRS_NAT` représente le code prestat
 
 *Note*: Ces graphiques sont donnés à titre indicatif, graphique 1: 10 premiers codes LPP
 en parts de la base de remboursement, graphique 2: 10 premiers codes LPP en ce qui concerne la
-quantité d'actes. 
-
+quantité d'actes.  
 *Source*: OPENLPP, 2018
 
 *A ACTUALISER AVEC OPENDAMIR : DEPENSE PAR PRS VENTILE PAR PRS_REM_TYP/ QUANTITE ACTE PAR PRS*
 En part d'achats, on trouve 30% d'appareil auditif et 70% de dépenses d'entretien et réparation. 
 Les entretiens et réparations coutent moins de 260€ dans 98% des cas.
 L'achat d'appareils auditifs représente 89% des dépenses totales 
-(seulement 11% pour les dépenses d'entretien et réparations)
-
-Il est possible d'exclure la partie entretien et réparation en appliquant  un filtre
- sur le type de prestations : `TIP_PRS_TYP` NOT IN (2,5). Il convient de se référer à la
- nomenclature `IR_PRF_V` pour cette variable.
+(seulement 11% pour les dépenses d'entretien et réparations).  
+Il est possible d'exclure la partie entretien et réparation en appliquant  un filtre sur le type de prestations : `TIP_PRS_TYP` NOT IN (2,5).
+Il convient de se référer à la nomenclature `IR_PRF_V` pour cette variable.
  
-Dans le titre II, chapitre 3, on trouve aussi les **implants cochléaires**, qui sont  
-également des aides auditives. Ce sont des appareils électroniques insérés dans l'oreille interne reliés à 
-un microphone posé derrière le pavillon de l'oreille.
+Dans le titre II, chapitre 3, on trouve aussi les **implants cochléaires**, qui sont également des aides auditives. 
+Ce sont des appareils électroniques insérés dans l'oreille interne reliés à un microphone posé derrière le pavillon de l'oreille.
 
 
 ### Prix d'un appareil auditif 
