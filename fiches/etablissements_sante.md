@@ -123,7 +123,10 @@ permet d’avoir les libellés des différents établissements.
 **L’information sur ces séjours n’est pas exhaustive et doit être traitée avec précaution**. 
 
 
-Auteurs: Kristel Jacquier, Raphaële Adjerad
+::: tip Crédits  
+Cette fiche a été rédigée par Raphaële Adjerad (DREES) et Kristel Jacquier (DSS).
+:::
+
 
 *Sources* 
 -	« Maquette Stat mens Etablissements prives – version du 28 mai 2010 Regles de gestion du Regime General pour constituer la statistique mensuelle pour le suivi des depenses des etablissements prives » disponible sur le portail SNDS (Dossiers publics>SNIIRAM>_Documentation SNIIRAM- SNDS> Documentation>maquettes Stat Mens>ancienne maquette stat mens)
