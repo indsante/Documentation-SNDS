@@ -72,11 +72,11 @@ en parts de la base de remboursement, graphique 2: 10 premiers codes LPP en ce q
 quantité d'actes.  
 *Source*: OPENLPP, 2018
 
-*A ACTUALISER AVEC OPENDAMIR : DEPENSE PAR PRS VENTILE PAR PRS_REM_TYP/ QUANTITE ACTE PAR PRS*
-En part d'achats, on trouve 30% d'appareil auditif et 70% de dépenses d'entretien et réparation. 
+D'après une extraction faite en 2018 sur les codes `PRS_NAT_REF` 3541 et 3547, en part d'achats, on trouve 30% d'appareil auditif et 70% de dépenses d'entretien et réparation. 
 Les entretiens et réparations coutent moins de 260€ dans 98% des cas.
 L'achat d'appareils auditifs représente 89% des dépenses totales 
 (seulement 11% pour les dépenses d'entretien et réparations).  
+
 Il est possible d'exclure la partie entretien et réparation en appliquant  un filtre sur le type de prestations : `TIP_PRS_TYP` NOT IN (2,5).
 Il convient de se référer à la nomenclature `IR_PRF_V` pour cette variable.
  
@@ -85,7 +85,27 @@ Ce sont des appareils électroniques insérés dans l'oreille interne reliés à
 
 
 ### Prix d'un appareil auditif 
-A ACTUALISER
+
+::: Attention
+Les chiffres suivants proviennent d'une extraction réalisée en 2018, sur les codes `PRS_NAT_REF` 3541 et 3547.
+::: 
+
+|   | **Fréquence** | **%** | **Fréquence cumulée** | **%** |
+| --- | --- | --- | --- | --- |
+| **strictement inférieur à 1000€** | 3819 | 9 | 3819 | 9 |
+| **entre 1000€ et 1999€** | 32974 | 77,9 | 36793 | 86,9 |
+| **entre 2000€ et 2999€** | 3532 | 8,3 | 40325 | 95,3 |
+| **plus de 2999€** | 2004 | 4,7 | 42329 | 100 |
+
+*Source*  : DCIR (Base école)
+
+**Prix moyen**
+
+Si l'on considère l'ensemble du poste audioprothèse, on a un prix moyen de 812€.
+- Achat d'appareil auditif seulement : 2528,3€
+- Entretien et réparation : 124,8€
+
+
 
 ## Exemple de code pour extraire les dépenses d'audioprothèses
 
