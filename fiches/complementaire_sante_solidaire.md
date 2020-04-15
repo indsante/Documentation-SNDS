@@ -51,3 +51,8 @@ La modalité P permet donc de distinguer les contrats participatifs des contrats
 ## Références
 - Présentation de Céline Leroy au comité utilisateurs SNDS 
 - Comité partenaires DCIR/PMSI de la CNAM du 9 mars 2020
+
+::: tip Crédits  
+Cette fiche a été rédigée par Céline Leroy (ARS) et Kristel Jacquier (DSS).
+:::
+
