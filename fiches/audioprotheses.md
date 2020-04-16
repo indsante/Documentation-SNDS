@@ -78,7 +78,8 @@ Il convient de se référer à la nomenclature `IR_PRF_V` pour cette variable.
 
 ### Prix d'un appareil auditif 
 
-::: Attention
+::: tip Attention
+
 Les chiffres suivants proviennent d'une extraction réalisée en 2018, sur les codes `PRS_NAT_REF` 3541 et 3547.
 ::: 
 
