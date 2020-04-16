@@ -28,7 +28,7 @@ codes de prestations `PRS_NAT_REF` ([norme PS5](../fiches/prestation.md)) ou les
 Ainsi, les dépenses en audioprothèses comprennent **l'achat d'appareil auditif** à proprement parler, 
 l'**entretien** et la **réparation** de l'appareil ainsi que les **processeurs pour les implants**.  
 En effet, dans le titre II, chapitre 3, on trouve aussi les **implants cochléaires**, 
-qui sont également des aides auditives (code prestation `3549,PROCESSEUR POUR IMPLANT OSTE-INTEGRE,PIO`). 
+qui sont également des aides auditives (par exemple le code prestation `3549,PROCESSEUR POUR IMPLANT OSTE-INTEGRE,PIO`). 
 Ce sont des appareils électroniques insérés dans l'oreille interne reliés à un microphone posé derrière le pavillon de l'oreille.  
 Le code prestation `3540,PROTHESE AUDITIVE RAC ZERO,PAZ` correspondant aux prothèses auditives "100 % santé", i.e. de Classe I dans la terminologie
 de la réforme, est mis en valeur en gras.  
