@@ -3,8 +3,7 @@
 
 
 Il existe plusieurs types d'audioprothèses, aussi appelées "aides auditives". On peut en effet les classer en appareils intra-auriculaires, contours à écouteurs
-déportés ou contours classiques. Cette fiche aborde principalement les aspects concernant les dépenses et les prix des audioprothèses, ainsi
-que tous ces types d'audioprothèses.
+déportés ou contours classiques. Cette fiche aborde principalement les dépenses et le prix des aides auditives.
 
 Ce domaine du SNDS est en train de subir des **changements**, en particulier en **termes de nomenclature** dans le cadre de la
 [réforme du 100% santé](https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/100pourcent-sante/). 
@@ -15,7 +14,7 @@ Cette fiche s'attachera à mettre en valeur ces changements suite à la mise en 
 
 ## Les audioprothèses/aides auditives dans le SNDS
 
-Dans la table centrale des prestations dans le `DCIR` ou dans le `DCIRS`, on peut cibler les dépenses en audioprothèses via les
+Dans la table centrale des prestations dans le `DCIR` ou dans le `DCIRS`, on peut cibler les audioprothèses via les
 codes de prestations `PRS_NAT_REF` ([norme PS5](../fiches/prestation.md)) ou les codes prestations de la norme B2 (`PRS_NAT_CB2`) suivants : 
 
 | `PRS_NAT_REF`| `PRS_NAT_LIB` | `PRS_NAT_CB2` |
@@ -26,20 +25,17 @@ codes de prestations `PRS_NAT_REF` ([norme PS5](../fiches/prestation.md)) ou les
 | 3550 | PROTHESE AUDITIVE SUIVI | SUI | 
 |  **3540**| **PROTHESE AUDITIVE RAC ZERO** | **PAZ**
 
-
+Ainsi, les dépenses en audioprothèses comprennent **l'achat d'appareil auditif** à proprement parler, 
+l'**entretien** et la **réparation** de l'appareil ainsi que les **processeurs pour les implants**.  
+En effet, dans le titre II, chapitre 3, on trouve aussi les **implants cochléaires**, 
+qui sont également des aides auditives (code prestation `3549,PROCESSEUR POUR IMPLANT OSTE-INTEGRE,PIO`). 
+Ce sont des appareils électroniques insérés dans l'oreille interne reliés à un microphone posé derrière le pavillon de l'oreille.  
 Le code prestation `3540,PROTHESE AUDITIVE RAC ZERO,PAZ` correspondant aux prothèses auditives "100 % santé", i.e. de Classe I dans la terminologie
 de la réforme, est mis en valeur en gras.  
 Le code `3550,PROTHESE AUDITIVE SUIVI,SUI` ci-dessus correspond au code LPP de suivi des prothèses auditives. 
 Il correspond à une consultation d'un audioprothésiste pour le réglage des aides auditives, qui est transmise par télétransmission.
 Cette consultation, facturée 0,01€ auprès de l’AMO, est remboursée à 100 % par l'AMO, et permet un suivi
 dans le SNDS des prothèses auditives.
-
-
-Les dépenses en audioprothèses comprennent:
-- **l'achat d'appareil auditif** à proprement parler, 
-- l'**entretien** et la **réparation** de l'appareil ainsi que 
-- les **processeurs pour les implants**. 
-
 
 Il est possible de rechercher les dépenses en audioprothèses à un niveau de détail plus fin 
 dans la table affinée `ER_TIP_F` pour le `DCIR` ou `NS_TIP_F` pour le `DCIRS`. En effet, 
@@ -63,7 +59,6 @@ la table de nomenclature `NT_HIS`, où `LPH_PRS_NAT` représente le code prestat
 
 ### Répartition de la base de remboursement par codes LPP
 
-
 ![graphique base remboursement audio](../files/DREES/2020-04-09_audioprotheses.png "Base remboursement titre II chap 3")
 ![graphique base remboursement audio_quantite](../files/DREES/2020-04-09_audioprotheses_quantite.png "Quantité titre II chap 3")
 
@@ -79,9 +74,6 @@ L'achat d'appareils auditifs représente 89% des dépenses totales
 
 Il est possible d'exclure la partie entretien et réparation en appliquant  un filtre sur le type de prestations : `TIP_PRS_TYP` NOT IN (2,5).
 Il convient de se référer à la nomenclature `IR_PRF_V` pour cette variable.
- 
-Dans le titre II, chapitre 3, on trouve aussi les **implants cochléaires**, qui sont également des aides auditives. 
-Ce sont des appareils électroniques insérés dans l'oreille interne reliés à un microphone posé derrière le pavillon de l'oreille.
 
 
 ### Prix d'un appareil auditif 
