@@ -1,4 +1,4 @@
-# Les aides auditives
+# Aides auditives
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 
