@@ -9,6 +9,8 @@ Cette documentation est par nature collaborative.
 Toute contribution est la bienvenue, est soumise à la licence MPL-2.0 (comme l’ensemble du projet) et nécessite certains pré-requis de maîtrise technique (indiqués ci-dessous). Cette licence [copyleft](https://fr.wikipedia.org/wiki/Copyleft) autorise une libre réutilisation du fichier ainsi partagé. Elle impose à toute version dérivée de citer la source d'origine, et d'être publiée sous la même licence afin de garantir les mêmes droits.  
 Toute personne souhaitant contribuer est invitée à le faire. Les contributions peuvent porter sur la correction des erreurs, la mise à jour de certains champs, compléter des pages existantes, et en créer de nouvelles. Toutes améliorations, même d'apparence mineure comme la correction de fautes d'orthographe, améliorent pour tous la qualité du contenu. Un processus de relecture et de validation, décrit ci-dessous, a été mis en place afin de garantir un contenu de qualité. 
 
+Merci de se référer aux sections du guide correspondant aux différentes contributions possibles.
+
 ### Processus de relecture et validation
 Chaque contribution à la documentation est soumise à une relecture par les pairs (afin d’assurer la lisibilité de la contribution ainsi que sa justesse) puis une validation par les mainteneurs afin d’être ajoutée à la documentation principale (branche master). 
 
@@ -41,8 +43,7 @@ Un [forum d’entraide](https://entraide.health-data-hub.fr/) autour du SNDS est
 
 ### Contacter le Health Data Hub et la DREES
 Il est possible de contacter par mail les responsables de la documentation ouverte du Health Data Hub et de la Dress :
-- Lorien Benda - HDH <<lorien.benda@health-data-hub.fr>>
-- Olivier de Fresnoye - HDH <<olivier.defresnoye@health-data-hub.fr>>
+- L'équipe Open Source du Health Data Hub <<opensource@health-data-hub.fr>>
 - Lab santé - DREES <<ld-lab-github@sante.gouv.fr>>
 
 ## Pré-requis et formation 
@@ -55,14 +56,12 @@ Des formations (en présentielle et en ligne) pour apprendre à contribuer à la
 Des journées autour du SNDS sont organisées par le Health Data Hub. Ces événements sont annoncés sur  [meetup](https://www.meetup.com/fr-FR/Health-Data-Hub/) et sont à retrouver en vidéo sur le site de la [documentation collaborative](https://documentation-snds.health-data-hub.fr/ressources/meetup.html).
 Des journées de rédactions sont régulièrement proposées par le Health Data Hub également sur [meetup](https://www.meetup.com/fr-FR/Health-Data-Hub/). Ces journées permettent d’aider les contributeurs à publier leurs connaissances sur le site de la documentation, partager des programmes dans un dépôt spécifique sur Gitlab et d’échanger autour de notions spécifiques du SNDS. 
 
-## Partage de documents existants
-
+## Partage de documents existants/programmes
 De nombreuses organisations ont documenté le SNDS pour des besoins internes. 
 Ce travail n'est souvent pas accessible à la communauté plus large des utilisateurs du SNDS. 
 Une contribution de grande valeur consiste donc à partager publiquement des documents existants dans votre organisation.
 
 #### Où publier ces documents ?
-
 Vous avez deux options pour publier ces documents
 
 - sur le site internet de votre organisation.
@@ -72,11 +71,13 @@ Ils seront référencé par un lien hypertexte dans la section [ressources exter
 Un lien de téléchargement sera ajouté dans la section des 
 [documents partagés via ce projet](../ressources/README.md), et les documents pourront être convertis en page de documentation si cela est jugé approprié. 
 
+Une [fiche explicative]() sur le partage de document est diponible sur le guide de contribution.
 
 ### Partage de programmes
-
 Le partage de programmes ou scripts d'analyses est très utile pour la communauté.
 
 Dans les fiches de courtes sections de code sont souvent partagées.
 
-Les programmes plus conséquents, par exemple un script complet d'analyse, sont partagés dans le dépôt dédié [programme-snds](https://gitlab.com/healthdatahub/programmes-sdns).
+Les programmes plus conséquents, par exemple un script complet d'analyse, sont partagés dans le dépôt dédié [programme-snds](https://gitlab.com/healthdatahub/programmes-sdns). Les programmes partagés dans ce dépôt dédié sont sous licence APACHE 2.0. 
+
+Une [fiche]() sur programme partagé est diponible sur le guide de contribution.
