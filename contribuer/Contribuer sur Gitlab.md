@@ -32,7 +32,7 @@ Une fenêtre s'ouvre, permettant de décrire le ticket à créer.
 5. Enregistrer le ticket
 
 ### Retrouver un ticket créé
-Pour retrouver un ticket dans lequel on s'est assigné, il faut aller dans la barre de navigation de Gitlab et cliquer sur la l'onglet `Tickets` (cet onglet est juste à droite de la barre de recherche)
+Pour retrouver un ticket dans lequel on s'est assigné, il faut aller dans la barre de navigation de Gitlab et cliquer sur le bouton vert `Tickets` (cet onglet est juste à droite de la barre de recherche)
 
 ### Naviguer dans le ticket créé
 Une fois, le ticket validé, ce dernier comporte un titre, une description. Une liste des personnes assignées est disponible dans l'onglet à droite et est éditable en cliquant sur `éditer`. Il est également possible d'éditer les étiquettes. Une conversation peut démarrer en utilisant l'outils `commentaire` (le format markdown peut être utilisé lors d'édition de commentaires). 
@@ -105,6 +105,8 @@ Les demandes de fusions sont validées par certains membres de HDH.
 
 ### 5. Naviguer dans une demande de fusion (merge-request)
 
+Lorsqu'une demande de fusion est créée, quatre onglets sous le titre de la demande de fusion permettent d'avoir une vue d'ensemble, avoir accès à l'historique des modifications, d'effectuer des tests sur la fiche, d'apporter de nouvelles modifications et comparer deux versions.
+
 * Onglet `Vue d'ensemble``
 
 L'onglet vue d'ensemble permet d'avoir accès une visualisation générale de la demande de fusion. L'interface est très proche de celle des tickets.
@@ -138,12 +140,33 @@ Cliquer dessus permet d'ouvrir la prévisalisation du site.
 
 * Onglet `Changes`
 
+L'onglet `Changes` permet de comparer deux versions de la fiche, d'apporter de nouvelles modification et de suggérer des modifications.
 
-### 6. Apporter des modifications supplémentaires dans la même demande de fusion
+En cliquant sur le bouton `paramètre`, il est possible de comparer les modifications par ligne ou comparer deux versions côte-à-côte. Les lignes supprimées/modifiées sont surlignées en rouge avec un symbole `-`. Les lignes ajoutées/sur lesquels des modifications ont eu lieu, sont surlignées en vert avec un symbole `+`. 
 
-### 7. Suggérer des modifications
+Dans le menu déroulant `compare` il est possible de choisir quelles versions sont à comparer. 
 
-### 8. Incorporation des modifications dans le projet
+Le bouton Crayon `Edit File` permet d'apporter de nouvelles modifications (voir ci-dessous)
+
+### 6. Retrouver sa demande de fusion
+Pour retrouver une demande de fusion dans lequel on s'est assigné, il faut aller dans la barre de navigation de Gitlab et cliquer sur le bouton orange  `Demande de fusion`. Si on ne s'est pas assigné dans la demande de fusion, il faut aller dans l'onglet `Demande de fusion` dans la barre à gauche de l'interface Gitlab et chercher sa demande de fusion parmis la liste.
+
+### 7. Apporter des modifications supplémentaires dans la même demande de fusion
+Il existe deux méthodes pour apporter des modifications supplémentaires dans la même demande de fusion.
+
+La première méthode consiste à ajouter des commits sur une branche de travail existante.
+Pour cela aller dans la barre présente à gauche de l'interface Gitlab. Aller dans l'onglet `Dépôt` > `Fichiers`. Aller sur le bouton `master`. En cliquant dessus un menu déroulant contenant les branches de travail encore ouverte s'affiche. Choisir la branche cible voulue, aller dans le dossier `Fiches` et ouvrir en mode édition la fiche à modifier. Les nouveaux commits ainsi créés apparaîtront alors dans la demande de fusion associée à cette branche.
+
+<p style="text-align:center;">
+<img src="../files/images/tutoriel_gitlab/switch_branch.png" alt="changer branche" width="400"/>
+</p>
+
+La seconde méthode consiste à ouvrir sa demande de fusion. Dans l'onglet `Changes`, cliquer sur le bouton Crayon `Edit File`. Une fenêtre d'édition identique à celle lors de la première édition s'ouvre. Un nouveau commit décrivant les modifications apportées doit être enregistré. Il apparaitra dans l'historique des modifications dans la demande de fusion.
+
+### 8. Suggérer des modifications
+
+
+### 9. Incorporation des modifications dans le projet
 
 ## Créer une fiche
 
