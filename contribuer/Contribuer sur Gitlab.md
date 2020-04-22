@@ -164,7 +164,7 @@ Pour cela aller dans la barre présente à gauche de l'interface Gitlab. Aller d
 La seconde méthode consiste à ouvrir sa demande de fusion. Dans l'onglet `Changes`, cliquer sur le bouton Crayon `Edit File`. Une fenêtre d'édition identique à celle lors de la première édition s'ouvre. Un nouveau commit décrivant les modifications apportées doit être enregistré. Il apparaitra dans l'historique des modifications dans la demande de fusion.
 
 ### 8. Suggérer des modifications
-Lors du processus de relecture, des modifications peuvent être suggérées par le relecteur. 
+Lors du [processus de relecture](), des modifications peuvent être suggérées par le relecteur. 
 
 * Soit en utilisant la boite de dialogue présente dans l'onglet `Vue d'ensemble` de la demande de fusion et en taguant la personne à qui les remarques sont adressées. 
 * Soit en faisant un commentaire ou une proposition de modification sur une ligne spécifique. Pour cela, aller dans l'onglet `Changes`  de la demande de fusion, et passer la souris sur la ligne à commenter/modifier. Un bouton bleu contenant une bulle de conversation apparait à gauche. En le sélectionnant il est possible d'écrire un commentaire spécifique à la ligne sélectionnée. Une suggestion de modification peut être insérée à partir de la fenêtre des commentaires en cliquant sur le bouton `Insert Suggestion`. Cela fera apparaitre une suggestion de modification dans l'onglet `Vue d'ensemble` de la demande de fusion. Celle-ci pourra être acceptée ou refusée par l'auteur de la fiche.
@@ -175,32 +175,11 @@ Pour taguer une personne il suffit de taper `@` et une liste déroulante des per
 
 ### 9. Incorporation des modifications dans le projet
 
+Lorsque le [processus de relecture]() est terminée, les modification peuvent être incorporées dans la documentation. Aller dans l'onglet `Vue d'ensemble` de la demande de fusion. Enlever l'étiquettes 'Etape: en cours' si elle a été mise. Enlever le statut `WIP` en allant dans le bouton `Editer`. Ajouter l'étiquette 'Etape : Prêt fusion'. 
+
+Cela permet aux mainteneurs du projet de savoir visuellement quelles demandes de fusion sont prêtes et de pouvoir incorporer à la documentation les modifications proposées.
+
 ## Créer une fiche
 
 
 ## Partager un programme
-
-
-
-### 4- Prévisualisation d'une merge-request
-
-Lorsqu'une merge-request est ouverte, un "`pipeline`" est démarré pour effectuer des tests sur les liens hypertextes, et construire une prévisualisation du site. 
-Ces 2 étapes sont symbolisées par des icônes rondes.
-
-Lorsque la prévisualisation est construite, la deuxième icône passe au vert. 
-Cliquer dessus permet d'ouvrir la prévisalisation du site. 
-
-![prévisualisation](../files/images/tutoriel_gitlab/preview.png)
-
-À chaque nouveau commit sur la branche, le pipeline est relancé, et la prévisualisation est mise à jour avec la même url.
-
-### 5- Ajouter des commits sur une branche existante
-
-Il est possible d'ajouter des commits sur une branche de travail existante. 
-Il faut pour cela sélectionner la branche de travail dans la vue fichier. 
-
-<p style="text-align:center;">
-<img src="../files/images/tutoriel_gitlab/switch_branch.png" alt="changer branche" width="400"/>
-</p>
-
-On peut alors éditer de nouveaux documents. Les nouveaux commits apparaîtront alors dans la merge request associée à cette branche.
