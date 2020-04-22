@@ -164,7 +164,14 @@ Pour cela aller dans la barre présente à gauche de l'interface Gitlab. Aller d
 La seconde méthode consiste à ouvrir sa demande de fusion. Dans l'onglet `Changes`, cliquer sur le bouton Crayon `Edit File`. Une fenêtre d'édition identique à celle lors de la première édition s'ouvre. Un nouveau commit décrivant les modifications apportées doit être enregistré. Il apparaitra dans l'historique des modifications dans la demande de fusion.
 
 ### 8. Suggérer des modifications
+Lors du processus de relecture, des modifications peuvent être suggérées par le relecteur. 
 
+* Soit en utilisant la boite de dialogue présente dans l'onglet `Vue d'ensemble` de la demande de fusion et en taguant la personne à qui les remarques sont adressées. 
+* Soit en faisant un commentaire ou une proposition de modification sur une ligne spécifique. Pour cela, aller dans l'onglet `Changes`  de la demande de fusion, et passer la souris sur la ligne à commenter/modifier. Un bouton bleu contenant une bulle de conversation apparait à gauche. En le sélectionnant il est possible d'écrire un commentaire spécifique à la ligne sélectionnée. Une suggestion de modification peut être insérée à partir de la fenêtre des commentaires en cliquant sur le bouton `Insert Suggestion`. Cela fera apparaitre une suggestion de modification dans l'onglet `Vue d'ensemble` de la demande de fusion. Celle-ci pourra être acceptée ou refusée par l'auteur de la fiche.
+
+::: Tips
+Pour taguer une personne il suffit de taper `@` et une liste déroulante des personnes participant au projet de la documentation apparait. En tapant le nom de la personne recherchée dans la barre de recherche on peut donc sélectionner la personne souhaitée.
+::: 
 
 ### 9. Incorporation des modifications dans le projet
 
