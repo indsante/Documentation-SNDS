@@ -174,12 +174,16 @@ Pour taguer une personne il suffit de taper `@` et une liste déroulante des per
 ::: 
 
 ### 9. Incorporation des modifications dans le projet
-
 Lorsque le [processus de relecture]() est terminée, les modification peuvent être incorporées dans la documentation. Aller dans l'onglet `Vue d'ensemble` de la demande de fusion. Enlever l'étiquettes 'Etape: en cours' si elle a été mise. Enlever le statut `WIP` en allant dans le bouton `Editer`. Ajouter l'étiquette 'Etape : Prêt fusion'. 
 
 Cela permet aux mainteneurs du projet de savoir visuellement quelles demandes de fusion sont prêtes et de pouvoir incorporer à la documentation les modifications proposées.
 
 ## Créer une fiche
+### 1. Créer un Ticket  
+La première étape est la création d’un ticket. Se référer à la sous-partie correspondante. Créer un ticket permet d'informer la communauté qu'une nouvelle fiche va être créée. Cela permet d'éviter notamment les doublons.
 
+### 2. Ajouter un fichier
+### 3. Enregistrer les modifications apportées
+### 4. Ouverture d'une demande de fusion (merge-request)
 
 ## Partager un programme
