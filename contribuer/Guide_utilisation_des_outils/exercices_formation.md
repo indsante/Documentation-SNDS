@@ -195,7 +195,7 @@ Première modification assez simple, au cours de laquelle on créée la branche 
 
 Il faut pour cela utiliser un chemin relatif, en utilisant un double point pour remonter d'un répertoire
 
-Exemple : `[CMU-C](../fiches/cmu_c.md)` pour [CMU-C](../fiches/cmu_c.md)
+Exemple : `[CMU-C](../fiches/cmu_c.md)` pour [CMU-C](../../fiches/cmu_c.md)
 
 ### Ajouter un fichier en téléchargement 
 

@@ -124,7 +124,7 @@ Rappel : `../` remonte d'un cran dans l'arborescence, `../..` de deux crans etc.
 ```
 [texte du lien](../glossaire/GHM.md)
 ```
-Résultat : [texte du lien](../glossaire/GHM.md)
+Résultat : [texte du lien](../../glossaire/GHM.md)
 
 ::: warning Lien vers tables
 Les chemins des pages de description des tables ne sont pas faciles à trouver.
@@ -143,7 +143,7 @@ Pour inclure une image, il faut tout d'abord la téléverser dans Gitlab (voir f
 ```
 ![texte alternatif de l'image](../files/images/logo/logoSNDS.jpg)
 ```
-Résultat : ![texte alternatif de l'image](../files/images/logo/logoSNDS.jpg)
+Résultat : ![texte alternatif de l'image](../../files/images/logo/logoSNDS.jpg)
 
 2. Pour préciser les dimensions de l'image, il faut utiliser des balises html.
 ```
@@ -164,7 +164,7 @@ Pour que ce texte soit **en dessous** de l'image, insérer deux espaces à la fi
 ```
 Résultat :
 
-![Editer sur Gitlab](../files/images/logo/logoSNDS.jpg)  
+![Editer sur Gitlab](../../files/images/logo/logoSNDS.jpg)  
 *Logo SNDS* 
 
 4. Pour centrer l'image, des balises html doivent également être utilisées :

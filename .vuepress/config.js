@@ -1,14 +1,14 @@
-const sb = require('./sidebar');
+const sb = require("./sidebar");
 
 const sidebar = [
     {
-        title: 'Introduction',
-        path: '/introduction/',
+        title: "Introduction",
+        path: "/introduction/",
         children: [
-            '/introduction/01-snds',
-            '/introduction/02-bases-snds',
-            '/introduction/03-acces-snds',
-            '/introduction/04-recherche-snds'
+            "/introduction/01-snds",
+            "/introduction/02-bases-snds",
+            "/introduction/03-acces-snds",
+            "/introduction/04-recherche-snds"
         ]
     },
     sb.getSidebarGroup("fiches"),
@@ -16,40 +16,63 @@ const sidebar = [
     sb.getSidebarGroup("ressources"),
     sb.getSidebarGroup("tables"),
     {
-        title: 'Contribuer',
-        path: '/contribuer/',
+        title: "Contribuer",
+        path: "/contribuer/",
         children: [
-            '/contribuer/',
-            '/contribuer/introduction_gitlab',
-            '/contribuer/tutoriel_markdown',
-            '/contribuer/nouveau_fichier',
-            '/contribuer/nouvelle_page',
-            '/contribuer/contribution_tables',
-            '/contribuer/developpement_local',
-            '/contribuer/exercices_formation',
-            '/contribuer/Cheat_Sheet'
+            {
+                title: "Guide de contribution",
+                children: [
+                    "/contribuer/Guide_contribution/README.md",
+                    "/contribuer/Guide_contribution/Contribuer_à_la_documentation.md",
+                    "/contribuer/Guide_contribution/partager_des_sources.md",
+                    "/contribuer/Guide_contribution/contactez_nous.md",
+                ]
+            },
+            {
+                title: "Guide d\'utilisation des outils",
+                children: [
+                    "/contribuer/Guide_utilisation_des_outils/README",
+                    "/contribuer/Guide_utilisation_des_outils/Utiliser_le_site_de_documentation",
+                    "/contribuer/Guide_utilisation_des_outils/Introduction_Gitlab",
+                    "/contribuer/Guide_utilisation_des_outils/tutoriel_markdown",
+                    "/contribuer/Guide_utilisation_des_outils/Ticket",
+                    "/contribuer/Guide_utilisation_des_outils/Modifier_une_fiche",
+                    "/contribuer/Guide_utilisation_des_outils/Créer_une_fiche",
+                    "/contribuer/Guide_utilisation_des_outils/contribution_tables",
+                    "/contribuer/Guide_utilisation_des_outils/Forum",
+                    "/contribuer/Guide_utilisation_des_outils/developpement_local",
+                    "/contribuer/Guide_utilisation_des_outils/Cheat_Sheet.md",
+                    "/contribuer/Guide_utilisation_des_outils/exercices_formation",
+                ]
+            },
+            {
+                title: "A propos",
+                children: [
+                    "/A_propos/",
+                ]
+            }
         ]
     }
 ];
 
 module.exports = {
-    title: 'Documentation du SNDS',
+    title: "Documentation du SNDS",
     description: "Projet collaboratif pour documenter et faciliter l'utilisation du SNDS",
     themeConfig: {
-        repo: 'https://gitlab.com/healthdatahub/documentation-snds',
+        repo: "https://gitlab.com/healthdatahub/documentation-snds",
         docsDir: '.',
         editLinks: true,
         nav: [
-            {text: 'Forum entraide', link: 'https://entraide.health-data-hub.fr/'},
-            {text: 'Dico interactif', link: 'https://drees.shinyapps.io/dico-snds/'},
-            {text: 'Groupe Meetup', link: 'https://www.meetup.com/fr-FR/Health-Data-Hub/'},
+            {text: "Forum entraide", link: "https://entraide.health-data-hub.fr/"},
+            {text: "Dico interactif", link: "https://drees.shinyapps.io/dico-snds/"},
+            {text: "Groupe Meetup", link: "https://www.meetup.com/fr-FR/Health-Data-Hub/"},
         ],
         sidebar: sidebar,
         sidebarDepth: 1,
-        lastUpdated: 'Dernière modification',
+        lastUpdated: "Dernière modification",
         algolia: {
-            apiKey: 'b1d88a4e2413821b4ebe7441ecc95a97',
-            indexName: 'health-data-hub-snds'
+            apiKey: "b1d88a4e2413821b4ebe7441ecc95a97",
+            indexName: "health-data-hub-snds"
         },
         smoothScroll: true
     },
@@ -60,10 +83,10 @@ module.exports = {
         //toc: { includeLevel: [1, 2] },
         extendMarkdown: md => {
             // use more markdown-it plugins!
-            md.use(require('markdown-it-footnote'))
+            md.use(require("markdown-it-footnote"))
         }
     },
     plugins: [
-        'mermaidjs'
+        "mermaidjs"
     ]
 };

@@ -34,7 +34,7 @@ Pour ajouter un nouveau fichier, merci de bien vouloir :
 - Ajouter un lien de téléchargement sur une page
     - Se placer sur la même branche
     - Trouver le fichier où vous souhaitez mettre le lien 
-        - sans doute une page de votre organisation dans la partie [Ressources](../ressources/README.md)
+        - sans doute une page de votre organisation dans la partie [Ressources](../../ressources/README.md)
     - Mentionner le nom de l'organisation et la licence MPL-2.0.
 
 

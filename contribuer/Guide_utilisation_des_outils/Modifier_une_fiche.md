@@ -1,64 +1,26 @@
-# Guide de contribution
+# Modifier une fiche
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-**Sommaire**
-
-[[_TOC_]]
-
-## Comment utiliser Gitlab pour contribuer
-Toute personne souhaitant contribuer est invitée à le faire. Les contributions peuvent porter sur la correction des erreurs, la mise à jour de certains champs, compléter des pages existantes, et en créer de nouvelles. Toutes améliorations, même d'apparence mineure comme la correction de fautes d'orthographe, améliorent pour tous la qualité du contenu. Un processus de relecture et de validation a été mis en place afin de garantir un contenu de qualité. Merci de s'y [référer]() avant toute contribution. 
-
-Il est possible de contribuer de plusieurs manières : 
-- en créant un ticket pour signaler une erreur, proposer une nouvelle idée de fiche par exemple
-- en modifiant une à plusieurs fois une [fiche] 
-- en créant une nouvelle fiche
-- en partageant des [programmes]()
-
-## Créer un ticket
-Les tickets sont des outils de communications autour du projet. Ils peuvent être attribués à une ou plusieurs personnes en désignant des assignés.
-
-Des étiquettes peuvent être ajoutées pour décrire les tickets. Dans le cadre de la documentation collaborative, les étiquettes disponibles sont Rédaction, Développement, Bug, A faire, En cours, Prêt fusion
-
-Les tickets peuvent être visualisés sous la forme de [liste](https://gitlab.com/healthdatahub/documentation-snds/-/issues), [tableaux](https://gitlab.com/healthdatahub/documentation-snds/-/boards/1086586?&label_name[]=D%C3%A9veloppement) où il est possible de trier par étiquette.
-
-### Comment créer un ticket
-Pour créer un ticket : aller dans `Tickets` > `Nouveau ticket`. 
-Une fenêtre s'ouvre, permettant de décrire le ticket à créer.
-
-1. Donner un titre
-2. Faire une courte description
-3. Vous assigner pour retrouver facilement votre ticket et assigner les personnes avec qui vous collaborez
-4. Ajouter des étiquettes (label)
-5. Enregistrer le ticket
-
-### Retrouver un ticket créé
-Pour retrouver un ticket dans lequel on s'est assigné, il faut aller dans la barre de navigation de Gitlab et cliquer sur le bouton vert `Tickets` (cet onglet est juste à droite de la barre de recherche)
-
-### Naviguer dans le ticket créé
-Une fois, le ticket validé, ce dernier comporte un titre, une description. Une liste des personnes assignées est disponible dans l'onglet à droite et est éditable en cliquant sur `éditer`. Il est également possible d'éditer les étiquettes. Une conversation peut démarrer en utilisant l'outils `commentaire` (le format markdown peut être utilisé lors d'édition de commentaires). 
-
-Chaque ticket comporte un numéro qui lui ait propre et qui permet de l'identifier. Il est possible de faire référence à un ticket dans une demande de fusion en indiquant `#numéro du ticket` en commentaire ou dans la description de la demande de fusion.
-
-## Modifier une fiche
-
-### 1. Créer un Ticket  
-Avant de modifier directement une fiche, il est conseillé de créer avant tout un ticket. 
+## Créer un Ticket  
+Avant de modifier directement une fiche, il est conseillé de créer avant tout un [ticket](Guide_utilisation_des_outils/Ticket.md). 
 
 Si les modifications proposées sont jugées mineures (fautes d'orthographes, *etc.*) par le contributeur, l'étape de la création de ticket peut être sautée.
 
-Si la modification est plus importante (ajout de code, d’un paragraphe, mise à jour etc.), il est utile de créer un ticket décrivant les modifications qui vont être apportées. Cela permet d'informer la communauté sur l'évolution du projet de documentation.
+Si la modification est plus importante (ajout de code, d’un paragraphe, mise à jour etc.), il est utile de [créer un ticket](contribuer/Guide_utilisation_des_outils/Ticket.md) décrivant les modifications qui vont être apportées. Cela permet d'informer la communauté sur l'évolution du projet de documentation.
 
-### 2. Ouvrir et éditer le fichier en mode édition
+## Ouvrir et éditer le fichier en mode édition
 Il y a deux manières d'éditer un fichier : en passant par le site de la documentation, ou en accédant à l'interface d'édition par Gitlab.
 
-En bas de chaque page de la documentation se trouve un lien, vous invitant à éditer la fiche sur Gitlab. Ce lien redirige directement vers l'interface de Gitlab.
-<p style="text-align:center;">
-<img src="../files/images/tutoriel_gitlab/editer_sur_gitlab.png" alt="Éditer sur GitLab" width="200"/>
+En [bas de chaque page de la documentation](contribuer/Guide_utilisation_des_outils/Utiliser_le_site_de_documentation.md) se trouve un lien, vous invitant à éditer la fiche sur Gitlab. Ce lien redirige directement vers l'interface de Gitlab.
+
+<p style="center">
+<img src="../../files/images/tutoriel_gitlab/editer_sur_gitlab.png" alt="Éditer sur GitLab" width="200"/>
 </p>
 
-La seconde option pour modifier une fiche est de trouver la fiche à modifier dans le dépôt sur Gitlab et d'ouvir l'interface d'édition avec le bouton `Editer`.
-<p style="text-align:center;">
-<img src="../files/images/tutoriel_gitlab/edition.png" alt="interface edition" width="600"/>
+La seconde option pour modifier une fiche est de trouver la fiche à modifier dans le dépôt sur [Gitlab](https://gitlab.com/healthdatahub/documentation-snds/-/tree/master/fiches) et d'ouvir l'interface d'édition avec le bouton `Editer`.
+
+<p style="center">
+<img src="../../files/images/tutoriel_gitlab/edition.png" alt="interface edition" width="600"/>
 </p>
 
 Dans l'interface d'édition, il est possible de modifier le nom d'une fiche, modifier le texte en utilisant le format markdown. 
@@ -70,26 +32,30 @@ Dans l'interface d'édition, il est possible de modifier le nom d'une fiche, mod
 - En cliquant sur `Aperçu`, une prévisualisation de la fiche peut être obtenue (certaines images peuvent ne pas s'afficher. Les blocs d'information étant des objets View Press, la prévisualisation ne pourra pas se faire.)
 :::
 
-Vous pouvez vous reporter aux fiches [inclure une image](), [Tutoriel Markdown]() pour aller plus loin.
+Vous pouvez vous reporter aux fiches [inclure une image](contribuer/Guide_utilisation_des_outils/inclure_image.md), [tutoriel Markdown](contribuer/Guide_utilisation_des_outils/tutoriel_markdown.md) pour aller plus loin.
 
-### 3. Enregistrer les modifications apportées
+<p style="center">
+<img src="../../files/images/tutoriel_gitlab/2020-04-27_HDH_modifier-fiche_MLP-2.0.png" width="600"/>
+</p>
+
+## Enregistrer les modifications apportées
 Un formulaire en bas de la page éditée permet d'enregistrer vos modifications dans un commit. 
 - Ecrivez un message décrivant les modifications apportées : une description courte, puis éventuellement une description plus longue séparée par une ligne vide.
 - Choississez le nom d'une nouvelle branche de travail, **avec un nom explicite**. N'oubliez pas de remplacer les espaces par des tirets, sinon un message d'erreur s'affichera.
 
-<p style="text-align:center;">
-<img src="../files/images/tutoriel_gitlab/commit.png" alt="commit" width="600"/>
-</p>
-
-En bas de page, la case `créer une nouvelle demande de fusion` est automatiquement cochée. Laissez cette case cochée. Cela permettra une fois une fois les modifications enregistrées dans une branche cible, de demander à incorporer les modification effectuée dans la branche cible dans la branche master. Cela permettra également de discuter et valider les modifications apportées avant de les inclures dans la documentation.
+- En bas de page, la case `créer une nouvelle demande de fusion` est automatiquement cochée. Laissez cette case cochée. Cela permettra une fois une fois les modifications enregistrées dans une branche cible, de demander à incorporer les modification effectuée dans la branche cible dans la branche master. Cela permettra également de discuter et valider les modifications apportées avant de les inclures dans la documentation.
 
 - Cliquer sur `Commit Changes`
 
-### 4. Ouverture d'une demande de fusion (merge-request)
-Une page s'ouvre alors pour configurer cette merge-request.
+<p style="center">
+<img src="../../files/images/tutoriel_gitlab/2020-04-27_HDH_modifier-fiche-enregistrer_MLP-2.0.png" alt="commit" width="600"/>
+</p>
+
+## Ouverture d'une demande de fusion (merge-request)
+Une page s'ouvre alors pour configurer la demande de fusion.
 
 - Donner un titre, remplir la description
-- Ajouter des assignés pour la [relecture et validation]()
+- Ajouter des assignés pour la [relecture et validation](contribuer/Guide_contribution/Contribuer_à_la_documentation.md)
 - Si le travail n’est pas fini et que des modifications seront apportées ultérieurement, cocher la case `Start the title with WIP`
 - Soumettre votre merge-request en bas de page.
 
@@ -100,10 +66,10 @@ Les demandes de fusions sont validées par certains membres de HDH.
 :::
 
 <p style="text-align:center;">
-<img src="../files/images/tutoriel_gitlab/wip.png" alt="wip" width="600"/>
+<img src="../../files/images/tutoriel_gitlab/wip.png" alt="wip" width="600"/>
 </p>
 
-### 5. Naviguer dans une demande de fusion (merge-request)
+## Naviguer dans une demande de fusion (merge-request)
 
 Lorsqu'une demande de fusion est créée, quatre onglets sous le titre de la demande de fusion permettent d'avoir une vue d'ensemble, avoir accès à l'historique des modifications, d'effectuer des tests sur la fiche, d'apporter de nouvelles modifications et comparer deux versions.
 
@@ -134,7 +100,7 @@ Avant d’accepter une demande de fusion, ces tests sont toujours verifiés par 
 Lorsque la prévisualisation est construite, la deuxième icône passe au vert. 
 Cliquer dessus permet d'ouvrir la prévisalisation du site. 
 
-![prévisualisation](../files/images/tutoriel_gitlab/preview.png)
+![prévisualisation](../../files/images/tutoriel_gitlab/preview.png)
 
 À chaque nouveau commit sur la branche, le pipeline est relancé, et la prévisualisation est mise à jour avec la même url.
 
@@ -148,10 +114,10 @@ Dans le menu déroulant `compare` il est possible de choisir quelles versions so
 
 Le bouton Crayon `Edit File` permet d'apporter de nouvelles modifications (voir ci-dessous)
 
-### 6. Retrouver sa demande de fusion
+## Retrouver sa demande de fusion
 Pour retrouver une demande de fusion dans lequel on s'est assigné, il faut aller dans la barre de navigation de Gitlab et cliquer sur le bouton orange  `Demande de fusion`. Si on ne s'est pas assigné dans la demande de fusion, il faut aller dans l'onglet `Demande de fusion` dans la barre à gauche de l'interface Gitlab et chercher sa demande de fusion parmis la liste.
 
-### 7. Apporter des modifications supplémentaires dans la même demande de fusion
+## Apporter des modifications supplémentaires dans la même demande de fusion
 Il existe deux méthodes pour apporter des modifications supplémentaires dans la même demande de fusion.
 
 La première méthode consiste à ajouter des commits sur une branche de travail existante.
@@ -163,7 +129,7 @@ Pour cela aller dans la barre présente à gauche de l'interface Gitlab. Aller d
 
 La seconde méthode consiste à ouvrir sa demande de fusion. Dans l'onglet `Changes`, cliquer sur le bouton Crayon `Edit File`. Une fenêtre d'édition identique à celle lors de la première édition s'ouvre. Un nouveau commit décrivant les modifications apportées doit être enregistré. Il apparaitra dans l'historique des modifications dans la demande de fusion.
 
-### 8. Suggérer des modifications
+## Suggérer des modifications
 Lors du [processus de relecture](), des modifications peuvent être suggérées par le relecteur. 
 
 * Soit en utilisant la boite de dialogue présente dans l'onglet `Vue d'ensemble` de la demande de fusion et en taguant la personne à qui les remarques sont adressées. 
@@ -173,17 +139,7 @@ Lors du [processus de relecture](), des modifications peuvent être suggérées 
 Pour taguer une personne il suffit de taper `@` et une liste déroulante des personnes participant au projet de la documentation apparait. En tapant le nom de la personne recherchée dans la barre de recherche on peut donc sélectionner la personne souhaitée.
 ::: 
 
-### 9. Incorporation des modifications dans le projet
+## Incorporation des modifications dans le projet
 Lorsque le [processus de relecture]() est terminée, les modification peuvent être incorporées dans la documentation. Aller dans l'onglet `Vue d'ensemble` de la demande de fusion. Enlever l'étiquettes 'Etape: en cours' si elle a été mise. Enlever le statut `WIP` en allant dans le bouton `Editer`. Ajouter l'étiquette 'Etape : Prêt fusion'. 
 
 Cela permet aux mainteneurs du projet de savoir visuellement quelles demandes de fusion sont prêtes et de pouvoir incorporer à la documentation les modifications proposées.
-
-## Créer une fiche
-### 1. Créer un Ticket  
-La première étape est la création d’un ticket. Se référer à la sous-partie correspondante. Créer un ticket permet d'informer la communauté qu'une nouvelle fiche va être créée. Cela permet d'éviter notamment les doublons.
-
-### 2. Ajouter un fichier
-### 3. Enregistrer les modifications apportées
-### 4. Ouverture d'une demande de fusion (merge-request)
-
-## Partager un programme
