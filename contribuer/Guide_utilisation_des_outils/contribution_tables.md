@@ -34,7 +34,7 @@ Sur les pages de la section tables, un lien supplémentaire d'édition, situé s
 
 <p style="text-align:center;">
 <img 
-    src="../files/images/contribution_tables/lien_editer_schema.png" 
+    src="../../files/images/contribution_tables/lien_editer_schema.png" 
     alt="Lien d'édition vers le schéma des tables" 
     width="300"
 />

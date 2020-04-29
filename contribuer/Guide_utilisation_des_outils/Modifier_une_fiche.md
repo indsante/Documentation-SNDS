@@ -124,7 +124,7 @@ La première méthode consiste à ajouter des commits sur une branche de travail
 Pour cela aller dans la barre présente à gauche de l'interface Gitlab. Aller dans l'onglet `Dépôt` > `Fichiers`. Aller sur le bouton `master`. En cliquant dessus un menu déroulant contenant les branches de travail encore ouverte s'affiche. Choisir la branche cible voulue, aller dans le dossier `Fiches` et ouvrir en mode édition la fiche à modifier. Les nouveaux commits ainsi créés apparaîtront alors dans la demande de fusion associée à cette branche.
 
 <p style="text-align:center;">
-<img src="../files/images/tutoriel_gitlab/switch_branch.png" alt="changer branche" width="400"/>
+<img src="../../files/images/tutoriel_gitlab/switch_branch.png" alt="changer branche" width="400"/>
 </p>
 
 La seconde méthode consiste à ouvrir sa demande de fusion. Dans l'onglet `Changes`, cliquer sur le bouton Crayon `Edit File`. Une fenêtre d'édition identique à celle lors de la première édition s'ouvre. Un nouveau commit décrivant les modifications apportées doit être enregistré. Il apparaitra dans l'historique des modifications dans la demande de fusion.

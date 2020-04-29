@@ -47,7 +47,7 @@ chemin ou son URL.
 
 Utilisez des balises html, pour une image centrée et de largeur 100px fixée.
 <p style="text-align:center;">
-<img src="../files/images/logo/logoSNDS.jpg" width="100"/>
+<img src="../../files/images/logo/logoSNDS.jpg" width="100"/>
 </p>
 
 ## Inclure du code

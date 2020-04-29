@@ -141,15 +141,15 @@ Pour inclure une image, il faut tout d'abord la téléverser dans Gitlab (voir f
 1. Pour afficher une image, ajouter un **point d'exclamation** devant son chemin ou son URL.
 
 ```
-![texte alternatif de l'image](../files/images/logo/logoSNDS.jpg)
+![texte alternatif de l'image](../../files/images/logo/logoSNDS.jpg)
 ```
 Résultat : ![texte alternatif de l'image](../../files/images/logo/logoSNDS.jpg)
 
 2. Pour préciser les dimensions de l'image, il faut utiliser des balises html.
 ```
-<img src="../files/images/logo/logoSNDS.jpg" alt="Éditer sur GitLab" width="100px"/>
+<img src="../../files/images/logo/logoSNDS.jpg" alt="Éditer sur GitLab" width="100px"/>
 ```
-Résultat : <img src="../files/images/logo/logoSNDS.jpg" alt="Éditer sur GitLab" width="100px"/>
+Résultat : <img src="../../files/images/logo/logoSNDS.jpg" alt="Éditer sur GitLab" width="100px"/>
 
 3. Légende
 
@@ -159,7 +159,7 @@ Pour que ce texte soit **en dessous** de l'image, insérer deux espaces à la fi
 [^legende]: Mardown n'a pas à proprement parler de notion de légende.
 
 ```
-![texte alternatif de l'image](../files/images/logo/logoSNDS.jpg)    
+![texte alternatif de l'image](../../files/images/logo/logoSNDS.jpg)    
 *Logo SNDS* 
 ```
 Résultat :
@@ -170,13 +170,13 @@ Résultat :
 4. Pour centrer l'image, des balises html doivent également être utilisées :
 ```
 <p align="center">
-<img src="../files/images/logo/logoSNDS.jpg" width="100px"/>
+<img src="../../files/images/logo/logoSNDS.jpg" width="100px"/>
 </p>
 ```
 Résultat :
 
 <p style="text-align:center;">
-<img src="../files/images/logo/logoSNDS.jpg" alt="Éditer sur GitLab" width="100"/>
+<img src="../../files/images/logo/logoSNDS.jpg" alt="Éditer sur GitLab" width="100"/>
 </p>
 
 ## Notes de bas de page

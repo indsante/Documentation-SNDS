@@ -21,17 +21,16 @@ const sidebar = [
         children: [
             {
                 title: "Guide de contribution",
+                path: "/contribuer/Guide_contribution",
                 children: [
-                    "/contribuer/Guide_contribution/README.md",
-                    "/contribuer/Guide_contribution/Contribuer_à_la_documentation.md",
-                    "/contribuer/Guide_contribution/partager_des_sources.md",
-                    "/contribuer/Guide_contribution/contactez_nous.md",
+                    "/contribuer/Guide_contribution/partager_des_sources",
+                    "/contribuer/Guide_contribution/contactez_nous"
                 ]
             },
             {
                 title: "Guide d\'utilisation des outils",
-                children: [
-                    "/contribuer/Guide_utilisation_des_outils/README",
+                path: "/contribuer/Guide_utilisation_des_outils",
+                children: [ 
                     "/contribuer/Guide_utilisation_des_outils/Utiliser_le_site_de_documentation",
                     "/contribuer/Guide_utilisation_des_outils/Introduction_Gitlab",
                     "/contribuer/Guide_utilisation_des_outils/tutoriel_markdown",
@@ -42,15 +41,10 @@ const sidebar = [
                     "/contribuer/Guide_utilisation_des_outils/Forum",
                     "/contribuer/Guide_utilisation_des_outils/developpement_local",
                     "/contribuer/Guide_utilisation_des_outils/Cheat_Sheet.md",
-                    "/contribuer/Guide_utilisation_des_outils/exercices_formation",
+                    "/contribuer/Guide_utilisation_des_outils/exercices_formation"
                 ]
             },
-            {
-                title: "A propos",
-                children: [
-                    "/A_propos/",
-                ]
-            }
+            "/contribuer/A_propos"
         ]
     }
 ];
