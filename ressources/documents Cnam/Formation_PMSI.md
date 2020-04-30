@@ -3,7 +3,7 @@
 
 Cette section rassemble des ressources disponibles pour se former au PMSI. Ces ressources sont publiées par la Cnam sous licence MPL-2.0
 
-## Formation PMSI
+## Initiation au PMSI
 
 <object data="../../../files/Cnam/2020-04-30_CNAM_Formation-PMSI_MLP-2.0.pdf" type="application/pdf" width="750px" height="750px">
     <embed src="../../../files/Cnam/2020-04-30_CNAM_Formation-PMSI_MLP-2.0.pdf" type="application/pdf">
@@ -13,7 +13,7 @@ Cette section rassemble des ressources disponibles pour se former au PMSI. Ces r
 
 Ce document est [téléchargeable](../../../files/Cnam/2020-04-30_CNAM_Formation-PMSI_MLP-2.0.pdf) sur Gitlab.
 
-## Excercices
+## Exercices
 
 <object data="../../../files/Cnam/2020-04-30_CNAM_Enoncés-EXERCICES-TOUS-PMSI-fev-2019_MLP-2.0.pdf" type="application/pdf" width="750px" height="750px">
     <embed src="../../../files/Cnam/2020-04-30_CNAM_Enoncés-EXERCICES-TOUS-PMSI-fev-2019_MLP-2.0.pdf" type="application/pdf">
