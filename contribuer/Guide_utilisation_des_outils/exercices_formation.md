@@ -11,7 +11,7 @@ Le support de formation ci-dessous peut être ouvert en [suivant ce lien](http:/
 <div class="responsive-wrap">
 <p style="text-align:center;">
 <iframe 
-    src="https://docs.google.com/presentation/d/1oYQksP4GwsWrbSBlJcMukk-jlx7YUM7NEmz4_kCUrCA/embed?start=false&loop=false&delayms=1000" 
+    src="https://docs.google.com/presentation/d/1m9DZh37TShLuZ5d1PBtxe1nv5XN92v5_WRZpe_iKeck/edit#slide=id.g732b02f83a_2_75" 
     frameborder="0" width="700" height="430" 
     allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"
 ></iframe>

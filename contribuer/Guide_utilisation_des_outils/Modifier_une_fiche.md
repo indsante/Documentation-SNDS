@@ -2,16 +2,16 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## Créer un Ticket  
-Avant de modifier directement une fiche, il est conseillé de créer avant tout un [ticket](Guide_utilisation_des_outils/Ticket.md). 
+Avant de modifier directement une fiche, il est conseillé de créer avant tout un [ticket](Ticket.md). 
 
 Si les modifications proposées sont jugées mineures (fautes d'orthographes, *etc.*) par le contributeur, l'étape de la création de ticket peut être sautée.
 
-Si la modification est plus importante (ajout de code, d’un paragraphe, mise à jour etc.), il est utile de [créer un ticket](contribuer/Guide_utilisation_des_outils/Ticket.md) décrivant les modifications qui vont être apportées. Cela permet d'informer la communauté sur l'évolution du projet de documentation.
+Si la modification est plus importante (ajout de code, d’un paragraphe, mise à jour etc.), il est utile de [créer un ticket](Ticket.md) décrivant les modifications qui vont être apportées. Cela permet d'informer la communauté sur l'évolution du projet de documentation.
 
 ## Ouvrir et éditer le fichier en mode édition
 Il y a deux manières d'éditer un fichier : en passant par le site de la documentation, ou en accédant à l'interface d'édition par Gitlab.
 
-En [bas de chaque page de la documentation](contribuer/Guide_utilisation_des_outils/Utiliser_le_site_de_documentation.md) se trouve un lien, vous invitant à éditer la fiche sur Gitlab. Ce lien redirige directement vers l'interface de Gitlab.
+En [bas de chaque page de la documentation](Utiliser_le_site_de_documentation.md) se trouve un lien, vous invitant à éditer la fiche sur Gitlab. Ce lien redirige directement vers l'interface de Gitlab.
 
 <p style="center">
 <img src="../../files/images/tutoriel_gitlab/editer_sur_gitlab.png" alt="Éditer sur GitLab" width="200"/>
@@ -32,7 +32,7 @@ Dans l'interface d'édition, il est possible de modifier le nom d'une fiche, mod
 - En cliquant sur `Aperçu`, une prévisualisation de la fiche peut être obtenue (certaines images peuvent ne pas s'afficher. Les blocs d'information étant des objets View Press, la prévisualisation ne pourra pas se faire.)
 :::
 
-Vous pouvez vous reporter aux fiches [inclure une image](contribuer/Guide_utilisation_des_outils/inclure_image.md), [tutoriel Markdown](contribuer/Guide_utilisation_des_outils/tutoriel_markdown.md) pour aller plus loin.
+Vous pouvez vous reporter aux fiches [inclure une image](inclure_image.md), [tutoriel Markdown](tutoriel_markdown.md) pour aller plus loin.
 
 <p style="center">
 <img src="../../files/images/tutoriel_gitlab/2020-04-27_HDH_modifier-fiche_MLP-2.0.png" width="600"/>
@@ -60,7 +60,7 @@ Une page s'ouvre alors pour configurer la demande de fusion.
 - Soumettre votre merge-request en bas de page.
 
 ::: Tips
-Enregistrer une demande de fusion ne veut pas dire que la fusion se lancera automatiquement après cette demande. L'incorporation des modifications proposées dans la documentation nécessite une [validation] de certains membres sur Health Data Hub. Des modifications peuvent toujours être apportées sur la même fiche, dans la même demande de fusion (et donc sur la même branche). 
+Enregistrer une demande de fusion ne veut pas dire que la fusion se lancera automatiquement après cette demande. L'incorporation des modifications proposées dans la documentation nécessite une [validation](../Guide_contribution/README.md) de certains membres sur Health Data Hub. Des modifications peuvent toujours être apportées sur la même fiche, dans la même demande de fusion (et donc sur la même branche). 
 
 Les demandes de fusions sont validées par certains membres de HDH. 
 :::
@@ -93,14 +93,16 @@ Lorsqu'une merge-request est ouverte, un "`pipeline`" est démarré pour effectu
 
 Les tests permettent de vérifier que les liens externes et internes sont valides. Il y a également un test permettant de vérifier que l'identifiant de la licence est bien présent. En cas d’échec, des icônes oranges apparaissent pour les tests des lien externes et de la licence et une icône rouge apparaît pour le test des liens internes. 
 
-La [fiche]() reprenant les erreurs courantes rencontrées peut être utilisée pour corriger de manière autonome ces tests si le contributeur se sent à l'aise. 
+La [fiche](erreur_pipelines.md) reprenant les erreurs courantes rencontrées peut être utilisée pour corriger de manière autonome ces erreurs si le contributeur se sent à l'aise. 
 
 Avant d’accepter une demande de fusion, ces tests sont toujours verifiés par les mainteneurs et les corrections nécessaires sont apportées en cas d’échec.
 
 Lorsque la prévisualisation est construite, la deuxième icône passe au vert. 
-Cliquer dessus permet d'ouvrir la prévisalisation du site. 
+Cliquer dessus, permet d'ouvrir la prévisualisation du site. 
 
-![prévisualisation](../../files/images/tutoriel_gitlab/preview.png)
+<p style="text-align:center;">
+<img src="../../files/images/tutoriel_gitlab/preview.png" alt="wip" width="600"/>
+</p>
 
 À chaque nouveau commit sur la branche, le pipeline est relancé, et la prévisualisation est mise à jour avec la même url.
 
@@ -114,8 +116,12 @@ Dans le menu déroulant `compare` il est possible de choisir quelles versions so
 
 Le bouton Crayon `Edit File` permet d'apporter de nouvelles modifications (voir ci-dessous)
 
+<p style="text-align:center;">
+<img src="../../files/images/tutoriel_gitlab/2020-05-10_HDH_MR-comparaison_MLP-2.0.png" alt="wip" width="600"/>
+</p>
+
 ## Retrouver sa demande de fusion
-Pour retrouver une demande de fusion dans lequel on s'est assigné, il faut aller dans la barre de navigation de Gitlab et cliquer sur le bouton orange  `Demande de fusion`. Si on ne s'est pas assigné dans la demande de fusion, il faut aller dans l'onglet `Demande de fusion` dans la barre à gauche de l'interface Gitlab et chercher sa demande de fusion parmis la liste.
+Pour retrouver une demande de fusion dans lequel on s'est assigné, il faut aller dans la barre de navigation de Gitlab et cliquer sur le bouton orange  `Demande de fusion`. Si on ne s'est pas assigné dans la demande de fusion, il faut aller dans l'onglet `Demande de fusion` dans la barre à gauche de l'interface Gitlab et chercher sa demande de fusion parmi la liste.
 
 ## Apporter des modifications supplémentaires dans la même demande de fusion
 Il existe deux méthodes pour apporter des modifications supplémentaires dans la même demande de fusion.
@@ -129,17 +135,25 @@ Pour cela aller dans la barre présente à gauche de l'interface Gitlab. Aller d
 
 La seconde méthode consiste à ouvrir sa demande de fusion. Dans l'onglet `Changes`, cliquer sur le bouton Crayon `Edit File`. Une fenêtre d'édition identique à celle lors de la première édition s'ouvre. Un nouveau commit décrivant les modifications apportées doit être enregistré. Il apparaitra dans l'historique des modifications dans la demande de fusion.
 
+<p style="text-align:center;">
+<img src="../../files/images/tutoriel_gitlab/2020-05-10_HDH_edit-file_MLP-2.0.png" alt="changer branche" width="400"/>
+</p>
+
 ## Suggérer des modifications
-Lors du [processus de relecture](), des modifications peuvent être suggérées par le relecteur. 
+Lors du [processus de relecture](../Guide_contribution/README.md), des modifications peuvent être suggérées par le relecteur. 
 
 * Soit en utilisant la boite de dialogue présente dans l'onglet `Vue d'ensemble` de la demande de fusion et en taguant la personne à qui les remarques sont adressées. 
 * Soit en faisant un commentaire ou une proposition de modification sur une ligne spécifique. Pour cela, aller dans l'onglet `Changes`  de la demande de fusion, et passer la souris sur la ligne à commenter/modifier. Un bouton bleu contenant une bulle de conversation apparait à gauche. En le sélectionnant il est possible d'écrire un commentaire spécifique à la ligne sélectionnée. Une suggestion de modification peut être insérée à partir de la fenêtre des commentaires en cliquant sur le bouton `Insert Suggestion`. Cela fera apparaitre une suggestion de modification dans l'onglet `Vue d'ensemble` de la demande de fusion. Celle-ci pourra être acceptée ou refusée par l'auteur de la fiche.
+
+<p style="text-align:center;">
+<img src="../../files/images/tutoriel_gitlab/2020-05-10_HDH_proposer-correction_MLP-2.0.png" alt="changer branche" width="400"/>
+</p>
 
 ::: Tips
 Pour taguer une personne il suffit de taper `@` et une liste déroulante des personnes participant au projet de la documentation apparait. En tapant le nom de la personne recherchée dans la barre de recherche on peut donc sélectionner la personne souhaitée.
 ::: 
 
 ## Incorporation des modifications dans le projet
-Lorsque le [processus de relecture]() est terminée, les modification peuvent être incorporées dans la documentation. Aller dans l'onglet `Vue d'ensemble` de la demande de fusion. Enlever l'étiquettes 'Etape: en cours' si elle a été mise. Enlever le statut `WIP` en allant dans le bouton `Editer`. Ajouter l'étiquette 'Etape : Prêt fusion'. 
+Lorsque le [processus de relecture](../Guide_contribution/README.md) est terminée, les modification peuvent être incorporées dans la documentation. Aller dans l'onglet `Vue d'ensemble` de la demande de fusion. Enlever l'étiquettes 'Etape: en cours' si elle a été mise. Enlever le statut `WIP` en allant dans le bouton `Editer`. Ajouter l'étiquette 'Etape : Prêt fusion'. 
 
 Cela permet aux mainteneurs du projet de savoir visuellement quelles demandes de fusion sont prêtes et de pouvoir incorporer à la documentation les modifications proposées.

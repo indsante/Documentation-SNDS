@@ -20,7 +20,7 @@ Enregistrez votre fichier, avec un nom
 - sans espace, pour simplifier les liens internes ;
 - terminer par l'extention **.md**, pour indiquer qu'il s'agit d'un fichier Markdown.
 
-Pour la suite, enregistrez votre modification dans une branche et ouvrez une merge-request de la même façon que pour modifier un fichier (cf [Introduction GitLab](introduction_gitlab.md)).
+Pour la suite, enregistrez votre modification dans une branche et ouvrez une merge-request de la même façon que pour modifier un fichier (cf [Introduction GitLab](Introduction_Gitlab.md)).
 
 ## Créer un nouveau dossier
 Pour créer un nouveau dossier, naviguer dans le dossier de votre choix, et sélectionnez **Nouveau dossier** dans le menu déroulant `+`. 
