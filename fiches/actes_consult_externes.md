@@ -240,7 +240,7 @@ RUN;
 |    FTR         |    Forfaits techniques de radiologie   réduits                                          |
 |    G           |    Consultation du généraliste                                                          |
 |    K           |    Actes chirurgie et spécialités                                                       |
-|    KB          |    Actes Biologie Chirugie                                                              |
+|    KB          |    Actes Biologie Chirurgie                                                              |
 |    KC          |    Certains actes chirurgicaux                                                          |
 |    KCC         |    Actes chirurgie et de spécialité   réalisée par un médecin spécialisé                |
 |    KE          |    Certains actes chirurgicaux réalisés en   echographie                                |
