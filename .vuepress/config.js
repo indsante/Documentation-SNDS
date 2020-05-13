@@ -38,7 +38,7 @@ const sidebar = [
                     "/contribuer/Guide_utilisation_des_outils/Modifier_une_fiche",
                     "/contribuer/Guide_utilisation_des_outils/Creer_une_fiche",
                     "/contribuer/Guide_utilisation_des_outils/inclure_image",
-                    "/contribuer/Guide_utilisation_des_outils/partage_document"
+                    "/contribuer/Guide_utilisation_des_outils/partage_document",
                     "/contribuer/Guide_utilisation_des_outils/contribution_tables",
                     "/contribuer/Guide_utilisation_des_outils/Forum",
                     "/contribuer/Guide_utilisation_des_outils/developpement_local",
