@@ -2,7 +2,7 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## Historique
-Le projet de la documentation collaborative a démarré en [février 2019](https://gitlab.com/healthdatahub/formation/documentation-snds/-/commit/5c7086aa52624c3a1c59234064f78d3a82a4b03a) à l'initiative de la Drees, de la Cnam et d' INDS devenu le Health Data Hub.
+Le projet de la documentation collaborative a démarré en [février 2019](https://gitlab.com/healthdatahub/formation/documentation-snds/-/commit/5c7086aa52624c3a1c59234064f78d3a82a4b03a) à l'initiative de la Drees, de la Cnam et de l'INDS devenu le Health Data Hub.
 Il est actuellement le fruit de contributions de plusieurs auteurs, et est maintenu par l'équipe Open Source du Health Data Hub.
 
 ## Gouvernance
@@ -34,4 +34,4 @@ La documentation résulte d'une mise en commun de documents et travaux par plusi
 - Organisation de la direction de la sécurité sociale - [DSS](https://solidarites-sante.gouv.fr/ministere/organisation/organisation-des-directions-et-services/article/organisation-de-la-direction-de-la-securite-sociale-dss)
 
 ## Contact
-Pour toutes questions, suggestions, vous pouvez nous contactez par mail : << opensource@health-data-hub.fr >>
+Pour toutes questions, suggestions, vous pouvez nous contactez par mail : <<opensource@health-data-hub.fr>>

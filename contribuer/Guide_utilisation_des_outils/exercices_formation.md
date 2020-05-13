@@ -10,14 +10,10 @@ Le support de formation ci-dessous peut être ouvert en [suivant ce lien](http:/
 </style>
 <div class="responsive-wrap">
 <p style="text-align:center;">
-<iframe 
-    src="https://docs.google.com/presentation/d/1m9DZh37TShLuZ5d1PBtxe1nv5XN92v5_WRZpe_iKeck/edit#slide=id.g732b02f83a_2_75" 
-    frameborder="0" width="700" height="430" 
-    allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"
-></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSCZjdOn5mObOv8bnkKdLfyLA0lLg9h0q0vW48sAfj_DMcbooNuLv6cTO8t06h8k-GcK0GRjSETP_RE/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
 </p>
 </div>
-
 
 ::: tip Note
 Se rendre sur le **site de formation** et sur le **projet GitLab de formation** pour les TPs :

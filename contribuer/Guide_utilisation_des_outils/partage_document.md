@@ -1,23 +1,58 @@
-# Partage de documents existants/programmes
-De nombreuses organisations ont documenté le SNDS pour des besoins internes. 
-Ce travail n'est souvent pas accessible à la communauté plus large des utilisateurs du SNDS. 
-Une contribution de grande valeur consiste donc à partager publiquement des documents existants dans votre organisation.
+# Partage de documents
+<!-- SPDX-License-Identifier: MPL-2.0 -->  
+ 
+## Téléverser un fichier
 
-## Où publier des documents hors programme ?
-Vous avez deux options pour publier ces documents
+Des documents de tout format peuvent être partagés dans la documentation collaborative. 
+Ils seront mis à disposition via un lien de téléchargement.
 
-- sur le site internet de votre organisation.
-Ils seront référencé par un lien hypertexte dans la section [ressources externes](../../ressources/internet.md). 
+Pour ajouter un nouveau fichier, merci de bien vouloir : 
+- Vérifier que vous avez les droits pour le publier 
 
-- sur ce site de documentation.
-Un lien de téléchargement sera ajouté dans la section des 
-[documents partagés via ce projet](../../ressources/README.md), et les documents pourront être convertis en page de documentation si cela est jugé approprié. 
+- Le renommer en local au format **date_auteur_nom-du-fichier_MPL-2.0.extension**
+    - `date` : a minima l'année, éventuellement le mois et le jour, au format AAAA-MM-JJ 
+    - `auteur` : nom court de l'organisation détentrice des droits
+    - `nom-du-fichier` : remplacer les espaces par des tirets `-`
+    - `MPL-2.0` : identifiant de licence
+    - `extension` : par exemple `.csv`, `.pdf`, `.odp`.
 
-Une [fiche explicative](../../contribuer/Guide_utilisation_des_outils/partage_document.md) sur le partage de document est disponible sur le guide de contribution.
+::: warning Note
+- **Supprimer les espaces** dans les noms de fichiers, car ils compliquent les liens hypertextes (l'espace doit être indiqué par le caractère `%20`). 
+- **Ne pas utiliser d'accents ou de caractères spéciaux**
+:::
 
-### Partage de programmes
-Le partage de programmes ou scripts d'analyses est très utile pour la communauté.
+- Ouvrir le dossier où ajouter le fichier 
+    - dossier `files/` ([lien gitlab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files/)), 
+    - sous-dossier au nom de votre organisation
 
-Dans les fiches de courtes sections de code sont souvent partagées.
+- Téléverser le fichier
+    - Bouton `+` > `Upload file` 
+    - Remplir une description de commit explicite
+    - Donner un nom de branche explicite, par exemple `upload-NOM-FICHIER`
+    - Ouvrez une merge-request à partir de cette branche
+    
+- Ajouter un lien de téléchargement sur une page
+    - Se placer sur la même branche
+    - Trouver le fichier où vous souhaitez mettre le lien 
+        - sans doute une page de votre organisation dans la partie [Ressources](../../ressources/README.md)
+    - Mentionner le nom de l'organisation et la licence MPL-2.0.
 
-Les programmes plus conséquents, par exemple un script complet d'analyse, sont partagés dans le dépôt dédié [programme-snds](https://gitlab.com/healthdatahub/programmes-sdns). Les programmes partagés dans ce dépôt dédié sont sous licence APACHE 2.0. Une [fiche](../../ressources/programmes.md) les repertoriant est disponible sur le site de la documentation.
+
+## Nouvelle image
+
+Les images sont un type particulier de fichier, à ajouter comme expliqué ci-dessus.
+
+Les images peuvent être ajoutées dans le dossier `files` ([lien gitlab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files)), ou dans le dossier générique `images`. 
+
+Vous pouvez ensuite intégrer les images dans une page de documentation via un lien hypertexte précédé d'un point d'exclamation `!` 
+(cf [tutoriel Markdown](tutoriel_markdown.md#liens-hypertextes)).
+
+Si une image provient d'un document tierce, par exemple une présentation Powerpoint :
+- Ajouter ce document tierce pour permettre des évolutions de l'image en repartant du fichier
+- Mettre l'image dans le même dossier, ou dans un sous-dossier du même nom s'il y a plusieurs images
+
+::: warning Attention
+L'extension d'une image doit être en **minuscule**, sinon [l'image n'est pas reconnue](https://github.com/vuejs/vuepress/issues/625#issuecomment-401614539). 
+
+Utiliser `.png` ou `.jpg`, **pas** `.PNG` ou `.JPG`.
+:::

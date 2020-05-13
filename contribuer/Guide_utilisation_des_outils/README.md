@@ -4,14 +4,14 @@
 ## Quels outils?
 Différents outils opensource sont mis à disposition par le Health Data Hub et la Dress dans le cadre de la documentation collaborative.
 
-Les fiches et documents sont partagés un dépôt dans [Gitlab](https://gitlab.com/healthdatahub/documentation-snds) par les contributeurs avant d'être compilé par un logiciel Open Source [Vuepress](https://vuepress.vuejs.org/) pour donner le site de la documentation. 
+Les fiches et documents sont partagés un dépôt dans [Gitlab](https://gitlab.com/healthdatahub/documentation-snds) par les contributeurs avant d'être compilés par un logiciel Open Source [Vuepress](https://vuepress.vuejs.org/) pour donner le site de la documentation. 
 
 <p style="center">
-<img src="../../files/images/tutoriel_gitlab/2020-05-10_HDH_outils-documentation_MLP-2.0.png" alt="Éditer sur GitLab" width="200"/>
+<img src="../../files/images/tutoriel_gitlab/2020-05-10_HDH_outils-documentation_MLP-2.0.png" alt="Éditer sur GitLab" width="700"/>
 </p>
 
 ### Gitlab
-Les fiches contenues dans ce guide de contribution peuvent être utilisées comme mémo suite à une [formation d'utilisation de Gitlab pour contribuer]() ou pour apprendre de manière autonome.
+Les fiches contenues dans ce guide de contribution peuvent être utilisées comme mémo suite à une [formation d'utilisation de Gitlab pour contribuer](https://www.meetup.com/fr-FR/Health-Data-Hub/) ou pour apprendre de manière autonome.
 
 Vous retrouverez notamment:
 
@@ -19,7 +19,7 @@ Vous retrouverez notamment:
 - une fiche [d'introduction et  navigation sur Gitlab](Introduction_Gitlab.md)
 - Comment créer un [ticket](Ticket.md)
 - Comment [modifier une fiche](Modifier_une_fiche.md)
-- Comment [créer une fiche](Créer_une_fiche.md)
+- Comment [créer une fiche](Creer_une_fiche.md)
 - Comment rajouter une [image](inclure_image.md) dans une fiche
 - Comment [partager un document](partage_document.md)
 - Comment [contribuer aux tables de données synthétiques](contribution_tables.md)
@@ -35,11 +35,11 @@ Il est fortement recommandé de partager la publication de d'une fiche sur le [f
 Toute personne souhaitant contribuer est invitée à le faire. Les contributions peuvent porter sur la correction des erreurs, la mise à jour de certains champs, compléter des pages existantes, et en créer de nouvelles. Toutes améliorations, même d'apparence mineure comme la correction de fautes d'orthographe, améliorent pour tous la qualité du contenu. Un processus de relecture et de validation a été mis en place afin de garantir un contenu de qualité. Merci de s'y [référer](../../contribuer/Guide_contribution/README.md) avant toute contribution. 
 
 Il est possible de contribuer de plusieurs manières : 
-- en créant un ticket pour signaler une erreur, proposer une nouvelle idée de fiche par exemple
+- en créant un [ticket](Ticket.md) pour signaler une erreur, proposer une nouvelle idée de fiche par exemple
 - en modifiant une à plusieurs fois une [fiche](Modifier_une_fiche.md)
-- en créant une [nouvelle fiche](Créer_une_fiche.md)
+- en créant une [nouvelle fiche](Creer_une_fiche.md)
 - en partageant des [programmes](../../contribuer/Guide_contribution/partager_des_sources.md)
 
 <p style="center">
-<img src="../../files/images/tutoriel_gitlab/2020-05-10_HDH_procedure-contribution_MLP-2.0.png" alt="Éditer sur GitLab" width="200"/>
+<img src="../../files/images/tutoriel_gitlab/2020-05-10_HDH_procedure-contribution_MLP-2.0.png" alt="Éditer sur GitLab" width="800"/>
 </p>

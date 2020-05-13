@@ -10,10 +10,10 @@ Vous avez deux options pour publier ces documents
 
 - un dossier servant de [boite aux lettres]() est disponible sur Gitlab. Vous pouvez y déposer des documents. Nous nous occuperons de les placer dans les dossiers adéquats et les documents pourront être convertis en page de documentation si cela est jugé approprié. 
 
-- ou directement dans le dossier de votre [organisme](../../ressources)
+- ou directement dans le dossier de votre [organisme](https://gitlab.com/healthdatahub/documentation-snds/-/tree/master/ressourceses). Les documents pourront être également être convertis en page de documentation.
 
 - sur le site internet de votre organisation.
-Ils seront référencé par un lien hypertexte dans la section [ressources externes](../../ressources/internet.md). 
+Ils seront référencés par un lien hypertexte dans la section [ressources externes](../../ressources/internet.md). 
 
 Une [fiche explicative](../../contribuer/Guide_utilisation_des_outils/partage_document.md) sur le partage de document est diponible sur le guide de contribution.
 
