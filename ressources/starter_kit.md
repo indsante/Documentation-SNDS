@@ -86,8 +86,8 @@ Le dépôt de mon dossier s’effectue en ligne sur [une plateforme de dépôt](
 Je serai tenu informé par la plateforme de l’avancement de ma demande.
 
 Mon dossier doit comprendre :
-- [Un protocole scientifique type](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_59e9a5b2fd33461cb207fbdee24b5aaf.docx?dn=20200427- Template protocole.docx) ([notice d'aide](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/8b518a_d087761b02574142ae80f4888d4f7ee4.pdf))
-- [Un résumé type](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_2967180d6cbf4b58af9d40291712765e.docx?dn=20200427- Templace résumé.docx)
+- [Un protocole scientifique type](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_59e9a5b2fd33461cb207fbdee24b5aaf.docx?dn=20200427-Template_protocole.docx) ([notice d'aide](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/8b518a_d087761b02574142ae80f4888d4f7ee4.pdf))
+- [Un résumé type](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_2967180d6cbf4b58af9d40291712765e.docx?dn=20200427-Template_résumé.docx)
 - La déclaration publique d'intérêt du [responsable de traitement](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_5eb56bc2fde64e878b5f5220c550a00c.pdf) et du [responsable de mise en œuvre](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_a8998058469f4fc29285fab1e61306ec.pdf)
 - Le [formulaire](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_f5693851388b4162937d187719da6280.pdf) de demande d'autorisation de la CNIL pré-rempli 
 - [Une lettre](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_53122d7e403f4866b9ff31e1da1fcc03.pdf) d’information aux personnes concernées
