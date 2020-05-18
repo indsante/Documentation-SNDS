@@ -5,16 +5,7 @@ Comment débuter avec les données de santé ?
 
 Publié originalement sur le [site internet du Health Data Hub](https://www.health-data-hub.fr/) comme kit de démarrage avec les données. 
 
-## SOMMAIRE
-
-1. De quelles données ai-je besoin pour mon projet ?
-2. Qui sont mes partenaires ?
-3. Quelles sont les démarches administratives à réaliser ?
-4. Où va être réalisé mon traitement ?
-5. Quelles pièces dois-je rassembler pour constituer mon dossier ?
-6. Comment aller plus loin ?
-
-## DE QUELLES DONNÉES AIS-JE BESOIN POUR MON PROJET ?
+## De quelles données ai-je besoin pour mon projet ?
 
 Le [système national des données de santé](https://documentation-snds.health-data-hub.fr/introduction/) (SNDS) est historiquement constitué des données dites "médico administratives": il s'agit des feuilles de soin, des données de facturation hospitalière et des causes médicales de décès. La loi du 24 juillet 2019 a élargi son périmètre à l'ensemble des données de santé donnant lieu à un remboursement de l'assurance maladie.
 
@@ -22,11 +13,11 @@ Lorsque je souhaite traiter ces données, je m'engage à :
 - Communiquer au grand public une partie de mes résultats à l’issue de mon projet en application des obligations de transparence. Ces éléments de résultats seront rendus publics par le biais du répertoire des projets maintenus par le Health Data Hub
 - Ne pas poursuivre l’une des finalités suivantes : la promotion en direction des professionnels de santé ou des établissements des produits de santé ; l’exclusion de garanties des contrats d’assurance ou la modification de cotisations ou de primes d’assurance pour un individu ou un groupe d’individus. Si je suis un industriel du produit de santé ou un assureur, je devrai être particulièrement attentif aux éléments de mon dossier permettant de garantir que je respecte ces dispositions.
 
-Bientôt, le Health Data Hub mettra à ma disposition un catalogue de bases de données aisément accessibles. Dans l'attente, je peux être accompagné dans mes démarche auprès des responsables de données dont je souhaite utiliser une partie des données. Je peux trouver des exemples de bases de données [ici](https://epidemiologie-france.aviesan.fr/).
+Bientôt, le Health Data Hub mettra à ma disposition un catalogue de bases de données aisément accessibles. Dans l'attente, je peux être accompagné dans mes démarche auprès des responsables de données dont je souhaite utiliser une partie des données. Je peux trouver des exemples de bases de données [ici](https://epidemiologie-france.aviesan.fr).
 
 Si je veux mobiliser plusieurs sources pour un même projet, c'est possible, mais il faudra que j'instruise le circuit d'appariement pour pouvoir faire circuler et chaîner les données en toute sécurité. Il existe de nombreux circuits possibles, des exemples sont illustrés [ici](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_dcf7ce522510405fa77707b7c56f375e.pdf).
 
-## QUI SONT MES PARTENAIRES ?
+## Qui sont mes partenaires ?
 
 La réglementation en vigueur fait intervenir deux types de rôles : le responsable de traitement et le responsable de mise en œuvre. Je dois donc clairement identifier qui tient ces rôles dans mes partenaires car les responsabilités juridiques qui en découlent ne sont pas les mêmes.
 
@@ -38,7 +29,7 @@ Ainsi, si je suis commanditaire ou promoteur de l’étude et je réalise moi-m�
 
 Dans tous les cas de figure, les rôles respectifs de chacun des acteurs doivent être clairement établis via des conventions et/ou un contrat de sous-traitance.
 
-## QUELLES SONT LES DÉMARCHES ADMINISTRATIVES À RÉALISER ?
+## Quelles sont les démarches administratives à réaliser ?
 
 En France, la réglementation est précise concernant la réutilisation des données personnelles de santé.
 
@@ -69,7 +60,7 @@ Ce dernier transmettra ma demande au comité éthique et scientifique pour les r
 
 Plus de renseignements sur le fonctionnement et les dates des prochaines réunions du CESREES, sont à trouver [ici](https://www.health-data-hub.fr/cesrees).
 
-## OÙ VONT ÊTRE TRAITÉES MES DONNÉES ?
+## Où vont être traitées mes données ?
 
 Différentes options s'offrent à moi si je ne dispose pas de mon propre système d'information sécurisé pour traiter les données. Je peux recourir à un prestataire ou bien utiliser les plateformes du Health Data Hub ou de la CNAM.
 
@@ -79,7 +70,7 @@ Sur la plateforme technologique du Health Data Hub, je peux faire du Python, du 
 
 Pour le traitement du SNDS, ces plateformes doivent être conformes à un [référentiel de sécurité](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_d1febacb746b4123808561f989ca7594.pdf) spécifique. Si j'ai recours à la plateforme du Heallth Data Hub, mon correspondant pourra me fournir les pièces nécessaires pour le justifier au sein de mon dossier. Si je dispose de mon propre système d'information, il faudra que je produise et fournisse moi-même ces documents.
 
-## QUELLES PIÈCES DOIS-JE RASSEMBLER POUR CONSTITUER MON DOSSIER ?
+## Quelles pièces dois-je rassembler pour constituer mon dossier ?
 
 Le dépôt de mon dossier s’effectue en ligne sur [une plateforme de dépôt](https://www.indsante.fr/fr/deposer-une-demande) de dossier. L’ ensemble de la procédure est dématérialisée. Mon dossier ne sera instruit que s'il est complet.
 
@@ -95,7 +86,7 @@ Mon dossier doit comprendre :
 - La liste des financeurs de l’étude
 - Pour les données du SNDS, des éléments certifiant le [bon niveau de sécurité ](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_d1febacb746b4123808561f989ca7594.pdf)du système d'information où elles seront traitées et une [analyse d'impact](https://www.cnil.fr/fr/outil-pia-telechargez-et-installez-le-logiciel-de-la-cnil).
 
-## COMMENT ALLER PLUS LOIN ?
+## Comment aller plus loin ?
 
 A toutes les étapes de ma démarche, je peux :
 - Consulter le [répertoire des projets](https://health-data-hub.shinyapps.io/outil_visualisation/) pour avoir une idée de ce qui est réalisé à partir des données
