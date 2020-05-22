@@ -179,6 +179,20 @@ Résultat :
 <img src="../../files/images/logo/logoSNDS.jpg" alt="Éditer sur GitLab" width="100"/>
 </p>
 
+### Visualiser un pdf
+La visualisation de pdf n'est pas supporté par le format Markdown. Une solution consiste à utiliser les balises HTML suivante: 
+
+```
+<p style="text-align: center;">
+<object data="../../files/images/tutoriel_gitlab/2020-03-30_HDH_Cheatsheet-markdown_MLP-2.0.pdf" type="application/pdf" width="500px" height="450px">
+    <embed src="../../files/images/tutoriel_gitlab/2020-03-30_HDH_Cheatsheet-markdown_MLP-2.0.pdf" type="application/pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../../files/images/tutoriel_gitlab/2020-03-30_HDH_Cheatsheet-markdown_MLP-2.0.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+</p>
+```
+Un exemple de visualisation est disponible dans la section [Cheat Sheet](Cheat_Sheet.md)
+
 ## Notes de bas de page
 Il est possible d'ajouter des notes de bas de page dans la documentation. Les notes de bas de page sont principalement à utiliser pour les références bibliographiques. Pour des usages tels que les définitions, préférer des liens vers des fiches de glossaire.
 

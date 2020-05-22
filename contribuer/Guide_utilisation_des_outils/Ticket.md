@@ -10,8 +10,7 @@ Ils peuvent être attribués à une ou plusieurs personnes en désignant des ass
 </p>
 
 Des étiquettes peuvent être ajoutées pour décrire les tickets. Dans le cadre de la
-documentation collaborative, les étiquettes disponibles sont `Rédaction`, `Développement`, `Bug`,
-`A faire`, `En cours`, `Prêt fusion
+documentation collaborative, les étiquettes disponibles sont `Rédaction`, `Développement`, `Bug`,`A faire`, `En cours`, `Prêt fusion`
 
 <p align="center">
 <img src="../../files/images/tutoriel_gitlab/2020-04-27_HDH_etiquette_MLP-2.0.png" width="800px"/>

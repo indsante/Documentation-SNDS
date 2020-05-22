@@ -195,7 +195,7 @@ Exemple : `[CMU-C](../fiches/cmu_c.md)` pour [CMU-C](../../fiches/cmu_c.md)
 
 ### Ajouter un fichier en téléchargement 
 
-- Suivre le tutoriel pour [ajouter un nouveau](nouveau_fichier.md) dans le dossier `files`
+- Suivre le tutoriel pour [ajouter un nouveau fichier](partage_document.md) dans le dossier `files`
 - Insérer un lien relatif vers ce fichier pour permettre de le télécharger
 
 ### Ajouter une image
@@ -219,7 +219,7 @@ TP optionnel :
 ## TP 9 : Créer une nouvelle fiche de glossaire
 
 :::tip Note
-Pour cet exercice, voir aussi la [page de documentation dédiée](nouvelle_page.md)
+Pour cet exercice, voir aussi la [page de documentation dédiée](Creer_une_fiche.md)
 :::
 
 Ecrire une issue demandant à créer une fiche de glossaire sur une notion non abordée.

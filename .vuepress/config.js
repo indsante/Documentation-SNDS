@@ -23,7 +23,6 @@ const sidebar = [
                 title: "Guide de contribution",
                 path: "/contribuer/Guide_contribution",
                 children: [
-                    "/contribuer/Guide_contribution/partager_des_sources",
                     "/contribuer/Guide_contribution/contactez_nous"
                 ]
             },
@@ -35,15 +34,18 @@ const sidebar = [
                     "/contribuer/Guide_utilisation_des_outils/Introduction_Gitlab",
                     "/contribuer/Guide_utilisation_des_outils/tutoriel_markdown",
                     "/contribuer/Guide_utilisation_des_outils/Ticket",
+                    "/contribuer/Guide_utilisation_des_outils/demande_fusion",
                     "/contribuer/Guide_utilisation_des_outils/Modifier_une_fiche",
                     "/contribuer/Guide_utilisation_des_outils/Creer_une_fiche",
                     "/contribuer/Guide_utilisation_des_outils/inclure_image",
+                    "/contribuer/Guide_utilisation_des_outils/processus_relecture",
+                    "/contribuer/Guide_utilisation_des_outils/erreur_pipelines",
                     "/contribuer/Guide_utilisation_des_outils/partage_document",
                     "/contribuer/Guide_utilisation_des_outils/contribution_tables",
-                    "/contribuer/Guide_utilisation_des_outils/Forum",
                     "/contribuer/Guide_utilisation_des_outils/developpement_local",
                     "/contribuer/Guide_utilisation_des_outils/Cheat_Sheet.md",
-                    "/contribuer/Guide_utilisation_des_outils/exercices_formation"
+                    "/contribuer/Guide_utilisation_des_outils/exercices_formation",
+                    "/contribuer/Guide_utilisation_des_outils/Forum"
                 ]
             },
             "/contribuer/A_propos"

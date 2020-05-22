@@ -5,7 +5,7 @@ La section [Tables](../../tables/README.md) de la documentation a un fonctionnem
 
 Elle combine des **descriptions textuelles libres**, gérées comme le reste de la documentation, et des **informations structurées** issues du [schéma formel du SNDS](https://gitlab.com/healthdatahub/schema-snds). 
 
-Ce fonctionement est similaire à celui des pages wikipedia, où les informations structurées de wikidata sont gérées séparément du texte principal.  
+Ce fonctionnement est similaire à celui des pages wikipedia, où les informations structurées de wikidata sont gérées séparément du texte principal.  
 
 [![exemple wikidata](../../files/images/contribution_tables/exemple_wikidata.png)](https://fr.wikipedia.org/wiki/Direction_de_la_Recherche,_des_%C3%89tudes,_de_l%27%C3%89valuation_et_des_Statistiques)
 
@@ -14,7 +14,7 @@ Ce fonctionement est similaire à celui des pages wikipedia, où les information
 
 La description textuelle libre s'édite comme les autres pages de documentation, en suivant le lien `Éditer` en bas de page. 
 
-Le fichier source a 3 parties
+Le fichier source a 3 parties:
  
 1. l'en-tête, avec un lien court (permalink) et le titre ;
 1. **la description textuelle à éditer**, souvent vide actuellement ; 
