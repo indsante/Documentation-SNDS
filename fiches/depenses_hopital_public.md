@@ -153,8 +153,7 @@ Dans ce cas, nous suggérons d'appliquer un facteur multiplicatif pour extrapole
 
 ### En HAD 
 
-Sur le portail CNAM, nous ne disposons que de la table de facturation transmise par les établissements `T_HADaaSTC`, dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des [GHT](../glossaire/GHT.md) mais des tarifs journaliers de prestation.   
-(Le montant présenté à l'assurance maladie, calculé à partir des GHT, est donné par la variable `MNT_TOT_AM` de la table de valorisation des séjours `HADaaVALO_DGF` qui ne figure que sur le portail de l'ATIH.)  
+Sur le portail CNAM, nous ne disposons que de la table de facturation transmise par les établissements `T_HADaaSTC` (sous ORAVUE), dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des [GHT](../glossaire/GHT.md) mais des tarifs journaliers de prestation.   
 La table de chaînage patients se nomme `T_HADaaC`. On y trouve l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires pour plus d'informations](fiche_beneficiaire.md)).  
 Des informations sur le [GHPC](../glossaire/GHPC.md) se trouvent dans la table `T_HAD_aaGRP` (variable `PAP_GRP_GHPC`).  
 
@@ -168,6 +167,12 @@ Les filtres sur les séjours sont les suivants :
 
 Les éléments ci-dessus permettent d'extraire le montant AMO associé aux séjours en établissement publics en HAD.  
 Pour obtenir le montant total des dépenses, il faut ajouter au montant remboursé par l'AMO, le montant du RAC AMO du séjour, dont le calcul est détaillé dans la fiche sur "le reste à charge après AMO en établissement public".  
+
+*En complément :*  
+Le montant présenté à l'assurance maladie pour un séjour en HAD, calculé à partir des GHT, 
+est donné par la variable `MNT_TOT_AM` de la table de valorisation des séjours `HADaaVALO_DGF` 
+qui figure sur le portail de l'ATIH, mais pas sur celui de la CNAM.  
+
 
 
 ### En PSY
