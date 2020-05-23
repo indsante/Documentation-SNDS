@@ -153,8 +153,8 @@ Dans ce cas, nous suggérons d'appliquer un facteur multiplicatif pour extrapole
 
 ### En HAD 
 
-À partir de 2017, on peut utiliser la variable `MNT_TOT_AM` de la table de valorisation des séjours (corrigée par l'ATIH) `T_HADaaVALO` sous ORAVUE.  
-Avant 2017, nous ne disposons que de la table de facturation transmise par les établissements `T_HADaaSTC`, dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des [GHT](../glossaire/GHT.md) mais des tarifs journaliers de prestation.   
+Sur le portail CNAM, nous ne disposons que de la table de facturation transmise par les établissements `T_HADaaSTC`, dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des [GHT](../glossaire/GHT.md) mais des tarifs journaliers de prestation.   
+(Le montant présenté à l'assurance maladie, calculé à partir des GHT, est donné par la variable `MNT_TOT_AM` de la table de valorisation des séjours `HADaaVALO_DGF` qui ne figure que sur le portail de l'ATIH.)  
 La table de chaînage patients se nomme `T_HADaaC`. On y trouve l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires pour plus d'informations](fiche_beneficiaire.md)).  
 Des informations sur le [GHPC](../glossaire/GHPC.md) se trouvent dans la table `T_HAD_aaGRP` (variable `PAP_GRP_GHPC`).  
 
@@ -164,10 +164,11 @@ Les filtres sur les séjours sont les suivants :
 - Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017 inclus) (en utilisant la variable `ETA_NUM_EPMSI`)
 - Exclusion des séjours en erreur (en utilisant la variable `PAP_GRP_GHPC`, dont le code commence par 99 en cas d'erreur)
 - Exclusion des séjours hors période d'étude (variables `EXE_SOI_DTD` et `EXE_SOI_DTF`)
-- Exclusion des séjours non valorisés (variable `VALO` dans `t_HADaaVALO` ou `FAC_SEJ_AM` dans `T_HADaaSTC`)  
+- Exclusion des séjours non valorisés (variable `FAC_SEJ_AM` dans `T_HADaaSTC`)  
 
 Les éléments ci-dessus permettent d'extraire le montant AMO associé aux séjours en établissement publics en HAD.  
 Pour obtenir le montant total des dépenses, il faut ajouter au montant remboursé par l'AMO, le montant du RAC AMO du séjour, dont le calcul est détaillé dans la fiche sur "le reste à charge après AMO en établissement public".  
+
 
 ### En PSY
 
