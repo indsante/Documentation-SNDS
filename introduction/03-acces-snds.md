@@ -38,6 +38,11 @@ La [CNIL](../glossaire/CNIL.md) donne ainsi compétence à l'INDS pour approuver
 - la durée d'accès aux données qui doit être limitée à celle nécessaire à la réalisation du projet
 - le respect du référentiel de sécurité SNDS
 
+::: warning
+La mission d’examen du caractère d’intérêt public de la finalité poursuivie relevant dorénavant du CESREES créé par le décret du 14 mai 2020, et non plus du HDH, cette procédure ne peut être maintenue en l’état. 
+D’ores et déjà une procédure amendée a été soumise à la CNIL et sera proposée dès adoption par cette dernière.  
+:::
+
 ### Les assureurs et industriels de santé
 
 L'accès des industriels de santé (entreprises productrices de produits de santé) et des assureurs en santé au SNDS est plus fortement encadré.
