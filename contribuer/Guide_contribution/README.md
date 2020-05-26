@@ -3,7 +3,7 @@
 
 ## Quelles contributions ?
 Toute contribution est la bienvenue, elle sera soumise à la licence MPL-2.0 (comme l’ensemble du projet) et nécessite certains pré-requis de maîtrise technique (indiqués ci-dessous). Cette licence [copyleft](https://fr.wikipedia.org/wiki/Copyleft) autorise une libre réutilisation du fichier ainsi partagé. Elle impose à toute version dérivée de citer la source d'origine, et d'être publiée sous la même licence afin de garantir les mêmes droits.  
-Toute personne souhaitant contribuer est invitée à le faire. Les contributions peuvent porter sur:
+Toute personne souhaitant contribuer est invitée à le faire librement. Les contributions peuvent porter sur:
  * la proposition d'amélioration, correction, modification via l'utilisation des [Tickets](../Guide_utilisation_des_outils/Ticket.md), 
  * la [améliorations, corrections et modifications](../Guide_utilisation_des_outils/Modifier_une_fiche.md), 
  * la  [création de nouvelles fiches](../Guide_utilisation_des_outils/Creer_une_fiche.md)
