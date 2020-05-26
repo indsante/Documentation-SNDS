@@ -33,7 +33,7 @@ Le Responsable de Traitement adresse alors à la [CNIL](../glossaire/CNIL.md) un
 
 ### La procédure d'accès simplifié à l'[EGB](../glossaire/EGB.md)
 
-Début 2019, la [CNIL](../glossaire/CNIL.md) a homologué une procédure d'accès simplifié à l'[EGB](../glossaire/EGB.md), en sa qualité d'échantillon représentatif.
+La [CNIL](../glossaire/CNIL.md) a homologué en 2018 une procédure d'accès simplifié à l'[EGB](../glossaire/EGB.md), en sa qualité d'échantillon représentatif.
 La [CNIL](../glossaire/CNIL.md) donne ainsi compétence à l'INDS pour approuver (délai : 15 jours) l'accès à l'[EGB](../glossaire/EGB.md) après examen des 5 conditions suivantes :
 
 - la finalité d'intérêt public du projet
