@@ -25,7 +25,7 @@ La procédure standard d'accès au SNDS, la plus courante, suit les étapes suiv
 ### Les méthodologies de référence
 
 Les méthodologies de référence (MR) sont des procédures simplifiées d'accès aux données, qui permettent dans certaines situations de réaliser une recherche en santé sans nécessiter d'autorisation [CNIL](../glossaire/CNIL.md) ou d'avis du CESREES.
-Le Responsable de Traitement adresse alors à la [CNIL](../glossaire/CNIL.md) une déclaration attestant la conformité du projet à la MR, puis inscrit son traitement dans le [répertoire public tenu par l'INDS](https://www.indsante.fr/fr/repertoire-public-des-etudes-realisees-sous-mr).
+Le Responsable de Traitement adresse alors à la [CNIL](../glossaire/CNIL.md) une déclaration attestant la conformité du projet à la MR, puis inscrit son traitement dans le [répertoire public](https://www.indsante.fr/fr/repertoire-public-des-etudes-realisees-sous-mr).
 
 ### La procédure simplifiée d'accès à l'[EGB](../glossaire/EGB.md)
 
