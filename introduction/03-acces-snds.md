@@ -31,9 +31,9 @@ Pour plus d'informations, vous pouvez consulter le [Kit de démarrage avec les d
 Les méthodologies de référence (MR) sont des procédures simplifiées d'accès aux données, qui permettent dans certaines situations de réaliser une recherche en santé sans nécessiter d'autorisation [CNIL](../glossaire/CNIL.md) ou d'avis du CESREES.
 Le Responsable de Traitement adresse alors à la [CNIL](../glossaire/CNIL.md) une déclaration attestant la conformité du projet à la MR, puis inscrit son traitement dans le [répertoire public](https://www.indsante.fr/fr/repertoire-public-des-etudes-realisees-sous-mr).
 
-### La procédure simplifiée d'accès à l'[EGB](../glossaire/EGB.md)
+### La procédure d'accès simplifié à l'[EGB](../glossaire/EGB.md)
 
-Début 2019, la [CNIL](../glossaire/CNIL.md) a homologué une procédure d'accès simplifiée à l'[EGB](../glossaire/EGB.md), en sa qualité d'échantillon représentatif.
+Début 2019, la [CNIL](../glossaire/CNIL.md) a homologué une procédure d'accès simplifié à l'[EGB](../glossaire/EGB.md), en sa qualité d'échantillon représentatif.
 La [CNIL](../glossaire/CNIL.md) donne ainsi compétence à l'INDS pour approuver (délai : 15 jours) l'accès à l'[EGB](../glossaire/EGB.md) après examen des 5 conditions suivantes :
 
 - la finalité d'intérêt public du projet
@@ -43,7 +43,8 @@ La [CNIL](../glossaire/CNIL.md) donne ainsi compétence à l'INDS pour approuver
 - le respect du référentiel de sécurité SNDS
 
 ::: warning
-La mission d’examen du caractère d’intérêt public de la finalité poursuivie relevant dorénavant du CESREES, créé par le décret du 14 mai 2020, cette procédure ne peut être maintenue en l’état. 
+La mission d’examen du caractère d’intérêt public de la finalité poursuivie relève dorénavant du CESREES (créé par le décret du 14 mai 2020). 
+La procédure d'accès simplifié ne peut donc être maintenue en l’état. 
 D’ores et déjà une procédure amendée a été soumise à la CNIL et sera proposée dès adoption par cette dernière.  
 :::
 
