@@ -12,7 +12,7 @@ Toute personne souhaitant contribuer est invitée à le faire librement. Les con
  Toutes améliorations, même d'apparence mineure comme la correction de fautes d'orthographe, améliorent pour tous la qualité du contenu. Un processus de relecture et de validation, décrit ci-dessous, a été mis en place afin de garantir un contenu de qualité. 
 
 ## Processus de relecture et validation
-Chaque contribution à la documentation est soumise à une relecture par les pairs (afin d’assurer la lisibilité de la contribution ainsi que sa justesse) puis une validation par les mainteneurs du projet afin d’être ajoutée à la documentation principale (branche master). 
+Chaque contribution à la documentation sous la forme d'ajout de contenu est soumise à une relecture par les pairs (afin d’assurer la lisibilité de la contribution ainsi que sa justesse) puis une validation par les mainteneurs du projet afin d’être ajoutée à la documentation principale (branche master) au bon endroit. 
 
 ### Relecture
 Dès lors qu’une contribution est proposée comme ajout à la documentation dans sa version public (hors travail en cours), elle doit être relue par un pair. Pour cela, la [procédure de demande de fusion](../Guide_utilisation_des_outils/Introduction_Gitlab.md) doit être suivie et un relecteur doit être assigné. Ce relecteur peut-être n'importe quel membre de la communauté incluant les maintainers indiqués plus loin. Soit le relecteur invite le contributeur à modifier sa contribution, soit il l’approuve pour passer à l’étape suivante. 
