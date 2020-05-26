@@ -22,8 +22,8 @@ La procédure standard d'accès au SNDS, la plus courante, suit les étapes suiv
 3. La Commission Nationale de l'Informatique et des Libertés ([CNIL](../glossaire/CNIL.md)) prend connaissance des avis du CESREES, et donne une autorisation pour le projet (délai : 2 mois, renouvelable une fois)
 4. A l'issue de l'autorisation [CNIL](../glossaire/CNIL.md) et après signature d'une convention, les données SNDS nécessaires à l'étude pourront être traitées dans un espace projet dédié (délai indicatif de mise à disposition des données : 2 mois)
 
-::: tip
-Pour plus d'informations, vous pouvez consulter le [Kit de démarrage avec les données de santé](https://documentation-snds.health-data-hub.fr/ressources/starter_kit.html#de-quelles-donnees-ai-je-besoin-pour-mon-projet)
+:::tip Pour plus d'informations
+Vous pouvez consulter le [Kit de démarrage avec les données de santé](https://documentation-snds.health-data-hub.fr/ressources/starter_kit.html#de-quelles-donnees-ai-je-besoin-pour-mon-projet)
 :::
 
 ### Les méthodologies de référence
@@ -42,7 +42,7 @@ La [CNIL](../glossaire/CNIL.md) donne ainsi compétence à l'INDS pour approuver
 - la durée d'accès aux données qui doit être limitée à celle nécessaire à la réalisation du projet
 - le respect du référentiel de sécurité SNDS
 
-::: warning
+:::warning Attention
 La mission d’examen du caractère d’intérêt public de la finalité poursuivie relève dorénavant du CESREES (créé par le décret du 14 mai 2020). 
 La procédure d'accès simplifié ne peut donc être maintenue en l’état. 
 D’ores et déjà une procédure amendée a été soumise à la CNIL et sera proposée dès adoption par cette dernière.  
