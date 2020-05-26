@@ -1,7 +1,7 @@
 # Cheat Sheet
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-L'essentiel du guide de contribution est résumé sous la forme de Cheat Sheet pour faciliter la contribution. 
+L'essentiel du guide de contribution est résumé sous la forme de Cheat Sheet (*Feuille de Triche*) pour faciliter la contribution. Les Cheat Sheet sont utilisables en tant que mémo après une formation. 
 
 Une Cheat Sheet Markdown est [téléchargeable](../../files/images/tutoriel_gitlab/2020-03-30_HDH_Cheatsheet-markdown_MLP-2.0.pdf).
 
