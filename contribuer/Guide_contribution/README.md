@@ -25,12 +25,12 @@ Si une relecture appelle une [correction](../Guide_utilisation_des_outils/Modifi
 
 ### Validation et fusion 
 Enfin, après avoir été relue et approuvée, la contribution doit être validée en assignant une des personnes ci-dessous: 
-- Lorien Benda (HDH, lorien.benda@health-data-hub.fr, ID gitlab : @lbenda)
-- Pierre-Alain Jachiet (Drees, pierre-alain.jachiet@sante.gouv.fr, ID gitlab : @pajachiet),
-- Olivier de Fresnoye (HDH, olivier.defresnoye@health-data-hub.fr , ID gitlab : @ofrsn), 
-- Tim Vlaar (HDH, tim.vlaar@health-data-hub.fr, ID gitlab : @tim.vlaar), 
-- Salma El Oualydy (HDH, salma.eloualydy@health-data-hub.fr, ID gitlab : @salmael ) 
-- Maeva Kos (HDH, maeva.kos@health-data-hub.fr, ID gitlab : @maevakos )
+- Lorien Benda (HDH, ID gitlab : @lbenda)
+- Pierre-Alain Jachiet (Drees, ID gitlab : @pajachiet),
+- Olivier de Fresnoye (HDH, ID gitlab : @ofrsn), 
+- Tim Vlaar (HDH, ID gitlab : @tim.vlaar), 
+- Salma El Oualydy (HDH, ID gitlab : @salmael ) 
+- Maeva Kos (HDH, ID gitlab : @maevakos )
 
 ## Discuter avec la communauté
 ### Via gitlab
