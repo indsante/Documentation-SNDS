@@ -17,7 +17,7 @@ Selon les cas, cette demande d'accès peut relever de différentes procédures.
 
 La procédure standard d'accès au SNDS, la plus courante, suit les étapes suivantes :
 
-1. Le Responsable de Traitement (RT) dépose une demande d'autorisation auprès du Health Data Hub, qui valide la complétude du dossier, et peut s'auto-saisir pour examiner l'intérêt public du traitement (délai : 7 jours ouvrés)
+1. Le Responsable de Traitement (RT) dépose une demande d'autorisation auprès du Health Data Hub, qui valide la complétude du dossier, et peut s'auto-saisir pour examiner l'intérêt public du traitement.  Le Health Data Hub doit adresser sous 7 jours ouvrés le dossier dans sa complétude au CESREES.
 2. Le Comité Éthique et Scientifique pour les Recherches, les Études et les Évaluations dans le domaine de la santé ([CESREES](https://www.health-data-hub.fr/cesrees)) émet un avis sur la méthodologie scientifique du projet, et le recours à des données à caractère personnel (délai : 1 mois)
 3. La Commission Nationale de l'Informatique et des Libertés ([CNIL](../glossaire/CNIL.md)) prend connaissance des avis du CESREES, et donne une autorisation pour le projet (délai : 2 mois, renouvelable une fois)
 4. A l'issue de l'autorisation [CNIL](../glossaire/CNIL.md) et après signature d'une convention, les données SNDS nécessaires à l'étude pourront être traitées dans un espace projet dédié (délai indicatif de mise à disposition des données : 2 mois)
@@ -43,7 +43,7 @@ La [CNIL](../glossaire/CNIL.md) donne ainsi compétence à l'INDS pour approuver
 - le respect du référentiel de sécurité SNDS
 
 ::: warning
-La mission d’examen du caractère d’intérêt public de la finalité poursuivie relevant dorénavant du CESREES créé par le décret du 14 mai 2020, cette procédure ne peut être maintenue en l’état. 
+La mission d’examen du caractère d’intérêt public de la finalité poursuivie relevant dorénavant du CESREES, créé par le décret du 14 mai 2020, cette procédure ne peut être maintenue en l’état. 
 D’ores et déjà une procédure amendée a été soumise à la CNIL et sera proposée dès adoption par cette dernière.  
 :::
 
