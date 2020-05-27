@@ -40,7 +40,7 @@ Un système de [ticket](https://gitlab.com/healthdatahub/documentation-snds/-/is
 Un [forum d’entraide](https://entraide.health-data-hub.fr/) autour du SNDS est disponible. Il constitue un espace d’interaction autour de la documentation du SNDS. Les contributeurs de la documentation sont invités à partager une annonce sur le [forum](../Guide_utilisation_des_outils/Forum.md) pour donner plus de visibilité à leurs contributions (fiches et programmes). 
 
 ### Contacter le Health Data Hub et la DREES
-Il est possible de contacter par mail les responsables de la documentation ouverte du Health Data Hub et de la Dress :
+Il est possible de contacter par mail les responsables de la documentation ouverte du Health Data Hub et de la Dress en cas de questions, suggestions, signalements d'erreurs  :
 - L'équipe Open Source du Health Data Hub <<opensource@health-data-hub.fr>>
 - Lab santé - DREES <<ld-lab-github@sante.gouv.fr>>
 
