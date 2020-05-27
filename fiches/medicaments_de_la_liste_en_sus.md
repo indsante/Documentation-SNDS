@@ -68,7 +68,7 @@ Se référer au [dictionnaire des variables du SNDS](https://drees.shinyapps.io/
     o	Numéro FINESS de l’établissement  
     o	Numéro séquentiel du séjour   
     o	Code UCD  
-    o	Code LES (indication des spécialités pharmaceutiques inscrites sur la liste en sus)  
+    o	Code LES (indication des spécialités pharmaceutiques inscrites sur la liste en sus), (cette variable n'existe pas en SSR)  
     o	Prix d'achat multiplié par le nombre administré  
     o	Nombre administré éventuellement fractionnaire  
     o	Année de la date d'administration  
@@ -86,7 +86,7 @@ Se référer au [dictionnaire des variables du SNDS](https://drees.shinyapps.io/
     o	Numéro FINESS de l’établissement  
     o	Numéro séquentiel du séjour  
     o	Code UCD  
-    o	Code LES (indication des spécialités pharmaceutiques inscrites sur la liste en sus)  
+    o	Code LES (indication des spécialités pharmaceutiques inscrites sur la liste en sus), (cette variable n'existe pas en SSR)  
     o	Prix d'achat unitaire TTC  
     o	Prix unitaire facturé  
     o	Quantité  
@@ -95,9 +95,11 @@ Se référer au [dictionnaire des variables du SNDS](https://drees.shinyapps.io/
     o	Année de début du séjour  
     o   Mois de début du séjour  
 
-#### Tables et variables communes aux champs MCO et SSR
+#### Tables et variables spécifiques MCO
 
-- `T_MCOaaFHSTC`, `T_SSRaaFHSTC` : médicaments en SUS ACE (ES publics)  
+- `T_MCOaaMEDTHROMBO` : médicaments thrombolytiques pour le traitement de l’AVC ischémique (ES publics)  
+Mêmes variables que pour `T_MCOaaMEDATU`.
+- `T_MCOaaFHSTC` : médicaments en SUS ACE (ES publics)  
     o	Numéro FINESS de l’établissement  
     o	Numéro séquentiel de l’ACE  
     o	Code UCD  
@@ -107,11 +109,6 @@ Se référer au [dictionnaire des variables du SNDS](https://drees.shinyapps.io/
     o	Coefficient de fractionnement  
     o	Année de début du séjour  
     o	Mois de début du séjour  
-
-#### Tables et variables spécifiques MCO
-
-- `T_MCOaaMEDTHROMBO` : médicaments thrombolytiques pour le traitement de l’AVC ischémique (ES publics)  
-Mêmes variables que pour `T_MCOaaMEDATU`.
 
 #### Tables et variables spécifiques HAD
 
