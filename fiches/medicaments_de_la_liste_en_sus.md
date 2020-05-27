@@ -169,7 +169,7 @@ Pour identifier les séjours valorisés, il faut utiliser les tables de valorisa
 - `VALOACE` ou `FASTC` pour les ACE 
 
 La clef de chaînage avec ces tables est le couple (numéro FINESS de l’établissement, numéro séquentiel du séjour ou de l’ACE), qui permet de ne conserver que les dépenses en sus associées à des séjours/consultations valorisés.  
-*cf.* fiches sur les dépenses de santé dans les ES de santé publics et privés pour plus d’informations sur la valorisation des séjours.
+*cf.* fiches sur les dépenses de santé dans les ES de santé [publics](../fiches/depenses_hopital_public.md) et [privés](../fiches/fiche_etab_prives.md) pour plus d’informations sur la valorisation des séjours.
 
 ::: warning Attention  
 Pour les médicaments en autorisation temporaire d’utilisation, ce filtre permet également de sélectionner les dépenses associées à des séjours en ES publics ou privés.   
