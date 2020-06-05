@@ -131,7 +131,7 @@ A minima, il faut exclure les séjours pour lesquels `VALO` prend la valeur 0, o
 
 ### En SSR 
 
-Avant 2017, nous ne disposons que de la table de facturation transmise par les établissements `T_SSRaaSTC` (sous ORAVUE), dans laquelle la variable `TOT_MNT_AM` n'est pas est calculée sur la base des [GMT](../glossaire/GMT.md) mais des tarifs journaliers de prestation.   
+Avant 2017, nous ne disposons que de la table de facturation transmise par les établissements `T_SSRaaSTC` (sous ORAVUE), dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des [GMT](../glossaire/GMT.md) mais des tarifs journaliers de prestation.   
 La table `T_SSRaaB` de description du séjour permet d'extraire des informations sur le mode d'hospitalisation (complète/partielle, variable `HOS_TYP_UM`), 
 ainsi que sur le [GME](../glossaire/GME.md) (variable `GR_GME`).
 
