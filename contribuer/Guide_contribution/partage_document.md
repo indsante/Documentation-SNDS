@@ -8,7 +8,7 @@ Une contribution de grande valeur consiste donc à partager publiquement des doc
 ## Où publier des documents (hors programmes) ?
 Vous avez deux options pour publier ces documents
 
-- un dossier servant de [boite aux lettres]() est disponible sur Gitlab. Vous pouvez y [déposer des documents](../Guide_utilisation_des_outils/partage_document.md). Nous nous occuperons de les placer dans les dossiers adéquats et les documents pourront être convertis en page de documentation si cela est jugé approprié. 
+- un dossier servant de [boite aux lettres]() est disponible sur Gitlab. Vous pouvez y déposer des documents. Nous nous occuperons de les placer dans les dossiers adéquats et les documents pourront être convertis en page de documentation si cela est jugé approprié. 
 
 - ou directement dans le dossier de votre [organisme](https://gitlab.com/healthdatahub/documentation-snds/-/tree/master/ressourceses). Les documents pourront être également être convertis en page de documentation.
 
@@ -38,7 +38,7 @@ Nommez votre dossier, ajoutez un commit et enregistrez dans une branche.
 ## Comment téléverser un fichier
 
 Des documents de tout format peuvent être partagés dans la documentation collaborative. 
-Ils seront mis à disposition via un lien de téléchargement. Le processus de téléversement est le même que dans le cas d'une [inclure_image](inclure_image.md)
+Ils seront mis à disposition via un lien de téléchargement. Le processus de téléversement est le même que dans le cas d'une [image](inclure_image.md)
 
 Pour ajouter un nouveau fichier, merci de bien vouloir : 
 - Vérifier que vous avez les droits pour le publier 

@@ -13,7 +13,7 @@ Des étiquettes peuvent être ajoutées pour décrire les tickets. Dans le cadre
 documentation collaborative, les étiquettes disponibles sont `Rédaction`, `Développement`, `Bug`,`A faire`, `En cours`, `Prêt fusion`
 
 <p align="center">
-<img src="../../files/images/tutoriel_gitlab/2020-04-27_HDH_etiquette_MLP-2.0.png" width="800px"/>
+<img src="../../files/images/tutoriel_gitlab/2020-04-27_HDH_etiquette_MLP-2.0.png" width="500px"/>
 </p>
 
 Les tickets peuvent être visualisés sous la forme de [liste](https://gitlab.com/healthdatahub/documentation-snds/-/issues), [tableaux](https://gitlab.com/healthdatahub/documentation-snds/-/boards/1086586?&label_name[]=D%C3%A9veloppement) où il est possible de trier par étiquette.

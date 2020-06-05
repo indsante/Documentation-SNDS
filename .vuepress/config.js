@@ -20,32 +20,32 @@ const sidebar = [
         path: "/contribuer/",
         children: [
             {
-                title: "Guide de contribution",
-                path: "/contribuer/Guide_contribution",
+                title: "À lire",
+                path: "/contribuer/A_lire",
                 children: [
-                    "/contribuer/Guide_contribution/contactez_nous"
+                    "/contribuer/A_lire/contactez_nous"
                 ]
             },
             {
-                title: "Guide d\'utilisation des outils",
-                path: "/contribuer/Guide_utilisation_des_outils",
+                title: "Guide de contribution",
+                path: "/contribuer/Guide_contribution",
                 children: [ 
-                    "/contribuer/Guide_utilisation_des_outils/Utiliser_le_site_de_documentation",
-                    "/contribuer/Guide_utilisation_des_outils/Introduction_Gitlab",
-                    "/contribuer/Guide_utilisation_des_outils/tutoriel_markdown",
-                    "/contribuer/Guide_utilisation_des_outils/Ticket",
-                    "/contribuer/Guide_utilisation_des_outils/demande_fusion",
-                    "/contribuer/Guide_utilisation_des_outils/Modifier_une_fiche",
-                    "/contribuer/Guide_utilisation_des_outils/Creer_une_fiche",
-                    "/contribuer/Guide_utilisation_des_outils/inclure_image",
-                    "/contribuer/Guide_utilisation_des_outils/processus_relecture",
-                    "/contribuer/Guide_utilisation_des_outils/erreur_pipelines",
-                    "/contribuer/Guide_utilisation_des_outils/partage_document",
-                    "/contribuer/Guide_utilisation_des_outils/contribution_tables",
-                    "/contribuer/Guide_utilisation_des_outils/developpement_local",
-                    "/contribuer/Guide_utilisation_des_outils/Cheat_Sheet.md",
-                    "/contribuer/Guide_utilisation_des_outils/exercices_formation",
-                    "/contribuer/Guide_utilisation_des_outils/Forum"
+                    "/contribuer/Guide_contribution/Utiliser_le_site_de_documentation",
+                    "/contribuer/Guide_contribution/Introduction_Gitlab",
+                    "/contribuer/Guide_contribution/tutoriel_markdown",
+                    "/contribuer/Guide_contribution/Ticket",
+                    "/contribuer/Guide_contribution/Modifier_une_fiche",
+                    "/contribuer/Guide_contribution/Creer_une_fiche",
+                    "/contribuer/Guide_contribution/inclure_image",
+                    "/contribuer/Guide_contribution/processus_relecture",
+                    "/contribuer/Guide_contribution/erreur_pipelines",
+                    "/contribuer/Guide_contribution/partage_document",
+                    "/contribuer/Guide_contribution/demande_fusion",
+                    "/contribuer/Guide_contribution/contribution_tables",
+                    "/contribuer/Guide_contribution/developpement_local",
+                    "/contribuer/Guide_contribution/Cheat_Sheet.md",
+                    "/contribuer/Guide_contribution/exercices_formation",
+                    "/contribuer/Guide_contribution/Forum"
                 ]
             },
             "/contribuer/A_propos"

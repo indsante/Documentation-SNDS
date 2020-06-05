@@ -1,7 +1,7 @@
 # Processus de relecture
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Lors du [processus de relecture](../Guide_contribution/README.md#processus-de-relecture-et-validation), des modifications peuvent être suggérées par un relecteur assigné. Ce processus permet d'assurer un contenu de qualité. Le relecteur peut-être n'importe quel membre de la communauté incluant les maintainers indiqués plus loin. Soit le relecteur invite le contributeur à modifier sa contribution, soit il l’approuve pour passer à l’étape suivante d'incorporation des modifications dans la documentation. 
+Lors du [processus de relecture](../A_lire/README.md#processus-de-relecture-et-validation), des modifications peuvent être suggérées par un relecteur assigné. Ce processus permet d'assurer un contenu de qualité. Le relecteur peut-être n'importe quel membre de la communauté incluant les maintainers indiqués plus loin. Soit le relecteur invite le contributeur à modifier sa contribution, soit il l’approuve pour passer à l’étape suivante d'incorporation des modifications dans la documentation. 
 
 
 Si besoin est, les experts SNDS du Health Data Hub peuvent aider à la relecture : Anne Cuerq et Emmanuel Stranadica. Vous pouvez également contacter le Hub en cas de doute : <<opensource@health-data-hub.fr>>

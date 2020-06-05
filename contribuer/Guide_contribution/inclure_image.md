@@ -73,4 +73,4 @@ Vous pouvez ensuite intégrer l'image dans la page de documentation soit
 
 Il faudra ensuite remplir un commit. Le nom de la branche ne doit pas être modifié. Le commit apparaitra automatiquement dans la demande de fusion créée lors du versement de l'image. 
 
-Vous pouvez ensuite continuer à apporter des modifications sur la même branche, ajouter de nouvelles images sur la même branche puis faire valider votre contribution par le [processus de relecture/validation](../Guide_contribution/README.md#processus-de-relecture-et-validation). 
+Vous pouvez ensuite continuer à apporter des modifications sur la même branche, ajouter de nouvelles images sur la même branche puis faire valider votre contribution par le [processus de relecture/validation](../A_lire/README.md#processus-de-relecture-et-validation). 

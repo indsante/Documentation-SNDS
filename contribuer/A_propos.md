@@ -5,6 +5,9 @@
 Le projet de la documentation collaborative a démarré en [février 2019](https://gitlab.com/healthdatahub/formation/documentation-snds/-/commit/5c7086aa52624c3a1c59234064f78d3a82a4b03a) à l'initiative de la Drees, de la Cnam et de l'INDS devenu le Health Data Hub.
 Il est actuellement le fruit de contributions de plusieurs auteurs, et est maintenu par l'équipe Open Source du Health Data Hub.
 
+## Gouvernance
+Trois niveaux de gouvernance ont été établis dans le cadre de la documentation collaborative. Une gouvernance stratégique où les grands axes de la documentation sont discutés entre tous les partenaires. La gouvernance opérationnelle met en place les actions définies par la gouvernance stratégique et veille à mobiliser la communauté des contributeurs et à remonter les sujets importants au niveau de la gouvernance stratégique.
+
 ## Auteurs
 La documentation étant collaborative, différents [auteurs/mainteneurs](https://gitlab.com/healthdatahub/documentation-snds/-/graphs/master) participent au projet. 
 

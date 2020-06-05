@@ -31,11 +31,11 @@ Ce guide se base sur la version française de l'interface. Il est à noter que l
 En cliquant sur le logo de gitlab en haut à droite, la liste des projets auxquels vous participez est disponible. Pour chaque projet, il est indiqué le nom, si le projet est public (logo de la Terre) ou privé (logo d'un cadenas), votre statut (développeur ou mainteneur), ainsi que la date de la dernière mise à jour.
 
 ### Interface Gitlab pour un projet
-Après avoir sélectionné un projet, la page qui s'affiche contient: 
+Après avoir sélectionné un projet, la page qui s'affiche contient : 
 - le chemin du projet
 - l'onglet [*Dépôt*](Introduction_Gitlab.md#dépôt) dans le menu à droite contient l'ensemble des données constituants le projet et la totalité des historiques de modification
-- l'onglet [*Ticket*](Introduction_Gitlab.md#ticket) dans le menu déroulant contient les discussions préparatoires/Ticket
-- l'onglet [*Demande de fusion*](Introduction_Gitlab.md#demande-de-fusion) permet l'intégration des travaux réalisés à la documentation
+- l'onglet [*Ticket*](Introduction_Gitlab.md#ticket) dans le menu déroulant contenant les discussions préparatoires/Ticket
+- l'onglet [*Demande de fusion*](Introduction_Gitlab.md#demande-de-fusion) permetant l'intégration des travaux réalisés à la documentation
 
 Chaque élément est détaillé ci-dessous.
 
@@ -56,19 +56,19 @@ En cliquant sur une fiche, une page de prévisualisation s'affiche. Cette page p
 </p>
 
 ##### Commits
-En cliquant sur `Dépôt`>`Commits` dans le menu à droite, l'[historique](https://gitlab.com/healthdatahub/documentation-snds/commits/master) des modifications ayant eu lieu s'affiche via des commits. Un commit est une description des modifications effectuées. Il comprends l'auteur, la date et une courte description des modifications ([exemple](https://gitlab.com/healthdatahub/documentation-snds/commit/553cdd3b07bd2853e7f642b077f48e493413c00e)). 
+En cliquant sur `Dépôt`>`Commits` dans le menu à droite, l'[historique](https://gitlab.com/healthdatahub/documentation-snds/commits/master) des modifications ayant eu lieu s'affiche via des commits. Un commit est une description des modifications effectuées. Il comprend l'auteur, la date et une courte description des modifications ([exemple](https://gitlab.com/healthdatahub/documentation-snds/commit/553cdd3b07bd2853e7f642b077f48e493413c00e)). 
 
 <p style="text-align:center;">
 <img src="../../files/images/tutoriel_gitlab/2020-05-15_HDH_commit-depot_MLP-2.0.png" alt="changer branche" width="1000"/>
 </p>
 
 #### Ticket
-Les [tickets](Ticket.md) sont des outils de communications autour du projet. Ils peuvent être attribués à une ou plusieurs personnes en désignant des assignés. Ils peuvent être utilisés pour signaler un problème, proposer une amélioration sur le site de la documentation, proposer une nouvelle idée de fiche.
+Les [tickets](Ticket.md) sont des outils de communication autour du projet. Ils peuvent être attribués à une ou plusieurs personnes en désignant des assignés. Ils peuvent être utilisés pour signaler un problème, proposer une amélioration sur le site de la documentation, proposer une nouvelle idée de fiche.
 
 Les tickets peuvent être visualisés sous la forme de liste, tableaux, ou encore par étiquettes.
 
 ##### Liste
-Sous forme de liste les tickets sont classés par ordre de création. Chaque ticket comprend un numéro (`#numéro` permettant de l'identifier, un titre, la date d'ouverture ainsi que l'auteur. Des étiquettes peuvent être présentes à côté du ticket pour apporter des informations sur le type d'action à faire et l'état d'avancement. Dans le cadre de la documentation collaborative, les étiquettes disponibles sont Rédaction, Développement, Bug, A faire, En cours, Prêt fusion.
+Sous forme de liste les tickets sont classés par ordre de création. Chaque ticket comprend un numéro `#numéro` permettant de l'identifier, un titre, la date d'ouverture ainsi que l'auteur. Des étiquettes peuvent être présentes à côté du ticket pour apporter des informations sur le type d'action à faire et l'état d'avancement. Dans le cadre de la documentation collaborative, les étiquettes disponibles sont Rédaction, Développement, Bug, A faire, En cours, Prêt-fusion.
 
 Tant que le ticket est ouvert, il est classé dans l'onglet `Open`, s'il est résolu il est classé dans l'onglet `Closed`.
 
