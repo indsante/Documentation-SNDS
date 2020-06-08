@@ -55,7 +55,7 @@ Un formulaire en bas de la page éditée permet d'enregistrer vos modifications 
 Une page s'ouvre alors pour configurer la demande de fusion.
 
 - Donner un titre, remplir la description
-- Ajouter des assignés pour la [relecture et validation](../A_lire/README.md#processus-de-relecture-et-validation)
+- Ajouter des assignés pour la [relecture et validation](../A_lire/Processus_contribution.md#processus-de-relecture-et-validation)
 - Si le travail n’est pas fini et que des modifications seront apportées ultérieurement, cocher la case `Start the title with WIP`
 - Soumettre votre merge-request en bas de page.
 
@@ -64,9 +64,9 @@ Une page s'ouvre alors pour configurer la demande de fusion.
 </p>
 
 ::: tip
-Enregistrer une demande de fusion ne veut pas dire que la fusion se lancera automatiquement après cette demande. L'incorporation des modifications proposées dans la documentation nécessite une [validation](../A_lire/README.md#processus-de-relecture-et-validation) de certains membres sur Health Data Hub. Des modifications peuvent toujours être apportées sur la même fiche, dans la même demande de fusion (et donc sur la même branche). 
+Enregistrer une demande de fusion ne veut pas dire que la fusion se lancera automatiquement après cette demande. L'incorporation des modifications proposées dans la documentation nécessite une [validation](../A_lire/Processus_contribution.md#processus-de-relecture-et-validation) de certains membres sur Health Data Hub. Des modifications peuvent toujours être apportées sur la même fiche, dans la même demande de fusion (et donc sur la même branche). 
 
-Les demandes de fusions sont validées par [certains membres de HDH](../A_lire/README.md#validation-et-fusion). 
+Les demandes de fusions sont validées par [certains membres de HDH](../A_lire/Processus_contribution.md#validation-et-fusion). 
 :::
 
 ## Naviguer dans une demande de fusion (merge-request)
@@ -89,11 +89,11 @@ Pour cela aller dans la barre présente à gauche de l'interface Gitlab. Aller d
 </p>
 
 ## Suggérer des modifications
-Lors du [processus de relecture](../A_lire/README.md#processus-de-relecture-et-validation), des modifications peuvent être suggérées par le relecteur. 
+Lors du [processus de relecture](../A_lire/Processus_contribution.md#processus-de-relecture-et-validation), des modifications peuvent être suggérées par le relecteur. 
 
 Se référer à la fiche [processus de relecture](processus_relecture.md) dédiée.
 
 ## Incorporation des modifications dans le projet
-Lorsque le [processus de relecture](../A_lire/README.md#processus-de-relecture-et-validation) est terminé, les modifications peuvent être incorporées dans la documentation. Aller dans l'onglet `Vue d'ensemble` de la demande de fusion. Enlever l'étiquettes `Etape: en cours` si elle a été mise. Enlever le statut `WIP` en allant dans le bouton `Editer`. Ajouter l'étiquette `Etape : Prêt fusion`. 
+Lorsque le [processus de relecture](../A_lire/Processus_contribution.md#processus-de-relecture-et-validation) est terminé, les modifications peuvent être incorporées dans la documentation. Aller dans l'onglet `Vue d'ensemble` de la demande de fusion. Enlever l'étiquettes `Etape: en cours` si elle a été mise. Enlever le statut `WIP` en allant dans le bouton `Editer`. Ajouter l'étiquette `Etape : Prêt fusion`. 
 
 Cela permet aux mainteneurs du projet de savoir visuellement quelles demandes de fusion sont prêtes à être incorporées à la documentation.

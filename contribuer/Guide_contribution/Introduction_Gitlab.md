@@ -33,7 +33,7 @@ En cliquant sur le logo de gitlab en haut à droite, la liste des projets auxque
 ### Interface Gitlab pour un projet
 Après avoir sélectionné un projet, la page qui s'affiche contient : 
 - le chemin du projet
-- l'onglet [*Dépôt*](Introduction_Gitlab.md#d%C3%A9p%C3%B4t) dans le menu à droite contient l'ensemble des données constituants le projet et la totalité des historiques de modification
+- l'onglet *Dépôt* dans le menu à droite contient l'ensemble des données constituants le projet et la totalité des historiques de modification
 - l'onglet [*Ticket*](Introduction_Gitlab.md#ticket) dans le menu déroulant contenant les discussions préparatoires/Ticket
 - l'onglet [*Demande de fusion*](Introduction_Gitlab.md#demande-de-fusion) permettant l'intégration des travaux réalisés à la documentation
 
