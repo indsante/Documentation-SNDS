@@ -22,7 +22,7 @@ Vous pouvez pour cela écrire un email aux mainteneurs du projets:
 Vous pouvez également utiliser le système de [tickets](Guide_contribution/Ticket.md), appelés **issues**, dans cet [onglet](https://gitlab.com/healthdatahub/documentation-snds/issues). 
 Il vous faudra pour cela créer un compte sur [gitlab.com](https://gitlab.com). 
   
-Chaque **issue** représente une opportunité de discussion ouverte pour résoudre le problème évoqué.
+Chaque **ticket** représente une opportunité de discussion ouverte pour résoudre le problème évoqué.
 Tout utilisateur inscrit sur GitLab est en capacité d'y participer.
 
 ### Corriger ou compléter une fiche existante

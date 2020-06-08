@@ -37,13 +37,13 @@ Un formulaire en bas de la page éditée permet d'enregistrer vos modifications 
 <img src="../../files/images/tutoriel_gitlab/2020-05-13_HDH_creer-fiche-edition_MLP-2.0.png" alt="wip" width="900"/>
 </p>
 
-## Enregistrer la fiche (demande de fusion ou merge)
+## Enregistrer la fiche (demande de fusion ou merge-request)
 Une page s'ouvre alors pour configurer la demande de fusion.
 
 - Donner un titre, remplir la description
 - Ajouter des assignés pour la [relecture et validation](../A_lire)
 - Si le travail n’est pas fini et que des modifications seront apportées ultérieurement, cocher la case `Start the title with WIP`
-- Soumettre votre merge-request en bas de page.
+- Soumettre votre demande de fusion en bas de page.
 
 ::: tip
 Enregistrer une demande de fusion ne veut pas dire que la fusion se lancera automatiquement après cette demande. L'incorporation des modifications proposées dans la documentation nécessite une [validation](../A_lire/README.md) de certains membres sur Health Data Hub. Des modifications peuvent toujours être apportées sur la même fiche, dans la même demande de fusion (et donc sur la même branche). 

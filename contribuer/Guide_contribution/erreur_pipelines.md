@@ -12,7 +12,7 @@ Si une icône orange ou rouge apparaît, il est possible de connaitre la source 
 <img src="../../files/images/tutoriel_gitlab/2020-05-20_HDH_erreur-lien-int_MLP-2.0.png" alt="wip" width="1000"/>
 </p>
 
-Dans l'exemple ci-dessous, l'erreur est dans un lien interne, dans la fiche cmu_c.md à la ligne 7. 
+Dans l'exemple ci-dessus, l'erreur est dans un lien interne, dans la fiche cmu_c.md à la ligne 7. 
 
 # Erreur lien interne
 Les erreurs les plus courantes pour les liens internes sont les suivantes:

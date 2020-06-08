@@ -21,7 +21,7 @@ Vous retrouverez notamment:
 - Comment [modifier une fiche](Modifier_une_fiche.md)
 - Comment [créer une fiche](Creer_une_fiche.md)
 - Comment rajouter une [image](inclure_image.md) dans une fiche
-- Comment [partager un document](partage_document.md)`
+- Comment [partager un document](partage_document.md)
 - Comment naviguer dans une [demande de fusion](demande_fusion.md)
 - Comment suggérer des modifications lors du [processus de relecture](processus_relecture.md)
 - quelles sont les erreurs classiques conduisant à un échec des [pipelines](erreur_pipelines.md)

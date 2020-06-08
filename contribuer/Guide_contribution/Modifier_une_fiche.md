@@ -2,7 +2,7 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## Créer un Ticket  
-Avant de modifier directement une fiche, il est conseillé de créer avant tout un [ticket](Ticket.md). 
+Avant de modifier directement une fiche, il est conseillé de créer un [ticket](Ticket.md). 
 
 Si les modifications proposées sont jugées mineures (fautes d'orthographes, *etc.*) par le contributeur, l'étape de la création de ticket peut être sautée.
 

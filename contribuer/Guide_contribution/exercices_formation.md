@@ -3,7 +3,7 @@
 
 Cette page contient les travaux pratiques des formations GitLab pour contribuer à la documentation.
 
-Le support de formation ci-dessous peut être ouvert en [suivant ce lien](https://docs.google.com/presentation/d/e/2PACX-1vSCZjdOn5mObOv8bnkKdLfyLA0lLg9h0q0vW48sAfj_DMcbooNuLv6cTO8t06h8k-GcK0GRjSETP_RE/embed?start=false&loop=false&delayms=5000). 
+Le support de formation ci-dessous peut être ouvert en [suivant ce lien](https://frama.link/formation-gitlab). 
 
 <style>
 .responsive-wrap iframe{ max-width: 95%; }

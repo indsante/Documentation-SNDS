@@ -23,6 +23,7 @@ const sidebar = [
                 title: "À lire",
                 path: "/contribuer/A_lire",
                 children: [
+                    "/contribuer/A_lire/Processus_contribution",
                     "/contribuer/A_lire/contactez_nous"
                 ]
             },

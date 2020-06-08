@@ -33,9 +33,9 @@ En cliquant sur le logo de gitlab en haut à droite, la liste des projets auxque
 ### Interface Gitlab pour un projet
 Après avoir sélectionné un projet, la page qui s'affiche contient : 
 - le chemin du projet
-- l'onglet [*Dépôt*](Introduction_Gitlab.md#dépôt) dans le menu à droite contient l'ensemble des données constituants le projet et la totalité des historiques de modification
+- l'onglet [*Dépôt*](Introduction_Gitlab.md#d%C3%A9p%C3%B4t) dans le menu à droite contient l'ensemble des données constituants le projet et la totalité des historiques de modification
 - l'onglet [*Ticket*](Introduction_Gitlab.md#ticket) dans le menu déroulant contenant les discussions préparatoires/Ticket
-- l'onglet [*Demande de fusion*](Introduction_Gitlab.md#demande-de-fusion) permetant l'intégration des travaux réalisés à la documentation
+- l'onglet [*Demande de fusion*](Introduction_Gitlab.md#demande-de-fusion) permettant l'intégration des travaux réalisés à la documentation
 
 Chaque élément est détaillé ci-dessous.
 
@@ -56,7 +56,7 @@ En cliquant sur une fiche, une page de prévisualisation s'affiche. Cette page p
 </p>
 
 ##### Commits
-En cliquant sur `Dépôt`>`Commits` dans le menu à droite, l'[historique](https://gitlab.com/healthdatahub/documentation-snds/commits/master) des modifications ayant eu lieu s'affiche via des commits. Un commit est une description des modifications effectuées. Il comprend l'auteur, la date et une courte description des modifications ([exemple](https://gitlab.com/healthdatahub/documentation-snds/commit/553cdd3b07bd2853e7f642b077f48e493413c00e)). 
+En cliquant sur `Dépôt`>`Commits` dans le menu à droite, l'[historique](https://gitlab.com/healthdatahub/documentation-snds/commits/master) des modifications ayant eu lieu s'affiche via des commits. Un commit est une description des modifications effectuées. Il comprend l'auteur, la date et une courte description des modifications. 
 
 <p style="text-align:center;">
 <img src="../../files/images/tutoriel_gitlab/2020-05-15_HDH_commit-depot_MLP-2.0.png" alt="changer branche" width="1000"/>
