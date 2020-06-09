@@ -14,7 +14,7 @@ Ce document est une initiation au PMSI à travers le SNDS et provient d'une form
 </object>
 </p>
 
-Ce document est [téléchargeable](../../files/Cnam/2020-04-30_CNAM_Formation-PMSI_MLP-2.0.pdf) sur Gitlab.
+[Télécharger ce document](../../files/Cnam/2020-04-30_CNAM_Formation-PMSI_MLP-2.0.pdf).
 
 ## Exercices
 Ce document comprend des excercices de nettoyage de bases, des excercices sur le PMSI MCO, PMSI SSR, PMSI HAD et PMSI PSY. 
@@ -27,4 +27,4 @@ Ce document comprend des excercices de nettoyage de bases, des excercices sur le
 </object>
 </p>
 
-Ce document est [téléchargeable](../../files/Cnam/2020-04-30_CNAM_Enonces-EXERCICES-TOUS-PMSI-fev-2019_MLP-2.0.pdf) sur Gitlab.
+[Télécharger ce document](../../files/Cnam/2020-04-30_CNAM_Enonces-EXERCICES-TOUS-PMSI-fev-2019_MLP-2.0.pdf).
