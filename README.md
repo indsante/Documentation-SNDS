@@ -23,7 +23,7 @@ Elle résulte d'une mise en commun de documents et travaux par plusieurs organis
 et la Direction de la Sécurité Sociale [DSS](https://www.securite-sociale.fr/la-secu-cest-quoi/organisation/la-direction-de-la-securite-sociale)
 - les Agences régionales de santé - [ARS](https://www.ars.sante.fr/)
 - Santé publique France - [SpF](https://www.santepubliquefrance.fr/)
-
+- Organisation de la direction de la sécurité sociale - [DSS](https://solidarites-sante.gouv.fr/ministere/organisation/organisation-des-directions-et-services/article/organisation-de-la-direction-de-la-securite-sociale-dss)
 
 ## Organisation
 

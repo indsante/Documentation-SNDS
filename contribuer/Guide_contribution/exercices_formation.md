@@ -3,21 +3,17 @@
 
 Cette page contient les travaux pratiques des formations GitLab pour contribuer à la documentation.
 
-Le support de formation ci-dessous peut être ouvert en [suivant ce lien](http://frama.link/gitlab-snds5). 
+Le support de formation ci-dessous peut être ouvert en [suivant ce lien](https://frama.link/formation-gitlab). 
 
 <style>
 .responsive-wrap iframe{ max-width: 95%; }
 </style>
 <div class="responsive-wrap">
 <p style="text-align:center;">
-<iframe 
-    src="https://docs.google.com/presentation/d/1oYQksP4GwsWrbSBlJcMukk-jlx7YUM7NEmz4_kCUrCA/embed?start=false&loop=false&delayms=1000" 
-    frameborder="0" width="700" height="430" 
-    allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"
-></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSCZjdOn5mObOv8bnkKdLfyLA0lLg9h0q0vW48sAfj_DMcbooNuLv6cTO8t06h8k-GcK0GRjSETP_RE/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
 </p>
 </div>
-
 
 ::: tip Note
 Se rendre sur le **site de formation** et sur le **projet GitLab de formation** pour les TPs :
@@ -195,11 +191,11 @@ Première modification assez simple, au cours de laquelle on créée la branche 
 
 Il faut pour cela utiliser un chemin relatif, en utilisant un double point pour remonter d'un répertoire
 
-Exemple : `[CMU-C](../fiches/cmu_c.md)` pour [CMU-C](../fiches/cmu_c.md)
+Exemple : `[CMU-C](../fiches/cmu_c.md)` pour [CMU-C](../../fiches/cmu_c.md)
 
 ### Ajouter un fichier en téléchargement 
 
-- Suivre le tutoriel pour [ajouter un nouveau](nouveau_fichier.md) dans le dossier `files`
+- Suivre le tutoriel pour [ajouter un nouveau fichier](partage_document.md) dans le dossier `files`
 - Insérer un lien relatif vers ce fichier pour permettre de le télécharger
 
 ### Ajouter une image
@@ -223,7 +219,7 @@ TP optionnel :
 ## TP 9 : Créer une nouvelle fiche de glossaire
 
 :::tip Note
-Pour cet exercice, voir aussi la [page de documentation dédiée](nouvelle_page.md)
+Pour cet exercice, voir aussi la [page de documentation dédiée](Creer_une_fiche.md)
 :::
 
 Ecrire une issue demandant à créer une fiche de glossaire sur une notion non abordée.

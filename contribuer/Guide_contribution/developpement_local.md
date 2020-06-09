@@ -35,3 +35,4 @@ Il faut peut-être les modifier sur Windows.
 
 - `yarn lint-md` : teste les liens internes
 - `yarn extended-lint-md` : teste les liens internes et externes
+- `yarn licence` : teste si la licence est bien indiquée sur les fiches
