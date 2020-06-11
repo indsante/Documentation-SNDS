@@ -112,7 +112,8 @@ PROC SQL;
           t1.pse_spe_cod,
           t1.exe_soi_amd,
           t1.pse_act_nat,
-          t2.tip_prs_ide
+          t2.tip_prs_ide,
+          t2.tip_ord_num
   FROM (oravue.ere_prs_f t1 
     INNER JOIN oravue.ere_tip_f t2
     ON   (t1.DCT_ORD_NUM = t2.DCT_ORD_NUM AND 
@@ -125,11 +126,22 @@ PROC SQL;
           t1.PRS_ORD_NUM = t2.PRS_ORD_NUM AND 
           t1.REM_TYP_AFF = t2.REM_TYP_AFF)
   )
-  WHERE t1.prs_nat_ref in ( **3541** , **3547**, **3549**, **3540** ) 
+  WHERE t1.prs_nat_ref in ( **3541** , **3547**, **3549**, **3540**, **3550* ) 
         AND t1.dpn_qlf <> 71
   ;
 QUIT;
 ```
+
+::: warning Attention
+Le code ci-dessus permet d'extraire toutes les prestations d'aide auditive. 
+Pour une ligne de la table prestation, on trouve n ligne dans la table affinée. 
+Le nombre de ligne de la table affinée correspondant à une ligne dans la table prestation est donné par la variable `TIP_ORD_NUM`.
+Lorsque l'on réalise une jointure entre la table prestation et la table affinée, on aura donc autant de ligne que dans la table affinée (relation *one-to-many*)
+et les valeurs des variables de la table prestation sont dupliquées sur les nouvelles lignes issues de la jointure. 
+Ainsi, pour dénombrer les montants et quantités,il ne faut donc pas sommer les variables `PRS_PAI_MNT` ou `PRS_ACT_QTE` 
+sur l'ensemble de la table mais seulement sur les lignes pour lesquelles `TIP_ORD_NUM`=1
+:::
+
 
 ## Evolutions de nomenclatures audioprothèses
 
