@@ -15,6 +15,9 @@ Ils sont destinés à présenter des travaux sur le SNDS et sont ouverts aux per
 - Contribution du Système national des données de santé à la construction de la cascade de prise en charge de l’hépatite C chronique - Santé publique France
 - Outils d’accompagnement des utilisateurs du SNDS - HDH / Cnam
 
+::: warning Report
+Au vu de la crise sanitaire, cet amphi est reporté à une date ultérieure.
+::: 
 
 Les résumés de chaque étude sont consultables ci-dessous.
 
