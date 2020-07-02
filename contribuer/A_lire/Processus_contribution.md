@@ -18,7 +18,7 @@ Chaque contribution à la documentation sous la forme d'ajout de contenu est sou
 Dès lors qu’une contribution est proposée comme ajout à la documentation dans sa version public (hors travail en cours), elle doit être relue par un pair. Pour cela, la [procédure de demande de fusion](../Guide_contribution/Introduction_Gitlab.md) doit être suivie et un relecteur doit être assigné. Ce relecteur peut-être n'importe quel membre de la communauté incluant les maintainers indiqués plus loin. Soit le relecteur invite le contributeur à modifier sa contribution, soit il l’approuve pour passer à l’étape suivante. 
 
 ### Demande d’aide expertise SNDS 
-Si besoin est, les experts SNDS du Health Data Hub peuvent aider à la relecture. Vous pouvez également contacter le Hub en cas de doute : <<opensource@healt-data-hub.fr>>
+Si besoin est, les experts SNDS du Health Data Hub peuvent aider à la relecture. Vous pouvez également contacter le Hub en cas de doute : <<opensource@health-data-hub.fr>>
 
 ### Correction d’une contribution 
 Si une relecture appelle une [correction](../Guide_contribution/Modifier_une_fiche.md), le contributeur est invité à modifier sa contribution et la soumettre à nouveau en suivant la même procédure. 
