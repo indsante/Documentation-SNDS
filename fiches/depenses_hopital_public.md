@@ -143,7 +143,7 @@ Les filtres sur les séjours sont les suivants :
 - Exclusion des séjours en erreur (en utilisant la variable `GRG_GME`, dont le code commence par 90 en cas d'erreur)
 - Exclusion des prestations inter établissement (en utilisant les variables `ENT_MOD` et `SOR_MOD`)
 - Exclusion des séjours hors période d'étude (variables `EXE_SOI_DTD` et `EXE_SOI_DTF`)
-- Exclusion des séjours non valorisés (variable `VALO` dans `T_SSRaaVALO` ou `FAC_SEJ_AM` dans `T_SSRaaSTC`) 
+- Exclusion des séjours non valorisés (variable `VALO` dans `T_SSRaaVALO` ou `FAC_SEJ_AM` dans `T_SSRaaSTC`, ne conserver que les lignes pour lesquelles `FAC_SEJ_AM` prend la valeur 1) 
 
 *En complément :*  
 À partir de 2017, on peut utiliser la variable `MNT_AM_RSFA` de la table de valorisation des séjours (corrigée par l'ATIH) `T_SSRaaVALO` sous ORAVUE, 
@@ -163,7 +163,7 @@ Les filtres sur les séjours sont les suivants :
 - Exclusion des FINESS géographiques (et non juridiques) APHP/APHM/HCL pour éviter les doublons (jusqu'en 2017 inclus) (en utilisant la variable `ETA_NUM_EPMSI`)
 - Exclusion des séjours en erreur (en utilisant la variable `PAP_GRP_GHPC`, dont le code commence par 99 en cas d'erreur)
 - Exclusion des séjours hors période d'étude (variables `EXE_SOI_DTD` et `EXE_SOI_DTF`)
-- Exclusion des séjours non valorisés (variable `FAC_SEJ_AM` dans `T_HADaaSTC`)  
+- Exclusion des séjours non valorisés (variable `FAC_SEJ_AM` dans `T_HADaaSTC`, ne conserver que les lignes pour lesquelles `FAC_SEJ_AM` prend la valeur 1)  
 
 Les éléments ci-dessus permettent d'extraire le montant AMO associé aux séjours en établissement publics en HAD.  
 Pour obtenir le montant total des dépenses, il faut ajouter au montant remboursé par l'AMO, le montant du RAC AMO du séjour, dont le calcul est détaillé dans la fiche sur "le reste à charge après AMO en établissement public".  
