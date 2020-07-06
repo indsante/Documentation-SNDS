@@ -135,6 +135,8 @@ La plupart de ces filtres sont issus de la documentation de l’ATIH.
 - Nombre UCD < 0 ou prix d’achat < 0
 - Nombre UCD >=100 (l’ATIH ne recommande d’utiliser ce filtre qu’en SSR)
 - Codes UCD erronés (à vide ou indéterminés)
+- Année d’administration < N-2
+
 
 ##### Critère de suppression (spécifique table `MED`)
 
@@ -143,10 +145,9 @@ La plupart de ces filtres sont issus de la documentation de l’ATIH.
 ##### Vérification de l'appartenance à la liste en sus (spécifique table `MED`)
 
 On récupère le mois et l’année d’administration pour vérifier si ces médicaments étaient bien dans la liste en sus à cette période.  
-On utilise pour cela le [document où se trouvent les dates d'inscription et de radiation de chaque UCD dans la liste en sus](https://www.atih.sante.fr/nomenclatures-de-recueil-de-l-information/medicaments#Medicaments%20spe%20en%20SSR). 
+On utilise pour cela le [document où se trouvent les dates d'inscription et de radiation de chaque UCD dans la liste en sus](https://www.atih.sante.fr/unites-communes-de-dispensation-prises-en-charge-en-sus) (fichier historique). 
 Si le mois et l’année d’administration sont à vide, l'ATIH recommande d'utiliser le mois et l’année de sortie de l'hôpital.  
 On ne conserve ensuite que les molécules appartenant à la liste en sus durant cette période.  
-Pour les données de l’année N, on ne conserve que les molécules dont l’année d’administration est égale à N, N-1 ou N-2.
 
 ##### Cas particulier de certains médicaments
 
