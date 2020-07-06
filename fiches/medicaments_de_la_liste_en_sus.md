@@ -144,10 +144,10 @@ La plupart de ces filtres sont issus de la documentation de l’ATIH.
 
 ##### Vérification de l'appartenance à la liste en sus (spécifique table `MED`)
 
-On récupère le mois et l’année d’administration pour vérifier si ces médicaments étaient bien dans la liste en sus à cette période.  
+On récupère le mois et l’année d’administration, et on ne conserve que les médicaments 
+qui étaient dans la liste en sus au moment de l'administration.  
 On utilise pour cela le [document où se trouvent les dates d'inscription et de radiation de chaque UCD dans la liste en sus](https://www.atih.sante.fr/unites-communes-de-dispensation-prises-en-charge-en-sus) (fichier historique). 
-Si le mois et l’année d’administration sont à vide, l'ATIH recommande d'utiliser le mois et l’année de sortie de l'hôpital.  
-On ne conserve ensuite que les molécules appartenant à la liste en sus durant cette période.  
+Si le mois et l’année d’administration sont à vide, l'ATIH recommande d'utiliser le mois et l’année de sortie de l'hôpital à la place.  
 
 ##### Cas particulier de certains médicaments
 
