@@ -1,6 +1,6 @@
 ## Schéma
 
-- Titre : Table des NIR foinisé deux fois et date entrè/sortie complètes
+- Titre : Table des NIR foinisé deux fois et dates entrée/sortie complètes
 <br />
 - Clé primaire : `ETA_NUM_EPMSI`, `RHAD_NUM`
 <br />
