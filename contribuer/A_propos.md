@@ -22,7 +22,7 @@ La documentation est publiée par le Health data hub sous licence Mozilla Public
 
 Un fichier licence est disponible sur Gitalb:  [LICENSE](https://gitlab.com/healthdatahub/documentation-snds/blob/master/LICENSE).
 
-Les programmes partagés sur le dépôt [Programme sur Gitlab](https://gitlab.com/healthdatahub/programmes-sdns) sont publiés sous licence [APACHE-2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Les programmes partagés sur le dépôt [Programme sur Gitlab](https://gitlab.com/healthdatahub/programmes-snds) sont publiés sous licence [APACHE-2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Partenaires
 La documentation résulte d'une mise en commun de documents et travaux par plusieurs organisations, dont :

@@ -99,7 +99,7 @@ PROC SQL;
 		;
 QUIT;
 ```
-La variable `tip_ord_num` donne le nombre de ligne de la table affinée correspondant à une ligne dans la table prestation. Lorsque `tip_ord_num` est supérieur à 1, cela signifie que pour une ligne de la table prestation, on a `n` lignes sur la table affinée. 
+La variable `tip_ord_num` donne le nombre de lignes de la table affinée correspondant à une ligne dans la table prestation. Lorsque `tip_ord_num` est supérieur à 1, cela signifie que pour une ligne de la table prestation, on a `n` lignes sur la table affinée. 
 
 Il faut donc être prudent, car les informations de la table prestations sont dupliquées sur ces lignes. Notamment le montant de l'acte qui se trouve dans la table prestation.
 

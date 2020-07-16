@@ -6,4 +6,4 @@ La Caisse nationale d'assurance vieillesse (Cnav) gère la retraite des salarié
 # Références
 
 - [Page wikipedia](https://fr.wikipedia.org/wiki/Caisse_nationale_d%27assurance_vieillesse)
-- Présentation sur le site internet de [l'assurance retraite](https://www.lassuranceretraite.fr/portail-info/hors-menu/footer/qui-sommes-nous.html)
+- Présentation sur le site internet de [l'assurance retraite](https://www.lassuranceretraite.fr/portail-info/hors-menu/footer/nous-connaitre.html)

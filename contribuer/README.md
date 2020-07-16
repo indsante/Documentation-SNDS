@@ -56,7 +56,7 @@ Le [partage de programmes](Guide_contribution/partage_document.md#partage-de-pro
 
 Nous partageons dans les fiches de courtes sections de code illustratives. 
 
-Les programmes plus conséquents, par exemple un script complet d'analyse, sont partagés dans le dépôt dédié [programme-snds](https://gitlab.com/healthdatahub/programmes-sdns).
+Les programmes plus conséquents, par exemple un script complet d'analyse, sont partagés dans le dépôt dédié [programme-snds](https://gitlab.com/healthdatahub/programmes-snds).
 
 
 ::: tip Pour Info

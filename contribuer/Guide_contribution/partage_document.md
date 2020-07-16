@@ -24,7 +24,7 @@ Le partage de programmes ou scripts d'analyses est très utile pour la communaut
 
 Dans les fiches de courtes sections de code sont souvent partagées.
 
-Les programmes plus conséquents, par exemple un script complet d'analyse, sont partagés dans le dépôt dédié [programme-snds](https://gitlab.com/healthdatahub/programmes-sdns). Les programmes partagés dans ce dépôt dédié sont sous licence APACHE 2.0. Une [fiche](../../ressources/programmes.md) les répertoriant est disponible sur le site de la documentation.
+Les programmes plus conséquents, par exemple un script complet d'analyse, sont partagés dans le dépôt dédié [programme-snds](https://gitlab.com/healthdatahub/programmes-snds). Les programmes partagés dans ce dépôt dédié sont sous licence APACHE 2.0. Une [fiche](../../ressources/programmes.md) les répertoriant est disponible sur le site de la documentation.
 
 ## Comment créer un nouveau dossier
 Pour créer un nouveau dossier, naviguer dans le dossier de votre choix, et sélectionnez **Nouveau dossier** dans le menu déroulant `+`. 
