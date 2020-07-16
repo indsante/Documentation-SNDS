@@ -31,7 +31,7 @@ La documentation est organisée en 5 sections disponible dans le menu de droite 
 - [Tables](../../tables/README.md) est un dictionnaire des tables et variables ;
 - [Contribuer](../../contribuer/README.md) est un guide de contribution à cette documentation.
 
-Chacune de ces sections correspond à un dossier sur [GitLab](https://gitlab.com/healthdatahub/documentation-snds), avec un [dossier supplémentaire](https://gitlab.com/healthdatahub/documentation-snds/files) pour les fichiers et images.
+Chacune de ces sections correspond à un dossier sur [GitLab](https://gitlab.com/healthdatahub/documentation-snds), avec un [dossier supplémentaire](https://gitlab.com/healthdatahub/documentation-snds/-/tree/master/files) pour les fichiers et images.
 
 ### Naviguer sur le site
 

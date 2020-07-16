@@ -51,7 +51,7 @@ Utiliser le document CodiMD partagé, en suivant lien donné en formation.
 
 1. Se connecter à [gitlab.com](https://gitlab.com/).
 
-1. Aller sur le projet Gitlab `programmes-SNDS` : [gitlab.com/healthdatahub/programmes-sdns](https://gitlab.com/healthdatahub/programmes-sdns)
+1. Aller sur le projet Gitlab `programmes-SNDS` : [gitlab.com/healthdatahub/programmes-sdns](https://gitlab.com/healthdatahub/programmes-snds)
     - Combien d'organisations ont partagé des programmes sur ce projet ?
     - Quand a été créé le dossier de Santé publique France ?
     
@@ -212,7 +212,7 @@ Exemple : `[CMU-C](../fiches/cmu_c.md)` pour [CMU-C](../../fiches/cmu_c.md)
 ## TP 8 : Ajouter des programmes
 
 TP optionnel : 
-- Créer un dossier pour votre organisation dans le projet [programmes-snds](https://gitlab.com/healthdatahub/programmes-sdns)
+- Créer un dossier pour votre organisation dans le projet [programmes-snds](https://gitlab.com/healthdatahub/programmes-snds)
 - Ajouter un README selon les consignes du fichier CONTRIBUTING.md
 - Ajouter un programme documenté
 

@@ -136,7 +136,7 @@ Résultat : [Lien vers la page de la table ER_PRS_F](/tables/ER_PRS_F)
 :::
 
 ### Inclure une image
-Pour inclure une image, il faut tout d'abord la téléverser dans Gitlab (voir fiche [Ajouter des fichiers](https://documentation-snds.health-data-hub.fr/contribuer/nouveau_fichier.html)). 
+Pour inclure une image, il faut tout d'abord la téléverser dans Gitlab (voir fiche [Partage document](partage_document.md)).
 
 1. Pour afficher une image, ajouter un **point d'exclamation** devant son chemin ou son URL.
 
