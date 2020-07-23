@@ -62,12 +62,16 @@ export default {
       } = this.$site.themeConfig
 
       if (showEditLink && docsRepo && this.$page.relativePath) {
+         var path = this.$page.relativePath
+        if (this.$page.relativePath.includes('tables/') && !this.$page.relativePath.includes('README.md')){
+          path = path.replace('tables/','tables/.sources/');
+        }
         return this.createEditLink(
           repo,
           docsRepo,
           docsDir,
           docsBranch,
-          this.$page.relativePath
+          path
         )
       }
       return null
@@ -110,12 +114,17 @@ export default {
       } = this.$site.themeConfig
 
       if (showEditLink && docsRepo && this.$page.relativePath) {
+        var path = this.$page.relativePath
+        if (this.$page.relativePath.includes('tables/') && !this.$page.relativePath.includes('README.md')){
+          path = path.replace('tables/','tables/.sources/');
+          console.log(path)
+        }
         return this.createHistoryLink(
           repo,
           docsRepo,
           docsDir,
           docsBranch,
-          this.$page.relativePath
+          path
         )
       }
       return null
@@ -149,7 +158,7 @@ export default {
         + `/edit`
         + `/${docsBranch}/`
         + (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '')
-        + path.replace('tables/','tables/.sources/')
+        + path
       )
 
     },
