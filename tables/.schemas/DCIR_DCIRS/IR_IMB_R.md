@@ -18,8 +18,8 @@ Nom|Type|Description|Propriétés
 -|-|-|-
 `BEN_NIR_PSA`|chaîne de caractères|Identifiant anonyme du patient dans le SNIIRAM||
 `BEN_RNG_GEM`|nombre entier|rang de naissance du bénéficiaire||
-`IMB_ALD_DTD`|date|Date de début d&#x27;exonération du ticket modérateur attribuée par les services médicaux (ALD, AT, MP)||
-`IMB_ALD_DTF`|date|Date de fin de l&#x27;exonération attribuée par les services médicaux (ALD, AT, MP)||
+`IMB_ALD_DTD`|date|Date de début d&#x27;exonération du ticket modérateur attribuée par les services médicaux (ALD, AT, MP)||
+`IMB_ALD_DTF`|date|Date de fin de l&#x27;exonération attribuée par les services médicaux (ALD, AT, MP)||
 `IMB_ALD_NUM`|nombre entier|Numéro d&#x27;ALD||
 `IMB_ETM_NAT`|nombre entier|Motif d&#x27;exonération du bénéficiaire||
 `IMB_MLP_BTR`|chaîne de caractères|Tableau des maladies professionnelles (bis, ter)||
