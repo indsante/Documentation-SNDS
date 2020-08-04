@@ -42,11 +42,11 @@ La [CNIL](../glossaire/CNIL.md) donne ainsi compétence à l'INDS pour approuver
 - la durée d'accès aux données qui doit être limitée à celle nécessaire à la réalisation du projet
 - le respect du référentiel de sécurité SNDS
 
-:::warning Attention
-La mission d’examen du caractère d’intérêt public de la finalité poursuivie relève dorénavant du CESREES (créé par le décret du 14 mai 2020). 
-La procédure d'accès simplifié ne peut donc être maintenue en l’état. 
-D’ores et déjà une procédure amendée a été soumise à la CNIL et sera proposée dès adoption par cette dernière.  
+:::tip Evolution de la procédure d'accès simplifié à l'EGB
+Par délibération du 16 juillet 2020, la CNIL a autorisé l’évolution du référentiel donnant compétence au Health Data Hub d’approuver l’accès aux données de l’Echantillon généraliste de bénéficiaires (EGB) et des datamarts du SNIIRAM.
+L’essentiel des dispositions de cette procédure ont été conservées, et une nouveauté s'ajoute : la possibilité sur justification de reconduire un accès déjà approuvé et donc de bénéficier d’un délai d’accès plus important.
 :::
+
 
 ### Les assureurs et industriels de santé
 
