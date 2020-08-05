@@ -38,7 +38,7 @@ La [CNIL](../glossaire/CNIL.md) donne ainsi compétence à l'INDS pour approuver
 
 - la finalité d'intérêt public du projet
 - la justification par le RT de la pertinence scientifique du projet
-- l'absence de croisements d'identifiants potentiels
+- l'absence de croisements d'[identifiants potentiels](https://documentation-snds.health-data-hub.fr/glossaire/IdPotentiels.html)
 - la durée d'accès aux données qui doit être limitée à celle nécessaire à la réalisation du projet
 - le respect du référentiel de sécurité SNDS
 
