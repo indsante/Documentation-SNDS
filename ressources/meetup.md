@@ -150,7 +150,7 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
 - Support de présentation :
 [pptx](../files/presentations/meetup-snds5/20200220_meetupsnds5_pmsiatih.pptx)
 
-### Algorithme de tapage du diabète 
+### Algorithme de typage du diabète 
 - Titre : Développement d’un algorithme de typage du diabète à partir de données de la cohorte Constances et son application dans le SNDS
 - Présenté par : Sonsoles Fuentes, doctorant (Santé Publique France)
 - Support de présentation : 
