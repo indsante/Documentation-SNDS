@@ -20,10 +20,9 @@ Elle résulte d'une mise en commun de documents et travaux par plusieurs organis
 - le Health Data Hub - [HDH](https://www.health-data-hub.fr)
 - Le Ministère des Solidarités et de la Santé: la Direction de la Recherche, des études, de l’évaluation et des statistiques - 
 [DREES](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/la-drees/) 
-et la Direction de la Sécurité Sociale [DSS](https://www.securite-sociale.fr/la-secu-cest-quoi/organisation/la-direction-de-la-securite-sociale)
 - les Agences régionales de santé - [ARS](https://www.ars.sante.fr/)
 - Santé publique France - [SpF](https://www.santepubliquefrance.fr/)
-- Organisation de la direction de la sécurité sociale - [DSS](https://solidarites-sante.gouv.fr/ministere/organisation/organisation-des-directions-et-services/article/organisation-de-la-direction-de-la-securite-sociale-dss)
+- la Direction de la Sécurité Sociale - [DSS](https://solidarites-sante.gouv.fr/ministere/organisation/organisation-des-directions-et-services/article/organisation-de-la-direction-de-la-securite-sociale-dss)
 
 ## Organisation
 
@@ -36,6 +35,9 @@ La documentation est organisée en 5 sections :
 - [Contribuer](contribuer/README.md) est un guide de contribution à cette documentation.
 
 Chacune de ces sections correspond à un dossier sur [GitLab](https://gitlab.com/healthdatahub/documentation-snds), avec un [dossier supplémentaire](https://gitlab.com/healthdatahub/documentation-snds/-/tree/master/files) pour les fichiers et images.
+
+## Contribuer
+Le [guide de contribution](contribuer/README.md) reprend les différents modes de contribution à la documentation. Des documents peuvent également être déposé dans la [boite aux lettres](https://gitlab.com/healthdatahub/documentation-snds/-/tree/master/Boite_aux_lettres), ces derniers seront intégrés à la documentation par le Health Data Hub.
 
 ## Citation
 
