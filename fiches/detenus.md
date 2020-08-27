@@ -1,7 +1,7 @@
 # Détenus 
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Lorsque l'on parle de détenus, on considère l'ensemble des individus mis sous main de justice. 
+Lorsque l'on parle de détenus, on considère l'ensemble des individus mis sous main de justice et non seulement les individus sous écrou. 
 
 Il s'agit des individus:
 - incarcérés (condamnés ou en détention provisoire) 
@@ -83,6 +83,7 @@ Ces établissements peuvent être repérés dans le SNDS.
 
 ### Les unités de consultations et de soins aux detenus (UCSA).
 
+Ces unités aujourd'hui appelées USMP (unité sanitaire en milieu pénitentier) sont situées dans un établissement pénitentiaire mais adossées à un établissement de santé. 
 Les consultations qui y sont dispensées font l'objet d'un financement spécifique.
 Elles peuvent être repérées dans les table `T_MCOaaFCSTC` à partir de la variable `CONSULT_MIG`, l'UCSA correspond à la modalité 10
 
@@ -115,6 +116,9 @@ AND EXE_SPE in ('01','22','23','15','33','75','17','79','05','08','11','13','07'
 
 ### Les unités hospitalières sécurisée interregionale (UHSI)
 
+Une unité hospitalière sécurisée interrégionale (UHSI) est une unité prenant en charge les hospitalisations programmées de plus de 48 heures des personnes détenues au sein d'un établissement public de santé . 
+Pour les autres hospitalisations (urgentes ou de moins de 48 heures), les personnes détenues sont accueillies dans les établissements publics de santé situés à proximité des établissements pénitentiaires où elles sont incarcérées.
+
 Ces unités peuvent être repérées à partir des codes d'unités médicales, l'UHSI correspond à l'UM 26. 
 On peut ainsi déterminer en croisant avec la table des séjours les caractérisques des séjours MCO des détenus.
 
@@ -135,7 +139,8 @@ quit;
 
 
 ```
-En pratique l'UHSI n’est pas toujours codée par l'établissement dans les UM existantes. On retrouve ainsi beaucoup de détenus hospitalités dans d'autres unités. 
+
+
 On peut ici chainer nos detenus (identifiés dans les prestations du DCIR à partir du code petit régime `RGM_COD` qui commence par 65) avec le PMSI pour récupérer l'ensemble des hospitalisations de detenus.
 
 ```sql
@@ -168,6 +173,16 @@ quit;
 Pour chaque région pénitentaire, il existe un Services Médico-Psychologiques Régionaux (SMPR) implanté dans un établissement pénitentiaire et rattaché à un établissement public hospitalier de santé mentale.
 
 Pour les prisons ne disposant pas d’un SMPR, le dispositif de soins psychiatrique implique des personnels soignants issus d’un établissement psychiatrique qui assurent des vacations et sont intégrés dans les UHSA (Unités d’Hospitalisation Spécialement Aménagées), visant à accueillir les détenus ayant besoin de soins en milieu hospitalier.
+
+# Les UHSA 
+La loi de programmation et d’orientation de la justice du 9 septembre 2002 crée les UHSA ( Unités d’Hospitalisation Spécialement Aménagées), visant à accueillir les détenus ayant besoin de soins en milieu hospitalier 
+
+– les unités sont implantées au sein d’un établissement de santé mentale
+– l’administration pénitentiaire assure la sécurisation périmétrique et n’est pas présente au sein de l’unité de soins sauf en cas de demande du personnel soignant.
+– le personnel hospitalier assure les soins
+
+L’UHSA ne concerne que l’hospitalisation complète (à temps plein).
+
 
 On peut identifier cette activite grâce à la variable `SEC_NUM` dans `T_RIPaaRSA` ou `T_RIPaaR3A`.
 modalité à 5 caractères du secteur dans lequel le malade est pris en charge. 
@@ -255,7 +270,7 @@ DCIR exploitation ARS NORMANDIE (données detenus Normands)
  
  
 ::: tip Crédits
-Cette fiche a été initialement rédigée par Céline Leroy, ARS Normandie 
+Cette fiche a été initialement rédigée par Céline Leroy, ARS Normandie,  MAJ AOUT 2020 
 :::
 
 
