@@ -14,11 +14,11 @@ L’objet de cette fiche est d’aider à s’y retrouver parmi ces différentes
 L'information code commune est différente selon l'univers considéré.
 
 Dans le **SNIIRAM**, le code commune est le **code Insee**. 
-Il est remonté via la carte vitale au moment du soin, ou via les bases de données des caisses de sécurité sociale. 
+Il est remonté via la carte vitale au moment du soin, ou via les bases de données des caisses de sécurité sociale. En France, il y a environ 35 000 communes au 1<sup>er</sup> janvier 2019.
 
 Dans le **PMSI**, le code commune est appelé **code géographique**. 
-Il s'agit du code postal pour les commune de plus de 1000 habitants, et d'un code postal agrégé pour les communes de moins de 1000 habitants. 
-Ce code postal est déclaré par le bénéficiaire lors du séjour.
+Il s'agit du code postal lorsque celui-ci a plus de 1000 habitants, et d'un code postal agrégé pour les codes postaux de moins de 1000 habitants.  
+Ce code postal est déclaré par le bénéficiaire lors du séjour. D'après l'[ATIH](../glossaire/ATIH.md), en France il y a environ 6 000 codes géographiques en 2019. 
 
 Dans les **causes de décès**, le code commune est le **code Insee**. 
 Il s’agit de l’information sur le certificat de décès.
@@ -40,7 +40,9 @@ La plupart des codes département sont corrects.
 Des problèmes existent cependant pour la Corse, les DOM, et les bénéficiaires de certaines sections locales mutualistes étudiantes (SLM 617).
 
 Beaucoup de corrections sont à faire sur les codes communes. 
-On recourt alors notamment à des tables de correction, qui ne sont *a priori* pas exhaustives.
+On recourt alors notamment à des tables de correction, qui ne sont *a priori* pas exhaustives. 
+
+Une deuxième option consiste à faire recours à des fichiers mis à disposition par l’INSEE (notamment le fichier des évènements sur les commune) ou par le groupe La Poste (le fichier Hexaposte), si cette option permet d’être plus précis et d’apporter d’avantage des corrections, elle est néanmoins moins immédiate que les tables des corrections mises à disposition. 
 
 ## Où trouver les variables département et commune ?
 
@@ -63,7 +65,7 @@ Différences par rapport au SNIIRAM :
 - Les départements de Corse sont codés `2A` ou `2B`
 - Les DOM sont codés `9A`, `9B`, `9C`, `9D` et `9F`
 
-Pour travailler *à un niveau communal*, la variable commune `BDI_COD` s’utilise également seule dans le PMSI (5 positions). 
+Pour travailler *à un niveau territorial plus fin*, la variable commune `BDI_COD` s’utilise également seule dans le PMSI (5 positions). 
 Elle donne le code géographique du lieu de résidence déclaré par le patient. 
 
 Le code géographique correspond au code postal, ou à un regroupement pour les codes postaux de moins de 1000 habitants.  
@@ -159,10 +161,14 @@ Les caisses ont parfois du retard pour répercuter ces évolutions.
     
 *Correction* : La table `RFCOMMUN.CORRECTIONS_COM2012_NEW` permet de réattribuer les bons codes Insee. 
 Attention, cette table n'est pas exhaustive. 
+
+Il est possible de corriger toutes les codes communes qui n'existent plus grâce au fichier des événements sur les communes de l'INSEE et au fichier Hexaposte. L'utilisation du fichier des événements sur les communes de l'INSEE (celui arrèté au 1<sup>er</sup> janvier 2019 ce trouve [ici](https://www.insee.fr/fr/information/3720946#titre-bloc-24)), permet d'obtenir uniquement les communes qui existent à une date désirée. Il faut cependant préparer le fichier pour cet objectif, car le fichier contient beaucoup d’informations qui ne sont pas utiles pour ce travail. Le fichier Hexaposte (disponible [à l'adresse suivante](https://datanova.laposte.fr/explore/dataset/laposte_hexasmal/export/?disjunctive.code_commune_insee&disjunctive.nom_de_la_commune&disjunctive.code_postal&disjunctive.ligne_5) pour la version la plus récente) permet de corriger les codes communes qui correspondent en réalité à des hameaux. Pour ce faire il faut apparier les libellés aux codes communes grâce à la table `ORAVAL.IR_GEO_V`, ensuite les libellés permettent de faire la jointure avec la variable `Ligne_5` qui se trouve dans le fichier Hexaposte, la variable `Code_commune_insee` donne le code commune actuel.
     
 - Utilisation des codes postaux à la place des codes Insee  
     
-*Correction* : La table `RFCOMMUN.T_FIN_GEO_LOC_FRANCE`, mise à disposition par l’ARS Ile-de-France, permet de réattribuer les bons codes.
+*Correction* : La table `RFCOMMUN.T_FIN_GEO_LOC_FRANCE`, mise à disposition par l’ARS Ile-de-France, permet d'attribuer un code commune pour les codes qui ne correspondent pas à des codes communes de l'INSEE. Cependant certaines correspondances peuvent indiquer deux lieux assez eloignés. L'intérêt de cette table est donc surtout qu'elle est disponible sur le portail SNDS.
+
+Le fichier Hexaposte offre une meilleure correction, car il permet de récupérer de façon exhaustive tous les codes INSEE associés à un code postal. 
  
 - Anomalies pour les bénéficiaires d’une SLM étudiante (code 617) : code département tronqué à deux caractères et compris entre `001` et `009`
 
@@ -173,7 +179,7 @@ La table **PMSI_CORRESP**, mise à disposition par l’[ATIH](../glossaire/ATIH.
 Cette table est disponible sur le portail de la [CNAM](../glossaire/Cnam.md) dans le répertoire **rfcommun**.  
 Il est possible de reconstituer cette table en croisant :
 - la table donnant la correspondance entre le code postal et le code géographique du PMSI mise à disposition sur le [site internet de l'ATIH](https://www.atih.sante.fr/nomenclatures-de-recueil-de-linformation/codes-geographiques) 
-- une table donnant la correspondance entre le code postal et le code Insee disponible en open data [à l'adresse suivante](https://public.opendatasoft.com/explore/dataset/correspondance-code-insee-code-postal/table/?flg=fr&refine.insee_com=01001).
+- une table donnant la correspondance entre le code postal et le code Insee disponible en open data [à l'adresse suivante](https://datanova.laposte.fr/explore/dataset/laposte_hexasmal/export/?disjunctive.code_commune_insee&disjunctive.nom_de_la_commune&disjunctive.code_postal&disjunctive.ligne_5).
 
 ::: warning Note
 Lorsqu'un code géographique est associé à plusieurs codes postaux, une simple jointure sur `PMSI_CORRESP va générer des lignes en doublons.
@@ -300,4 +306,5 @@ IF dept="976" THEN region="06-Mayotte";
 ::: tip Crédit
 Le contenu de cette fiche est rédigé par Claire-Lise Dubost (DREES).
 Il s'inspire notamment de la note technique rédigée en 2014 par Pierre-Olivier Blotière (CNAM), ainsi que de codes fournis par les ARS.
+Il a été complété par Alice Bergonzoni (DREES) et ses travaux sur la correction du code commune. Pour plus d'informations, contacter la DREES.
 :::
