@@ -68,7 +68,7 @@ Se référer au [dictionnaire des variables du SNDS](https://drees.shinyapps.io/
     o	Numéro FINESS de l’établissement  
     o	Numéro séquentiel du séjour   
     o	Code UCD  
-    o	Code LES (indication des spécialités pharmaceutiques inscrites sur la liste en sus), (cette variable n'existe pas en SSR)  
+    o	Code LES (indication des spécialités pharmaceutiques inscrites sur la liste en sus), (cette variable n'existe pas en SSR et est disponible seulement à partir de 2018 en MCO et HAD)  
     o	Prix d'achat multiplié par le nombre administré  
     o	Nombre administré éventuellement fractionnaire  
     o	Année de la date d'administration  
@@ -86,7 +86,7 @@ Se référer au [dictionnaire des variables du SNDS](https://drees.shinyapps.io/
     o	Numéro FINESS de l’établissement  
     o	Numéro séquentiel du séjour  
     o	Code UCD  
-    o	Code LES (indication des spécialités pharmaceutiques inscrites sur la liste en sus), (cette variable n'existe pas en SSR)  
+    o	Code LES (indication des spécialités pharmaceutiques inscrites sur la liste en sus), (cette variable n'existe pas en SSR et est disponible seulement à partir de 2018 en MCO et HAD)  
     o	Prix d'achat unitaire TTC  
     o	Prix unitaire facturé  
     o	Quantité  
@@ -179,7 +179,7 @@ Le chaînage avec la table de valorisation / facturation en ES publics ou privé
 
 Le remboursement est borné par le tarif de responsabilité.  
 Si un montant aberrant est renseigné par l’établissement, ce n’est pas ce qui sera remboursé.  
-L'ES arrive souvent à descendre au-dessous du tarif de responsabilité par négociation avec les laboratoires (puis l'établissement et et l'AM se partagent les bénéfices).  
+L'ES arrive souvent à descendre au-dessous du tarif de responsabilité par négociation avec les laboratoires (puis l'établissement et l'AM se partagent les bénéfices).  
 Dans les tables on a le prix d’achat négocié.   
 
 *cf.* documentation avec les [tarifs de responsabilité par code UCD](https://www.atih.sante.fr/unites-communes-de-dispensation-prises-en-charge-en-sus) (et leur historique car les tarifs évoluent dans le temps).  
