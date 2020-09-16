@@ -177,13 +177,12 @@ Le chaînage avec la table de valorisation / facturation en ES publics ou privé
 
 ##### Filtres supplémentaires sur les prix (spécifiques table `MED`) 
 
-Le remboursement est borné par le tarif de responsabilité.  
-Si un montant aberrant est renseigné par l’établissement, ce n’est pas ce qui sera remboursé.  
-L'ES arrive souvent à descendre au-dessous du tarif de responsabilité par négociation avec les laboratoires (puis l'établissement et l'AM se partagent les bénéfices).  
-Dans les tables on a le prix d’achat négocié.   
+Dans les tables on a le prix d’achat négocié. 
+L'ES arrive souvent à descendre au-dessous du tarif de responsabilité par négociation avec les laboratoires (puis l'établissement et l'AM se partagent les bénéfices). 
 
 *cf.* documentation avec les [tarifs de responsabilité par code UCD](https://www.atih.sante.fr/unites-communes-de-dispensation-prises-en-charge-en-sus) (et leur historique car les tarifs évoluent dans le temps).  
- 
+
+Le remboursement est borné par le tarif de responsabilité. On peut toutefois trouver dans les bases un prix supérieur au tarif de responsabilité. Nous suggérons donc de plafonner le tarif négocié par le tarif de responsabilité.
 
 *Suggestion :* ajouter un filtre pour remplacer le prix par le tarif de responsabilité si le prix est supérieur au tarif de responsabilité, avec une différence de prix de plus de 10 %.  
 
