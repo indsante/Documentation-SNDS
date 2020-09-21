@@ -1,7 +1,7 @@
 # Guide accès permanents
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-::: tip
+::: tip Note
 Cette fiche provient du guide pour les [accès permanents](../../../files/Cnam/2019-07_Cnam_Guide_pedagogique_SNDS_acces_permanents_MPL-2.0.docx) publié par la Cnam, sous licence MPL-2.0
 
 :::
@@ -93,16 +93,11 @@ Le SNDS assure la mise à disposition des données selon la nature des données 
 
 *  Les **données potentiellement ré-idenfiantes** sont accessibles en environnement maîtrisé, respectant le référentiel de sécurité, avec des accès aux données SNDS régulés :
 
+    * **Sur autorisation pérenne**, pour l’Etat et ses agences, des établissements publics et des organismes **chargés d’une mission de service public** (recherches, sphère santé,…) listés dans le décret n°2016-1871 du 26 décembre 2016 : **accès aux données du SNDS en déclinant les accès selon les niveaux d’agrégation des données** (individuelles/agrégées bénéficiaires, …) **et les historiques accessibles**,
+    
+    ![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche2.png)
 
-
-* [ ]  **Sur autorisation pérenne**, pour l’Etat et ses agences, des établissements publics et des organismes **chargés d’une mission de service public** (recherches, sphère santé,…) listés dans le décret n°2016-1871 du 26 décembre 2016 : **accès aux données du SNDS en déclinant les accès selon les niveaux d’agrégation des données** (individuelles/agrégées bénéficiaires, …) **et les historiques accessibles**,
-
-
-![schema](../../../files/Cnam/Images_guide_acces_permanents/SchemaFiche2.png)
-
-
-* [ ]  **Ou accès par projet**, à des fins de recherche, d’étude et d’évaluation d’intérêt public dans le domaine de la santé, pour les demandeurs publics et privés après autorisation de la CNIL : **accès à une partie du SNDS ou une extraction de données**.
-
+    * **Ou accès par projet**, à des fins de recherche, d’étude et d’évaluation d’intérêt public dans le domaine de la santé, pour les demandeurs publics et privés après autorisation de la CNIL : **accès à une partie du SNDS ou une extraction de données**.
 
 ### Liste des organismes habilités par décret à accéder au SNIIRAM/SNDS 
 #### Quels produits et avec quel historique (accès pérenne)
@@ -289,11 +284,11 @@ Il est **responsable** de toute action faite par un utilisateur du SNDS sur les 
 Conformément au référentiel de sécurité SNDS, il est obligatoire de renseigner une date de fin de droits pour chaque compte SNDS, cohérente avec les missions des collaborateurs. 
 Cet accès se formalise par un N° de profil de connexion au portail donnant un accès précis à un périmètre de données (profondeur d’historique notamment)  selon les organismes et selon la nature des données (Cf fiche 7 : Quelles sont les modalités de connexion sur le portail ?). Il y a 3 grandes catégories de profils :
 
-* [ ]  profils dédiés à l’interrogation des produits agrégés et semi-agrégés,
+    * profils dédiés à l’interrogation des produits agrégés et semi-agrégés,
 
-* [ ]  profils dédiés à l’interrogation des produits contenant des données individuelles bénéficiaires échantillonnées,
+    * profils dédiés à l’interrogation des produits contenant des données individuelles bénéficiaires échantillonnées,
 
-* [ ]  profils dédiés à l’interrogation des produits contenant des données individuelles bénéficiaires exhaustives.
+    * profils dédiés à l’interrogation des produits contenant des données individuelles bénéficiaires exhaustives.
 
 
 *  **Il demande les modifications de droits associés aux comptes des utilisateurs de son organisme.**
@@ -343,8 +338,8 @@ Ce numéro de profil correspond à l’accès à un périmètre de données, sel
 
 *  L’adresse URL du portail est la suivante : 
 
-* [ ]  pour les partenaires de l’assurance maladie : https://portail.sniiram.ameli.fr 
-* [ ]  pour le réseau de l’assurance maladie: https://portail.sniiram.ramage
+    * pour les partenaires de l’assurance maladie : https://portail.sniiram.ameli.fr 
+    * pour le réseau de l’assurance maladie: https://portail.sniiram.ramage
 
 *  Les différents produits de restitutions des données SNDS sont interrogeables pour certains via des datamarts accessibles sous le logiciel BO Webi (Onglet TABLEAUX ET REQUETES) et pour d’autres via des tables accessibles par SAS guide (onglet STATISTIQUES) 
 
@@ -371,7 +366,7 @@ Cet espace projet est temporaire et généralement dédié à un seul profil.
 Pour demander la création d’un espace projet SAS, le responsable du projet doit remplir le formulaire «Gestion des espaces projet SAS » qui sera adressé sur simple demande à la boîte aux lettres : suivi.moise.cnam@assurance-maladie.fr ou que vous trouverez sur la Documentation du portail SNDS.
 
 
-::: warning 
+::: warning Attention 
 **Pour votre information**
 
 *  L’espace projet porte un nom de projet fonctionnel, et un nom court sur 5 caractères. 
@@ -397,7 +392,7 @@ Son responsable hiérarchique s’engage à informer le responsable de l’espac
 *  Lors de la création d’un compte sur le portail SNDS autorisant un accès aux données SAS, **l’espace personnel SAS** situé sur le répertoire SASDATA1est délimité par un quota ; le quota attribué par défaut est de 1Go. 
 Les paliers suivants sont : 50Go, 100Go, 150Go, 200Go, et 300Go. Au-delà de 100 Go, la Cnam doit valider la demande d’augmentation.
 
-::: warning 
+::: warning Attention 
 **Avant toute demande d’augmentation de quota, avez-vous pensé à** :
 
 *  supprimer des objets inutiles dans votre espace,
@@ -471,7 +466,7 @@ Dans le cas d’un partage vers le profil externe, la table sera mise à disposi
 →	Le Référentiel Sécurité impose de ne pas de sortir de données tant que l’on n’a pas la certitude qu’elles sont anonymes c’est à dire qu’il ne doit pas être possible à partir de ces données de déduire une information personnelle sur un individu, bénéficiaire ou professionnel de santé.
 
 
-::: warning
+::: warning Attention
 **Quelques bonnes pratiques :**
 
 1. ne pas restituer de petits effectifs,
@@ -541,12 +536,12 @@ L’ensemble des profils permet d’interroger la documentation.
 
 Pour exploiter les données du SNDS, le support aux utilisateurs est différent selon qu’il s’agit d’une aide fonctionnelle ou technique.
 
-::: warning
+::: warning Attention
 1.	**S’il s’agit d’un besoin d’aide fonctionnelle** (sur la donnée, le contenu des bases, l’explication d’une méthode, d’une requête)
 
 :::
 
-::: tip
+::: tip Note
 L’onglet `FORUM` propose des **forums sur chaque produit du SNDS** (DCIR-PMSI, EGB, datamarts AMOS, DAMIR…) ; ils permettent aux utilisateurs de trouver des réponses à leurs interrogations, d’échanger sur **un sujet d’ordre fonctionnel avec la communauté des utilisateurs.** 
 
 Des experts-métiers y répondent également. 
@@ -555,14 +550,14 @@ Ces forums sont accessibles en se connectant sur le portail du SNDS, quel que so
 :::
 
 
-::: warning
+::: warning Attention
 
 2.	**Si la question de l’utilisateur porte sur un problème technique d’accès aux données, ou une suspicion d’anomalie des données**
 
 :::
 
 
-::: tip
+::: tip Note
 
 Le [`Portail du Support National`](https://portail.sniiram.ramage/vpn/index.html) pour le régime général de l’assurance maladie ou **le mail** support-national@assurance-maladie.fr pour les partenaires et organismes des autres régimes d’assurance maladie permet de déposer **un Ticket de support**.
 L’objet du message doit impérativement comporter les mots « *Création de demande – SNIIRAM/SNDS – Suivi du nom du produit* » car un automate traite dans un premier temps les messages reçus. 
@@ -572,7 +567,7 @@ Un modèle de mail est proposé sur la page d’accueil du portail dans la rubri
 :::
 
 
-::: warning
+::: warning Attention
 
 3.	Par ailleurs pour toutes questions **sur les formations ou la procédure d’obtention d’une habilitation**, vous pouvez écrire sur la boite aux lettres générique : 
 **snds.cnam@assurance-maladie.fr**
