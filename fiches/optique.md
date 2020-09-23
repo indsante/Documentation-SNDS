@@ -110,5 +110,5 @@ Pour éviter de surestimer le montant de l'acte, on peut au choix :
 ## Références
 
 ::: tip Crédits
-Le contenu original de cette fiche provient du document [2019-06-28_DSS_Optique_MPL-2.0.docx](../files/DSS/2019-06-28_DSS_Optique_MPL-2.0.docx)) rédigé par Kristel JACQUIER.
+La fiche a été rédigé par Kristel JACQUIER (DSS).
 :::
