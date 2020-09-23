@@ -138,8 +138,7 @@ Pour une ligne de la table prestation, on trouve n ligne dans la table affinée.
 Le nombre de ligne de la table affinée correspondant à une ligne dans la table prestation est donné par la variable `TIP_ORD_NUM`.
 Lorsque l'on réalise une jointure entre la table prestation et la table affinée, on aura donc autant de ligne que dans la table affinée (relation *one-to-many*)
 et les valeurs des variables de la table prestation sont dupliquées sur les nouvelles lignes issues de la jointure. 
-Ainsi, pour dénombrer les montants et quantités,il ne faut donc pas sommer les variables `PRS_PAI_MNT` ou `PRS_ACT_QTE` 
-sur l'ensemble de la table mais seulement sur les lignes pour lesquelles `TIP_ORD_NUM`=1
+Se reporter à [la fiche sur les dépenses dans les tables affinées](../fiches/tables_affinees.md) pour le calcul de montants et quantités affinés.
 :::
 
 
