@@ -52,22 +52,8 @@ une ligne de remboursement supplémentaire Alsace-Moselle et une pour la CMU-C
 
 **Les montants dans les tables affinées**
 
-Pour les médicaments, la LPP, la biologie et la CCAM, seuls les montants totaux sont disponibles dans la table prestation. Le montant payé (`PRS_PAI_MNT`) dans `ER_PRS_F` est le montant total. Le détail des montants de base et remboursé se trouvent dans les tables affinées dédiées (sauf pour la biologie qui est explicitée en dessous). 
-
-Par exemple, dans le cas d'une ordonnance pour 3 médicaments (avec un même taux de remboursement), `PRS_PAI_MNT` correspond au montant payé pour les 3 médicaments. Le montant payé pour chacun des médicaments n'est pas disponible. Idem, les montants de base et remboursé dans ER_PRS_F correspondent aux 3 médicaments. Les montants de base et remboursé de chaque médicament peuvent être calculés à l'aide de la table affinée ER_PHA_F(_XXXX).
-
-Pour calculer les indicateurs d’un acte affiné prendre les indicateurs quantité affinée et prix unitaire de la table affinée et le taux de remboursement de la table prestation.
-Puis calculer le montant remboursé affiné et la base de remboursement affinée à l’aide des formules suivantes : 
-- Base de remboursement affinée = qté affinée x prix unitaire
-- Montant remboursé affiné = qté affinée x prix unitaire x taux de remboursement/100
-
-Pour la biologie, les montants payés et remboursés détaillés pour chaque code NABM sont à recalculer :  
-1. récupérer la variable `BTF_TAR_COD` dans la table `IR_BTF_R` dans ORAREF. Cette variable donne le coefficient de l'acte affiné selon les dates d`arrêté au JO (la valeur bouge dans le temps).
-2. mettre en face du code de l'acte affiné (variable `BIO_PRS_IDE`) la valeur en vigueur du coef pour cet acte au moment où il a été réalisé
-3. calculer le montant remboursé via la formule : coef (`BTF_TAR_COD`) * prix de l'acte (`BSE_REM_PRU`) * quantité affinée de l'acte de bio 
-4.  calculer le montant remboursé via la formule : coef (`BTF_TAR_COD`) * prix de l'acte (`BSE_REM_PRU`) * quantité affinée de l'acte de bio * taux de remboursement (dans `ER_PRS_F`)
-
-
+Lorsque l'on joint la table prestation à une ou plusieurs tables affinées, certaines précaution sont nécessaires. 
+Celles-ci sont détaillées dans la fiche [Dépenses dans les tables affinées du DCIR et du DCIRS](../fiches/tables_affinees.md).
 
 ### Quelques exemples pratiques
 
