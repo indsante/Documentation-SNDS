@@ -99,16 +99,12 @@ PROC SQL;
 		;
 QUIT;
 ```
-La variable `tip_ord_num` donne le nombre de lignes de la table affinée correspondant à une ligne dans la table prestation. Lorsque `tip_ord_num` est supérieur à 1, cela signifie que pour une ligne de la table prestation, on a `n` lignes sur la table affinée. 
-
-Il faut donc être prudent, car les informations de la table prestations sont dupliquées sur ces lignes. Notamment le montant de l'acte qui se trouve dans la table prestation.
-
-Pour éviter de surestimer le montant de l'acte, on peut au choix :
-- Diviser le montant agrégé par le nombre de lignes correspondantes dans la table affinée. 
-- Utiliser la méthode donnée par le [programme mis à disposition par Mathis Haradji (DSS)](https://gitlab.com/DREES_code/public/gu-snds/programmes-sas-gu-snds/blob/master/Optique_-_DCIR_-_DSS.sas)
+La variable `tip_ord_num` donne le nombre de lignes de la table affinée correspondant à une ligne dans la table prestation. Lorsque `tip_ord_num` est supérieur à 1, cela signifie que pour une ligne de la table prestation, on a `n` lignes sur la table affinée. Il faut donc être prudent, car les informations de la table prestations sont dupliquées sur ces lignes. Notamment le montant de l'acte qui se trouve dans la table prestation.  
+Se reporter à la fiche dédiée aux [dépenses dans les tables affinées](../fiches/tables_affinees.md) pour trouver différentes méthodes qui permettent d'éviter de surestimer le montant de l'acte.  
+Un [programme](https://gitlab.com/DREES_code/public/gu-snds/programmes-sas-gu-snds/blob/master/Optique_-_DCIR_-_DSS.sas) a également été mis à disposition par Mathis Haradji.
 
 ## Références
 
 ::: tip Crédits
-La fiche a été rédigé par Kristel JACQUIER (DSS).
+La fiche a été rédigée par Kristel JACQUIER (DSS).
 :::
