@@ -1,11 +1,11 @@
 # Dépenses des établissements de santé dans le SNDS
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-L'objectif de la fiche est de décrire où trouver les informations sur les trois types d'établissements de santé: 
+L'objectif de la fiche est de décrire où trouver les informations sur les trois types d'établissements de santé : 
 **publics, privés et les établissements du secteur médico-social**.
 
 Il existe des informations en doublons entre le DCIR et le PMSI. Ainsi, il convient de nettoyer le champ du DCIR des dépenses des établissements publics 
-car celles-ci ne sont pas exhaustives et d'**analyser les dépenses des établissements publics dans le PMSI** à l'aide de la fiche dédiée: 
+car celles-ci ne sont pas exhaustives et d'**analyser les dépenses des établissements publics dans le PMSI** à l'aide de la fiche dédiée : 
 [Dépenses des établissements de santé publics dans le PMSI](../fiches/depenses_hopital_public.md). 
 
 Le DCIR contient en revanche les données les plus exhaustives sur les établissements privés, 
@@ -44,10 +44,10 @@ Sinon l’établissement est privé
 Si le code `PRS_PPU_SEC` est égal à 1 alors on peut classer la prestation en lieu d'exécution "Public". 
 Sinon les prestations sont classées en lieu d’exécution "Prive".
 
-Remarque: On ne supprime pas l'ensemble des prestations ayant lieu dans un établissement public (`ETE_TYP_COD` IN 1,2,3). En effet, si le numéro du PS exécutant est 
+Remarque : On ne supprime pas l'ensemble des prestations ayant lieu dans un établissement public (`ETE_TYP_COD` IN 1,2,3). En effet, si le numéro du PS exécutant est 
 renseigné alors le type de la prestation (`PRS_PPU_SEC`) ne sera pas public, bien que la prestation ait eu lieu en établissement public. 
 
-Pour résumer en pseudo-code:
+Pour résumer en pseudo-code :
 ```
 IF substr(ETB_CAT_RG1,1,2) IN (21,22) AND ETE_CAT_COD<>698:
     THEN lieu_exec = "ville"
@@ -77,7 +77,7 @@ facturation directe depuis, mais il reste encore des établissements pour lesque
 Ainsi, l’information est partielle, tandis qu’elle est remontée de façon exhaustive dans le PMSI.
 
 Pour exclure les Actes et Consultations Externes générés par les établissements Ex Dotation Globale (ex DG), il est conseillé d’utiliser 
-le filtre ci-dessous:
+le filtre ci-dessous :
 
 -	On exclut la prestation :
 	- si elle concerne de la T2A dans le public **OU** 
@@ -100,6 +100,10 @@ OR (T2.ETE_IND_TAA is null AND T2.PRS_PPU_SEC is null
 
 
 Pour étudier les dépenses à l'hopital public, se référer à la fiche [Dépenses des établissements de santé publics dans le PMSI](../fiches/depenses_hopital_public.md).
+
+::: warning Attention
+Les données de facturation exhaustives des séjours à l’hôpital public des bénéficiaires de la  [CMU-C](../glossaire/CMUC.md) et de l’[AME](../glossaire/AME.md) remontent dans le DCIR. C'est pourquoi il est pertinent d'utiliser le DCIR pour analyser les dépenses de soin de ces bénéficiaires. Pour retracer les dépenses de soin des bénéficiaires de l'AME et de la CMUC, il faut joindre la table prestation [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) à la table affinée des remboursements autre que régime obligatoire [ER_ARO_F](../tables/DCIR/ER_ARO_F.md) et poser un filtre sur la variable `ARO_REM_TYP` (AME=7, CMUC=5 et 6). 
+:::
 
 
 ## Les établissements privés dans le DCIR et le DCIRS
