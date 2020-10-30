@@ -262,6 +262,29 @@ L’indicateur « base de remboursement » existe uniquement dans la classe « I
 -	Complément d’actes ≠ 0 quand nature de prestation différente de 2251 (forfait journalier) (`CPL_COD` ≠ 0 et `PRS_NAT` ≠ 2251)
 
 
+### Prestation de référence et nature de prestation
+
+La **Prestation de référence** (variable `PRS_NAT_REF` dans le DAMIR et le DCIR) est l’acte principal qui déclenche le remboursement, auquel peut être cumulé : 
+* Des majorations, liquidées avec des codes prestations spécifiques (participations forfaitaires, déplacements…) 
+* Et des compléments d’actes (nuit, férié, urgence) sans codes prestations.  
+
+Le concept de « Prestation de Référence » correspond à un « Acte Médical » et n’est pas uniforme à tous les régimes.  
+
+La **Nature de Prestation** (variable `PRS_NAT` dans le DAMIR) correspond à un poste de dépense. Il s’agit d’un concept commun à tous les régimes. Elle donne le détail de chaque code acte pour distinguer chaque acte principal de ses majorations. Par exemple l’acte de référence (consultation cotée C, code prestation 1111) et une éventuelle majoration (Nourrisson code prestation 1137). Ainsi, une nature de prestation de référence correspond à une ou plusieurs natures de prestation:
+
+| Nature de Prestation de Référence | Lib Nature de Prestation de Référence | Nature de Prestation | Lib Nature de Prestation |
+|-------|:--------------------:|-------|---------------------------------------------|
+| 1111  | CONSULTATION COTÉE C | 1111  | CONSULTATION COTÉE C                        |
+| 1111  | CONSULTATION COTÉE C | 1125  | MAJORATION DE COORDINATION DES GÉNÉRALISTES |
+| 1111  | CONSULTATION COTÉE C | 1133  | MAJORATION GÉNÉRALISTE ENFANT               |
+
+Pour faire le suivi des dépenses, en particulier en inter-régimes, il est recommandé d’utiliser la variable Nature de prestation, comme c'est le cas dans la maquette de la [statistique mensuelle](../fiches/statistiques_mensuelles.md).  
+
+La notion de Nature de Prestation n’existe pas dans le DCIR. La condition à poser dans le DCIR pour la nature de prestation 1111 par exemple est :  
+`BSE_PRS_NAT` in (1111) OU `CPL_PRS_NAT` in (1111).  
+La variable `FLT_REM_MNT` (Montant Versé Remboursé) dans le DAMIR correspond à la somme entre `BSE_REM_MNT` (montant remboursé de l’acte de base) et `CPL_REM_MNT` (montant remboursé du complément d’acte ou majoration). 
+
+
 ## Références
 
 ::: tip Crédit
