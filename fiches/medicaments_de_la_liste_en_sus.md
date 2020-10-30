@@ -205,6 +205,12 @@ Ces filtres s’appliquent aux tables `FHSTC` et `FH`.
 - Codes UCD erronés (à vide ou indéterminés)
 - Molécules administrées hors période d’appartenance à la liste en sus (à vérifier de la même façon que pour la table `MED`)
 
+## Les médicaments de la liste en sus dans le DCIR/S
+
+Les remboursements des médicaments de la liste en sus **des établissements de santé privés à but lucratif** se trouvent également dans le DCIR.  
+Ils sont regroupés sous le code prestation 3320 dans la table prestation [ER_PRS_F](../tables/DCIR/ER_PRS_F.md). Le détail des remboursements par code UCD (variable `UCD_UCD_COD`) se trouve dans la table affinée [ER_UCD_F](../tables/DCIR/ER_UCD_F.md) en posant le filtre `UCD_UCD_COD`=1 (la modalité 0 correspond aux rétrocessions). On trouve dans [ER_UCD_F](../tables/DCIR/ER_UCD_F.md) les variables `UCD_TTF_MNT` (le montant TTC facturé), `UCD_DLV_NBR` (le nombre d'unités délivrées). Dans le DCIRS, il faut considérer la table NS_UCD_F, dans laquelle on retrouve les mêmes variables que dans le DCIR.  
+Pour plus de détail concernant la table affinée UCD, se reporter à la [page dédiées aux dépenses dans les tables affinées](../fiches/tables_affinees.md). 
+
 
 ::: tip Crédits  
 Cette fiche a été rédigée par Noémie Courtejoie (DREES).
