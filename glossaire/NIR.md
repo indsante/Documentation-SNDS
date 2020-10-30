@@ -1,9 +1,9 @@
 # NIR - Numéro de sécurité sociale
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Le numéro d'inscription au répertoire (NIR) est le numéro d'inscription au [RNIPP](RNIPP.md).
+Le numéro d'inscription au répertoire (NIR) est le numéro d'inscription au répertoire national d'identification des personnes physiques[RNIPP](RNIPP.md).
 
-Il s'agit d'un identifiant des personnes physiques, nées en France ou nées à l'étranger qui viennent travailler en France, conçu pour rester immuable la vie durant.
+Géré par l'INSEE, il s'agit d'un identifiant des personnes physiques, nées en France ou nées à l'étranger qui viennent travailler en France, conçu pour rester immuable la vie durant.
 
 Le NIR est notamment utilisé par les organismes d'assurance maladie pour la délivrance des cartes vitales, d'où son appellation commune de numéro de sécurité sociale.
 
