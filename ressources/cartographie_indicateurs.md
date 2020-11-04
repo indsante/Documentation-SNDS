@@ -25,7 +25,7 @@ L'application offre une fonctionnalité d'édition contrôlée par une clef d'id
 
 Si vous souhaitez corriger une coquille, compléter une information ou mettre à jour des instructions pour retrouver l'indicateur sur le site du producteur, nous serions ravis de recevoir votre aide.
 
-![Correction](../files/DREES/2019-11_demo_correction indicateurs_MPL-2.0.gif)
+![Correction](../files/DREES/2019-11_demo_correction_indicateurs_MPL-2.0.gif)
 
 ## Producteurs d'indicateurs
 
@@ -42,7 +42,7 @@ La carthographie des indicateurs de santé a été développé à la DREES, grâ
 [SIRSé](http://www.sirsepaca.org/); 
 - l'[DARES](https://dares.travail-emploi.gouv.fr/dares-etudes-et-statistiques/); 
 - l'[OFDT](https://www.ofdt.fr/), notamment [ESCAPAD](https://www.ofdt.fr/enquetes-et-dispositifs/escapad/); 
-- la [HAS](https://www.has-sante.fr/), notamment [SCOPE Santé]https://www.scopesante.fr/#/); 
+- la [HAS](https://www.has-sante.fr/), notamment [SCOPE Santé](https://www.scopesante.fr/#/); 
 - l'[INCa](https://www.e-cancer.fr/); 
 - l'[INSERM](https://www.inserm.fr/); 
 - l'[Observatoires des fragilités](http://www2.observatoiredesfragilites.fr/sites_I2G/prod/app/www/index.php?cont=ctl_home); 
