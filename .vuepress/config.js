@@ -33,6 +33,7 @@ const sidebar = [
                         title: "Guide causes médicales de décès",
                         path: "/ressources/documents_cnam/guide_cepidc/",
                         children: [
+                            "/ressources/documents_cnam/guide_cepidc/Avant_propos",
                             "/ressources/documents_cnam/guide_cepidc/0-IntroductionCausesDeces",
                             "/ressources/documents_cnam/guide_cepidc/1-Chap1CausesDeces",
                             "/ressources/documents_cnam/guide_cepidc/2-Chap2CausesDeces",
