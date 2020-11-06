@@ -13,7 +13,62 @@ const sidebar = [
     },
     sb.getSidebarGroup("fiches"),
     sb.getSidebarGroup("glossaire"),
-    sb.getSidebarGroup("ressources"),
+    {
+        title: "Ressources",
+        path: "/ressources/",
+        children: [
+            {
+                title: "Documents Cnam",
+                path: "/ressources/documents_cnam/",
+                children: [
+                    {
+                        title: "FAQ",
+                        path: "/ressources/documents_cnam/faq",
+                        children: [
+                            "/ressources/documents_cnam/faq/faq_dcir",
+                            "/ressources/documents_cnam/faq/faq_egb"
+                        ]
+                    },
+                    {
+                        title: "Guide causes médicales de décès",
+                        path: "/ressources/documents_cnam/guide_cepidc/",
+                        children: [
+                            "/ressources/documents_cnam/guide_cepidc/0-IntroductionCausesDeces",
+                            "/ressources/documents_cnam/guide_cepidc/1-Chap1CausesDeces",
+                            "/ressources/documents_cnam/guide_cepidc/2-Chap2CausesDeces",
+                            "/ressources/documents_cnam/guide_cepidc/3-Chap3CausesDeces",
+                            "/ressources/documents_cnam/guide_cepidc/4-Chap4CausesDeces",
+                            "/ressources/documents_cnam/guide_cepidc/5-Annexe1-CausesDeces",
+                            "/ressources/documents_cnam/guide_cepidc/6-Annexe2-CausesDeces"
+                        ]
+                    },
+                    {
+                        title: "Guides pédagogiques",
+                        path: "/ressources/documents_cnam/guides_pedagogiques_SNDS/",
+                        children: [
+                            "/ressources/documents_cnam/guides_pedagogiques_SNDS/guide_pedagogique_acces_permanents",
+                            "/ressources/documents_cnam/guides_pedagogiques_SNDS/guide_pedagogique_acces_projets"
+                        ]
+                    },
+                    "/ressources/documents_cnam/Amphi_SNDS",
+                    "/ressources/documents_cnam/pseudonymisation",
+                    "/ressources/documents_cnam/Formation_PMSI",
+                    "/ressources/documents_cnam/Formation_demex",
+                    "/ressources/documents_cnam/kwikly"
+                ]
+            },
+            "/ressources/portail_sniiram",
+            "/ressources/internet",
+            "/ressources/bibliographie",
+            "/ressources/cartographie_indicateurs",
+            "/ressources/Epi-Phare",
+            "/ressources/Sante_publique_France",
+            "/ressources/starter_kit",
+            "/ressources/meetup",
+            "ressources/programmes",
+            "ressources/donnees_synthetiques"
+        ]
+    },
     sb.getSidebarGroup("tables"),
     {
         title: "Contribuer",
@@ -21,7 +76,7 @@ const sidebar = [
         children: [
             {
                 title: "À lire",
-                path: "/contribuer/A_lire",
+                path: "/contribuer/A_lire/",
                 children: [
                     "/contribuer/A_lire/Processus_contribution",
                     "/contribuer/A_lire/contactez_nous"
@@ -29,7 +84,7 @@ const sidebar = [
             },
             {
                 title: "Guide de contribution",
-                path: "/contribuer/Guide_contribution",
+                path: "/contribuer/Guide_contribution/",
                 children: [ 
                     "/contribuer/Guide_contribution/Utiliser_le_site_de_documentation",
                     "/contribuer/Guide_contribution/Introduction_Gitlab",
