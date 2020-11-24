@@ -15,8 +15,7 @@ les [dépenses des établissements de santé publics dans le PMSI](depenses_hopi
 
 ## Sélectionner les prestations et délimiter le champ
 
-La première étape consiste à sélectionner dans la table prestation (`ER_PRS_F` dans le DCIR et [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md) dans le DCIRS), tous les actes associés à un établissement de santé. 
-Il s'agit des actes pour lesquels le finess de l'établissement exécutant est renseigné (la variable `ETB_EXE_FIN` contient un code à 8 chiffres, il s'agit du FINESS sans clef). 
+La première étape consiste à sélectionner tous les actes associés à un établissement de santé. Dans le DCIR, il faut joindre la table prestation (`ER_PRS_F`) avec la table affinée établissements (`ER_ETE_F`). Dans le DCIR les informations sont présentes dans la table prestation [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md) dans le DCIRS). Il s'agit des actes pour lesquels le finess de l'établissement exécutant est renseigné (la variable `ETB_EXE_FIN` contient un code à 8 chiffres, il s'agit du FINESS sans clef). 
 
 Afin de se concentrer sur le champ des établissements privés, les filtres à poser sont les suivants : 
 
@@ -24,7 +23,7 @@ Afin de se concentrer sur le champ des établissements privés, les filtres à p
 
 -	`ETE_TYP_COD` NOT IN (1,2,3) : ce filtre nous permet de se concentrer sur les prestations qui ont lieu dans un établissement privé.
 Pour obtenir la classification des établissements, se référer à la nomenclature `ETE_TYE_V` présentée dans la section suivante.
-Se référer à la nomenclature pour savoir quel filtre exact appliquer sur `ETE_TYP_COD` en fonction de la catégorie de prestations ciblée.
+Se référer à la nomenclature pour savoir quel filtre exact appliquer sur `ETE_TYP_COD` en fonction de la catégorie de prestations ciblée. Il est équivalent au filtre `PRS_PPU_SEC`=2 (code public/privé, modalité "privé"). 
 
 -	 `ETE_CAT_COD` NOT IN (124, 125, 130, 132, 133, 134, 142, 223, 224, 228, 230, 268, 269, 289, 297, 347, 413, 414, 433, 438, 439,700). 
 On filtre sur la catégorie de l’établissement exécutant afin d'exclure les centres de santé.
