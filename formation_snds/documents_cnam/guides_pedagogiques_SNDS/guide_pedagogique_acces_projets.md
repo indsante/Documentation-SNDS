@@ -435,7 +435,7 @@ Ces forums sont accessibles en se connectant sur le portail du SNDS, quel que so
 
 ::: tip
 
-Le [`Portail du Support National`](https://portail.sniiram.ramage/vpn/index.html) pour le régime général de l’assurance maladie ou **le mail** support-national@assurance-maladie.fr pour les partenaires et organismes des autres régimes d’assurance maladie permet de déposer **un Ticket de support**.
+Le [`Portail du Support National`](https://portail.sniiram.ameli.fr) pour le régime général de l’assurance maladie ou **le mail** support-national@assurance-maladie.fr pour les partenaires et organismes des autres régimes d’assurance maladie permet de déposer **un Ticket de support**.
 L’objet du message doit impérativement comporter les mots « *Création de demande – SNIIRAM/SNDS – Suivi du nom du produit* » car un automate traite dans un premier temps les messages reçus. 
 Il est indispensable de préciser dans le corps du message son identifiant, son organisme, région et profil de connexion, le produit SNDS exploité. 
 Un modèle de mail est proposé sur la page d’accueil du portail dans la rubrique « Pour votre Information ».

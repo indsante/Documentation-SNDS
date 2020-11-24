@@ -7,7 +7,7 @@ Il a été rédigé par la Cnam (Laurence De Roquefeuil et départements DEMSI, 
 ::: tip  Notes
 Ce document word a été converti en Markdown pour être publié ici, et servir plus facilement de ressources pour d'autres fiches.
 
-Il est [téléchargeable ici](../../../files/Cnam/2020-10_Cnam_Documentation_utilisateurs_causes_décès_V4_MPL-2.0.docx) dans sa version d'origine.
+Il est [téléchargeable ici](../../../files/Cnam/2020-10_Cnam_Documentation_utilisateurs_causes_décès_V4_MPL-2.0.docx) dans sa version d'origine.
 :::
 
 

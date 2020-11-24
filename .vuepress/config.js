@@ -14,60 +14,79 @@ const sidebar = [
     sb.getSidebarGroup("fiches"),
     sb.getSidebarGroup("glossaire"),
     {
-        title: "Ressources",
-        path: "/ressources/",
+        title: "Se former au SNDS",
+        path: "/formation_snds/",
         children: [
+            "/formation_snds/starter_kit",
             {
-                title: "Documents Cnam",
-                path: "/ressources/documents_cnam/",
+                title: "Guides et formations de la CNAM",
+                path: "/formation_snds/documents_cnam/",
                 children: [
-                    {
-                        title: "FAQ",
-                        path: "/ressources/documents_cnam/faq",
-                        children: [
-                            "/ressources/documents_cnam/faq/faq_dcir",
-                            "/ressources/documents_cnam/faq/faq_egb"
-                        ]
-                    },
+                    "/formation_snds/documents_cnam/Formation_demex",
+                    "/formation_snds/documents_cnam/Formation_PMSI",
                     {
                         title: "Guide causes médicales de décès",
-                        path: "/ressources/documents_cnam/guide_cepidc/",
+                        path: "/formation_snds/documents_cnam/guide_cepidc/",
                         children: [
-                            "/ressources/documents_cnam/guide_cepidc/Avant_propos",
-                            "/ressources/documents_cnam/guide_cepidc/0-IntroductionCausesDeces",
-                            "/ressources/documents_cnam/guide_cepidc/1-Chap1CausesDeces",
-                            "/ressources/documents_cnam/guide_cepidc/2-Chap2CausesDeces",
-                            "/ressources/documents_cnam/guide_cepidc/3-Chap3CausesDeces",
-                            "/ressources/documents_cnam/guide_cepidc/4-Chap4CausesDeces",
-                            "/ressources/documents_cnam/guide_cepidc/5-Annexe1-CausesDeces",
-                            "/ressources/documents_cnam/guide_cepidc/6-Annexe2-CausesDeces"
+                            "/formation_snds/documents_cnam/guide_cepidc/Avant_propos",
+                            "/formation_snds/documents_cnam/guide_cepidc/0-IntroductionCausesDeces",
+                            "/formation_snds/documents_cnam/guide_cepidc/1-Chap1CausesDeces",
+                            "/formation_snds/documents_cnam/guide_cepidc/2-Chap2CausesDeces",
+                            "/formation_snds/documents_cnam/guide_cepidc/3-Chap3CausesDeces",
+                            "/formation_snds/documents_cnam/guide_cepidc/4-Chap4CausesDeces",
+                            "/formation_snds/documents_cnam/guide_cepidc/5-Annexe1-CausesDeces",
+                            "/formation_snds/documents_cnam/guide_cepidc/6-Annexe2-CausesDeces"
                         ]
                     },
                     {
                         title: "Guides pédagogiques",
-                        path: "/ressources/documents_cnam/guides_pedagogiques_SNDS/",
+                        path: "/formation_snds/documents_cnam/guides_pedagogiques_SNDS/",
                         children: [
-                            "/ressources/documents_cnam/guides_pedagogiques_SNDS/guide_pedagogique_acces_permanents",
-                            "/ressources/documents_cnam/guides_pedagogiques_SNDS/guide_pedagogique_acces_projets"
+                            "/formation_snds/documents_cnam/guides_pedagogiques_SNDS/guide_pedagogique_acces_permanents",
+                            "/formation_snds/documents_cnam/guides_pedagogiques_SNDS/guide_pedagogique_acces_projets"
                         ]
                     },
-                    "/ressources/documents_cnam/Amphi_SNDS",
-                    "/ressources/documents_cnam/pseudonymisation",
-                    "/ressources/documents_cnam/Formation_PMSI",
-                    "/ressources/documents_cnam/Formation_demex",
-                    "/ressources/documents_cnam/kwikly"
                 ]
             },
-            "/ressources/portail_sniiram",
-            "/ressources/internet",
-            "/ressources/bibliographie",
-            "/ressources/cartographie_indicateurs",
-            "/ressources/Epi-Phare",
-            "/ressources/Sante_publique_France",
-            "/ressources/starter_kit",
-            "/ressources/meetup",
-            "ressources/programmes",
-            "ressources/donnees_synthetiques"
+            "/formation_snds/Sante_publique_France",
+            "formation_snds/donnees_synthetiques",
+            "/formation_snds/notebook",
+            "/formation_snds/programmes"
+        ]
+    },
+    {
+        title: "Pour aller plus loin",
+        path: "/aller_plus_loin/",
+        children: [
+            "/aller_plus_loin/portail_sniiram",
+            {
+                title: "Documents Cnam",
+                path: "/aller_plus_loin/documents_cnam/",
+                children: [
+                    {
+                        title: "FAQ",
+                        path: "/aller_plus_loin/documents_cnam/faq",
+                        children: [
+                            "/aller_plus_loin/documents_cnam/faq/faq_dcir",
+                            "/aller_plus_loin/documents_cnam/faq/faq_egb"
+                        ]
+                    },
+                    "aller_plus_loin/documents_cnam/kwikly",
+                    "aller_plus_loin/documents_cnam/pseudonymisation"
+                ]
+            },
+            "aller_plus_loin/Epi-Phare",
+            "aller_plus_loin/cartographie_indicateurs",
+            "aller_plus_loin/internet",
+            "aller_plus_loin/bibliographie"
+        ]
+    },
+    {
+        title: "Évènements passés et à venir",
+        path: "/evenements/",
+        children: [
+            "/evenements/meetup",
+            "/evenements/Amphi_SNDS",
         ]
     },
     sb.getSidebarGroup("tables"),
@@ -86,7 +105,7 @@ const sidebar = [
             {
                 title: "Guide de contribution",
                 path: "/contribuer/Guide_contribution/",
-                children: [ 
+                children: [
                     "/contribuer/Guide_contribution/Utiliser_le_site_de_documentation",
                     "/contribuer/Guide_contribution/Introduction_Gitlab",
                     "/contribuer/Guide_contribution/tutoriel_markdown",
@@ -105,7 +124,14 @@ const sidebar = [
                     "/contribuer/Guide_contribution/Forum"
                 ]
             },
-            "/contribuer/A_propos"
+        ]
+    },
+    {
+        title: "À propos",
+        path: "/A_propos/",
+        children: [
+            "/A_propos/mentions_legales.md",
+            "/A_propos/politique_de_confidentialite.md"
         ]
     }
 ];
@@ -119,7 +145,7 @@ module.exports = {
         editLinks: true,
         nav: [
             {text: "Forum entraide", link: "https://entraide.health-data-hub.fr/"},
-            {text: "Dico interactif", link: "https://drees.shinyapps.io/dico-snds/"},
+            {text: "Dico interactif", link: "https://health-data-hub.shinyapps.io/dico-snds/"},
             {text: "Groupe Meetup", link: "https://www.meetup.com/fr-FR/Health-Data-Hub/"},
         ],
         sidebar: sidebar,

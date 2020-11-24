@@ -34,5 +34,9 @@ La documentation résulte d'une mise en commun de documents et travaux par plusi
 - Santé publique France - [SpF](https://www.santepubliquefrance.fr/)
 - Organisation de la direction de la sécurité sociale - [DSS](https://solidarites-sante.gouv.fr/ministere/organisation/organisation-des-directions-et-services/article/organisation-de-la-direction-de-la-securite-sociale-dss)
 
+## Mentions légales et politique de confidentialité
+Les mentions légales sont disponibles dans cette [fiche](mentions_legales.md).
+La politique de confidentialité est disponible dans cette [fiche](politique_de_confidentialite.md).
+
 ## Contact
-Pour toutes questions, suggestions, vous pouvez nous contactez par mail : <<opensource@health-data-hub.fr>>
+Pour toutes questions, suggestions, vous pouvez nous contactez par mail : <opensource@health-data-hub.fr>

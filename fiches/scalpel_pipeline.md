@@ -55,11 +55,11 @@ Les sources du SNDS utilisées pour l'extraction sont les données brutes d'une 
 Nous utilisons quelques règles classiques de qualité de la donnée dans le SNDS. Selon les produits concernés, on peut se référer aux fiches spécialisées sur ce site de documentation.
 
 - **DCIR** :
-  - `DPN_QLF ≠ "71"`, supprime les lignes pour [remontée d'information](https://documentation-snds.health-data-hub.fr/ressources/documents%20Cnam/faq/faq_dcir.html#dcir) : ces lignes correspondent à des prestations effectuées lors d'un séjour ou d'une consultation ambulatoire et envoyées à titre indicatif,
+  - `DPN_QLF ≠ "71"`, supprime les lignes pour [remontée d'information](../aller_plus_loin/documents_cnam/faq/faq_dcir.md#dcir) : ces lignes correspondent à des prestations effectuées lors d'un séjour ou d'une consultation ambulatoire et envoyées à titre indicatif,
   - `BSE_PRS_NAT ≠ "0"`, supprime les lignes pour lesquelles la nature de la prestation est sans objet,
 
 - **PMSI** :
-  - Pour tous les produits du PMSI (voir [détails ici](https://documentation-snds.health-data-hub.fr/fiches/depenses_hopital_public.html#valorisation-des-sejours-a-l-hopital-public)) : `ETA_NUM $\not in$ finess_doublon` : supprime les FINESS remontant en doublon pour les hôpitaux APHP, HCL et APHM (les informations pour ces établissements remontent également par le FINESS juridique),
+  - Pour tous les produits du PMSI (voir [détails ici](depenses_hopital_public.md)) : `ETA_NUM $\not in$ finess_doublon` : supprime les FINESS remontant en doublon pour les hôpitaux APHP, HCL et APHM (les informations pour ces établissements remontent également par le FINESS juridique),
 
   - **MCO** :
     - `SEJ_TYP = $\empty$ OR SEJ_TYP ≠ "B" OR (GRG_GHM like "28%" AND GRG_GHM $\notin$ {"28Z14Z", "28Z15Z", "28Z16Z"})`, SEJ_TYP == B correspond aux prestations inter-établissements (PIE) dont les informations sont des doublons sauf pour les `GRG_GHM` listés correspondants aux dialyses et radiothérapies.

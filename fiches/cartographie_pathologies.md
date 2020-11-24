@@ -83,11 +83,12 @@ QUIT;
 
 ```
 La CNAM publie chaque année une fiche de résultats statistiques pour chacune des pathologies (effectifs, dépenses, etc.) : 
-[fiche Syndrome coronaire aigu.](https://www.ameli.fr/fileadmin/user_upload/documents/Syndrome_coronaire_aigu_fiche_2017.pdf)
+[fiche Syndrome coronaire aigu.](https://www.ameli.fr/fileadmin/user_upload/documents/Syndrome_coronaire_aigu_fiche_2018.pdf)
 
 ## Références
 
 ::: tip Crédit
-Le contenu original de cette fiche est tiré du document [Méthode médicale Cartographie ](https://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/etudes-en-sante-publique/cartographie-des-pathologies-et-des-depenses/methode.php) disponible sur le site Ameli.  
+Le contenu original de cette fiche est tiré du document [Méthode médicale Cartographie](https://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/etudes-en-sante-publique/cartographie-des-pathologies-et-des-depenses/methode.php) disponible sur le site Ameli.  
 Les codes SQL SAS ont été reconstitués par Claire-Lise Dubost (DREES).
 :::
+
