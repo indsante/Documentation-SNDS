@@ -16,6 +16,8 @@ Il est important de garder en tête que les exercices des notebooks reposent sur
 -	*Simplifiés* en termes d’approche méthodologique (dans un but de pédagogie)
 -	*Adaptés* à la structure des données fictives qui ne reflète pas nécessairement celle du vrai SNDS (pour plus d’information, reportez-vous à la rubrique dédiée sur la documentation : [SNDS synthétique](donnees_synthetiques.md)).
 -	*Non optimisés* pour gagner en temps de requête ; cela peut s’avérer nécessaire lorsqu’on travaille sur le SNDS.
+
+
 Par conséquent, **le code des exercices ne peut être utilisé tel quel et nécessitera des modifications pour répondre à la réalité du SNDS.**
 
 
@@ -24,5 +26,6 @@ Les notebooks pré-exécutés sont entreposés sous format *.ipynb* sur le [Gitl
 
 
 :::tip Remerciements
-Merci à Céline Le Roy (ARS) et Jérôme Brocca (ARS) pour leur relecture et leurs propositions d’amélioration.
-Certains exercices ont été librement inspirés par les [programmes-snds](programmes.md) sous *.sas* partagés par différentes institutions. L'adaptation en R et Python a été faite par l'équipe data du HDH. :::
+Merci à Céline Le Roy (ARS), Jérôme Brocca (ARS), Philéas Condemine (Drees), Julien Brand (CNAM) et Laure Fernandez de Martini (CNAM) pour leur relecture et leurs propositions d’amélioration.
+Certains exercices ont été librement inspirés par les [programmes-snds](programmes.md) sous *.sas* partagés par différentes institutions. L'adaptation en R et Python a été faite par l'équipe data du HDH. 
+:::
