@@ -8,12 +8,12 @@ Une contribution de grande valeur consiste donc à partager publiquement des doc
 ## Où publier des documents (hors programmes) ?
 Vous avez deux options pour publier ces documents
 
-- un dossier servant de [boite aux lettres]() est disponible sur Gitlab. Vous pouvez y déposer des documents. Nous nous occuperons de les placer dans les dossiers adéquats et les documents pourront être convertis en page de documentation si cela est jugé approprié. 
+- un dossier servant de [boite aux lettres](https://gitlab.com/healthdatahub/documentation-snds/-/tree/master/Boite_aux_lettres) est disponible sur Gitlab. Vous pouvez y déposer des documents. Nous nous occuperons de les placer dans les dossiers adéquats et les documents pourront être convertis en page de documentation si cela est jugé approprié. 
 
 - ou directement dans le dossier de votre [organisme](https://gitlab.com/healthdatahub/documentation-snds/-/tree/master/ressourceses). Les documents pourront être également être convertis en page de documentation.
 
 - sur le site internet de votre organisation.
-Ils seront référencés par un lien hypertexte dans la section [ressources externes](../../ressources/internet.md). 
+Ils seront référencés par un lien hypertexte dans la section [ressources externes](../../aller_plus_loin/internet.md). 
 
 ::: tip
 N'oubliez pas de renommer le fichier partagé. Le nom doit être sous la forme : Année-Mois-Jour_Organisation_nom-fichier_MLP-2.0.extension`
@@ -24,7 +24,7 @@ Le partage de programmes ou scripts d'analyses est très utile pour la communaut
 
 Dans les fiches de courtes sections de code sont souvent partagées.
 
-Les programmes plus conséquents, par exemple un script complet d'analyse, sont partagés dans le dépôt dédié [programme-snds](https://gitlab.com/healthdatahub/programmes-snds). Les programmes partagés dans ce dépôt dédié sont sous licence APACHE 2.0. Une [fiche](../../ressources/programmes.md) les répertoriant est disponible sur le site de la documentation.
+Les programmes plus conséquents, par exemple un script complet d'analyse, sont partagés dans le dépôt dédié [programme-snds](https://gitlab.com/healthdatahub/programmes-snds). Les programmes partagés dans ce dépôt dédié sont sous licence APACHE 2.0. Une [fiche](../../formation_snds/programmes.md) les répertoriant est disponible sur le site de la documentation.
 
 ## Comment créer un nouveau dossier
 Pour créer un nouveau dossier, naviguer dans le dossier de votre choix, et sélectionnez **Nouveau dossier** dans le menu déroulant `+`. 

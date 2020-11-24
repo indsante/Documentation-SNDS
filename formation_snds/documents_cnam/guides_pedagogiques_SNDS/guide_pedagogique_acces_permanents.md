@@ -337,9 +337,7 @@ Ces éléments sont personnels et ne doivent pas être utilisés par un tiers.
 Ce numéro de profil correspond à l’accès à un périmètre de données, selon les droits des organismes spécifiés dans le décret SNDS et la nature des données (profondeur d’historique, identifiants potentiels,…).
 
 *  L’adresse URL du portail est la suivante : 
-
-    * pour les partenaires de l’assurance maladie : https://portail.sniiram.ameli.fr 
-    * pour le réseau de l’assurance maladie: https://portail.sniiram.ramage
+    *  pour les partenaires de l’assurance maladie : https://portail.sniiram.ameli.fr 
 
 *  Les différents produits de restitutions des données SNDS sont interrogeables pour certains via des datamarts accessibles sous le logiciel BO Webi (Onglet TABLEAUX ET REQUETES) et pour d’autres via des tables accessibles par SAS guide (onglet STATISTIQUES) 
 
@@ -559,7 +557,7 @@ Ces forums sont accessibles en se connectant sur le portail du SNDS, quel que so
 
 ::: tip Note
 
-Le [`Portail du Support National`](https://portail.sniiram.ramage/vpn/index.html) pour le régime général de l’assurance maladie ou **le mail** support-national@assurance-maladie.fr pour les partenaires et organismes des autres régimes d’assurance maladie permet de déposer **un Ticket de support**.
+Le [`Portail du Support National`](https://portail.sniiram.ameli.fr) pour le régime général de l’assurance maladie ou **le mail** support-national@assurance-maladie.fr pour les partenaires et organismes des autres régimes d’assurance maladie permet de déposer **un Ticket de support**.
 L’objet du message doit impérativement comporter les mots « *Création de demande – SNIIRAM/SNDS – Suivi du nom du produit* » car un automate traite dans un premier temps les messages reçus. 
 Il est indispensable de préciser dans le corps du message son identifiant, son organisme, région et profil de connexion, le produit SNDS exploité. 
 Un modèle de mail est proposé sur la page d’accueil du portail dans la rubrique « Pour votre Information ».

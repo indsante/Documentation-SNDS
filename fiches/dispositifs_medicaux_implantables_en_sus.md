@@ -20,7 +20,7 @@ ou dispositifs médicaux implantables innovants et coûteux qui sont, sous certa
 l'assurance maladie obligatoire en sus du GHS (*cf.* [fiche sur les médicaments de la liste en sus](../fiches/medicaments_de_la_liste_en_sus.md)). 
 
 La liste initiale qui définit les dispositifs médicaux implantables pris en charge en sus des prestations d’hospitalisation en MCO 
-a été publiée au [journal officiel le 10 mai 2005](https://www.legifrance.gouv.fr/eli/arrete/2005/3/2/SANS0520786A/jo), 
+a été publiée au [journal officiel le 10 mai 2005](http://www.cpam21.fr/Flashs2007/Etablissements/Docs_15-02-2005/Etab_08-06-2005/medicaments_retrocedes_mai_05_annexe1.pdf), 
 puis ponctuellement modifiée (inscriptions, radiations, modifications de tarifs ou de libellés, etc.).  
 
 La liste (actualisée) des produits et prestations pris en charge en sus des prestations d’hospitalisation en MCO est téléchargeable sur le site de l'[ATIH](https://www.atih.sante.fr/dispositifs-medicaux-pris-en-charge-en-sus).  

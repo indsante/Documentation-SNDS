@@ -19,7 +19,7 @@ La présence de doublons entre le PMSI et le DCIR est visible grâce aux zones h
 
 ## Références
 
-- [Dictionnaire des données - Kwikly](../ressources/documents_cnam/kwikly.md)
+- [Dictionnaire des données - Kwikly](../aller_plus_loin/documents_cnam/kwikly.md)
 
 ::: tip Crédits
 Le contenu original de cette fiche provient du document [GPS](../files/HEVA/2019-06-18_HEVA_graph_parcourir_sniiram_MPL-2.0.jpg) rédigé par [HEVA](https://hevaweb.com)
