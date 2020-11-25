@@ -13,7 +13,7 @@ Nous conseillons d'utiliser un autre navigateur, car Microsoft a arrêté le dé
 
 ## Contributeurs 
 
-Cette documentation est maintenue par le Health data hub.
+Cette documentation est maintenue par le Health Data Hub.
 
 Elle résulte d'une mise en commun de documents et travaux par plusieurs organisations, dont :
 - la Caisse nationale d'assurance maladie - [Cnam](https://www.ameli.fr/)
