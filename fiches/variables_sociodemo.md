@@ -42,7 +42,15 @@ Lorsque l’âge calculé est supérieur à 129 ou inférieur à 0, BEN_AMA_COD 
 Un problème d’arrondi impacte les BEN_AMA_COD calculés avant Novembre 2014 (date de traitement). Une correction a été apportée dans la règle de calcul depuis sans reprise de l’historique (cf. communiqué du 18/12/2014). 
 :::  
 
-Dans le PMSI, la variable **AGE_ANN** renseigne l’âge du patient au début de l’hospitalisation en années révolues.
+Dans le PMSI, il existe 2 variables indiquant l’âge au moment des soins : 
+- `AGE_ANN` correspondant à l'âge du patient au début de l’hospitalisation en années révolues
+- `AGE_JOU` correspondant à l’âge en jours. Cette variable est renseignée uniquement pour les enfants de moins de 1 an (variable disponible en mco, had et psy).
+
+:::tip A noter : 
+- Pour une même personne, ces variables `AGE_ANN` et `AGE_JOU` pourront prendre des valeurs différentes lorsqu’il y a plusieurs séjours au cours de l’année.
+- Lorsque `AGE_JOU` est renseignée, alors `AGE_ANN` = .
+:::
+
 
 ### La date de décès
 Dans le SNDS, la date de décès est disponible :
