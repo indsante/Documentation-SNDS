@@ -13,7 +13,17 @@ lorsqu'on s'intéresse à un niveau de prestation plus fin que le code prestatio
 
 ### Dans le DCIR
 
-Les tables affinées peuvent se joindre avec la table centrale des prestations `ER_PRS_F` via 9 clés de jonture.
+Les tables affinées peuvent se joindre avec la table centrale des prestations `ER_PRS_F` via 9 clés de jonture:
+- `FLX_DIS_DTD`
+- `FLX_TRT_DTD`
+- `FLX_EMT_TYP`
+- `FLX_EMT_NUM`
+- `FLX_EMT_ORD`
+- `ORG_CLE_NUM`
+- `DCT_ORD_NUM`
+- `PRS_ORD_NUM`
+- `REM_TYP_AFF`
+
 Il existe 14 tables affinées dans le DCIR:
 - `ER_BIO_F`: Prestations affinées en biologie
 - `ER_CAM_F`: Codage CCAM
