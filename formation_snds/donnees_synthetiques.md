@@ -121,4 +121,4 @@ Pour toutes informations sur les traitements des données à caractère personne
 
 ### Citer les données
 Pour toute publication autour des travaux réalisés sur ces données, merci de citer la base de données de la manière suivante : 
-« Base de données développée par l’équipe EA REPERES (https://www.ea-reperes.com/) (Recherche en Pharmaco-épidémiologie et recours aux soins, UPRES EA-7449) et propriété de l’Université de Rennes 1 »
+« Base de données développée par l’équipe EA REPERES [https://www.ea-reperes.com/](Recherche en Pharmaco-épidémiologie et recours aux soins, UPRES EA-7449) et propriété de l’Université de Rennes 1 »
