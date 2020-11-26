@@ -5,5 +5,12 @@ Elle est l’unique interlocuteur et rembourse à son adhérent la part obligato
 
 Exemples de SLM : Mutuelle Générale de l’Education Nationale (MGEN), La Mutuelle des Étudiants (LMDE), Mutuelle Générale de la Police (MGP)
 
+::: tip Evolution réglementaire sur le régime étudiant
+31.08.2019 : fin du régime spécifique de sécurité sociale applicable aux étudiants, conduisant ainsi à une reprise de gestion par le Régime Général. 
+Cette mesure conduit à faire entrer les étudiants dans le droit commun de la [PUMa](../glossaire/PUMa.md).
+
+Textes de référence : Code de la sécurité sociale, articles L160-17 et L160-18 .
+:::
+
 ## Références
 - [Fiche détaillée sur les SLM](../fiches/sections_locales_mutualistes.md)
