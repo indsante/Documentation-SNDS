@@ -104,6 +104,9 @@ Un tableau de suivi des codifications des SLM est disponible
 
 
 ## Références
-::: tip Autre ressource
-La Cnam a publié en décembre 2019 une [fiche sur la thématique des SLM](../files/Cnam/SNDS_Fiches_Thematiques_SLM-Mutuelles_MLP_2.0.docx).
+::: tip Ressources
+Ce document a été initialement publié sur le portail SNDS de la Cnam en décembre 2019. 
+
+Il a été rédigé par la Cnam et a été converti en Markdown pour être publié ici, et servir plus facilement de ressources pour d'autres fiches.
+Il est [téléchargeable ici](../files/Cnam/SNDS_Fiches_Thematiques_SLM-Mutuelles_MLP_2.0.docx) dans sa version d'origine.
 :::
