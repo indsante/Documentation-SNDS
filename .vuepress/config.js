@@ -140,12 +140,7 @@ module.exports = {
 
     head: [
             ['script', {type: "text/javascript", src: "https://tarteaucitron.io/load.js?domain=documentation-snds.health-data-hub.fr&uuid=bc6d5f21273f2b08c46b3888025037246e4596ce"}, {}],
-
-            ['script', {type: "text/javascript"}, `
-                tarteaucitron.user.matomoId = 4;
-                tarteaucitron.user.matomoHost = 'https://healthdatahub.matomo.cloud/';
-                (tarteaucitron.job = tarteaucitron.job || []).push('matomohightrack');
-            `]],
+    ],
 
     title: "Documentation du SNDS",
     description: "Projet collaboratif pour documenter et faciliter l'utilisation du SNDS",
