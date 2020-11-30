@@ -34,18 +34,29 @@ de vérifier les droits côté DCIR/DCIRS.
 
 ## Distinguer C2S et C2SP
 
-Depuis le mise en place du dispositif, il n'est pas possible de distinguer la C2S participative de la C2S gratuite. 
-Fin 2020, la variable `REF_C2S_COD` sera créée dans la table **[IR\_ORC\_R](../tables/DCIR_DCIRS/IR_ORC_R.md)**.
-Elle présentera les modalités suivantes:
+Une variable `BEN_C2S_TYP` sera ajoutée en 2021 dans la table `ER_PRS_F` du DCIR 
+pour restituer le type de complémentaire santé solidaire du bénéficiaire, afin de distinguer :  
+- les factures des bénéficiaires de la C2S gratuite (contexte initial CMU-C ou CMU-C gratuite),
+- les factures des bénéficiaires de la C2S participative (CMU-C participative).
 
-|Droit ouvert IR_BEN_R |Libelle|Entrepôt|
-|----------------------|-------|--------|
-|P | Contrat Participatif 	|		P   |
-|S | Contrat suspendu 		|		P   |
-|F | Contrat Ferme 			|		P   |
+La variable prend les valeurs ci-dessous (table de valeur IR_C2S_V sous ORAVAL):
 
-La modalité P permet donc de distinguer les contrats participatifs des contrats gratuits. 
+| Valeur  |  Libellé          |
+|---------|-------------------|
+|   I89   | Valeur inconnue   |
+|   ZZZ   | Sans objet 	    |
+|   P89   | C2S Participative	|
+|   G89   | C2S gratuite      |
 
+De plus, le libellé de la variable `BEN_DRT_SPF` qui correspond aux droits spécifiques ACS
+va être modifié afin d'inclure la modalité P pour le contrat participatif:
+
+| Valeur  |  Libellé             |
+|---------|----------------------|
+|   III   | Valeur inconnue      |
+|   ZZZ   | Sans objet 	         |
+|   ACS   | Beneficiaire ACS     |
+|   P     | Contrat Participatif |
 
 
 ## Références
