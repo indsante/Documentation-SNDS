@@ -25,6 +25,7 @@
       Licence : Mozilla Public License 2.0 (MPL-2.0)
        </div>
     </div>
+    <script type="text/javascript" src="https://tarteaucitron.io/load.js?domain=entraide.health-data-hub.fr&uuid=bc6d5f21273f2b08c46b3888025037246e4596ce"></script>
   </footer>
 </template>
 <script>
