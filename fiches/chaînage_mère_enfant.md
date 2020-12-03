@@ -91,4 +91,5 @@ Si on désire se limiter aux **séjours d'enfants nés vivants**, il faut rajout
 ## Références
 
 ::: tip Crédits
-Cette fiche a été rédigée par *Arnaud Lecoules* (DREES) :::
+Cette fiche a été rédigée par *Arnaud Lecoules* (DREES) 
+:::
