@@ -26,7 +26,7 @@ Si une relecture appelle une [correction](../Guide_contribution/Modifier_une_fic
 ### Validation et fusion 
 Enfin, après avoir été relue et approuvée, la contribution doit être validée en assignant une des personnes ci-dessous: 
 - Lorien Benda (HDH, ID gitlab : @lbenda)
-- Pierre-Alain Jachiet (Drees, ID gitlab : @pajachiet),
+- Pierre-Alain Jachiet (HAS, ID gitlab : @pajachiet),
 - Olivier de Fresnoye (HDH, ID gitlab : @ofrsn), 
 - Tim Vlaar (HDH, ID gitlab : @tim.vlaar), 
 - Salma El Oualydy (HDH, ID gitlab : @salmael ) 
