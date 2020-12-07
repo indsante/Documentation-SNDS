@@ -12,8 +12,8 @@ En revanche, pour la population qui peut prétendre à l’ACS (moins de  1 007 
 les garanties seront alignées sur celles de la CMU-C, moyennant une « participation financière ».
 
 ::: tip ATTENTION période transitoire
-Suppression progressive de l'ACS. Toutes les contrats ACS souscrits avant le 1er Nov 2019 pourront aller jusqu'à échéance soit le 1er Nov 2020. 
-Conséquence à partir du 1er Novembre 2020, il n'y aura plus d'ACS et que des contrats C2S.   
+Suppression progressive de l'ACS. Toutes les contrats ACS souscrits avant le 1er novembre 2019 pourront aller jusqu'à échéance soit le 31 octobre 2020. 
+Conséquence à partir du 1er novembre 2020, il n'y aura plus d'ACS et que des contrats C2S.   
 :::
 
 
@@ -25,12 +25,21 @@ sinon il était positionné à zéro. Depuis la mise en place de la C2S, le top 
 
 Le top CMU-C indique si une prestation est exonérée au titre de la CSS. 
 Il ne permet pas de recenser l'ensemble des bénéficiaires de la CSS dans la mesure où d'autres motifs d'exonération peuvent prévaloir sur la CSS.
-Ainsi, pour recenser la population, il faut se référéer à la table `IR_ORC_R`  (seulement RG+SLM), avec la variable `BEN_CTA_TYP` à 89. 
+Ainsi, pour recenser la population, il faut se référéer à la table `IR_ORC_R`, avec la variable `BEN_CTA_TYP` à 89.  
+::: tip ATTENTION
+La table `IR_ORC_R` couvre uniquement le champ du Régime Général et des SLM.
+:::
+
+Jusqu'au 31 octobre 2020, la table des « Affiliés Aide Complémentaire Santé » `IR_ACS_R`, est alimentée de deux informations différentes : 
+- des dates des droits ACS pour les contrats ACS devant aller jusqu’à leur terme
+- des périodes techniques liées à la C2S (à partir du 1er novembre 2019).
+
+
+A partir du 1er novembre 2020, l’alimentation de `IR_ACS_R` se poursuivra avec les seules dates techniques spécifiques à la C2S.
 
 Dans le PMSI, on repère les bénéficiaires de la C2S avec le code gestion 89 à partir de la variable `GES_COD` présente dans les tables `STC` pour 
 les établissements publics et dans les tables de facturation `FA` pour les établissements privés. Cette variable ne fait toutefois pas l'objet d'une vérification, il est donc plutôt recommandé 
 de vérifier les droits côté DCIR/DCIRS.
-
 
 ## Distinguer C2S et C2SP
 
@@ -58,10 +67,24 @@ va être modifié afin d'inclure la modalité P pour le contrat participatif:
 |   ACS   | Beneficiaire ACS     |
 |   P     | Contrat Participatif |
 
+Dans la table référentiel des affiliés organisme complémentaire `IR_ORC_R` 
+la variable code complementaire santé solidaire `REF_C2S_COD` est intégrée:
+
+| Valeur |  Libellé             |
+|--------|----------------------|
+|    P   | Participative        |
+|    S   | Suspendue	        |
+|    F   | Fermée               |
+|    .   | Aucune valeur (NULL) |
+
+La valeur manquante signifie « Gratuité » si associée à un contrat « 89 » (`BEN_CTA_TYP`).
+Sinon elle signifie "sans objet".  
+
+
 
 ## Références
 - Présentation de Céline Leroy au comité utilisateurs SNDS 
-- Comité partenaires DCIR/PMSI de la CNAM du 9 mars 2020
+- Comité partenaires DCIR/PMSI de la CNAM des 9 mars et 16 novembre 2020
 
 ::: tip Crédits  
 Cette fiche a été rédigée par Céline Leroy (ARS) et Kristel Jacquier (DSS).
