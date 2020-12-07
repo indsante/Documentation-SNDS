@@ -3,6 +3,10 @@
 
 Des spécialités pharmaceutiques qui ne bénéficient pas d’une [autorisation de mise sur le marché](AMM.md) peuvent, à titre exceptionnel, faire l’objet d’autorisations temporaires d’utilisation (ATU) délivrées par l’[ANSM](ANSM.md) si elles sont destinées à traiter des maladies graves ou rares, en l’absence de traitement approprié, lorsque la mise en œuvre du traitement ne peut être différée.
 
+::: warning Attention
+Ne pas confondre avec le forfait d'accueil et de traitement des urgences, aussi appelé ATU (variable `PRS_NAT_REF` = 2238 dans la table `ER_PRS_F`).
+:::
+
 ## Références
 
 - [Page sur le site du ministère de la santé](https://solidarites-sante.gouv.fr/soins-et-maladies/medicaments/professionnels-de-sante/autorisation-de-mise-sur-le-marche/article/autorisations-temporaires-d-utilisation-atu)
