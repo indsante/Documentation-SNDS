@@ -29,8 +29,8 @@ Enfin, après avoir été relue et approuvée, la contribution doit être valid�
 - Pierre-Alain Jachiet (HAS, ID gitlab : @pajachiet),
 - Olivier de Fresnoye (HDH, ID gitlab : @ofrsn), 
 - Tim Vlaar (HDH, ID gitlab : @tim.vlaar), 
-- Salma El Oualydy (HDH, ID gitlab : @salmael ) 
-- Maeva Kos (HDH, ID gitlab : @maevakos )
+- Salma El Oualydy (HDH, ID gitlab : @salmael) 
+- Maeva Kos (HDH, ID gitlab : @maevakos)
 
 ## Discuter avec la communauté
 ### Via gitlab
@@ -51,5 +51,5 @@ La maîtrise de gitlab et la rédaction au format markdown sont des prérequis n
 ### Se former pour contribuer
 Des formations (en présentielle et en ligne) pour apprendre à contribuer à la documentation collaborative en passant par GitLab sont régulièrement proposées par le Health Data Hub. Les formations sont annoncées sur [meetup](https://www.meetup.com/fr-FR/Health-Data-Hub/). La présentation utilisée lors des sessions de formation est disponible en ligne et peut entièrement être utilisée pour apprendre à se former de manière autonome. Ce guide de contribution, également disponible sous la forme de fiches dans la documentation collaborative, contient des mémo sous la forme de Cheat Sheet et des fiches thématiques. Ce guide sert de rappel suite à une formation et permet d’aller plus loin dans le processus de rédaction. Il peut également être utilisé pour apprendre à contribuer de manière autonome.
 
-Des meetup SNDS sont organisés par le Health Data Hub. Ces événements sont annoncés sur [meetup](https://www.meetup.com/fr-FR/Health-Data-Hub/) et sont à retrouver en vidéo sur le site de la [documentation collaborative](https://documentation-snds.health-data-hub.fr/ressources/meetup.html).
+Des meetup SNDS sont organisés par le Health Data Hub. Ces événements sont annoncés sur [meetup](https://www.meetup.com/fr-FR/Health-Data-Hub/) et sont à retrouver en vidéo sur le site de la [documentation collaborative](../../evenements/meetup.md).
 Des journées de rédactions sont régulièrement proposées par le Health Data Hub également annoncées sur [meetup](https://www.meetup.com/fr-FR/Health-Data-Hub/). Ces journées permettent d’aider les contributeurs à publier leurs connaissances sur le site de la documentation, partager des programmes dans un dépôt spécifique sur Gitlab et d’échanger autour de notions spécifiques du SNDS. 

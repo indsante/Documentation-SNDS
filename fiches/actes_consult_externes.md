@@ -305,7 +305,7 @@ Le contenu original de cette fiche provient du document *Les actes et consultati
 
 Cette fiche s'appuie fortement sur les slides de la formation proposée par la CNAM sur les données du PMSI dans le SNDS.
 
-Certaines informations sont également tirées du document [*SNDS, ce qu'il faut savoir*](https://documentation-snds.health-data-hub.fr/ressources/Sante_publique_France.html#snds-ce-qu-il-faut-savoir) constitué par Santé Publique France.
+Certaines informations sont également tirées du document [*SNDS, ce qu'il faut savoir*](../formation_snds/Sante_publique_France.md) constitué par Santé Publique France.
 :::
 
 [^1]: Chiffres tirés de l’éclairage « Les actes et consultations externes à l’hôpital » dans le rapport Les Comptes de la Sécurité Sociale publié par la DSS en 2015   
