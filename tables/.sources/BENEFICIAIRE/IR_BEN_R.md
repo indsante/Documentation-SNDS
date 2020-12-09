@@ -11,7 +11,7 @@ La variable `BEN_TOP_CNS` permet de différencier les non-consommants (`BEN_TOP_
 Le référentiel est mis à jour quotidiennement pour les consommants à partir des flux de prestations de soins et mensuellement pour les non-consommants à partir des bases de données locales opérantes.
 
 ::: tip Crédits
-Les informations ci-dessus sont tirées du document [*SNDS, ce qu'il faut savoir*](https://documentation-snds.health-data-hub.fr/ressources/Sante_publique_France.html#snds-ce-qu-il-faut-savoir) constitué par Santé Publique France.
+Les informations ci-dessus sont tirées du document [*SNDS, ce qu'il faut savoir*](../../formation_snds/Sante_publique_France.md) constitué par Santé Publique France.
 N'hésitez pas à le consulter pour plus d'informations.
 :::
 <!-- ATTENTION : Ne pas supprimer ou modifier la ligne ci-dessous -->

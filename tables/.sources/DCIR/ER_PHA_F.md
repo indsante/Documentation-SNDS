@@ -15,7 +15,7 @@ Toutefois, pour les années 2006 et 2007, les codes CIP13 sont presque tous manq
 :::
 
 ::: tip Crédits
-Les informations ci-dessus sont tirées du document [*SNDS, ce qu'il faut savoir*](https://documentation-snds.health-data-hub.fr/ressources/Sante_publique_France.html#snds-ce-qu-il-faut-savoir) constitué par Santé Publique France.
+Les informations ci-dessus sont tirées du document [*SNDS, ce qu'il faut savoir*](../../formation_snds/Sante_publique_France.md) constitué par Santé Publique France.
 N'hésitez pas à le consulter pour plus d'informations.
 :::
 <!-- ATTENTION : Ne pas supprimer ou modifier la ligne ci-dessous -->

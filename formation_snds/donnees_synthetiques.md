@@ -1,7 +1,7 @@
 # SNDS synthétique
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Deux jeux de données de synthèse (fictives) du SNDS sont mis à disposition: un premier réalisé par le lab santé de la DREES accessible à tous et un second réalisé par l’équipe [EA REPÈRES]() de l’université de Rennes 1 réservé aux projets pilotes et projets issus des appels à projets du Health Data Hub et accessible sur demande.
+Deux jeux de données de synthèse (fictives) du SNDS sont mis à disposition: un premier réalisé par le lab santé de la DREES accessible à tous et un second réalisé par l’équipe [EA REPÈRES](https://www.ea-reperes.com/) de l’université de Rennes 1 réservé aux projets pilotes et projets issus des appels à projets du Health Data Hub et accessible sur demande.
 
 Ces données de synthèse permettent de :
 * découvrir et comprendre les données du SNDS historique (Sniiram, PMSI, CédiDC)
@@ -117,7 +117,7 @@ Cette plateforme contient aussi les données synthétiques du lab santé de la D
 
 L'accès à la plateforme se fait via une url avec identifiant et un mot de passe. Ces éléments ainsi que l’adresse IP de l’utilisateur sont enregistrés (ce traitement de données est répertorié sur le registre de traitements du Health Data Hub conformément à l’article 30 du RGPD). 
 
-Pour toutes informations sur les traitements des données à caractère personnel, veuillez vous reporter à la politique de confidentialité du Health Data Hub disponible le site internet du Health Data Hub : https://www.health-data-hub.fr/politique-de-confidentialite
+Pour toutes informations sur les traitements des données à caractère personnel, veuillez vous reporter à la politique de confidentialité du Health Data Hub disponible le site internet du Health Data Hub : https://www.health-data-hub.fr/page/politique-de-confidentialite
 
 ### Citer les données
 Pour toute publication autour des travaux réalisés sur ces données, merci de citer la base de données de la manière suivante : 

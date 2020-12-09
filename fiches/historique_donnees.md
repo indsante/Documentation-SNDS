@@ -42,7 +42,7 @@ Le PMSI enregistre l’ensemble des séjours hospitaliers en France quel que soi
 
 (2) *Support de formation PMSI / portail SNDS*
 
-(3) *Document [SNDS, ce qu'il faut savoir](https://documentation-snds.health-data-hub.fr/ressources/Sante_publique_France.html#snds-ce-qu-il-faut-savoir) réalisé par Santé Publique France*
+(3) *Document [SNDS, ce qu'il faut savoir](../formation_snds/Sante_publique_France.md) réalisé par Santé Publique France*
 
 (4) *Tableaux de chargement du DCIR de la documentation du portail SNDS de la CNAM*
 

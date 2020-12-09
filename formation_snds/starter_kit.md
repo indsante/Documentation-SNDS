@@ -58,7 +58,7 @@ Je dois donc constituer un dossier que je soumets au Health Data Hub qui joue le
 
 Ce dernier transmettra ma demande au comité éthique et scientifique pour les recherches, les études et les évaluations dans le domaine de la santé (CESREES) pour avis avant de la soumettre à la CNIL pour autorisation, le tout dans des délais encadrés.
 
-Plus de renseignements sur le fonctionnement et les dates des prochaines réunions du CESREES, sont à trouver [ici](https://www.health-data-hub.fr/cesrees).
+Plus de renseignements sur le fonctionnement et les dates des prochaines réunions du CESREES, sont à trouver [ici](https://www.health-data-hub.fr/page/le-cesrees).
 
 ## Où vont être traitées mes données ?
 
