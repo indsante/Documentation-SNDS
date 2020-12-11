@@ -167,5 +167,5 @@ L'analyse de la précarité peut se faire par le repérage des publics ayant acc
 Il est également possible de repérer les [détenus](detenus.md) dans le SNDS.
 
 ::: tip Crédits  
-Cette fiche a été rédigée par Claire-Lise Dubost (DREES), et s'appuie notamment sur des informations issus du document [*SNDS, ce qu'il faut savoir*](../formation_snds/Sante_publique_France.md) constitué par Santé Publique France, ainsi que de la note technique *L'indice de désavantage social "FDEP" et son application à DCIR* rédigé en 2014 par la CNAM.
+Cette fiche a été rédigée par Claire-Lise Dubost (DREES) et Pierre-Louis Bithorel, affilié à l'Ined (institut national d'études démographiques) et s'appuie notamment sur des informations issus du document [*SNDS, ce qu'il faut savoir*](../formation_snds/Sante_publique_France.md) constitué par Santé Publique France, ainsi que de la note technique *L'indice de désavantage social "FDEP" et son application à DCIR* rédigé en 2014 par la CNAM.
 :::
