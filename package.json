@@ -16,9 +16,10 @@
     "remark-validate-links": ">= 9.0.1",
     "vue": ">= 2.6.11",
     "vue-loader": ">= 15.8.3",
+    "vue-router": "^3.4.5",
     "vue-server-renderer": ">= 2.6.11",
     "vue-template-compiler": ">= 2.6.11",
-    "vuepress": ">= v1.2.0"
+    "vuepress": "^1.7.1"
   },
   "scripts": {
     "start": "cp -r files .vuepress/public/files && node .vuepress/include-tables.js",
@@ -27,7 +28,7 @@
     "lint-md": "remark --frail --use remark-validate-links . --quiet",
     "extended-lint-md": "yarn run start && remark --frail --use remark-validate-links --use remark-lint-no-dead-urls . --quiet",
     "licence": "bash test-licence.sh"
-  }, 
+  },
   "devDependencies": {
     "vuepress-plugin-mermaidjs": "^1.2.0"
   }
