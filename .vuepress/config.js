@@ -154,7 +154,10 @@ module.exports = {
         lastUpdated: "Dernière modification",
         algolia: {
             apiKey: "b1d88a4e2413821b4ebe7441ecc95a97",
-            indexName: "health-data-hub-snds"
+            indexName: "health-data-hub-snds",
+            algoliaOptions: {
+              hitsPerPage: 10,
+            }
         },
         smoothScroll: true
     },
