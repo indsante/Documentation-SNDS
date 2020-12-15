@@ -40,7 +40,7 @@ La documentation est organisée en 9 sections :
 Chacune de ces sections correspond à un dossier sur [GitLab](https://gitlab.com/healthdatahub/documentation-snds), avec un [dossier supplémentaire](https://gitlab.com/healthdatahub/documentation-snds/-/tree/master/files) pour les fichiers et images.
 
 ## Contribuer
-Le [guide de contribution](contribuer/README.md) reprend les différents modes de contribution à la documentation. Des documents peuvent également être déposé dans la [boite aux lettres](https://gitlab.com/healthdatahub/documentation-snds/-/tree/master/Boite_aux_lettres), ces derniers seront intégrés à la documentation par le Health Data Hub.
+Le [guide de contribution](contribuer/README.md) reprend les différents modes de contribution à la documentation. Des documents peuvent également être déposés dans la [boite aux lettres](https://gitlab.com/healthdatahub/documentation-snds/-/tree/master/Boite_aux_lettres), ces derniers seront intégrés à la documentation par le Health Data Hub.
 
 ## Citation
 
