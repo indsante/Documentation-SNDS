@@ -11,16 +11,18 @@ car celles-ci ne sont pas exhaustives et d'**analyser les dépenses des établis
 Le DCIR contient en revanche les données les plus exhaustives sur les établissements privés, 
 la fiche [Dépenses des établissement privés (à partir du DCIRS)](../fiches/fiche_etab_prives.md) est consacrée à l'**étude des dépenses des établissements privés dans le DCIR**.
 
-Enfin le DCIR contient très peu d'informations sur le secteur médico-social, pour étudier ce secteur, il est recommandé de faire appel à d'autres sources. 
+Enfin le DCIR contient très peu d'informations sur le secteur médico-social, pour étudier ce secteur, il est nécessaire de faire appel à d'autres sources. 
 
 
-## L’hôpital public
+## Les établissements publics
 
-Nous vous présentons tout d'abord comment exclure l'information concernant les hôpitaux publics dans le DCIR et le DCIRS, afin
-de privilégier leur étude via le PMSI. 
+Nous distinguons dans cette partie deux types d'établissements: l'hôpital public et les centres de santé. 
 
+### L'hôpital public
 
-### Exclure l'hôpital public des études sur le DCIR et le DCIRS à partir du classement de la catégorie juridique privé / public
+Les remontées d'information sur les hopitaux publics sont très incomplètes dans le DCIR/DCIRS. C'est pourquoi, nous présentons comment exclure l'information concernant les hôpitaux publics dans le DCIR et le DCIRS, afin de privilégier leur étude via le [PMSI](../fiches/depenses_hopital_public.md).
+
+#### Cibler les prestations de l'hôpital public à partir du classement de la catégorie juridique privé / public
 
 On peut créer une variable qui permet d’obtenir le lieu d’exécution de la prestation et de classer ce lieu en fonction de s’il s’agit
 d’un établissement public ou privé. 
@@ -28,24 +30,20 @@ d’un établissement public ou privé.
 Si la variable `ETB_EXE_FIN` est égale à 0, aucun établissement n’est lié à la prestation, alors il s’agit d’une prestation de ville. 
 
 Parmi les soins associés à un FINESS, certains peuvent être classés dans les soins de ville selon la logique suivante. 
-La variable `ETB_CAT_RG1` du référentiel des établissements (`IR_CET_V`) permet de regrouper les établissements 
-(pour une nomenclature plus fine, voir la variable `ETB_CAT_COD`).
+La variable `ETB_CAT_RG1` du référentiel des établissements (`IR_CET_V`) permet de regrouper les établissements.
 Si les deux premiers caractères de la variable de code de regroupement de l’établissement `ETB_CAT_RG1` sont égaux à 21 
 (à l'exclusion des établissements relevant de la loi hospitalière, `ETE_CAT_COD`== 698) ou 22, alors il s’agit de prestations que l'on peut classer en "ville", 
-à savoir les cabinets libéraux et autres établissements de soins et de prévention. 
+à savoir les cabinets libéraux et autres établissements de soins et de prévention (y compris les centres de santé). 
 
 Ensuite, la variable `PRS_PPU_SEC` nous permet d'avoir de l'information sur le caractère privé ou public de la prestation. 
-Elle est construite comme suit. L’établissement est public :
+Elle est construite comme suit.  
+L’établissement est public si le type d’établissement est public ( `ETE_TYP_COD` vaut 1, 2 ou 3]) et si le numéro  du PS exécutant n’est pas renseigné (`PFS_EXE_NUM` est manquant ou vaut ‘00000000’) (`PRS_PPU_SEC`=1)
+Sinon l’établissement est privé (`PRS_PPU_SEC`=2)
 
-    - 	si le type d’établissement est public ( `ETE_TYP_COD` vaut 1, 2 ou 3]) **ET** 
-    - 	si le numéro  du PS exécutant n’est pas renseigné (`PFS_EXE_NUM` est manquant ou vaut ‘00000000’)
-Sinon l’établissement est privé 
+Remarque : On note que si le numéro du PS exécutant est renseigné alors le type de la prestation ne sera pas public (`PRS_PPU_SEC` différent de 1) , bien que la prestation ait eu lieu en établissement public. 
 
-Si le code `PRS_PPU_SEC` est égal à 1 alors on peut classer la prestation en lieu d'exécution "Public". 
-Sinon les prestations sont classées en lieu d’exécution "Prive".
-
-Remarque : On ne supprime pas l'ensemble des prestations ayant lieu dans un établissement public (`ETE_TYP_COD` IN 1,2,3). En effet, si le numéro du PS exécutant est 
-renseigné alors le type de la prestation (`PRS_PPU_SEC`) ne sera pas public, bien que la prestation ait eu lieu en établissement public. 
+Dans le DCIR, il faut aller chercher les variables `PRS_PPU_SEC` et `ETE_TYP_COD` dans la table `ER_ETE_F` qui n'est pas la table centrale; 
+dans le DCIRS ces informations sont dans la table centrale `NS_PRS_F` (table de nomenclature `IR_TYE_V`).
 
 Pour résumer en pseudo-code :
 ```
@@ -57,18 +55,13 @@ ELSE :
     lieu_exec = "prive"
 ```
 
-Deux postes avec un code établissement public devraient être retenus avec les soins de ville, 
-à savoir les [rétrocessions](../glossaire/retrocession.md) et les **centres de santé**.
-Les rétrocessions correspondent à de la pharmacie hospitalière en établissement. Le code prestation `PRS_NAT_REF` est parmi 
-3317, 3318, 3319, 3351, 3352, 3353, 3354, 3355, 3356, 3357, 3330 (table de valeur `IR_NAT_V`). 
-Les centres de santé correspondent aux  catégories d'établissements (124, 125, 130, 132, 133, 134, 142, 223, 224, 228, 230, 268, 269, 289, 297, 347, 413, 414, 433, 438, 439,700) de la variable `ETE_CAT_COD`(table de valeur `IR_CET_V`). 
-Lorsque l’on travaille sur les **soins de ville**, il est recommandé d’exclure toutes les prestations en établissements publics hors rétrocessions et centres de santé. 
-**On peut donc exclure les prestations pour lesquels `lieu_exec` == 'public' sauf si la `PRS_NAT_REF` correspond à de la rétrocession, ou la catégorie d'établissement à un centre de santé**.
+Les [rétrocessions](../glossaire/retrocession.md) ont pour lieu d'exécution l'hôpital public. Elles correspondent à de la pharmacie hospitalière en établissement. Leur code prestation `PRS_NAT_REF` est parmi 3317, 3318, 3319, 3351, 3352, 3353, 3354, 3355, 3356, 3357, 3330 (table de valeur `IR_NAT_V`). 
+Néanmoins, elles devraient être retenus avec les soins de ville. En effet, les rétrocessions sont rattachées aux soins de ville, au sens de l'Objectif National des Dépenses d'Assurance Maladie ([ONDAM](../glossaire/ONDAM.md)).  
 
-Dans le DCIR, il faut aller chercher les variables `PRS_PPU_SEC` et `ETE_TYP_COD` dans la table `ER_ETE_F` qui n'est pas la table centrale; 
-dans le DCIRS ces informations sont dans la table centrale `NS_PRS_F` (table de nomenclature `IR_TYE_V`).
+**Pour travailler sur les soins de ville dans le DCIR on peut donc exclure les prestations pour lesquels `lieu_exec` == 'public' sauf si la `PRS_NAT_REF` correspond à de la rétrocession**.
 
-### Exclure les actes et consultations externes du DCIR et DCIRS
+
+#### Repérer les Actes et Consultations Externes du DCIR/DCIRS
 
 On trouve dans le DCIR les **actes et consultations externes** (ACE) en facturation directe. 
 En effet, depuis septembre 2011, certains établissements publics ont basculé leur activité ACE en facturation directe. 
@@ -98,15 +91,18 @@ OR (T2.ETE_IND_TAA is null AND T2.PRS_PPU_SEC is null
         AND T2.ETE_CAT_COD is null AND T2.MDT_COD is null)
 ```
 
+#### Repérer les séjours des bénéficiaires de la CMU-C et de l’AME
 
-Pour étudier les dépenses à l'hopital public, se référer à la fiche [Dépenses des établissements de santé publics dans le PMSI](../fiches/depenses_hopital_public.md).
+Les données de facturation exhaustives des séjours à l’hôpital public des bénéficiaires de la [CMU-C](../glossaire/CMUC.md) (devenue [CSS](../fiches/complementaire_sante_solidaire.md)) et de l’[AME](../glossaire/AME.md) remontent à la fois dans le PMSI et dans le DCIR/S. Pour retracer les dépenses de soin des bénéficiaires de l'AME et de la CMUC dans le DCIR, il faut joindre la table prestation [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) à la table affinée des remboursements autre que régime obligatoire [ER_ARO_F](../tables/DCIR/ER_ARO_F.md) et poser un filtre sur la variable `ARO_REM_TYP` (AME=7, CMUC=5 et 6). 
 
-::: warning Attention
-Les données de facturation exhaustives des séjours à l’hôpital public des bénéficiaires de la  [CMU-C](../glossaire/CMUC.md) et de l’[AME](../glossaire/AME.md) remontent dans le DCIR. C'est pourquoi il est pertinent d'utiliser le DCIR pour analyser les dépenses de soin de ces bénéficiaires. Pour retracer les dépenses de soin des bénéficiaires de l'AME et de la CMUC, il faut joindre la table prestation [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) à la table affinée des remboursements autre que régime obligatoire [ER_ARO_F](../tables/DCIR/ER_ARO_F.md) et poser un filtre sur la variable `ARO_REM_TYP` (AME=7, CMUC=5 et 6). 
-:::
+### Les centres de santé
+
+Les centres de santé correspondent aux  catégories d'établissements (124, 125, 130, 132, 133, 134, 142, 223, 224, 228, 230, 268, 269, 289, 297, 347, 413, 414, 433, 438, 439,700) de la variable `ETE_CAT_COD`(table de valeur `IR_CET_V`).   
+Dans le DCIR, il faut aller chercher la variable `ETE_CAT_COD` dans la table établissement `ER_ETE_F`; 
+dans le DCIRS ces informations sont dans la table centrale `NS_PRS_F` (table de nomenclature `IR_TYE_V`).
 
 
-## Les établissements privés dans le DCIR et le DCIRS
+## Les établissements privés 
 
 Les séjours en établissements privés sont facturés directement à l’Assurance Maladie ce qui garantit l’**exhaustivité des remontées d’information sur ce champ**.
 Cela concerne toutes les prestations en établissement privé, que l'établissement soit de nature non lucratif ou lucratif.
