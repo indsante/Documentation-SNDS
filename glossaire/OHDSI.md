@@ -1,4 +1,4 @@
-# OHDSI
+# OHDSI - Observational Health Data Sciences and Informatics
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 L'Observational Health Data Sciences and Informatics ([OHDSI](https://www.ohdsi.org/), prononcé "Odyssey") est né en 2014 aux Etats-Unis suite à l’observation d’une nécessité évidente de standardisation des données de santé grâce aux travaux de l’OMOP.
