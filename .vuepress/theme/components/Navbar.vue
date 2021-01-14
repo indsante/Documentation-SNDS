@@ -37,8 +37,8 @@
     <br>
     <br>
     <div class="banner">
-        Répondez à ce questionnaire pour nous aider à ...
-        <br><a class="url" href="https://www.google.com" target="_blank">Lien vers le questionnaire</a>
+        Dans le contexte de l’épidémie de covid-19, le HDH souhaite recueillir votre perception sur les perspectives de recherche offertes par les données du CépiDc (causes médicales de décès). 
+        <br>Nous vous remercions par avance pour les quelques minutes que vous prendrez pour répondre à l’enquête via ce lien: <a class="url" href="https://fr.surveymonkey.com/r/6DDLGM9" target="_blank">lien vers le questionnaire</a>
     </div>
     
   </header>
@@ -146,8 +146,8 @@ $navbar-horizontal-padding = 1.5rem
       white-space nowrap
       text-overflow ellipsis
 .banner
-  background-color #ffb2b2
-  border-left-color #cc0000
+  background-color #A4D6F7
+  border-left-color #2B4454
   border-left-style solid
 
 .url
