@@ -29,7 +29,7 @@ Vous pouvez consulter le [Kit de démarrage avec les données de santé](../form
 ### Les méthodologies de référence
 
 Les méthodologies de référence (MR) sont des procédures simplifiées d'accès aux données, qui permettent dans certaines situations de réaliser une recherche en santé sans nécessiter d'autorisation [CNIL](../glossaire/CNIL.md) ou d'avis du CESREES.
-Le Responsable de Traitement adresse alors à la [CNIL](../glossaire/CNIL.md) une déclaration attestant la conformité du projet à la MR, puis inscrit son traitement dans le [répertoire public](https://www.indsante.fr/fr/repertoire-public-des-etudes-realisees-sous-mr).
+Le Responsable de Traitement adresse alors à la [CNIL](../glossaire/CNIL.md) une déclaration attestant la conformité du projet à la MR, puis inscrit son traitement dans le [répertoire public](https://www.health-data-hub.fr/projets).
 
 ### La procédure d'accès simplifié à l'[EGB](../glossaire/EGB.md)
 
