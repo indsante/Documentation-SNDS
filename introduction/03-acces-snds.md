@@ -29,7 +29,7 @@ Vous pouvez consulter le [Kit de démarrage avec les données de santé](../form
 ### Les méthodologies de référence
 
 Les méthodologies de référence (MR) sont des procédures simplifiées d'accès aux données, qui permettent dans certaines situations de réaliser une recherche en santé sans nécessiter d'autorisation [CNIL](../glossaire/CNIL.md) ou d'avis du CESREES.
-Le Responsable de Traitement adresse alors à la [CNIL](../glossaire/CNIL.md) une déclaration attestant la conformité du projet à la MR, puis inscrit son traitement dans le [répertoire public](https://www.indsante.fr/fr/repertoire-public-des-etudes-realisees-sous-mr).
+Le Responsable de Traitement adresse alors à la [CNIL](../glossaire/CNIL.md) une déclaration attestant la conformité du projet à la MR, puis inscrit son traitement dans le [répertoire public](https://www.health-data-hub.fr/projets).
 
 ### La procédure d'accès simplifié à l'[EGB](../glossaire/EGB.md)
 
@@ -57,4 +57,14 @@ Ces acteurs doivent :
 - soit démontrer l'impossibilité d'utiliser le SNDS pour des finalités interdites
 
 Les laboratoires de recherche ou bureaux d'études réalisant des études pour des tiers devront s'engager auprès de la CNIL à respecter le référentiel déterminant les critères de confidentialité, d'expertise et d'indépendance. 
-La liste des organismes ayant fait cet engagement est disponible en suivant [ce lien](../files/INDS/Engagement_de_conformite_au_reférentiel_au_05-03-20.pdf).
+La liste des organismes ayant fait cet engagement est disponible dans le document ci-dessous. 
+
+<p style="text-align: center;">
+<object data="../files/INDS/Engagement_de_conformite_au_reférentiel_au_05-03-20.pdf" type="application/pdf" width="500px" height="450px">
+    <embed src="../files/INDS/Engagement_de_conformite_au_reférentiel_au_05-03-20.pdf" type="application/pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../files/INDS/Engagement_de_conformite_au_reférentiel_au_05-03-20.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+</p>
+
+[Télécharger le document](../files/INDS/Engagement_de_conformite_au_reférentiel_au_05-03-20.pdf).

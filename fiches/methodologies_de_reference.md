@@ -13,7 +13,7 @@ Cet engagement sera aussi valable pour tous ses autres traitements qui seront co
 
 En contrepartie de cet allégement des formalités d'accès, le responsable de traitement doit tenir à jour une liste des traitements qu’il réalise sous couvert de son engagement de conformité et les enregistrer dans un répertoire public tenu par le Health Data Hub. 
 
-Celui-ci est mis à disposition en accès ouvert à tous sur son [site](https://www.indsante.fr/fr/repertoire-public/etudes-sous-mr) et concerne uniquement les recherches n’impliquant pas la personne humaine.
+Celui-ci est mis à disposition en accès ouvert à tous sur son [site](https://www.health-data-hub.fr/projets) et concerne uniquement les recherches n’impliquant pas la personne humaine.
 
 ## Champs d'application
 Les Méthodologies de Référence s'appliquent aux études nécessitant l'accès aux données personnelles de santé. 
@@ -37,5 +37,7 @@ Les MR-001, MR-002, MR-003 et MR-004 ne concernent pas les accès aux données d
 En revanche, l'utilisation des MR-005 et MR-006 concernent exclusivement les études réalisées sur le portail de l'ATIH.
 Pour accéder aux données sur le portail de la Cnam, il faut suivre la procédure standard HDH-CESREES-CNIL (sauf pour les organismes bénéficiant dun accès permanant au titre de leurs missions indiquées dans la loi).
 
+::: Note
 Cette fiche a été initialement rédigée par Emmanuel Stranadica, Plateforme des données de santé (HDH)
+:::
 
