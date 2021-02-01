@@ -8,6 +8,19 @@ En dehors de l'Open Data, présenté plus haut, deux types distincts d'accès au
 Certains organismes chargés d'une mission de service public, [listés par décret](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000033702840&categorieLien=id), disposent d'un accès permanent aux données du SNDS.
 Cette autorisation pérenne concerne un périmètre spécifique des données, et se décline ainsi selon les niveaux d'agrégation (données individuelles/agrégées bénéficiaires, …) et les historiques accessibles.
 
+::: tip Transparence des accès permanents et de leurs usages : publication au JO de documents-types
+Chacun des services de l'État, des établissements publics ou des organismes chargés d'une mission de service public disposant d’un accès permanent aux données du SNDS a l’obligation de tenir à jour :
+
+- La liste des traitements de données individuelles du SNDS et de ses caractéristiques,
+- La liste des personnes habilitées en son sein à accéder aux données du SNDS et les procédures d’habilitation mises en place.
+
+Ces documents doivent être présentés conformément à des modèles établis par arrêté des ministres chargés de la santé et de la sécurité sociale, publiés au JO le 15 avril 2017 ([Télécharger](../files/HDH/modele_caracteristiques_des_traitements.doc) le modèle « caractéristique des traitements » et [Télécharger](../files/HDH/modele_habilitation.doc) le modèle « personnes habilitées »).
+:::
+
+La tenue de ces listes répond à une exigence de transparence et de sécurité : la tenue rigoureuse de ces listes permet en effet de recenser qui a accès aux données du SNDS et à quoi servent les données.
+
+Ces modèles ont vocation à aider tous les acteurs utilisant les données du SNDS dans leur démarche visant à satisfaire les exigences de la Commission informatique et libertés ainsi qu’à leurs obligations imposées par le référentiel de sécurité.
+
 ## Les accès sur projet
 
 Pour tous les demandeurs, publics comme privés, la loi prévoit la possibilité de demander un accès à une extraction de données du SNDS pour un projet d'intérêt public à des fins de recherche, d'étude et d'évaluation dans le domaine de la santé.
