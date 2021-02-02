@@ -1,96 +1,71 @@
 # Kit de démarrage avec les données de santé 
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Comment débuter avec les données de santé ?
+Guide pour vous accompagner dans vos projets d’utilisation des données de santé
 
-Publié originalement sur le [site internet du Health Data Hub](https://www.health-data-hub.fr/) comme kit de démarrage avec les données. 
+Publié originalement sur le [site internet du Health Data Hub](https://www.health-data-hub.fr/starter-kit) comme kit de démarrage avec les données. 
 
-## De quelles données ai-je besoin pour mon projet ?
+Toute personne ou structure, publique ou privée, à but lucratif ou non lucratif, peut accéder à des données personnelles de santé si elle est autorisée par la CNIL, seul organisme habilité à délivrer ce type d’autorisation. Sauf si les données sont parfaitement anonymes, auquel cas vous pouvez y accéder librement. Retrouvez ici, par exemple, les données ouvertes du SNDS produites par l’Assurance Maladie.
 
-Le [système national des données de santé](https://documentation-snds.health-data-hub.fr/introduction/) (SNDS) est historiquement constitué des données dites "médico administratives": il s'agit des feuilles de soin, des données de facturation hospitalière et des causes médicales de décès. La loi du 24 juillet 2019 a élargi son périmètre à l'ensemble des données de santé donnant lieu à un remboursement de l'assurance maladie.
+Si vous souhaitez réaliser une étude, une recherche ou une évaluation présentant un intérêt public, vous pouvez donc entamer une démarche de demande d’autorisation auprès de la CNIL.
 
-Lorsque je souhaite traiter ces données, je m'engage à :
-- Communiquer au grand public une partie de mes résultats à l’issue de mon projet en application des obligations de transparence. Ces éléments de résultats seront rendus publics par le biais du répertoire des projets maintenus par le Health Data Hub
-- Ne pas poursuivre l’une des finalités suivantes : la promotion en direction des professionnels de santé ou des établissements des produits de santé ; l’exclusion de garanties des contrats d’assurance ou la modification de cotisations ou de primes d’assurance pour un individu ou un groupe d’individus. Si je suis un industriel du produit de santé ou un assureur, je devrai être particulièrement attentif aux éléments de mon dossier permettant de garantir que je respecte ces dispositions.
+Pour remplir votre demande, vous devrez identifier précisément les données que vous souhaitez mobiliser.  
 
-Bientôt, le Health Data Hub mettra à ma disposition un catalogue de bases de données aisément accessibles. Dans l'attente, je peux être accompagné dans mes démarche auprès des responsables de données dont je souhaite utiliser une partie des données. Je peux trouver des exemples de bases de données [ici](https://epidemiologie-france.aviesan.fr).
+**Si vous voulez accéder à des données dont vous n’êtes pas le dépositaire**, vous aurez besoin d’aide pour remplir les rubriques  “3.1 - Données requises”, “4.1 - Respect des droits des personnes concernées” et “4.2 - Confidentialité et sécurité des données” du protocole scientifique, qui est une pièce obligatoire du dossier. C’est pourquoi nous vous conseillons vivement de prendre contact avec les équipes en charge de ces données.
 
-Si je veux mobiliser plusieurs sources pour un même projet, c'est possible, mais il faudra que j'instruise le circuit d'appariement pour pouvoir faire circuler et chaîner les données en toute sécurité. Il existe de nombreux circuits possibles, des exemples sont illustrés [ici](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_dcf7ce522510405fa77707b7c56f375e.pdf).
+**Si vous n’allez pas héberger vous-mêmes les données nécessaires pour votre projet**, vous aurez besoin de l’aide du responsable du système d’information concerné pour remplir les rubriques “4.2.2 - Support des données” du protocole scientifique, pièce obligatoire du dossier. Il vous faut donc décider au plus tôt où seront traitées les données. Cela peut être dans votre propre système d’information, celui du Health Data Hub, de la CNAM ou un tiers. Choisissez notamment en fonction de l’offre logicielle disponible et du niveau de sécurité requis (conformité au référentiel de sécurité du SNDS s’agissant du SNDS par exemple)
 
-## Qui sont mes partenaires ?
+## Pour constituer votre dossier, vous devrez rassemblez les pièces suivantes
+Les pièces obligatoires à [télécharger](https://www.health-data-hub.fr/starter-kit) :
 
-La réglementation en vigueur fait intervenir deux types de rôles : le responsable de traitement et le responsable de mise en œuvre. Je dois donc clairement identifier qui tient ces rôles dans mes partenaires car les responsabilités juridiques qui en découlent ne sont pas les mêmes.
+- Un protocole scientifique type : ne seront recevables que les protocoles respectant l’ensemble des consignes de remplissage, et comprenant la totalité des informations demandées dans chaque parties.
+- Un résumé type​
+- La déclaration publique d'intérêt du responsable de traitement et du responsable de mise en œuvre​
+- La déclaration publique d’intérêt du laboratoire de recherche ou du bureau d’études
+- Le formulaire de demande d'autorisation de la CNIL pré-rempli ​
+- La lettre d’information des personnes concernées si applicables
 
-Le responsable de traitement est à l'initiative de l'étude, tandis que le responsable de mise en oeuvre est chargé de l’exécuter. Il n'est pas rare que je sois les deux à la fois pour une même étude !
-
-Ainsi, si je suis commanditaire ou promoteur de l’étude et je réalise moi-même le traitement : je suis responsable de traitement et responsable de mise en œuvre.
-- Si je suis commanditaire de l’étude ou promoteur de l’étude mais c’est un tiers qui réalise le traitement : je suis responsable de traitement et le tiers est responsable de mise en œuvre.
-- Si nous sommes plusieurs commanditaires de l’étude, la responsabilité de traitement doit donc être partagée entre nous.
-
-Dans tous les cas de figure, les rôles respectifs de chacun des acteurs doivent être clairement établis via des conventions et/ou un contrat de sous-traitance.
-
-## Quelles sont les démarches administratives à réaliser ?
-
-En France, la réglementation est précise concernant la réutilisation des données personnelles de santé.
-
-Premièrement, mon projet doit poursuivre une [**finalité d'intérêt public**](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_31f8fb3427d04105a12d6c85c7de9063.pdf). Ce n'est a priori pas incompatible avec une activité commerciale mais cela implique d'être explicité dans le protocole.
-
-Deuxièmement, je dois faire **une demande d'autorisation auprès de la CNIL,** sauf dans des cas très précis où mon étude est éligible à des procédures dérogatoires ou simplifiées. Je peux dans ce cas réaliser mon projet dans le cadre d'une méthodologie de référence (MR). 
-
-En contrepartie de cet accès facilité, je dois respecter certaines obligations :
-- Faire un engagement de conformité sur le site internet de la [CNIL ](https://www.cnil.fr/fr/declarer-un-fichier)
-- Enregistrer mon étude sur l[e répertoire public ](https://www.indsante.fr/fr/repertoire-public-des-etudes-realisees-sous-mr)tenu par le Health Data Hub
-
-Je souhaite réutiliser des données de santé existantes et j’ai la capacité d’informer **individuellement** les personnes concernées avant la mise en œuvre mon étude ? Mon traitement peut être éligible à la [MR 004](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_40f57b1aa5e640b2bb717693a1a41893.pdf).
-
-Il me sera toutefois interdit par exemple de : 
-- Recueillir de données nominatives
-- Procéder à un appariement avec une autre source
-- Utiliser des données du SNDS non déjà chaînées dans une source de données tierce.
-
-Je souhaite utiliser les données du PMSI. Deux MR peuvent être utilisées : 
-- La [MR 005](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_d9d760a9c12d471095e221aff51136b1.pdf) si j’appartiens à un établissement de santé ou une fédération hospitalière
-- La [MR 006](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_d9b58c97918249e6b60769b7ef229a5a.pdf) si j’appartiens à une structure produisant ou commercialisant des produits de santé et que la mise en œuvre de mon étude est assurée par un bureau d’études
-
-Lorsque je ne suis pas éligible à une MR, je suis la procédure "classique".
-
-Je dois donc constituer un dossier que je soumets au Health Data Hub qui joue le rôle de guichet unique de l'accès aux données de santé dans le cadre de cette procédure.
-
-Ce dernier transmettra ma demande au comité éthique et scientifique pour les recherches, les études et les évaluations dans le domaine de la santé (CESREES) pour avis avant de la soumettre à la CNIL pour autorisation, le tout dans des délais encadrés.
-
-Plus de renseignements sur le fonctionnement et les dates des prochaines réunions du CESREES, sont à trouver [ici](https://www.health-data-hub.fr/page/le-cesrees).
-
-## Où vont être traitées mes données ?
-
-Différentes options s'offrent à moi si je ne dispose pas de mon propre système d'information sécurisé pour traiter les données. Je peux recourir à un prestataire ou bien utiliser les plateformes du Health Data Hub ou de la CNAM.
-
-Sur ces plateformes, un espace projet dédié m'est réservé. Je pourrai y traiter les données requises pour mon projet dès que mon projet sera autorisé, que j'aurai conventionné et aurai signé les CGU.
-
-Sur la plateforme technologique du Health Data Hub, je peux faire du Python, du R, du Spark, ou encore du java. Sur la plateforme technologique de la CNAM, je dispose de SAS, Word, Excel et Powerpoint.
-
-Pour le traitement du SNDS, ces plateformes doivent être conformes à un [référentiel de sécurité](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_d1febacb746b4123808561f989ca7594.pdf) spécifique. Si j'ai recours à la plateforme du Heallth Data Hub, mon correspondant pourra me fournir les pièces nécessaires pour le justifier au sein de mon dossier. Si je dispose de mon propre système d'information, il faudra que je produise et fournisse moi-même ces documents.
-
-## Quelles pièces dois-je rassembler pour constituer mon dossier ?
-
-Le dépôt de mon dossier s’effectue en ligne sur [une plateforme de dépôt](https://www.indsante.fr/fr/deposer-une-demande) de dossier. L’ ensemble de la procédure est dématérialisée. Mon dossier ne sera instruit que s'il est complet.
-
-Je serai tenu informé par la plateforme de l’avancement de ma demande.
-
-Mon dossier doit comprendre :
-- [Un protocole scientifique type](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_59e9a5b2fd33461cb207fbdee24b5aaf.docx?dn=20200427-Template_protocole.docx) ([notice d'aide](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/8b518a_d087761b02574142ae80f4888d4f7ee4.pdf))
-- [Un résumé type](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_2967180d6cbf4b58af9d40291712765e.docx?dn=20200427-Template_résumé.docx)
-- La déclaration publique d'intérêt du [responsable de traitement](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_5eb56bc2fde64e878b5f5220c550a00c.pdf) et du [responsable de mise en œuvre](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_a8998058469f4fc29285fab1e61306ec.pdf)
-- Le [formulaire](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_f5693851388b4162937d187719da6280.pdf) de demande d'autorisation de la CNIL pré-rempli 
-- [Une lettre](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_53122d7e403f4866b9ff31e1da1fcc03.pdf) d’information aux personnes concernées
-- L’avis du ou des comités scientifiques et/ou éthiques qui ont pu évaluer le projet et la composition de ce(s) comité(s), le cas échéant
+En complément, d’autres pièces peuvent vous être demandées :
+- L’avis du ou des comités scientifiques et/ou éthiques qui ont pu évaluer le projet et la composition de ce(s) comité(s), le cas échéant​
 - La liste des financeurs de l’étude
-- Pour les données du SNDS, des éléments certifiant le [bon niveau de sécurité ](https://fee494fb-072e-49c6-a5ed-00cfc497e5db.filesusr.com/ugd/46ab38_d1febacb746b4123808561f989ca7594.pdf)du système d'information où elles seront traitées et une [analyse d'impact](https://www.cnil.fr/fr/outil-pia-telechargez-et-installez-le-logiciel-de-la-cnil).
+- Pour les données du SNDS, des éléments certifiant le bon [niveau de sécurité](https://www.health-data-hub.fr/sites/default/files/2020-12/SNDS_Referentiel_securite_Guide_accompagnement.pdf) du système d'information où elles seront traitées et une [analyse d'impact](https://www.cnil.fr/fr/outil-pia-telechargez-et-installez-le-logiciel-de-la-cnil).
 
-## Comment aller plus loin ?
+## Ressources utiles
 
-A toutes les étapes de ma démarche, je peux :
-- Consulter le [répertoire des projets](https://health-data-hub.shinyapps.io/outil_visualisation/) pour avoir une idée de ce qui est réalisé à partir des données
-- Interroger le [forum d'entraide](https://entraide.health-data-hub.fr/) pour échanger sur la faisabilité de mon étude
-- Participer aux [matinales organisées](https://www.meetup.com/fr-FR/Health-Data-Hub/) en collaboration avec la CNAM pour avoir un premier niveau d'information sur le SNDS historique et aux [meet-up](https://www.meetup.com/fr-FR/Health-Data-Hub/) pour échanger avec tout type de porteurs de projet
-- Me référer à la [documentation collaborative](https://documentation-snds.health-data-hub.fr/) ou utiliser un des programmes partagés par la communauté
-- Adresser un mail à [hdh@health-data-hub.fr](mailto:hdh@health-data-hub.fr)
+- La [documentation du SNDS historique](https://documentation-snds.health-data-hub.fr/)
+- Le [forum d’entraide](https://entraide.health-data-hub.fr/) pour poser vos questions 
+- La note d’accompagnement relative à l’information des personnes concernées (à venir)
+- La notion d’[intérêt public](https://www.health-data-hub.fr/interet-public) 
+- Le guide de remplissage de l’expression de besoin pour le SNDS historique (à venir)
+- Le [guide d’accompagnement de mise en conformité du référentiel de sécurité du SNDS](../files/HDH/SNDS_Referentiel_securite_Guide_accompagnement.pdf)
+<p style="text-align: center;">
+<object data="../files/HDH/SNDS_Referentiel_securite_Guide_accompagnement.pdf" type="application/pdf" width="500px" height="450px">
+    <embed src="../files/HDH/SNDS_Referentiel_securite_Guide_accompagnement.pdf" type="application/pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../files/HDH/SNDS_Referentiel_securite_Guide_accompagnement.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+</p>
+- La présentation du [CESREES](https://www.health-data-hub.fr/cesrees)
+- Les [modèles d’appariements](../files/HDH/HDH_schemas_appariement.pdf)
+<p style="text-align: center;">
+<object data="../files/HDH/HDH_schemas_appariement.pdf" type="application/pdf" width="500px" height="450px">
+    <embed src="../files/HDH/HDH_schemas_appariement.pdf" type="application/pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../files/HDH/HDH_schemas_appariement.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+</p>
+- le [guide de la CNIL sur l’appariement direct](https://www.cnil.fr/fr/appariement-de-donnees-snds-numero-de-securite-sociale-nir-guide-pratique) 
+<p style="text-align: center;">
+<object data="../files/HDH/guide_pratique_circuits_nir_recherche_en_sante.pdf" type="application/pdf" width="500px" height="450px">
+    <embed src="../files/HDH/guide_pratique_circuits_nir_recherche_en_sante.pdf" type="application/pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../files/HDH/guide_pratique_circuits_nir_recherche_en_sante.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+</p>
+- L’[offre technologique du HDH](https://www.health-data-hub.fr/offre-technologique) 
+- L’[offre de formation](https://www.health-data-hub.fr/formations)
+
+## Déposez votre demande d'autorisation sur cette plateforme
+
+[Plateforme de dépôt](https://www.demarches-simplifiees.fr/commencer/soumission-d-un-projet-de-recherche-etude-ou-evalu)
+
