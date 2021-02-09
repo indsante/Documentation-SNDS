@@ -17,6 +17,29 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
 - [Chaîne youtube](https://www.youtube.com/channel/UCFmHnLZ31EgSrPhZQTM9weQ) du HealthDataHub
 - [Dossier sur GitLab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files/presentations) contenant l'ensemble des présentations
 
+## 2020.11.26 Meetup-SNDS6
+
+[Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/274203888/)
+
+### Démarche open source du Health Data Hub, 
+- Titre : Présentation et actualité et présentation des notebooks des exercices sur les données de synthèse inspirés des programmes partagés sur gitlab par la communauté.
+- Présenté par : Lorien Benda et Tim Vlaar, Health Data Hub
+- Support de présentation :
+[pptx](../files/presentations/meetup-snds6/20201106_PrésentationHDH_Meetup6.pptx),
+[pdf](../files/presentations/meetup-snds6/20201106_PrésentationHDH_Meetup6.pdf)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7UJmrRZ-4Fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Méthode de validation des algorithmes avec le SNDS  
+- Titre : Reconstituted Electronics Health Records (rEHR): a fact-checking method for algorithm validation in the SNDS.
+- Présenté par : les Drs. Nicolas Thurin (Pharmacien), Pauline Bosco (Médecin) et Patrick Blin (Médecin) de l’équipe Bordeaux PharmacoEpi (BPE : La BPE est une plateforme de recherche en pharmaco-épidémiologie de l’Université de Bordeaux qui fait partie du CIC 1401 INSERM du CHU de Bordeaux avec maintenant plus de 15 ans d’expérience dans l’analyse des données de l’Assurance Maladie). 
+- Support de présentation : 
+[pptx](../files/presentations/meetup-snds6/20201106_Présentation_PharmacoEpi-BPE_Meetup6.pptx),
+[pdf](../files/presentations/meetup-snds6/20201106_Présentation_PharmacoEpi-BPE_Meetup6.pdf)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a4RYnxV5my4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 2020.02.20 Meetup-SNDS5
 
 [Page de l’événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/268318992/)
