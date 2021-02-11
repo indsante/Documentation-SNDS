@@ -5,7 +5,7 @@
 
 ### Code CIP
 
-Le médicament sont identifiés selon des codes CIP, ou [Code Identifiant de Présentation](https://solidarites-sante.gouv.fr/soins-et-maladies/medicaments/glossaire/article/code-cip).
+Les médicaments sont identifiés selon des codes CIP, ou [Code Identifiant de Présentation](https://solidarites-sante.gouv.fr/soins-et-maladies/medicaments/glossaire/article/code-cip).
 
 Un code CIP est un code numérique, historiquement sur 7 caractères et maintenant sur 13.  
 
