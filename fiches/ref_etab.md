@@ -1,4 +1,5 @@
 # Le numéro FINESS dans le SNDS
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Tous les établissements sanitaires et sociaux sont enregistrés dans le répertoire Finess (fichier national des établissements sanitaires et sociaux).
 
