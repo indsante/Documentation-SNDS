@@ -34,7 +34,7 @@ Se rendre sur le **site de formation** et sur le **projet GitLab de formation** 
     - Un compte vous abonnera aux nouveautés par un email hebdomadaire (configurable).
     - Un compte vous permet de contribuer : mettre un cœur sur une réponse qui vous paraît utile. 
 
-- Dictionnaire interactif : [drees.shinyapps.io/dico-snds/](https://drees.shinyapps.io/dico-snds/)
+- Dictionnaire interactif : [health-data-hub.shinyapps.io/dico-snds/](https://health-data-hub.shinyapps.io/dico-snds/)
   - En quelle année a été créée la variable `TOP_AVASTIN` ?
   - Quelles variables utilisent la nomenclature `IR_SLM_V` ?
   - Dans quelles nomenclatures peut-on retrouver le terme `otite` ?
