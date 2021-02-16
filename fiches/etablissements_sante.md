@@ -93,7 +93,7 @@ OR (T2.ETE_IND_TAA is null AND T2.PRS_PPU_SEC is null
 
 #### Repérer les séjours des bénéficiaires de la CMU-C et de l’AME
 
-Les données de facturation exhaustives des séjours à l’hôpital public des bénéficiaires de la [CMU-C](../glossaire/CMUC.md) (devenue [CSS](../fiches/complementaire_sante_solidaire.md)) et de l’[AME](../glossaire/AME.md) remontent à la fois dans le PMSI et dans le DCIR/S. Pour retracer les dépenses de soin des bénéficiaires de l'AME et de la CMUC dans le DCIR, il faut joindre la table prestation [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) à la table affinée des remboursements autre que régime obligatoire [ER_ARO_F](../tables/DCIR/ER_ARO_F.md) et poser un filtre sur la variable `ARO_REM_TYP` (AME=7, CMUC=5 et 6). 
+La valorisation d’un séjour à l’hôpital public se décompose en deux parties : 80% du Groupe Homogène de séjour (GHS) + (20% du tarif journalier de prestation (TJP) + un forfait journalier). Le remboursement des séjours à 80% sur la base du GHS est transmis via le PMSI. La seconde partie correspond à la part complémentaire. Dans le cas des bénéficiaires de la [CMU-C](../glossaire/CMUC.md) (devenue [CSS](../fiches/complementaire_sante_solidaire.md)) et de l’[AME](../glossaire/AME.md), elle remonte dans le DCIR à l’aide des codes prestation 2237 (part complémentaire AME) et 2250 (forfait journalier aide médicale) et 2252 (forfait journalier de sortie). Pour retracer les dépenses de soin des bénéficiaires de l'AME et de la CMUC dans le DCIR, il faut joindre la table prestation [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) à la table affinée des remboursements autre que régime obligatoire [ER_ARO_F](../tables/DCIR/ER_ARO_F.md) et poser un filtre sur la variable `ARO_REM_TYP` (AME=7, CMUC=5 et 6). 
 
 ### Les centres de santé
 
