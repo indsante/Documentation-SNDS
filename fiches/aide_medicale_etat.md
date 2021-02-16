@@ -22,7 +22,7 @@ Il faut donc que l'individu ait au moins une prestation, ce qui est souvent le c
 
 On peut aussi utiliser la variable `BEN_CMU_CAT` (catégorie d’organisme complémentaire) dont la modalité 5 correspond à l’AME.
 
-En outre, joindre la table prestation avec la table affinée [ER_ARO_F](../tables/DCIR/ER_ARO_F.md) en posant le filtre `ARO_REM_TYP`=7 permet de retracer l'ensemble des prestations des bénéficiaires de l'AME, y compris les séjours à l'hôpital public. En effet, les soins des bénéfiaires de l'AME sont pris en charge à 100% par l'Etat, ce qui leur garantit de remonter dans le SNIIRAM. 
+En outre, joindre la table prestation avec la table affinée [ER_ARO_F](../tables/DCIR/ER_ARO_F.md) en posant le filtre `ARO_REM_TYP`=7 permet de retracer les prestations des bénéficiaires de l'AME. 
 
 ::: warning Attention
 L'AME n'est pas applicable à Mayotte.
