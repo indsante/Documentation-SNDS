@@ -225,22 +225,33 @@ RUN;
 |    AVY         |    Avis ponctuel de consultant psychiatre,   neuro-psychiatre ou neurologue (visite)    |
 |    B           |    Actes d'analyse                                                                      |
 |    C           |    Consultation Médecin Omnipraticien                                                   |
-|    CALD        |    Consultation approfondie au   cabinet                                                |
-|    CD          |    Consultation Chirurgien - Dentiste   Omnipraticien                                   |
-|    CNP         |    Consultation Médecin   Neuro-Psychiatre                                              |
+|    C F         |    Majoration Consultation Férié                                                        |
+|    C N         |    Majoration Consultation Nuit                                                         |
+|    CALD        |    Consultation approfondie au cabinet                                                  |
+|    CD          |    Consultation Chirurgien - Dentiste Omnipraticien                                     |
+|    CNP         |    Consultation Médecin Neuro-Psychiatre                                                |
+|    CNP F       |    Majoration Consultation neuro-psychiatre Férié                                       |
 |    CS          |    Consultation Médecin Spécialiste                                                     |
+|    CS F        |    Majoration Consultation Spécialiste Férié                                            |
+|    CS N        |    Majoration Consultation Spécialiste Nuit                                             |
 |    CSC         |    Consultation Spécialisée de   Cardiologie                                            |
 |    CSD         |    Consultation Chirurgien - Dentiste   Spécialiste                                     |
 |    CSF         |    Consultation Sage-Femme                                                              |
 |    D           |    Acte chirurgien-dentiste                                                             |
 |    DC          |    Certains actes dentaires                                                             |
+|    F           |    Majoration dimanche et férié Généralistes et autres Spécialistes                     |
 |    FFM         |    Forfaits petit matériel                                                              |
 |    FPE         |    majoration CS forfait pédiatrique enfant   de 0 à 24 mois                            |
 |    FTN         |    Forfaits techniques de radiologie                                                    |
 |    FTR         |    Forfaits techniques de radiologie   réduits                                          |
 |    G           |    Consultation du généraliste                                                          |
+|    G F         |    Majoration Consultation Médecine Générale Férié                                      |
+|    G N         |    Majoration Consultation Médecine Générale Nuit                                       |
+|    GS F        |    Consultation spécialiste Médecine Générale Féri                                      |
+|    GS N        |    Consultation spécialiste Médecine Générale Nuit                                      |
 |    K           |    Actes chirurgie et spécialités                                                       |
-|    KB          |    Actes Biologie Chirurgie                                                              |
+|    K N         |    Actes chirurgie et spécialités Nuit                                                  |
+|    KB          |    Actes Biologie Chirurgie                                                             |
 |    KC          |    Certains actes chirurgicaux                                                          |
 |    KCC         |    Actes chirurgie et de spécialité   réalisée par un médecin spécialisé                |
 |    KE          |    Certains actes chirurgicaux réalisés en   echographie                                |
@@ -275,6 +286,10 @@ RUN;
 |    MCPCS       |    majoration CS pour spécialités                                                       |
 |    MCS         |    Majoration coordination de spécialistes                                              |
 |    MEG         |    Majoration enfants généraliste                                                       |
+|    MEG F       |    Majoration enfants généraliste Férié                                                 |
+|    MEG N       |    Majoration enfants généraliste Nuit                                                  |
+|    MMG         |    majoration médecin généraliste                                                       |
+|    MN          |    Majoration pour acte de nuit de 20h00 à 00h00 et de 6h00 à 8h00                      |
 |    ORT         |    Orthodontie                                                                          |
 |    P           |    Actes Anapath-Cytologie                                                              |
 |    PB          |    Prélévement direct non médecin   Laboratoire                                         |
