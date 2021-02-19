@@ -54,10 +54,9 @@ jointure unique `CLE_DCI_JNT`.
 La correspondance entre les codes LPP et les codes prestations est donnée dans 
 la table de nomenclature `NT_HIS`, où `LPH_PRS_NAT` représente le code prestation en norme B2 (`PRS_NAT_CB2`)
  et `LPH_PRS_IDE` représente le code LPP (plus de détails dans la dernière section). 
+ 
 
-## Quelques statistiques sur les aides auditives
-
-### Répartition de la base de remboursement par codes LPP
+## Répartition de la base de remboursement par codes LPP
 
 ![graphique base remboursement audio](../files/DREES/2020-04-09_audioprotheses.png "Base remboursement titre II chap 3")
 ![graphique base remboursement audio_quantite](../files/DREES/2020-04-09_audioprotheses_quantite.png "Quantité titre II chap 3")
@@ -74,30 +73,6 @@ L'achat d'appareils auditifs représente 89% des dépenses totales
 
 Il est possible d'exclure la partie entretien et réparation en appliquant  un filtre sur le type de prestations : `TIP_PRS_TYP` NOT IN (2,5).
 Il convient de se référer à la nomenclature `IR_PRF_V` pour cette variable.
-
-
-### Prix d'un appareil auditif 
-
-::: tip Attention
-
-Les chiffres suivants proviennent d'une extraction réalisée en 2018, sur les codes `PRS_NAT_REF` 3541 et 3547.
-::: 
-
-|   | **Fréquence** | **%** | **Fréquence cumulée** | **%** |
-| --- | --- | --- | --- | --- |
-| **strictement inférieur à 1000€** | 3819 | 9 | 3819 | 9 |
-| **entre 1000€ et 1999€** | 32974 | 77,9 | 36793 | 86,9 |
-| **entre 2000€ et 2999€** | 3532 | 8,3 | 40325 | 95,3 |
-| **plus de 2999€** | 2004 | 4,7 | 42329 | 100 |
-
-*Source*  : DCIR (Base école)
-
-**Prix moyen**
-
-Si l'on considère l'ensemble du poste audioprothèse, on a un prix moyen de 812€.
-- Achat d'appareil auditif seulement : 2528,3€
-- Entretien et réparation : 124,8€
-
 
 
 ## Exemple de code pour extraire les dépenses d'audioprothèses
