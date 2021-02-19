@@ -19,7 +19,7 @@ La première étape consiste à sélectionner tous les actes associés à un ét
 
 Afin de se concentrer sur le champ des établissements privés, les filtres à poser sont les suivants : 
 
--	`DPN_QLF` NE 71 : on exclut les remontées d'information "pour information (soins externes)", afin d'écarter les ACE à l'hôpital public.
+-	`DPN_QLF` NE 71 : La modalité 71 « pour information » du qualificatif du dépassement correspond à l’activité (ACE et séjours) des établissements publics qui ne pratiquent pas de facturation directe et qui est transmise pour information à l’Assurance Maladie (mais non exhaustive).
 
 -	`ETE_TYP_COD` NOT IN (1,2,3) : ce filtre nous permet de se concentrer sur les prestations qui ont lieu dans un établissement privé.
 Pour obtenir la classification des établissements, se référer à la nomenclature `ETE_TYE_V` présentée dans la section suivante.
