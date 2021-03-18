@@ -17,11 +17,49 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
 - [Chaîne youtube](https://www.youtube.com/channel/UCFmHnLZ31EgSrPhZQTM9weQ) du HealthDataHub
 - [Dossier sur GitLab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files/presentations) contenant l'ensemble des présentations
 
+## 2021.03.11 Meetup-SNDS7
+
+[Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/276539610/)
+
+### Introduction globale sur les données de synthèse
+- Titre : Données de synthèse, définition, utilité, pourquoi en a-t-on besoin ?
+- Présenté par : Lorien Benda (Health Data Hub)
+- Support de présentation :
+[pdf](../files/presentations/meetup-snds7/20210318_HDH_slide-intro-meetup7_MLP-2.0.pdf)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q1MrbE0-KRg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Données de synthèse Repères
+- Titre : Utilisation de données synthétiques SNDS pour le développement d'outils et de méthodes adaptés à la phramaco-épidémiologie
+- Présenté par : Pr Emmanuel Oger (Directeur de l'EA 7449 REPERES (REcherche en Pharmaco-Epidémiologie et REcours aux Soins))
+André Happe (EA 7449 REPERES, en charge de l'axe transversal "Outils et Méthodes"), Erwan Drezen (CEO de la société CUBR).
+- Support de présentation : 
+[pdf](../files/presentations/meetup-snds7/20210318_cuber_meetup7_MLP-2.0.pdf)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GNU53hCFEbE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Générateur de données de synthèse
+- Titre : Création d'un générateur de données de synthèse
+- Présenté par : Gilles Essoki Ndame et Aymeric Floyrac (Health Data Hub).
+- Support de présentation : 
+[pdf](../files/presentations/meetup-snds7/20210318_HDH_slides-generateur-meetup7_MLP-2.0.pdf)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9z-deBBn7Q4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Anonymisation et données de synthèse
+- Titre : Anonymisation de données, que permettent les avatars ?
+- Présenté par : Pierre Antoine Gourraud (Professeur des universités, praticien-hospitalier de la faculté de médecine de l’université de Nantes (France)), Carole Requillard (Directrice de la Fabrique au Health Data Hub), Olivier Breillacq (Fondateur de la startup Octopize-Mimethik Data)
+- Support de présentation : 
+[pdf](../files/presentations/meetup-snds7/20210318_Octopize_Deck-OctopizeHdhCom_MLP-2.0.pdf)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gDhQZxVaZfk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## 2020.11.26 Meetup-SNDS6
 
 [Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/274203888/)
 
-### Démarche open source du Health Data Hub, 
+### Démarche open source du Health Data Hub
 - Titre : Présentation et actualité et présentation des notebooks des exercices sur les données de synthèse inspirés des programmes partagés sur gitlab par la communauté.
 - Présenté par : Lorien Benda et Tim Vlaar, Health Data Hub
 - Support de présentation :
