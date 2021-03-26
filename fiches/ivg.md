@@ -91,6 +91,10 @@ WHERE (t2.CPL_MAJ_TOP<2 & t2.PRS_NAT_REF=3329 & t2.EXE_SOI_AMD LIKE '2018%'
 & t2.flx_dis_dtd > '31dec2017:0:0:0'dt 
 & t2.dpn_qlf ne 71 & t2.prs_dpn_qlp ne 71);
 ```
+
+N'hésitez pas à également consulter le programme [NORMANDIE_IVG_territo.sas](https://gitlab.com/healthdatahub/programmes-snds/-/blob/master/ARS/P%C3%A9rinatalit%C3%A9/NORMANDIE_IVG_territo.sas) partagé par l'ARS Normandie permettant d'estimer le nombre d'IVG en hôpital et en soins de ville pour sa région (adaptable à d'autres départements ou à la France entière).
+
+
 ## Références
 
 ::: tip Crédits
