@@ -75,7 +75,7 @@ PROC SQL;
         SELECT DISTINCT ben_idt_ano
         FROM ir_orc_r
         WHERE ben_cta_typ=89
-        AND mll_cta_ds < to_date ('20180101','YYYYMMDD')
+        AND mll_cta_dsd < to_date ('20180101','YYYYMMDD')
         AND (mll_cta_dsf > to_date('20170101','YYYYMMDD') OR mll_cta_dsf is null));
     disconnect from oracle;
 QUIT;
