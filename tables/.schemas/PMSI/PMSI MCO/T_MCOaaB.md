@@ -42,10 +42,10 @@ Nom|Type|Description|Propriétés
 `GHS_HS_INNOV`|nombre entier|GHS si non prise en compte de l&#x27;innovation||
 `GHS_NUM`|nombre entier|Numéro de GHS (du GHM GENRSA)||
 `GRC_GHM`|chaîne de caractères|GHM calculé par la clinique||
-`GRC_RET`|booléen|Groupage établissement Code Retour||
+`GRC_RET`|chaîne de caractères|Groupage établissement Code Retour||
 `GRC_VER`|nombre entier|Groupage établissement Version classification||
 `GRG_GHM`|chaîne de caractères|GHM calculé par le GENRSA||
-`GRG_RET`|booléen|Code retour obtenu par GENRSA||
+`GRG_RET`|chaîne de caractères|Code retour obtenu par GENRSA||
 `GRG_VER`|chaîne de caractères|Groupage GENRSA :Version de la classification||
 `INNOV_NUM`|chaîne de caractères|Numéro d&#x27;innovation||
 `MACH_TYP_RAD`|chaîne de caractères|Type de machine en radiothérapie||

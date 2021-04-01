@@ -23,11 +23,11 @@ Nom|Type|Description|Propriétés
 `GEN_VER`|chaîne de caractères|N° version de GENRHA||
 `GRC_VER`|chaîne de caractères|Version de groupage Etablissement||
 `GRC_GME`|chaîne de caractères|Groupage GME Etablissement||
-`GRC_RET`|booléen|Code retour GME Etablissement||
+`GRC_RET`|chaîne de caractères|Code retour GME Etablissement||
 `GRC_TOP_ERR`|chaîne de caractères|Indicateur d’erreur GME Etablissement||
 `GRG_VER`|chaîne de caractères|Version de groupage GENRHA||
 `GRG_GME`|chaîne de caractères|Groupage GME GENRHA||
-`GRG_RET`|booléen|Code retour GME GENRHA||
+`GRG_RET`|chaîne de caractères|Code retour GME GENRHA||
 `GRG_TOP_ERR`|chaîne de caractères|Indicateur d’erreur GME GENRHA||
 `TYP_GEN_RHA`|chaîne de caractères|Type de génération automatique du RHA||
 `RHA_NUM`|chaîne de caractères|N° Séquentiel du séjour||
