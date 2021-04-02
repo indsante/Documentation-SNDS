@@ -26,9 +26,7 @@ de décès, etc
 * Le cas échéant, développement de nouveaux algorithmes, mise à jour régulière d’algorithmes
 en fonction de l’évolution des techniques médicales, de l’introduction de nouveaux
 médicaments et des modifications des nomenclatures d’actes 
-* Validation des algorithmes par des méthodes diverses : retour au médecin traitant,
-confrontation avec des dossiers médicaux hospitaliers, des questionnaires remplis par les
-sujets, croisement avec d’autres sources, telles que registres de maladie, cohortes...
+* Promouvoir la validation des algorithmes par des méthodes diverses : retour au médecin traitant, confrontation avec des dossiers médicaux hospitaliers, des questionnaires remplis par les sujets, croisement avec d’autres sources, telles que registres de maladie, cohortes...
 
 ## Pour aller plus loin 
 
