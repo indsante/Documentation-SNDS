@@ -21,7 +21,7 @@ Le secrétariat du comité est assuré par le Health Data Hub.
 ## Composition
 Présidé par Bernard Nordlinger, le CESREES est composé d’une vingtaine de membres (nommés par arrêté) et d’un réseau d’experts extérieurs en matière de recherche dans les domaines de la santé, de l'épidémiologie, de la génétique, de la biostatistique, des sciences humaines et sociales, de l’éthique, du juridique et en matière de traitements algorithmiques et de traitement des données à caractère personnel dans le domaine de la santé.
 
-::: Note
+::: tip Note
 Plus d'informations sont disponibles sur le site internet du [Health Data Hub](https://www.health-data-hub.fr/cesrees)
 :::
  
