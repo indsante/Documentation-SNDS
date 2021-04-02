@@ -49,6 +49,13 @@ const sidebar = [
                 ]
             },
             "/formation_snds/Sante_publique_France",
+            {
+                title: "Guides de ReDSiam",
+                path: "/formation_snds/redsiam/",
+                children: [
+                    "/formation_snds/redsiam/guide"
+                ]
+            },
             "formation_snds/donnees_synthetiques",
             "/formation_snds/notebook",
             "/formation_snds/programmes"
