@@ -8,8 +8,8 @@ Les IVG en établissement hospitalier s'identifient grâce au [GHM](../glossaire
 Il faut retenir le code `GRG_GHM`=14Z08Z.  
 
 Dans la table des actes ([T_MCOaaA](../tables/PMSI/PMSI MCO/T_MCOaaA.md)) la variable `CDC_ACT` donne le type de l'IVG : 
-*  les IVG *médicamenteuses* correspondent au code **JNJP0010** 
-*  les IVG *instrumentales* correspondent au code **JNJD0020**.
+*  les IVG *médicamenteuses* correspondent au code **JNJP001** 
+*  les IVG *instrumentales* correspondent au code **JNJD002**.
 
 ## Les IVG hors établissement hospitalier
 Les IVG hors établissement hospitalier correspondent à la prestation « forfait médicament IVG ville » (`PRS_NAT_REF`=3329) dans la table des prestations ([ER_PRS_F](../tables/DCIR/ER_PRS_F.md)).  
@@ -98,5 +98,5 @@ N'hésitez pas à également consulter le programme [NORMANDIE_IVG_territo.sas](
 ## Références
 
 ::: tip Crédits
-Cette fiche a été rédigée par **Annick Vilain** (DREES) [(Études et Résultats)](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/etudes-et-resultats/article/224-300-interruptions-volontaires-de-grossesse-en-2018)
+Cette fiche a été rédigée par **Annick Vilain** (DREES) [(Études et Résultats)](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/etudes-et-resultats/article/224-300-interruptions-volontaires-de-grossesse-en-2018). Elle a été mise à jour par **Elodie Baril** (Ined) et **Pierre-Louis Bithorel** (Ined).
 :::
