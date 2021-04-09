@@ -38,5 +38,6 @@ Nom|Type|Description|Propriétés
 `FLX_TRT_DTD`|date|Date d&#x27;entrée des données dans le système d&#x27;information||
 `ORG_CLE_NUM`|chaîne de caractères|organisme de liquidation des prestations (avant fusion des caisses)||
 `PRS_ORD_NUM`|nombre entier|N° ordre prestation dans décompte                 8||
-`REM_TYP_AFF`|nombre entier|Type de remboursement affiné                                 9||
+`REM_TYP_AFF`|nombre entier|Type de remboursement affiné 9||
+`DCT_FOR_AMO`|nombre entier|Indicateur de forçage part AMO||
 

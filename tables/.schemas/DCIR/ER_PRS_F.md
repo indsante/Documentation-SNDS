@@ -136,7 +136,6 @@ Nom|Type|Description|Propriétés
 `PRS_TYP_MAJ`|chaîne de caractères|Type de majoration||
 `EXE_CTX_BEN`|chaîne de caractères|Contexte Bénéficiaire||
 `CPL_FTA_COD`|nombre entier|Code de forçage du taux pour les compléments d&#x27;actes||
-`PRS_PPU_SEC`|nombre entier|Code privé - public de la Prestations||
 `BEN_CTA_TYP`|nombre entier|Type de contrat complémentaire||
 `PRS_DRA_AME`|année et mois|Date réelle (année et mois) de l&#x27;accouchement||
 `DRG_AFF_NAT`|nombre entier|Code affiné du destinataire du règlement||
