@@ -1,4 +1,4 @@
-# Open data CépiDc
+# Open Data du CépiDc
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Les données issues de la déclaration et la codification des causes de décès sont collectées de manière officielle et régulière en France depuis 1968.

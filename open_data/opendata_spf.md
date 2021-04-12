@@ -1,4 +1,4 @@
-# Open Data Santé publique France
+# Open Data de Santé publique France
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 De nombreux indicateurs épidémiologiques sont disponibles sur le [portail Géodes](https://geodes.santepubliquefrance.fr) de Santé publique France qui alimente le [data.gouv.fr](https://www.data.gouv.fr/fr/organizations/sante-publique-france/). Géodes permet de restituer plus de 300 indicateurs sous forme de cartes dynamiques, de tableaux et de graphiques.
