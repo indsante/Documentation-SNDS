@@ -1,4 +1,4 @@
-# Open data ATIH
+# Open Data de l'ATIH
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 [Scansanté](https://www.scansante.fr/) met à disposition des acteurs du système de soins des indicateurs «prêts à l’emploi» nécessaires à la connaissance et à la gestion du secteur hospitalier.
