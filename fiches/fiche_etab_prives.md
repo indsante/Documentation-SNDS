@@ -23,9 +23,7 @@ Afin de se concentrer sur le champ des établissements privés, les filtres à p
 
 -	`ETE_TYP_COD` NOT IN (1,2,3) : ce filtre nous permet de se concentrer sur les prestations qui ont lieu dans un établissement privé.
 Pour obtenir la classification des établissements, se référer à la nomenclature `ETE_TYE_V` présentée dans la section suivante.
-Se référer à la nomenclature pour savoir quel filtre exact appliquer sur `ETE_TYP_COD` en fonction de la catégorie de prestations ciblée. Il est équivalent au filtre `PRS_PPU_SEC`=2 (code public/privé, modalité "privé"). 
-
-- Sélectionner le mode de fixation des tarif 7 (`MFT_COD`=7) qui correspond aux cliniques privées.
+Se référer à la nomenclature pour savoir quel filtre exact appliquer sur `ETE_TYP_COD` en fonction de la catégorie de prestations ciblée. 
 
 -	 `ETE_CAT_COD` NOT IN (124, 125, 130, 132, 133, 134, 142, 223, 224, 228, 230, 268, 269, 289, 297, 347, 413, 414, 433, 438, 439,700). 
 On filtre sur la catégorie de l’établissement exécutant afin d'exclure les centres de santé.
@@ -38,13 +36,14 @@ ainsi que dans la statistique mensuelle de la CNAM.
 Si les caisses ont effectué des remboursements pour d’autres risques, ceux-ci ne sont pas censés être pris en charge. Par exemple la nature
 d'assurance 22 qui correspond à des soins aux invalides de guerre (CNMSS).
 
-
+Pour information, la variable `MFT_COD` permet d'avoir des informations sur le mode de fixation des tarifs.
+Le filtre `MFT_COD`=7 permet notamment de restreindre le champ aux prestations tarifées par contrat avec l'ARH pour les établissements privés.  
 ## Ventiler les dépenses
 
 ### Selon la nature juridique
 
 A partir de la variable `ETE_TYP_COD`, on peut construire une ventilation des établissements privés selon plusieurs axes: lucratifs/non lucratifs, conventionné ou non, et OQN/T2A.
-Le champ du privé concerne tous les établissements pour lesquels `ETB_PPU_SEC` de `IR_TYE_V` prend la valeur 2 (à l'exception du secteur libéral ambulatoire `ETE_TYP_COD`=0 qui correspond à des soins de ville).
+Le champ du privé concerne tous les établissements pour lesquels `ETB_PPU_SEC` de `IR_TYE_V` prend la valeur 2.
 
 |  ETB_TYP_COD |ETB_PPU_SEC   | ETB_TYP_LIB  |
 |---|---|---|
@@ -90,9 +89,6 @@ la variable `DDP_GDE_COD` qui nous renseigne sur la discipline de prestations.
 La HAD se repère avec le Groupe Homogène de Tarif ([GHT](../glossaire/GHT.md)).
 
 Il n'existe pas d'activité externe en établissement privé lucratif, elle est considérée comme du soin de ville libéral. Les consultations de généralistes ou spécialistes en établissements privés peuvent néanmoins être étudiées en filtrant sur le lieu d'exécution. 
-
-
-
 
 
 ## Calculer des remboursements
