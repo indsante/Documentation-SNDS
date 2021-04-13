@@ -12,7 +12,7 @@ Une documentation est associée à chaque indicateur via l’onglet « Synthèse
 En cas de réutilisation des éléments par téléchargement, la source « Santé publique France – GEODES » doit être citée et le logo de Santé publique France présent sur les cartes.
 
 ## Lien d'accès
-Portail [Géodes](https://geodes.santepubliquefrance.fr/#c=article&page=P005)
+Portail [Géodes](https://geodes.santepubliquefrance.fr/#c=home)
 
 
 ::: tip Open data mortalité Covid-19
