@@ -50,7 +50,7 @@ const sidebar = [
             },
             "/formation_snds/Sante_publique_France",
             {
-                title: "Guides de ReDSiam",
+                title: "Documents de ReDSiam",
                 path: "/formation_snds/redsiam/",
                 children: [
                     "/formation_snds/redsiam/guide"
@@ -83,7 +83,6 @@ const sidebar = [
                 ]
             },
             "/aller_plus_loin/Epi-Phare",
-            "/aller_plus_loin/cartographie_indicateurs",
             "/aller_plus_loin/internet",
             "/aller_plus_loin/bibliographie"
         ]
@@ -100,6 +99,7 @@ const sidebar = [
             "/open_data/opendata_has",
             "/open_data/data_sante",
             "/open_data/terminologie_ans",
+            "/open_data/cartographie_indicateurs",
             "/open_data/finess",
             "/open_data/BDPM",
             "/open_data/data_gouv"

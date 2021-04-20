@@ -18,5 +18,5 @@ Les pages suivantes référencent les documents publiés sur ce site par chaque 
 - Un [dictionnaire interactif](https://health-data-hub.shinyapps.io/dico-snds/) du SNDS, conçu par la DREES et maintenu par le Health Data hub
 - Un [schema formalisé du SNDS](https://gitlab.com/healthdatahub/schema-snds)
 qui alimente le dictionnaire interactif, et la partie **Tables** de cette documentation
-- Une [cartographie des indicateurs de santé](http://dataviz.drees.solidarites-sante.gouv.fr/indicateurs_de_sante/) produite par la DREES, décrite [ici](../aller_plus_loin/cartographie_indicateurs.md)
+- Une [cartographie des indicateurs de santé](http://dataviz.drees.solidarites-sante.gouv.fr/indicateurs_de_sante/) produite par la DREES, décrite [ici](../open_data/cartographie_indicateurs.md)
 - un [dictionnaire interactif](http://dico.atih.sante.fr/) du PMSI, produit par l'ATIH
