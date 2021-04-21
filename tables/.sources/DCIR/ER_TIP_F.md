@@ -7,6 +7,7 @@ Dans **ER_TIP_F**, l’information affinée est communiqué sous la variable `TI
 
 Il existe un référentiel SNDS - **NT_LPP** - qui contient la liste des codes LPP. 
 
+Pour plus d'informations, consulter la section dédiée sur la fiche [Dépenses dans les tables affinées du DCIR](https://documentation-snds.health-data-hub.fr/fiches/tables_affinees.html#la-lpp)
 
 ::: tip Crédits
 Les informations ci-dessus sont tirées du document [*SNDS, ce qu'il faut savoir*](../../formation_snds/Sante_publique_France.md) constitué par Santé Publique France.
