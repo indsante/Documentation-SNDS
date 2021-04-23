@@ -1,4 +1,4 @@
-# Notions autour du Professionnel de sante
+# Notions autour du Professionnel de santé
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 ## Préambule
