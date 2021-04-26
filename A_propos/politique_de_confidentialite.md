@@ -38,9 +38,10 @@ Vos informations personnelles sont uniquement traitées par les personnes habili
 
 Les données peuvent être transmises aux autorités compétentes, à leur demande, dans le cadre de procédures judiciaires, dans le cadre de recherches judiciaires et de sollicitations d’information à la demande des autorités ou afin de se conformer à d’autres obligations légales. 
 
-Durée de conservation des Données à caractère personnel 
+## Durée de conservation des Données à caractère personnel 
 Vos données sont conservées jusqu’à la durée nécessaire à l’accomplissement du traitement de votre demande. En tout état de cause, vos données à caractère personnel ne sont pas conservées au-delà d’une période de cinq ans à compter de la date du dernier contact. A l’issue de cette période, vos données seront supprimées. 
-Sécurité des Données à caractère personnel
+
+## Sécurité des Données à caractère personnel
 Le Health Data Hub assure la sécurité et la confidentialité de vos données à caractère personnel en mettant en place une protection des données renforcée par l’utilisation de moyens de sécurisation physiques et logiques. Ces mesures techniques et organisationnelles visent à éviter la perte, la mauvaise utilisation, l’altération et la suppression des données à caractère personnel vous concernant. Ces mesures sont adaptées selon le niveau de sensibilité des données traitées et selon le niveau de risque que présente le traitement ou sa mise en œuvre. 
 
 ## Vos droits
