@@ -1,5 +1,14 @@
+---
+tags:
+    - Dépenses
+    - Prestations
+    - DCIR/DCIRS
+---
+
 # Dépenses dans les tables affinées du DCIR et du DCIRS
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Certains actes de la table centrale des prestations (`ER_PRS_F` dans le DCIR et `NS_PRS_F` dans le DCIRS) donnent lieu
 à un acte affiné. On appelle **acte affiné**, toute prestation à un niveau plus fin que le code prestation (`PRS_NAT`). 

@@ -1,5 +1,19 @@
+---
+tags:
+    - Régime / Organisme
+    - Bénéficiaires
+    - Aides financiaires de l'état
+    - Initiation au SNDS
+    - PMSI
+    - DCIR/DCIRS
+    - Référentiels bénéficiaires
+--- 
+    
 # Les variables sociodémographiques dans le SNDS
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
+
 Le SNDS est très riche en informations sur le recours aux soins mais possède peu de variables sociodémographiques sur les bénéficiaires.
 
 Cette fiche présente les différentes variables disponibles, leur qualité et où les trouver.

@@ -1,5 +1,15 @@
+---
+tags:
+    - Bénéficiaires
+    - Dépenses
+    - Prestations
+    - PMSI
+---
+
 # Dispositifs médicaux implantables en sus du GHS 
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Dans une première partie, nous présentons les dispositifs médicaux implantables (DMI) facturés en sus des [GHS](../glossaire/GHS.md) en MCO.  
 Dans une seconde partie, nous expliquons comment extraire les dépenses associées à ces dispositifs à partir du PMSI MCO.  

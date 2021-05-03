@@ -157,7 +157,8 @@ const sidebar = [
             "/A_propos/mentions_legales.md",
             "/A_propos/politique_de_confidentialite.md"
         ]
-    }
+    },
+    "/tags"
 ];
 
 module.exports = {
@@ -179,9 +180,9 @@ module.exports = {
         algolia: {
             apiKey: "b1d88a4e2413821b4ebe7441ecc95a97",
             indexName: "health-data-hub-snds",
-            algoliaOptions: {
-              hitsPerPage: 10,
-            }
+            algoliaOptions:{
+               hitsPerPage: 10,
+            },
         },
         smoothScroll: true
     },
@@ -196,6 +197,6 @@ module.exports = {
         }
     },
     plugins: [
-        "mermaidjs"
+        ["mermaidjs"]
     ]
 };

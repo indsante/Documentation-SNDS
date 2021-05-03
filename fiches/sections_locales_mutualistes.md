@@ -1,6 +1,12 @@
+---
+tags:
+    - Régime / Organisme
+---
+
 # Sections Locales Mutualistes
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
+<TagLinks />
 
 ## Notions préalables sur les organismes de liquidation / d’affiliation 
 

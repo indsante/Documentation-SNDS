@@ -1,5 +1,15 @@
+---
+tags:
+    - Diagnostics
+    - Bénéficiaires
+    - Référentiels bénéficiaires
+    - Fiche-programme
+---
+
 # Requête type de sélection des affections de longue durée (ALD)
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Cette fiche a pour objectif de décrire les informations disponibles dans le SNDS concernant les pathologies exonérantes (avec un focus sur les ALD).  
 Elle propose également une requête type de sélection d'affections de longue durée.

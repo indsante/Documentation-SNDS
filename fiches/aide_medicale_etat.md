@@ -1,5 +1,16 @@
+---
+tags:
+   - Bénéficiaires
+   - Aides financiaires de l'état
+   - Régime / Organisme
+   - DCIR/DCIRS
+   - Fiche-programme
+---
+
 # Aide Médicale d'Etat
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 L'Aide Médicale de l'État (AME) est destinée à permettre l'accès aux soins des personnes en situation irrégulière en France. 
 Elle est attribuée sous conditions de résidence et de ressources.

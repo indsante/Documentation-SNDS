@@ -1,5 +1,14 @@
+---
+tags:
+    - Bénéficiaires
+    - Diagnostics
+    - PMSI
+---
+
 # Chaînage Mère-enfant
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Dans le PMSI, il est parfois nécessaire de relier la facture du nouveau-né à celle de sa mère (c'est ce qu'on appelle le chaînage mère-enfant). Depuis 2012, le numéro anonyme mère-enfant (`NIR_ANO_MAM` dans le PMSI) permet cela (avant ce chaînage était possible uniquement de manière probabiliste). La description de cette variable fait l'objet de la première partie.
 

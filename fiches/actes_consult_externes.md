@@ -1,5 +1,18 @@
+---
+tags:
+   - Bénéficiaires
+   - Prestations
+   - Etablissements et Structures
+   - Initiation au SNDS
+   - PMSI
+   - DCIR/DCIRS
+   - Fiche-programme
+---
+
 # Actes et consultations externes
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 ## Que regroupent les actes et consultations externes ?
 

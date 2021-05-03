@@ -1,5 +1,15 @@
+---
+tags:
+    - Bénéficiaires
+    - PMSI
+    - DCIR/DCIRS
+    - Référentiels bénéficiaires
+---
+
 # Localisation géographique des bénéficiaires
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 La localisation géographique du bénéficiaire dans le SNDS est possible grâce aux variables indiquant le **département** et la **commune de résidence**. 
 Il n’existe pas de niveau de localisation plus fin.

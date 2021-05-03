@@ -1,5 +1,17 @@
+---
+tags:
+    - Bénéficiaires
+    - Régime / Organisme
+    - Aides financiaires de l'état
+    - DCIR/DCIRS
+    - Référentiels bénéficiaires
+    - Fiche-programme
+---
+
 # CMU Complémentaire
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 La présente fiche porte sur la CMU complémentaire (CMU-C). 
 Elle permettait aux assurés à qui elle était attribuée de bénéficier d'une mutuelle gratuite pour le remboursement de leurs frais de santé.

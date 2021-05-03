@@ -1,5 +1,13 @@
+---
+tags:
+    - Généralité SNDS
+    - Initiation au SNDS
+---
+
 # Les Méthodologies de Référence (MR) 
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Les Méthodologies de Référence (MR) sont des procédures simplifiées d'accès aux données de santé.
 Elles sont le principal mode d'accès, là où le circuit d'autorisation est l'exception. 

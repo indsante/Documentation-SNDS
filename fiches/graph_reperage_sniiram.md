@@ -1,5 +1,15 @@
+---
+tags:
+    - Généralité SNDS
+    - Initiation au SNDS
+    - PMSI
+    - DCIR/DCIRS
+---
+
 # Graphique pour Parcourir le Sniiram
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Cette présentation illustre quelles sources (DCIR ou PMSI) et tables utiliser pour rechercher plusieurs types de soins :
 - les consultations,

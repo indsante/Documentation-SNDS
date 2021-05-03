@@ -1,5 +1,13 @@
+---
+tags:
+    - Généralité SNDS
+    - Fiche-programme
+---
+
 # SCALPEL, une chaîne de traitement pour transformer le SNDS
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Le SNDS est issu de la fusion de différentes bases de données médico-administratives (SNIIRAM, PMSI, CépiDC, ...). La plupart de ces sources ont pour but premier la facturation. Malgré la richesse de ces données, la structure brute du SNDS est donc hétérogène et peu adaptée à l'analyse.
 

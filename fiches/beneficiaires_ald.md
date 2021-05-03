@@ -1,5 +1,20 @@
+---
+tags:
+   - Bénéficiaires
+   - Diagnostics
+   - Aides financiaires de l'état
+   - DCIR/DCIRS
+   - Régime / Organisme
+   - Initiation au SNDS
+   - DCIR/DCIRS
+   - Référentiels bénéficiaires
+   - Fiche-programme
+---
+
 # Bénéficiaires du dispositif ALD
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 ## Le dispositif des ALD
 

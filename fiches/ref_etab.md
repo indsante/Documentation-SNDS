@@ -1,5 +1,15 @@
+---
+tags:
+    - Etablissements et Structures
+    - Initiation au SNDS
+    - DCIR/DCIRS
+    - PMSI
+---
+
 # Le numéro FINESS dans le SNDS
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Tous les établissements sanitaires et sociaux sont enregistrés dans le répertoire Finess (fichier national des établissements sanitaires et sociaux).
 

@@ -63,8 +63,8 @@ André Happe (EA 7449 REPERES, en charge de l'axe transversal "Outils et Méthod
 - Titre : Présentation et actualité et présentation des notebooks des exercices sur les données de synthèse inspirés des programmes partagés sur gitlab par la communauté.
 - Présenté par : Lorien Benda et Tim Vlaar, Health Data Hub
 - Support de présentation :
-[pptx](../files/presentations/meetup-snds6/20201106_PrésentationHDH_Meetup6.pptx),
-[pdf](../files/presentations/meetup-snds6/20201106_PrésentationHDH_Meetup6.pdf)
+[pptx](../files/presentations/meetup-snds6/20201106_PresentationHDH_Meetup6.pptx),
+[pdf](../files/presentations/meetup-snds6/20201106_PresentationHDH_Meetup6.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7UJmrRZ-4Fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -72,8 +72,8 @@ André Happe (EA 7449 REPERES, en charge de l'axe transversal "Outils et Méthod
 - Titre : Reconstituted Electronics Health Records (rEHR): a fact-checking method for algorithm validation in the SNDS.
 - Présenté par : les Drs. Nicolas Thurin (Pharmacien), Pauline Bosco (Médecin) et Patrick Blin (Médecin) de l’équipe Bordeaux PharmacoEpi (BPE : La BPE est une plateforme de recherche en pharmaco-épidémiologie de l’Université de Bordeaux qui fait partie du CIC 1401 INSERM du CHU de Bordeaux avec maintenant plus de 15 ans d’expérience dans l’analyse des données de l’Assurance Maladie). 
 - Support de présentation : 
-[pptx](../files/presentations/meetup-snds6/20201106_Présentation_PharmacoEpi-BPE_Meetup6.pptx),
-[pdf](../files/presentations/meetup-snds6/20201106_Présentation_PharmacoEpi-BPE_Meetup6.pdf)
+[pptx](../files/presentations/meetup-snds6/20201106_Presentation_PharmacoEpi-BPE_Meetup6.pptx),
+[pdf](../files/presentations/meetup-snds6/20201106_Presentation_PharmacoEpi-BPE_Meetup6.pdf)
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a4RYnxV5my4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
