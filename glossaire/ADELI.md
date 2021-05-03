@@ -13,7 +13,10 @@ ADELI attribue un numéro aux professionnels lors de leur enregistrement auprès
 Le numéro ADELI change lorsqu'un professionnels de santé change de région d'exercice.
 :::
 
-# Références
+## Ailleurs sur la documentation
+- Fiche thématique sur [le numéro du professionel de santé](../fiches/numero_professionel_sante.md)
+
+## Références
 
 - [Fiche](https://esante.gouv.fr/securite/annuaire-sante/rpps-adeli) sur l'ASIP Santé
 - [Page wikipedia](https://fr.wikipedia.org/wiki/Automatisation_des_listes)
