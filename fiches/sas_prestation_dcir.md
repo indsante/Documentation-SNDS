@@ -1,5 +1,16 @@
+---
+tags:
+    - Généralité SNDS
+    - Prestations
+    - Professionnel de santé
+    - DCIR/DCIRS
+    - Fiche-programme
+---
+
 # Requête type dans la table prestations du DCIR
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Cette fiche décrit une requête type de sélection de prestations impliquant une table d'actes affinés de codage avec sélection de données concernant les bénéficiaires.
 

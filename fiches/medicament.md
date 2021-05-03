@@ -1,8 +1,16 @@
+---
+tags:
+    - Prestations
+    - DCIR/DCIRS
+    - Fiche-programme
+---
+
 # Cibler selon les médicaments
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-## Identification des médicaments
+<TagLinks />
 
+## Identification des médicaments
 ### Code CIP
 
 Les médicaments sont identifiés selon des codes CIP, ou [Code Identifiant de Présentation](https://solidarites-sante.gouv.fr/soins-et-maladies/medicaments/glossaire/article/code-cip).
@@ -10,7 +18,6 @@ Les médicaments sont identifiés selon des codes CIP, ou [Code Identifiant de P
 Un code CIP est un code numérique, historiquement sur 7 caractères et maintenant sur 13.  
 
 #### Construction des codes CIP 13
-
 Un CIP 13 commence toujours par le préfixe `3400` en France. 
 
 Lorsqu’un médicament disposait d'un code CIP 7, le code CIP 13 correspondant est construit de la manière suivante :
@@ -18,7 +25,6 @@ Lorsqu’un médicament disposait d'un code CIP 7, le code CIP 13 correspondant 
 ![schema 1](../files/Cnam/images_ciblage_medicaments/Medicaments_schema1.png)
 
 #### Calendrier de mise en plce du CIP 13 
-
 Le calendrier de mise en place du CIP 13 est le suivant :
 
 ![schema 2](../files/Cnam/images_ciblage_medicaments/Medicaments_schema2.png)
@@ -27,14 +33,12 @@ Le code CIP13 peut donc être présent dans les bases dès 2007, tandis que le C
 Une période de transition, où les 2 codes se chevauchent existe donc.
 
 ### Classe ATC
-
 Les médicaments sont regroupés en **classes ATC**, en fonction des organes (ou systèmes d'organes) cibles, et de leurs propriétés thérapeutiques, pharmacologiques ou chimiques.
 
 Il existe plusieurs niveaux de classes ATC (ATC3, ATC5, ATC7), correspondant à des catégories de médicaments plus ou moins affinées.
 
 
 ## Cibler des patients sur un code CIP
-
 **Principe :** Sortir une liste de patients qui ont consommé un médicament précis.  
 
 **Table(s) concernée(s) :** [ER_PRS_F](../tables/DCIR/ER_PRS_F.md), [ER_PHA_F](../tables/DCIR/ER_PHA_F.md), table contenant le(s) code(s) CIP concernés par l’extraction (appelée TAB_MED ici, contenant le code CIP13 sous sa forme standard ou le CIP07 sous la forme 000000XXXXXXX dans une variable nommée COD_MED, table située sous ORAUSER). 
@@ -73,7 +77,6 @@ quit;
 ```
 
 ## Cibler des patients sur une classe ATC
-
 **Principe :** Sortir une liste de patients qui ont consommé au moins un médicament d’une classe ATC5 précise. 
 
 Il existe deux méthodes pour obtenir le résultat attendu. 
@@ -136,7 +139,6 @@ quit;
 ```
 
 ## Récapitulatif
-
 ![schema 3](../files/Cnam/images_ciblage_medicaments/Medicaments_schema3.png)
 
 ## Références

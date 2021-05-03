@@ -1,5 +1,16 @@
+---
+tags:
+    - Généralité SNDS
+    - Diagnostics
+    - Bénéficiaires
+    - Initiation au SNDS
+    - Fiche-programme
+---
+
 # Cartographie des pathologies
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 ## Présentation
 

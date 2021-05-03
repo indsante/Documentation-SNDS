@@ -1,5 +1,13 @@
+---
+tags:
+    - Professionnel de santé
+    - DCIR/DCIRS
+---
+
 # Notions autour du Professionnel de santé
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 ## Préambule
 Pour commencer, posons quelques éléments de définitions : 

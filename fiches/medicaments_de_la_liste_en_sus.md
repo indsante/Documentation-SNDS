@@ -1,5 +1,15 @@
+---
+tags:
+    - Prestations
+    - Dépenses
+    - PMSI
+    - DCIR/DCIRS
+---
+
 # Médicaments de la liste en sus 
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Dans une première partie, nous présentons les médicaments facturés en sus des tarifs des séjours hospitaliers.   
 Dans une seconde partie, nous expliquons comment extraire du PMSI les dépenses associées aux médicaments de la liste en sus.

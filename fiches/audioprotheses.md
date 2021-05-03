@@ -1,6 +1,17 @@
+---
+tags:
+  - Bénéficiaires
+  - Prestations
+  - Dépenses
+  - Aides financiaires de l'état
+  - DCIR/DCIRS
+  - Fiche-programme
+---
+
 # Aides auditives
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
+<TagLinks />
 
 Il existe plusieurs types d'audioprothèses, aussi appelées "aides auditives". On peut en effet les classer en appareils intra-auriculaires, contours à écouteurs
 déportés ou contours classiques. Cette fiche aborde principalement les dépenses et le prix des aides auditives.

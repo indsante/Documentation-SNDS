@@ -1,5 +1,16 @@
+---
+tags:
+    - Bénéficiaires
+    - Prestations
+    - DCIR/DCIRS
+    - PMSI
+    - Fiche-programme
+---
+
 # Interruptions volontaires de grossesse
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Les IVG peuvent être réalisées en établissement de santé de façon médicamenteuse ou chirurgicale, et en cabinet libéral ou en centre de santé, centre de planification et d’éducation familiale, de façon médicamenteuse uniquement.  
 Les IVG **hospitalières** sont comptabilisées dans le [PMSI](../glossaire/PMSI.md) et les IVG réalisées **hors établissement** sont comptabilisées dans la table des prestations du [DCIR](../glossaire/DCIR.md).  

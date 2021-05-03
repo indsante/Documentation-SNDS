@@ -1,5 +1,13 @@
+---
+tags:
+   - Généralité SNDS
+   - Initiation au SNDS
+---
+
 # Appariement de données au SNDS
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 ## Définition
 

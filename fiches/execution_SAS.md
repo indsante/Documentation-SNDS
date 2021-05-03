@@ -1,6 +1,13 @@
+---
+tags:
+    - Généralité SNDS
+    - Initiation au SNDS
+---
+
 # Bonnes pratiques SAS sur le portail SNDS
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
+<TagLinks />
 
 ## Introduction
 

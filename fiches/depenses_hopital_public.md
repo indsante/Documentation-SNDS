@@ -1,5 +1,14 @@
+---
+tags:
+    - Dépenses
+    - Etablissements et Structures
+    - PMSI
+---
+
 # Dépenses des établissements de santé publics dans le PMSI
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Cette fiche explique comment retrouver les dépenses des établissements publics dans le PMSI. 
 

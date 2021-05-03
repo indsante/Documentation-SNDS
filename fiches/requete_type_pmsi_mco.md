@@ -1,5 +1,15 @@
+---
+tags:
+    - Généralité SNDS
+    - Diagnostics
+    - PMSI
+    - Fiche-programme
+---
+
 # Requête type dans le PMSI-MCO
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 La fiche décrit une requête type de sélection de séjours hospitaliers dans les tables du PMSI-MCO à partir des diagnostics principaux (DP), des diagnostics reliés (DR) et/ou des diagnostics associés significatifs (DAS).  
 Des variables relatives au patient, au séjour et à l'établissement sont restituées en sortie.  

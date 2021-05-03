@@ -1,5 +1,12 @@
+---
+tags:
+    - Généralité SNDS
+---
+
 # Statistique mensuelle
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Statistiques de dépenses par type de risque, publiées chaque mois par l'Assurance maladie. 
 

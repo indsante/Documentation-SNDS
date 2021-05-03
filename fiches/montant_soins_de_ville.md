@@ -1,9 +1,16 @@
+---
+tags:
+    - Dépenses
+    - Prestations
+    - DCIR/DCIRS
+---
+
 # Dépenses de soins de ville dans le DCIR, le DCIRS et le DAMIR
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
+<TagLinks />
 
 ## DCIR
-
 ### Quels indicateurs de dépenses sont disponibles ?
 
 Les soins de ville sont présents dans le DCIR. 

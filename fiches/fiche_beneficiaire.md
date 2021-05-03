@@ -1,5 +1,16 @@
+---
+tags:
+    - Bénéficiaires
+    - Initiation au SNDS
+    - PMSI
+    - DCIR/DCIRS
+    - Référentiels bénéficiaires
+---
+
 # Identifiants des bénéficiaires
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Comprendre les identifiants des bénéficiaires dans le SNDS et les exploiter correctement. 
 

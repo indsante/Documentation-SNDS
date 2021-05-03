@@ -1,5 +1,14 @@
+---
+tags:
+    - Généralité SNDS
+    - Initiation au SNDS
+    - PMSI
+---
+
 # Concepts de fonctionnement des PMSI 
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Le Programme de Médicalisation des Systèmes d'Information a été créé en 1983 et a été rendu obligatoire pour tous les établissements de santé en 1991.
 Initialement, celui-ci avait été créé uniquement pour mesurer l'activité médico-économique hospitalière des établissements MCO (médecine chirurgicale obstétrique).

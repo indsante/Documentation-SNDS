@@ -1,5 +1,17 @@
+---
+tags:
+    - Généralité SNDS
+    - Régime / Organisme
+    - Initiation au SNDS
+    - DCIR/DCIRS
+    - PMSI
+    - Référentiels bénéficiaires
+---
+
 # Historique des données du SNDS
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Cette présentation illustre l'historique de la disponibilité d'informations relatives :
 - aux bénéficiaires de soins,

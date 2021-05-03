@@ -1,5 +1,14 @@
+---
+tags:
+    - Prestations
+    - DCIR/DCIRS
+    - Fiche-programme
+---
+
 # Cibler selon les natures de prestations
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 ## Définition
 Les prestations concernent tous les actes et prescriptions de soins, pour lesquels un remboursement, effectué par l’Assurance Maladie, est présent dans le SNDS. 

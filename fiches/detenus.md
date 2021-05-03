@@ -1,5 +1,15 @@
+---
+tags:
+    - Bénéficiaires
+    - PMSI
+    - DCIR/DCIRS
+    - Fiche-programme
+---
+
 # Détenus 
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Lorsque l'on parle de détenus, on considère l'ensemble des individus mis sous main de justice et non seulement les individus sous écrou. 
 

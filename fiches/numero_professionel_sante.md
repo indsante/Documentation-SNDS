@@ -1,5 +1,13 @@
+---
+tags:
+    - Professionnel de santé
+    - DCIR/DCIRS
+---
+
 # Numéro du Professionnel de Santé
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 Le numéro du professionnel de santé ([PS](../glossaire/PS.md)) est le numéro sous lequel un professionnel de santé libéral va liquider ses prestations ou prescrire des actes.
 

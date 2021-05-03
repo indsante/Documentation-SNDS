@@ -1,5 +1,13 @@
+---
+tags:
+    - Bénéficiaires
+    - Aides financiaires de l'état
+---
+
 # Publics précaires
 <!-- SPDX-License-Identifier: MPL-2.0 -->
+
+<TagLinks />
 
 L'objectif de cette fiche est de décrire comment repérer les publics précaires dans le SNDS.
 
