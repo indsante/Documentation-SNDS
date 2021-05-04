@@ -32,7 +32,7 @@ La documentation résulte d'une mise en commun de documents et travaux par plusi
 [DREES](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/la-drees/)
 - les Agences régionales de santé - [ARS](https://www.ars.sante.fr/)
 - Santé publique France - [SpF](https://www.santepubliquefrance.fr/)
-- Organisation de la direction de la sécurité sociale - [DSS](https://solidarites-sante.gouv.fr/ministere/organisation/organisation-des-directions-et-services/article/organisation-de-la-direction-de-la-securite-sociale-dss)
+- La direction de la sécurité sociale - [DSS](https://www.securite-sociale.fr/)
 
 ## Mentions légales et politique de confidentialité
 Les mentions légales sont disponibles dans cette [fiche](mentions_legales.md).
