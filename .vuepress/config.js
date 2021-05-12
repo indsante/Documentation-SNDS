@@ -56,7 +56,15 @@ const sidebar = [
                     "/formation_snds/redsiam/guide"
                 ]
             },
-            "/formation_snds/donnees_synthetiques",
+            {
+                title: "Données synthétiques",
+                path: "/formation_snds/donnees_synthetiques/",
+                children: [
+                    "/formation_snds/donnees_synthetiques/donnees_labsante",
+                    "/formation_snds/donnees_synthetiques/donnees_reperes",
+                    "/formation_snds/donnees_synthetiques/generateur_HDH"
+                ]
+            },
             "/formation_snds/notebook",
             "/formation_snds/programmes"
         ]

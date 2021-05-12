@@ -10,7 +10,7 @@ Différentes ressources sont disponibles pour se former au SNDS :
     - le support de la formation aux données d'extraction [DCIR](documents_cnam/Formation_demex.md) ainsi que des exercices
     - le support de la [formation au PMSI](documents_cnam/Formation_PMSI.md) ainsi que des exercices
 - un guide [SNDS, ce qu'il faut savoir](Sante_publique_France.md) publié par Santé publique France
-- deux jeux de [données de synthèse](donnees_synthetiques.md)
+- deux jeux de [données de synthèse](donnees_synthetiques)
 - des [notebook](notebook.md) pour avoir une première approche sur les données
 - des [programmes](programmes.md)
 
