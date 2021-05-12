@@ -6,19 +6,22 @@
 Un notebook est un cahier électronique qui, dans un même document, peut rassembler du texte et du code informatique exécutable. 
 :::
 
-Les notebooks produits par le Health Data Hub se destinent aux primo-utilisateurs du SNDS et permettent de gagner une première sensation des données disponibles dans le SNDS et de leur structure, en attendant d'avoir accès aux données réelles. Ils reposent sur les [données synthétiques](donnees_synthetiques.md) et sont consultables et téléchargeables sur le [Gitlab du Health Data Hub]( https://gitlab.com/healthdatahub/formation/exercices-snds/-/tree/master/notebooks).
+Les notebooks produits par le Health Data Hub se destinent aux primo-utilisateurs du SNDS et permettent de gagner une première sensation des données disponibles dans le SNDS et de leur structure, en attendant d'avoir accès aux données réelles. Ils reposent sur les [données synthétiques](donnees_synthetiques) et sont consultables et téléchargeables sur le [Gitlab du Health Data Hub]( https://gitlab.com/healthdatahub/formation/exercices-snds/-/tree/master/notebooks).
 
 Les notebooks du Health Data Hub sont disponibles dans les langages *R* et *Python* et se composent d’exercices simples accompagnés de textes explicatifs sur les opérations réalisées. Chaque notebook aborde de manière élémentaire une thématique différente : suivi d’une cohorte, calcul d’indicateurs hospitaliers, identification de diagnostics hospitaliers, etc.
 
 ::: warning Attention
 Il est important de noter que les exercices des notebooks reposent sur des données fictives et que les codes sont :
--	**incomplets**, par exemple certains filtres de nettoyage de moindre importance ne sont pas présents (pour plus d’information, reportez-vous à la rubrique dédiée sur la documentation : [Filtres de qualité](../fiches/scalpel_pipeline.md)).
--	**simplifiés** en termes d’approche méthodologique (dans un but de pédagogie)
--	**adaptés** à la structure des données fictives qui ne reflète pas nécessairement celle du vrai SNDS (pour plus d’information, reportez-vous à la rubrique dédiée sur la documentation : [SNDS synthétique](donnees_synthetiques.md)).
--	**non optimisés** pour gagner en temps de requête ; cela peut s’avérer nécessaire lorsqu’on travaille sur le SNDS.
 
+- *incomplets*, par exemple certains filtres de nettoyage de moindre importance ne sont pas présents (pour plus d’information, reportez-vous à la rubrique dédiée sur la documentation : Filtres de qualité).
 
-Par conséquent, **le code des exercices ne peut être utilisé tel quel et nécessitera des modifications pour répondre à la réalité du SNDS.**
+- *simplifiés* en termes d’approche méthodologique (dans un but de pédagogie)
+
+- *adaptés* à la structure des données fictives qui ne reflète pas nécessairement celle du vrai SNDS (pour plus d’information, reportez-vous à la rubrique dédiée sur la documentation : SNDS synthétique).
+
+- *non optimisés* pour gagner en temps de requête ; cela peut s’avérer nécessaire lorsqu’on travaille sur le SNDS.
+
+**Par conséquent, le code des exercices ne peut être utilisé tel quel et nécessitera des modifications pour répondre à la réalité du SNDS.**
 :::
 
 ## Utilisation d’un notebook
