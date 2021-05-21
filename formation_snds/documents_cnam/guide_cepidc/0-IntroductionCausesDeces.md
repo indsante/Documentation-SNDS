@@ -9,11 +9,6 @@ Il s’agit des décès survenus sur le territoire français, métropole et dép
 
 Les informations sur les causes médicales des décès survenus au cours des années 2013 à 2015 sont déjà disponibles dans le SNDS, exploitables via SAS Enterprise Guide et appariables avec les données de remboursements de l’assurance maladie obligatoire et du PMSI. 
 Les données concernant les décès des années 2006 à 2012 et 2016 ont été chargées le 7 septembre 2020 dans le SNDS.
-::: tip mise à jour 19.05.2021
-Les données provisoires concernant les décès de l'année 2017 ont été chargées le 10 mai 2021.
-La base contient tous les décès mais pas toutes les causes de décès : au total, pour 3% des décès, aucun volet médical n’a été reçu au CépiDc (ils sont codés R99) et seuls 2% des décès n’ont pas encore été codés.
-Un rechargement de ces données est prévu au dernier trimestre 2021. 
-:::
 
 Les informations élaborées par le CépiDc seront, à terme, complétées par le [NIR](https://documentation-snds.health-data-hub.fr/glossaire/NIR.html) pseudonymisé des personnes décédées, transmis par l’INSEE. 
 Pour des raisons d’ordre technique, la transmission de ce NIR en provenance de l’INSEE n’est pas encore opérationnelle et les données sur les causes médicales de décès intégrées au SNDS sont appariées aux référentiels des bénéficiaires du SNDS par une méthode d’appariement indirect.
@@ -36,6 +31,5 @@ Taux d’appariement indirect avec les référentiels bénéficiaires IR_BEN_R e
 |2014 |	90,07% déjà restitué |
 |2015 | 90,08% déjà restitué |
 |2016 |	83,28% |
-|2017 |	84,3% - provisoire|
 
 Cette documentation doit vous permettre d’exploiter les informations sur les causes médicales de décès intégrées au SNDS et sur les liens que vous pourrez établir entre ces informations et les données de remboursements de soins et du PMSI. Vous pouvez rechercher des informations complémentaires sur le site Internet du [CépiDc](http://www.cepidc.inserm.fr/).
