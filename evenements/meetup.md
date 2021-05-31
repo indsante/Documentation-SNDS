@@ -17,8 +17,31 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
 - [Chaîne youtube](https://www.youtube.com/channel/UCFmHnLZ31EgSrPhZQTM9weQ) du HealthDataHub
 - [Dossier sur GitLab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files/presentations) contenant l'ensemble des présentations
 
-## 2021.03.11 Meetup-SNDS7
+## 2021.04.29 Meetup-SNDS8
+[Page de l'évènement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/277465346/)
 
+### Présentation du portail ScanSanté
+- Titre: Présentation de ScanSanté
+- Présenté par: Aline CUSSON (cheffe de projet à l'ATIH)
+- Support de présentation: [pdf](../files/presentations/meetup-snds8/20210429_ATIH_meetup8-scansante_MPL-2.0.pdf)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jQ4I42CvH_Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Présentation du dictionnaire interactif
+- Titre: Dictionnaire interactif des données PMSI
+- Présenté par: Sandra Steunou (cheffe de service adjointe à l'ATIH)
+- Support de présentation: [pdf](../files/presentations/meetup-snds8/20210429_ATIH_meetup8-dico-interactif_MPL-2.0.pdf)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R1W20WKzuTk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Présentation de ScanCovid
+- Titre: Présentation de ScanCovid
+- Présenté par: Vincent Biot (datascientist à l'ATIH)
+- Support de présentation: [pdf](../files/presentations/meetup-snds8/20210429_ATIH_meetup8-scancovid_MPL-2.0.pdf)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lwVXci18eXc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 2021.03.11 Meetup-SNDS7
 [Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/276539610/)
 
 ### Introduction globale sur les données de synthèse
