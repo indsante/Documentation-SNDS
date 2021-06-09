@@ -431,6 +431,53 @@ La variable `BSE_REM_PRU` se trouve dans `ER_PRS_F`.
 On trouve sous le répertoire `ORAREF` le référentiel `IR_BIO_R` 
 contenant le libellé des différents actes de biologie. 
 
+#### Les transports
+
+Les dépenses de transport de la table prestation peuvent être jointes avec les tables affinées `ER_DTR_F`et `ER_TRS_F`.
+
+Dans `ER_TRS_F` se trouvent des informations détaillées qui permettent notamment d'identifier un trajet particulier:
+- `TRS_TRP_HRD` : heure de départ
+- `TRS_TRP_HRA` : heure d’arrivée
+- `TRS_DEP_CDP` : Code postal du lieu de départ du transport
+- `TRS_ARR_CDP` : Code postal du lieu d’arrivée du transport
+- `TRS_VEH_NUM` : Numéro minéralogique du véhicule
+
+En revanche, la table ne comporte pas d'informations sur la dépense engagée. 
+
+La table `ER_DTR_F` contient le code prestation affiné (`TRS_PRS_IDE`) qui renseigne sur les majorations et suppléments appliqués. En effet, le cout de transport comprend trois composantes: Le nombre de KM facturés, et/ou les forfaits et/ou les suppléments. 
+
+Les modalités de la variable `TRS_PRS_IDE` sont données par la nomenclature `IR_DTR_V`. ci-dessous les principaux codes: 
+|TRS_PRS_IDE|TRS_IDE_LIB|
+|---|---|
+|11|FORFAIT DEPARTEMENTAL OU MINIMUM DE PERCEPTION, MAJORE OU NON|
+|12|FORFAIT AGGLOMERATION, MAJORE OU NON|
+|13|FORFAIT REGION PARISIENNE, MAJORE OU NON|
+|14|MAJORATION FORFAIT DEPARTEMENTAL OU MINIMUM DE PERCEPTION, MAJORE NUIT (75% DU TARIF AMBULANCE, 50% DU TARIF VSL)|
+|15|MAJORATION FORFAIT AGGLOMERATION, MAJORE NUIT (75% AMBULANCE, 50% VSL)|
+|16|MAJORATION FORFAIT REGION PARISIENNE, MAJORE NUIT (75% AMBULANCE, 50% VSL)|
+|17|MAJORATION FORFAIT DEPARTEMENTAL OU MINIMUM DE PERCEPTION, MAJORE DIMANCHE OU FERIE (50% AMBULANCE, 25% VSL)|
+|18|MAJORATION FORFAIT AGGLOMERATION, MAJORE DIMANCHE OU FERIE (50% AMBULANCE, 25% VSL)|
+|19|MAJORATION FORFAIT REGION PARISIENNE, DIMANCHE OU FERIE (50% AMBULANCE, 25% VSL)|
+|21|KILOMETRES A TARIF NORMAL (<= 150KM) MAJORES OU NON|
+|22|KILOMETRES A TARIF REDUIT (> 150KM) MAJORES OU NON|
+|43|SUPPLEMENT APPEL D URGENCE|
+|47|MAJORATION POUR ABA-TRAJET < OU = A 5KM PARCOURUS|
+|48|MAJORATION POUR ABA-TRAJET < OU = A 5KM PARCOURUS, MAJORE NUIT|
+|49|MAJORATION POUR ABA-TRAJET < OU = A 5KM PARCOURUS, MAJORE FERIE|
+|51|PEAGE OU VOIE D EAU|
+|52|MAJORATION POUR ABA-TRAJET>A 5KM et < OU = 10KM PARCOURUS|
+|53|MAJORATION POUR ABA-TRAJET>A 5KM et < OU = 10KM PARCOURUS, MAJORE NUIT|
+|54|MAJORATION POUR ABA-TRAJET>A 5KM et < OU = 10KM PARCOURUS, MAJORE FERIE|
+|55|MAJORATION POUR ABA-TRAJET>A 10KM et < OU = 15KM PARCOURUS|
+|56|MAJORATION POUR ABA-TRAJET>A 10KM et < OU = 15KM PARCOURUS, MAJORE NUIT|
+|57|MAJORATION POUR ABA-TRAJET>A 10KM et < OU = 15KM PARCOURUS, MAJORE FERIE|
+|58|MAJORATION POUR ABA-TRAJET>A 15KM et < OU = 19KM PARCOURUS|
+|59|MAJORATION POUR ABA-TRAJET>A 15KM et < OU = 19KM PARCOURUS, MAJORE NUIT|
+|60|MAJORATION POUR ABA-TRAJET>A 15KM et < OU = 19KM PARCOURUS, MAJORE FERIE|
+
+La variable de quantité `TRS_ACT_QSN` correspond à la quantité correspondante de nombre de KM facturés, et/ou les forfaits et/ou les suppléments. 
+Enfin `TRS_ACT_PRU` donne le prix unitaire. 
+
 
 ## Calculer le montant payé par acte affiné
 
