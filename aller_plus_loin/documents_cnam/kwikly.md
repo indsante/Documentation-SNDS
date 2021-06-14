@@ -4,7 +4,7 @@
 Katalogue des données SNIIRAM-SNDS
 
 ::: tip
-[Télécharger le Kwikly](../../files/Cnam/2020-06-18_CNAM_KWIKLY-Katalogue-Sniiram-SNDS-v2_MLP-2.0.xlsm) [CNAM - Version 3.1 - 2021-06-01 - MPL-2.0].
+[Télécharger le Kwikly](../../files/Cnam/2021_Cnam_KWIKLY-KatalogueSniiramSNDS_MPL-2.0.xlsm) [CNAM - Version 3.1 - 2021-06-01 - MPL-2.0]. 
 :::
 
 Le **Kwikly** est un fichier Excel sur plusieurs onglets décrivant les variables des produits individuels bénéficiaires (type, taille, libellé) :
