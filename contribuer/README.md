@@ -15,9 +15,8 @@ N'hésitez pas à vous y référer avant toute contribution. Vous pouvez [contac
 Les contributions visant à corriger des erreurs ou à compléter des pages existantes sont très précieuses. 
 Toute amélioration, même d'apparence mineure comme la correction de fautes d'orthographe, améliorera pour tous la qualité du contenu.
 
-Vous pouvez pour cela écrire un email aux mainteneurs du projets:
-- L'équipe Opensource - HDH <<opensource@health-data-hub.fr>>
-- Lab santé - DREES <<ld-lab-github@sante.gouv.fr>>
+Vous pouvez pour cela écrire un email aux mainteneurs du projet: <opensource@health-data-hub.fr>
+
 
 Vous pouvez également utiliser le système de [tickets](Guide_contribution/Ticket.md), appelés **issues**, dans cet [onglet](https://gitlab.com/healthdatahub/documentation-snds/issues). 
 Il vous faudra pour cela créer un compte sur [gitlab.com](https://gitlab.com). 
