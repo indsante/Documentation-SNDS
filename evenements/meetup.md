@@ -17,25 +17,65 @@ Merci de nous contacter si vous souhaiter initier un groupe local.
 - [Chaîne youtube](https://www.youtube.com/channel/UCFmHnLZ31EgSrPhZQTM9weQ) du HealthDataHub
 - [Dossier sur GitLab](https://gitlab.com/healthdatahub/documentation-snds/tree/master/files/presentations) contenant l'ensemble des présentations
 
+## 2021.06.24 Meetup-SNDS10
+[Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/278726849/)
+
+### Introduction : Présentation des parties prenantes et du projet
+- Présenté par : Joëlle Chong (Designer de services EIG), Line Rahal (Data Scientist EIG)
+- Support de présentation : A venir
+
+Vidéo à venir
+
+### Concevoir la stratégie Data par le Design
+- Présenté par : Joëlle Chong (Designer de services EIG)
+- Support de présentation : A venir
+
+Vidéo à venir
+
+### Exploiter les données de l'ANSM : du nettoyage et chaînage à la data visualisation
+- Présenté par : Line Rahal (Data Scientist EIG), Tim Vlaar (Data Scientist HDH)
+- Support de présentation : A venir
+
+Vidéo à venir
+
+## 2021.06.11 Meetup-SNDS9
+[Page de l'événement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/278465999/)
+
+### La naissance du Serveur Multi-Terminologies de l'ANS
+- Présenté par : Thierry Dart (Directeur Pôle Données et interopérabilité sémantique à l'ANS), Yann Briand (Pharmacien expert sémantique), Tayeb Merabti (Directeur de programme "Terminologies de santé", responsable du SMT)
+- Support de présentation : A venir
+
+Vidéo à venir
+
+
+### Le projet SMT
+- Présenté par : Mélissa Mary (Ingénieure et experte sémantique), Tayeb Merabti (Directeur de programme "Terminologies de santé", responsable du SMT)
+- Support de présentation : A venir
+
+Vidéo à venir
+
+### Les services SMT
+- Présenté par : Tayeb Merabti (Directeur de programme "Terminologies de santé", responsable du SMT), Abdelali Boussadi (Expert interopérabilité)
+- Support de présentation : A venir
+
+Vidéo à venir
+
 ## 2021.04.29 Meetup-SNDS8
 [Page de l'évènement](https://www.meetup.com/fr-FR/Health-Data-Hub/events/277465346/)
 
 ### Présentation du portail ScanSanté
-- Titre: Présentation de ScanSanté
 - Présenté par: Aline CUSSON (cheffe de projet à l'ATIH)
 - Support de présentation: [pdf](../files/presentations/meetup-snds8/20210429_ATIH_meetup8-scansante_MPL-2.0.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jQ4I42CvH_Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Présentation du dictionnaire interactif
-- Titre: Dictionnaire interactif des données PMSI
+### Présentation du dictionnaire interactif des données du PMSI ATIH
 - Présenté par: Sandra Steunou (cheffe de service adjointe à l'ATIH)
 - Support de présentation: [pdf](../files/presentations/meetup-snds8/20210429_ATIH_meetup8-dico-interactif_MPL-2.0.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R1W20WKzuTk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Présentation de ScanCovid
-- Titre: Présentation de ScanCovid
 - Présenté par: Vincent Biot (datascientist à l'ATIH)
 - Support de présentation: [pdf](../files/presentations/meetup-snds8/20210429_ATIH_meetup8-scancovid_MPL-2.0.pdf)
 
