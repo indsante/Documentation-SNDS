@@ -92,7 +92,7 @@ Une fiche est en cours de rédaction sur la fiabilité de la date de décès dan
 
 ## Les variables concernant les droits
 ### La CMU-C
-La couverture maladie universelle complémentaire (CMU-C) permet aux assurés dont les ressources ne dépassent pas le plafond fixé par la loi de bénéficier d’une protection maladie complémentaire gratuite ([pour en savoir plus](cmu_c.md). La CMUC ne s’applique pas dans le département de Mayotte.  
+La couverture maladie universelle complémentaire (CMU-C) permet aux assurés dont les ressources ne dépassent pas le plafond fixé par la loi de bénéficier d’une protection maladie complémentaire gratuite. La CMUC ne s’applique pas dans le département de Mayotte.  
 L’étude de la CMU-C nécessite de travailler sur les personnes âgées de moins de 60 ans, afin d’exclure les personnes pouvant bénéficier de l’Allocation de Solidarité aux Personnes Âgées (Aspa, qui est le [minimum vieillesse](https://fr.wikipedia.org/wiki/Minimum_vieillesse) depuis 2006).  
 
 <!--
@@ -186,6 +186,10 @@ L'analyse de la précarité peut se faire par le repérage des publics ayant acc
 * de l'AME. 
 
 Il est également possible de repérer les [détenus](detenus.md) dans le SNDS.
+
+::: tip Attention 
+Depuis le 1er novembre 2019, la Complémentaire santé solidaire remplace la CMU-C et l’ACS. Pour en savoir plus sur la [Complémentaire santé solidaire](https://www.ameli.fr/paris/assure/droits-demarches/difficultes-acces-droits-soins/complementaire-sante).
+:::
 
 ::: tip Crédits  
 Cette fiche a été rédigée par Claire-Lise Dubost (DREES) et Pierre-Louis Bithorel, affilié à l'Ined (Institut National d'Etudes Démographiques), et s'appuie notamment sur des informations issus du document [*SNDS, ce qu'il faut savoir*](../formation_snds/Sante_publique_France.md) constitué par Santé Publique France, ainsi que de la note technique *L'indice de désavantage social "FDEP" et son application à DCIR* rédigé en 2014 par la CNAM.
