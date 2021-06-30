@@ -15,12 +15,6 @@ Le support de formation ci-dessous peut être ouvert en [suivant ce lien](https:
 </p>
 </div>
 
-::: tip Note
-Se rendre sur le **site de formation** et sur le **projet GitLab de formation** pour les TPs :
-- [**formation-gitlab**.documentation-snds.health-data-hub.fr/](https://formation-gitlab.documentation-snds.health-data-hub.fr/).
-- [gitlab.com/healthdatahub/**formation**/documentation-snds](https://gitlab.com/healthdatahub/formation/documentation-snds).
-:::
-
 ## TP 1 : Explorer les outils
 
 - Forum d’entraide : [entraide.health-data-hub.fr/](https://entraide.health-data-hub.fr/)

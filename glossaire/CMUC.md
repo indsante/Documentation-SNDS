@@ -10,7 +10,3 @@ Elle n'est pas applicable à Mayotte.
 
 **Comment la retrouver dans les données de santé ?** Une fiche est disponible sur la [CMU-C et la Complémentaire santé solidaire dans les données de santé](../fiches/cmu_c.md).
 
-
-# Références
- 
-- [Site internet de l'Assurance maladie](https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/complementaire-sante/cmu-complementaire)
