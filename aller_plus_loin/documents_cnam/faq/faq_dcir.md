@@ -827,13 +827,6 @@ Dans la table IR_ACS_R, l’affiliation à l’ACS est retracée pour chaque bé
 Si vous voulez connaître la composition des « familles » affiliées à l’ACS, il vous faut apparier la table IR_ACS_R avec la table principale IR_BEN_R sur l’identifiant SNIIRAM et le rang de bénéficiaire, et regrouper les bénéficiaires qui ont un même ouvreur de droit, i.e. même matricule de l’ouvreur de droits ASS_NIR_ANO. 
 L’appariement avec la table IR_BEN_R vous permet également de connaître l’année et le mois de naissance, le sexe, la date éventuelle de décès, … de chaque membre de la famille.
 
-Pour tout complément d’information sur l’ACS, vous pouvez vous reporter* [*au site de l’assurance maladie*](http://www.ameli.fr/assures/soins-et-remboursements/cmu-et-complementaires-sante/aide-au-paiement-d-une-complementaire-sante/quels-sont-les-avantages-de-l-acs.php)
-
-
-
-
-
-
 ### IR_IMB_R	
 
 **Il était prévu courant 2017 une purge du référentiel IR_IMB_R, éliminant les individus non exonérés au cours des trois dernières années, intégrant le régime de l'assuré et le BEN_NIR_ANO si je ne me trompe pas. Doit-on considérer que cette nouvelle table IR_ETM_R est la version purgée de IR_IMB_R (même si elle n'est valable que pour le régime général et régimes infogérés) ou allez-vous purger dans tous les cas IR_IMB_R ?** 	
