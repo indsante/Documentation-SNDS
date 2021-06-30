@@ -22,6 +22,7 @@ const sidebar = [
                 title: "Guides et formations de la CNAM",
                 path: "/formation_snds/documents_cnam/",
                 children: [
+                    "/formation_snds/documents_cnam/essentiel_snds",
                     "/formation_snds/documents_cnam/Formation_demex",
                     "/formation_snds/documents_cnam/Formation_PMSI",
                     {
