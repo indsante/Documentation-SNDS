@@ -83,7 +83,7 @@ Ce document a été rédigé par la Cnam et a été converti en Markdown pour ê
 
 Il a été initialement publié sur le portail SNDS de la Cnam le 18 juin 2021. 
 
-Il a été mis à jour le 29 juin 2021 avec l'ajout de deux nouvelles variables liés à l'injection (`ETB_VAC_CAT` et `ETB_VAC_FIN`).
+Il a été mis à jour le 29 juin 2021 avec l'ajout de deux nouvelles variables liées à l'injection (`ETB_VAC_CAT` et `ETB_VAC_FIN`).
 :::
 
 
