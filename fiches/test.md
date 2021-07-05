@@ -6,7 +6,7 @@ Avant tout : <PreviewPage text="PMSI" link="../glossaire/PMSI.html"/> normalemen
 
 Comme ça nous pourrons voir à quoi pourrait ressembler les previews des pages. Some totally random and other test : <PreviewPage text="fiche acs" link="./acs.html"/> nevermind just writing stuff.
 
-Juste un autre test pour voir comment ça ressort sur différents fichiers <PreviewPage text="table des bénéficiaires" link="../tables/BENEFICIAIRE/IR_BEN_R.html"/>.
+Juste un autre test pour voir comment ça ressort sur différents fichiers <PreviewPage text="table des bénéficiaires" link="../tables/IR_BEN_R/index.html"/>.
 
 
 Voici un exemple concret : <a href="../glossaire/PMSI.html" id='trig1'>TRY ME TO SEE A DIFFERENT STYLE</a>
