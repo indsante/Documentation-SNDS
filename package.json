@@ -23,12 +23,12 @@
   },
   "scripts": {
     "start": "cp -r files .vuepress/public/files && node .vuepress/include-tables.js",
+    "create-preview": "bash transform-preview-links.sh",
     "docs:dev": "yarn run start && vuepress dev",
     "docs:build": "yarn run start && vuepress build",
     "lint-md": "remark --frail --use remark-validate-links . --quiet",
     "extended-lint-md": "yarn run start && remark --frail --use remark-validate-links --use remark-lint-no-dead-urls . --quiet",
-    "licence": "bash test-licence.sh",
-    "create-preview": "bash transform-preview-links.sh"
+    "licence": "bash test-licence.sh"
   },
   "devDependencies": {
     "vuepress-plugin-mermaidjs": "^1.2.0"
