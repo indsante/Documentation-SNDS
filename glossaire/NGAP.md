@@ -3,7 +3,7 @@
 
 Nomenclature des actes cliniques réalisés par les médecins (consultations des généralistes ou des spécialistes par exemple) et des actes médico-techniques des paramédicaux (kinésithérapeutes, infirmiers, …). 
 
-Remplacée dans une très large mesure par la classification commune des actes médicaux (<PreviewPage text="CCAM" link="CCAM.html" />) pour les actes techniques médicaux, elle est encore majoritairement utilisée par les auxiliaires médicaux. 
+Remplacée dans une très large mesure par la classification commune des actes médicaux ([CCAM](CCAM.md)) pour les actes techniques médicaux, elle est encore majoritairement utilisée par les auxiliaires médicaux. 
 
 # Références
 

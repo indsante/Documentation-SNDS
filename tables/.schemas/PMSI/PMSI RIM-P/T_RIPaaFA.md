@@ -3,7 +3,7 @@
 - Titre : debut facture
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM_EPMSI`, `RIP_NUM` => table <PreviewPage text="T_RIPaaFB" link="/tables/T_RIPaaFB" /> [ `ETA_NUM_EPMSI`, `RIP_NUM` ]<br />
+`ETA_NUM_EPMSI`, `RIP_NUM` => table [T_RIPaaFB](/tables/T_RIPaaFB) [ `ETA_NUM_EPMSI`, `RIP_NUM` ]<br />
 
 ### Liste des variables
 <br />

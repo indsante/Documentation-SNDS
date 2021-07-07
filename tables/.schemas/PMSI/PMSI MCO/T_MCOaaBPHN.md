@@ -3,7 +3,7 @@
 - Titre : B et P hors nomenclature (extension de fichier .bphn)
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM` => table <PreviewPage text="T_MCOaaE" link="/tables/T_MCOaaE" /> [ `ETA_NUM` ]<br />
+`ETA_NUM` => table [T_MCOaaE](/tables/T_MCOaaE) [ `ETA_NUM` ]<br />
 
 ### Liste des variables
 <br />

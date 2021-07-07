@@ -5,7 +5,7 @@ La carte Vitale est la carte de l'assurance maladie.
 
 Il s'agit d'une carte à puce permettant de justifier les droits du titulaire, ou de ses ayants droit, mineurs ou conjoint, à la couverture par un organisme de sécurité sociale des dépenses de santé en France. 
 
-Les <PreviewPage text="professionnel de santé" link="PS.html" /> (médecin, dentiste, etc.) utilisent la carte Vitale pour établir les <PreviewPage text="feuilles de soins" link="feuille_soin.html" /> électronique, qui remplacent les feuilles de soins papier.
+Les [professionnel de santé](PS.md) (médecin, dentiste, etc.) utilisent la carte Vitale pour établir les [feuilles de soins](feuille_soin.md) électronique, qui remplacent les feuilles de soins papier.
 Cette feuille de soin est directement transmises à l'organisme d'assurance maladie. 
 
 La carte Vitale est identique pour tous les régimes obligatoires d'assurance maladie, et utilisable seulement en France. 

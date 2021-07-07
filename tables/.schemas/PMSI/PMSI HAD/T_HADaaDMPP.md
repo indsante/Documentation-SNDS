@@ -3,7 +3,7 @@
 - Titre : Table des diagnostics liés au MPP (mode de prise en charge principal)
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM_EPMSI`, `RHAD_NUM` => table <PreviewPage text="T_HADaaB" link="/tables/T_HADaaB" /> [ `ETA_NUM_EPMSI`, `RHAD_NUM` ]<br />
+`ETA_NUM_EPMSI`, `RHAD_NUM` => table [T_HADaaB](/tables/T_HADaaB) [ `ETA_NUM_EPMSI`, `RHAD_NUM` ]<br />
 
 ### Liste des variables
 <br />

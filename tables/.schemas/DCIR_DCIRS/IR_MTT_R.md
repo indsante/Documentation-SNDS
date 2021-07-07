@@ -3,8 +3,8 @@
 - Titre : Table historique des médecins traitants
 <br />
 - Clé(s) étrangère(s) : <br />
-`BEN_NIR_PSA`, `BEN_RNG_GEM` => table <PreviewPage text="IR_BEN_R" link="/tables/IR_BEN_R" /> [ `BEN_NIR_PSA`, `BEN_RNG_GEM` ]<br />
-`BEN_IDT_ANO` => table <PreviewPage text="IR_IBA_R" link="/tables/IR_IBA_R" /> [ `BEN_IDT_ANO` ]<br />
+`BEN_NIR_PSA`, `BEN_RNG_GEM` => table [IR_BEN_R](/tables/IR_BEN_R) [ `BEN_NIR_PSA`, `BEN_RNG_GEM` ]<br />
+`BEN_IDT_ANO` => table [IR_IBA_R](/tables/IR_IBA_R) [ `BEN_IDT_ANO` ]<br />
 
 ### Liste des variables
 <br />

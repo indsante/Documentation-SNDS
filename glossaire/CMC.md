@@ -1,9 +1,9 @@
 # CMC - Catégories majeures cliniques
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Les Catégories majeures cliniques correspondent aux grands types de prise en charge des services de soins de suite et de réadaptation (<PreviewPage text="SSR" link="SSR.html" />) : cardiovasculaire et respiratoire, neuromusculaire, post-traumatique, soins palliatifs, etc.
+Les Catégories majeures cliniques correspondent aux grands types de prise en charge des services de soins de suite et de réadaptation ([SSR](SSR.md)) : cardiovasculaire et respiratoire, neuromusculaire, post-traumatique, soins palliatifs, etc.
 
-Les CMC structurent la classification employée dans le cadre du <PreviewPage text="PMSI" link="PMSI.html" />. 
+Les CMC structurent la classification employée dans le cadre du [PMSI](PMSI.md). 
 
 # Références
 

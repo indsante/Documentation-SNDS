@@ -3,7 +3,7 @@
 - Titre : Référentiel médicalisé des bénéficiaires (ALD)
 <br />
 - Clé(s) étrangère(s) : <br />
-`BEN_NIR_PSA`, `BEN_RNG_GEM` => table <PreviewPage text="IR_BEN_R" link="/tables/IR_BEN_R" /> [ `BEN_NIR_PSA`, `BEN_RNG_GEM` ]<br />
+`BEN_NIR_PSA`, `BEN_RNG_GEM` => table [IR_BEN_R](/tables/IR_BEN_R) [ `BEN_NIR_PSA`, `BEN_RNG_GEM` ]<br />
 
 ### Liste des variables
 <br />

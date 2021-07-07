@@ -13,9 +13,9 @@ tags:
 <TagLinks />
 
 Les IVG peuvent être réalisées en établissement de santé de façon médicamenteuse ou chirurgicale, et en cabinet libéral ou en centre de santé, centre de planification et d’éducation familiale, de façon médicamenteuse uniquement.  
-Les IVG **hospitalières** sont comptabilisées dans le <PreviewPage text="PMSI" link="../glossaire/PMSI.html" /> et les IVG réalisées **hors établissement** sont comptabilisées dans la table des prestations du <PreviewPage text="DCIR" link="../glossaire/DCIR.html" />.  
+Les IVG **hospitalières** sont comptabilisées dans le [PMSI](../glossaire/PMSI.md) et les IVG réalisées **hors établissement** sont comptabilisées dans la table des prestations du [DCIR](../glossaire/DCIR.md).  
 ## Les IVG en établissement hospitalier
-Les IVG en établissement hospitalier s'identifient grâce au <PreviewPage text="GHM" link="../glossaire/GHM.html" /> calculé par le générateur de <PreviewPage text="RSA" link="../glossaire/RSA.html" />  dans la base [T_MCOaaB](/tables/T_MCOaaB).  
+Les IVG en établissement hospitalier s'identifient grâce au [GHM](../glossaire/GHM.md) calculé par le générateur de [RSA](../glossaire/RSA.md)  dans la base [T_MCOaaB](/tables/T_MCOaaB).  
 Il faut retenir le code `GRG_GHM`=14Z08Z.  
 
 Dans la table des actes ([T_MCOaaA](../tables/PMSI/PMSI MCO/T_MCOaaA.md)) la variable `CDC_ACT` donne le type de l'IVG : 
@@ -23,8 +23,8 @@ Dans la table des actes ([T_MCOaaA](../tables/PMSI/PMSI MCO/T_MCOaaA.md)) la var
 *  les IVG *instrumentales* correspondent au code **JNJD002**.
 
 ## Les IVG hors établissement hospitalier
-Les IVG hors établissement hospitalier correspondent à la prestation « forfait médicament IVG ville » (`PRS_NAT_REF`=3329) dans la table des prestations (<PreviewPage text="ER_PRS_F" link="../tables/ER_PRS_F/" />).  
-La catégorie de l’établissement (`ETE_CAT_COD`) dans la table <PreviewPage text="ER_ETE_F" link="../tables/ER_ETE_F/" /> permet de distinguer les IVG selon le lieu de réalisation.
+Les IVG hors établissement hospitalier correspondent à la prestation « forfait médicament IVG ville » (`PRS_NAT_REF`=3329) dans la table des prestations ([ER_PRS_F](../tables/DCIR/ER_PRS_F.md)).  
+La catégorie de l’établissement (`ETE_CAT_COD`) dans la table [ER_ETE_F](../tables/DCIR/ER_ETE_F.md) permet de distinguer les IVG selon le lieu de réalisation.
 
 Pour obtenir cette information, il faut donc faire une jointure entre la table de prestations et la table des établissements selon les 9 variables habituellement utilisées.  
 

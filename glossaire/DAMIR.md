@@ -19,7 +19,7 @@ Les dépenses sont agrégées selon différents axes :
 
 On peut interroger le DAMIR:
 - via BO WebI, avec les profils 22 et 23. 
-- via SAS / Guide, table <PreviewPage text="MA_REM_FT" link="../tables/MA_REM_FT/" /> dans ORAVUE. 
+- via SAS / Guide, table [MA_REM_FT](../tables/DAMIR/MA_REM_FT.md) dans ORAVUE. 
 
 La table `MA_REM_FT` est accessible: 
 - à partir des profils permettant d’accéder à DCIR pour les organismes autorisés à requêter sur DCIR. 
@@ -35,5 +35,5 @@ Le DAMIR est utilisé pour la [statistique mensuelle](../fiches/statistiques_men
 Il permet de calculer des [dépenses de soin de ville](../fiches/montant_soins_de_ville.md#DAMIR)
 
 ::: tip Crédits
-Support de formation DAMIR de la <PreviewPage text="Cnam" link="Cnam.html" /> (version de mai 2018).
+Support de formation DAMIR de la [Cnam](Cnam.md) (version de mai 2018).
 :::

@@ -3,7 +3,7 @@
 
 Le Département d'Information Médicale (DIM) d'un hôpital gère l'information de santé des patients.
 
-Il est notamment en charge du <PreviewPage text="codage" link="codage.html" /> de l'activité médicale dans un but de remboursement des prestations hospitalières par l'Assurance-maladie.
+Il est notamment en charge du [codage](codage.md) de l'activité médicale dans un but de remboursement des prestations hospitalières par l'Assurance-maladie.
 
 
 ## Références

@@ -11,8 +11,8 @@ En plus de sa quasi-exhaustivité sur les données médico-administratives de la
 Apparier ainsi le SNDS à d'autres sources de données décuple le potentiel de cet entrepôt pour la recherche en santé, en permettant bien souvent d'enrichir les données médico-administratives (du SNDS) par des données cliniques (venant d'autres bases).
 Ces appariements peuvent être de deux types :
 
-- appariement direct (dit aussi _déterministe_), i.e. directement sur l'identifiant bénéficiaire, si la cohorte externe dispose du <PreviewPage text="NIR" link="../glossaire/NIR.html" /> (ou des données directement identifiantes permettant de le reconstruire)
-- appariement indirect (dit aussi _probabiliste_), sur un certain nombre de variables communes aux deux bases, si la cohorte externe ne dispose pas du <PreviewPage text="NIR" link="../glossaire/NIR.html" /> (ou des données directement identifiantes permettant de le reconstruire)
+- appariement direct (dit aussi _déterministe_), i.e. directement sur l'identifiant bénéficiaire, si la cohorte externe dispose du [NIR](../glossaire/NIR.md) (ou des données directement identifiantes permettant de le reconstruire)
+- appariement indirect (dit aussi _probabiliste_), sur un certain nombre de variables communes aux deux bases, si la cohorte externe ne dispose pas du [NIR](../glossaire/NIR.md) (ou des données directement identifiantes permettant de le reconstruire)
 
 ## Quelques exemples
 

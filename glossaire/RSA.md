@@ -1,7 +1,7 @@
 # RSA - Résumé de sortie anonyme
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Un résumé de sortie anonyme (RSA) est le résultat d'une <PreviewPage text="pseudonymisation" link="pseudonymisation.html" /> d’un <PreviewPage text="résumé de sortie standardisée" link="RSS.html" /> pour en retirer les informations directement identifiante.
+Un résumé de sortie anonyme (RSA) est le résultat d'une [pseudonymisation](pseudonymisation.md) d’un [résumé de sortie standardisée](RSS.md) pour en retirer les informations directement identifiante.
 
 Cette opération est réalisée par le logiciel Genrsa, pour « générateur de RSA ». 
 

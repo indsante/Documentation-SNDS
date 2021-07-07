@@ -36,7 +36,7 @@ c'est-à-dire d'une forme grave d'une maladie ou d'une forme évolutive ou inval
 ## Repérer les ALD
 
 Pour repérer les ALD, il existe deux sources principales : 
-- le **référentiel médicalisé** <PreviewPage text="IR_IMB_R" link="../tables/IR_IMB_R/" /> qui liste les bénéficiaires du dispositif, la nature de leurs ALD, et les dates de début et de fin de l'ALD, 
+- le **référentiel médicalisé** [IR_IMB_R](../tables/DCIR_DCIRS/IR_IMB_R.md) qui liste les bénéficiaires du dispositif, la nature de leurs ALD, et les dates de début et de fin de l'ALD, 
 - ou la **table des prestations** qui indique pour chaque prestation si le patient a été exonéré au titre d'une ALD.
 
 Les informations dans ces deux tables ne se recoupent pas parfaitement. 

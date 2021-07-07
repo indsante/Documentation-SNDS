@@ -278,7 +278,7 @@ André Happe (EA 7449 REPERES, en charge de l'axe transversal "Outils et Méthod
 
 ### Appariements entre les cohortes et le SNDS
 - Titre : Appariements entre les cohortes et le SNDS - zoom sur un cas concret
-- Présenté par : Mehdi Gabbas et Brice Dufresne (<PreviewPage text="Cnam" link="../glossaire/Cnam.html" />)
+- Présenté par : Mehdi Gabbas et Brice Dufresne ([Cnam](../glossaire/Cnam.md))
 - Support de présentation :
 [pptx](../files/presentations/meetup-snds1/2019.03.27_CNAM_Possibilités_Appariement_SNDS_MPL-2.0.pptx),
 [pdf](../files/presentations/meetup-snds1/2019.03.27_CNAM_Possibilités_Appariement_SNDS_MPL-2.0.pdf)

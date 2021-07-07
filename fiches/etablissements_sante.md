@@ -65,8 +65,8 @@ ELSE :
     lieu_exec = "prive"
 ```
 
-Les <PreviewPage text="rétrocessions" link="../glossaire/retrocession.html" /> ont pour lieu d'exécution l'hôpital public. Elles correspondent à de la pharmacie hospitalière en établissement. Leur code prestation `PRS_NAT_REF` est parmi 3317, 3318, 3319, 3351, 3352, 3353, 3354, 3355, 3356, 3357, 3330 (table de valeur `IR_NAT_V`). 
-Néanmoins, elles devraient être retenus avec les soins de ville. En effet, les rétrocessions sont rattachées aux soins de ville, au sens de l'Objectif National des Dépenses d'Assurance Maladie (<PreviewPage text="ONDAM" link="../glossaire/ONDAM.html" />).  
+Les [rétrocessions](../glossaire/retrocession.md) ont pour lieu d'exécution l'hôpital public. Elles correspondent à de la pharmacie hospitalière en établissement. Leur code prestation `PRS_NAT_REF` est parmi 3317, 3318, 3319, 3351, 3352, 3353, 3354, 3355, 3356, 3357, 3330 (table de valeur `IR_NAT_V`). 
+Néanmoins, elles devraient être retenus avec les soins de ville. En effet, les rétrocessions sont rattachées aux soins de ville, au sens de l'Objectif National des Dépenses d'Assurance Maladie ([ONDAM](../glossaire/ONDAM.md)).  
 
 **Pour travailler sur les soins de ville dans le DCIR on peut donc exclure les prestations pour lesquels `lieu_exec` == 'public' sauf si la `PRS_NAT_REF` correspond à de la rétrocession**.
 

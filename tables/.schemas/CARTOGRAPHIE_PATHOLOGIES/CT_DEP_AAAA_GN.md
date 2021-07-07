@@ -3,7 +3,7 @@
 - Titre : Table dépenses de la cartographie des pathologies pour l'année AAAA et l'algorithme N
 <br />
 - Clé(s) étrangère(s) : <br />
-`id_carto` => table <PreviewPage text="CT_IDE_AAAA_GN" link="/tables/CT_IDE_AAAA_GN" /> [ `id_carto` ]<br />
+`id_carto` => table [CT_IDE_AAAA_GN](/tables/CT_IDE_AAAA_GN) [ `id_carto` ]<br />
 
 ### Liste des variables
 <br />

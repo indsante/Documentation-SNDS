@@ -18,6 +18,6 @@ _La loi du 24 juillet 2019, relative à l'Organisation et la Transformation du S
 La loi n'étant pas encore entièrement mise en application, nous nous concentrerons ici sur le SNDS "historique", déjà complexe, et sur les procédures d'accès correspondantes, qui n'ont évolué que légèrement depuis._
 :::
 
-En marge de ce guide, voici une présentation du SNDS lors du salon de la data (sept. 2019), par Céline Leroy (<PreviewPage text="ARS" link="../glossaire/ARS.html" /> Normandie) et Jérôme Brocca (<PreviewPage text="ARS" link="../glossaire/ARS.html" /> Centre Val-de-loire).
+En marge de ce guide, voici une présentation du SNDS lors du salon de la data (sept. 2019), par Céline Leroy ([ARS](../glossaire/ARS.md) Normandie) et Jérôme Brocca ([ARS](../glossaire/ARS.md) Centre Val-de-loire).
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6xYtk04S7k8?start=58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

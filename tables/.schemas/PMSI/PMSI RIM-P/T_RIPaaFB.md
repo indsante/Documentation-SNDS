@@ -5,7 +5,7 @@
 - Clé primaire : `ETA_NUM_EPMSI`, `RIP_NUM`
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM_EPMSI` => table <PreviewPage text="T_RIPaaE" link="/tables/T_RIPaaE" /> [ `ETA_NUM` ]<br />
+`ETA_NUM_EPMSI` => table [T_RIPaaE](/tables/T_RIPaaE) [ `ETA_NUM` ]<br />
 
 ### Liste des variables
 <br />

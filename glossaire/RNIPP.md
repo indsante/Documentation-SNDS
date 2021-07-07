@@ -8,7 +8,7 @@ Le RNIPP recense l'ensemble des personnes vivantes et décédées, nées en Fran
 ## Contenu
 
 Le RNIPP contient uniquement des informations sur l'état-civil : 
-- le numéro d'inscription au répertoire (<PreviewPage text="NIR" link="NIR.html" />) ;
+- le numéro d'inscription au répertoire ([NIR](NIR.md)) ;
 - le nom de famille et parfois le nom d'usage, ou nom marital ;
 - les prénoms ;
 - le sexe ;
@@ -19,9 +19,9 @@ Le RNIPP contient uniquement des informations sur l'état-civil :
 
 ## Alimentation
 
-Le RNIPP est mis à jour quotidiennement grâce aux bulletins statistiques de l'état civil établis et adressés à l'Insee par les communes à la suite de naissances, décès, reconnaissances, et mentions portées en marge des actes de naissance pour les personnes nées en France métropolitaine et dans les départements d'outre-mer (<PreviewPage text="Dom" link="Dom.html" />).
+Le RNIPP est mis à jour quotidiennement grâce aux bulletins statistiques de l'état civil établis et adressés à l'Insee par les communes à la suite de naissances, décès, reconnaissances, et mentions portées en marge des actes de naissance pour les personnes nées en France métropolitaine et dans les départements d'outre-mer ([Dom](Dom.md)).
 
-Le RNIPP alimente le Système national de gestion des identifiants (<PreviewPage text="SNGI" link="SNGI.html" />) géré par la <PreviewPage text="CNAV" link="Cnav.html" />.
+Le RNIPP alimente le Système national de gestion des identifiants ([SNGI](SNGI.md)) géré par la [CNAV](Cnav.md).
 
 Réciproquement, le RNIPP est alimenté par le SNGI pour les personnes nées à l'étranger et venues travailler en France.  
 
@@ -34,7 +34,7 @@ Il permet de lever le doute sur les homonymies, ou de préciser si une personne 
 Il est ainsi utilisé par l'administration fiscale et les caisses de retraite pour certifier des états civils.
 
 Il participe à la veille sanitaire. 
-Depuis la canicule de l'été 2003, l'Insee transmet quotidiennement à <PreviewPage text="Santé publique France" link="SpF.html" /> (anciennement InVs) des informations sur les décès.
+Depuis la canicule de l'été 2003, l'Insee transmet quotidiennement à [Santé publique France](SpF.md) (anciennement InVs) des informations sur les décès.
 
 Il permet d'élaborer des statistiques démographiques.
 

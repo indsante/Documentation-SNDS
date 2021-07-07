@@ -1,7 +1,7 @@
 # ONDAM - Objectif national des dépenses d’assurance maladie
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-L’ONDAM est fixé chaque année par le Parlement, conformément aux dispositions de la loi de financement de la sécurité sociale (<PreviewPage text="LFSS" link="LFSS.html" />). 
+L’ONDAM est fixé chaque année par le Parlement, conformément aux dispositions de la loi de financement de la sécurité sociale ([LFSS](LFSS.md)). 
 
 Il correspond aux prévisions de recettes et aux objectifs des dépenses de la sécurité sociale : 
 - les soins de ville, 
@@ -11,11 +11,11 @@ Il correspond aux prévisions de recettes et aux objectifs des dépenses de la s
  
 Au sein des établissements de santé, des sous objectifs sont fixés pour : 
 - les établissements publics et privés tarifés à l’activité au titre 
-  - de leur activité de médecine, chirurgie, obstétrique (ODMCO : objectif des dépenses de <PreviewPage text="MCO" link="MCO.html" />), 
-  - de leurs missions d’intérêt général et d’aide à la contractualisation (<PreviewPage text="MIGAC" link="MIGAC.html" />)
+  - de leur activité de médecine, chirurgie, obstétrique (ODMCO : objectif des dépenses de [MCO](MCO.md)), 
+  - de leurs missions d’intérêt général et d’aide à la contractualisation ([MIGAC](MIGAC.md))
 - les activités de soins de suite et de réadaptation, de psychiatrie, et de soins de longue durée : 
-  - l’objectif des dépenses d’assurance maladie (<PreviewPage text="ODAM" link="ONDAM.html" />) 
-  - l’objectif quantifié national (<PreviewPage text="OQN" link="OQN.html" />)
+  - l’objectif des dépenses d’assurance maladie ([ODAM](ONDAM.md)) 
+  - l’objectif quantifié national ([OQN](OQN.md))
 
 # Références
 

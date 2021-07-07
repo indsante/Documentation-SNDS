@@ -14,7 +14,7 @@ tags:
 
 ## Présentation
 
-La cartographie des pathologies et des dépenses est une base produite par la <PreviewPage text="CNAM" link="../glossaire/Cnam.html" /> à partir du SNDS.
+La cartographie des pathologies et des dépenses est une base produite par la [CNAM](../glossaire/Cnam.md) à partir du SNDS.
 
 Elle consiste à identifier :
 * les patients pris en charge pour des pathologies chroniques fréquentes, graves, ou coûteuses ;
@@ -22,7 +22,7 @@ Elle consiste à identifier :
 * les patients qui n’ont pas ces pathologies chroniques repérées ou évènements de santé mais ont eu des hospitalisations ponctuelles ;
 * et ceux qui ne sont dans aucune de ces situations.
 
-La cartographie couvre environ **57 millions de bénéficiaires du régime général** (<PreviewPage text="SLM" link="../glossaire/SLM.html" /> comprises) ayant eu recours à des soins remboursés dans l’année. 
+La cartographie couvre environ **57 millions de bénéficiaires du régime général** ([SLM](../glossaire/SLM.md) comprises) ayant eu recours à des soins remboursés dans l’année. 
 
 Les algorithmes d'identification utilisent les informations suivantes :
 * diagnostics mentionnés dans le **PMSI à la suite d'une hospitalisation** ;
@@ -56,17 +56,17 @@ Les tops pathologie sont calculés **chaque année** (AAAA), et selon plusieurs 
 
 ## Tables de la cartographie
 
-Les tops pathologies sont restitués dans la table <PreviewPage text="CT_IND_AAAA_GX" link="../tables/CT_IND_AAAA_GN/" />. 
+Les tops pathologies sont restitués dans la table [CT_IND_AAAA_GX](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_IND_AAAA_GN.md). 
 
-La table <PreviewPage text="CT_DEP_AAAA_GX" link="../tables/CT_DEP_AAAA_GN/" /> compile les dépenses par poste de soins de ville, d’hôpital, et de prestations en espèces. Elle permet de rapidement calculer les dépenses par pathologie.
+La table [CT_DEP_AAAA_GX](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_DEP_AAAA_GN.md) compile les dépenses par poste de soins de ville, d’hôpital, et de prestations en espèces. Elle permet de rapidement calculer les dépenses par pathologie.
  
-La table <PreviewPage text="CT_IDE_AAAA_GX" link="../tables/CT_IDE_AAAA_GN/" /> est une table de passage entre les identifiants BEN_NIR_PSA et BEN_RNG_GEM du DCIR, et l'identifiant ID_CARTO propre à la cartographie.
+La table [CT_IDE_AAAA_GX](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_IDE_AAAA_GN.md) est une table de passage entre les identifiants BEN_NIR_PSA et BEN_RNG_GEM du DCIR, et l'identifiant ID_CARTO propre à la cartographie.
 
 ## Groupe des Maladies cardioneurovasculaires (sup\_Cv\_cat)
 ### Top Syndrome coronaire aigu (top\_CvIDM\_aig)
 #### Description des critères de repérage
 
-Personnes hospitalisées l’année N pour cardiopathie ischémique aigüe (<PreviewPage text="DP" link="../glossaire/DP.html" /> d’un des <PreviewPage text="RUM" link="../glossaire/RUM.html" />).   
+Personnes hospitalisées l’année N pour cardiopathie ischémique aigüe ([DP](../glossaire/DP.md) d’un des [RUM](../glossaire/RUM.md)).   
 
 #### Codes CIM10 utilisés dans le PMSI
 

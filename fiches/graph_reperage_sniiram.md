@@ -13,7 +13,7 @@ tags:
 
 Cette présentation illustre quelles sources (DCIR ou PMSI) et tables utiliser pour rechercher plusieurs types de soins :
 - les consultations,
-- les actes <PreviewPage text="CCAM" link="../glossaire/CCAM.html" />,
+- les actes [CCAM](../glossaire/CCAM.md),
 - les séjours... .
 
 Les années de disponibilité de chaque table sont indiquées :

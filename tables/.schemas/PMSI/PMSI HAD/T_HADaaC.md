@@ -5,8 +5,8 @@
 - Clé primaire : `ETA_NUM_EPMSI`, `RHAD_NUM`
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM_EPMSI`, `RHAD_NUM` => table <PreviewPage text="T_HADaaB" link="/tables/T_HADaaB" /> [ `ETA_NUM_EPMSI`, `RHAD_NUM` ]<br />
-`NIR_ANO_17` => table <PreviewPage text="IR_BEN_R" link="/tables/IR_BEN_R" /> [ `BEN_NIR_PSA` ]<br />
+`ETA_NUM_EPMSI`, `RHAD_NUM` => table [T_HADaaB](/tables/T_HADaaB) [ `ETA_NUM_EPMSI`, `RHAD_NUM` ]<br />
+`NIR_ANO_17` => table [IR_BEN_R](/tables/IR_BEN_R) [ `BEN_NIR_PSA` ]<br />
 
 ### Liste des variables
 <br />

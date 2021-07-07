@@ -15,10 +15,10 @@ Cette fiche explique comment retrouver les dépenses des établissements publics
 Nous y traitons les dépenses associées aux séjours hospitaliers ainsi qu'aux actes et consultations externes ([ACE](actes_consult_externes.md)).
 
 Les explications sont déclinées par spécialité hospitalière : 
-- <PreviewPage text="MCO" link="../glossaire/MCO.html" /> : médecine chirurgie obstétrique et odontologie
-- <PreviewPage text="SSR" link="../glossaire/SSR.html" /> : soins de suite et de réadaptation
-- <PreviewPage text="HAD" link="../glossaire/HAD.html" /> : hospitalisation à domicile
-- <PreviewPage text="PSY" link="../glossaire/RIM-P.html" /> : psychiatrie   
+- [MCO](../glossaire/MCO.md) : médecine chirurgie obstétrique et odontologie
+- [SSR](../glossaire/SSR.md) : soins de suite et de réadaptation
+- [HAD](../glossaire/HAD.md) : hospitalisation à domicile
+- [PSY](../glossaire/RIM-P.md) : psychiatrie   
 
 Pour plus de détail sur ces spécialités, se reporter à la [documentation de l'ATIH](https://www.atih.sante.fr/domaines-d-activites/information-medicale), ou au 
 [panorama Etablissements de santé de la DREES](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/panoramas-de-la-drees/article/les-etablissements-de-sante-edition-2019).
@@ -69,10 +69,10 @@ Pour connaitre le montant de la dépense de l'assurance maladie, on utilise la t
 La variable de montant est `MNT_TOT_AM` : il s'agit du montant présenté à l'assurance maladie.  
 Il est conseillé de considérer `MNT_TOT_AM` de la table `T_MCOaaVALO` corrigée par l'ATIH et non la variable
 `TOT_MNT_AM` de la table de prise en charge `T_MCOaaSTC` qui est l'information brute fournie par les établissements.  
-Pour un même séjour, ces deux montants ne sont pas calculés selon la même base de remboursement : `MNT_TOT_AM` est calculée sur la base des tarifs nationaux de prestations, *i.e.* les <PreviewPage text="groupes homogènes de séjours" link="../glossaire/GHS.html" /> en MCO, tandis que `TOT_MNT_AM` est calculée sur la base des tarifs journaliers de prestation (TJP).
+Pour un même séjour, ces deux montants ne sont pas calculés selon la même base de remboursement : `MNT_TOT_AM` est calculée sur la base des tarifs nationaux de prestations, *i.e.* les [groupes homogènes de séjours](../glossaire/GHS.md) en MCO, tandis que `TOT_MNT_AM` est calculée sur la base des tarifs journaliers de prestation (TJP).
 
 La table de chaînage patients (`T_MCOaaC` toujours sous ORAVUE) est la seule à contenir l'identifiant du bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](fiche_beneficiaire.md) pour plus d'informations).  
-La table des séjours (`T_MCOaaB` sous ORAVUE) apporte des informations supplémentaires sur le séjour (mode d'entrée et de sortie, numéro du <PreviewPage text="GHM" link="../glossaire/GHM.html" />, etc.).  
+La table des séjours (`T_MCOaaB` sous ORAVUE) apporte des informations supplémentaires sur le séjour (mode d'entrée et de sortie, numéro du [GHM](../glossaire/GHM.md), etc.).  
 Pour joindre les différentes tables mentionnées, la clef de chaînage est le couple (`ETA_NUM`, `RSA_NUM`) où `ETA_NUM` est le numéro FINESS de l'établissement et `RSA_NUM` le numéro séquentiel du séjour.  
 
 L'information concernant les établissements se trouve dans la table `T_MCOaaE`. On peut joindre cette table aux précédentes avec `ETA_NUM` uniquement. 
@@ -140,9 +140,9 @@ A minima, il faut exclure les séjours pour lesquels `VALO` prend la valeur 0, o
 
 ### En SSR 
 
-Avant 2017, nous ne disposons que de la table de facturation transmise par les établissements `T_SSRaaSTC` (sous ORAVUE), dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des <PreviewPage text="GMT" link="../glossaire/GMT.html" /> mais des tarifs journaliers de prestation.   
+Avant 2017, nous ne disposons que de la table de facturation transmise par les établissements `T_SSRaaSTC` (sous ORAVUE), dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des [GMT](../glossaire/GMT.md) mais des tarifs journaliers de prestation.   
 La table `T_SSRaaB` de description du séjour permet d'extraire des informations sur le mode d'hospitalisation (complète/partielle, variable `HOS_TYP_UM`), 
-ainsi que sur le <PreviewPage text="GME" link="../glossaire/GME.html" /> (variable `GR_GME`).
+ainsi que sur le [GME](../glossaire/GME.md) (variable `GR_GME`).
 
 La table de chaînage patients se nomme `T_SSRaaC` (toujours sous ORAVUE). On y trouve l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires](fiche_beneficiaire.md) pour plus d'informations).   
 Pour joindre les tables mentionnées ci-dessus, la clef de chaînage est le couple (`ETA_NUM`,`RHA_NUM`) où `ETA_NUM` est le numéro FINESS de l'établissement et `RHA_NUM` le numéro séquentiel du séjour.  
@@ -162,9 +162,9 @@ Dans ce cas, nous suggérons d'appliquer un facteur multiplicatif pour extrapole
 
 ### En HAD 
 
-Sur le portail CNAM, nous ne disposons que de la table de facturation transmise par les établissements `T_HADaaSTC` (sous ORAVUE), dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des <PreviewPage text="GHT" link="../glossaire/GHT.html" /> mais des tarifs journaliers de prestation.   
+Sur le portail CNAM, nous ne disposons que de la table de facturation transmise par les établissements `T_HADaaSTC` (sous ORAVUE), dans laquelle la variable `TOT_MNT_AM` n'est pas calculée sur la base des [GHT](../glossaire/GHT.md) mais des tarifs journaliers de prestation.   
 La table de chaînage patients se nomme `T_HADaaC`. On y trouve l'identifiant bénéficiaire `NIR_ANO_17` ([fiche identifiant des bénéficiaires pour plus d'informations](fiche_beneficiaire.md)).  
-Des informations sur le <PreviewPage text="GHPC" link="../glossaire/GHPC.html" /> se trouvent dans la table `T_HAD_aaGRP` (variable `PAP_GRP_GHPC`).  
+Des informations sur le [GHPC](../glossaire/GHPC.md) se trouvent dans la table `T_HAD_aaGRP` (variable `PAP_GRP_GHPC`).  
 
 Pour joindre les tables mentionnées ci-dessus, la clef de chaînage est le couple (`ETA_NUM_EPMSI`, `RHAD_NUM`) où `ETA_NUM_EPMSI` est le numéro FINESS de l'établissement et `RHAD_NUM` le numéro séquentiel du séjour.  
 
@@ -197,11 +197,11 @@ La clef de chaînage entre les tables mentionnées ci-dessus est le couple (`ETA
 
 ### Dépenses en sus 
 
-Par ailleurs, certains médicaments peuvent être facturés en sus du tarif du séjour (<PreviewPage text="GHS" link="../glossaire/GMT.html" /> en MCO, 
-<PreviewPage text="GHT" link="../glossaire/GHT.html" /> en HAD et <PreviewPage text="GMT" link="../glossaire/GMT.html" /> en SSR) et en sus des ACE (en MCO).  
+Par ailleurs, certains médicaments peuvent être facturés en sus du tarif du séjour ([GHS](../glossaire/GMT.md) en MCO, 
+[GHT](../glossaire/GHT.md) en HAD et [GMT](../glossaire/GMT.md) en SSR) et en sus des ACE (en MCO).  
 Les informations sur les dépenses associées à ces médicaments sont détaillées dans 
 la [fiche sur les médicaments de la liste en sus](medicaments_de_la_liste_en_sus.md).  
-En MCO, certains dispositifs médicaux implantables peuvent également être facturés en sus du <PreviewPage text="GHS" link="../glossaire/GMT.html" />. 
+En MCO, certains dispositifs médicaux implantables peuvent également être facturés en sus du [GHS](../glossaire/GMT.md). 
 Les dépenses associées à ces dispositifs sont détaillées dans la [fiche sur les dispositifs médicaux implantables en sus](dispositifs_medicaux_implantables_en_sus.md).  
 Par définition, il n'y a pas de reste à charge pour les dépenses en sus qui sont entièrement prises en charge par l'assurance maladie obligatoire.  
 

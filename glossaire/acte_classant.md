@@ -1,9 +1,9 @@
 # Acte classant
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Un acte classant est un acte médico-technique codé dans le résumé d’unité médicale (<PreviewPage text="RUM" link="RUM.html" />) de chaque patient hospitalisé, d’après la classification commune des actes médicaux <PreviewPage text="CCAM" link="CCAM.html" />. 
+Un acte classant est un acte médico-technique codé dans le résumé d’unité médicale ([RUM](RUM.md)) de chaque patient hospitalisé, d’après la classification commune des actes médicaux [CCAM](CCAM.md). 
 
-Sa mention dans le RUM est indispensable car il est pris en compte par l’algorithme qui classe chaque séjour dans le groupement homogène de malade <PreviewPage text="GHM" link="GHM.html" /> adéquat (cf. <PreviewPage text="groupage" link="groupage.html" />).  
+Sa mention dans le RUM est indispensable car il est pris en compte par l’algorithme qui classe chaque séjour dans le groupement homogène de malade [GHM](GHM.md) adéquat (cf. [groupage](groupage.md)).  
 
 # Références
 

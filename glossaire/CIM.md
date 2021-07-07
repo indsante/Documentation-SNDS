@@ -1,7 +1,7 @@
 # CIM - Classification internationale des maladies
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-La classification internationale des maladies, publiée par l’Organisation mondiale de la santé (<PreviewPage text="OMS" link="OMS.html" />) est utilisée pour coder les diagnostics dans les recueils d’information des différents domaines du <PreviewPage text="PMSI" link="PMSI.html" />. 
+La classification internationale des maladies, publiée par l’Organisation mondiale de la santé ([OMS](OMS.md)) est utilisée pour coder les diagnostics dans les recueils d’information des différents domaines du [PMSI](PMSI.md). 
 
 La version utilisée en France depuis 1996 est la dixième révision (CIM-10).
 

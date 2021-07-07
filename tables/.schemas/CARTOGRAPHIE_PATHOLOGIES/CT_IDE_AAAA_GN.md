@@ -5,7 +5,7 @@
 - Clé primaire : `ben_nir_psa`, `ben_rng_gem`
 <br />
 - Clé(s) étrangère(s) : <br />
-`ben_nir_psa`, `ben_rng_gem` => table <PreviewPage text="IR_BEN_R" link="/tables/IR_BEN_R" /> [ `BEN_NIR_PSA`, `BEN_RNG_GEM` ]<br />
+`ben_nir_psa`, `ben_rng_gem` => table [IR_BEN_R](/tables/IR_BEN_R) [ `BEN_NIR_PSA`, `BEN_RNG_GEM` ]<br />
 
 ### Liste des variables
 <br />

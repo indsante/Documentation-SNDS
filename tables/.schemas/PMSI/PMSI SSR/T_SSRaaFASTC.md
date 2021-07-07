@@ -3,7 +3,7 @@
 - Titre : ACE Entete facture
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM` => table <PreviewPage text="T_SSRaaE" link="/tables/T_SSRaaE" /> [ `ETA_NUM` ]<br />
+`ETA_NUM` => table [T_SSRaaE](/tables/T_SSRaaE) [ `ETA_NUM` ]<br />
 
 ### Liste des variables
 <br />

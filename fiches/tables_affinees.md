@@ -147,7 +147,7 @@ Nous présentons ci-dessous le calcul de ces indicateurs pour les principales ta
 #### Les actes CCAM
 
 
-Dans le DCIR, la table affinée <PreviewPage text="CCAM" link="../glossaire/CCAM.html" /> `ER_CAM_F` fournit des données détaillés sur les actes CCAM, notamment le code CCAM (variable `CAM_PRS_IDE`, nomenclature `IR_CCAM_VXX`, avec `XX` désignant la version
+Dans le DCIR, la table affinée [CCAM](../glossaire/CCAM.md) `ER_CAM_F` fournit des données détaillés sur les actes CCAM, notamment le code CCAM (variable `CAM_PRS_IDE`, nomenclature `IR_CCAM_VXX`, avec `XX` désignant la version
 de la nomenclature CCAM).  Les actes CCAM regroupent des champs divers comme le système nerveux,
  le dentaire ou encore les actes sur le tube digestif, les voies biliaires, etc. 
 
@@ -293,7 +293,7 @@ Montant remboursé affiné = qté affinée (`PHA_DEC_QSD`) x prix unitaire (`PHA
 
 #### Les médicaments rétrocédés et de la liste en sus
 
-Les médicaments <PreviewPage text="rétrocédés" link="../glossaire/retrocession.html" /> et de la [liste en sus](../fiches/medicaments_de_la_liste_en_sus.md) sont disponibles dans la table affinées `ER_UCD_F`. 
+Les médicaments [rétrocédés](../glossaire/retrocession.md) et de la [liste en sus](../fiches/medicaments_de_la_liste_en_sus.md) sont disponibles dans la table affinées `ER_UCD_F`. 
 Le sigle UCD correspond à **unités communes de dispensation**, le code UCD est contenu dans la variable `UCD_UCD_COD` et correspond au plus petit conditionnement pharmaceutique.
 
 ::: tip Attention
@@ -358,7 +358,7 @@ On retrouve les variables `UCD_TTF_MNT` (le montant TTC facturé),
 #### La LPP
 
 
-La  <PreviewPage text="LPP" link="../glossaire/LPP.html" /> est décomposée en titres et les titres sont décomposés en chapitres. Dans le titre II par exemple, on peut trouver 
+La  [LPP](../glossaire/LPP.md) est décomposée en titres et les titres sont décomposés en chapitres. Dans le titre II par exemple, on peut trouver 
 les aides auditives ([audioprothèses](audioprotheses.md)) et l'optique médicale ([optique](optique.md)).  
 En outre, une partie de la LPP correspond à des dépenses en sus de prestations hospitalières ([voir la liste donnée sur le 
 site ameli](https://www.ameli.fr/etablissement/exercice-professionnel/nomenclatures-codage/lpp#text_24524)).  
@@ -403,7 +403,7 @@ de la table affinée pour calculer le montant remboursé.
 
 La table affinée biologie DCIR se nomme `ER_BIO_F`.
 
-Pour la biologie, les montants payés et remboursés détaillés pour chaque code <PreviewPage text="NABM" link="../glossaire/NABM.html" /> sont à recalculer :
+Pour la biologie, les montants payés et remboursés détaillés pour chaque code [NABM](../glossaire/NABM.md) sont à recalculer :
 1.	récupérer la variable `BTF_TAR_COF` dans la table `IR_BTF_R` dans ORAREF. 
 Cette variable donne le coefficient de l'acte affiné selon les dates d'arrêté au JO (la valeur bouge dans le temps). 
 Si l'on souhaite la dernière valeur de chaque coefficient, il faut donc ne conserver que les lignes de `BTF_PRS_IDE`

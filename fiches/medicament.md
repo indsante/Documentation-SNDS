@@ -41,7 +41,7 @@ Il existe plusieurs niveaux de classes ATC (ATC3, ATC5, ATC7), correspondant à 
 ## Cibler des patients sur un code CIP
 **Principe :** Sortir une liste de patients qui ont consommé un médicament précis.  
 
-**Table(s) concernée(s) :** <PreviewPage text="ER_PRS_F" link="../tables/ER_PRS_F/" />, <PreviewPage text="ER_PHA_F" link="../tables/ER_PHA_F/" />, table contenant le(s) code(s) CIP concernés par l’extraction (appelée TAB_MED ici, contenant le code CIP13 sous sa forme standard ou le CIP07 sous la forme 000000XXXXXXX dans une variable nommée COD_MED, table située sous ORAUSER). 
+**Table(s) concernée(s) :** [ER_PRS_F](../tables/DCIR/ER_PRS_F.md), [ER_PHA_F](../tables/DCIR/ER_PHA_F.md), table contenant le(s) code(s) CIP concernés par l’extraction (appelée TAB_MED ici, contenant le code CIP13 sous sa forme standard ou le CIP07 sous la forme 000000XXXXXXX dans une variable nommée COD_MED, table située sous ORAUSER). 
 
 Dans l’exemple suivant, l’extraction se fera sur l’année 2017.
 
@@ -85,7 +85,7 @@ Il existe deux méthodes pour obtenir le résultat attendu.
 
 Il faudra le faire en plusieurs étapes (CIP07, CIP13).  
 
-**Table(s) concernée(s) :** <PreviewPage text="ER_PRS_F" link="../tables/ER_PRS_F/" />, <PreviewPage text="ER_PHA_F" link="../tables/ER_PHA_F/" />, IR_PHA_R
+**Table(s) concernée(s) :** [ER_PRS_F](../tables/DCIR/ER_PRS_F.md), [ER_PHA_F](../tables/DCIR/ER_PHA_F.md), IR_PHA_R
 
 *  METHODE 1
 ``` sql

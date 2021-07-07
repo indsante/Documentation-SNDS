@@ -9,17 +9,17 @@ tags:
 
 <TagLinks />
 
-Le numéro du professionnel de santé (<PreviewPage text="PS" link="../glossaire/PS.html" />) est le numéro sous lequel un professionnel de santé libéral va liquider ses prestations ou prescrire des actes.
+Le numéro du professionnel de santé ([PS](../glossaire/PS.md)) est le numéro sous lequel un professionnel de santé libéral va liquider ses prestations ou prescrire des actes.
 
 ## Accès au numéro en clair ou crypté
 
 Certains utilisateurs n'ont pas accès au numéro du PS en clair, mais à une version cryptée.
 
 Les utilisateurs disposant du numéro du PS en clair sont notamment :
-- les agents des caisses nationales (<PreviewPage text="Cnam" link="../glossaire/Cnam.html" /> et autres régimes), 
-- les <PreviewPage text="ARS" link="../glossaire/ARS.html" />, 
-- les <PreviewPage text="DCGDR" link="../glossaire/DCGDR.html" />,
-- les <PreviewPage text="DRSM" link="../glossaire/DRSM.html" />.
+- les agents des caisses nationales ([Cnam](../glossaire/Cnam.md) et autres régimes), 
+- les [ARS](../glossaire/ARS.md), 
+- les [DCGDR](../glossaire/DCGDR.md),
+- les [DRSM](../glossaire/DRSM.md).
 
 ## Variables donnant le numéro de PS
 
@@ -110,7 +110,7 @@ En comparant les spécialités exécutant des deux tables, il est alors possible
 
 Le numéro PS de chainage statistique se trouve uniquement dans la table DA\_PRA\_R et se nomme **STA\_PFS\_NUM**.
 
-Le numéro PS de chainage statistique correspond au numéro PS du cabinet principal sous lequel le PS recevra son Relevé individuel actes et prescriptions (<PreviewPage text="RIAP" link="../glossaire/RIAP.html" />). 
+Le numéro PS de chainage statistique correspond au numéro PS du cabinet principal sous lequel le PS recevra son Relevé individuel actes et prescriptions ([RIAP](../glossaire/RIAP.md)). 
 Il permet de regrouper toute l'activité d'un PS quels que soient ses lieux d'activité.
 
 Cette variable est unique pour un PS, tant qu'il ne change pas de cabinet principal. 
@@ -125,11 +125,11 @@ En résumé, pour un professionnel de santé donné :
 ## Similitudes et différences avec le RPPS et ADELI
 
 Les professionnels de santé sont enregistrés dans les répertoires nationaux : 
-* <PreviewPage text="RPPS" link="../glossaire/RPPS.html" /> pour les médecins, pharmaciens, chirurgiens-dentistes, sages-femmes, masseurs-kinéthérapeutes et pédicures-podologues
-* <PreviewPage text="Adeli" link="../glossaire/ADELI.html" /> pour les auxiliaires médicaux, les psychologues,les assistances de service social, les ostéopathes, chiropracteurs et psychothérapeutes.
+* [RPPS](../glossaire/RPPS.md) pour les médecins, pharmaciens, chirurgiens-dentistes, sages-femmes, masseurs-kinéthérapeutes et pédicures-podologues
+* [Adeli](../glossaire/ADELI.md) pour les auxiliaires médicaux, les psychologues,les assistances de service social, les ostéopathes, chiropracteurs et psychothérapeutes.
 
-Ces données proviennent des autorités chargées de leur enregistrement (ordres professionnels et ARS pour les civils, <PreviewPage text="service de santé des armées" link="../glossaire/SSA.html" /> pour les militaires). 
-Ils sont diffusées par l'<PreviewPage text="ASIP" link="../glossaire/ASIP.html" /> (exemple : https://annuaire.sante.fr/web/site-pro/home).
+Ces données proviennent des autorités chargées de leur enregistrement (ordres professionnels et ARS pour les civils, [service de santé des armées](../glossaire/SSA.md) pour les militaires). 
+Ils sont diffusées par l'[ASIP](../glossaire/ASIP.md) (exemple : https://annuaire.sante.fr/web/site-pro/home).
 
 En terme de périmètre, la table DA\_PRA\_R ne contient que les libéraux **ayant eu un remboursement**.
 

@@ -21,7 +21,7 @@ Elle s'adresse aux ressortissants étrangers en situation irrégulière et préc
 
 ## Identification des bénéficiaires de l'AME
 
-Pour identifier les bénéficiaires de l'AME dans la table des prestations du DCIR <PreviewPage text="ER_PRS_F" link="../tables/ER_PRS_F/" />,
+Pour identifier les bénéficiaires de l'AME dans la table des prestations du DCIR [ER_PRS_F](../tables/DCIR/ER_PRS_F.md),
  il faut utiliser la variable `RGM_COD` (code petit régime). 
 
 On prends les modalités : 
@@ -33,7 +33,7 @@ Il faut donc que l'individu ait au moins une prestation, ce qui est souvent le c
 
 On peut aussi utiliser la variable `BEN_CMU_CAT` (catégorie d’organisme complémentaire) dont la modalité 5 correspond à l’AME.
 
-En outre, joindre la table prestation avec la table affinée <PreviewPage text="ER_ARO_F" link="../tables/ER_ARO_F/" /> en posant le filtre `ARO_REM_TYP`=7 permet de retracer les prestations des bénéficiaires de l'AME. 
+En outre, joindre la table prestation avec la table affinée [ER_ARO_F](../tables/DCIR/ER_ARO_F.md) en posant le filtre `ARO_REM_TYP`=7 permet de retracer les prestations des bénéficiaires de l'AME. 
 
 ::: warning Attention
 L'AME n'est pas applicable à Mayotte.

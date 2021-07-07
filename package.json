@@ -22,7 +22,7 @@
     "vuepress": "^1.7.1"
   },
   "scripts": {
-    "start": "cp -r files .vuepress/public/files && node .vuepress/include-tables.js && ./transform-preview-links.sh",
+    "start": "cp -r files .vuepress/public/files && node .vuepress/include-tables.js",
     "docs:dev": "yarn run start && vuepress dev",
     "docs:build": "yarn run start && vuepress build",
     "lint-md": "remark --frail --use remark-validate-links . --quiet",

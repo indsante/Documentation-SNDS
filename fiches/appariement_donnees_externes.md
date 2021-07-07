@@ -11,7 +11,7 @@ tags:
 
 ## Définition
 
-Un appariement consiste à associer des données externes au SNDS, via des informations communes sur les bénéficiaires, les <PreviewPage text="professionnels de santé" link="../glossaire/PS.html" />, ou autres. 
+Un appariement consiste à associer des données externes au SNDS, via des informations communes sur les bénéficiaires, les [professionnels de santé](../glossaire/PS.md), ou autres. 
 
 Il existe principalement deux types d'appariements :
 
@@ -20,7 +20,7 @@ Il existe principalement deux types d'appariements :
 - Les appariements indirects
 
 ::: danger Attention
-Réaliser un appariement nécessite une autorisation préalable de la <PreviewPage text="CNIL" link="../glossaire/CNIL.html" />.
+Réaliser un appariement nécessite une autorisation préalable de la [CNIL](../glossaire/CNIL.md).
 :::
 
 

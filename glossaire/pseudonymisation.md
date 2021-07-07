@@ -2,14 +2,14 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 La pseudonymisation est un traitement de [données à caractère personnel](https://fr.wikipedia.org/wiki/Donn%C3%A9es_personnelles) qui consiste à remplacer les informations "directement" identifiantes par un identifiant pseudonyme artificiel. 
-Les données directement identifiantes qui sont remplacées sont, par exemple, les noms, prénoms, adresses, <PreviewPage text="numéro de sécurité sociale" link="NIR.html" />, numéro de téléphone, etc.
+Les données directement identifiantes qui sont remplacées sont, par exemple, les noms, prénoms, adresses, [numéro de sécurité sociale](NIR.md), numéro de téléphone, etc.
 
 La pseudonymisation est une procédure de protection des données personnelles, car les données pseudonymisées sont "moins" identifiantes. 
 Il n'est en effet pas possible d'attribuer une donnée pseudonymisée à une personne physique sans avoir recours à des informations supplémentaires. 
 
 ## Intérêt
 
-L'intérêt de la pseudonymisation est que les données produites conservent tout leur potentiel d'analyse, ou de chaînage avec d'autres données pseudonymisées selon la même procédure (cf <PreviewPage text="FOIN" link="FOIN.html" />). 
+L'intérêt de la pseudonymisation est que les données produites conservent tout leur potentiel d'analyse, ou de chaînage avec d'autres données pseudonymisées selon la même procédure (cf [FOIN](FOIN.md)). 
 
 
 ## Limite

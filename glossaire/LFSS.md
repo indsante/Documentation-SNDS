@@ -1,7 +1,7 @@
 # LFSS - Loi de financement de la Sécurité sociale
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-La loi de financement de la sécurité sociale (LFSS) est votée chaque année par le Parlement ; elle fixe l’objectif national des dépenses d’assurance maladie (<PreviewPage text="Ondam" link="ONDAM.html" />).
+La loi de financement de la sécurité sociale (LFSS) est votée chaque année par le Parlement ; elle fixe l’objectif national des dépenses d’assurance maladie ([Ondam](ONDAM.md)).
 
 # Références
 

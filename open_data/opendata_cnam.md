@@ -1,7 +1,7 @@
 # Open Data de la CNAM
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Régulièrement, la <PreviewPage text="CNAM" link="../glossaire/Cnam.html" /> publie dans sa rubrique « Statistiques et Publications » des données relatives aux dépenses d'assurance maladie, à la consommation de soins et à l'activité des professionnels de santé, ainsi que les derniers rapports, analyses et études statistiques ou médico-économiques.
+Régulièrement, la [CNAM](../glossaire/Cnam.md) publie dans sa rubrique « Statistiques et Publications » des données relatives aux dépenses d'assurance maladie, à la consommation de soins et à l'activité des professionnels de santé, ainsi que les derniers rapports, analyses et études statistiques ou médico-économiques.
 
 Ces séries statistiques de la CNAM, produites par la Direction de la Stratégie, des Etudes et des Statistiques (DSES) et issues notamment du Système National d’Information Inter Régimes de l’Assurance Maladie (SNIIRAM), ont été labellisées par l'Autorité de la statistique publique (arrêté du 14 avril 2015 sous le n° NOR FCPO1508846V).
 
