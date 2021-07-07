@@ -23,6 +23,7 @@
   },
   "scripts": {
     "start": "cp -r files .vuepress/public/files && node .vuepress/include-tables.js",
+    "create-preview": "bash transform-preview-links.sh",
     "docs:dev": "yarn run start && vuepress dev",
     "docs:build": "yarn run start && vuepress build",
     "lint-md": "remark --frail --use remark-validate-links . --quiet",
