@@ -1,7 +1,7 @@
 <template>
 <span >
     <a :href="link" id="trig1">{{text}}</a>
-    <iframe id='ifrm1' name='ifrm1' class="preview-page" :src="link"></iframe>
+    <iframe id='ifrm1' name='ifrm1' class="preview-page" :src="link" scrolling="no"></iframe>
     
 </span>
 </template>
@@ -28,6 +28,7 @@ props: {
     transform-origin:0 0; 
     border:4px solid #42b983;
     margin:0 0 0 0;
+    overflow: hidden;
 }
 
 #ifrm1 {
