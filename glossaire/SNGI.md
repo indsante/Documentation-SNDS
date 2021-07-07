@@ -1,14 +1,14 @@
 # SNGI - Système national de gestion des identifiants
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Le Système national de gestion des identifiants (SNGI) répertorie l'état civil et le [NIR](NIR.md) des personnes relevant d’un régime de sécurité sociale. 
-Il est géré par la Caisse nationale d'assurance vieillesse ([CNAV](Cnav.md)), pour qui il sert de référence en matière d'identités.
+Le Système national de gestion des identifiants (SNGI) répertorie l'état civil et le <PreviewPage text="NIR" link="NIR.html" /> des personnes relevant d’un régime de sécurité sociale. 
+Il est géré par la Caisse nationale d'assurance vieillesse (<PreviewPage text="CNAV" link="Cnav.html" />), pour qui il sert de référence en matière d'identités.
 
 Le SNGI a la charge :
 - d'attribuer le NIR des personnes nées à l'étranger qui viennent travailler en France ;
-- de diffuser l'état civil et le NIR aux [organismes de protection sociale](OPS.md) : [MSA](MSA.md), [CNAF](Cnaf.md), [CNAM](Cnam.md), [AGIRC-ARRCO](retraite_complementaire_salaries.md), [CFE](CFE.md), etc. 
+- de diffuser l'état civil et le NIR aux <PreviewPage text="organismes de protection sociale" link="OPS.html" /> : <PreviewPage text="MSA" link="MSA.html" />, <PreviewPage text="CNAF" link="Cnaf.html" />, <PreviewPage text="CNAM" link="Cnam.html" />, <PreviewPage text="AGIRC-ARRCO" link="retraite_complementaire_salaries.html" />, <PreviewPage text="CFE" link="CFE.html" />, etc. 
 
-Le SNGI est également consulté par les Maisons départementales des personnes handicapées ([MDPH](MDPH.md)). 
+Le SNGI est également consulté par les Maisons départementales des personnes handicapées (<PreviewPage text="MDPH" link="MDPH.html" />). 
 
 ## Contenu
 
@@ -28,7 +28,7 @@ Il contient également des informations sur la mutation vieillesse :
 
 ## Alimentation 
 
-Le SNGI est alimenté quotidiennement par le [RNIPP](RNIPP.md) pour les personnes nés en France.
+Le SNGI est alimenté quotidiennement par le <PreviewPage text="RNIPP" link="RNIPP.html" /> pour les personnes nés en France.
 
 A l'inverse, le SNGI alimente le RNIPP pour les personnes nés hors de France.
 

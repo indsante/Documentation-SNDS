@@ -5,8 +5,8 @@
 - Clé primaire : `ETA_NUM`, `RHA_NUM`
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM`, `RHA_NUM` => table [T_SSRaaB](/tables/T_SSRaaB) [ `ETA_NUM`, `RHA_NUM` ]<br />
-`NIR_ANO_17` => table [IR_BEN_R](/tables/IR_BEN_R) [ `BEN_NIR_PSA` ]<br />
+`ETA_NUM`, `RHA_NUM` => table <PreviewPage text="T_SSRaaB" link="/tables/T_SSRaaB" /> [ `ETA_NUM`, `RHA_NUM` ]<br />
+`NIR_ANO_17` => table <PreviewPage text="IR_BEN_R" link="/tables/IR_BEN_R" /> [ `BEN_NIR_PSA` ]<br />
 
 ### Liste des variables
 <br />

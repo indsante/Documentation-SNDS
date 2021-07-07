@@ -5,8 +5,8 @@
 - Clé primaire : `ETA_NUM_EPMSI`, `RIP_NUM`
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM_EPMSI`, `RIP_NUM` => table [T_RIPaaFB](/tables/T_RIPaaFB) [ `ETA_NUM_EPMSI`, `RIP_NUM` ]<br />
-`NIR_ANO_17` => table [IR_BEN_R](/tables/IR_BEN_R) [ `BEN_NIR_PSA` ]<br />
+`ETA_NUM_EPMSI`, `RIP_NUM` => table <PreviewPage text="T_RIPaaFB" link="/tables/T_RIPaaFB" /> [ `ETA_NUM_EPMSI`, `RIP_NUM` ]<br />
+`NIR_ANO_17` => table <PreviewPage text="IR_BEN_R" link="/tables/IR_BEN_R" /> [ `BEN_NIR_PSA` ]<br />
 
 ### Liste des variables
 <br />

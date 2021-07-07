@@ -30,13 +30,13 @@ Si vous souhaitez corriger une coquille, compléter une information ou mettre à
 ## Producteurs d'indicateurs
 
 La carthographie des indicateurs de santé a été développé à la DREES, grâce aux contributions des producteurs d'indicateurs suivant :
-- la [Cnam](../glossaire/Cnam.md) (site [Ameli](https://www.ameli.fr/)); 
-- [Santé Publique France](../glossaire/SpF.md); 
-- les [ARS](../glossaire/ARS.md), notamment 
+- la <PreviewPage text="Cnam" link="../glossaire/Cnam.html" /> (site [Ameli](https://www.ameli.fr/)); 
+- <PreviewPage text="Santé Publique France" link="../glossaire/SpF.html" />; 
+- les <PreviewPage text="ARS" link="../glossaire/ARS.html" />, notamment 
 [C@RTOSanté](https://www.hauts-de-france.ars.sante.fr/crtosante-2),
 [ATLASANTE](https://www.atlasante.fr/accueil);
-- l'[ATIH](../glossaire/ATIH.md), notamment [ScanSanté](https://scansante.fr/);
-- les [ORS](../glossaire/ORS.md), notamment
+- l'<PreviewPage text="ATIH" link="../glossaire/ATIH.html" />, notamment [ScanSanté](https://scansante.fr/);
+- les <PreviewPage text="ORS" link="../glossaire/ORS.html" />, notamment
 [SCORE Santé](https://www.scoresante.org/), 
 [BALISES](http://www.balises-auvergne-rhone-alpes.org/update.php), 
 [SIRSé (en accédant au site sirsepaca.org à partir du site orspaca.org)](http://www.orspaca.org/outils-cartographiques);  

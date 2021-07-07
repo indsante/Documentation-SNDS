@@ -5,7 +5,7 @@
 - Clé primaire : `ETA_NUM`, `SEQ_NUM`
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM`, `SEQ_NUM` => table [T_SSRaaFASTC](/tables/T_SSRaaFASTC) [ `ETA_NUM`, `SEQ_NUM` ]<br />
+`ETA_NUM`, `SEQ_NUM` => table <PreviewPage text="T_SSRaaFASTC" link="/tables/T_SSRaaFASTC" /> [ `ETA_NUM`, `SEQ_NUM` ]<br />
 
 ### Liste des variables
 <br />

@@ -3,8 +3,8 @@
 - Titre : Résumé par séquence
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM_EPMSI`, `RIP_NUM` => table [T_RIPaaFB](/tables/T_RIPaaFB) [ `ETA_NUM_EPMSI`, `RIP_NUM` ]<br />
-`IPP_IRR_CRY` => table [T_RIPaaR3A](/tables/T_RIPaaR3A) [ `IPP_IRR_CRY` ]<br />
+`ETA_NUM_EPMSI`, `RIP_NUM` => table <PreviewPage text="T_RIPaaFB" link="/tables/T_RIPaaFB" /> [ `ETA_NUM_EPMSI`, `RIP_NUM` ]<br />
+`IPP_IRR_CRY` => table <PreviewPage text="T_RIPaaR3A" link="/tables/T_RIPaaR3A" /> [ `IPP_IRR_CRY` ]<br />
 
 ### Liste des variables
 <br />

@@ -12,9 +12,9 @@ Statistiques de dépenses par type de risque, publiées chaque mois par l'Assura
 
 ## Périmètre
 
-La statistique mensuelle permet de reconstituer les postes de dépenses, via des requêtes dans l'univers [DAMIR](../glossaire/DAMIR.md). 
+La statistique mensuelle permet de reconstituer les postes de dépenses, via des requêtes dans l'univers <PreviewPage text="DAMIR" link="../glossaire/DAMIR.html" />. 
 
-Elle est valable pour le [Régime Général](../glossaire/RG.md), [MSA](../glossaire/MSA.md) et [RSI](../glossaire/RSI.md),
+Elle est valable pour le <PreviewPage text="Régime Général" link="../glossaire/RG.html" />, <PreviewPage text="MSA" link="../glossaire/MSA.html" /> et <PreviewPage text="RSI" link="../glossaire/RSI.html" />,
 
 Elle ne couvre pas les prestations hospitalières. 
  

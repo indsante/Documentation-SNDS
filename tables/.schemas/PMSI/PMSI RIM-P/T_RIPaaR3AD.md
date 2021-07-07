@@ -5,7 +5,7 @@
 - Clé primaire : `ETA_NUM_EPMSI`, `ORD_NUM`, `SEJ_IDT`
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM_EPMSI`, `ORD_NUM`, `SEJ_IDT` => table [T_RIPaaR3A](/tables/T_RIPaaR3A) [ `ETA_NUM_EPMSI`, `ORD_NUM`, `SEJ_IDT` ]<br />
+`ETA_NUM_EPMSI`, `ORD_NUM`, `SEJ_IDT` => table <PreviewPage text="T_RIPaaR3A" link="/tables/T_RIPaaR3A" /> [ `ETA_NUM_EPMSI`, `ORD_NUM`, `SEJ_IDT` ]<br />
 
 ### Liste des variables
 <br />

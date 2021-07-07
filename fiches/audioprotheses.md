@@ -50,17 +50,17 @@ dans le SNDS des prothèses auditives.
 
 Il est possible de rechercher les dépenses en audioprothèses à un niveau de détail plus fin 
 dans la table affinée `ER_TIP_F` pour le `DCIR` ou `NS_TIP_F` pour le `DCIRS`. En effet, 
-les audioprothèses font partie intégrante de la [LPP](../glossaire/LPP.md), plus précisément du Titre II, chapitre 3.
+les audioprothèses font partie intégrante de la <PreviewPage text="LPP" link="../glossaire/LPP.html" />, plus précisément du Titre II, chapitre 3.
 Il est donc également possible d'utiliser la base de données *open data* de la CNAM
  [OPENLPP](http://open-data-assurance-maladie.ameli.fr/LPP/index.php) pour explorer ce champ.
 
 
-Pour obtenir le détail par le code [LPP](../glossaire/LPP.md) 
+Pour obtenir le détail par le code <PreviewPage text="LPP" link="../glossaire/LPP.html" /> 
 des [audioprothèses](http://www.codage.ext.cnamts.fr/codif/tips//chapitre/index_chap.php?p_ref_menu_code=53&amp;p_site=AMELI),
-il convient de regarder la variable `TIP_PRS_IDE` dans la table de prestation affinée des dispositifs médicaux : [ER_TIP_F](../tables/DCIR/ER_TIP_F.md). 
-Il faut donc effectuer une jointure dans le DCIR entre la table prestations [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) et `ER_TIP_F`, par les neuf
+il convient de regarder la variable `TIP_PRS_IDE` dans la table de prestation affinée des dispositifs médicaux : <PreviewPage text="ER_TIP_F" link="../tables/ER_TIP_F/" />. 
+Il faut donc effectuer une jointure dans le DCIR entre la table prestations <PreviewPage text="ER_PRS_F" link="../tables/ER_PRS_F/" /> et `ER_TIP_F`, par les neuf
 clefs de jointure techniques.  
-Dans le DCIRS, il faut joindre les tables [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md) et [NS_TIP_F](../tables/DCIRS/NS_TIP_F.md) par la clef de 
+Dans le DCIRS, il faut joindre les tables <PreviewPage text="NS_PRS_F" link="../tables/NS_PRS_F/" /> et <PreviewPage text="NS_TIP_F" link="../tables/NS_TIP_F/" /> par la clef de 
 jointure unique `CLE_DCI_JNT`.  
 La correspondance entre les codes LPP et les codes prestations est donnée dans 
 la table de nomenclature `NT_HIS`, où `LPH_PRS_NAT` représente le code prestation en norme B2 (`PRS_NAT_CB2`)

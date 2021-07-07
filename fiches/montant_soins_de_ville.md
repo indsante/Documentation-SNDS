@@ -16,11 +16,11 @@ tags:
 Les soins de ville sont présents dans le DCIR. 
 Différentes informations sur les montants sont indiquées : 
 - le montant payé par l'assuré 
-- le montant de base de remboursement ([BRSS](../glossaire/BRSS.md))
+- le montant de base de remboursement (<PreviewPage text="BRSS" link="../glossaire/BRSS.html" />)
 - le montant remboursé
 - le [taux de remboursement](https://www.ameli.fr/rhone/assure/remboursements/rembourse/tableau-recapitulatif-taux-remboursement/tableau-recapitulatif-taux-remboursement)
 - les [participations forfaitaires](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/participation-forfaitaire-1-euro) et [franchises médicales](https://www.ameli.fr/rhone/assure/remboursements/reste-charge/franchise-medicale)
-- les participations supplémentaires prises en charge par le public ([CMU-C](../glossaire/CMUC.md), [AME](../glossaire/AME.md), etc.)
+- les participations supplémentaires prises en charge par le public (<PreviewPage text="CMU-C" link="../glossaire/CMUC.html" />, <PreviewPage text="AME" link="../glossaire/AME.html" />, etc.)
 
 ### Exemple schématique des différents montants 
 ![ex_montants_sdv](../files/HEVA/2019-07-16_HEVA_ex_montants_sdv_dcir_MPL-2.0.png)
@@ -38,7 +38,7 @@ On peut toutefois calculer le RAC après Assurance Maladie Obligatoire (AMO) et 
 ### Les tables et variables  
 
 
-Les montants payé, de base et remboursé du régime obligatoire des soins de ville sont disponibles dans la table [ER_PRS_F](../tables/DCIR/ER_PRS_F.md)(`_XXXX` en cas d'extraction):
+Les montants payé, de base et remboursé du régime obligatoire des soins de ville sont disponibles dans la table <PreviewPage text="ER_PRS_F" link="../tables/ER_PRS_F/" />(`_XXXX` en cas d'extraction):
 - montant payé : `PRS_PAI_MNT`
 - montant de base de remboursement : `BSE_REM_BSE`
 - montant remboursé : `BSE_REM_MNT`
@@ -48,7 +48,7 @@ Les montants payé, de base et remboursé du régime obligatoire des soins de vi
 Les participations forfaitaires et franchises médicales sont dans la variable `CPL_REM_MNT` dans `ER_PRS_F` (`CPL_MAJ_TOP=2 and CPL_AFF_COD=16`). 
 
 Les participations supplémentaires liés à la couverture étendue de la CMUc et de l'Alsace-Moselle sont dans la
-table [ER_ARO_F](../tables/DCIR/ER_ARO_F.md)(`_XXXX`) via la variable `ARO_REM_MNT`. La variable `ARO_REM_TYP` indique
+table <PreviewPage text="ER_ARO_F" link="../tables/ER_ARO_F/" />(`_XXXX`) via la variable `ARO_REM_MNT`. La variable `ARO_REM_TYP` indique
 le type de la prise en charge supplémentaire (Alsace Moselle, CMUc, AME, etc.)
 
 ::: warning Attention
@@ -187,12 +187,12 @@ A noter que la nomenclature de `AR1_REM_TYP`, `AR2_REM_TYP` et `AR3_REM_TYP` est
 
 ## DAMIR
 
-Le [DAMIR](../glossaire/DAMIR.md) est un outil pour l'analyse statistique des grands postes de dépenses selon différents axes (Professionnels de santé, Établissements etc.)
+Le <PreviewPage text="DAMIR" link="../glossaire/DAMIR.html" /> est un outil pour l'analyse statistique des grands postes de dépenses selon différents axes (Professionnels de santé, Établissements etc.)
 
 Contrairement au DCIR, le DAMIR ne permet pas d'effectuer des analyses individuelles. 
 C'est un outil complémentaire au DCIR dans la mesure où il offre des temps de requêtage nettement inférieurs, dans le cas où l'on s'intéresse uniquement à des montants agrégés de dépenses.
  
-Sous SAS/Guide, le DAMIR correspond à la table [MA_REM_FT](../tables/DAMIR/MA_REM_FT.md) (bibliothèque `ORAVUE`). 
+Sous SAS/Guide, le DAMIR correspond à la table <PreviewPage text="MA_REM_FT" link="../tables/MA_REM_FT/" /> (bibliothèque `ORAVUE`). 
 On trouve également le DAMIR sous certains profils BusinessObjects (profil 22 notamment). 
 
 Toutes les prestations présentées au remboursement sont disponibles dans l’univers DAMIR, à l’exclusion de deux prestations : 4381 (actes hors nomenclature) et 4382 (pharmacie non remboursable). 

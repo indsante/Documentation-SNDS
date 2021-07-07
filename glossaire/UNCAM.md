@@ -2,9 +2,9 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 L'Union nationale des caisses d'assurance maladie (UNCAM) est une instance créée par la loi du 13 août 2004 relative à l’assurance maladie, pour regrouper les trois principaux régimes d'assurance maladie :
-- le [régime général](RG.md) d'assurance maladie, 
-- le régime agricole ([Mutualité Sociale Agricole](MSA.md)), 
-- le Régime social des indépendants ([RSI](RSI.md)). 
+- le <PreviewPage text="régime général" link="RG.html" /> d'assurance maladie, 
+- le régime agricole (<PreviewPage text="Mutualité Sociale Agricole" link="MSA.html" />), 
+- le Régime social des indépendants (<PreviewPage text="RSI" link="RSI.html" />). 
 
 # Références
 

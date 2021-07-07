@@ -3,11 +3,11 @@
 
 Les Professionnel de santé (PS) sont des personnes physiques pouvent prescrire ou exécuter des prestations de santé.
 
-Les PS sont identifiés par un [numéro Adeli](ADELI.md), ou un numero [RPPS](RPPS.md) pour les médecins, sages-femmes, chirurgiens-dentistes et pharmaciens.
+Les PS sont identifiés par un <PreviewPage text="numéro Adeli" link="ADELI.html" />, ou un numero <PreviewPage text="RPPS" link="RPPS.html" /> pour les médecins, sages-femmes, chirurgiens-dentistes et pharmaciens.
 
 ## Catégories de professionnels de santé
 
-Le terme Professionnel de santé regroupe trois catégories de professions, telles que définies par les code de la santé publique ([CSP](CSP.md)) : 
+Le terme Professionnel de santé regroupe trois catégories de professions, telles que définies par les code de la santé publique (<PreviewPage text="CSP" link="CSP.html" />) : 
 
 1. les professions médicales (art. L4111-1 à L4163-10) : 
   - médecins, 

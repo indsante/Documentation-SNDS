@@ -3,7 +3,7 @@
 - Titre : Fichier donnant toutes les erreurs détectées par la fonction groupage (LEG)
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM_ePMSI`, `RHAD_NUM` => table [T_HADaaB](/tables/T_HADaaB) [ `ETA_NUM_EPMSI`, `RHAD_NUM` ]<br />
+`ETA_NUM_ePMSI`, `RHAD_NUM` => table <PreviewPage text="T_HADaaB" link="/tables/T_HADaaB" /> [ `ETA_NUM_EPMSI`, `RHAD_NUM` ]<br />
 
 ### Liste des variables
 <br />

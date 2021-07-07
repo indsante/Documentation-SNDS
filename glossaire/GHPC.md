@@ -6,7 +6,7 @@ Combinaison de 3 variables composant un séjour en hospitalisation à domicile :
 - le mode de prise en charge associé, 
 - un indice de mesure de la dépendance (indice de Karnofsky). 
 
-Le GHPC est obtenu à partir des informations recueillies dans les résumés par sous-séquence de soins ([RPSS](RPSS.md)).
+Le GHPC est obtenu à partir des informations recueillies dans les résumés par sous-séquence de soins (<PreviewPage text="RPSS" link="RPSS.html" />).
 
 # Références
 

@@ -1,7 +1,7 @@
 # Débasage
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Un débasage ou réfaction des tarifs consiste à diminuer l’enveloppe financière qui leur est dévolue, au profit d’un autre vecteur de financement (dotation [MIGAC](MIGAC.md) par exemple).
+Un débasage ou réfaction des tarifs consiste à diminuer l’enveloppe financière qui leur est dévolue, au profit d’un autre vecteur de financement (dotation <PreviewPage text="MIGAC" link="MIGAC.html" /> par exemple).
 
 # Références
 

@@ -1,7 +1,7 @@
 # GHJ - Groupe homogène de journées
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Le groupe homogène de journées est la catégorie élémentaire de la [classification médico-économique](classification_medico_economique.md) propre au [PMSI](PMSI.md) en [SSR](SSR.md). Il se fonde sur les informations médico-administratives figurant dans le résumé hebdomadaire standardisé ([RHS](RHS.md)) réalisé par les établissements pour chaque patient.
+Le groupe homogène de journées est la catégorie élémentaire de la <PreviewPage text="classification médico-économique" link="classification_medico_economique.html" /> propre au <PreviewPage text="PMSI" link="PMSI.html" /> en <PreviewPage text="SSR" link="SSR.html" />. Il se fonde sur les informations médico-administratives figurant dans le résumé hebdomadaire standardisé (<PreviewPage text="RHS" link="RHS.html" />) réalisé par les établissements pour chaque patient.
 
 # Références
 

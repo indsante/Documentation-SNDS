@@ -28,7 +28,7 @@ Il est remonté via la carte vitale au moment du soin, ou via les bases de donn�
 
 Dans le **PMSI**, le code commune est appelé **code géographique**. 
 Il s'agit du code postal lorsque celui-ci a plus de 1000 habitants, et d'un code postal agrégé pour les codes postaux de moins de 1000 habitants.  
-Ce code postal est déclaré par le bénéficiaire lors du séjour. D'après l'[ATIH](../glossaire/ATIH.md), en France il y a environ 6 000 codes géographiques en 2019. 
+Ce code postal est déclaré par le bénéficiaire lors du séjour. D'après l'<PreviewPage text="ATIH" link="../glossaire/ATIH.html" />, en France il y a environ 6 000 codes géographiques en 2019. 
 
 Dans les **causes de décès**, le code commune est le **code Insee**. 
 Il s’agit de l’information sur le certificat de décès.
@@ -58,14 +58,14 @@ Une deuxième option consiste à faire recours à des fichiers mis à dispositio
 
 | **UNIVERS**| **TABLE**| **VARIABLE DÉPARTEMENT** (str(3)) | **VARIABLE COMMUNE** (str(3)) | **REMARQUES** |
 |------------|----------|----------|----------|----------|
-| **SNIIRAM  DCIR** | **Référentiel des bénéficiaires** [IR_BEN_R](../tables/BENEFICIAIRE/IR_BEN_R.md) | BEN_RES_DPT | BEN_RES_COM | Dernière information disponible (table des prestations ou données administratives des caisses de sécurité sociale) |
-| | **Table prestations** [ER_PRS_F](../tables/DCIR/ER_PRS_F.md)| BEN_RES_DPT | BEN_RES_COM | Information remontée au moment de la prestation |
-| **SNIIRAM DCIRS** | **Référentiel des bénéficiaires** [IR_IBA_R](../tables/BENEFICIAIRE/IR_IBA_R.md) | BEN_RES_DPT | BEN_RES_COM | Dernière information disponible (table des prestations ou données administratives des caisses de sécurité sociale) |
-| | **Table prestations** [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md)| BEN_RES_DPT | BEN_RES_COM | Information remontée au moment de la prestation |
+| **SNIIRAM  DCIR** | **Référentiel des bénéficiaires** <PreviewPage text="IR_BEN_R" link="../tables/IR_BEN_R/" /> | BEN_RES_DPT | BEN_RES_COM | Dernière information disponible (table des prestations ou données administratives des caisses de sécurité sociale) |
+| | **Table prestations** <PreviewPage text="ER_PRS_F" link="../tables/ER_PRS_F/" />| BEN_RES_DPT | BEN_RES_COM | Information remontée au moment de la prestation |
+| **SNIIRAM DCIRS** | **Référentiel des bénéficiaires** <PreviewPage text="IR_IBA_R" link="../tables/IR_IBA_R/" /> | BEN_RES_DPT | BEN_RES_COM | Dernière information disponible (table des prestations ou données administratives des caisses de sécurité sociale) |
+| | **Table prestations** <PreviewPage text="NS_PRS_F" link="../tables/NS_PRS_F/" />| BEN_RES_DPT | BEN_RES_COM | Information remontée au moment de la prestation |
 | | **Tables affinées** [NS_XXX_F](../tables/DCIRS)| BEN_RES_DPT | BEN_RES_COM | Information remontée au moment de la prestation |
 | **PMSI MCO/SSR/HAD** | **Table séjour B** [T_MCOaa_B](../tables/PMSI/PMSI%20MCO/T_MCOaaB.md) | BDI_DEP | BDI_COD (str(5))| |
-| **Cartographie des pathologies** | **Table individus** [CT_IND_AAAA_GN](../tables/CARTOGRAPHIE_PATHOLOGIES/CT_IND_AAAA_GN.md)| dpt| Non disponible | Code reconstitué à partir des informations du DCIR et du PMSI et corrigé si besoin |
-| **Causes de décès** | **Table cause initiale de décès** [KI_CCI_R](../tables/Causes%20de%20décès/KI_CCI_R.md) | BEN_RES_DPT | BEN_RES_COM | Les codes ont été transformés pour coller aux référentiels du SNIIRAM IR_DPT_V et IR_GEO_V |
+| **Cartographie des pathologies** | **Table individus** <PreviewPage text="CT_IND_AAAA_GN" link="../tables/CT_IND_AAAA_GN/" />| dpt| Non disponible | Code reconstitué à partir des informations du DCIR et du PMSI et corrigé si besoin |
+| **Causes de décès** | **Table cause initiale de décès** <PreviewPage text="KI_CCI_R" link="../tables//KI_CCI_R/" /> | BEN_RES_DPT | BEN_RES_COM | Les codes ont été transformés pour coller aux référentiels du SNIIRAM IR_DPT_V et IR_GEO_V |
 
 ## Construction de la localisation dans le PMSI
 
@@ -79,7 +79,7 @@ Pour travailler *à un niveau territorial plus fin*, la variable commune `BDI_CO
 Elle donne le code géographique du lieu de résidence déclaré par le patient. 
 
 Le code géographique correspond au code postal, ou à un regroupement pour les codes postaux de moins de 1000 habitants.  
-L'[ATIH](../glossaire/ATIH.md) met à disposition chaque année sur son [site](https://www.atih.sante.fr/nomenclatures-de-recueil-de-linformation/codes-geographiques)  une table qui permet de passer des codes géographiques aux codes postaux.
+L'<PreviewPage text="ATIH" link="../glossaire/ATIH.html" /> met à disposition chaque année sur son [site](https://www.atih.sante.fr/nomenclatures-de-recueil-de-linformation/codes-geographiques)  une table qui permet de passer des codes géographiques aux codes postaux.
 
 ## Construction de la localisation dans le SNIIRAM
  
@@ -126,8 +126,8 @@ Des **règles spécifiques** existent pour :
     - 2 **premiers** caractères du code département    
     - 3 caractères du code commune
 -  Les DOM
-    - Pour les bénéficiaires du [RG](../glossaire/RG.md), le code département est `097` et la règle dominante fonctionne
-    - Pour la [MSA](../glossaire/MSA.md) et le [RSI](../glossaire/RSI.md), le code département est entre `971` et `976`, 
+    - Pour les bénéficiaires du <PreviewPage text="RG" link="../glossaire/RG.html" />, le code département est `097` et la règle dominante fonctionne
+    - Pour la <PreviewPage text="MSA" link="../glossaire/MSA.html" /> et le <PreviewPage text="RSI" link="../glossaire/RSI.html" />, le code département est entre `971` et `976`, 
         - Pour la MSA, on applique la même règle que pour la Corse.
         - Pour le RSI, on conserve les 3 caractères du code département et les 2 derniers caractères du code commune.
 
@@ -185,8 +185,8 @@ Le fichier Hexaposte offre une meilleure correction, car il permet de récupére
 *Correction* : utiliser le département de l’organisme d’affiliation `(substr(ORG_AFF_BEN,4,3))`.
 
 ## Lien entre la localisation dans le PMSI et dans le SNIIRAM
-La table **PMSI_CORRESP**, mise à disposition par l’[ATIH](../glossaire/ATIH.md), permet de passer des codes géographiques (PMSI) aux codes Insee (SNIIRAM).  
-Cette table est disponible sur le portail de la [CNAM](../glossaire/Cnam.md) dans le répertoire **rfcommun**.  
+La table **PMSI_CORRESP**, mise à disposition par l’<PreviewPage text="ATIH" link="../glossaire/ATIH.html" />, permet de passer des codes géographiques (PMSI) aux codes Insee (SNIIRAM).  
+Cette table est disponible sur le portail de la <PreviewPage text="CNAM" link="../glossaire/Cnam.html" /> dans le répertoire **rfcommun**.  
 Il est possible de reconstituer cette table en croisant :
 - la table donnant la correspondance entre le code postal et le code géographique du PMSI mise à disposition sur le [site internet de l'ATIH](https://www.atih.sante.fr/nomenclatures-de-recueil-de-linformation/codes-geographiques) 
 - une table donnant la correspondance entre le code postal et le code Insee disponible en open data [à l'adresse suivante](https://datanova.laposte.fr/explore/dataset/laposte_hexasmal/export/?disjunctive.code_commune_insee&disjunctive.nom_de_la_commune&disjunctive.code_postal&disjunctive.ligne_5).

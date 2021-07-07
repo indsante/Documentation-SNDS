@@ -1,7 +1,7 @@
 # Ex-DG - ex dotation globale
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Néologisme désignant les établissements financés par la dotation globale, avant la mise en place de la [tarification à l’activité](T2A.md)[^1].
+Néologisme désignant les établissements financés par la dotation globale, avant la mise en place de la <PreviewPage text="tarification à l’activité" link="T2A.html" />[^1].
 
 # Références
 

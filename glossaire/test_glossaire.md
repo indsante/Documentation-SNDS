@@ -28,3 +28,5 @@ just a test <PreviewPage text="Tables" link="../tables/index.html" /> like that 
 
 
 just a test <PreviewPage text="T_MCOaaA" link="../tables/T_MCOaaA/index.html" /> like that
+
+just a small little test for the build on the server : [fiche magique pour l'acs](acs.html)

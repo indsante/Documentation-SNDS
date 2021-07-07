@@ -1,10 +1,10 @@
 # Racines de GHM 
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Les racines de [GHM](GHM.md) regroupent un même type de prise en charge, défini par les diagnostics et les [actes classants](acte_classant.md) réalisés au cours du séjour hospitalier. 
+Les racines de <PreviewPage text="GHM" link="GHM.html" /> regroupent un même type de prise en charge, défini par les diagnostics et les <PreviewPage text="actes classants" link="acte_classant.html" /> réalisés au cours du séjour hospitalier. 
 
 Les racines de GHM comportent 5 caractères correspondant : 
-- les 2 premiers, à la catégorie majeure de diagnostic (28 [CMD](CMD.md)), 
+- les 2 premiers, à la catégorie majeure de diagnostic (28 <PreviewPage text="CMD" link="CMD.html" />), 
 - le 3ème, au type d’activité : médecine (M), chirurgie (C), interventionnel hors bloc opératoire (K), indifférencié (Z), 
 - les 2 derniers, à un numéro de référence (numéro d’ordre sans signification). 
 

@@ -17,10 +17,10 @@ Elle se substitue alors au ticket modérateur.
 
 ## Exemple
 
-Pour une consultation dans le cadre du parcours de soins coordonnés facturée 45 euros par un spécialiste adhérant à l‘option de pratique tarifaire maîtrisée [Optam](OPTAM.md) (honoraires avec dépassements maîtrisés),
+Pour une consultation dans le cadre du parcours de soins coordonnés facturée 45 euros par un spécialiste adhérant à l‘option de pratique tarifaire maîtrisée <PreviewPage text="Optam" link="OPTAM.html" /> (honoraires avec dépassements maîtrisés),
 la base de remboursement de la Sécurité sociale est de 30 euros et le taux de remboursement de la Sécurité sociale de 70 %. 
 Le remboursement de la Sécurité sociale est de 20 euros, soit 70 % * 30 euros - 1 euro de participation forfaitaire. 
-Le [ticket modérateur](ticket_moderateur.md) à 30 % correspond à 9 euros, et est obligatoirement pris en charge si le patient est couvert par un contrat responsable. 
+Le <PreviewPage text="ticket modérateur" link="ticket_moderateur.html" /> à 30 % correspond à 9 euros, et est obligatoirement pris en charge si le patient est couvert par un contrat responsable. 
 La complémentaire santé peut, selon le contrat souscrit, prendre en charge tout ou partie des dépassements d‘honoraires qui représentent 15 euros.
 
 ![Schéma explicatif des remboursements et des restes à charge](../files/DREES/2018-10-18_DREES_restes-a-charge_MPL-2.0.png)

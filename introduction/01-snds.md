@@ -2,17 +2,17 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
 Le Système National des Données de Santé (SNDS) est un entrepôt de données médico-administratives pseudonymisées couvrant l'ensemble de la population française et contenant l'ensemble des soins présentés au remboursement.
-Créé en 2016 dans la continuité d'un entrepôt précédent, géré par la Caisse Nationale de l'Assurance Maladie ([CNAM](../glossaire/Cnam.md)), il permet de chaîner :
+Créé en 2016 dans la continuité d'un entrepôt précédent, géré par la Caisse Nationale de l'Assurance Maladie (<PreviewPage text="CNAM" link="../glossaire/Cnam.html" />), il permet de chaîner :
 
-- les données de l'assurance maladie (base [SNIIRAM](../glossaire/SNIIRAM.md))
-- les données des hôpitaux (base [PMSI](../glossaire/PMSI.md))
-- les causes médicales de décès (base du [CépiDC](../glossaire/CepiDC.md) de l'Inserm)
-- les données relatives au handicap (données de la [CNSA](../glossaire/CNSA.md)) (à venir)
+- les données de l'assurance maladie (base <PreviewPage text="SNIIRAM" link="../glossaire/SNIIRAM.html" />)
+- les données des hôpitaux (base <PreviewPage text="PMSI" link="../glossaire/PMSI.html" />)
+- les causes médicales de décès (base du <PreviewPage text="CépiDC" link="../glossaire/CepiDC.html" /> de l'Inserm)
+- les données relatives au handicap (données de la <PreviewPage text="CNSA" link="../glossaire/CNSA.html" />) (à venir)
 - certaines données des organismes complémentaires (à venir)
 
 En quelques chiffres, le SNDS c'est plus de 3000 variables, et un flux annuel de  :
 
-- 1,2 milliards de [feuilles de soins](../glossaire/feuille_soin.md)
+- 1,2 milliards de <PreviewPage text="feuilles de soins" link="../glossaire/feuille_soin.html" />
 - 11 millions de séjours hospitaliers
 - 500 millions d'actes
 - 450 To de données
@@ -37,10 +37,10 @@ Il est en revanche interdit d'exploiter le SNDS pour l'une des finalités interd
 
 ## La création et l'évolution
 
-Le SNDS s'inscrit naturellement dans la continuité du Système National d'Information Inter-Régime de l'Assurance Maladie ([SNIIRAM](../glossaire/SNIIRAM.md)), créé par la loi de financement de la sécurité sociale du 23 décembre 1998.
-La volonté était alors de constituer un entrepôt national de données médico-administratives de remboursement, dans l'objectif de contribuer à une meilleure gestion de l'Assurance Maladie (objectif [ONDAM](../glossaire/ONDAM.md)) et des politiques de santé, d'améliorer la qualité des soins et de transmettre aux professionnels de santé les informations pertinentes sur leur activité.
+Le SNDS s'inscrit naturellement dans la continuité du Système National d'Information Inter-Régime de l'Assurance Maladie (<PreviewPage text="SNIIRAM" link="../glossaire/SNIIRAM.html" />), créé par la loi de financement de la sécurité sociale du 23 décembre 1998.
+La volonté était alors de constituer un entrepôt national de données médico-administratives de remboursement, dans l'objectif de contribuer à une meilleure gestion de l'Assurance Maladie (objectif <PreviewPage text="ONDAM" link="../glossaire/ONDAM.html" />) et des politiques de santé, d'améliorer la qualité des soins et de transmettre aux professionnels de santé les informations pertinentes sur leur activité.
 
-Le SNDS en tant que tel est créé le 26 janvier 2016 par la loi de modernisation du système de santé, et généralise le [SNIIRAM](../glossaire/SNIIRAM.md) (déjà enrichi du [PMSI](../glossaire/PMSI.md)) en le liant au [CépiDC](../glossaire/CepiDC.md) et en revoyant le circuit d'accès aux données, avec pour enjeux l'ouverture des données de santé dans le respect de la vie privée du citoyen, l'amélioration de la santé des patients et l'analyse de la dépense publique en santé.
+Le SNDS en tant que tel est créé le 26 janvier 2016 par la loi de modernisation du système de santé, et généralise le <PreviewPage text="SNIIRAM" link="../glossaire/SNIIRAM.html" /> (déjà enrichi du <PreviewPage text="PMSI" link="../glossaire/PMSI.html" />) en le liant au <PreviewPage text="CépiDC" link="../glossaire/CepiDC.html" /> et en revoyant le circuit d'accès aux données, avec pour enjeux l'ouverture des données de santé dans le respect de la vie privée du citoyen, l'amélioration de la santé des patients et l'analyse de la dépense publique en santé.
 
 ## Les données présentes et absentes
 
@@ -54,10 +54,10 @@ On trouve dans le SNDS les grandes catégories de données suivantes :
   - Soins hospitaliers (hors séances)
   - Séjours hospitaliers (et diagnostics)
   - Indemnités journalières (maladie, ATMP, maternité) et invalidité
-- Les Affections de Longue Durée ([ALD](../glossaire/ALD.md))
+- Les Affections de Longue Durée (<PreviewPage text="ALD" link="../glossaire/ALD.html" />)
 - Des informations génériques sur les patients :
   - Âge, sexe, commune et département de résidence
-  - [CMU-C](../fiches/cmu_c.md) (Couverture Maladie Universelle Complémentaire) et [ACS](../glossaire/ACS.md) (Aide à la Complémentaire Santé)
+  - [CMU-C](../fiches/cmu_c.md) (Couverture Maladie Universelle Complémentaire) et <PreviewPage text="ACS" link="../glossaire/ACS.html" /> (Aide à la Complémentaire Santé)
   - Date, commune et causes médicales de décès
   - Médecin traitant
 - Des informations sur les professionnels de santé (spécialité, mode d'exercice, sexe, âge, département d'implantation)
@@ -72,7 +72,7 @@ En revanche, on ne trouve dans le SNDS :
 
 ## La sécurité et la confidentialité
 
-Pour protéger l'identité des patients et garantir la confidentialité des données, chaque patient est repéré dans l'ensemble du SNDS par un [pseudonyme](../glossaire/pseudonymisation.md), obtenu par l'application au [NIR](../glossaire/NIR.md) d'un procédé cryptographique irréversible appelé [FOIN](../glossaire/FOIN.md).
+Pour protéger l'identité des patients et garantir la confidentialité des données, chaque patient est repéré dans l'ensemble du SNDS par un <PreviewPage text="pseudonyme" link="../glossaire/pseudonymisation.html" />, obtenu par l'application au <PreviewPage text="NIR" link="../glossaire/NIR.html" /> d'un procédé cryptographique irréversible appelé <PreviewPage text="FOIN" link="../glossaire/FOIN.html" />.
 Les données du SNDS sont conservées pour une durée totale de 20 ans, puis archivées pour une durée de 10 ans.
 
 L'accès aux données du SNDS et leur analyse ne peut se faire que dans un cadre d'hébergement très restrictif respectant le [référentiel de sécurité du SNDS](https://www.legifrance.gouv.fr/eli/arrete/2017/3/22/AFSE1705146A/jo/texte), afin de garantir la traçabilité des accès et des traitements, la confidentialité des données et leur intégrité.

@@ -96,7 +96,7 @@ Nous pouvons les récapituler ainsi :
 ::: warning 
 Ainsi, dans les datamarts AMOS, il est possible de regrouper toute l’activité d’un praticien sous son dernier Numéro Statistique connu dans le référentiel praticien permettant un chainage de toute son activité. 
 Au contraire, dans DCIR, seule l’activité réalisée sur le lieu d’implantation du cabinet est étudiée (elle correspondra à toute son activité si le PS ne possède qu’un seul cabinet). 
-Si l’on joint sur le numéro de cabinet principal via la [DA_PRA_R](../tables/DCIR_DCIRS/DA_PRA_R.md) on peut récupérer toute l’activité du PS dans le DCIR également
+Si l’on joint sur le numéro de cabinet principal via la <PreviewPage text="DA_PRA_R" link="../tables/DA_PRA_R/" /> on peut récupérer toute l’activité du PS dans le DCIR également
 :::
 
 

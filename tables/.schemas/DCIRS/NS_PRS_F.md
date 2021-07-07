@@ -5,13 +5,13 @@
 - Clé primaire : `CLE_DCI_JNT`
 <br />
 - Clé(s) étrangère(s) : <br />
-`PFS_EXE_NUM` => table [DA_PRA_R](/tables/DA_PRA_R) [ `PFS_PFS_NUM` ]<br />
-`PFS_PRE_NUM` => table [DA_PRA_R](/tables/DA_PRA_R) [ `PFS_PFS_NUM` ]<br />
-`PRS_MTT_NUM` => table [DA_PRA_R](/tables/DA_PRA_R) [ `PFS_PFS_NUM` ]<br />
-`BEN_IDT_ANO` => table [IR_BEN_R](/tables/IR_BEN_R) [ `BEN_IDT_ANO` ]<br />
-`BEN_IDT_ANO` => table [IR_IBA_R](/tables/IR_IBA_R) [ `BEN_IDT_ANO` ]<br />
-`ETB_PRE_FIN` => table [BE_IDE_R](/tables/BE_IDE_R) [ `IDE_ETA_NU8` ]<br />
-`ETB_EXE_FIN` => table [BE_IDE_R](/tables/BE_IDE_R) [ `IDE_ETA_NU8` ]<br />
+`PFS_EXE_NUM` => table <PreviewPage text="DA_PRA_R" link="/tables/DA_PRA_R" /> [ `PFS_PFS_NUM` ]<br />
+`PFS_PRE_NUM` => table <PreviewPage text="DA_PRA_R" link="/tables/DA_PRA_R" /> [ `PFS_PFS_NUM` ]<br />
+`PRS_MTT_NUM` => table <PreviewPage text="DA_PRA_R" link="/tables/DA_PRA_R" /> [ `PFS_PFS_NUM` ]<br />
+`BEN_IDT_ANO` => table <PreviewPage text="IR_BEN_R" link="/tables/IR_BEN_R" /> [ `BEN_IDT_ANO` ]<br />
+`BEN_IDT_ANO` => table <PreviewPage text="IR_IBA_R" link="/tables/IR_IBA_R" /> [ `BEN_IDT_ANO` ]<br />
+`ETB_PRE_FIN` => table <PreviewPage text="BE_IDE_R" link="/tables/BE_IDE_R" /> [ `IDE_ETA_NU8` ]<br />
+`ETB_EXE_FIN` => table <PreviewPage text="BE_IDE_R" link="/tables/BE_IDE_R" /> [ `IDE_ETA_NU8` ]<br />
 
 ### Liste des variables
 <br />

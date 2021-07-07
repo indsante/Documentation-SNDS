@@ -4,9 +4,9 @@
 La classification médico-économique consiste à classer des pathologies en groupes cohérents d’un point de vue médical et en termes de coûts. 
 
 Il s’agit de : 
-- la classification des groupes homogènes de malades ([GHM](GHM.md)) en médecine, chirurgie, obstétrique et odontologie ([MCO](MCO.md)) ; 
-- de la classification des groupes homogènes de journées ([GHJ](GHJ.md)), en soins de suite et de réadaptation ([SSR](SSR.md)) ; 
-- de la classification des groupes homogènes de tarifs ([GHT](GHT.md)), en hospitalisation à domicile ([HAD](HAD.md)).
+- la classification des groupes homogènes de malades (<PreviewPage text="GHM" link="GHM.html" />) en médecine, chirurgie, obstétrique et odontologie (<PreviewPage text="MCO" link="MCO.html" />) ; 
+- de la classification des groupes homogènes de journées (<PreviewPage text="GHJ" link="GHJ.html" />), en soins de suite et de réadaptation (<PreviewPage text="SSR" link="SSR.html" />) ; 
+- de la classification des groupes homogènes de tarifs (<PreviewPage text="GHT" link="GHT.html" />), en hospitalisation à domicile (<PreviewPage text="HAD" link="HAD.html" />).
 
 # Références
 

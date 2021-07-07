@@ -3,7 +3,7 @@
 - Titre : Valorisation des actes et consultations externes
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM`, `SEQ_NUM` => table [T_MCOaaFASTC](/tables/T_MCOaaFASTC) [ `ETA_NUM`, `SEQ_NUM` ]<br />
+`ETA_NUM`, `SEQ_NUM` => table <PreviewPage text="T_MCOaaFASTC" link="/tables/T_MCOaaFASTC" /> [ `ETA_NUM`, `SEQ_NUM` ]<br />
 
 ### Liste des variables
 <br />

@@ -11,7 +11,7 @@ tags:
 
 <TagLinks />
 
-Dans une première partie, nous présentons les dispositifs médicaux implantables (DMI) facturés en sus des [GHS](../glossaire/GHS.md) en MCO.  
+Dans une première partie, nous présentons les dispositifs médicaux implantables (DMI) facturés en sus des <PreviewPage text="GHS" link="../glossaire/GHS.html" /> en MCO.  
 Dans une seconde partie, nous expliquons comment extraire les dépenses associées à ces dispositifs à partir du PMSI MCO.  
 Pour chaque partie, nous traiterons le cas des hôpitaux publics, puis le cas des hôpitaux privés.
 
@@ -22,7 +22,7 @@ D'après le [code de la santé publique (article L.5211-1)](https://www.legifran
 utilisé chez l’homme à des fins médicales [...] et conçu pour être implanté en totalité ou en 
 partie dans le corps humain ou placé dans un orifice naturel". 
 
-Dans le cadre de la [T2A](../glossaire/T2A.md), les hôpitaux reçoivent 
+Dans le cadre de la <PreviewPage text="T2A" link="../glossaire/T2A.html" />, les hôpitaux reçoivent 
 un paiement forfaitaire global de l’assurance maladie pour chaque séjour d’un patient.  
 En principe, le paiement comprend l'intégralite des coûts associés à ce séjour.   
 Dans certains cas, la prise en charge du patient nécessite la prescription de médicaments
@@ -46,7 +46,7 @@ Par exemple, si l'on cherche les sujets ayant reçu la pose d'un stent en 2016, 
 et la facturation dans le même séjour d'un acte correspondant à la pose d'un stent 
 (par exemple acte de code CCAM 'DDAF006' : dilatation intraluminale d'un vaisseau coronaire avec pose d'endoprothèse, par voie artérielle transcutanée).
 
-En pratique, les informations sur les dispositifs médicaux implantables (DMI) facturés en sus du [GHS](../glossaire/GHS.md) 
+En pratique, les informations sur les dispositifs médicaux implantables (DMI) facturés en sus du <PreviewPage text="GHS" link="../glossaire/GHS.html" /> 
 lors de séjours en MCO à l'hôpital figurent dans des tables dédiées, différentes selon qu'ils ont été implantés et facturés dans un hopital public ou privé.
 
 ### Dans les hopitaux publics
@@ -101,7 +101,7 @@ Les variables disponibles sont :
 
 ::: Tip Appartenance d'un DMI à la liste en Sus
 Pour vérifier l'appartenance à la liste en sus : 
-- on récupère le mois et l’année de pose du DMI (ou, par défaut, le mois et l’année de sortie du résumé de sortie anonyme [RSA](../glossaire/RSA.md))
+- on récupère le mois et l’année de pose du DMI (ou, par défaut, le mois et l’année de sortie du résumé de sortie anonyme <PreviewPage text="RSA" link="../glossaire/RSA.html" />)
 - à l'aide de la liste (actualisée) des produits et prestations pris en charge en sus, 
   on vérifie que le DMI appartient bien à la liste en sus durant cette période
 - pour les données de l’année N, on ne conserve que les dispositifs dont l’année de pose est égale à N, N-1 ou N-2

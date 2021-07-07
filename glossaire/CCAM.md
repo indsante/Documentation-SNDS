@@ -3,7 +3,7 @@
 
 La classification commune des actes médicaux est une nomenclature française destinée à coder les gestes pratiqués par les médecins, gestes techniques dans un premier temps puis, par la suite, les actes intellectuels cliniques. 
 
-Elle a succédé au catalogue des actes médicaux (CdAM) en milieu hospitalier et, pour les actes techniques, à la nomenclature générale des actes professionnels ([NGAP](NGAP.md)) en secteur libéral et hospitalier.
+Elle a succédé au catalogue des actes médicaux (CdAM) en milieu hospitalier et, pour les actes techniques, à la nomenclature générale des actes professionnels (<PreviewPage text="NGAP" link="NGAP.html" />) en secteur libéral et hospitalier.
 
 # Références
 

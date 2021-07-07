@@ -24,7 +24,7 @@ Cette population est rattachée au régime général d'assurance maladie et affi
 ### DANS le DCIR 
 
 Dans le SNDS et plus praticulièrement dans les bases du DCIR, la population des détenus se repère avec la variable `RGM_COD`, lorsque le code de gestion vaut 65 (cf ci-dessous).
-On trouve cette variable dans la table prestation (`ER_PRS_F` dans le DCIR ou [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md) dans le DCIRS). 
+On trouve cette variable dans la table prestation (`ER_PRS_F` dans le DCIR ou <PreviewPage text="NS_PRS_F" link="../tables/NS_PRS_F/" /> dans le DCIRS). 
 
 
 | Code gestion  | libellé  |

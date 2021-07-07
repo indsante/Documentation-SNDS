@@ -32,8 +32,8 @@ La procédure standard d'accès au SNDS, la plus courante, suit les étapes suiv
 
 1. Le Responsable de Traitement (RT) dépose une demande d'autorisation auprès du Health Data Hub, qui valide la complétude du dossier, et peut s'auto-saisir pour examiner l'intérêt public du traitement.  Le Health Data Hub doit adresser sous 7 jours ouvrés le dossier dans sa complétude au CESREES.
 2. Le Comité Éthique et Scientifique pour les Recherches, les Études et les Évaluations dans le domaine de la santé ([CESREES](https://www.health-data-hub.fr/page/le-cesrees)) émet un avis sur la méthodologie scientifique du projet, et le recours à des données à caractère personnel (délai : 1 mois)
-3. La Commission Nationale de l'Informatique et des Libertés ([CNIL](../glossaire/CNIL.md)) prend connaissance des avis du CESREES, et donne une autorisation pour le projet (délai : 2 mois, renouvelable une fois)
-4. A l'issue de l'autorisation [CNIL](../glossaire/CNIL.md) et après signature d'une convention, les données SNDS nécessaires à l'étude pourront être traitées dans un espace projet dédié (délai indicatif de mise à disposition des données : 2 mois)
+3. La Commission Nationale de l'Informatique et des Libertés (<PreviewPage text="CNIL" link="../glossaire/CNIL.html" />) prend connaissance des avis du CESREES, et donne une autorisation pour le projet (délai : 2 mois, renouvelable une fois)
+4. A l'issue de l'autorisation <PreviewPage text="CNIL" link="../glossaire/CNIL.html" /> et après signature d'une convention, les données SNDS nécessaires à l'étude pourront être traitées dans un espace projet dédié (délai indicatif de mise à disposition des données : 2 mois)
 
 :::tip Pour plus d'informations
 Vous pouvez consulter le [Kit de démarrage avec les données de santé](../formation_snds/starter_kit.md)
@@ -41,17 +41,17 @@ Vous pouvez consulter le [Kit de démarrage avec les données de santé](../form
 
 ### Les méthodologies de référence
 
-Les méthodologies de référence (MR) sont des procédures simplifiées d'accès aux données, qui permettent dans certaines situations de réaliser une recherche en santé sans nécessiter d'autorisation [CNIL](../glossaire/CNIL.md) ou d'avis du CESREES.
-Le Responsable de Traitement adresse alors à la [CNIL](../glossaire/CNIL.md) une déclaration attestant la conformité du projet à la MR, puis inscrit son traitement dans le [répertoire public](https://www.health-data-hub.fr/projets).
+Les méthodologies de référence (MR) sont des procédures simplifiées d'accès aux données, qui permettent dans certaines situations de réaliser une recherche en santé sans nécessiter d'autorisation <PreviewPage text="CNIL" link="../glossaire/CNIL.html" /> ou d'avis du CESREES.
+Le Responsable de Traitement adresse alors à la <PreviewPage text="CNIL" link="../glossaire/CNIL.html" /> une déclaration attestant la conformité du projet à la MR, puis inscrit son traitement dans le [répertoire public](https://www.health-data-hub.fr/projets).
 
-### La procédure d'accès simplifié à l'[EGB](../glossaire/EGB.md)
+### La procédure d'accès simplifié à l'<PreviewPage text="EGB" link="../glossaire/EGB.html" />
 
-La [CNIL](../glossaire/CNIL.md) a homologué en 2018 une procédure d'accès simplifié à l'[EGB](../glossaire/EGB.md), en sa qualité d'échantillon représentatif.
-La [CNIL](../glossaire/CNIL.md) donne ainsi compétence à l'INDS pour approuver (délai : 15 jours) l'accès à l'[EGB](../glossaire/EGB.md) après examen des 5 conditions suivantes :
+La <PreviewPage text="CNIL" link="../glossaire/CNIL.html" /> a homologué en 2018 une procédure d'accès simplifié à l'<PreviewPage text="EGB" link="../glossaire/EGB.html" />, en sa qualité d'échantillon représentatif.
+La <PreviewPage text="CNIL" link="../glossaire/CNIL.html" /> donne ainsi compétence à l'INDS pour approuver (délai : 15 jours) l'accès à l'<PreviewPage text="EGB" link="../glossaire/EGB.html" /> après examen des 5 conditions suivantes :
 
 - la finalité d'intérêt public du projet
 - la justification par le RT de la pertinence scientifique du projet
-- l'absence de croisements d'[identifiants potentiels](../glossaire/IdPotentiels.md)
+- l'absence de croisements d'<PreviewPage text="identifiants potentiels" link="../glossaire/IdPotentiels.html" />
 - la durée d'accès aux données qui doit être limitée à celle nécessaire à la réalisation du projet
 - le respect du référentiel de sécurité SNDS
 

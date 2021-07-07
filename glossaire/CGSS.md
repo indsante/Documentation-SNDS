@@ -1,7 +1,7 @@
 # CGSS - Caisse générale de sécurité sociale
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Les Caisses générales de sécurité sociale (CGSS) assurent, dans les [Dom](Dom.md), l'ensemble des rôles de Sécurité sociale (notamment les branches « Maladie », « Vieillesse et veuvage » et « Recouvrement »), dévolus en métropole aux [URSSAF](https://fr.wikipedia.org/wiki/URSSAF), [CARSAT](https://fr.wikipedia.org/wiki/CARSAT) et [CPAM](CPAM.md). 
+Les Caisses générales de sécurité sociale (CGSS) assurent, dans les <PreviewPage text="Dom" link="Dom.html" />, l'ensemble des rôles de Sécurité sociale (notamment les branches « Maladie », « Vieillesse et veuvage » et « Recouvrement »), dévolus en métropole aux [URSSAF](https://fr.wikipedia.org/wiki/URSSAF), [CARSAT](https://fr.wikipedia.org/wiki/CARSAT) et <PreviewPage text="CPAM" link="CPAM.html" />. 
 
 ## Références
 

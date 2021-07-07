@@ -1,7 +1,7 @@
 # OQN - Objectif quantifié national
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-cf [ONDAM](ONDAM.md)
+cf <PreviewPage text="ONDAM" link="ONDAM.html" />
 
 # Références
 

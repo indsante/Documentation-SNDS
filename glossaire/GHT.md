@@ -1,8 +1,8 @@
 # GHT - Groupe homogène de tarifs
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Le groupe homogène de tarifs correspond aux tarifs journaliers applicables en hospitalisation à domicile ([HAD](HAD.md)). 
-Le GHT est un « tout compris » obtenu en affectant à chaque groupe homogène de prise en charge ([GHPC](GHPC.md)), un indice de pondération destiné à tenir compte de la durée de prise en charge.
+Le groupe homogène de tarifs correspond aux tarifs journaliers applicables en hospitalisation à domicile (<PreviewPage text="HAD" link="HAD.html" />). 
+Le GHT est un « tout compris » obtenu en affectant à chaque groupe homogène de prise en charge (<PreviewPage text="GHPC" link="GHPC.html" />), un indice de pondération destiné à tenir compte de la durée de prise en charge.
 
 # Références
 

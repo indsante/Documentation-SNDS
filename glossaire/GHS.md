@@ -1,9 +1,9 @@
 # GHS - Groupe homogène de séjours
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Dans le cadre de la [T2A](T2A.md), le groupe homogène de séjours correspond au tarif du groupe homogène de malades ([GHM](GHM.md)). 
+Dans le cadre de la <PreviewPage text="T2A" link="T2A.html" />, le groupe homogène de séjours correspond au tarif du groupe homogène de malades (<PreviewPage text="GHM" link="GHM.html" />). 
 
-La très grande majorité des GHM ne correspondent qu’à un seul [GHS](GHS.md), c’est-à-dire un seul tarif. 
+La très grande majorité des GHM ne correspondent qu’à un seul <PreviewPage text="GHS" link="GHS.html" />, c’est-à-dire un seul tarif. 
 Mais dans certains cas, un GHM peut avoir deux ou plusieurs tarifs (dépendant, pour une même prise en charge – pour un même GHM –, de niveaux d’équipement différents, par exemple).
 
 # Références

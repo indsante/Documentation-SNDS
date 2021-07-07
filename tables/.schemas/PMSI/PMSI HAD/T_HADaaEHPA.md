@@ -3,8 +3,8 @@
 - Titre : Table des conventions HAD-EHPA
 <br />
 - Clé(s) étrangère(s) : <br />
-`ETA_NUM_EPMSI` => table [T_HADaaE](/tables/T_HADaaE) [ `ETA_NUM` ]<br />
-`ETA_NUM_EHPA` => table [T_HADaaE](/tables/T_HADaaE) [ `ETA_NUM` ]<br />
+`ETA_NUM_EPMSI` => table <PreviewPage text="T_HADaaE" link="/tables/T_HADaaE" /> [ `ETA_NUM` ]<br />
+`ETA_NUM_EHPA` => table <PreviewPage text="T_HADaaE" link="/tables/T_HADaaE" /> [ `ETA_NUM` ]<br />
 
 ### Liste des variables
 <br />

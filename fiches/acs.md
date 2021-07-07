@@ -19,7 +19,7 @@ Cette fiche aborde une variable parmi l'ensemble des variables socio-démographi
 
 L’aide à l’acquisition d’une complémentaire santé (ACS) 
 concerne les personnes dont les **ressources sont modestes**, comprises entre le plafond de la CMU complémentaire et 35 % au-dessus de ce plafond. Ces personnes se voient attribuer une **attestation qui leur permettent de disposer de certains droits**, sans nécessiter de devoir souscrire un contrat de complémentaire santé
-Pour une explication plus précise, se reporter au [glossaire](../glossaire/ACS.md).
+Pour une explication plus précise, se reporter au <PreviewPage text="glossaire" link="../glossaire/ACS.html" />.
 
 
 
@@ -39,7 +39,7 @@ s’ils souscrivent à un contrat d’assurance maladie complémentaire prévu �
 C’est un droit optionnel de l’ACS, on peut choisir de ne pas souscrire à ces contrats.
 
 
-Dans le SNDS, il s'agit des contrats identifiés par la variable `BEN_CTA_TYP` in ('91','92','93') présente dans la table `IC_ORC_R` et dans les tables [NS_PRS_F](../tables/DCIRS/NS_PRS_F.md) (table
+Dans le SNDS, il s'agit des contrats identifiés par la variable `BEN_CTA_TYP` in ('91','92','93') présente dans la table `IC_ORC_R` et dans les tables <PreviewPage text="NS_PRS_F" link="../tables/NS_PRS_F/" /> (table
 centrale des prestations du DCIRS)/`ER_PRS_F` (table centrale des prestations du DCIR) à partir de juillet 2015.
 
 
@@ -53,7 +53,7 @@ quel que soit le médecin, même s'il pratique des honoraires libres (« secteur
 - À l'exonération du paiement de la participation forfaitaire de 1 € et des franchises médicales
 
 Ces droits sont donnés à toute personne bénéficiaire de l'ACS. 
-Ce sont les périodes de droits d’ouverture de l’ACS présente dans la table [IR_ACS_R](../tables/DCIR_DCIRS/IR_ACS_R.md). 
+Ce sont les périodes de droits d’ouverture de l’ACS présente dans la table <PreviewPage text="IR_ACS_R" link="../tables/IR_ACS_R/" />. 
 
 Voici un tableau récapitulatif dans l'ordre chronologique :
 | Date | Evènement législatif |
@@ -93,7 +93,7 @@ L'effectif du Fonds CMU est le cumul sur les 12 derniers mois au 31/12/2016.
 
 ### Bénéficiaires ayant utilisé leur attestation à l'ACS
 
-La variable à considérer est `BEN_CTA_TYP` dans [IR_ORC_R](../tables/DCIR_DCIRS/IR_ORC_R.md) ou dans `NS_PRS_F` (DCIRS) ou [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) (DCIR). 
+La variable à considérer est `BEN_CTA_TYP` dans <PreviewPage text="IR_ORC_R" link="../tables/IR_ORC_R/" /> ou dans `NS_PRS_F` (DCIRS) ou <PreviewPage text="ER_PRS_F" link="../tables/ER_PRS_F/" /> (DCIR). 
 
 Les filtres à poser sont décrits dans la table suivante.
 Pour la table `IR_ORC_R`, il faut également filtrer sur les dates de début et de fin de contrat.

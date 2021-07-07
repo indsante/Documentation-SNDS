@@ -44,7 +44,7 @@ Un code « Nature de prestation » est répertorié par un code sur 4 caractère
 
 **Principe :** Sortir une liste de patients qui ont eu une « nature de prestation » précise, soit en référence, soit en acte de base, soit en complément sur 2017. 
 
-**Table(s) concernée(s) :** [ER_PRS_F](../tables/DCIR/ER_PRS_F.md) dans DCIR
+**Table(s) concernée(s) :** <PreviewPage text="ER_PRS_F" link="../tables/ER_PRS_F/" /> dans DCIR
 
 Dans les exemples de programme SAS ci-dessous, le code de prestation est noté `XXXX`.
 
@@ -65,7 +65,7 @@ quit;
 
 **Principe :** Sortir une liste de patients qui ont eu une « nature de prestation » précise autre que régime obligatoire sur 2017. 
 
-**Table(s) concernée(s) :** [ER_PRS_F](../tables/DCIR/ER_PRS_F.md), [ER_ARO_F](../tables/DCIR/ER_ARO_F.md) dans le DCIR.
+**Table(s) concernée(s) :** <PreviewPage text="ER_PRS_F" link="../tables/ER_PRS_F/" />, <PreviewPage text="ER_ARO_F" link="../tables/ER_ARO_F/" /> dans le DCIR.
 
 Programme SAS :
 

@@ -1,7 +1,7 @@
 # Documents Sante publique France
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-Documents publiés par [Santé publique France](../glossaire/SpF.md) sur ce site.
+Documents publiés par <PreviewPage text="Santé publique France" link="../glossaire/SpF.html" /> sur ce site.
 
 ## SNDS, ce qu'il faut savoir
 

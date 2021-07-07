@@ -3,9 +3,9 @@
 
 Le diagnostic principal est le motif des soins qui justifient l’hospitalisation. 
 
-Il commande l’orientation dans une catégorie majeure de diagnostic au moment du groupage, et peut influer sur le classement dans un groupe homogène de malades ([GHM](GHM.md)).
+Il commande l’orientation dans une catégorie majeure de diagnostic au moment du groupage, et peut influer sur le classement dans un groupe homogène de malades (<PreviewPage text="GHM" link="GHM.html" />).
 
-Avant la version 11 de la classification des GHM en [MCO](MCO.md), il correspondait aux soins ayant mobilisé l’essentiel de l’effort médical et soignant. 
+Avant la version 11 de la classification des GHM en <PreviewPage text="MCO" link="MCO.html" />, il correspondait aux soins ayant mobilisé l’essentiel de l’effort médical et soignant. 
 
 
 # Références

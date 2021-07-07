@@ -12,8 +12,8 @@ tags:
 Les Méthodologies de Référence (MR) sont des procédures simplifiées d'accès aux données de santé.
 Elles sont le principal mode d'accès, là où le circuit d'autorisation est l'exception. 
 
-Il existe des procédures permettant d’alléger le circuit de droit commun d'obtention d'autorisation d'accès aux données ([HDH](../glossaire/HDH.md)-CESREES-CNIL), sans contourner pour autant la nécessité pour la recherche, l’étude ou l’évaluation de présenter un intérêt public. 
-L’élaboration de ces procédures revient à la [CNIL](../glossaire/CNIL.md), en concertation avec le Health Data Hub, en fonction des besoins de chaque type de projet (projets des industriels de santé, des centre hospitaliers, des centres de lutte contre le cancer, des associations, etc.).
+Il existe des procédures permettant d’alléger le circuit de droit commun d'obtention d'autorisation d'accès aux données (<PreviewPage text="HDH" link="../glossaire/HDH.html" />-CESREES-CNIL), sans contourner pour autant la nécessité pour la recherche, l’étude ou l’évaluation de présenter un intérêt public. 
+L’élaboration de ces procédures revient à la <PreviewPage text="CNIL" link="../glossaire/CNIL.html" />, en concertation avec le Health Data Hub, en fonction des besoins de chaque type de projet (projets des industriels de santé, des centre hospitaliers, des centres de lutte contre le cancer, des associations, etc.).
 
 Quand les recherches, études ou évaluations sont conduites dans le cadre d’exigences législatives et réglementaires strictes, et selon des méthodologies standardisées, la CNIL peut consulter le CESREES et doit règlementairement consulter le Health Data Hub et les organismes publics et privés représentatifs afin d’adopter une Méthodologie de Référence. 
 Elle permet au responsable de traitement, dès lors que son projet satisfait à l’ensemble des conditions prévues par la Méthodologie de Référence, de n’adresser à la CNIL qu’un simple engagement de conformité à la méthodologie en lieu et place d’une demande d’autorisation. 

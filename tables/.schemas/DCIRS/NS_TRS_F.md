@@ -3,8 +3,8 @@
 - Titre : Table simplifiée des données détaillées de transport
 <br />
 - Clé(s) étrangère(s) : <br />
-`CLE_DCI_JNT` => table [NS_PRS_F](/tables/NS_PRS_F) [ `CLE_DCI_JNT` ]<br />
-`BEN_IDT_ANO` => table [IR_IBA_R](/tables/IR_IBA_R) [ `BEN_IDT_ANO` ]<br />
+`CLE_DCI_JNT` => table <PreviewPage text="NS_PRS_F" link="/tables/NS_PRS_F" /> [ `CLE_DCI_JNT` ]<br />
+`BEN_IDT_ANO` => table <PreviewPage text="IR_IBA_R" link="/tables/IR_IBA_R" /> [ `BEN_IDT_ANO` ]<br />
 
 ### Liste des variables
 <br />

@@ -3,8 +3,8 @@
 - Titre : Table des circonstances et de la cause initiale de décès
 <br />
 - Clé(s) étrangère(s) : <br />
-`BEN_IDT_ANO` => table [IR_BEN_R](/tables/IR_BEN_R) [ `BEN_IDT_ANO` ]<br />
-`BEN_IDT_ANO` => table [IR_IBA_R](/tables/IR_IBA_R) [ `BEN_IDT_ANO` ]<br />
+`BEN_IDT_ANO` => table <PreviewPage text="IR_BEN_R" link="/tables/IR_BEN_R" /> [ `BEN_IDT_ANO` ]<br />
+`BEN_IDT_ANO` => table <PreviewPage text="IR_IBA_R" link="/tables/IR_IBA_R" /> [ `BEN_IDT_ANO` ]<br />
 
 ### Liste des variables
 <br />

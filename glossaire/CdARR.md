@@ -3,7 +3,7 @@
 
 Le catalogue des activités de rééducation-réadaptation est une nomenclature des actes des professionnels de rééducation et réadaptation. 
 Il vise à améliorer la description et la connaissance de l’activité hospitalière de ce champ d’activités. 
-Il a été développé pour le programme de médicalisation des systèmes d’information ([PMSI](PMSI.md)) en soins de suites et de réadaptation ([SSR](SSR.md)). 
+Il a été développé pour le programme de médicalisation des systèmes d’information (<PreviewPage text="PMSI" link="PMSI.html" />) en soins de suites et de réadaptation (<PreviewPage text="SSR" link="SSR.html" />). 
 
 # Références
 

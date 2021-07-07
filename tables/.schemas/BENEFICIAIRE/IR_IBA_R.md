@@ -5,7 +5,7 @@
 - Clé primaire : `BEN_IDT_ANO`
 <br />
 - Clé(s) étrangère(s) : <br />
-`BEN_IDT_ANO` => table [IR_BEN_R](/tables/IR_BEN_R) [ `BEN_IDT_ANO` ]<br />
+`BEN_IDT_ANO` => table <PreviewPage text="IR_BEN_R" link="/tables/IR_BEN_R" /> [ `BEN_IDT_ANO` ]<br />
 
 ### Liste des variables
 <br />

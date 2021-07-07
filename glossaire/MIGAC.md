@@ -1,7 +1,7 @@
 # MIGAC - Missions d’intérêt général et de l’aide à la contractualisation 
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-La dotation de financement des MIGAC permet de financer les activités des établissements de [MCO](MCO.md) qui ne sont pas tarifées à l’activité. 
+La dotation de financement des MIGAC permet de financer les activités des établissements de <PreviewPage text="MCO" link="MCO.html" /> qui ne sont pas tarifées à l’activité. 
 Les missions d’intérêt général sont limitativement énumérées et recouvrent notamment les activités d’enseignement et de recherche, le financement des SAMU et des SMUR, de certains centres de référence, etc. 
 L’aide à la contractualisation permet de financer le développement d’activités ou l’investissement des établissements.
 

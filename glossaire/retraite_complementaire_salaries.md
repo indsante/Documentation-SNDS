@@ -1,7 +1,7 @@
 # Retraite complémentaire des salariés 
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 
-La retraite complémentaire des salariés est une retraite qui complète la retraite de base de la [CNAV](Cnav.md).
+La retraite complémentaire des salariés est une retraite qui complète la retraite de base de la <PreviewPage text="CNAV" link="Cnav.html" />.
  
 Cette retraite est gérée pour les salariés du privé par l'AGIRC-ARRCO, résultat de la fusion début 2019 de : 
 - l’AGIRC (Association générale des institutions de retraite des **cadres**). 
