@@ -16,6 +16,7 @@ test-internal-link-and-build:
   before_script:
     - yarn install
   script:
+   - yarn create-preview
    - yarn docs:build
    - yarn lint-md
 

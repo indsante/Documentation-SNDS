@@ -27,7 +27,8 @@
     "docs:build": "yarn run start && vuepress build",
     "lint-md": "remark --frail --use remark-validate-links . --quiet",
     "extended-lint-md": "yarn run start && remark --frail --use remark-validate-links --use remark-lint-no-dead-urls . --quiet",
-    "licence": "bash test-licence.sh"
+    "licence": "bash test-licence.sh",
+    "create-preview": "bash transform-preview-links.sh"
   },
   "devDependencies": {
     "vuepress-plugin-mermaidjs": "^1.2.0"
