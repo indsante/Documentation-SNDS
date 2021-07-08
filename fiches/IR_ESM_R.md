@@ -25,7 +25,7 @@ Sigles utilisés:
 - SPASAD : Services Polyvalents d’Aide et de Soins à Domicile
 
 
-##	Constitution de la table référentielle IR_ESM_R
+##	Constitution de la table référentielle IR\_ESM\_R 
 Cette base constitue un référentiel des résidents en EHPAD et en USLD, ainsi que des bénéficiaires d’ESMS, et sera mise à jour mensuellement. 
 
 Elle vous permet d’étudier les séjours en cours ou échus, par âge et sexe du bénéficiaire, catégorie d’ESMS et type de tarification, et la présence ou non d’une pharmacie à usage intérieur (PUI). 
