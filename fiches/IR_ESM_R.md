@@ -1,6 +1,6 @@
 ---
 tags:
-    - bénéficiaires
+    - Bénéficiaires
 ---
 
 # Référentiel des bénéficiaires de soins médico-sociaux 
