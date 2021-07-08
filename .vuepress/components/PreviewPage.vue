@@ -33,11 +33,9 @@ props: {
 
 #ifrm1 {
   display : none;
-  visibility : hidden;
   position: absolute;
 }
 #trig1:hover + iframe {
   display : block;
-  visibility : visible;
 }
 </style>
