@@ -1,6 +1,7 @@
 ---
 tags:
     - Bénéficiaires
+    - Etablissements et Structures
 ---
 
 # Référentiel des bénéficiaires de soins médico-sociaux 
