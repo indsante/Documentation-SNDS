@@ -35,7 +35,6 @@ Le terme Professionnel de santé regroupe trois catégories de professions, tell
   - auxiliaires de puériculture et ambulanciers.
   
 ## Liste d'actes autorisés
-
 Certaines professions disposent d’un décret d’exercice codifié comportant une liste d’actes que les professionnels concernés sont autorisés à effectuer : 
 - infirmiers, 
 - masseurs-kinésithérapeutes, 
@@ -46,7 +45,9 @@ Certaines professions disposent d’un décret d’exercice codifié comportant 
 - orthoptistes, 
 - manipulateurs d’électroradiologie médicale.
 
-# Références
+## Ailleurs dans la documentation
+Fiche sur le [Référentiel des Professionnels de Santé](../fiches/DA_PRA_R.md)
 
+## Références
 - [Page wikipedia](https://fr.wikipedia.org/wiki/Professionnel_de_la_sant%C3%A9)
 - [Fiche](https://www.vie-publique.fr/decouverte-institutions/protection-sociale/professionnels-sante/qui-sont-professionnels-sante.html) sur vie-publique.fr
