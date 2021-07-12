@@ -1,7 +1,7 @@
 <template>
 <span >
     <a :href="link" id="trig1">{{text}}</a>
-    <iframe id='ifrm1' name='ifrm1' class="preview-page" :src="link" scrolling="no"></iframe>
+    <iframe id='ifrm1' name='ifrm1' class="preview-page" :src="link" loading="lazy" scrolling="no"></iframe>
     
 </span>
 </template>
@@ -33,11 +33,9 @@ props: {
 
 #ifrm1 {
   display : none;
-  visibility : hidden;
   position: absolute;
 }
 #trig1:hover + iframe {
   display : block;
-  visibility : visible;
 }
 </style>
